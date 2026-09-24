@@ -52,6 +52,7 @@ Le dossier Drive « Studio marketing » est la copie de sauvegarde du studio.
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
+- Pour modifier un fichier déjà présent dans Drive : téléverser la nouvelle version dans le même dossier, puis mettre l'ancienne à la corbeille (l'outil Drive ne remplace pas le contenu).
 - Les photos produit déposées par l'utilisateur dans Drive (`refs/produits/<produit>/`) sont la source : les rapatrier ici avant de travailler.
 
 ## Clés API et secrets
