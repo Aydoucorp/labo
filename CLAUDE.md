@@ -53,3 +53,11 @@ Le dossier Drive « Studio marketing » est la copie de sauvegarde du studio.
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
 - Les photos produit déposées par l'utilisateur dans Drive (`refs/produits/<produit>/`) sont la source : les rapatrier ici avant de travailler.
+
+## Clés API et secrets
+
+- Les clés sont dans `.env` à la racine (ex. `KIE_API_KEY`). Ce fichier est ignoré par git.
+- **Ne jamais afficher une clé en clair** : ni dans une réponse, ni dans un log, ni dans un `brief.md`. Masquer toute sortie de commande qui pourrait la contenir.
+- **Ne jamais copier `.env` dans Drive**, ni la clé dans un autre fichier du studio.
+- Charger les clés avec `set -a; . ./.env; set +a` puis utiliser `$KIE_API_KEY`.
+- Vérifier le solde KIE : `GET https://api.kie.ai/api/v1/chat/credit` avec l'en-tête `Authorization: Bearer $KIE_API_KEY`.
