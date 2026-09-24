@@ -33,3 +33,23 @@ Exemple : `runs/2026-09-24_serviette-microfibre_statiques-meta/`
 - Noter dans `brief.md` chaque prompt et chaque réglage utilisé, pour pouvoir reproduire une image validée.
 - Nommage : minuscules, tirets, sans accents ni espaces (`statique-angle-douleur-v2.png`).
 - Si un produit n'a pas encore de dossier dans `refs/produits/`, le signaler avant de générer quoi que ce soit.
+
+## Miroir Google Drive (obligatoire)
+
+Le dossier Drive « Studio marketing » est la copie de sauvegarde du studio.
+**Toute création ou modification de fichier ici doit être reproduite immédiatement dans Drive, au même emplacement.**
+
+| Dossier | ID Drive |
+|---|---|
+| Studio marketing (racine) | `1oA5bUUlm8jX3Yuj1haPIEaGymAJSODzC` |
+| refs | `1aAjKqKjxfOsK2E_91cMjCrWVo2EZNGjK` |
+| refs/produits | `1Gh98KDVBdNxFjjX7OLDXcLQVYE15FQZ3` |
+| refs/style | `19uBQR1nemTx0qWW7qCNCYTTreosVjlqN` |
+| refs/marque | `1VgfIea-8y0MTv0xBMApP8QP_6-42Y65_` |
+| scripts | `1g33xgzU2HsDBzlU47Iw9YZDm9ylUi1YP` |
+| skills | `1B0i2m_FUVSzmMd_jj42V5YXs8lV8DvUA` |
+| runs | `1C65QZGUKzNdwrqqUnPiX7Fg_d9Cp06oX` |
+
+- Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
+- Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
+- Les photos produit déposées par l'utilisateur dans Drive (`refs/produits/<produit>/`) sont la source : les rapatrier ici avant de travailler.
