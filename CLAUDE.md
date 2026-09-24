@@ -12,6 +12,7 @@ Studio de création de contenus visuels e-commerce (photos produit, statiques pu
 | `scripts/` | Scripts réutilisables (redimensionnement, renommage, export…) | Un script = une tâche, commenté en tête. |
 | `skills/` | Skills maison du studio (un sous-dossier par skill avec son `SKILL.md`) | |
 | `runs/` | Toutes les sorties générées | Voir convention ci-dessous. |
+| `Claire/` | Marque « Les cheveux de Claire » : `BRAND-DNA-CLAIRE.md` | Référence de marque, à lire avant toute création pour Claire. |
 
 ## Convention des runs
 
@@ -49,6 +50,7 @@ Le dossier Drive « Studio marketing » est la copie de sauvegarde du studio.
 | scripts | `1g33xgzU2HsDBzlU47Iw9YZDm9ylUi1YP` |
 | skills | `1B0i2m_FUVSzmMd_jj42V5YXs8lV8DvUA` |
 | runs | `1C65QZGUKzNdwrqqUnPiX7Fg_d9Cp06oX` |
+| Claire | `1dgKN8HMiOInBg1c6G_8EEOWkE8SC3s_t` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
