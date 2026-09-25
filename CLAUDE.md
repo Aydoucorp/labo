@@ -57,11 +57,13 @@ Le dossier Drive « Studio marketing » est la copie de sauvegarde du studio.
 | runs/2026-09-25_claire-guide-racine_papercut/audio | `1C4oheQkcPRid15q2HMB2ZQHSxG3OPmqw` |
 | runs/2026-09-25_claire-guide-racine_papercut/sorties | `1LbCHUp_VfnQEwjwyPjw5mYEjG1yB7BfX` |
 | runs/2026-09-25_claire-guide-racine_papercut/retenues | `1OZqhHXZ1HOT_gBDw4bC8fBCzWy_al8dx` |
+| runs/2026-09-25_claire-guide-racine_papercut/references | `1FAb_B7namPsKKEnV-bnA37CmaiPLOHqI` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
 - Pour modifier un fichier déjà présent dans Drive : téléverser la nouvelle version dans le même dossier, puis mettre l'ancienne à la corbeille (l'outil Drive ne remplace pas le contenu).
 - Les photos produit déposées par l'utilisateur dans Drive (`refs/produits/<produit>/`) sont la source : les rapatrier ici avant de travailler.
+- Les images, l'audio et la vidéo ne passent pas par l'outil Drive (trop lourds) : les envoyer à l'utilisateur avec SendUserFile et le lui signaler, pour qu'il les dépose lui-même dans Drive.
 
 ## Clés API et secrets
 
