@@ -12,11 +12,12 @@ VO : « Tes cheveux sont en train de tomber par touffes… »
 
 ```text
 Handmade paper-cut collage / scrapbook / ransom-note aesthetic. Aged cream paper background (#FAF6F3 warm cream) with visible grain and subtle creases. Every element is a separate piece of TORN paper with rough deckled white edges and a soft realistic drop shadow, layered like a physical collage, each piece slightly tilted 2-5 degrees. Headline in a huge bold condensed sans-serif (Anton / Archivo Black feel) in warm black ink (#2E2A26) with distressed grunge ink texture, cut out like newspaper letters. Hand-drawn black marker elements: imperfect arrows, underlines, small 3-stroke impact marks. Painted watercolour splatter accents. Color story: cream paper base, terracotta (#A8553A) for problem/myth, sage green (#8C9B86) for the answer/resolution, plum (#7A4351) for strong contrast accents, warm black textured ink for type. Sage and silver-grey never carry text. Vertical 9:16, high contrast, ONE big claim per frame, photoreal cut-out photos detoured onto the paper. Cut-out hair photos: real hair of a woman around 45, irregular white strands on a dark brown base (salt and pepper), hand-styled waves, soft window light, natural smartphone photo look, never salon blow-dry, never uniform silver, never studio lighting, never a shampoo-ad look. NOT clean, NOT flat vector, NOT a digital slide — it must look physically cut and glued by hand.
-References actually attached and their roles: none.
+References actually attached and their roles: r3-palette-matieres.png = STYLE (palette, torn paper, marker, splatters); r4-specimen-titres.png = STYLE (cut-out letter look and headline scale only, never copy its words).
 This is ONE flat paper collage image in 9:16.
 Elements actually present: cut-out photo of a wooden hairbrush holding a clump of salt-and-pepper hair, a few loose wavy hairs cut out and scattered on the paper; headline "ÇA TOMBE".
 Setting and scale: flat tabletop collage seen from directly above, human-hand scale paper pieces, 3 to 4 layers.
-Camera and eyeline: locked top-down view, collage filling the frame, safe margins for phone UI top and bottom.
+Camera and eyeline: locked top-down view, collage filling the frame.
+Layout (maquette r5): keep the top 11% and the bottom 20% of the frame free of important elements; headline letters 9-13% of the frame height, headline at most 89% of the frame width, placed in the upper part just below the top margin; main cut-out visual between 38% and 78% of the height, one single focal point.
 Initial state BEFORE the action: hair pieces not yet fallen, only the brush and headline.
 Light and functional palette: soft even daylight on paper, dominant terracotta.
 Product: none.
@@ -43,11 +44,12 @@ VO : « Et tu as peur de te retrouver avec des trous ? »
 
 ```text
 Handmade paper-cut collage / scrapbook / ransom-note aesthetic. Aged cream paper background (#FAF6F3 warm cream) with visible grain and subtle creases. Every element is a separate piece of TORN paper with rough deckled white edges and a soft realistic drop shadow, layered like a physical collage, each piece slightly tilted 2-5 degrees. Headline in a huge bold condensed sans-serif (Anton / Archivo Black feel) in warm black ink (#2E2A26) with distressed grunge ink texture, cut out like newspaper letters. Hand-drawn black marker elements: imperfect arrows, underlines, small 3-stroke impact marks. Painted watercolour splatter accents. Color story: cream paper base, terracotta (#A8553A) for problem/myth, sage green (#8C9B86) for the answer/resolution, plum (#7A4351) for strong contrast accents, warm black textured ink for type. Sage and silver-grey never carry text. Vertical 9:16, high contrast, ONE big claim per frame, photoreal cut-out photos detoured onto the paper. Cut-out hair photos: real hair of a woman around 45, irregular white strands on a dark brown base (salt and pepper), hand-styled waves, soft window light, natural smartphone photo look, never salon blow-dry, never uniform silver, never studio lighting, never a shampoo-ad look. NOT clean, NOT flat vector, NOT a digital slide — it must look physically cut and glued by hand.
-References actually attached and their roles: none.
+References actually attached and their roles: r3-palette-matieres.png = STYLE (palette, torn paper, marker, splatters); r4-specimen-titres.png = STYLE (cut-out letter look and headline scale only, never copy its words).
 This is ONE flat paper collage image in 9:16.
 Elements actually present: cut-out top-down smartphone photo of a salt-and-pepper hair parting, next to a torn hole in the cream paper showing darker paper beneath; headline "DES TROUS ?".
 Setting and scale: flat tabletop collage seen from directly above, human-hand scale paper pieces, 3 to 4 layers.
-Camera and eyeline: locked top-down view, collage filling the frame, safe margins for phone UI top and bottom.
+Camera and eyeline: locked top-down view, collage filling the frame.
+Layout (maquette r5): keep the top 11% and the bottom 20% of the frame free of important elements; headline letters 9-13% of the frame height, headline at most 89% of the frame width, placed in the upper part just below the top margin; main cut-out visual between 38% and 78% of the height, one single focal point.
 Initial state BEFORE the action: all layers in place, ready for the stepped movement.
 Light and functional palette: soft even daylight on paper, dominant terracotta.
 Product: none.
@@ -74,11 +76,12 @@ VO : « Certaines personnes, et même certaines coiffeuses, »
 
 ```text
 Handmade paper-cut collage / scrapbook / ransom-note aesthetic. Aged cream paper background (#FAF6F3 warm cream) with visible grain and subtle creases. Every element is a separate piece of TORN paper with rough deckled white edges and a soft realistic drop shadow, layered like a physical collage, each piece slightly tilted 2-5 degrees. Headline in a huge bold condensed sans-serif (Anton / Archivo Black feel) in warm black ink (#2E2A26) with distressed grunge ink texture, cut out like newspaper letters. Hand-drawn black marker elements: imperfect arrows, underlines, small 3-stroke impact marks. Painted watercolour splatter accents. Color story: cream paper base, terracotta (#A8553A) for problem/myth, sage green (#8C9B86) for the answer/resolution, plum (#7A4351) for strong contrast accents, warm black textured ink for type. Sage and silver-grey never carry text. Vertical 9:16, high contrast, ONE big claim per frame, photoreal cut-out photos detoured onto the paper. Cut-out hair photos: real hair of a woman around 45, irregular white strands on a dark brown base (salt and pepper), hand-styled waves, soft window light, natural smartphone photo look, never salon blow-dry, never uniform silver, never studio lighting, never a shampoo-ad look. NOT clean, NOT flat vector, NOT a digital slide — it must look physically cut and glued by hand.
-References actually attached and their roles: none.
+References actually attached and their roles: r3-palette-matieres.png = STYLE (palette, torn paper, marker, splatters); r4-specimen-titres.png = STYLE (cut-out letter look and headline scale only, never copy its words).
 This is ONE flat paper collage image in 9:16.
 Elements actually present: cut-out photo of a hairdresser's hands holding a comb and scissors (no face), two empty torn-paper speech bubbles; headline "MÊME LES COIFFEUSES".
 Setting and scale: flat tabletop collage seen from directly above, human-hand scale paper pieces, 3 to 4 layers.
-Camera and eyeline: locked top-down view, collage filling the frame, safe margins for phone UI top and bottom.
+Camera and eyeline: locked top-down view, collage filling the frame.
+Layout (maquette r5): keep the top 11% and the bottom 20% of the frame free of important elements; headline letters 9-13% of the frame height, headline at most 89% of the frame width, placed in the upper part just below the top margin; main cut-out visual between 38% and 78% of the height, one single focal point.
 Initial state BEFORE the action: all layers in place, ready for the stepped movement.
 Light and functional palette: soft even daylight on paper, dominant terracotta.
 Product: none.
@@ -105,11 +108,12 @@ VO : « te diront que si tes cheveux tombent, la coupe courte est une évidence.
 
 ```text
 Handmade paper-cut collage / scrapbook / ransom-note aesthetic. Aged cream paper background (#FAF6F3 warm cream) with visible grain and subtle creases. Every element is a separate piece of TORN paper with rough deckled white edges and a soft realistic drop shadow, layered like a physical collage, each piece slightly tilted 2-5 degrees. Headline in a huge bold condensed sans-serif (Anton / Archivo Black feel) in warm black ink (#2E2A26) with distressed grunge ink texture, cut out like newspaper letters. Hand-drawn black marker elements: imperfect arrows, underlines, small 3-stroke impact marks. Painted watercolour splatter accents. Color story: cream paper base, terracotta (#A8553A) for problem/myth, sage green (#8C9B86) for the answer/resolution, plum (#7A4351) for strong contrast accents, warm black textured ink for type. Sage and silver-grey never carry text. Vertical 9:16, high contrast, ONE big claim per frame, photoreal cut-out photos detoured onto the paper. Cut-out hair photos: real hair of a woman around 45, irregular white strands on a dark brown base (salt and pepper), hand-styled waves, soft window light, natural smartphone photo look, never salon blow-dry, never uniform silver, never studio lighting, never a shampoo-ad look. NOT clean, NOT flat vector, NOT a digital slide — it must look physically cut and glued by hand.
-References actually attached and their roles: none.
+References actually attached and their roles: r3-palette-matieres.png = STYLE (palette, torn paper, marker, splatters); r4-specimen-titres.png = STYLE (cut-out letter look and headline scale only, never copy its words).
 This is ONE flat paper collage image in 9:16.
 Elements actually present: large open scissors cut-out and a cut-off lock of wavy salt-and-pepper hair; headline "COUPE COURTE".
 Setting and scale: flat tabletop collage seen from directly above, human-hand scale paper pieces, 3 to 4 layers.
-Camera and eyeline: locked top-down view, collage filling the frame, safe margins for phone UI top and bottom.
+Camera and eyeline: locked top-down view, collage filling the frame.
+Layout (maquette r5): keep the top 11% and the bottom 20% of the frame free of important elements; headline letters 9-13% of the frame height, headline at most 89% of the frame width, placed in the upper part just below the top margin; main cut-out visual between 38% and 78% of the height, one single focal point.
 Initial state BEFORE the action: all layers in place, ready for the stepped movement.
 Light and functional palette: soft even daylight on paper, dominant terracotta.
 Product: none.
@@ -136,11 +140,12 @@ VO : « Parce qu'en coupant, ce qui repousse revient plus épais. »
 
 ```text
 Handmade paper-cut collage / scrapbook / ransom-note aesthetic. Aged cream paper background (#FAF6F3 warm cream) with visible grain and subtle creases. Every element is a separate piece of TORN paper with rough deckled white edges and a soft realistic drop shadow, layered like a physical collage, each piece slightly tilted 2-5 degrees. Headline in a huge bold condensed sans-serif (Anton / Archivo Black feel) in warm black ink (#2E2A26) with distressed grunge ink texture, cut out like newspaper letters. Hand-drawn black marker elements: imperfect arrows, underlines, small 3-stroke impact marks. Painted watercolour splatter accents. Color story: cream paper base, terracotta (#A8553A) for problem/myth, sage green (#8C9B86) for the answer/resolution, plum (#7A4351) for strong contrast accents, warm black textured ink for type. Sage and silver-grey never carry text. Vertical 9:16, high contrast, ONE big claim per frame, photoreal cut-out photos detoured onto the paper. Cut-out hair photos: real hair of a woman around 45, irregular white strands on a dark brown base (salt and pepper), hand-styled waves, soft window light, natural smartphone photo look, never salon blow-dry, never uniform silver, never studio lighting, never a shampoo-ad look. NOT clean, NOT flat vector, NOT a digital slide — it must look physically cut and glued by hand.
-References actually attached and their roles: none.
+References actually attached and their roles: r3-palette-matieres.png = STYLE (palette, torn paper, marker, splatters); r4-specimen-titres.png = STYLE (cut-out letter look and headline scale only, never copy its words).
 This is ONE flat paper collage image in 9:16.
 Elements actually present: paper strands of hair cut from brown and grey paper growing upward in steps, between big hand-drawn quotation marks; headline "PLUS ÉPAIS ?"; small handwritten note "« on dit »".
 Setting and scale: flat tabletop collage seen from directly above, human-hand scale paper pieces, 3 to 4 layers.
-Camera and eyeline: locked top-down view, collage filling the frame, safe margins for phone UI top and bottom.
+Camera and eyeline: locked top-down view, collage filling the frame.
+Layout (maquette r5): keep the top 11% and the bottom 20% of the frame free of important elements; headline letters 9-13% of the frame height, headline at most 89% of the frame width, placed in the upper part just below the top margin; main cut-out visual between 38% and 78% of the height, one single focal point.
 Initial state BEFORE the action: all layers in place, ready for the stepped movement.
 Light and functional palette: soft even daylight on paper, dominant terracotta.
 Product: none.
@@ -167,11 +172,12 @@ VO : « Les dermatologues sont formels : »
 
 ```text
 Handmade paper-cut collage / scrapbook / ransom-note aesthetic. Aged cream paper background (#FAF6F3 warm cream) with visible grain and subtle creases. Every element is a separate piece of TORN paper with rough deckled white edges and a soft realistic drop shadow, layered like a physical collage, each piece slightly tilted 2-5 degrees. Headline in a huge bold condensed sans-serif (Anton / Archivo Black feel) in warm black ink (#2E2A26) with distressed grunge ink texture, cut out like newspaper letters. Hand-drawn black marker elements: imperfect arrows, underlines, small 3-stroke impact marks. Painted watercolour splatter accents. Color story: cream paper base, terracotta (#A8553A) for problem/myth, sage green (#8C9B86) for the answer/resolution, plum (#7A4351) for strong contrast accents, warm black textured ink for type. Sage and silver-grey never carry text. Vertical 9:16, high contrast, ONE big claim per frame, photoreal cut-out photos detoured onto the paper. Cut-out hair photos: real hair of a woman around 45, irregular white strands on a dark brown base (salt and pepper), hand-styled waves, soft window light, natural smartphone photo look, never salon blow-dry, never uniform silver, never studio lighting, never a shampoo-ad look. NOT clean, NOT flat vector, NOT a digital slide — it must look physically cut and glued by hand.
-References actually attached and their roles: none.
+References actually attached and their roles: r3-palette-matieres.png = STYLE (palette, torn paper, marker, splatters); r4-specimen-titres.png = STYLE (cut-out letter look and headline scale only, never copy its words).
 This is ONE flat paper collage image in 9:16.
 Elements actually present: the torn « PLUS ÉPAIS ? » scrap from the previous plan, partly covered by a large rubber-stamp imprint; headline "FAUX".
 Setting and scale: flat tabletop collage seen from directly above, human-hand scale paper pieces, 3 to 4 layers.
-Camera and eyeline: locked top-down view, collage filling the frame, safe margins for phone UI top and bottom.
+Camera and eyeline: locked top-down view, collage filling the frame.
+Layout (maquette r5): keep the top 11% and the bottom 20% of the frame free of important elements; headline letters 9-13% of the frame height, headline at most 89% of the frame width, placed in the upper part just below the top margin; main cut-out visual between 38% and 78% of the height, one single focal point.
 Initial state BEFORE the action: all layers in place, ready for the stepped movement.
 Light and functional palette: soft even daylight on paper, dominant plum.
 Product: none.
@@ -198,11 +204,12 @@ VO : « Couper ne change ni la quantité, ni l'épaisseur, ni la vitesse de repo
 
 ```text
 Handmade paper-cut collage / scrapbook / ransom-note aesthetic. Aged cream paper background (#FAF6F3 warm cream) with visible grain and subtle creases. Every element is a separate piece of TORN paper with rough deckled white edges and a soft realistic drop shadow, layered like a physical collage, each piece slightly tilted 2-5 degrees. Headline in a huge bold condensed sans-serif (Anton / Archivo Black feel) in warm black ink (#2E2A26) with distressed grunge ink texture, cut out like newspaper letters. Hand-drawn black marker elements: imperfect arrows, underlines, small 3-stroke impact marks. Painted watercolour splatter accents. Color story: cream paper base, terracotta (#A8553A) for problem/myth, sage green (#8C9B86) for the answer/resolution, plum (#7A4351) for strong contrast accents, warm black textured ink for type. Sage and silver-grey never carry text. Vertical 9:16, high contrast, ONE big claim per frame, photoreal cut-out photos detoured onto the paper. Cut-out hair photos: real hair of a woman around 45, irregular white strands on a dark brown base (salt and pepper), hand-styled waves, soft window light, natural smartphone photo look, never salon blow-dry, never uniform silver, never studio lighting, never a shampoo-ad look. NOT clean, NOT flat vector, NOT a digital slide — it must look physically cut and glued by hand.
-References actually attached and their roles: none.
+References actually attached and their roles: r3-palette-matieres.png = STYLE (palette, torn paper, marker, splatters); r4-specimen-titres.png = STYLE (cut-out letter look and headline scale only, never copy its words).
 This is ONE flat paper collage image in 9:16.
 Elements actually present: three torn paper labels stacked vertically, a small scissors cut-out on the side crossed out with marker; headline "QUANTITÉ · ÉPAISSEUR · VITESSE".
 Setting and scale: flat tabletop collage seen from directly above, human-hand scale paper pieces, 3 to 4 layers.
-Camera and eyeline: locked top-down view, collage filling the frame, safe margins for phone UI top and bottom.
+Camera and eyeline: locked top-down view, collage filling the frame.
+Layout (maquette r5): keep the top 11% and the bottom 20% of the frame free of important elements; headline letters 9-13% of the frame height, headline at most 89% of the frame width, placed in the upper part just below the top margin; main cut-out visual between 38% and 78% of the height, one single focal point.
 Initial state BEFORE the action: all layers in place, ready for the stepped movement.
 Light and functional palette: soft even daylight on paper, dominant plum.
 Product: none.
@@ -229,11 +236,12 @@ VO : « Tout ce qui fonctionne s'applique sur le cuir chevelu. »
 
 ```text
 Handmade paper-cut collage / scrapbook / ransom-note aesthetic. Aged cream paper background (#FAF6F3 warm cream) with visible grain and subtle creases. Every element is a separate piece of TORN paper with rough deckled white edges and a soft realistic drop shadow, layered like a physical collage, each piece slightly tilted 2-5 degrees. Headline in a huge bold condensed sans-serif (Anton / Archivo Black feel) in warm black ink (#2E2A26) with distressed grunge ink texture, cut out like newspaper letters. Hand-drawn black marker elements: imperfect arrows, underlines, small 3-stroke impact marks. Painted watercolour splatter accents. Color story: cream paper base, terracotta (#A8553A) for problem/myth, sage green (#8C9B86) for the answer/resolution, plum (#7A4351) for strong contrast accents, warm black textured ink for type. Sage and silver-grey never carry text. Vertical 9:16, high contrast, ONE big claim per frame, photoreal cut-out photos detoured onto the paper. Cut-out hair photos: real hair of a woman around 45, irregular white strands on a dark brown base (salt and pepper), hand-styled waves, soft window light, natural smartphone photo look, never salon blow-dry, never uniform silver, never studio lighting, never a shampoo-ad look. NOT clean, NOT flat vector, NOT a digital slide — it must look physically cut and glued by hand.
-References actually attached and their roles: none.
+References actually attached and their roles: r3-palette-matieres.png = STYLE (palette, torn paper, marker, splatters); r4-specimen-titres.png = STYLE (cut-out letter look and headline scale only, never copy its words).
 This is ONE flat paper collage image in 9:16.
 Elements actually present: cut-out photo of fingertips gently parting salt-and-pepper hair to show the scalp, soft window light; headline "CUIR CHEVELU".
 Setting and scale: flat tabletop collage seen from directly above, human-hand scale paper pieces, 3 to 4 layers.
-Camera and eyeline: locked top-down view, collage filling the frame, safe margins for phone UI top and bottom.
+Camera and eyeline: locked top-down view, collage filling the frame.
+Layout (maquette r5): keep the top 11% and the bottom 20% of the frame free of important elements; headline letters 9-13% of the frame height, headline at most 89% of the frame width, placed in the upper part just below the top margin; main cut-out visual between 38% and 78% of the height, one single focal point.
 Initial state BEFORE the action: all layers in place, ready for the stepped movement.
 Light and functional palette: soft even daylight on paper, dominant sage.
 Product: none.
@@ -260,11 +268,12 @@ VO : « Ton problème se traite à la RACINE, pas aux ciseaux. »
 
 ```text
 Handmade paper-cut collage / scrapbook / ransom-note aesthetic. Aged cream paper background (#FAF6F3 warm cream) with visible grain and subtle creases. Every element is a separate piece of TORN paper with rough deckled white edges and a soft realistic drop shadow, layered like a physical collage, each piece slightly tilted 2-5 degrees. Headline in a huge bold condensed sans-serif (Anton / Archivo Black feel) in warm black ink (#2E2A26) with distressed grunge ink texture, cut out like newspaper letters. Hand-drawn black marker elements: imperfect arrows, underlines, small 3-stroke impact marks. Painted watercolour splatter accents. Color story: cream paper base, terracotta (#A8553A) for problem/myth, sage green (#8C9B86) for the answer/resolution, plum (#7A4351) for strong contrast accents, warm black textured ink for type. Sage and silver-grey never carry text. Vertical 9:16, high contrast, ONE big claim per frame, photoreal cut-out photos detoured onto the paper. Cut-out hair photos: real hair of a woman around 45, irregular white strands on a dark brown base (salt and pepper), hand-styled waves, soft window light, natural smartphone photo look, never salon blow-dry, never uniform silver, never studio lighting, never a shampoo-ad look. NOT clean, NOT flat vector, NOT a digital slide — it must look physically cut and glued by hand.
-References actually attached and their roles: none.
+References actually attached and their roles: r3-palette-matieres.png = STYLE (palette, torn paper, marker, splatters); r4-specimen-titres.png = STYLE (cut-out letter look and headline scale only, never copy its words).
 This is ONE flat paper collage image in 9:16.
 Elements actually present: simple hand-drawn marker sketch of a hair strand with its root under a paper scalp line, small scissors cut-out on the side; headline "RACINE"; small handwritten note "pas aux ciseaux".
 Setting and scale: flat tabletop collage seen from directly above, human-hand scale paper pieces, 3 to 4 layers.
-Camera and eyeline: locked top-down view, collage filling the frame, safe margins for phone UI top and bottom.
+Camera and eyeline: locked top-down view, collage filling the frame.
+Layout (maquette r5): keep the top 11% and the bottom 20% of the frame free of important elements; headline letters 9-13% of the frame height, headline at most 89% of the frame width, placed in the upper part just below the top margin; main cut-out visual between 38% and 78% of the height, one single focal point.
 Initial state BEFORE the action: all layers in place, ready for the stepped movement.
 Light and functional palette: soft even daylight on paper, dominant sage.
 Product: none.
@@ -291,11 +300,12 @@ VO : « Commente GUIDE et je t'envoie gratuitement »
 
 ```text
 Handmade paper-cut collage / scrapbook / ransom-note aesthetic. Aged cream paper background (#FAF6F3 warm cream) with visible grain and subtle creases. Every element is a separate piece of TORN paper with rough deckled white edges and a soft realistic drop shadow, layered like a physical collage, each piece slightly tilted 2-5 degrees. Headline in a huge bold condensed sans-serif (Anton / Archivo Black feel) in warm black ink (#2E2A26) with distressed grunge ink texture, cut out like newspaper letters. Hand-drawn black marker elements: imperfect arrows, underlines, small 3-stroke impact marks. Painted watercolour splatter accents. Color story: cream paper base, terracotta (#A8553A) for problem/myth, sage green (#8C9B86) for the answer/resolution, plum (#7A4351) for strong contrast accents, warm black textured ink for type. Sage and silver-grey never carry text. Vertical 9:16, high contrast, ONE big claim per frame, photoreal cut-out photos detoured onto the paper. Cut-out hair photos: real hair of a woman around 45, irregular white strands on a dark brown base (salt and pepper), hand-styled waves, soft window light, natural smartphone photo look, never salon blow-dry, never uniform silver, never studio lighting, never a shampoo-ad look. NOT clean, NOT flat vector, NOT a digital slide — it must look physically cut and glued by hand.
-References actually attached and their roles: none.
+References actually attached and their roles: r3-palette-matieres.png = STYLE (palette, torn paper, marker, splatters); r4-specimen-titres.png = STYLE (cut-out letter look and headline scale only, never copy its words).
 This is ONE flat paper collage image in 9:16.
 Elements actually present: large torn-paper comment bubble, the word GUIDE in cut-out letters on a terracotta paper band; headline "COMMENTE GUIDE"; small handwritten note "gratuit".
 Setting and scale: flat tabletop collage seen from directly above, human-hand scale paper pieces, 3 to 4 layers.
-Camera and eyeline: locked top-down view, collage filling the frame, safe margins for phone UI top and bottom.
+Camera and eyeline: locked top-down view, collage filling the frame.
+Layout (maquette r5): keep the top 11% and the bottom 20% of the frame free of important elements; headline letters 9-13% of the frame height, headline at most 89% of the frame width, placed in the upper part just below the top margin; main cut-out visual between 38% and 78% of the height, one single focal point.
 Initial state BEFORE the action: all layers in place, ready for the stepped movement.
 Light and functional palette: soft even daylight on paper, dominant terracotta.
 Product: none.
@@ -322,15 +332,16 @@ VO : « mes recettes à appliquer sur ton cuir chevelu. »
 
 ```text
 Handmade paper-cut collage / scrapbook / ransom-note aesthetic. Aged cream paper background (#FAF6F3 warm cream) with visible grain and subtle creases. Every element is a separate piece of TORN paper with rough deckled white edges and a soft realistic drop shadow, layered like a physical collage, each piece slightly tilted 2-5 degrees. Headline in a huge bold condensed sans-serif (Anton / Archivo Black feel) in warm black ink (#2E2A26) with distressed grunge ink texture, cut out like newspaper letters. Hand-drawn black marker elements: imperfect arrows, underlines, small 3-stroke impact marks. Painted watercolour splatter accents. Color story: cream paper base, terracotta (#A8553A) for problem/myth, sage green (#8C9B86) for the answer/resolution, plum (#7A4351) for strong contrast accents, warm black textured ink for type. Sage and silver-grey never carry text. Vertical 9:16, high contrast, ONE big claim per frame, photoreal cut-out photos detoured onto the paper. Cut-out hair photos: real hair of a woman around 45, irregular white strands on a dark brown base (salt and pepper), hand-styled waves, soft window light, natural smartphone photo look, never salon blow-dry, never uniform silver, never studio lighting, never a shampoo-ad look. NOT clean, NOT flat vector, NOT a digital slide — it must look physically cut and glued by hand.
-References actually attached and their roles: none (the guide has no real cover yet: temporary torn-paper booklet).
+References actually attached and their roles: r3-palette-matieres.png = STYLE (palette, torn paper, marker, splatters); r4-specimen-titres.png = STYLE (cut-out letter look and headline scale only, never copy its words); r2-packshot.png = PRODUCT (the guide booklet, reproduce exactly).
 This is ONE flat paper collage image in 9:16.
-Elements actually present: torn-paper booklet cover (cream with a terracotta band) showing the word GUIDE, a blank recipe card cut-out tucked behind it; headline "MES RECETTES".
+Elements actually present: the guide packshot (r2) cut out with its torn white border, a blank recipe card cut-out tucked behind it; headline "MES RECETTES".
 Setting and scale: flat tabletop collage seen from directly above, human-hand scale paper pieces, 3 to 4 layers.
-Camera and eyeline: locked top-down view, collage filling the frame, safe margins for phone UI top and bottom.
+Camera and eyeline: locked top-down view, collage filling the frame.
+Layout (maquette r5): keep the top 11% and the bottom 20% of the frame free of important elements; headline letters 9-13% of the frame height, headline at most 89% of the frame width, placed in the upper part just below the top margin; packshot centred, 57% of the frame width, between 36% and 77% of the height, tilted 3 degrees.
 Initial state BEFORE the action: all layers in place, ready for the stepped movement.
 Light and functional palette: soft even daylight on paper, dominant sage.
-Product: temporary booklet cover with the word GUIDE, no other text on it.
-Text inside the scene: ONLY "MES RECETTES", "GUIDE", spelled exactly with French accents. No other letters, no fake calendar, no micro-text, no logo.
+Product: the attached guide booklet packshot, cut out with its torn white border, exactly as in the reference.
+Text inside the scene: ONLY "MES RECETTES" plus the cover texts already printed on the attached booklet, unchanged, spelled exactly with French accents. No other letters, no fake calendar, no micro-text, no logo.
 Marker: marker underline under the headline. Paint: sage splatter.
 Preserve torn edges, drop shadows and the slight 2-5 degree tilt of each piece.
 ```

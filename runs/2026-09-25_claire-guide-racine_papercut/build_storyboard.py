@@ -44,15 +44,14 @@ PLANS = [
   "marker arrow pointing down (towards the comments)","terracotta and sage dots","terracotta",
   "comment bubble pops in, arrow bounces twice","non"),
  ("P11",29.30,31.72,"mes recettes à appliquer sur ton cuir chevelu.","MES RECETTES",None,
-  "torn-paper booklet cover (cream with a terracotta band) showing the word GUIDE, a blank recipe card cut-out tucked behind it",
+  "the guide packshot (r2) cut out with its torn white border, a blank recipe card cut-out tucked behind it",
   "marker underline under the headline","sage splatter","sage",
-  "booklet slides in and settles, recipe card peeks out, hold on the final frame","oui (couverture provisoire, pas de vraie couverture fournie)"),
+  "booklet slides in and settles, recipe card peeks out, hold on the final frame","oui (packshot r2)"),
 ]
 
 def texts(p):
     t = [p[4]] + ([p[5]] if p[5] else [])
     if p[0]=="P06": t=["FAUX","PLUS ÉPAIS ?"]
-    if p[0] in ("P10","P11"): t = t + (["GUIDE"] if p[0]=="P11" else [])
     return t
 
 sb = ["# Storyboard · Claire · Guide racine · Paper Cut","",
@@ -68,15 +67,16 @@ for p in PLANS:
     sb.append(f"| {pid} | {a:.2f} | {b:.2f} | {d:.2f} s | {vo} | {title} | {sub or '—'} | {vis} | {marker} | {paint} | {col} | {move} | {prod} | froissement / pose de papier | à générer |")
     allowed = ", ".join(f'"{x}"' for x in texts(p))
     img = f"""{STYLE}
-References actually attached and their roles: {"none (the guide has no real cover yet: temporary torn-paper booklet)" if pid=="P11" else "none"}.
+References actually attached and their roles: r3-palette-matieres.png = STYLE (palette, torn paper, marker, splatters); r4-specimen-titres.png = STYLE (cut-out letter look and headline scale only, never copy its words){"; r2-packshot.png = PRODUCT (the guide booklet, reproduce exactly)" if pid=="P11" else ""}.
 This is ONE flat paper collage image in 9:16.
 Elements actually present: {vis}; headline "{title}"{f'; small handwritten note "{sub}"' if sub else ''}.
 Setting and scale: flat tabletop collage seen from directly above, human-hand scale paper pieces, 3 to 4 layers.
-Camera and eyeline: locked top-down view, collage filling the frame, safe margins for phone UI top and bottom.
+Camera and eyeline: locked top-down view, collage filling the frame.
+Layout (maquette r5): keep the top 11% and the bottom 20% of the frame free of important elements; headline letters 9-13% of the frame height, headline at most 89% of the frame width, placed in the upper part just below the top margin; {"packshot centred, 57% of the frame width, between 36% and 77% of the height, tilted 3 degrees" if pid=="P11" else "main cut-out visual between 38% and 78% of the height, one single focal point"}.
 Initial state BEFORE the action: {"hair pieces not yet fallen, only the brush and headline" if pid=="P01" else "all layers in place, ready for the stepped movement"}.
 Light and functional palette: soft even daylight on paper, dominant {col}.
-Product: {"temporary booklet cover with the word GUIDE, no other text on it" if pid=="P11" else "none"}.
-Text inside the scene: ONLY {allowed}, spelled exactly with French accents. No other letters, no fake calendar, no micro-text, no logo.
+Product: {"the attached guide booklet packshot, cut out with its torn white border, exactly as in the reference" if pid=="P11" else "none"}.
+Text inside the scene: ONLY {allowed}{" plus the cover texts already printed on the attached booklet, unchanged" if pid=="P11" else ""}, spelled exactly with French accents. No other letters, no fake calendar, no micro-text, no logo.
 Marker: {marker}. Paint: {paint}.
 Preserve torn edges, drop shadows and the slight 2-5 degree tilt of each piece."""
     ani = f"""Use the approved starting image {pid}.
