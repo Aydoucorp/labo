@@ -53,6 +53,10 @@ Le dossier Drive « Studio marketing » est la copie de sauvegarde du studio.
 | Claire | `1dgKN8HMiOInBg1c6G_8EEOWkE8SC3s_t` |
 | skills/papercut-publicite | `1aZeuW6cB0qx5x0ZQh5qO7FX80csTlcwv` |
 | skills/papercut-publicite/references | `1rl6kcwfGlurVifkRQebccGxoaR-E5oIe` |
+| runs/2026-09-25_claire-guide-racine_papercut | `1BcImeaga5IbPWTA3dOh3zlcXo1xQL2zM` |
+| runs/2026-09-25_claire-guide-racine_papercut/audio | `1C4oheQkcPRid15q2HMB2ZQHSxG3OPmqw` |
+| runs/2026-09-25_claire-guide-racine_papercut/sorties | `1LbCHUp_VfnQEwjwyPjw5mYEjG1yB7BfX` |
+| runs/2026-09-25_claire-guide-racine_papercut/retenues | `1OZqhHXZ1HOT_gBDw4bC8fBCzWy_al8dx` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
