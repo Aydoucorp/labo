@@ -84,6 +84,9 @@ Animate the EXACT attached flat paper collage with stepped stop-motion paper mov
 Duration requested: {d:.2f} s measured on the final voice-over (generate at the engine's nearest allowed duration above it, trim in the edit).
 Audio: paper rustle and paper placement sounds only, synced with each movement. No voice, no narration, no music.
 Keep material, colours and scale consistent."""
+    import os
+    os.makedirs("prompts/img",exist_ok=True); os.makedirs("prompts/ani",exist_ok=True)
+    open(f"prompts/img/{pid}.txt","w").write(img); open(f"prompts/ani/{pid}.txt","w").write(ani)
     pr += [f"## {pid} · {a:.2f} → {b:.2f} s · {title}","",f"VO : « {vo} »","","### Image","","```text",img,"```","","### Animation","","```text",ani,"```",""]
 open("storyboard.md","w").write("\n".join(sb)+"\n")
 open("prompts.md","w").write("\n".join(pr))
