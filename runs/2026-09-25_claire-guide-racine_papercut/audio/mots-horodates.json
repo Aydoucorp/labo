@@ -1,0 +1,507 @@
+[
+{
+"w": "Tes",
+"start": 0.0,
+"end": 0.26
+},
+{
+"w": "cheveux",
+"start": 0.26,
+"end": 0.64
+},
+{
+"w": "sont",
+"start": 0.64,
+"end": 0.86
+},
+{
+"w": "en",
+"start": 0.86,
+"end": 1.02
+},
+{
+"w": "train",
+"start": 1.02,
+"end": 1.12
+},
+{
+"w": "de",
+"start": 1.12,
+"end": 1.4
+},
+{
+"w": "tomber",
+"start": 1.4,
+"end": 1.62
+},
+{
+"w": "partout.",
+"start": 1.62,
+"end": 2.0
+},
+{
+"w": "Et",
+"start": 2.3,
+"end": 2.5
+},
+{
+"w": "tu",
+"start": 2.5,
+"end": 2.6
+},
+{
+"w": "as",
+"start": 2.6,
+"end": 2.74
+},
+{
+"w": "peur",
+"start": 2.74,
+"end": 2.88
+},
+{
+"w": "de",
+"start": 2.88,
+"end": 3.04
+},
+{
+"w": "te",
+"start": 3.04,
+"end": 3.22
+},
+{
+"w": "retrouver",
+"start": 3.22,
+"end": 3.5
+},
+{
+"w": "avec",
+"start": 3.5,
+"end": 3.68
+},
+{
+"w": "des",
+"start": 3.68,
+"end": 3.92
+},
+{
+"w": "trous",
+"start": 3.92,
+"end": 3.98
+},
+{
+"w": "?",
+"start": 3.98,
+"end": 4.5
+},
+{
+"w": "Certaines",
+"start": 4.5,
+"end": 4.82
+},
+{
+"w": "personnes,",
+"start": 4.82,
+"end": 5.34
+},
+{
+"w": "et",
+"start": 5.56,
+"end": 5.8
+},
+{
+"w": "même",
+"start": 5.8,
+"end": 6.06
+},
+{
+"w": "certaines",
+"start": 6.06,
+"end": 6.32
+},
+{
+"w": "coiffeuses,",
+"start": 6.32,
+"end": 7.16
+},
+{
+"w": "te",
+"start": 7.32,
+"end": 7.46
+},
+{
+"w": "diront",
+"start": 7.46,
+"end": 7.72
+},
+{
+"w": "que",
+"start": 7.72,
+"end": 7.92
+},
+{
+"w": "si",
+"start": 7.92,
+"end": 8.16
+},
+{
+"w": "tes",
+"start": 8.16,
+"end": 8.26
+},
+{
+"w": "cheveux",
+"start": 8.26,
+"end": 8.56
+},
+{
+"w": "tombent,",
+"start": 8.56,
+"end": 8.94
+},
+{
+"w": "la",
+"start": 9.18,
+"end": 9.26
+},
+{
+"w": "coupe",
+"start": 9.26,
+"end": 9.42
+},
+{
+"w": "courte",
+"start": 9.42,
+"end": 9.64
+},
+{
+"w": "est",
+"start": 9.64,
+"end": 9.8
+},
+{
+"w": "une",
+"start": 9.8,
+"end": 9.98
+},
+{
+"w": "évidence.",
+"start": 9.98,
+"end": 10.5
+},
+{
+"w": "Parce",
+"start": 10.72,
+"end": 10.86
+},
+{
+"w": "qu",
+"start": 10.86,
+"end": 10.96
+},
+{
+"w": "'en",
+"start": 10.96,
+"end": 11.04
+},
+{
+"w": "coupant,",
+"start": 11.04,
+"end": 11.56
+},
+{
+"w": "ce",
+"start": 11.7,
+"end": 11.84
+},
+{
+"w": "qui",
+"start": 11.84,
+"end": 12.08
+},
+{
+"w": "repousse",
+"start": 12.08,
+"end": 12.68
+},
+{
+"w": "revient",
+"start": 12.68,
+"end": 13.18
+},
+{
+"w": "plus",
+"start": 13.18,
+"end": 13.5
+},
+{
+"w": "épais.",
+"start": 13.5,
+"end": 13.76
+},
+{
+"w": "Les",
+"start": 13.92,
+"end": 14.04
+},
+{
+"w": "dermatologues",
+"start": 14.04,
+"end": 14.7
+},
+{
+"w": "sont",
+"start": 14.7,
+"end": 15.12
+},
+{
+"w": "formels.",
+"start": 15.12,
+"end": 15.5
+},
+{
+"w": "Couper",
+"start": 15.68,
+"end": 16.14
+},
+{
+"w": "ne",
+"start": 16.14,
+"end": 16.44
+},
+{
+"w": "change",
+"start": 16.44,
+"end": 16.76
+},
+{
+"w": "ni",
+"start": 16.76,
+"end": 17.14
+},
+{
+"w": "la",
+"start": 17.14,
+"end": 17.32
+},
+{
+"w": "quantité,",
+"start": 17.32,
+"end": 17.76
+},
+{
+"w": "ni",
+"start": 18.04,
+"end": 18.18
+},
+{
+"w": "l",
+"start": 18.18,
+"end": 18.32
+},
+{
+"w": "'épaisseur,",
+"start": 18.32,
+"end": 18.96
+},
+{
+"w": "ni",
+"start": 19.14,
+"end": 19.32
+},
+{
+"w": "la",
+"start": 19.32,
+"end": 19.54
+},
+{
+"w": "vitesse",
+"start": 19.54,
+"end": 19.8
+},
+{
+"w": "de",
+"start": 19.8,
+"end": 20.12
+},
+{
+"w": "repousse.",
+"start": 20.12,
+"end": 20.44
+},
+{
+"w": "Tout",
+"start": 20.62,
+"end": 20.78
+},
+{
+"w": "ce",
+"start": 20.78,
+"end": 20.96
+},
+{
+"w": "qui",
+"start": 20.96,
+"end": 21.14
+},
+{
+"w": "fonctionne",
+"start": 21.14,
+"end": 21.64
+},
+{
+"w": "s",
+"start": 21.64,
+"end": 22.08
+},
+{
+"w": "'applique",
+"start": 22.08,
+"end": 22.34
+},
+{
+"w": "sur",
+"start": 22.34,
+"end": 22.56
+},
+{
+"w": "le",
+"start": 22.56,
+"end": 22.72
+},
+{
+"w": "cuir",
+"start": 22.72,
+"end": 22.9
+},
+{
+"w": "chevelu.",
+"start": 22.9,
+"end": 23.32
+},
+{
+"w": "Ton",
+"start": 23.46,
+"end": 23.66
+},
+{
+"w": "problème",
+"start": 23.66,
+"end": 24.06
+},
+{
+"w": "se",
+"start": 24.06,
+"end": 24.38
+},
+{
+"w": "traite",
+"start": 24.38,
+"end": 24.52
+},
+{
+"w": "à",
+"start": 24.52,
+"end": 24.68
+},
+{
+"w": "la",
+"start": 24.68,
+"end": 25.04
+},
+{
+"w": "racine,",
+"start": 25.04,
+"end": 25.52
+},
+{
+"w": "pas",
+"start": 25.8,
+"end": 25.92
+},
+{
+"w": "aux",
+"start": 25.92,
+"end": 26.16
+},
+{
+"w": "ciseaux.",
+"start": 26.16,
+"end": 26.48
+},
+{
+"w": "Commente",
+"start": 26.48,
+"end": 27.04
+},
+{
+"w": "guide",
+"start": 27.04,
+"end": 27.42
+},
+{
+"w": "et",
+"start": 27.42,
+"end": 27.98
+},
+{
+"w": "je",
+"start": 27.98,
+"end": 28.12
+},
+{
+"w": "t",
+"start": 28.12,
+"end": 28.22
+},
+{
+"w": "'envoie",
+"start": 28.22,
+"end": 28.52
+},
+{
+"w": "gratuitement",
+"start": 28.52,
+"end": 29.46
+},
+{
+"w": "mes",
+"start": 29.46,
+"end": 29.66
+},
+{
+"w": "recettes",
+"start": 29.66,
+"end": 30.04
+},
+{
+"w": "à",
+"start": 30.04,
+"end": 30.22
+},
+{
+"w": "appliquer",
+"start": 30.22,
+"end": 30.54
+},
+{
+"w": "sur",
+"start": 30.54,
+"end": 30.74
+},
+{
+"w": "ton",
+"start": 30.74,
+"end": 30.94
+},
+{
+"w": "cuir",
+"start": 30.94,
+"end": 31.16
+},
+{
+"w": "chevelu.",
+"start": 31.16,
+"end": 31.58
+}
+]
