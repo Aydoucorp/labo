@@ -10,7 +10,7 @@ Studio de création de contenus visuels e-commerce (photos produit, statiques pu
 | `refs/style/` | Moodboards, créas inspirantes, exemples de ton | Lecture seule. |
 | `refs/marque/` | Logo, palette, typos, charte | Lecture seule. |
 | `scripts/` | Scripts réutilisables (redimensionnement, renommage, export…) | Un script = une tâche, commenté en tête. |
-| `skills/` | Skills maison du studio (un sous-dossier par skill avec son `SKILL.md`) | |
+| `skills/` | Skills maison du studio (un sous-dossier par skill avec son `SKILL.md`) | `.claude/skills` pointe vers ce dossier : chaque skill ajouté ici est chargé automatiquement. |
 | `runs/` | Toutes les sorties générées | Voir convention ci-dessous. |
 | `Claire/` | Marque « Les cheveux de Claire » : `BRAND-DNA-CLAIRE.md` | Référence de marque, à lire avant toute création pour Claire. |
 
@@ -51,6 +51,8 @@ Le dossier Drive « Studio marketing » est la copie de sauvegarde du studio.
 | skills | `1B0i2m_FUVSzmMd_jj42V5YXs8lV8DvUA` |
 | runs | `1C65QZGUKzNdwrqqUnPiX7Fg_d9Cp06oX` |
 | Claire | `1dgKN8HMiOInBg1c6G_8EEOWkE8SC3s_t` |
+| skills/papercut-publicite | `1aZeuW6cB0qx5x0ZQh5qO7FX80csTlcwv` |
+| skills/papercut-publicite/references | `1rl6kcwfGlurVifkRQebccGxoaR-E5oIe` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
