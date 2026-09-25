@@ -13,6 +13,7 @@ Studio de création de contenus visuels e-commerce (photos produit, statiques pu
 | `skills/` | Skills maison du studio (un sous-dossier par skill avec son `SKILL.md`) | `.claude/skills` pointe vers ce dossier : chaque skill ajouté ici est chargé automatiquement. |
 | `runs/` | Toutes les sorties générées | Voir convention ci-dessous. |
 | `Claire/` | Marque « Les cheveux de Claire » : `BRAND-DNA-CLAIRE.md` | Référence de marque, à lire avant toute création pour Claire. |
+| `creas/<concept>/` | Créas finales validées, rangées par concept | Nommage obligatoire, voir « Créas finales ». |
 
 ## Convention des runs
 
@@ -34,6 +35,13 @@ Exemple : `runs/2026-09-24_serviette-microfibre_statiques-meta/`
 - Noter dans `brief.md` chaque prompt et chaque réglage utilisé, pour pouvoir reproduire une image validée.
 - Nommage : minuscules, tirets, sans accents ni espaces (`statique-angle-douleur-v2.png`).
 - Si un produit n'a pas encore de dossier dans `refs/produits/`, le signaler avant de générer quoi que ce soit.
+
+## Créas finales
+
+- Chaque créa finale validée est copiée dans `creas/<concept>/` (dossiers : papercut, claymotion, disney, jouet, talking-object, tableau-blanc, low-poly-cinema, humain-penseur, clip-musical, zack-d-style, le-montage). Un nouveau concept = un nouveau dossier, ici et dans Drive.
+- Nom : `AAAA-MM-JJ_<concept>_<NNN>.<ext>` : date de création, concept, numéro de la vidéo sur ce concept sur 3 chiffres (001, 002…), jamais remis à zéro.
+- Avant de nommer, lire `creas/registre.md`, prendre le dernier numéro du concept + 1, puis mettre à jour le registre (compteur + ligne d'historique).
+- Le fichier original reste dans `runs/.../retenues/`.
 
 ## Miroir Google Drive (obligatoire)
 
@@ -58,6 +66,18 @@ Le dossier Drive « Studio marketing » est la copie de sauvegarde du studio.
 | runs/2026-09-25_claire-guide-racine_papercut/sorties | `1LbCHUp_VfnQEwjwyPjw5mYEjG1yB7BfX` |
 | runs/2026-09-25_claire-guide-racine_papercut/retenues | `1OZqhHXZ1HOT_gBDw4bC8fBCzWy_al8dx` |
 | runs/2026-09-25_claire-guide-racine_papercut/references | `1FAb_B7namPsKKEnV-bnA37CmaiPLOHqI` |
+| creas | `1FDZFVjSxYWmDJMos5vFhK_lw85pCLDQ2` |
+| creas/papercut | `1FX_RJJ56CpfhzfMHh793ggFzjq12coZj` |
+| creas/claymotion | `1GmE1ApFKMVsoPD2wkdeWALJeZ8AfjcxM` |
+| creas/disney | `11zuVh06YPqPP7xR2sK98ZNDGybNuX-BK` |
+| creas/jouet | `1t9yg8KhxRhCdpTYe0tE_ATEyGy2cl6DQ` |
+| creas/talking-object | `1d_9ZyhOp7O9QMGSa5HGU8M1hg3LGabQz` |
+| creas/tableau-blanc | `1DknXPFE3ZG9sZR4qhc3VnBqqEZyoFu0Y` |
+| creas/low-poly-cinema | `1Lp8v7xeoxhpPrh_WeAI_Te85b7x4KbTQ` |
+| creas/humain-penseur | `1kNZTjsOlNG3ysuVcbPLpMrg1sDe7YQvn` |
+| creas/clip-musical | `1LHfMg73-9MhkaUKDJdzkCuLZ566jqOio` |
+| creas/zack-d-style | `1TnJFpWcv_IdeGIcCWj2Jz0y7l51-MJOn` |
+| creas/le-montage | `17CXCyn0gLuCL6xgstBEB2Tp41AboHRKq` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
