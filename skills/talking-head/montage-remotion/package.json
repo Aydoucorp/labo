@@ -1,0 +1,17 @@
+{
+  "name": "montage-talking-head",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gabarit de montage Remotion piloté par montage.json (format 9:16).",
+  "scripts": {
+    "render": "remotion render src/index.js Main out/video.mp4 --props=montage.json",
+    "still": "remotion still src/index.js Main out/still.png --props=montage.json"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.529",
+    "@remotion/fonts": "4.0.529",
+    "remotion": "4.0.529",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

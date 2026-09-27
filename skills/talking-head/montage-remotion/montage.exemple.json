@@ -1,0 +1,38 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationSec": 30.0,
+  "audio": "audio/voix.mp3",
+  "theme": {"accent": "#C2185B", "accent2": "#FFD400", "bannerBg": "#C2185B"},
+  "subtitles": {"words": [], "maxWords": 4, "maxChars": 26},
+  "segments": [
+    {"type": "split", "start": 0.0, "end": 4.2, "src": "avatar/S01.mp4", "clipStart": 0.0,
+     "banner": "Tes cheveux gris ne sont pas une fatalité",
+     "broll": [{"src": "broll/broll_01.mp4", "start": 0.0, "end": 2.1, "from": 0.5},
+               {"src": "broll/broll_02.mp4", "start": 2.1, "end": 4.2, "from": 0.0}]},
+    {"type": "avatar", "start": 4.2, "end": 6.9, "src": "avatar/A01.mp4", "clipStart": 3.9, "zoom": "B"},
+    {"type": "avatar", "start": 6.9, "end": 9.1, "src": "avatar/A01.mp4", "clipStart": 3.9, "zoom": "C"},
+    {"type": "edu", "start": 9.1, "end": 15.3, "src": "edu/edu_01.mp4", "enter": "circle"},
+    {"type": "card", "start": 15.3, "end": 18.4, "clips": [
+      {"src": "broll/broll_03.mp4", "start": 15.3, "end": 16.9, "from": 1.0},
+      {"src": "broll/broll_04.mp4", "start": 16.9, "end": 18.4, "from": 0.0}]},
+    {"type": "infolist", "start": 18.4, "end": 23.0, "enter": "circle", "rows": [
+      {"t": 18.5, "title": "Cuivre", "img": "images/info_01.png", "parts": [{"s": "Active l'enzyme "}, {"s": "de ta couleur", "bold": true, "mark": 19.4}]},
+      {"t": 20.1, "title": "B12", "img": "images/info_02.png", "parts": [{"s": "Nourrit les cellules du "}, {"s": "pigment", "bold": true}]},
+      {"t": 21.3, "title": "Fer", "img": "images/info_03.png", "parts": [{"s": "Apporte l'oxygène aux racines"}]}]},
+    {"type": "kinetic", "start": 23.0, "end": 25.6, "src": "images/drama_01.png", "words": [
+      {"t": 23.1, "text": "après"}, {"t": 23.4, "text": "40", "style": "giant", "br": true}, {"t": 23.9, "text": "ans"},
+      {"t": 24.3, "text": "tout", "br": true}, {"t": 24.5, "text": "s'accélère", "style": "serif"}]},
+    {"type": "avatar", "start": 25.6, "end": 30.0, "src": "avatar/A02.mp4", "clipStart": 25.3, "zoom": "A"}
+  ],
+  "overlays": [
+    {"type": "flash", "t": 4.2, "color": "#FF4D8D"},
+    {"type": "bignumber", "start": 5.0, "end": 6.8, "text": "30 %", "label": "génétique"},
+    {"type": "label", "start": 10.2, "end": 15.2, "text": "Follicule", "x": 0.1, "y": 0.3, "box": true},
+    {"type": "label", "start": 12.0, "end": 15.2, "text": "Pigment", "sub": "diminue avec les carences", "x": 0.9, "y": 0.62, "align": "right", "line": 80},
+    {"type": "doc", "start": 26.0, "end": 28.4, "src": "preuves/etude_01.png", "y": 0.5,
+     "highlights": [{"t": 26.6, "x": 0.04, "y": 0.3, "w": 0.85, "h": 0.08}]},
+    {"type": "follow", "start": 28.5, "end": 30.0, "handle": "@moncompte", "avatar": "images/photo_profil.png"}
+  ]
+}

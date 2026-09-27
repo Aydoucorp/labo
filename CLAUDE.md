@@ -38,7 +38,7 @@ Exemple : `runs/2026-09-24_serviette-microfibre_statiques-meta/`
 
 ## Créas finales
 
-- Chaque créa finale validée est copiée dans `creas/<concept>/` (dossiers : papercut, claymotion, disney, jouet, talking-object, tableau-blanc, low-poly-cinema, humain-penseur, clip-musical, zack-d-style, le-montage). Un nouveau concept = un nouveau dossier, ici et dans Drive.
+- Chaque créa finale validée est copiée dans `creas/<concept>/` (dossiers : papercut, claymotion, disney, jouet, talking-object, tableau-blanc, low-poly-cinema, humain-penseur, clip-musical, zack-d-style, le-montage, talking-head). Un nouveau concept = un nouveau dossier, ici et dans Drive.
 - Nom : `AAAA-MM-JJ_<concept>_<NNN>.<ext>` : date de création, concept, numéro de la vidéo sur ce concept sur 3 chiffres (001, 002…), jamais remis à zéro.
 - Avant de nommer, lire `creas/registre.md`, prendre le dernier numéro du concept + 1, puis mettre à jour le registre (compteur + ligne d'historique).
 - Le fichier original reste dans `runs/.../retenues/`.
@@ -78,6 +78,8 @@ Le dossier Drive « Studio marketing » est la copie de sauvegarde du studio.
 | creas/clip-musical | `1LHfMg73-9MhkaUKDJdzkCuLZ566jqOio` |
 | creas/zack-d-style | `1TnJFpWcv_IdeGIcCWj2Jz0y7l51-MJOn` |
 | creas/le-montage | `17CXCyn0gLuCL6xgstBEB2Tp41AboHRKq` |
+| creas/talking-head | `1Pnvncr5Bn2-VoHNCD0Rx1XweyrNmeliV` |
+| skills/talking-head | `1tHAfP_iUIfeNt9zCMIeVxjM8AzaqrI-y` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.

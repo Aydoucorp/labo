@@ -20,6 +20,7 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | clip-musical | 000 |
 | zack-d-style | 000 |
 | le-montage | 000 |
+| talking-head | 000 |
 
 ## Historique
 
