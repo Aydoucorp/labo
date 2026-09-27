@@ -43,10 +43,16 @@ Exemple : `runs/2026-09-24_serviette-microfibre_statiques-meta/`
 - Avant de nommer, lire `creas/registre.md`, prendre le dernier numéro du concept + 1, puis mettre à jour le registre (compteur + ligne d'historique).
 - Le fichier original reste dans `runs/.../retenues/`.
 
-## Miroir Google Drive (obligatoire)
+## Sauvegardes : GitHub + Google Drive
 
-Le dossier Drive « Studio marketing » est la copie de sauvegarde du studio.
-**Toute création ou modification de fichier ici doit être reproduite immédiatement dans Drive, au même emplacement.**
+**GitHub = copie complète du studio.** Après chaque étape (fichier créé ou modifié), commit puis `git push origin claude/trusting-carson-sott4i` sur le dépôt `Aydoucorp/labo`, et vérifier que la branche distante est à jour. Tout y va, sauf `.env`.
+
+**Drive « Studio marketing » = ce que l'utilisateur consulte**, au même emplacement que dans le studio. À recopier dans Drive à chaque création ou modification :
+- `CLAUDE.md`, le brand DNA des marques (`Claire/`), le `SKILL.md` de chaque skill ;
+- dans chaque run : `brief.md`, `storyboard.md` (ou `decoupage.md`), `montage.md`, `journal.md`, les README de références et le script ;
+- `creas/registre.md` et les créas finales (envoyées à l'utilisateur, qui les dépose).
+
+Ne vont pas dans Drive (ils sont sur GitHub) : code et scripts, références techniques des skills, polices, fichiers de prompts, JSON, images et clips intermédiaires.
 
 | Dossier | ID Drive |
 |---|---|
