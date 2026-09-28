@@ -48,10 +48,15 @@ Tarif KIE standard : 1 crédit ≈ 0,005 $.
 | Image I3 | v2 | nano-banana-2 1K, style scientifique E1 | 829a7265ade84ba14b985d2d842692c1 | success | `sorties/images/I3_v2.png` | **retenu** | 8 cr |
 | Animation E1 | v1 | minimax-h3/image-to-video 768P, 9 s | 5ef89a00b9d61c06848886c4c1b63e5e | success | `sorties/animation/E1_v1.mp4` | **retenue** | 72 cr |
 
-**Total : 5362 crédits ≈ 26.81 $.**
+| Test synchro S01 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1, consigne « même rythme que @Audio1 » + timeline | d8cc2687e922488aac94955c45ac3fea | success | `avatar/S01_sync_v1.mp4` (+ `_voixoff.mp4`) | test : retard 0,3 à 1,0 s, variable | 378 cr |
+| Test synchro A01 | v1 | idem | 3dd78c0d30bee4aea241ca462922a4e3 | success | `avatar/A01_sync_v1.mp4` (+ `_voixoff.mp4`) | test : même rythme que la voix off, retard constant ≈ 0,8 s | 567 cr |
+
+**Total : 6307 crédits ≈ 31.54 $.**
 
 Leçon : sur KIE, Seedance 2.5 ne combine pas première image et audio. Avec l'audio en simple référence et « Image 1 / Audio 1 » écrit sans balise, les lèvres ne suivent pas la voix, et le recalage Volcengine rend un résultat peu naturel (abandonné).
 
 Recette validée : Seedance 2.5 multimodal, `generate_audio: true`, image de départ en `@Image1`, extrait de la voix off en `@Audio1` comme modèle de voix, texte exact entre guillemets (chiffres en lettres), direction d'émotion phrase par phrase, consigne de prononciation pour les mots difficiles (ex. « carences »). Seedance génère la voix et les lèvres ensemble.
 
 Montage : rendu Remotion local (aucun crédit). Créa finale : `creas/talking-head/2026-09-28_talking-head_001.mp4`.
+
+Version 2 du montage : voix off d'origine partout, son Seedance coupé, clips recalés phrase par phrase (`retenues/film/claire-cheveux-gris-carences-talking-head-v2-voix-off.mp4`).
