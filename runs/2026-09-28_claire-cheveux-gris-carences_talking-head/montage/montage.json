@@ -1017,12 +1017,12 @@
   },
   {
    "type": "follow",
-   "start": 55.18,
+   "start": 54.5,
    "end": 56.58,
    "handle": "@les_cheveux_de_claire",
    "avatar": "images/profil.jpg",
    "y": 0.745,
-   "clickAfter": 0.7
+   "clickAfter": 1.2
   }
  ]
 }

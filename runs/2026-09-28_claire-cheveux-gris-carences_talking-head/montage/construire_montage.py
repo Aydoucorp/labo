@@ -216,7 +216,7 @@ def main():
         {"type": "label", "start": round(wt("décolore") - 0.05, 3), "end": m1["end"], "text": "Pigment", "sub": "se décolore", "x": 0.70, "y": 0.30, "line": 70, "box": True, "color": "#A8553A"},
         {"type": "flash", "t": a05["start"], "color": "#C9805F"},
         {"type": "text", "start": round(t_guide - 0.05, 3), "end": round(total, 3), "text": "GUIDE", "x": 0.5, "y": 0.60, "size": 150, "color": "#FAF6F3", "bg": "#A8553A", "weight": 900},
-        {"type": "follow", "start": round(t_envoie - 0.1, 3), "end": round(total, 3), "handle": "@les_cheveux_de_claire", "avatar": "images/profil.jpg", "y": 0.745, "clickAfter": 0.7},
+        {"type": "follow", "start": round(t_guide + 0.5, 3), "end": round(total, 3), "handle": "@les_cheveux_de_claire", "avatar": "images/profil.jpg", "y": 0.745, "clickAfter": 1.2},
     ]
     montage = {
         "fps": 30, "width": 1080, "height": 1920, "durationSec": round(total, 3), "bg": "#FAF6F3",
