@@ -1,0 +1,7 @@
+Create a 6-second 9:16 photorealistic podcast talking-head shot, French speech. One continuous locked-off shot, natural real-time speed.
+REFERENCES: Image 1 = the exact first frame and the only identity, wardrobe, microphone, desk, background, lighting and framing reference. Audio 1 = the exact voice to lip-sync, from its first to its last syllable; do not change, speed up or replace it.
+STARTING STATE: The person from Image 1, seated in the same pose, same framing, mouth closed, hands resting on the desk below the microphone. Only this person is visible.
+PERFORMANCE: Natural podcast delivery, gaze toward the camera for the call to action, subtle head movements, blinking, natural breathing, small nods on key words. Looks straight at the camera for the call to action, warm light smile on the last phrase 'mon guide gratuit'. Hands stay below the microphone and never cover the mouth. No repetitive gesture loop.
+TIMELINE AND EXACT WORDS: 0.3-2.1 s: "Et si vous voulez le protocole complet," ; 2.6-5.1 s: "écrivez « guide » et je vous envoie mon guide gratuit.".
+AUDIO: Lip sync only to Audio 1, precise on every syllable. Mouth closed and still during silences. No music, no added sound effects, no other voice.
+CONTINUITY: Same person, clothes, microphone, desk, background and lighting as Image 1 for the whole shot. Camera never moves, never zooms, never cuts. No text, no subtitles, no logo.
