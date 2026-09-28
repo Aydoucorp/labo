@@ -66,13 +66,13 @@
    "id": "P03",
    "debut": 9.8,
    "fin": 14.2,
-   "type": "Avatar + preuve",
+   "type": "Avatar",
    "zoom": "B",
-   "surimpression": "Capture de la source du chiffre, surlignée",
-   "visuel": "Avatar, puis carte blanche qui monte avec la capture de la source, surligneur sur la phrase clé.",
-   "regle": "R6",
-   "declencheur": "Carte à 10,65 s (0,6 s après « Les »)",
-   "source": "A01 + preuve PR1"
+   "surimpression": "-",
+   "visuel": "Avatar, paume ouverte sur « votre corps vous envoie un signal ».",
+   "regle": "R8",
+   "declencheur": "-",
+   "source": "A01"
   },
   {
    "id": "P04",

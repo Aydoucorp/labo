@@ -1,6 +1,6 @@
 # Découpage · Claire · Cheveux gris et carences · Talking head
 
-**État : découpage livré (mode A). Aucun média généré, aucune dépense.**
+**État : découpage validé (mode A), avatar en 720p, vouvoiement conservé, chiffre 30 % gardé sans carte de preuve (vérifié en amont par l'utilisatrice).**
 
 ## 1. Synthèse
 
@@ -9,7 +9,7 @@
 - **Répartition** : Écran partagé 5.9 s (10 %) · Avatar + surimpression 11.0 s (19 %) · Animation 8.9 s (16 %) · Avatar 12.6 s (22 %) · B-roll / photos 10.0 s (18 %) · Infographie 8.1 s (14 %)
 - **Avatar visible (écran partagé compris)** : 29.4 s (52 %), un peu sous la cible : le script contient beaucoup de noms concrets (aliments, carences) qui gagnent à être illustrés.
 - **Clips avatar** : 6 (1 en 1:1 pour l'écran partagé, 5 en 9:16), **36 s à générer** (Seedance 2.5).
-- **Images** : 8 (3 lignes d'infographie, 5 aliments) + 1 image de départ d'animation · **objets détourés** : 0 · **animation éducative** : 1 (9 s) · **b-rolls à trouver** : 4 · **preuve à fournir** : 1
+- **Images** : 8 (3 lignes d'infographie, 5 aliments) + 1 image de départ d'animation · **objets détourés** : 0 · **animation éducative** : 1 (9 s) · **b-rolls à trouver** : 4 · **preuve à fournir** : 0
 - **Transitions spéciales** : 4 (flash sortie d'accroche 5,90 s ; cercle entrée animation 14,20 s ; cercle entrée infographie 35,30 s ; flash retour avatar 51,35 s)
 - **Plus long bloc sans avatar** : 14,20 à 23,10 s (8,9 s, animation qui évolue) et 35,30 à 43,35 s (8,1 s, infographie qui se construit). Sous la limite de 15 s.
 - **Écarts script / audio** : Whisper entend « peroxyde **de l'**hydrogène », « carence », « légumineuse » ; le script (« peroxyde d'hydrogène », « carences », « légumineuses ») fait foi pour les sous-titres. À réécouter : si la voix dit vraiment « de l'hydrogène », c'est la voix qui s'est trompée.
@@ -20,7 +20,7 @@
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | P01 | 0.0 | 5.9 | 5.9 s | Si vos cheveux deviennent gris dès la trentaine ou la quarantaine, ce n'est pas juste la génétique. | Écran partagé | 1:1 | Bandeau titre (couture) | Haut : avatar au micro. Bas : femme de 35 à 45 ans qui écarte ses cheveux et montre des racines grises (2 plans : raie avec racines grises, puis tempes grisonnantes en gros plan). | Accroche, recette 1 | Plan bas 2 sur « ce » (3,28 s) | S01 + b-roll B01, B02 |
 | P02 | 5.9 | 9.8 | 3.9 s | Seulement 30 % du blanchiment précoce est héréditaire. | Avatar | C | Gros chiffre « 30 % » (label « héréditaire ») | Avatar serré, léger penché en avant sur le chiffre. | R8 (chiffre clé) | « 30 » à 6,56 s (apparition 6,50 s) | A01 |
-| P03 | 9.8 | 14.2 | 4.4 s | Les 70 % restants, c'est votre corps qui vous envoie un signal. | Avatar + preuve | B | Capture de la source du chiffre, surlignée | Avatar, puis carte blanche qui monte avec la capture de la source, surligneur sur la phrase clé. | R6 | Carte à 10,65 s (0,6 s après « Les ») | A01 + preuve PR1 |
+| P03 | 9.8 | 14.2 | 4.4 s | Les 70 % restants, c'est votre corps qui vous envoie un signal. | Avatar | B | - | Avatar, paume ouverte sur « votre corps vous envoie un signal ». | R8 | - | A01 |
 | P04 | 14.2 | 23.1 | 8.9 s | Vos follicules produisent une enzyme, la catalase, qui neutralise le peroxyde d'hydrogène avant qu'il ne décolore vos cheveux de l'intérieur. | Animation éducative | - | Étiquettes : Follicule, Catalase, H₂O₂, Pigment | Coupe d'un follicule pileux en pictos plats. Une enzyme (catalase) neutralise des bulles de peroxyde ; puis les bulles s'accumulent et la mèche se décolore de l'intérieur. | R5 | Follicule 14,40 s · Catalase 16,64 s · H₂O₂ 18,50 s · décoloration 20,78 s | Animation E1 |
 | P05 | 23.1 | 25.6 | 2.5 s | Avec l'âge ou en cas de carences, | Avatar | A | - | Avatar, explication posée, paume ouverte. | Retour avatar après l'animation | - | A02 |
 | P06 | 25.6 | 28.9 | 3.2 s | la catalase chute et les cheveux blanchissent. | B-roll (carte) | - | - | Gros plan d'une raie aux racines blanches, lent zoom avant. | R1 | Coupe 0,14 s avant « la catalase » | B-roll B03 |
@@ -258,7 +258,7 @@ Aucune promesse de retour à la couleur d'avant (brand DNA : pas de promesse int
 
 ## 7. Preuve à fournir
 
-- **PR1** (P03, 10,65 à 13,9 s) : une vraie capture de la source du chiffre « 30 % héréditaire / 70 % », avec la phrase qui le dit (surlignée au montage). Envoie la capture et dis-moi quelle phrase surligner. **Sans source, je retire la carte et le plan reste sur l'avatar** : le brand DNA de Claire interdit tout chiffre sans source.
+Aucune : le chiffre 30 % a été vérifié en amont par l'utilisatrice, il reste en gros chiffre sur l'avatar sans carte de preuve.
 
 ## 8. Charte provisoire (à valider)
 
@@ -278,10 +278,9 @@ Tarifs KIE relevés le 2026-09-28 (1 crédit ≈ 0,005 $).
 | Poste | Détail | Crédits |
 |---|---|---|
 | Configuration : images de départ | GPT Image 2 1K, 3 propositions 9:16 + 1 en 1:1, environ 6 cr chacune | 24 |
-| Clips avatar Seedance 2.5 **1080p** | 36 s × 158 cr/s (le clip A02 de 4 s sert de clip test) | 5 688 |
+| Clips avatar Seedance 2.5 **720p (choisi)** | 36 s × 63 cr/s (le clip A02 de 4 s sert de clip test) | 2 268 |
 | Images I1 à I8 + image de départ E1 | GPT Image 2 1K, 9 × 6 cr | 54 |
 | Animation E1 | MiniMax H3 768P, 9 s × 8 cr/s + 4 cr d'image | 76 |
-| **Total estimé (1080p)** | hors reprises et b-rolls de secours | **≈ 5 840 cr ≈ 29 $** |
-| Variante 720p pour l'avatar | 36 s × 63 cr/s = 2 268 cr | **≈ 2 420 cr ≈ 12 $** |
+| **Total estimé (720p)** | hors reprises et b-rolls de secours | **≈ 2 420 cr ≈ 12 $** |
 
-Le 1080p garde l'avatar net dans les zooms B et C (115 % et 130 %). En 720p, l'image est agrandie de 1,5 à 2 fois : elle sera plus douce.
+720p retenu par l'utilisatrice : l'avatar sera un peu plus doux dans les zooms B et C.

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Génère une image avec Nano Banana 2 sur KIE, attend le résultat et le télécharge.
+"""Génère une image sur KIE (Nano Banana 2 par défaut, ou GPT Image 2 avec --model), attend le résultat et le télécharge.
 
 Usage :
   python3 scripts/kie_image.py --prompt-file p.txt --out sorties/x.png \
-      [--ref image.png ...] [--ratio 9:16] [--resolution 1K|2K|4K]
+      [--ref image.png ...] [--ratio 9:16] [--resolution 1K|2K|4K] [--model nano-banana-2|gpt-image-2-image-to-image]
 
 - Lit KIE_API_KEY dans .env (racine du studio). La clé n'est jamais affichée.
 - Les images de référence locales sont d'abord envoyées sur le stockage temporaire KIE.
@@ -54,12 +54,17 @@ def main():
     ap.add_argument("--ref", nargs="*", default=[])
     ap.add_argument("--ratio", default="9:16")
     ap.add_argument("--resolution", default="1K")
+    ap.add_argument("--model", default="nano-banana-2")
     a = ap.parse_args()
 
     refs = [r if r.startswith("http") else upload(r) for r in a.ref]
-    task = call(f"{API}/createTask", {"model": "nano-banana-2", "input": {
-        "prompt": pathlib.Path(a.prompt_file).read_text(), "image_input": refs,
-        "aspect_ratio": a.ratio, "resolution": a.resolution, "output_format": "png"}})
+    prompt = pathlib.Path(a.prompt_file).read_text()
+    if a.model.startswith("gpt-image-2"):
+        inp = {"prompt": prompt, "input_urls": refs, "aspect_ratio": a.ratio, "resolution": a.resolution}
+    else:
+        inp = {"prompt": prompt, "image_input": refs, "aspect_ratio": a.ratio,
+               "resolution": a.resolution, "output_format": "png"}
+    task = call(f"{API}/createTask", {"model": a.model, "input": inp})
     if task.get("code") != 200:
         sys.exit(f"création refusée : {task.get('code')} {task.get('msg')}")
     tid = task["data"]["taskId"]
