@@ -41,7 +41,7 @@ Aucun produit à vendre, aucun appel, une seule voix.
 | `references/prompts.md` | avant toute génération (image de départ, scène avatar Seedance 2.5, images, objets détourés, animations, b-roll de secours, fiches de recherche) |
 | `references/modeles.md` | avant la première génération (rôle de chaque modèle, réglages, clip test, budget, journal) |
 | `references/montage-controle.md` | avant le montage (gabarit Remotion, format de `montage.json`, contrôles) |
-| `scripts/` (chemins relatifs au dossier du skill) | `transcrire.py`, `couper_audio.py`, `preparer_medias.sh`, `rendre.sh`, `controler.py`, `finaliser.sh` |
+| `scripts/` (chemins relatifs au dossier du skill) | `transcrire.py`, `couper_audio.py`, `fiche_brolls.py` (fiche HTML des b-rolls), `recuperer_brolls.py` (récupération et préparation des b-rolls déposés), `preparer_medias.sh`, `rendre.sh`, `controler.py`, `controler_montage.py` (contrôle automatique et rapport), `finaliser.sh` |
 | `montage-remotion/` | gabarit de montage testé, piloté par `montage.json` (exemple : `montage.exemple.json`) |
 
 Le skill ne désigne aucun fournisseur. Les générations passent par le service ou le connecteur disponible dans la session ; si des instructions propres à ce service sont installées ailleurs (dossier ou skill dédié), suis-les pour les noms exacts des champs, l'envoi des fichiers et le suivi des tâches.
@@ -109,7 +109,7 @@ Lis `references/grammaire.md` en entier avant de commencer.
    - « Source » = clip avatar n°, image n°, animation n°, b-roll n°, preuve n°.
 3. **Clips avatar** : pour chacun, l'extrait audio, sa durée, le format (9:16 ou 1:1), la timeline des mots, le geste attendu et son moment, et le prompt Seedance 2.5 complet (gabarit 2).
 4. **Prompts** complets : images statiques, objets détourés, images de départ et animations H3 (étapes calées sur les mots).
-5. **Fiches b-roll** : une par plan (gabarit 7), classées par importance.
+5. **Fiche b-rolls en HTML, livrée dès le découpage** (obligatoire, envoyée à l'utilisateur tout de suite pour qu'il cherche pendant la production) : ajoute la clé `brolls` à `decoupage.json` (une entrée par b-roll : `id`, `debut`, `fin`, `phrase`, `importance`, `voir`, `profil`, `mots_fr`, `mots_en`, `hashtags`, `eviter`, `format`, d'après le gabarit 7), puis `python3 scripts/fiche_brolls.py decoupage.json brolls-a-trouver.html --titre "<marque> · <sujet>" --depot "<dossier de dépôt>"`. Chaque carte donne la phrase, son moment dans l'audio, la durée de la vidéo à trouver (audio + 1 s), les mots-clés à copier et le nom du fichier (`broll_01.mp4`…). Crée aussi le dossier de dépôt (`talking_head_broll_<N>` à la racine du studio, N = numéro du talking head) et donne son lien.
 6. **Accroche** : 3 propositions de bandeau (6 à 12 mots, promesse ou menace).
 7. **Preuves à fournir** : captures nécessaires et zone à surligner.
 
@@ -128,9 +128,9 @@ Après validation du découpage et demande explicite. Lis `references/modeles.md
 
 Lis `references/montage-controle.md`.
 
-1. Vérifie que tout est là : voix, clips avatar (durée, format, résolution), b-rolls, générations, preuves, charte. Liste ce qui manque au lieu de deviner.
+1. **Récupère les b-rolls** : `python3 scripts/recuperer_brolls.py <dossier de dépôt> decoupage.json montage/public/broll`. Le script retrouve les fichiers mal nommés, restaure depuis l'historique git un fichier vidé par un renommage, coupe le son, recadre en 9:16 les vidéos horizontales, garde les premières secondes utiles et affiche un tableau. Montre ce tableau à l'utilisateur ; un b-roll manquant ou trop court se signale, il ne se devine pas. Vérifie aussi voix, clips avatar, générations, preuves, charte.
 2. Normalise les vidéos (`preparer_medias.sh`), range-les dans `public/`, construis la **piste voix hybride** (voix Seedance des clips avatar + voix off ailleurs, section « Voix hybride » de `montage-controle.md`), puis écris `montage.json` avec tous les temps recalés sur cette piste et les sous-titres (texte du script, temps de l'audio).
-3. Images fixes de contrôle aux moments clés, puis rendu complet en arrière-plan (`rendre.sh`), contrôle (`controler.py`), corrections, finalisation (`finaliser.sh`).
+3. Images fixes de contrôle aux moments clés, puis rendu complet en arrière-plan (`rendre.sh`), finalisation (`finaliser.sh`), puis **contrôle automatique** : `python3 scripts/controler_montage.py out/final.mp4 montage.json script.txt --sortie controle_<passe>` (format, durée, volume, plans continus, médias présents, clips avatar assez longs, sous-titres par plan et identiques au script, voix complète par Whisper, pauses, planches d'images). **3 passes minimum** : corrige chaque point « À CORRIGER », regarde les planches, relance le rendu, recontrôle. Livre le dernier `rapport_controle.md` avec la vidéo.
 4. Livre la vidéo finale dans le dossier de l'utilisateur, avec `montage.json` (pour les retouches) et, sur demande, une feuille de montage CapCut.
 
 Retouches (« ce zoom est trop long », « enlève ce b-roll ») : modifie `montage.json`, vérifie avec une image fixe, relance le rendu.

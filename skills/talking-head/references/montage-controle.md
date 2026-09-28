@@ -23,6 +23,10 @@ Les clips avatar portent leur propre voix (générée par Seedance, lèvres sync
 
 Exemple complet : `runs/2026-09-28_claire-cheveux-gris-carences_talking-head/montage/construire_montage.py`.
 
+## Variante : voix off d'origine partout (clips recalés)
+
+Pour garder une voix parfaitement uniforme : son Seedance coupé, voix off ElevenLabs sur toute la vidéo, et chaque clip avatar recalé phrase par phrase sur la voix off (repères = début de chaque phrase dans le clip et dans la voix off ; entre deux repères, lecture légèrement accélérée ou ralentie, image par image). Les temps du montage sont alors ceux du découpage d'origine. Exemple : `construire_montage.py --voix-off` dans le run du 2026-09-28. Limite : la synchro des lèvres est calée par phrase, pas par syllabe ; éviter les vitesses hors de 0,7 à 1,3.
+
 ## Règles de calage
 
 - La piste voix du montage (`audio`, voix hybride) est posée à 0 s. Tous les temps de `montage.json` sont des temps absolus de cette voix, en secondes.
@@ -93,7 +97,7 @@ Positions `x`, `y`, `w`, `h` : fractions de la largeur ou de la hauteur de l'ima
 1. Écris `montage.json` à partir de `decoupage.json` (mêmes temps), des fichiers réellement reçus et générés, et de la charte.
 2. Rends 3 à 5 images fixes aux moments clés (accroche, première animation, une preuve, un chapitre, le CTA) et regarde-les avant le rendu complet.
 3. Rendu complet en arrière-plan.
-4. Contrôle avec `python3 <dossier du skill>/scripts/controler.py out/video.mp4 montage.json` : planches de 8 images autour de chaque coupe, planches générales à 2 i/s, mesure du volume (EBU R128).
+4. Contrôle avec `python3 <dossier du skill>/scripts/controler_montage.py out/final.mp4 montage.json script.txt --sortie controle_<passe>` : rapport OK / À CORRIGER (format, durée, volume, continuité des plans, médias, longueur des clips avatar, sous-titres, voix complète par Whisper, pauses) et planches d'images (8 images autour de chaque coupe, planches générales à 2 i/s). Trois passes minimum.
 5. Regarde les planches (coupes, lèvres, textes), corrige `montage.json`, relance.
 6. Finalise : `bash <dossier du skill>/scripts/finaliser.sh out/video.mp4 out/<nom>_final.mp4` (volume normalisé, lecture rapide sur mobile). C'est ce fichier qui est livré.
 
