@@ -20,10 +20,11 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | clip-musical | 000 |
 | zack-d-style | 000 |
 | le-montage | 000 |
-| talking-head | 000 |
+| talking-head | 001 |
 
 ## Historique
 
 | Fichier | Concept | Date | N° | Marque / sujet | Run source | Durée / format |
 |---|---|---|---|---|---|---|
 | `2026-09-25_papercut_001.mp4` | papercut | 2026-09-25 | 001 | Claire · guide racine (CTA « GUIDE ») | `runs/2026-09-25_claire-guide-racine_papercut/` | 31,7 s · 9:16 · 1080×1920 |
+| `2026-09-28_talking-head_001.mp4` | talking-head | 2026-09-28 | 001 | Claire · cheveux gris et carences (CTA « GUIDE ») | `runs/2026-09-28_claire-cheveux-gris-carences_talking-head/` | 56,7 s · 9:16 · 1080×1920 |

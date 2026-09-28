@@ -46,10 +46,12 @@ Tarif KIE standard : 1 crédit ≈ 0,005 $.
 | Image I1 | v2 | nano-banana-2 1K, style scientifique E1 | 9e78d92cc4d48711179e94e3baa5ecd7 | success | `sorties/images/I1_v2.png` | **retenu** | 8 cr |
 | Image I2 | v2 | nano-banana-2 1K, style scientifique E1 | 29d005988ecbcb4a945a13d846642a10 | success | `sorties/images/I2_v2.png` | **retenu** | 8 cr |
 | Image I3 | v2 | nano-banana-2 1K, style scientifique E1 | 829a7265ade84ba14b985d2d842692c1 | success | `sorties/images/I3_v2.png` | **retenu** | 8 cr |
-| Animation E1 | v1 | minimax-h3/image-to-video 768P, 9 s | 5ef89a00b9d61c06848886c4c1b63e5e | success | `sorties/animation/E1_v1.mp4` | en attente de validation | 72 cr |
+| Animation E1 | v1 | minimax-h3/image-to-video 768P, 9 s | 5ef89a00b9d61c06848886c4c1b63e5e | success | `sorties/animation/E1_v1.mp4` | **retenue** | 72 cr |
 
 **Total : 5362 crédits ≈ 26.81 $.**
 
 Leçon : sur KIE, Seedance 2.5 ne combine pas première image et audio. Avec l'audio en simple référence et « Image 1 / Audio 1 » écrit sans balise, les lèvres ne suivent pas la voix, et le recalage Volcengine rend un résultat peu naturel (abandonné).
 
 Recette validée : Seedance 2.5 multimodal, `generate_audio: true`, image de départ en `@Image1`, extrait de la voix off en `@Audio1` comme modèle de voix, texte exact entre guillemets (chiffres en lettres), direction d'émotion phrase par phrase, consigne de prononciation pour les mots difficiles (ex. « carences »). Seedance génère la voix et les lèvres ensemble.
+
+Montage : rendu Remotion local (aucun crédit). Créa finale : `creas/talking-head/2026-09-28_talking-head_001.mp4`.
