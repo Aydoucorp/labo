@@ -41,7 +41,7 @@ Aucun produit à vendre, aucun appel, une seule voix.
 | `references/prompts.md` | avant toute génération (image de départ, scène avatar Seedance 2.5, images, objets détourés, animations, b-roll de secours, fiches de recherche) |
 | `references/modeles.md` | avant la première génération (rôle de chaque modèle, réglages, clip test, budget, journal) |
 | `references/montage-controle.md` | avant le montage (gabarit Remotion, format de `montage.json`, contrôles) |
-| `scripts/` (chemins relatifs au dossier du skill) | `transcrire.py`, `couper_audio.py`, `fiche_brolls.py` (fiche HTML des b-rolls), `recuperer_brolls.py` (récupération et préparation des b-rolls déposés), `preparer_medias.sh`, `rendre.sh`, `controler.py`, `controler_montage.py` (contrôle automatique et rapport), `finaliser.sh` |
+| `scripts/` (chemins relatifs au dossier du skill) | `transcrire.py`, `couper_audio.py`, `fiche_brolls.py` (fiche HTML des b-rolls), `recuperer_brolls.py` (récupération et préparation des b-rolls déposés), `preparer_medias.sh`, `rendre.sh`, `controler.py`, `controler_montage.py` (contrôle automatique et rapport), `comparer_synchro.py` (écart mot par mot entre la voix d'un clip Seedance et la voix off), `finaliser.sh` |
 | `montage-remotion/` | gabarit de montage testé, piloté par `montage.json` (exemple : `montage.exemple.json`) |
 
 Le skill ne désigne aucun fournisseur. Les générations passent par le service ou le connecteur disponible dans la session ; si des instructions propres à ce service sont installées ailleurs (dossier ou skill dédié), suis-les pour les noms exacts des champs, l'envoi des fichiers et le suivi des tâches.
@@ -59,7 +59,7 @@ Ne demande ni niche, ni cible, ni ton, ni langue : déduis-les du script et de l
 - **Format final** : 9:16, 1080 x 1920, 30 i/s, H.264 + AAC.
 - **Clips avatar** (Seedance 2.5) : 9:16 pour le plein écran, **1:1** pour la moitié haute de l'écran partagé (recadré en 1080 x 960), 1080p, 4 à 30 s par clip.
 - **Caméra fixe** sur tous les clips avatar. Le dynamisme vient des zooms au montage : A (100 %), B (environ 115 %), C (environ 130 %), comme les 3 caméras d'un vrai podcast.
-- **Voix hybride** : sur les passages avatar, la voix générée par Seedance dans le clip (lèvres synchrones) ; ailleurs, la voix off ElevenLabs d'origine, jamais régénérée ni accélérée. Les morceaux sont mis bout à bout, ramenés au même volume, et le découpage est recalé sur cette nouvelle piste (`montage-controle.md`). Le son des b-rolls et des animations est toujours coupé.
+- **Voix hybride** : sur les passages avatar, la voix générée par Seedance dans le clip (lèvres synchrones) ; ailleurs, la voix off ElevenLabs d'origine, jamais régénérée ni accélérée. Les morceaux sont mis bout à bout, ramenés au même volume, et le découpage est recalé sur cette nouvelle piste (`montage-controle.md`). Le son des b-rolls et des animations est toujours coupé. Variante si l'utilisateur veut une voix parfaitement uniforme : voix off d'origine partout, son Seedance coupé, clips recalés phrase par phrase (section « Variante » de `montage-controle.md`) ; demande-lui laquelle il préfère à la première vidéo et note son choix dans `_config/charte.json`.
 - **Modèles** : GPT Image 2 en 1K (images de départ, images statiques, objets détourés), Soul (casting fictif si besoin), Seedance 2.5 (scènes avatar), MiniMax H3 (animations éducatives depuis une image de départ, b-roll de secours).
 - **Montage** : FFmpeg + Remotion (gabarit fourni).
 - **Aucun texte généré** dans les images et vidéos : tout texte est ajouté au montage.
