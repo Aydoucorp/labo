@@ -11,9 +11,21 @@ Le montage est fait par code : FFmpeg prépare et contrôle les médias, Remotio
 5. Une image fixe pour vérifier un moment : `npx remotion still src/index.js Main out/t.png --props=montage.json --frame=<image>`.
 6. Si Chromium n'est pas trouvé, passe `--browser-executable=<chemin>` ; le script cherche d'abord `/opt/pw-browsers/`.
 
+## Voix hybride (recette validée)
+
+Les clips avatar portent leur propre voix (générée par Seedance, lèvres synchrones). La piste voix du montage est donc reconstruite :
+
+1. Pour chaque clip avatar retenu : bornes de parole mesurées sur son son (`ffmpeg -af silencedetect=n=-40dB:d=0.15`, plus Whisper pour repérer une respiration prise pour un mot), marge de 0,12 s avant et 0,16 s après.
+2. Pour chaque passage illustré : extrait de la voix off d'origine coupé dans ses silences (`mots.json`).
+3. Morceaux mis bout à bout dans l'ordre du script, chacun ramené à -18 LUFS, fondus de 20 à 30 ms ; la piste obtenue devient `audio` dans `montage.json` et tous les temps sont recalculés sur elle (clip avatar : `clipStart` = début du morceau moins l'entrée coupée dans le clip).
+4. Sous-titres : texte du script, temps de l'audio (Whisper sur les clips avatar) ; une nouvelle ligne à chaque morceau (`br: true` sur le premier mot) pour qu'aucune ligne n'enjambe deux plans.
+5. Contrôle : Whisper sur la piste entière (tout le script, dans l'ordre, sans doublon, aucune pause de plus de 0,8 s).
+
+Exemple complet : `runs/2026-09-28_claire-cheveux-gris-carences_talking-head/montage/construire_montage.py`.
+
 ## Règles de calage
 
-- La voix maître (`audio`) est posée à 0 s et n'est jamais modifiée. Tous les temps de `montage.json` sont des temps absolus de cette voix, en secondes.
+- La piste voix du montage (`audio`, voix hybride) est posée à 0 s. Tous les temps de `montage.json` sont des temps absolus de cette voix, en secondes.
 - Chaque plan est converti en images à partir de ses temps absolus (pas de cumul d'arrondis). Les plans de base (`segments`) doivent se suivre sans trou ni chevauchement, de 0 à `durationSec`.
 - Clip avatar : `clipStart` = temps absolu de l'image 0 du clip, c'est-à-dire le `clipStart` écrit par `couper_audio.py` (début du passage moins la marge). Le gabarit saute automatiquement le bon nombre d'images pour que les lèvres tombent sur la voix. Le son des clips est coupé.
 - Un même clip avatar peut servir à plusieurs plans (changement de zoom A/B/C au milieu d'un passage) : même `src`, même `clipStart`, `start` différent.
@@ -24,7 +36,7 @@ Le montage est fait par code : FFmpeg prépare et contrôle les médias, Remotio
 ```json
 {
   "fps": 30, "width": 1080, "height": 1920, "durationSec": 62.4,
-  "audio": "audio/voix.mp3",
+  "audio": "audio/voix.mp3", "bg": "#FAF6F3",
   "music": {"src": "audio/musique.mp3", "volume": 0.06},
   "theme": {"accent": "#E3262F", "accent2": "#FFD400", "subBox": "#FFFFFF", "subText": "#141414", "subDim": "#A3A3A3",
             "bannerBg": "#D7141A", "bannerText": "#FFFFFF", "infoBg": "#FFF1EA", "infoText": "#4A2A1A", "followBlue": "#1D8CF8"},
@@ -55,7 +67,7 @@ Champs communs : `type`, `start`, `end`, `enter: "circle"` (entrée par cercle, 
 
 `words` (typo cinétique) : [{`t`, `text`, `style` (`normal`, `light`, `accent`, `serif`, `giant`), `color`, `br` (retour à la ligne avant)}]. Un mot par entrée, `t` = attaque du mot moins 0,05 s.
 
-Sous-titres masqués par défaut pendant : `split`, `edu`, `kinetic`, `letterbox`, `infolist`.
+Sous-titres masqués par défaut pendant : `split`, `edu`, `kinetic`, `letterbox`, `infolist`. Une ligne de sous-titres se termine toujours sur `.`, `!`, `?`, `:` ou avant un mot marqué `"br": true` (premier mot d'un plan). `bg` (racine) = couleur de fond visible pendant les ouvertures en cercle : mettre la couleur de fond de la charte.
 
 ### Surimpressions (`overlays`)
 
@@ -63,7 +75,7 @@ Champs communs : `type`, `start`, `end`, `hideSubs`, `subY`. Sous-titres masqué
 
 | type | Usage | Champs |
 |---|---|---|
-| `bignumber` | chiffre clé sur l'avatar | `text`, `label`, `y`, `size`, `color` |
+| `bignumber` | chiffre clé sur l'avatar | `text`, `label`, `y`, `size`, `color`, `glow` (halo, couleur CSS) |
 | `doc` | capture de preuve + surligneur | `src`, `y`, `w`, `full`, `highlights`: [{`t`, `x`, `y`, `w`, `h`, `dur`, `color`}] (fractions de l'image) |
 | `chapter` | titre de chapitre de liste | `number`, `title`, `media`, `mediaFrom`, `y`, `numColor` |
 | `cutout` | objet détouré qui pope | `src`, `x`, `y`, `w`, `rotate`, `text`, `textT`, `textSize`, `textColor`, `textRotate` |

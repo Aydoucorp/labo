@@ -209,7 +209,7 @@ def main():
     overlays = [
         {"type": "flash", "t": a01["start"], "color": "#C9805F"},
         {"type": "bignumber", "start": round(t_30 - 0.06, 3), "end": round(wt("héréditaire") + 0.75, 3), "text": "30\u00a0%", "label": "héréditaire",
-         "y": 0.56, "color": "#FAF6F3"},
+         "y": 0.56, "color": "#FAF6F3", "glow": "rgba(168,85,58,.65)"},
         {"type": "label", "start": round(wt("follicules") - 0.05, 3), "end": m1["end"], "text": "Follicule", "x": 0.33, "y": 0.62, "align": "right", "line": 70, "box": True, "color": "#7A4351"},
         {"type": "label", "start": round(wt("catalase") - 0.05, 3), "end": m1["end"], "text": "Catalase", "x": 0.67, "y": 0.72, "line": 70, "box": True, "color": "#A8553A"},
         {"type": "label", "start": round(wt("peroxyde") - 0.05, 3), "end": m1["end"], "text": "H\u2082O\u2082", "x": 0.33, "y": 0.78, "align": "right", "line": 70, "box": True, "color": "#7A4351"},

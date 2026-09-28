@@ -13,7 +13,7 @@ export const chunkWords = (words, maxWords = 4, maxChars = 26, gap = 0.45) => {
   words.forEach((w, i) => {
     const prev = cur[cur.length - 1];
     const len = cur.reduce((a, x) => a + x.w.length + 1, 0) + w.w.length;
-    if (prev && (w.s - prev.e > gap || cur.length >= maxWords || len > maxChars)) flush();
+    if (prev && (w.br || /[.!?:]$/.test(prev.w) || w.s - prev.e > gap || cur.length >= maxWords || len > maxChars)) flush();
     cur.push(w);
     if (/[.!?;:,]$/.test(w.w) && cur.length >= 2) flush();
   });

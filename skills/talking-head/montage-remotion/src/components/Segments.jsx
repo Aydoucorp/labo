@@ -175,7 +175,7 @@ export const InfoListSeg = ({seg, fps, th}) => {
             display: 'flex', alignItems: 'center', opacity: frame >= appear ? s : 0, transform: `translateY(${(1 - s) * 30}px)`, filter: `blur(${(1 - s) * 6}px)`}}>
             <div style={{flex: 1, color: th.infoText, fontFamily: FONT}}>
               <div style={{fontSize: 120, fontWeight: 800, lineHeight: 1}}>{r.title}</div>
-              <div style={{fontSize: 34, fontWeight: 500, marginTop: 10, lineHeight: 1.3, maxWidth: width * 0.5}}>
+              <div style={{fontSize: 42, fontWeight: 500, marginTop: 12, lineHeight: 1.3, maxWidth: width * 0.52}}>
                 {(r.parts || []).map((p, k) => {
                   const marked = p.mark != null && tNow >= p.mark;
                   return <span key={k} style={{fontWeight: p.bold ? 800 : 500, background: marked ? th.accent2 : 'transparent', transition: 'none'}}>{p.s}</span>;
@@ -208,7 +208,7 @@ export const KineticSeg = ({seg, durFrames, th}) => {
 };
 
 // Entrée par cercle qui s'ouvre (changement de partie, ex : vers l'animation éducative).
-export const CircleWipe = ({children, frames = 10, cx = '70%', cy = '15%'}) => {
+export const CircleWipe = ({children, frames = 8, cx = '70%', cy = '15%'}) => {
   const frame = useCurrentFrame();
   const r = interpolate(frame, [0, frames], [0, 160], {extrapolateRight: 'clamp'});
   return <AbsoluteFill style={{clipPath: `circle(${r}% at ${cx} ${cy})`}}>{children}</AbsoluteFill>;

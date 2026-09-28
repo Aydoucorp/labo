@@ -36,7 +36,7 @@ export const Main = (props) => {
   };
 
   return (
-    <AbsoluteFill style={{backgroundColor: '#000'}}>
+    <AbsoluteFill style={{backgroundColor: props.bg || '#000'}}>
       {segs.map((seg, i) => {
         const C = SEGMENTS[seg.type];
         if (!C) return null;

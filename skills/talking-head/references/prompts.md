@@ -22,23 +22,38 @@ Contradictions à corriger avant validation : avatar debout alors que la scène 
 
 ## 2. Scène vidéo de l'avatar (Seedance 2.5)
 
-Principe Hotline : la scène est générée à partir de l'image de départ, avec un modèle vidéo dialogué. Ici la voix n'est pas inventée par le modèle : c'est l'extrait de la voix off ElevenLabs qui pilote les lèvres.
+Principe Hotline : la scène est générée à partir de l'image de départ, avec un modèle vidéo dialogué. **Recette validée (2026-09-28)** : Seedance génère lui-même la voix et les lèvres (`generate_audio: true`), en imitant la voix de l'extrait ElevenLabs fourni comme référence audio. Les lèvres sont alors naturellement synchrones ; aucun synchroniseur labial après coup (rendu jugé peu naturel).
 
-Réglages : image de départ validée (9:16 pour le plein écran, 1:1 pour l'écran partagé) + extrait audio du clip (`audio_avatar/<ID>.wav`), même ratio que l'image, résolution 1080p, durée = durée de l'extrait arrondie à la seconde supérieure (4 à 30 s), caméra verrouillée.
+Réglages : mode « référence multimodale » (Seedance 2.5 sur KIE n'accepte pas première image + audio ensemble) : `reference_image_urls` = [image de départ validée], `reference_audio_urls` = [extrait audio du clip, 2 à 30 s], `generate_audio: true`, même ratio que l'image, durée = durée de l'extrait arrondie à la seconde supérieure (4 à 30 s), caméra verrouillée. Script : `scripts/kie_seedance.py --generate-audio` (dossier `scripts/` du studio).
 
-Si l'interface ne permet pas de combiner « image de départ imposée » et « audio de référence » (cas fréquent : les deux modes s'excluent), passe l'image de départ comme image de référence et écris dans le prompt qu'elle est la première image exacte. Vérifie sur le clip test que le cadre et l'identité sont conservés.
+**Balises de référence obligatoires** : dans le prompt, chaque fichier joint est désigné par sa balise, dans l'ordre d'envoi : `@Image1` (première image de `reference_image_urls`), `@Audio1` (premier audio de `reference_audio_urls`), puis `@Image2`, `@Audio2`… Jamais « Image 1 » ou « Audio 1 » en texte libre : sans la balise, le modèle ne relie pas la consigne au fichier (cause du décalage lèvres / voix sur les premiers clips).
+
+Règles d'écriture de la parole :
+- Texte exact entre guillemets, **chiffres et symboles écrits en toutes lettres** (« trente pour cent », « B douze »).
+- **Prononciation** : pour chaque mot difficile ou mal prononcé au clip test, une ligne `Pronunciation:` (ex. « carences » = ka-RANSS, deux syllabes). Relancer uniquement le clip concerné.
+- **Émotion phrase par phrase** : ton, débit, mot sur lequel insister, pause, geste daté.
+- Quand l'extrait audio contient d'autres mots que ceux à dire (passage très court élargi à 4 s), ajouter « Only borrow the voice from @Audio1, not its words » ou fournir comme voix un autre extrait propre (ex. celui du clip A01).
 
 ```text
-Create a [DURATION]-second [RATIO] photorealistic podcast talking-head shot, [LANGUAGE] speech. One continuous locked-off shot, natural real-time speed.
-REFERENCES: Image 1 = the exact first frame and the only identity, wardrobe, microphone, desk, background, lighting and framing reference. Audio 1 = the exact voice to lip-sync, from its first to its last syllable; do not change, speed up or replace it.
-STARTING STATE: The person from Image 1, seated in the same pose, same framing, mouth closed, [HANDS POSITION]. Only this person is visible.
-PERFORMANCE: Natural podcast delivery, gaze slightly off-camera toward an unseen interviewer [or: toward the camera for the call to action], subtle head movements, blinking, natural breathing, small nods on key words. [GESTURE INTENTION with its moment, e.g. "raises two fingers on 'number two' around 1.2 s" / "counts on fingers during the list" / "open palm while explaining" / "leans in slightly on the key figure"]. Hands stay below the microphone and never cover the mouth. No repetitive gesture loop.
-TIMELINE AND EXACT WORDS: [START-END s: "exact words from the transcript" ; reaction or gesture] [one line per phrase of the audio excerpt].
-AUDIO: Lip sync only to Audio 1, precise on every syllable. Mouth closed and still during silences. No music, no added sound effects, no other voice.
-CONTINUITY: Same person, clothes, microphone, desk, background and lighting as Image 1 for the whole shot. Camera never moves, never zooms, never cuts. No text, no subtitles, no logo.
+Create a [DURATION]-second [RATIO] photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 ([seated at the desk, waist up] / [square framing, head and shoulders]).
+
+REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is the reference of HER/HIS voice: reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). [Only borrow the voice from @Audio1, not its words.] Do not use any other voice.
+
+SPEECH: [She/He] speaks [LANGUAGE], in [her/his] own voice from @Audio1, saying exactly these words and nothing else:
+"[EXACT WORDS, numbers written in full]"
+[Pronunciation: "word" is pronounced ...]
+
+EMOTION AND DELIVERY: [tone of the whole clip]. "[phrase 1]" [how: calm / intriguing / slower / lower]; [short pause]; "[phrase 2]" with emphasis on "[key word]" [...].
+
+PERFORMANCE: [Gaze slightly off-camera toward an unseen interviewer / looks straight into the camera for the call to action]. [GESTURE with its moment, e.g. "raises three fingers on 'trois'", "open palm on 'signal'"]. Natural blinking and breathing, subtle head movements, lips perfectly synchronized with every syllable, mouth closed and still before the first word and after the last word. Hands stay below the microphone and never cover the mouth. No repetitive gesture loop.
+
+AUDIO: Only [her/his] voice, close podcast microphone sound, quiet room tone. No music, no sound effects, no other voice.
+CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @Image1 for the whole shot. Camera never moves, never zooms, never cuts. No text, no subtitles, no captions, no logo.
 ```
 
-Pour un clip d'écran partagé, précise « square framing identical to Image 1, head and shoulders ». Pour le CTA final, regard caméra et léger sourire à la dernière phrase.
+Contrôle de chaque clip reçu : transcription Whisper (mots exacts, prononciation), identité, cadre, lèvres. Les mots mal prononcés se corrigent par la ligne `Pronunciation:` et une relance du seul clip.
+
+Pour le CTA final, regard caméra et léger sourire à la dernière phrase. Ne jamais citer une phrase entre guillemets hors de la section SPEECH (risque de sous-titres incrustés).
 
 ## 3. Image statique (collage, plan d'illustration, rond d'infographie)
 

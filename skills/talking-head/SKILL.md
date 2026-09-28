@@ -23,11 +23,11 @@ Aucun produit à vendre, aucun appel, une seule voix.
 ## Ce qui vient du skill Hotline (à respecter)
 
 1. **D'abord l'image de départ** : l'avatar assis dans le studio, avec la bonne tenue, la bonne lumière, le bon cadrage et la posture de départ. Elle est générée à partir de la référence de l'avatar avec un modèle d'image : GPT Image 2 (édition depuis la référence) ou Soul (nouveau casting fictif).
-2. **Ensuite la scène vidéo à partir de cette image**, avec un modèle vidéo dialogué : **Seedance 2.5**. Différence avec Hotline : la voix n'est pas inventée par le modèle, c'est l'extrait de la voix off ElevenLabs qui pilote les lèvres.
+2. **Ensuite la scène vidéo à partir de cette image**, avec un modèle vidéo dialogué : **Seedance 2.5**. La voix est générée par Seedance en même temps que les lèvres, en imitant l'extrait de la voix off ElevenLabs joint en référence (`@Audio1`) : les lèvres sont synchrones par construction.
 3. **Jeu** : regard légèrement hors caméra, petites réactions, respiration, gestes utiles au propos, aucune boucle de geste répétitive, mains jamais devant la bouche.
 4. **Continuité** : chaque clip repart de la même image de départ validée (même personne, tenue, micro, bureau, lumière, cadre). Ne relance pas le casting sans raison.
-5. **La voix pilote les lèvres** dès la génération. Ne colle jamais une nouvelle voix sur des lèvres déjà animées sans resynchronisation.
-6. **Références réellement jointes** : chaque image ou audio nommé dans un prompt doit avoir été envoyé. Un chemin local ou le mot « Image 1 » ne vaut pas un fichier téléversé.
+5. **Voix et lèvres générées ensemble** (`generate_audio: true`). Ne colle jamais une autre voix sur des lèvres déjà animées, et n'utilise pas de synchroniseur labial après coup.
+6. **Références réellement jointes et balisées** : chaque image ou audio joint est désigné dans le prompt par sa balise `@Image1`, `@Image2`, `@Audio1`… (ordre d'envoi), jamais par « Image 1 » en texte libre. Un chemin local ne vaut pas un fichier téléversé.
 7. **Prompts complets** : tous les champs remplis, aucune référence absente, jamais « comme dans l'exemple ».
 8. **Une demande de prompts ou de découpage n'autorise pas une génération payante.** Ne redemande pas une autorisation déjà donnée.
 9. **Journal** de chaque génération, contrôle des fichiers réellement obtenus, originaux conservés.
@@ -59,7 +59,7 @@ Ne demande ni niche, ni cible, ni ton, ni langue : déduis-les du script et de l
 - **Format final** : 9:16, 1080 x 1920, 30 i/s, H.264 + AAC.
 - **Clips avatar** (Seedance 2.5) : 9:16 pour le plein écran, **1:1** pour la moitié haute de l'écran partagé (recadré en 1080 x 960), 1080p, 4 à 30 s par clip.
 - **Caméra fixe** sur tous les clips avatar. Le dynamisme vient des zooms au montage : A (100 %), B (environ 115 %), C (environ 130 %), comme les 3 caméras d'un vrai podcast.
-- **Voix maître intouchable** : jamais régénérée, accélérée ni coupée ; seul son volume est normalisé à la fin. Le son de tous les clips générés est coupé au montage.
+- **Voix hybride** : sur les passages avatar, la voix générée par Seedance dans le clip (lèvres synchrones) ; ailleurs, la voix off ElevenLabs d'origine, jamais régénérée ni accélérée. Les morceaux sont mis bout à bout, ramenés au même volume, et le découpage est recalé sur cette nouvelle piste (`montage-controle.md`). Le son des b-rolls et des animations est toujours coupé.
 - **Modèles** : GPT Image 2 en 1K (images de départ, images statiques, objets détourés), Soul (casting fictif si besoin), Seedance 2.5 (scènes avatar), MiniMax H3 (animations éducatives depuis une image de départ, b-roll de secours).
 - **Montage** : FFmpeg + Remotion (gabarit fourni).
 - **Aucun texte généré** dans les images et vidéos : tout texte est ajouté au montage.
@@ -79,7 +79,7 @@ Le mode A ne déclenche jamais de génération payante. En mode B, annonce l'est
 
 1. **Image de départ 9:16** (gabarit 1a) : GPT Image 2 en édition depuis les photos de l'avatar, 1K. 2 à 4 propositions, une validée. Si l'utilisateur veut un nouveau personnage fictif au lieu de son avatar : casting avec Soul, puis GPT Image 2 en édition depuis le portrait Soul validé pour obtenir la scène studio.
 2. **Image de départ 1:1** (gabarit 1b) : même scène, en joignant aussi le 9:16 validé.
-3. **Clip test Seedance 2.5** (gabarit 2) : 5 à 8 s sur un extrait de voix off (une phrase du premier script, ou une phrase test en ElevenLabs). Contrôle identité, cadre, micro, lèvres syllabe par syllabe, bouche fermée dans les silences. Ajuste le prompt ou le mode d'envoi jusqu'à validation, puis note les réglages qui marchent.
+3. **Clip test Seedance 2.5** (gabarit 2, balises `@Image1` / `@Audio1`, `generate_audio: true`) : 5 à 8 s sur un extrait de voix off. Contrôle identité, cadre, micro, ressemblance de la voix, prononciation (Whisper), émotions, lèvres, bouche fermée dans les silences. Ajuste le prompt ou le mode d'envoi jusqu'à validation, puis note les réglages qui marchent.
 4. **Charte** à faire valider : couleur principale et secondaire, style des sous-titres, couleur du bandeau d'accroche, fond des infographies, style unique des animations éducatives (pictos plats sur fond uni, gravure annotée, ou rendu 3D médical dans des cercles lumineux), pseudo et photo du bouton « S'abonner ».
 5. **Rangement** dans le dossier de l'utilisateur : `_config/depart_9x16.png`, `_config/depart_1x1.png`, `_config/charte.json` (valeurs `theme` du montage, style d'animation, réglages Seedance validés). Relis-les à chaque vidéo au lieu de les recréer.
 

@@ -21,7 +21,7 @@ export const BigNumber = ({o, th, durFrames}) => {
     <div style={{position: 'absolute', left: 0, width, top: height * (o.y ?? 0.52), display: 'flex', justifyContent: 'center'}}>
       <div style={{textAlign: 'center', opacity: s * out, filter: `blur(${(1 - s) * 18 + (1 - out) * 12}px)`, transform: `scale(${0.7 + 0.3 * s})`}}>
         <div style={{fontFamily: FONT, fontWeight: 900, fontSize: o.size || 300, lineHeight: 0.9, color: o.color || '#EAF6FF',
-          textShadow: '0 0 40px rgba(120,190,255,.55), 0 8px 30px rgba(0,0,0,.5)', letterSpacing: -6}}>{o.text}</div>
+          textShadow: `0 0 40px ${o.glow || 'rgba(120,190,255,.55)'}, 0 8px 30px rgba(0,0,0,.5)`, letterSpacing: -6}}>{o.text}</div>
         {o.label ? <div style={{fontFamily: FONT, fontWeight: 700, fontSize: 60, color: '#FFFFFF', marginTop: 6, textShadow: '0 4px 18px rgba(0,0,0,.6)'}}>{o.label}</div> : null}
       </div>
     </div>
