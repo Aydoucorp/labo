@@ -65,19 +65,19 @@
  {
   "id": "A04",
   "src": "retenues/avatar_voix/A04.mp4",
-  "in": 0.9400000000000001,
+  "in": 1.48,
   "out": 2.74,
   "start": 42.91,
-  "end": 44.71,
-  "gain_db": 0.8
+  "end": 44.17,
+  "gain_db": 0.6
  },
  {
   "id": "M4",
   "src": "voix.mp3",
   "in": 44.64,
   "out": 51.08,
-  "start": 44.71,
-  "end": 51.15,
+  "start": 44.17,
+  "end": 50.61,
   "gain_db": 2.2
  },
  {
@@ -85,8 +85,8 @@
   "src": "retenues/avatar_voix/A05.mp4",
   "in": 0.03,
   "out": 6.0,
-  "start": 51.15,
-  "end": 57.12,
+  "start": 50.61,
+  "end": 56.58,
   "gain_db": 4.4
  }
 ]

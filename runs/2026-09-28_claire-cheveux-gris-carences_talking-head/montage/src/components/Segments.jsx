@@ -208,7 +208,7 @@ export const KineticSeg = ({seg, durFrames, th}) => {
 };
 
 // Entrée par cercle qui s'ouvre (changement de partie, ex : vers l'animation éducative).
-export const CircleWipe = ({children, frames = 10, cx = '70%', cy = '15%'}) => {
+export const CircleWipe = ({children, frames = 8, cx = '70%', cy = '15%'}) => {
   const frame = useCurrentFrame();
   const r = interpolate(frame, [0, frames], [0, 160], {extrapolateRight: 'clamp'});
   return <AbsoluteFill style={{clipPath: `circle(${r}% at ${cx} ${cy})`}}>{children}</AbsoluteFill>;

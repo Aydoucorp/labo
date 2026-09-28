@@ -25,7 +25,7 @@ PIECES = [
     {"id": "M2", "src": "voix.mp3", "cut": (25.64, 28.48)},
     {"id": "A03", "src": "retenues/avatar_voix/A03.mp4", "speech": (0.26, 6.57)},
     {"id": "M3", "src": "voix.mp3", "cut": (35.40, 42.95)},
-    {"id": "A04", "src": "retenues/avatar_voix/A04.mp4", "speech": (1.06, 2.58)},
+    {"id": "A04", "src": "retenues/avatar_voix/A04.mp4", "speech": (1.60, 2.58)},
     {"id": "M4", "src": "voix.mp3", "cut": (44.64, 51.08)},
     {"id": "A05", "src": "retenues/avatar_voix/A05.mp4", "speech": (0.15, 5.84)},
 ]
@@ -138,8 +138,8 @@ def subtitle_words():
                     fixed[-1] = {"w": "d'hydrogène", "s": fixed[-1]["s"], "e": w["e"]}
                 else:
                     fixed.append({**w, "w": MASTER_FIX.get(w["w"], w["w"])})
-            for w in fixed:
-                words.append({"w": w["w"], "s": at(pid, w["s"]), "e": at(pid, w["e"])})
+            for i, w in enumerate(fixed):
+                words.append({"w": w["w"], "s": at(pid, w["s"]), "e": at(pid, w["e"]), **({"br": True} if i == 0 else {})})
         else:
             ws = merge_tokens(avatar[pid])
             target = script_words(SCRIPT[pid])
@@ -148,7 +148,7 @@ def subtitle_words():
             onset = p["speech"][0]
             for i, (w, txt) in enumerate(zip(ws, target)):
                 s = max(w["s"], onset) if i == 0 else w["s"]
-                words.append({"w": txt, "s": at(pid, s), "e": at(pid, max(w["e"], s + 0.08))})
+                words.append({"w": txt, "s": at(pid, s), "e": at(pid, max(w["e"], s + 0.08)), **({"br": True} if i == 0 else {})})
     return words
 
 
@@ -219,7 +219,7 @@ def main():
         {"type": "follow", "start": round(t_envoie - 0.1, 3), "end": round(total, 3), "handle": "@les_cheveux_de_claire", "avatar": "images/profil.jpg", "y": 0.745, "clickAfter": 0.7},
     ]
     montage = {
-        "fps": 30, "width": 1080, "height": 1920, "durationSec": round(total, 3),
+        "fps": 30, "width": 1080, "height": 1920, "durationSec": round(total, 3), "bg": "#FAF6F3",
         "audio": "audio/voix_montage.wav",
         "theme": {"accent": "#A8553A", "accent2": "#F2D2C0", "subBox": "#FAF6F3", "subText": "#2E2A26", "subDim": "#B4ADA4",
                   "bannerBg": "#A8553A", "bannerText": "#FAF6F3", "infoBg": "#EFE7E0", "infoText": "#2E2A26", "cardBg": "#FAF6F3", "followBlue": "#A8553A"},
