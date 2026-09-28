@@ -7,7 +7,8 @@ Usage :
 
 - Seedance 2.5 n'accepte pas à la fois une première image imposée et un audio de référence :
   l'image est envoyée dans reference_image_urls, le prompt la déclare « exact first frame ».
-- Son du modèle désactivé (generate_audio=false) : le son du clip est coupé au montage.
+- Par défaut, son du modèle désactivé. Avec --generate-audio, Seedance fait parler le personnage lui-même
+  (voix et lèvres générées ensemble) ; l'audio de référence sert alors de modèle de voix (@Audio1 dans le prompt).
 - Lit KIE_API_KEY dans .env (via kie_image.py). La clé n'est jamais affichée.
 - Affiche une ligne JSON : taskId, état, crédits consommés, fichier reçu.
 """
@@ -26,6 +27,7 @@ def main():
     ap.add_argument("--duration", type=int, default=4)
     ap.add_argument("--ratio", default="9:16")
     ap.add_argument("--resolution", default="720p")
+    ap.add_argument("--generate-audio", action="store_true")
     a = ap.parse_args()
 
     img = a.image if a.image.startswith("http") else upload(a.image)
@@ -34,7 +36,7 @@ def main():
         "prompt": pathlib.Path(a.prompt_file).read_text(),
         "reference_image_urls": [img], "reference_audio_urls": [aud],
         "duration": a.duration, "aspect_ratio": a.ratio, "resolution": a.resolution,
-        "generate_audio": False}})
+        "generate_audio": a.generate_audio}})
     if task.get("code") != 200:
         sys.exit(f"création refusée : {task.get('code')} {task.get('msg')}")
     tid = task["data"]["taskId"]

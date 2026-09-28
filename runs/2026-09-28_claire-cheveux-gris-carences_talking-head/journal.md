@@ -22,7 +22,12 @@ Tarif KIE standard : 1 crédit ≈ 0,005 $.
 | Recalage lèvres A03 | v1 | volcengine/video-to-video-lip-sync (lite) | 9777a8d7b49340faa16a208dfd9ee7ab | success | `avatar/A03_v1_lipsync.mp4` | en attente de validation | 48 cr |
 | Recalage lèvres A04 | v1 | volcengine/video-to-video-lip-sync (lite) | b27e3298a1d76acd3537b9e365517a73 | success | `avatar/A04_v1_lipsync.mp4` | en attente de validation | 32 cr |
 | Recalage lèvres A05 | v1 | volcengine/video-to-video-lip-sync (lite) | bc9d6b223b83c9c086c40f0d1b4816cd | success | `avatar/A05_v1_lipsync.mp4` | en attente de validation | 40 cr |
+| Test voix native S01 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 (voix de référence) | 71b6f7fc1552dbd5b38381a538ffca35 | success | `avatar/S01_voix_v1.mp4` | en attente de validation (mots exacts selon Whisper) | 378 cr |
+| Test voix native A01 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 (voix de référence) | f7972aed71e5cc5ae5cc835fda7b2b18 | success | `avatar/A01_voix_v1.mp4` | en attente de validation (« blanchiment précoce » à vérifier à l'oreille) | 567 cr |
 
-**Total : 2634 crédits ≈ 13.17 $.**
+**Total : 3579 crédits ≈ 17.90 $.**
 
 Leçon : sur KIE, Seedance 2.5 ne combine pas première image et audio ; avec l'audio en simple référence, les lèvres ne suivent pas la voix. Solution retenue : garder les clips Seedance et recaler la bouche avec Volcengine video-to-video lip sync (≈ 8 cr/s).
+
+
+Correction : les prompts des premières générations Seedance écrivaient « Image 1 / Audio 1 » sans la balise `@`, et generate_audio était désactivé. Tests voix native : balises `@Image1` / `@Audio1`, Seedance génère voix et lèvres ensemble.
