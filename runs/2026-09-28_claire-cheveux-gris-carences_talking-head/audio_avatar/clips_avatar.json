@@ -1,0 +1,68 @@
+[
+ {
+  "id": "S01",
+  "debut": 0.0,
+  "fin": 5.32,
+  "format": "1:1",
+  "clipStart": 0.0,
+  "clipEnd": 5.62,
+  "duree": 5.62,
+  "duree_a_demander": 6,
+  "fichier": "audio_avatar/S01.wav"
+ },
+ {
+  "id": "A01",
+  "debut": 6.1,
+  "fin": 13.64,
+  "format": "9:16",
+  "clipStart": 5.8,
+  "clipEnd": 13.94,
+  "duree": 8.14,
+  "duree_a_demander": 9,
+  "fichier": "audio_avatar/A01.wav"
+ },
+ {
+  "id": "A02",
+  "debut": 23.36,
+  "fin": 25.54,
+  "format": "9:16",
+  "clipStart": 22.45,
+  "clipEnd": 26.45,
+  "duree": 4.0,
+  "duree_a_demander": 4,
+  "fichier": "audio_avatar/A02.wav"
+ },
+ {
+  "id": "A03",
+  "debut": 29.06,
+  "fin": 34.62,
+  "format": "9:16",
+  "clipStart": 28.76,
+  "clipEnd": 34.92,
+  "duree": 6.16,
+  "duree_a_demander": 7,
+  "fichier": "audio_avatar/A03.wav"
+ },
+ {
+  "id": "A04",
+  "debut": 43.58,
+  "fin": 44.52,
+  "format": "9:16",
+  "clipStart": 42.05,
+  "clipEnd": 46.05,
+  "duree": 4.0,
+  "duree_a_demander": 4,
+  "fichier": "audio_avatar/A04.wav"
+ },
+ {
+  "id": "A05",
+  "debut": 51.56,
+  "fin": 56.32,
+  "format": "9:16",
+  "clipStart": 51.26,
+  "clipEnd": 56.346,
+  "duree": 5.086,
+  "duree_a_demander": 6,
+  "fichier": "audio_avatar/A05.wav"
+ }
+]

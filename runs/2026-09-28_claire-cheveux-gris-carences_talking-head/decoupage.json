@@ -1,0 +1,210 @@
+{
+ "clips_avatar": [
+  {
+   "id": "S01",
+   "debut": 0.0,
+   "fin": 5.32,
+   "format": "1:1"
+  },
+  {
+   "id": "A01",
+   "debut": 6.1,
+   "fin": 13.64,
+   "format": "9:16"
+  },
+  {
+   "id": "A02",
+   "debut": 23.36,
+   "fin": 25.54,
+   "format": "9:16"
+  },
+  {
+   "id": "A03",
+   "debut": 29.06,
+   "fin": 34.62,
+   "format": "9:16"
+  },
+  {
+   "id": "A04",
+   "debut": 43.58,
+   "fin": 44.52,
+   "format": "9:16"
+  },
+  {
+   "id": "A05",
+   "debut": 51.56,
+   "fin": 56.32,
+   "format": "9:16"
+  }
+ ],
+ "plans": [
+  {
+   "id": "P01",
+   "debut": 0.0,
+   "fin": 5.9,
+   "type": "Écran partagé",
+   "zoom": "1:1",
+   "surimpression": "Bandeau titre (couture)",
+   "visuel": "Haut : avatar au micro. Bas : femme de 35 à 45 ans qui écarte ses cheveux et montre des racines grises (2 plans : raie avec racines grises, puis tempes grisonnantes en gros plan).",
+   "regle": "Accroche, recette 1",
+   "declencheur": "Plan bas 2 sur « ce » (3,28 s)",
+   "source": "S01 + b-roll B01, B02"
+  },
+  {
+   "id": "P02",
+   "debut": 5.9,
+   "fin": 9.8,
+   "type": "Avatar",
+   "zoom": "C",
+   "surimpression": "Gros chiffre « 30 % » (label « héréditaire »)",
+   "visuel": "Avatar serré, léger penché en avant sur le chiffre.",
+   "regle": "R8 (chiffre clé)",
+   "declencheur": "« 30 » à 6,56 s (apparition 6,50 s)",
+   "source": "A01"
+  },
+  {
+   "id": "P03",
+   "debut": 9.8,
+   "fin": 14.2,
+   "type": "Avatar + preuve",
+   "zoom": "B",
+   "surimpression": "Capture de la source du chiffre, surlignée",
+   "visuel": "Avatar, puis carte blanche qui monte avec la capture de la source, surligneur sur la phrase clé.",
+   "regle": "R6",
+   "declencheur": "Carte à 10,65 s (0,6 s après « Les »)",
+   "source": "A01 + preuve PR1"
+  },
+  {
+   "id": "P04",
+   "debut": 14.2,
+   "fin": 23.1,
+   "type": "Animation éducative",
+   "zoom": "-",
+   "surimpression": "Étiquettes : Follicule, Catalase, H₂O₂, Pigment",
+   "visuel": "Coupe d'un follicule pileux en pictos plats. Une enzyme (catalase) neutralise des bulles de peroxyde ; puis les bulles s'accumulent et la mèche se décolore de l'intérieur.",
+   "regle": "R5",
+   "declencheur": "Follicule 14,40 s · Catalase 16,64 s · H₂O₂ 18,50 s · décoloration 20,78 s",
+   "source": "Animation E1"
+  },
+  {
+   "id": "P05",
+   "debut": 23.1,
+   "fin": 25.6,
+   "type": "Avatar",
+   "zoom": "A",
+   "surimpression": "-",
+   "visuel": "Avatar, explication posée, paume ouverte.",
+   "regle": "Retour avatar après l'animation",
+   "declencheur": "-",
+   "source": "A02"
+  },
+  {
+   "id": "P06",
+   "debut": 25.6,
+   "fin": 28.85,
+   "type": "B-roll (carte)",
+   "zoom": "-",
+   "surimpression": "-",
+   "visuel": "Gros plan d'une raie aux racines blanches, lent zoom avant.",
+   "regle": "R1",
+   "declencheur": "Coupe 0,14 s avant « la catalase »",
+   "source": "B-roll B03"
+  },
+  {
+   "id": "P07",
+   "debut": 28.85,
+   "fin": 31.5,
+   "type": "Avatar",
+   "zoom": "C",
+   "surimpression": "-",
+   "visuel": "Avatar, compte 3 doigts sur « Trois carences ».",
+   "regle": "R8 + geste",
+   "declencheur": "Geste sur « Trois » (29,06 s)",
+   "source": "A03"
+  },
+  {
+   "id": "P08",
+   "debut": 31.5,
+   "fin": 35.3,
+   "type": "Avatar",
+   "zoom": "B",
+   "surimpression": "-",
+   "visuel": "Avatar, énumère B12, cuivre, fer sur les doigts.",
+   "regle": "R8 (noms abstraits)",
+   "declencheur": "-",
+   "source": "A03"
+  },
+  {
+   "id": "P09",
+   "debut": 35.3,
+   "fin": 43.35,
+   "type": "Infographie à lignes",
+   "zoom": "-",
+   "surimpression": "3 lignes : Cuivre, B12, Fer",
+   "visuel": "Fond crème, 3 lignes illustrées par des cheveux (pas par les nutriments) : chaque ligne apparaît sur son nom, la phrase se surligne pendant qu'elle est dite.",
+   "regle": "R7 + R2",
+   "declencheur": "Cuivre 35,78 s · B12 39,52 s · Fer 40,30 s",
+   "source": "Images I1, I2, I3"
+  },
+  {
+   "id": "P10",
+   "debut": 43.35,
+   "fin": 44.65,
+   "type": "Avatar",
+   "zoom": "A",
+   "surimpression": "-",
+   "visuel": "Insert avatar « Dans l'assiette ».",
+   "regle": "Relance d'attention",
+   "declencheur": "-",
+   "source": "A04"
+  },
+  {
+   "id": "P11",
+   "debut": 44.65,
+   "fin": 49.35,
+   "type": "Micro-montage (cartes)",
+   "zoom": "-",
+   "surimpression": "-",
+   "visuel": "5 photos d'aliments en carte arrondie, une par nom : foie, fruits de mer, œufs, viande rouge, légumineuses.",
+   "regle": "R7 (micro-montage)",
+   "declencheur": "foie 44,78 · fruits de mer 45,44 · œufs 46,50 · viande rouge 47,20 · légumineuses 48,18",
+   "source": "Images I4 à I8"
+  },
+  {
+   "id": "P12",
+   "debut": 49.35,
+   "fin": 51.35,
+   "type": "B-roll (plein écran)",
+   "zoom": "-",
+   "surimpression": "-",
+   "visuel": "Femme de 40 à 50 ans, pieds nus dehors au soleil du matin, tasse à la main.",
+   "regle": "R4",
+   "declencheur": "Coupe 0,23 s avant « Et un peu de soleil »",
+   "source": "B-roll B04"
+  },
+  {
+   "id": "P13",
+   "debut": 51.35,
+   "fin": 53.7,
+   "type": "Avatar",
+   "zoom": "B",
+   "surimpression": "-",
+   "visuel": "Avatar, regard caméra, sourire léger.",
+   "regle": "CTA",
+   "declencheur": "-",
+   "source": "A05"
+  },
+  {
+   "id": "P14",
+   "debut": 53.7,
+   "fin": 56.35,
+   "type": "Avatar",
+   "zoom": "C",
+   "surimpression": "Mot « GUIDE » + bouton « S'abonner »",
+   "visuel": "Avatar serré, regard caméra, « GUIDE » en grand sur la poitrine, bouton « S'abonner » qui se clique à la fin.",
+   "regle": "CTA",
+   "declencheur": "« GUIDE » à 54,60 s · bouton à 55,20 s",
+   "source": "A05"
+  }
+ ]
+}
