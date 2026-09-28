@@ -1,10 +1,27 @@
 {
-  "theme": {"accent": "#A8553A", "accent2": "#F2D2C0", "subBox": "#FAF6F3", "subText": "#2E2A26", "subDim": "#B4ADA4",
-            "bannerBg": "#A8553A", "bannerText": "#FAF6F3", "infoBg": "#EFE7E0", "infoText": "#2E2A26", "cardBg": "#FAF6F3", "followBlue": "#A8553A"},
+  "theme": {
+    "accent": "#A8553A",
+    "accent2": "#F2D2C0",
+    "subBox": "#FAF6F3",
+    "subText": "#2E2A26",
+    "subDim": "#B4ADA4",
+    "bannerBg": "#A8553A",
+    "bannerText": "#FAF6F3",
+    "infoBg": "#EFE7E0",
+    "infoText": "#2E2A26",
+    "cardBg": "#FAF6F3",
+    "followBlue": "#A8553A"
+  },
   "bg": "#FAF6F3",
-  "bignumber": {"color": "#FAF6F3", "glow": "rgba(168,85,58,.65)"},
+  "bignumber": {
+    "color": "#FAF6F3",
+    "glow": "rgba(168,85,58,.65)"
+  },
   "handle": "@les_cheveux_de_claire",
-  "images_depart": {"9:16": "depart_9x16.png", "1:1": "depart_1x1.png"},
+  "images_depart": {
+    "9:16": "depart_9x16.png",
+    "1:1": "depart_1x1.png"
+  },
   "style_illustrations": "flat vector educational illustration, clean dark outlines, cream background #FAF6F3, palette terracotta #A8553A, light terracotta #C9805F, plum #7A4351, dark brown, sage #8C9B86, silver #B4ADA4 ; no text",
   "seedance": {
     "model": "bytedance/seedance-2-5",
@@ -13,5 +30,6 @@
     "resolution": "720p",
     "prompt": "gabarit 2 de skills/talking-head/references/prompts.md (balises @Image1/@Audio1, SPEECH exact en toutes lettres, Pronunciation, EMOTION AND DELIVERY)",
     "valide_le": "2026-09-28"
-  }
+  },
+  "voix_montage": "voix off d'origine partout, son Seedance coupé, clips avatar recalés phrase par phrase (choix du 2026-09-28)"
 }

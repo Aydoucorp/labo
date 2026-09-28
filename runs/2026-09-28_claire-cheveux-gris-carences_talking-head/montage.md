@@ -1,6 +1,14 @@
 # Montage · Claire · Cheveux gris et carences · Talking head
 
-**Livré :** `creas/talking-head/2026-09-28_talking-head_001.mp4` (copie : `retenues/film/claire-cheveux-gris-carences-talking-head-v1.mp4`) · 56,7 s · 1080×1920 · 30 i/s · H.264 + AAC · -14,5 LUFS, pic -1,2 dBFS.
+**Créa finale retenue : version 2** (voix off d'origine partout) → `creas/talking-head/2026-09-28_talking-head_001.mp4` (copie : `retenues/film/claire-cheveux-gris-carences-talking-head-v2-voix-off.mp4`) · 56,4 s · -14,6 LUFS.
+
+## Version 2 (retenue)
+
+Son Seedance coupé, voix off ElevenLabs d'origine sur toute la vidéo, temps du découpage d'origine. Chaque clip avatar est recalé phrase par phrase sur la voix off (`python3 montage/construire_montage.py --voix-off`, fichier `montage/montage_voixoff.json`) ; vitesses par phrase entre 0,64 et 1,27. Contrôle automatique : `montage/rapport_controle_v2.md`.
+
+## Version 1 (voix hybride, non retenue)
+
+Fichier : `retenues/film/claire-cheveux-gris-carences-talking-head-v1.mp4` · 56,7 s · 1080×1920 · 30 i/s · H.264 + AAC · -14,5 LUFS, pic -1,2 dBFS.
 
 ## Voix
 
