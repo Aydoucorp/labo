@@ -50,7 +50,6 @@ Tarif KIE standard : 1 crédit ≈ 0,005 $.
 
 **Total : 5362 crédits ≈ 26.81 $.**
 
-Leçon : sur KIE, Seedance 2.5 ne combine pas première image et audio ; avec l'audio en simple référence, les lèvres ne suivent pas la voix. Solution retenue : garder les clips Seedance et recaler la bouche avec Volcengine video-to-video lip sync (≈ 8 cr/s).
+Leçon : sur KIE, Seedance 2.5 ne combine pas première image et audio. Avec l'audio en simple référence et « Image 1 / Audio 1 » écrit sans balise, les lèvres ne suivent pas la voix, et le recalage Volcengine rend un résultat peu naturel (abandonné).
 
-
-Correction : les prompts des premières générations Seedance écrivaient « Image 1 / Audio 1 » sans la balise `@`, et generate_audio était désactivé. Tests voix native : balises `@Image1` / `@Audio1`, Seedance génère voix et lèvres ensemble.
+Recette validée : Seedance 2.5 multimodal, `generate_audio: true`, image de départ en `@Image1`, extrait de la voix off en `@Audio1` comme modèle de voix, texte exact entre guillemets (chiffres en lettres), direction d'émotion phrase par phrase, consigne de prononciation pour les mots difficiles (ex. « carences »). Seedance génère la voix et les lèvres ensemble.
