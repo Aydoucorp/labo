@@ -86,6 +86,7 @@ Ne vont pas dans Drive (ils sont sur GitHub) : code et scripts, références tec
 | creas/le-montage | `17CXCyn0gLuCL6xgstBEB2Tp41AboHRKq` |
 | creas/talking-head | `1Pnvncr5Bn2-VoHNCD0Rx1XweyrNmeliV` |
 | skills/talking-head | `1tHAfP_iUIfeNt9zCMIeVxjM8AzaqrI-y` |
+| runs/2026-09-28_claire-cheveux-gris-carences_talking-head | `1Yly3bxgWu1-MnSl3U91BSr4huvDPViH5` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
