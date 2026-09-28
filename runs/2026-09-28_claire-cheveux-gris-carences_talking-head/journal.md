@@ -46,8 +46,9 @@ Tarif KIE standard : 1 crédit ≈ 0,005 $.
 | Image I1 | v2 | nano-banana-2 1K, style scientifique E1 | 9e78d92cc4d48711179e94e3baa5ecd7 | success | `sorties/images/I1_v2.png` | **retenu** | 8 cr |
 | Image I2 | v2 | nano-banana-2 1K, style scientifique E1 | 29d005988ecbcb4a945a13d846642a10 | success | `sorties/images/I2_v2.png` | **retenu** | 8 cr |
 | Image I3 | v2 | nano-banana-2 1K, style scientifique E1 | 829a7265ade84ba14b985d2d842692c1 | success | `sorties/images/I3_v2.png` | **retenu** | 8 cr |
+| Animation E1 | v1 | minimax-h3/image-to-video 768P, 9 s | 5ef89a00b9d61c06848886c4c1b63e5e | success | `sorties/animation/E1_v1.mp4` | en attente de validation | 72 cr |
 
-**Total : 5290 crédits ≈ 26.45 $.**
+**Total : 5362 crédits ≈ 26.81 $.**
 
 Leçon : sur KIE, Seedance 2.5 ne combine pas première image et audio ; avec l'audio en simple référence, les lèvres ne suivent pas la voix. Solution retenue : garder les clips Seedance et recaler la bouche avec Volcengine video-to-video lip sync (≈ 8 cr/s).
 
