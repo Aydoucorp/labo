@@ -1,2 +1,6 @@
 # Secrets : jamais commités, jamais copiés dans Drive
 .env
+node_modules/
+runs/*/montage/out/
+runs/*/montage/public/**/*.mp4
+runs/*/montage/controle*/

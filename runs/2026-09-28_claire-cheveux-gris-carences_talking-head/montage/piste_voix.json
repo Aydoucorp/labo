@@ -1,0 +1,92 @@
+[
+ {
+  "id": "S01",
+  "src": "retenues/avatar_voix/S01.mp4",
+  "in": 0.2,
+  "out": 5.7700000000000005,
+  "start": 0.0,
+  "end": 5.57,
+  "gain_db": 2.1
+ },
+ {
+  "id": "A01",
+  "src": "retenues/avatar_voix/A01.mp4",
+  "in": 0.15000000000000002,
+  "out": 8.97,
+  "start": 5.57,
+  "end": 14.39,
+  "gain_db": 2.1
+ },
+ {
+  "id": "M1",
+  "src": "voix.mp3",
+  "in": 14.25,
+  "out": 22.75,
+  "start": 14.39,
+  "end": 22.89,
+  "gain_db": 2.9
+ },
+ {
+  "id": "A02",
+  "src": "retenues/avatar_voix/A02.mp4",
+  "in": 0.32,
+  "out": 3.3600000000000003,
+  "start": 22.89,
+  "end": 25.93,
+  "gain_db": 3.7
+ },
+ {
+  "id": "M2",
+  "src": "voix.mp3",
+  "in": 25.64,
+  "out": 28.48,
+  "start": 25.93,
+  "end": 28.77,
+  "gain_db": 5.0
+ },
+ {
+  "id": "A03",
+  "src": "retenues/avatar_voix/A03.mp4",
+  "in": 0.14,
+  "out": 6.73,
+  "start": 28.77,
+  "end": 35.36,
+  "gain_db": 5.6
+ },
+ {
+  "id": "M3",
+  "src": "voix.mp3",
+  "in": 35.4,
+  "out": 42.95,
+  "start": 35.36,
+  "end": 42.91,
+  "gain_db": 0.9
+ },
+ {
+  "id": "A04",
+  "src": "retenues/avatar_voix/A04.mp4",
+  "in": 0.9400000000000001,
+  "out": 2.74,
+  "start": 42.91,
+  "end": 44.71,
+  "gain_db": 0.8
+ },
+ {
+  "id": "M4",
+  "src": "voix.mp3",
+  "in": 44.64,
+  "out": 51.08,
+  "start": 44.71,
+  "end": 51.15,
+  "gain_db": 2.2
+ },
+ {
+  "id": "A05",
+  "src": "retenues/avatar_voix/A05.mp4",
+  "in": 0.03,
+  "out": 6.0,
+  "start": 51.15,
+  "end": 57.12,
+  "gain_db": 4.4
+ }
+]
