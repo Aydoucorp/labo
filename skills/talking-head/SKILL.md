@@ -12,7 +12,7 @@ Ce skill ne s'active que sur le mot « talking head » (ou la commande /talking-
 ## Le format
 
 Une seule voix off (le mp3 ElevenLabs de l'utilisateur) porte toute la vidéo. Par-dessus, on alterne :
-- l'avatar assis à un bureau avec micro, caméra fixe, dont les lèvres suivent la voix off ;
+- l'avatar assis à un bureau avec micro, caméra fixe, qui parle avec la voix de la voix off (imitée par Seedance, lèvres synchrones) ;
 - une accroche en écran partagé (avatar en haut, b-roll en bas, bandeau titre) ;
 - une animation éducative (3D ou motion design) pour le mécanisme invisible ;
 - des images statiques, infographies, objets détourés et preuves ;
@@ -129,7 +129,7 @@ Après validation du découpage et demande explicite. Lis `references/modeles.md
 Lis `references/montage-controle.md`.
 
 1. Vérifie que tout est là : voix, clips avatar (durée, format, résolution), b-rolls, générations, preuves, charte. Liste ce qui manque au lieu de deviner.
-2. Normalise les vidéos (`preparer_medias.sh`), range-les dans `public/`, écris `montage.json` à partir de `decoupage.json`, de `clips_avatar.json` (les `clipStart`) et des sous-titres (`mots.json` corrigé d'après le script).
+2. Normalise les vidéos (`preparer_medias.sh`), range-les dans `public/`, construis la **piste voix hybride** (voix Seedance des clips avatar + voix off ailleurs, section « Voix hybride » de `montage-controle.md`), puis écris `montage.json` avec tous les temps recalés sur cette piste et les sous-titres (texte du script, temps de l'audio).
 3. Images fixes de contrôle aux moments clés, puis rendu complet en arrière-plan (`rendre.sh`), contrôle (`controler.py`), corrections, finalisation (`finaliser.sh`).
 4. Livre la vidéo finale dans le dossier de l'utilisateur, avec `montage.json` (pour les retouches) et, sur demande, une feuille de montage CapCut.
 
