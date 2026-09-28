@@ -1,0 +1,18 @@
+Create a 9-second 9:16 photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 (seated at the desk, waist up).
+
+REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, freckles, eyes, hair), cream sweater, black podcast microphone on a boom arm, dark wooden desk, cozy home studio background, warm window light and framing. @Audio1 is the exact soundtrack of this shot: her own voice, already recorded. She lip-syncs to @Audio1 exactly, word for word, syllable for syllable, with exactly the same timing, the same pace and the same pauses as @Audio1. Her speech must start when the voice in @Audio1 starts and end when it ends. Same voice as @Audio1, no other voice.
+
+SPEECH (French, exactly as heard in @Audio1, same timing):
+0.00-0.30 s: silence, mouth closed
+0.30-3.52 s: "Seulement trente pour cent du blanchiment précoce est héréditaire."
+3.52-4.24 s: pause, mouth closed
+4.24-5.76 s: "Les soixante-dix pour cent restants,"
+5.86-7.84 s: "c'est votre corps qui vous envoie un signal."
+7.84-9.00 s: silence, mouth closed and still
+
+EMOTION AND DELIVERY: thoughtful and confiding; clear emphasis on "trente pour cent" with a slight lean forward; warm, reassuring and serious on "c'est votre corps qui vous envoie un signal", with an open palm gesture below the microphone.
+
+PERFORMANCE: Gaze slightly off-camera toward an unseen interviewer, natural blinking and breathing, subtle head movements and small nods on key words. Lips perfectly synchronized with every syllable of @Audio1. Hands stay below the microphone and never cover the mouth. No repetitive gesture loop.
+
+AUDIO: Only her voice following @Audio1, close podcast microphone sound, quiet room tone. No music, no sound effects, no other voice.
+CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @Image1 for the whole shot. Camera never moves, never zooms, never cuts. No text, no subtitles, no captions, no logo.

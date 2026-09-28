@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B-rolls à trouver</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FAF6F3;--card:#FFFFFF;--line:#EFE7E0;--ink:#2E2A26;--muted:#6f675f;--accent:#A8553A;--accent-soft:#F3E3DA;--sage:#8C9B86;--plum:#7A4351;--ok:#5f7a57}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1f1c19;--card:#2a2622;--line:#3a342e;--ink:#F3ECE6;--muted:#b4ada4;--accent:#D98A6C;--accent-soft:#3b2a22;--sage:#a4b39e;--plum:#c98a9a;--ok:#9fbf95}}
+:root[data-theme="dark"]{--bg:#1f1c19;--card:#2a2622;--line:#3a342e;--ink:#F3ECE6;--muted:#b4ada4;--accent:#D98A6C;--accent-soft:#3b2a22;--sage:#a4b39e;--plum:#c98a9a;--ok:#9fbf95}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Source Sans 3",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:28px 16px 60px}
+h1{font-family:Fraunces,serif;font-size:1.9rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 18px}
+.rules{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:18px;display:grid;gap:6px}
+.rules b{color:var(--accent)}
+.progress{display:flex;align-items:center;gap:10px;margin:0 0 18px;font-weight:600}
+.bar{flex:1;height:8px;background:var(--line);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--ok);transition:width .3s}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:16px;transition:opacity .2s}
+.card.done{opacity:.55}
+.head{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:10px}
+.id{font-family:Fraunces,serif;font-size:1.35rem;color:var(--accent)}
+.tag{font-size:.8rem;font-weight:600;padding:2px 10px;border-radius:99px;background:var(--accent-soft);color:var(--accent)}
+.tag.moyen{background:transparent;border:1px solid var(--sage);color:var(--sage)}
+.check{margin-left:auto;display:flex;align-items:center;gap:6px;cursor:pointer;font-weight:600;color:var(--muted)}
+.check input{width:20px;height:20px;accent-color:var(--ok)}
+.quote{font-size:1.1rem;border-left:4px solid var(--accent);padding:4px 0 4px 12px;margin:0 0 14px;font-style:italic}
+.times{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}
+.t{background:var(--bg);border-radius:10px;padding:8px 10px}
+.t small{display:block;color:var(--muted);font-size:.78rem}
+.t strong{font-size:1.15rem}
+.t.key{background:var(--accent-soft)}
+.t.key strong{color:var(--accent)}
+dl{margin:0;display:grid;grid-template-columns:120px 1fr;gap:6px 12px}
+dt{color:var(--muted);font-weight:600}
+dd{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:99px;padding:3px 10px;font:inherit;font-size:.9rem;cursor:pointer}
+.chip:hover{border-color:var(--accent)}
+.chip.copied{background:var(--ok);color:#fff;border-color:var(--ok)}
+code{background:var(--bg);padding:1px 6px;border-radius:6px}
+.avoid{color:var(--plum)}
+.foot{color:var(--muted);font-size:.9rem;margin-top:20px}
+@media (max-width:560px){.times{grid-template-columns:1fr 1fr}.t.key{grid-column:1/-1}dl{grid-template-columns:1fr}dt{margin-top:6px}}
+</style>
+</head>
+<body>
+<main>
+<h1>B-rolls à trouver</h1>
+<p class="sub">__SOUS_TITRE__</p>
+
+<div class="rules">
+<div><b>Durée :</b> prends une vidéo d'au moins la durée indiquée en orange (durée de l'audio + 1 s de marge pour la coupe).</div>
+<div><b>Format :</b> vertical de préférence. Sans texte incrusté, sans filigrane, sans logo.</div>
+<div><b>Où les déposer :</b> __DEPOT__</div>
+<div><b>Astuce :</b> clique sur un mot-clé pour le copier.</div>
+</div>
+
+<div class="progress"><span id="count">0 / __N__ trouvés</span><div class="bar"><i id="fill"></i></div></div>
+
+<div id="list"></div>
+
+<p class="foot">Si un plan reste introuvable, je peux le générer en secours (MiniMax H3, environ 40 crédits), seulement avec ton accord.</p>
+</main>
+
+<script>
+const B=__DATA__;
+
+const KEY="__CLE__";
+let done={};try{done=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const chips=a=>'<div class="chips">'+a.map(k=>`<button class="chip" data-k="${esc(k)}">${esc(k)}</button>`).join("")+"</div>";
+document.getElementById("list").innerHTML=B.map(b=>`
+<section class="card${done[b.id]?" done":""}" id="${b.id}">
+ <div class="head"><span class="id">${b.id}</span><span class="tag${b.moyen?" moyen":""}">${b.prio}</span>
+  <label class="check"><input type="checkbox" data-id="${b.id}"${done[b.id]?" checked":""}> Trouvé</label></div>
+ <p class="quote">« ${esc(b.phrase)} »</p>
+ <div class="times">
+  <div class="t"><small>Dans l'audio</small><strong>${b.start} → ${b.end}</strong></div>
+  <div class="t"><small>Durée de l'audio</small><strong>${b.dur}</strong></div>
+  <div class="t key"><small>Vidéo à trouver (min.)</small><strong>${b.min}</strong></div>
+ </div>
+ <dl>
+  <dt>À voir</dt><dd>${esc(b.voir)}</dd>
+  <dt>Profil</dt><dd>${esc(b.profil)}</dd>
+  <dt>Mots-clés FR</dt><dd>${chips(b.fr)}</dd>
+  <dt>Mots-clés EN</dt><dd>${chips(b.en)}</dd>
+  <dt>Hashtags</dt><dd>${chips(b.tags)}</dd>
+  <dt>À éviter</dt><dd class="avoid">Texte incrusté, filigrane, logo${b.eviter?". "+esc(b.eviter):"."}</dd>
+  <dt>Nom du fichier</dt><dd><code>${b.file}</code></dd>
+ </dl>
+</section>`).join("");
+
+function refresh(){const n=Object.values(done).filter(Boolean).length;
+ document.getElementById("count").textContent=n+" / __N__ trouvés";document.getElementById("fill").style.width=(n/__N__*100)+"%"}
+refresh();
+document.addEventListener("change",e=>{const id=e.target.dataset.id;if(!id)return;done[id]=e.target.checked;
+ document.getElementById(id).classList.toggle("done",e.target.checked);try{localStorage.setItem(KEY,JSON.stringify(done))}catch(err){}refresh()});
+document.addEventListener("click",e=>{const c=e.target.closest(".chip");if(!c)return;const k=c.dataset.k;
+ const ok=()=>{c.classList.add("copied");setTimeout(()=>c.classList.remove("copied"),900)};
+ if(navigator.clipboard)navigator.clipboard.writeText(k).then(ok,ok);else ok()});
+</script>
+</body>
+</html>

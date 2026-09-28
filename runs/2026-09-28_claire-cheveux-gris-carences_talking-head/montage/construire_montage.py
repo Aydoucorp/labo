@@ -6,9 +6,15 @@ autres plans = voix off d'origine (voix.mp3). Les morceaux sont mis bout à bout
 est ramené au même volume, avec de courts fondus pour éviter les clics.
 Tous les temps de montage.json sont exprimés sur cette nouvelle piste (public/audio/voix_montage.wav).
 
-Usage (depuis le dossier du run) : python3 montage/construire_montage.py
+Usage (depuis le dossier du run) :
+  python3 montage/construire_montage.py              -> v1, voix hybride (montage.json)
+  python3 montage/construire_montage.py --voix-off   -> v2, voix off d'origine partout, son Seedance coupé,
+                                                        clips avatar recalés phrase par phrase sur la voix off (montage_voixoff.json)
 """
-import json, pathlib, re, subprocess
+import json, pathlib, re, shutil, subprocess, sys
+
+VOIX_OFF = "--voix-off" in sys.argv
+SUF = "_cale" if VOIX_OFF else ""
 
 RUN = pathlib.Path(__file__).resolve().parent.parent
 M = RUN / "montage"
@@ -88,7 +94,77 @@ def at(pid, x):
 
 def clip_start(pid):
     """Temps sur la piste montée de l'image 0 du clip avatar (champ clipStart du gabarit)."""
+    if "clip0" in P[pid]:
+        return P[pid]["clip0"]
     return round(P[pid]["start"] - P[pid]["in"], 3)
+
+
+# v2 : coupes de la voix off d'origine (dans ses silences), une par passage du découpage.
+CUTS_VOIX_OFF = [("S01", 0.0, 5.9), ("A01", 5.9, 14.25), ("M1", 14.25, 23.2), ("A02", 23.2, 25.64), ("M2", 25.64, 28.95),
+                 ("A03", 28.95, 35.40), ("M3", 35.40, 43.40), ("A04", 43.40, 44.64), ("M4", 44.64, 51.40), ("A05", 51.40, None)]
+
+
+def build_audio_voix_off():
+    src = RUN / "voix.mp3"
+    total = duration(src)
+    (PUB / "audio").mkdir(parents=True, exist_ok=True)
+    run(["ffmpeg", "-v", "error", "-y", "-i", str(src), "-ac", "2", "-ar", str(SR), str(PUB / "audio/voix_off.wav")])
+    for p, (pid, a, b) in zip(PIECES, CUTS_VOIX_OFF):
+        assert p["id"] == pid
+        b = total if b is None else b
+        p["in"], p["out"], p["start"], p["end"], p["gain_db"] = a, b, a, b, 0.0
+    return total
+
+
+def phrase_anchors(clip_ws, master_ws, onset, speech_end):
+    """Points de calage (temps clip, temps voix off) : début de chaque phrase ou reprise après une pause, et fin de parole."""
+    anchors = [(onset, master_ws[0]["s"])]
+    for i in range(1, len(master_ws)):
+        prev = master_ws[i - 1]
+        if re.search(r"[.,:;!?]$", prev["w"]) or master_ws[i]["s"] - prev["e"] > 0.25:
+            anchors.append((clip_ws[i]["s"], master_ws[i]["s"]))
+    anchors.append((speech_end, master_ws[-1]["e"]))
+    # temps croissants des deux côtés
+    out = [anchors[0]]
+    for c, m in anchors[1:]:
+        if c > out[-1][0] + 0.1 and m > out[-1][1] + 0.1:
+            out.append((c, m))
+    return out
+
+
+def warp_clip(pid, clip_ws, master_ws, speech, a, b):
+    """Recale un clip avatar sur la voix off : chaque phrase du clip est légèrement ralentie ou accélérée
+    pour que ses lèvres tombent sur la même phrase de la voix off. L'image 0 du fichier obtenu = temps a."""
+    src = PUB / f"avatar/{pid}.mp4"
+    tmp = M / "tmp_cale" / pid
+    shutil.rmtree(tmp, ignore_errors=True)
+    (tmp / "src").mkdir(parents=True)
+    run(["ffmpeg", "-v", "error", "-i", str(src), str(tmp / "src/%05d.png")])
+    n = len(list((tmp / "src").glob("*.png")))
+    anchors = phrase_anchors(clip_ws, master_ws, *speech)
+    ms = [m for _, m in anchors]
+    cs = [c for c, _ in anchors]
+
+    def clip_time(t):
+        if t <= ms[0]:
+            return cs[0] - (ms[0] - t)
+        if t >= ms[-1]:
+            return cs[-1] + (t - ms[-1])
+        for k in range(len(ms) - 1):
+            if ms[k] <= t <= ms[k + 1]:
+                return cs[k] + (t - ms[k]) * (cs[k + 1] - cs[k]) / (ms[k + 1] - ms[k])
+
+    (tmp / "seq").mkdir()
+    frames = int(round((b - a) * 30)) + 1
+    for f in range(frames):
+        idx = min(n, max(1, int(round(clip_time(a + f / 30) * 30)) + 1))
+        (tmp / "seq" / f"{f:05d}.png").symlink_to(tmp / "src" / f"{idx:05d}.png")
+    out = PUB / f"avatar/{pid}_cale.mp4"
+    run(["ffmpeg", "-v", "error", "-y", "-framerate", "30", "-i", str(tmp / "seq/%05d.png"), "-c:v", "libx264", "-preset", "veryfast",
+         "-crf", "17", "-pix_fmt", "yuv420p", str(out)])
+    shutil.rmtree(tmp)
+    speeds = [round((cs[k + 1] - cs[k]) / (ms[k + 1] - ms[k]), 2) for k in range(len(ms) - 1)]
+    return speeds
 
 
 # Texte des sous-titres : le script fait foi (orthographe), les temps viennent de l'audio.
@@ -128,7 +204,7 @@ def subtitle_words():
     words = []
     for p in PIECES:
         pid = p["id"]
-        if pid.startswith("M"):
+        if pid.startswith("M") or VOIX_OFF:
             ws = [w for w in master if p["in"] <= w["s"] < p["out"]]
             ws = merge_tokens(ws)
             # « peroxyde de l'hydrogène » (voix) -> « peroxyde d'hydrogène » (script)
@@ -160,10 +236,23 @@ def word_time(words, text, after=0.0):
 
 
 def main():
-    total = build_audio()
+    total = build_audio_voix_off() if VOIX_OFF else build_audio()
     for p in PIECES:
         P[p["id"]] = p
     words = subtitle_words()
+    if VOIX_OFF:
+        master = json.load(open(RUN / "mots.json"))
+        avatar = json.load(open(M / "mots_avatar.json"))
+        for p in PIECES:
+            if p["id"].startswith("M"):
+                continue
+            mw = merge_tokens([w for w in master if p["in"] <= w["s"] < p["out"]])
+            cw = merge_tokens(avatar[p["id"]])
+            if len(mw) != len(cw):
+                raise SystemExit(f"{p['id']} : {len(cw)} mots dans le clip, {len(mw)} dans la voix off")
+            speeds = warp_clip(p["id"], cw, mw, p["speech"], p["start"], p["end"])
+            p["clip0"] = p["start"]
+            print(f"{p['id']} recalé, vitesses par phrase : {speeds}")
     wt = lambda t, after=0.0: word_time(words, t, after)
 
     s01, a01, m1, a02, m2, a03, m3, a04, m4, a05 = (P[k] for k in ["S01", "A01", "M1", "A02", "M2", "A03", "M3", "A04", "M4", "A05"])
@@ -176,17 +265,17 @@ def main():
 
     AV = {"faceY": 0.22}
     segments = [
-        {"type": "split", "start": 0.0, "end": s01["end"], "src": "avatar/S01.mp4", "clipStart": clip_start("S01"),
+        {"type": "split", "start": 0.0, "end": s01["end"], "src": f"avatar/S01{SUF}.mp4", "clipStart": clip_start("S01"),
          "banner": "Cheveux blancs à 35 ans ? Ce n'est pas que la génétique",
          "broll": [{"src": "broll/broll_01.mp4", "start": 0.0, "end": round(t_ce - 0.05, 3), "from": 0.0, "pos": "50% 30%"},
                    {"src": "broll/broll_02.mp4", "start": round(t_ce - 0.05, 3), "end": s01["end"], "from": 0.0, "pos": "38% 50%", "kb": "in"}]},
-        {"type": "avatar", "start": a01["start"], "end": round(t_les70 - 0.06, 3), "src": "avatar/A01.mp4", "clipStart": clip_start("A01"), "zoom": "C", **AV},
-        {"type": "avatar", "start": round(t_les70 - 0.06, 3), "end": a01["end"], "src": "avatar/A01.mp4", "clipStart": clip_start("A01"), "zoom": "B", **AV},
+        {"type": "avatar", "start": a01["start"], "end": round(t_les70 - 0.06, 3), "src": f"avatar/A01{SUF}.mp4", "clipStart": clip_start("A01"), "zoom": "C", **AV},
+        {"type": "avatar", "start": round(t_les70 - 0.06, 3), "end": a01["end"], "src": f"avatar/A01{SUF}.mp4", "clipStart": clip_start("A01"), "zoom": "B", **AV},
         {"type": "edu", "start": m1["start"], "end": m1["end"], "src": "edu/E1.mp4", "from": 0.0, "enter": "circle", "wipeX": "50%", "wipeY": "60%", "bg": "#FAF6F3"},
-        {"type": "avatar", "start": a02["start"], "end": a02["end"], "src": "avatar/A02.mp4", "clipStart": clip_start("A02"), "zoom": "A", **AV},
+        {"type": "avatar", "start": a02["start"], "end": a02["end"], "src": f"avatar/A02{SUF}.mp4", "clipStart": clip_start("A02"), "zoom": "A", **AV},
         {"type": "full", "start": m2["start"], "end": m2["end"], "src": "broll/broll_03.mp4", "from": 0.0, "kb": "in", "subY": 0.72},
-        {"type": "avatar", "start": a03["start"], "end": round(t_la_vit - 0.06, 3), "src": "avatar/A03.mp4", "clipStart": clip_start("A03"), "zoom": "C", **AV},
-        {"type": "avatar", "start": round(t_la_vit - 0.06, 3), "end": a03["end"], "src": "avatar/A03.mp4", "clipStart": clip_start("A03"), "zoom": "B", **AV},
+        {"type": "avatar", "start": a03["start"], "end": round(t_la_vit - 0.06, 3), "src": f"avatar/A03{SUF}.mp4", "clipStart": clip_start("A03"), "zoom": "C", **AV},
+        {"type": "avatar", "start": round(t_la_vit - 0.06, 3), "end": a03["end"], "src": f"avatar/A03{SUF}.mp4", "clipStart": clip_start("A03"), "zoom": "B", **AV},
         {"type": "infolist", "start": m3["start"], "end": m3["end"], "enter": "circle", "wipeX": "50%", "wipeY": "20%", "bg": "linear-gradient(180deg, #FAF6F3 0%, #EFE7E0 100%)",
          "rows": [
              {"t": round(wt("cuivre", m3["start"]) - 0.1, 3), "title": "Cuivre", "img": "images/I1.png",
@@ -195,13 +284,13 @@ def main():
               "parts": [{"s": "Nourrit les cellules "}, {"s": "qui produisent le pigment", "bold": True, "mark": wt("cellules", m3["start"])}]},
              {"t": round(wt("fer", m3["start"]) - 0.1, 3), "title": "Fer", "img": "images/I3.png",
               "parts": [{"s": "Nourrit aussi "}, {"s": "ces cellules", "bold": True, "mark": wt("cellules", m3["start"])}]}]},
-        {"type": "avatar", "start": a04["start"], "end": a04["end"], "src": "avatar/A04.mp4", "clipStart": clip_start("A04"), "zoom": "A", **AV},
+        {"type": "avatar", "start": a04["start"], "end": a04["end"], "src": f"avatar/A04{SUF}.mp4", "clipStart": clip_start("A04"), "zoom": "A", **AV},
         {"type": "card", "start": m4["start"], "end": round(t_et_soleil - 0.15, 3), "cardW": 0.78, "cardH": 0.44, "subY": 0.79,
          "clips": [{"src": f"images/I{4 + i}.png", "start": round((m4["start"] if i == 0 else t_foods[i] - 0.05), 3),
                     "end": round((t_foods[i + 1] - 0.05) if i < 4 else t_et_soleil - 0.15, 3), "kb": "in"} for i in range(5)]},
         {"type": "full", "start": round(t_et_soleil - 0.15, 3), "end": m4["end"], "src": "broll/broll_04.mp4", "from": 0.3, "kb": "in", "pos": "42% 50%", "subY": 0.72},
-        {"type": "avatar", "start": a05["start"], "end": round(t_ecrivez - 0.06, 3), "src": "avatar/A05.mp4", "clipStart": clip_start("A05"), "zoom": "B", **AV},
-        {"type": "avatar", "start": round(t_ecrivez - 0.06, 3), "end": round(total, 3), "src": "avatar/A05.mp4", "clipStart": clip_start("A05"), "zoom": "C", **AV},
+        {"type": "avatar", "start": a05["start"], "end": round(t_ecrivez - 0.06, 3), "src": f"avatar/A05{SUF}.mp4", "clipStart": clip_start("A05"), "zoom": "B", **AV},
+        {"type": "avatar", "start": round(t_ecrivez - 0.06, 3), "end": round(total, 3), "src": f"avatar/A05{SUF}.mp4", "clipStart": clip_start("A05"), "zoom": "C", **AV},
     ]
     t_guide = wt("guide", a05["start"])
     t_envoie = wt("envoie", t_guide)
@@ -220,7 +309,7 @@ def main():
     ]
     montage = {
         "fps": 30, "width": 1080, "height": 1920, "durationSec": round(total, 3), "bg": "#FAF6F3",
-        "audio": "audio/voix_montage.wav",
+        "audio": "audio/voix_off.wav" if VOIX_OFF else "audio/voix_montage.wav",
         "theme": {"accent": "#A8553A", "accent2": "#F2D2C0", "subBox": "#FAF6F3", "subText": "#2E2A26", "subDim": "#B4ADA4",
                   "bannerBg": "#A8553A", "bannerText": "#FAF6F3", "infoBg": "#EFE7E0", "infoText": "#2E2A26", "cardBg": "#FAF6F3", "followBlue": "#A8553A"},
         "subtitles": {"words": words, "maxWords": 4, "maxChars": 24, "size": 46,
@@ -228,9 +317,9 @@ def main():
         "segments": segments,
         "overlays": overlays,
     }
-    json.dump(montage, open(M / "montage.json", "w"), ensure_ascii=False, indent=1)
+    json.dump(montage, open(M / ("montage_voixoff.json" if VOIX_OFF else "montage.json"), "w"), ensure_ascii=False, indent=1)
     json.dump([{k: p[k] for k in ("id", "src", "in", "out", "start", "end", "gain_db")} for p in PIECES],
-              open(M / "piste_voix.json", "w"), ensure_ascii=False, indent=1)
+              open(M / ("piste_voixoff.json" if VOIX_OFF else "piste_voix.json"), "w"), ensure_ascii=False, indent=1)
     for p in PIECES:
         print(f"{p['id']:4} {p['src']:32} {p['in']:6.2f}-{p['out']:6.2f}  ->  {p['start']:6.2f}-{p['end']:6.2f}  gain {p['gain_db']:+.1f} dB")
     print(f"durée totale {total:.2f} s")

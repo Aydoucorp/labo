@@ -1,0 +1,1029 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationSec": 56.346,
+ "bg": "#FAF6F3",
+ "audio": "audio/voix_off.wav",
+ "theme": {
+  "accent": "#A8553A",
+  "accent2": "#F2D2C0",
+  "subBox": "#FAF6F3",
+  "subText": "#2E2A26",
+  "subDim": "#B4ADA4",
+  "bannerBg": "#A8553A",
+  "bannerText": "#FAF6F3",
+  "infoBg": "#EFE7E0",
+  "infoText": "#2E2A26",
+  "cardBg": "#FAF6F3",
+  "followBlue": "#A8553A"
+ },
+ "subtitles": {
+  "words": [
+   {
+    "w": "Si",
+    "s": 0.0,
+    "e": 0.18,
+    "br": true
+   },
+   {
+    "w": "vos",
+    "s": 0.18,
+    "e": 0.4
+   },
+   {
+    "w": "cheveux",
+    "s": 0.4,
+    "e": 0.7
+   },
+   {
+    "w": "deviennent",
+    "s": 0.7,
+    "e": 1.1
+   },
+   {
+    "w": "gris",
+    "s": 1.1,
+    "e": 1.36
+   },
+   {
+    "w": "dès",
+    "s": 1.36,
+    "e": 1.52
+   },
+   {
+    "w": "la",
+    "s": 1.52,
+    "e": 1.8
+   },
+   {
+    "w": "trentaine",
+    "s": 1.8,
+    "e": 2.14
+   },
+   {
+    "w": "ou",
+    "s": 2.14,
+    "e": 2.26
+   },
+   {
+    "w": "la",
+    "s": 2.26,
+    "e": 2.46
+   },
+   {
+    "w": "quarantaine,",
+    "s": 2.46,
+    "e": 3.02
+   },
+   {
+    "w": "ce",
+    "s": 3.28,
+    "e": 3.36
+   },
+   {
+    "w": "n'est",
+    "s": 3.36,
+    "e": 3.62
+   },
+   {
+    "w": "pas",
+    "s": 3.62,
+    "e": 3.98
+   },
+   {
+    "w": "juste",
+    "s": 3.98,
+    "e": 4.48
+   },
+   {
+    "w": "la",
+    "s": 4.48,
+    "e": 4.74
+   },
+   {
+    "w": "génétique.",
+    "s": 4.74,
+    "e": 5.32
+   },
+   {
+    "w": "Seulement",
+    "s": 6.1,
+    "e": 6.56,
+    "br": true
+   },
+   {
+    "w": "30 %",
+    "s": 6.56,
+    "e": 7.18
+   },
+   {
+    "w": "du",
+    "s": 7.18,
+    "e": 7.4
+   },
+   {
+    "w": "blanchiment",
+    "s": 7.4,
+    "e": 7.84
+   },
+   {
+    "w": "précoce",
+    "s": 7.84,
+    "e": 8.38
+   },
+   {
+    "w": "est",
+    "s": 8.38,
+    "e": 8.66
+   },
+   {
+    "w": "héréditaire.",
+    "s": 8.66,
+    "e": 9.32
+   },
+   {
+    "w": "Les",
+    "s": 10.04,
+    "e": 10.18
+   },
+   {
+    "w": "70 %",
+    "s": 10.18,
+    "e": 11.06
+   },
+   {
+    "w": "restants,",
+    "s": 11.06,
+    "e": 11.56
+   },
+   {
+    "w": "c'est",
+    "s": 11.66,
+    "e": 11.86
+   },
+   {
+    "w": "votre",
+    "s": 11.86,
+    "e": 12.14
+   },
+   {
+    "w": "corps",
+    "s": 12.14,
+    "e": 12.44
+   },
+   {
+    "w": "qui",
+    "s": 12.44,
+    "e": 12.64
+   },
+   {
+    "w": "vous",
+    "s": 12.64,
+    "e": 12.84
+   },
+   {
+    "w": "envoie",
+    "s": 12.84,
+    "e": 13.04
+   },
+   {
+    "w": "un",
+    "s": 13.04,
+    "e": 13.36
+   },
+   {
+    "w": "signal.",
+    "s": 13.36,
+    "e": 13.64
+   },
+   {
+    "w": "Vos",
+    "s": 14.4,
+    "e": 14.62,
+    "br": true
+   },
+   {
+    "w": "follicules",
+    "s": 14.62,
+    "e": 15.24
+   },
+   {
+    "w": "produisent",
+    "s": 15.24,
+    "e": 15.62
+   },
+   {
+    "w": "une",
+    "s": 15.62,
+    "e": 15.86
+   },
+   {
+    "w": "enzyme,",
+    "s": 15.86,
+    "e": 16.18
+   },
+   {
+    "w": "la",
+    "s": 16.46,
+    "e": 16.64
+   },
+   {
+    "w": "catalase,",
+    "s": 16.64,
+    "e": 17.22
+   },
+   {
+    "w": "qui",
+    "s": 17.54,
+    "e": 17.74
+   },
+   {
+    "w": "neutralise",
+    "s": 17.74,
+    "e": 18.3
+   },
+   {
+    "w": "le",
+    "s": 18.3,
+    "e": 18.5
+   },
+   {
+    "w": "peroxyde",
+    "s": 18.5,
+    "e": 19.1
+   },
+   {
+    "w": "d'hydrogène",
+    "s": 19.1,
+    "e": 19.98
+   },
+   {
+    "w": "avant",
+    "s": 19.98,
+    "e": 20.38
+   },
+   {
+    "w": "qu'il",
+    "s": 20.38,
+    "e": 20.62
+   },
+   {
+    "w": "ne",
+    "s": 20.62,
+    "e": 20.78
+   },
+   {
+    "w": "décolore",
+    "s": 20.78,
+    "e": 21.18
+   },
+   {
+    "w": "vos",
+    "s": 21.18,
+    "e": 21.4
+   },
+   {
+    "w": "cheveux",
+    "s": 21.4,
+    "e": 21.72
+   },
+   {
+    "w": "de",
+    "s": 21.72,
+    "e": 21.86
+   },
+   {
+    "w": "l'intérieur.",
+    "s": 21.86,
+    "e": 22.5
+   },
+   {
+    "w": "Avec",
+    "s": 23.36,
+    "e": 23.66,
+    "br": true
+   },
+   {
+    "w": "l'âge",
+    "s": 23.66,
+    "e": 24.18
+   },
+   {
+    "w": "ou",
+    "s": 24.18,
+    "e": 24.48
+   },
+   {
+    "w": "en",
+    "s": 24.48,
+    "e": 24.6
+   },
+   {
+    "w": "cas",
+    "s": 24.6,
+    "e": 24.7
+   },
+   {
+    "w": "de",
+    "s": 24.7,
+    "e": 24.98
+   },
+   {
+    "w": "carences,",
+    "s": 24.98,
+    "e": 25.54
+   },
+   {
+    "w": "la",
+    "s": 25.74,
+    "e": 25.9,
+    "br": true
+   },
+   {
+    "w": "catalase",
+    "s": 25.9,
+    "e": 26.38
+   },
+   {
+    "w": "chute",
+    "s": 26.38,
+    "e": 26.88
+   },
+   {
+    "w": "et",
+    "s": 26.88,
+    "e": 27.12
+   },
+   {
+    "w": "les",
+    "s": 27.12,
+    "e": 27.34
+   },
+   {
+    "w": "cheveux",
+    "s": 27.34,
+    "e": 27.58
+   },
+   {
+    "w": "blanchissent.",
+    "s": 27.58,
+    "e": 28.3
+   },
+   {
+    "w": "Trois",
+    "s": 29.06,
+    "e": 29.44,
+    "br": true
+   },
+   {
+    "w": "carences",
+    "s": 29.44,
+    "e": 29.94
+   },
+   {
+    "w": "reviennent",
+    "s": 29.94,
+    "e": 30.4
+   },
+   {
+    "w": "sans",
+    "s": 30.4,
+    "e": 30.76
+   },
+   {
+    "w": "arrêt.",
+    "s": 30.76,
+    "e": 31.38
+   },
+   {
+    "w": "La",
+    "s": 31.62,
+    "e": 31.76
+   },
+   {
+    "w": "vitamine",
+    "s": 31.76,
+    "e": 32.1
+   },
+   {
+    "w": "B12,",
+    "s": 32.1,
+    "e": 32.64
+   },
+   {
+    "w": "le",
+    "s": 33.06,
+    "e": 33.3
+   },
+   {
+    "w": "cuivre",
+    "s": 33.3,
+    "e": 33.7
+   },
+   {
+    "w": "et",
+    "s": 33.7,
+    "e": 34.08
+   },
+   {
+    "w": "le",
+    "s": 34.08,
+    "e": 34.38
+   },
+   {
+    "w": "fer.",
+    "s": 34.38,
+    "e": 34.62
+   },
+   {
+    "w": "Le",
+    "s": 35.54,
+    "e": 35.78,
+    "br": true
+   },
+   {
+    "w": "cuivre",
+    "s": 35.78,
+    "e": 36.16
+   },
+   {
+    "w": "fabrique",
+    "s": 36.16,
+    "e": 36.52
+   },
+   {
+    "w": "la",
+    "s": 36.52,
+    "e": 36.72
+   },
+   {
+    "w": "mélanine,",
+    "s": 36.72,
+    "e": 37.2
+   },
+   {
+    "w": "votre",
+    "s": 37.54,
+    "e": 37.74
+   },
+   {
+    "w": "pigment",
+    "s": 37.74,
+    "e": 38.04
+   },
+   {
+    "w": "capillaire.",
+    "s": 38.04,
+    "e": 39.04
+   },
+   {
+    "w": "La",
+    "s": 39.34,
+    "e": 39.52
+   },
+   {
+    "w": "B12",
+    "s": 39.52,
+    "e": 39.92
+   },
+   {
+    "w": "et",
+    "s": 39.92,
+    "e": 40.04
+   },
+   {
+    "w": "le",
+    "s": 40.04,
+    "e": 40.3
+   },
+   {
+    "w": "fer",
+    "s": 40.3,
+    "e": 40.64
+   },
+   {
+    "w": "nourrissent",
+    "s": 40.64,
+    "e": 41.3
+   },
+   {
+    "w": "les",
+    "s": 41.3,
+    "e": 41.52
+   },
+   {
+    "w": "cellules",
+    "s": 41.52,
+    "e": 41.82
+   },
+   {
+    "w": "qui",
+    "s": 41.82,
+    "e": 41.98
+   },
+   {
+    "w": "la",
+    "s": 41.98,
+    "e": 42.26
+   },
+   {
+    "w": "produisent.",
+    "s": 42.26,
+    "e": 42.74
+   },
+   {
+    "w": "Dans",
+    "s": 43.58,
+    "e": 43.72,
+    "br": true
+   },
+   {
+    "w": "l'assiette,",
+    "s": 43.72,
+    "e": 44.52
+   },
+   {
+    "w": "foie,",
+    "s": 44.78,
+    "e": 45.2,
+    "br": true
+   },
+   {
+    "w": "fruits",
+    "s": 45.44,
+    "e": 45.54
+   },
+   {
+    "w": "de",
+    "s": 45.54,
+    "e": 45.76
+   },
+   {
+    "w": "mer,",
+    "s": 45.76,
+    "e": 46.08
+   },
+   {
+    "w": "œufs,",
+    "s": 46.5,
+    "e": 46.98
+   },
+   {
+    "w": "viande",
+    "s": 47.2,
+    "e": 47.44
+   },
+   {
+    "w": "rouge,",
+    "s": 47.44,
+    "e": 47.76
+   },
+   {
+    "w": "légumineuses.",
+    "s": 48.18,
+    "e": 48.98
+   },
+   {
+    "w": "Et",
+    "s": 49.58,
+    "e": 49.78
+   },
+   {
+    "w": "un",
+    "s": 49.78,
+    "e": 49.92
+   },
+   {
+    "w": "peu",
+    "s": 49.92,
+    "e": 50.02
+   },
+   {
+    "w": "de",
+    "s": 50.02,
+    "e": 50.24
+   },
+   {
+    "w": "soleil",
+    "s": 50.24,
+    "e": 50.48
+   },
+   {
+    "w": "le",
+    "s": 50.48,
+    "e": 50.7
+   },
+   {
+    "w": "matin.",
+    "s": 50.7,
+    "e": 50.9
+   },
+   {
+    "w": "Et",
+    "s": 51.56,
+    "e": 51.76,
+    "br": true
+   },
+   {
+    "w": "si",
+    "s": 51.76,
+    "e": 51.9
+   },
+   {
+    "w": "vous",
+    "s": 51.9,
+    "e": 52.04
+   },
+   {
+    "w": "voulez",
+    "s": 52.04,
+    "e": 52.22
+   },
+   {
+    "w": "le",
+    "s": 52.22,
+    "e": 52.52
+   },
+   {
+    "w": "protocole",
+    "s": 52.52,
+    "e": 52.94
+   },
+   {
+    "w": "complet,",
+    "s": 52.94,
+    "e": 53.36
+   },
+   {
+    "w": "écrivez",
+    "s": 53.9,
+    "e": 54.22
+   },
+   {
+    "w": "« guide »",
+    "s": 54.22,
+    "e": 54.66
+   },
+   {
+    "w": "et",
+    "s": 54.66,
+    "e": 55.02
+   },
+   {
+    "w": "je",
+    "s": 55.02,
+    "e": 55.22
+   },
+   {
+    "w": "vous",
+    "s": 55.22,
+    "e": 55.4
+   },
+   {
+    "w": "envoie",
+    "s": 55.4,
+    "e": 55.6
+   },
+   {
+    "w": "mon",
+    "s": 55.6,
+    "e": 55.74
+   },
+   {
+    "w": "guide",
+    "s": 55.74,
+    "e": 55.9
+   },
+   {
+    "w": "gratuit.",
+    "s": 55.9,
+    "e": 56.32
+   }
+  ],
+  "maxWords": 4,
+  "maxChars": 24,
+  "size": 46,
+  "hide": [
+   [
+    54.17,
+    56.346
+   ]
+  ]
+ },
+ "segments": [
+  {
+   "type": "split",
+   "start": 0.0,
+   "end": 5.9,
+   "src": "avatar/S01_cale.mp4",
+   "clipStart": 0.0,
+   "banner": "Cheveux blancs à 35 ans ? Ce n'est pas que la génétique",
+   "broll": [
+    {
+     "src": "broll/broll_01.mp4",
+     "start": 0.0,
+     "end": 3.23,
+     "from": 0.0,
+     "pos": "50% 30%"
+    },
+    {
+     "src": "broll/broll_02.mp4",
+     "start": 3.23,
+     "end": 5.9,
+     "from": 0.0,
+     "pos": "38% 50%",
+     "kb": "in"
+    }
+   ]
+  },
+  {
+   "type": "avatar",
+   "start": 5.9,
+   "end": 9.98,
+   "src": "avatar/A01_cale.mp4",
+   "clipStart": 5.9,
+   "zoom": "C",
+   "faceY": 0.22
+  },
+  {
+   "type": "avatar",
+   "start": 9.98,
+   "end": 14.25,
+   "src": "avatar/A01_cale.mp4",
+   "clipStart": 5.9,
+   "zoom": "B",
+   "faceY": 0.22
+  },
+  {
+   "type": "edu",
+   "start": 14.25,
+   "end": 23.2,
+   "src": "edu/E1.mp4",
+   "from": 0.0,
+   "enter": "circle",
+   "wipeX": "50%",
+   "wipeY": "60%",
+   "bg": "#FAF6F3"
+  },
+  {
+   "type": "avatar",
+   "start": 23.2,
+   "end": 25.64,
+   "src": "avatar/A02_cale.mp4",
+   "clipStart": 23.2,
+   "zoom": "A",
+   "faceY": 0.22
+  },
+  {
+   "type": "full",
+   "start": 25.64,
+   "end": 28.95,
+   "src": "broll/broll_03.mp4",
+   "from": 0.0,
+   "kb": "in",
+   "subY": 0.72
+  },
+  {
+   "type": "avatar",
+   "start": 28.95,
+   "end": 31.56,
+   "src": "avatar/A03_cale.mp4",
+   "clipStart": 28.95,
+   "zoom": "C",
+   "faceY": 0.22
+  },
+  {
+   "type": "avatar",
+   "start": 31.56,
+   "end": 35.4,
+   "src": "avatar/A03_cale.mp4",
+   "clipStart": 28.95,
+   "zoom": "B",
+   "faceY": 0.22
+  },
+  {
+   "type": "infolist",
+   "start": 35.4,
+   "end": 43.4,
+   "enter": "circle",
+   "wipeX": "50%",
+   "wipeY": "20%",
+   "bg": "linear-gradient(180deg, #FAF6F3 0%, #EFE7E0 100%)",
+   "rows": [
+    {
+     "t": 35.68,
+     "title": "Cuivre",
+     "img": "images/I1.png",
+     "parts": [
+      {
+       "s": "Fabrique la mélanine, "
+      },
+      {
+       "s": "votre pigment",
+       "bold": true,
+       "mark": 37.74
+      }
+     ]
+    },
+    {
+     "t": 39.42,
+     "title": "B12",
+     "img": "images/I2.png",
+     "parts": [
+      {
+       "s": "Nourrit les cellules "
+      },
+      {
+       "s": "qui produisent le pigment",
+       "bold": true,
+       "mark": 41.52
+      }
+     ]
+    },
+    {
+     "t": 40.2,
+     "title": "Fer",
+     "img": "images/I3.png",
+     "parts": [
+      {
+       "s": "Nourrit aussi "
+      },
+      {
+       "s": "ces cellules",
+       "bold": true,
+       "mark": 41.52
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "avatar",
+   "start": 43.4,
+   "end": 44.64,
+   "src": "avatar/A04_cale.mp4",
+   "clipStart": 43.4,
+   "zoom": "A",
+   "faceY": 0.22
+  },
+  {
+   "type": "card",
+   "start": 44.64,
+   "end": 49.43,
+   "cardW": 0.78,
+   "cardH": 0.44,
+   "subY": 0.79,
+   "clips": [
+    {
+     "src": "images/I4.png",
+     "start": 44.64,
+     "end": 45.39,
+     "kb": "in"
+    },
+    {
+     "src": "images/I5.png",
+     "start": 45.39,
+     "end": 46.45,
+     "kb": "in"
+    },
+    {
+     "src": "images/I6.png",
+     "start": 46.45,
+     "end": 47.15,
+     "kb": "in"
+    },
+    {
+     "src": "images/I7.png",
+     "start": 47.15,
+     "end": 48.13,
+     "kb": "in"
+    },
+    {
+     "src": "images/I8.png",
+     "start": 48.13,
+     "end": 49.43,
+     "kb": "in"
+    }
+   ]
+  },
+  {
+   "type": "full",
+   "start": 49.43,
+   "end": 51.4,
+   "src": "broll/broll_04.mp4",
+   "from": 0.3,
+   "kb": "in",
+   "pos": "42% 50%",
+   "subY": 0.72
+  },
+  {
+   "type": "avatar",
+   "start": 51.4,
+   "end": 53.84,
+   "src": "avatar/A05_cale.mp4",
+   "clipStart": 51.4,
+   "zoom": "B",
+   "faceY": 0.22
+  },
+  {
+   "type": "avatar",
+   "start": 53.84,
+   "end": 56.346,
+   "src": "avatar/A05_cale.mp4",
+   "clipStart": 51.4,
+   "zoom": "C",
+   "faceY": 0.22
+  }
+ ],
+ "overlays": [
+  {
+   "type": "flash",
+   "t": 5.9,
+   "color": "#C9805F"
+  },
+  {
+   "type": "bignumber",
+   "start": 6.5,
+   "end": 9.41,
+   "text": "30 %",
+   "label": "héréditaire",
+   "y": 0.56,
+   "color": "#FAF6F3",
+   "glow": "rgba(168,85,58,.65)"
+  },
+  {
+   "type": "label",
+   "start": 14.57,
+   "end": 23.2,
+   "text": "Follicule",
+   "x": 0.33,
+   "y": 0.62,
+   "align": "right",
+   "line": 70,
+   "box": true,
+   "color": "#7A4351"
+  },
+  {
+   "type": "label",
+   "start": 16.59,
+   "end": 23.2,
+   "text": "Catalase",
+   "x": 0.67,
+   "y": 0.72,
+   "line": 70,
+   "box": true,
+   "color": "#A8553A"
+  },
+  {
+   "type": "label",
+   "start": 18.45,
+   "end": 23.2,
+   "text": "H₂O₂",
+   "x": 0.33,
+   "y": 0.78,
+   "align": "right",
+   "line": 70,
+   "box": true,
+   "color": "#7A4351"
+  },
+  {
+   "type": "label",
+   "start": 20.73,
+   "end": 23.2,
+   "text": "Pigment",
+   "sub": "se décolore",
+   "x": 0.7,
+   "y": 0.3,
+   "line": 70,
+   "box": true,
+   "color": "#A8553A"
+  },
+  {
+   "type": "flash",
+   "t": 51.4,
+   "color": "#C9805F"
+  },
+  {
+   "type": "text",
+   "start": 54.17,
+   "end": 56.346,
+   "text": "GUIDE",
+   "x": 0.5,
+   "y": 0.6,
+   "size": 150,
+   "color": "#FAF6F3",
+   "bg": "#A8553A",
+   "weight": 900
+  },
+  {
+   "type": "follow",
+   "start": 54.72,
+   "end": 56.346,
+   "handle": "@les_cheveux_de_claire",
+   "avatar": "images/profil.jpg",
+   "y": 0.745,
+   "clickAfter": 1.2
+  }
+ ]
+}

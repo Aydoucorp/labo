@@ -1,0 +1,16 @@
+Create a 6-second 1:1 photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, square framing identical to @Image1 (head and shoulders, microphone in front of the chest).
+
+REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, freckles, eyes, hair), cream sweater, black podcast microphone, background, warm light and framing. @Audio1 is the exact soundtrack of this shot: her own voice, already recorded. She lip-syncs to @Audio1 exactly, word for word, syllable for syllable, with exactly the same timing, the same pace and the same pauses as @Audio1. Her speech must start when @Audio1 starts and end when @Audio1 ends. Same voice as @Audio1, no other voice.
+
+SPEECH (French, exactly as heard in @Audio1, same timing):
+0.00-3.00 s: "Si vos cheveux deviennent gris dès la trentaine ou la quarantaine,"
+3.00-3.28 s: short pause, mouth almost closed
+3.28-5.32 s: "ce n'est pas juste la génétique."
+5.32-6.00 s: silence, mouth closed and still, slight knowing look
+
+EMOTION AND DELIVERY: intriguing and slightly concerned on the first phrase; slower, lower and knowing on "ce n'est pas juste la génétique", with a small head shake on "pas juste".
+
+PERFORMANCE: Gaze slightly off-camera toward an unseen interviewer, natural blinking and breathing, subtle head movements. Lips perfectly synchronized with every syllable of @Audio1. Hands stay below the microphone and never cover the mouth. No repetitive gesture loop.
+
+AUDIO: Only her voice following @Audio1, close podcast microphone sound, quiet room tone. No music, no sound effects, no other voice.
+CONTINUITY: Same person, clothes, microphone, background and lighting as @Image1 for the whole shot. Camera never moves, never zooms, never cuts. No text, no subtitles, no captions, no logo.
