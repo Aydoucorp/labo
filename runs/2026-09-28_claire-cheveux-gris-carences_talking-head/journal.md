@@ -22,15 +22,15 @@ Tarif KIE standard : 1 crédit ≈ 0,005 $.
 | Recalage lèvres A03 | v1 | volcengine/video-to-video-lip-sync (lite) | 9777a8d7b49340faa16a208dfd9ee7ab | success | `avatar/A03_v1_lipsync.mp4` | en attente de validation | 48 cr |
 | Recalage lèvres A04 | v1 | volcengine/video-to-video-lip-sync (lite) | b27e3298a1d76acd3537b9e365517a73 | success | `avatar/A04_v1_lipsync.mp4` | en attente de validation | 32 cr |
 | Recalage lèvres A05 | v1 | volcengine/video-to-video-lip-sync (lite) | bc9d6b223b83c9c086c40f0d1b4816cd | success | `avatar/A05_v1_lipsync.mp4` | en attente de validation | 40 cr |
-| Test voix native S01 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 (voix de référence) | 71b6f7fc1552dbd5b38381a538ffca35 | success | `avatar/S01_voix_v1.mp4` | en attente de validation (mots exacts selon Whisper) | 378 cr |
-| Test voix native A01 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 (voix de référence) | f7972aed71e5cc5ae5cc835fda7b2b18 | success | `avatar/A01_voix_v1.mp4` | en attente de validation (« blanchiment précoce » à vérifier à l'oreille) | 567 cr |
+| Test voix native S01 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 (voix de référence) | 71b6f7fc1552dbd5b38381a538ffca35 | success | `avatar/S01_voix_v1.mp4` | **retenu** | 378 cr |
+| Test voix native A01 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 (voix de référence) | f7972aed71e5cc5ae5cc835fda7b2b18 | success | `avatar/A01_voix_v1.mp4` | **retenu** | 567 cr |
 | Clip voix native A02 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 = extrait A01 (voix seule) | 2489c5e62a97016ddc37ea6dae19b889 | success | `avatar/A02_voix_v1.mp4` | recalée : « carences » mal prononcé | 252 cr |
-| Clip voix native A03 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 = extrait A03 | 218eb5fab58f911e6e2b4b3778c59997 | success | `avatar/A03_voix_v1.mp4` | en attente de validation | 441 cr |
-| Clip voix native A04 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 = extrait A01 (voix seule) | 7cd1fe8a90f39160fa938ef3dd92b766 | success | `avatar/A04_voix_v1.mp4` | en attente de validation | 252 cr |
-| Clip voix native A05 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 = extrait A05 | 47e34f7d7f7f54d03888c2dacdbeb12f | success | `avatar/A05_voix_v1.mp4` | en attente de validation | 378 cr |
-| Image I1 | v1 | nano-banana-2 1K | e1add4f177e3951a1a10c5ec676f4430 | success | `sorties/images/I1_v1.png` | en attente de validation | 8 cr |
-| Image I2 | v1 | nano-banana-2 1K | c4c8171cef32b1014d1702b345b34f59 | success | `sorties/images/I2_v1.png` | en attente de validation | 8 cr |
-| Image I3 | v1 | nano-banana-2 1K | 69394883d6aa29a0b6c8957dfffa11da | success | `sorties/images/I3_v1.png` | en attente de validation | 8 cr |
+| Clip voix native A03 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 = extrait A03 | 218eb5fab58f911e6e2b4b3778c59997 | success | `avatar/A03_voix_v1.mp4` | **retenu** | 441 cr |
+| Clip voix native A04 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 = extrait A01 (voix seule) | 7cd1fe8a90f39160fa938ef3dd92b766 | success | `avatar/A04_voix_v1.mp4` | **retenu** | 252 cr |
+| Clip voix native A05 | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1 = extrait A05 | 47e34f7d7f7f54d03888c2dacdbeb12f | success | `avatar/A05_voix_v1.mp4` | **retenu** | 378 cr |
+| Image I1 | v1 | nano-banana-2 1K | e1add4f177e3951a1a10c5ec676f4430 | success | `sorties/images/I1_v1.png` | remplacée par v2 (style scientifique) | 8 cr |
+| Image I2 | v1 | nano-banana-2 1K | c4c8171cef32b1014d1702b345b34f59 | success | `sorties/images/I2_v1.png` | remplacée par v2 (style scientifique) | 8 cr |
+| Image I3 | v1 | nano-banana-2 1K | 69394883d6aa29a0b6c8957dfffa11da | success | `sorties/images/I3_v1.png` | remplacée par v2 (style scientifique) | 8 cr |
 | Image I4 | v1 | nano-banana-2 1K | 1eded99ee16ebaaa9a5b5806cbf52f14 | success | `sorties/images/I4_v1.png` | remplacée par v2 (photo culinaire, demande : style scientifique de E1) | 8 cr |
 | Image I5 | v1 | nano-banana-2 1K | 4a1d9d1555a5fd39dc80c215bc32fdfd | success | `sorties/images/I5_v1.png` | remplacée par v2 (photo culinaire, demande : style scientifique de E1) | 8 cr |
 | Image I6 | v1 | nano-banana-2 1K | 66a8f822003abddf47023edfc1458a52 | success | `sorties/images/I6_v1.png` | remplacée par v2 (photo culinaire, demande : style scientifique de E1) | 8 cr |
@@ -42,10 +42,10 @@ Tarif KIE standard : 1 crédit ≈ 0,005 $.
 | Image I6 | v2 | nano-banana-2 1K | 0439499def8ba8f6ae485ab6f77de4bd | success | `sorties/images/I6_v2.png` | **retenue** | 8 cr |
 | Image I7 | v2 | nano-banana-2 1K | 6d9f6f6dcaee18682a8a7d2d12c36c67 | success | `sorties/images/I7_v2.png` | **retenue** | 8 cr |
 | Image I8 | v2 | nano-banana-2 1K | f66a82baf89d2d31c7dd0c703db02f68 | success | `sorties/images/I8_v2.png` | **retenue** | 8 cr |
-| Clip voix native A02 | v2 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1, consigne de prononciation « carences » | e1ebf5a1a8fd0ed465a19374ee07dba1 | success | `avatar/A02_voix_v2.mp4` | en attente de validation (v1 recalée : « carences » mal prononcé) | 252 cr |
-| Image I1 | v2 | nano-banana-2 1K, style scientifique E1 | 9e78d92cc4d48711179e94e3baa5ecd7 | success | `sorties/images/I1_v2.png` | en attente de validation | 8 cr |
-| Image I2 | v2 | nano-banana-2 1K, style scientifique E1 | 29d005988ecbcb4a945a13d846642a10 | success | `sorties/images/I2_v2.png` | en attente de validation | 8 cr |
-| Image I3 | v2 | nano-banana-2 1K, style scientifique E1 | 829a7265ade84ba14b985d2d842692c1 | success | `sorties/images/I3_v2.png` | en attente de validation | 8 cr |
+| Clip voix native A02 | v2 | bytedance/seedance-2-5 720p, generate_audio, @Image1 + @Audio1, consigne de prononciation « carences » | e1ebf5a1a8fd0ed465a19374ee07dba1 | success | `avatar/A02_voix_v2.mp4` | **retenu** | 252 cr |
+| Image I1 | v2 | nano-banana-2 1K, style scientifique E1 | 9e78d92cc4d48711179e94e3baa5ecd7 | success | `sorties/images/I1_v2.png` | **retenu** | 8 cr |
+| Image I2 | v2 | nano-banana-2 1K, style scientifique E1 | 29d005988ecbcb4a945a13d846642a10 | success | `sorties/images/I2_v2.png` | **retenu** | 8 cr |
+| Image I3 | v2 | nano-banana-2 1K, style scientifique E1 | 829a7265ade84ba14b985d2d842692c1 | success | `sorties/images/I3_v2.png` | **retenu** | 8 cr |
 
 **Total : 5290 crédits ≈ 26.45 $.**
 
