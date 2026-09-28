@@ -1,0 +1,32 @@
+{
+ "S01": {
+  "decalage_s": 0.25,
+  "correlation": 0.31,
+  "correlation_sans_decalage": -0.12
+ },
+ "A01": {
+  "decalage_s": 0.125,
+  "correlation": 0.19,
+  "correlation_sans_decalage": 0.08
+ },
+ "A02": {
+  "decalage_s": 1.0,
+  "correlation": 0.5,
+  "correlation_sans_decalage": 0.06
+ },
+ "A03": {
+  "decalage_s": -0.667,
+  "correlation": 0.33,
+  "correlation_sans_decalage": -0.21
+ },
+ "A04": {
+  "decalage_s": 0.208,
+  "correlation": 0.46,
+  "correlation_sans_decalage": -0.01
+ },
+ "A05": {
+  "decalage_s": 1.0,
+  "correlation": 0.36,
+  "correlation_sans_decalage": -0.04
+ }
+}
