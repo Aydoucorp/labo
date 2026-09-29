@@ -1,0 +1,75 @@
+{
+  "_doc": "Paramètres de rythme par profil. Durées en secondes. Utilisé par propose_beats.py, validate_brief.py, build_timeline.py et qc.py.",
+  "ADS": {
+    "label": "Publicité (TikTok / Reels / Meta), 15 à 45 s",
+    "shot": {
+      "HOOK":   {"min": 0.6, "target": 1.2, "max": 1.8},
+      "PROB":   {"min": 1.2, "target": 2.2, "max": 3.0},
+      "MECA":   {"min": 1.5, "target": 2.6, "max": 3.5},
+      "PREUVE": {"min": 1.5, "target": 2.5, "max": 3.5},
+      "PROD":   {"min": 1.2, "target": 2.2, "max": 3.0},
+      "BENEF":  {"min": 1.2, "target": 2.2, "max": 3.0},
+      "OBJ":    {"min": 1.2, "target": 2.2, "max": 3.0},
+      "CTA":    {"min": 1.5, "target": 2.5, "max": 3.5},
+      "CHUTE":  {"min": 1.0, "target": 2.0, "max": 3.0},
+      "default":{"min": 1.2, "target": 2.2, "max": 3.0}
+    },
+    "relance_max_s": 5.0,
+    "pause_min_s": 0.18,
+    "pivot_lead_s": [0.30, 0.50],
+    "kenburns": {"static_from": 1.00, "static_to": 1.06},
+    "punch_scale": 1.10,
+    "speed_ramp_max": 1.25,
+    "transitions": {
+      "family_default": "whip",
+      "visible_max_per_window_s": 8.0,
+      "dissolve_allowed": false,
+      "flash_allowed_in": ["HOOK"]
+    },
+    "product_share_min": 0.40,
+    "reuse_min_gap_s": 10.0,
+    "vo_lufs": -16.0,
+    "ambience_db": -25.0,
+    "music_db": -22.0
+  },
+  "EDU": {
+    "label": "Vidéo éducative organique, 45 à 90 s",
+    "shot": {
+      "HOOK":   {"min": 0.6, "target": 1.5, "max": 2.0},
+      "PROB":   {"min": 2.0, "target": 3.2, "max": 4.5},
+      "MECA":   {"min": 2.5, "target": 3.8, "max": 5.0},
+      "PREUVE": {"min": 2.5, "target": 3.8, "max": 5.0},
+      "PROD":   {"min": 2.0, "target": 3.0, "max": 4.5},
+      "BENEF":  {"min": 2.0, "target": 3.2, "max": 4.5},
+      "OBJ":    {"min": 2.0, "target": 3.2, "max": 4.5},
+      "CTA":    {"min": 2.5, "target": 3.5, "max": 4.0},
+      "CHUTE":  {"min": 1.5, "target": 2.5, "max": 4.0},
+      "default":{"min": 2.0, "target": 3.2, "max": 4.5}
+    },
+    "relance_max_s": 8.0,
+    "pause_min_s": 0.18,
+    "pivot_lead_s": [0.30, 0.50],
+    "kenburns": {"static_from": 1.00, "static_to": 1.05},
+    "punch_scale": 1.08,
+    "speed_ramp_max": 1.15,
+    "transitions": {
+      "family_default": "zoomthrough",
+      "visible_max_per_window_s": 8.0,
+      "dissolve_allowed": true,
+      "flash_allowed_in": ["HOOK"]
+    },
+    "product_share_min": 0.25,
+    "reuse_min_gap_s": 12.0,
+    "vo_lufs": -16.0,
+    "ambience_db": -25.0,
+    "music_db": -24.0
+  },
+  "platform_safe_zone": {
+    "_doc": "Marges en pixels pour 1080x1920 : zone où les textes ne doivent pas aller.",
+    "tiktok":    {"top": 220, "bottom": 420, "left": 60, "right": 130},
+    "reels":     {"top": 220, "bottom": 380, "left": 60, "right": 130},
+    "shorts":    {"top": 200, "bottom": 340, "left": 60, "right": 130},
+    "youtube":   {"top": 100, "bottom": 140, "left": 80, "right": 80},
+    "meta-feed": {"top": 160, "bottom": 300, "left": 60, "right": 60}
+  }
+}

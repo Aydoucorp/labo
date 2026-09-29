@@ -1,0 +1,24 @@
+{
+  "name": "broll-director-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Projet Remotion de CRÉATION FULL B-ROLL ARTISTE : montage vertical full B-roll avec sous-titres karaoke",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Main out.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/captions": "^4.0.529",
+    "@remotion/cli": "^4.0.529",
+    "@remotion/media": "^4.0.529",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.6.0"
+  }
+}

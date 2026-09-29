@@ -1,0 +1,19 @@
+# Brique ALIGNEMENT de CRÉATION FULL B-ROLL ARTISTE (align.py, audio_features.py, propose_beats.py, tighten_vo.py)
+# Installation : pip install --break-system-packages -r requirements-align.txt
+# Prérequis système : ffmpeg et ffprobe dans le PATH, Python 3.11.
+# Le build de ctc-forced-aligner exige un setuptools récent (voir README-align.md).
+
+numpy>=1.24
+soundfile>=0.12
+
+# Méthode 1 (par défaut) : alignement forcé CTC, modèle MMS en ONNX, CPU.
+# Télécharge ~1,26 Go dans ~/ctc_forced_aligner/model.onnx au premier lancement (huggingface.co).
+# Tire librosa, numba et onnxruntime.
+ctc-forced-aligner==1.0.2
+
+# Méthode 2 (secours) : transcription whisper + réconciliation avec le script.
+# Modèles Systran/faster-whisper-* téléchargés depuis huggingface.co (small ~480 Mo).
+faster-whisper>=1.1
+
+# Optionnel : loudness intégrée si ffmpeg loudnorm n'est pas exploitable.
+pyloudnorm>=0.1

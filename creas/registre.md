@@ -21,6 +21,7 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | zack-d-style | 000 |
 | le-montage | 000 |
 | talking-head | 001 |
+| full-b-roll-artiste | 000 |
 
 ## Historique
 
