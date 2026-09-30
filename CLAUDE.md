@@ -90,6 +90,7 @@ Ne vont pas dans Drive (ils sont sur GitHub) : code et scripts, références tec
 | runs/2026-09-28_claire-cheveux-gris-carences_talking-head | `1Yly3bxgWu1-MnSl3U91BSr4huvDPViH5` |
 | skills/creation-full-b-roll-artiste | `1JDzZC2iEsrpcUFxdz-P_o1y4FiP5ljJn` |
 | creas/full-b-roll-artiste | `1Jjvqlp6Wz4io83GjIogc5vkguzqa4GWR` |
+| runs/2026-09-30_claire-remedes-naturels_papercut | `1BYa4jh4-BnoQ5QiaDuDNR3Wk4J55aDm5` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
