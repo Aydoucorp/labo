@@ -9,7 +9,7 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 
 | Concept | Dernier numéro |
 |---|---|
-| papercut | 001 |
+| papercut | 002 |
 | claymotion | 000 |
 | disney | 000 |
 | jouet | 000 |
@@ -29,3 +29,4 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 |---|---|---|---|---|---|---|
 | `2026-09-25_papercut_001.mp4` | papercut | 2026-09-25 | 001 | Claire · guide racine (CTA « GUIDE ») | `runs/2026-09-25_claire-guide-racine_papercut/` | 31,7 s · 9:16 · 1080×1920 |
 | `2026-09-28_talking-head_001.mp4` | talking-head | 2026-09-28 | 001 | Claire · cheveux gris et carences (CTA « GUIDE »), version 2 voix off | `runs/2026-09-28_claire-cheveux-gris-carences_talking-head/` | 56,4 s · 9:16 · 1080×1920 |
+| `2026-09-30_papercut_002.mp4` | papercut | 2026-09-30 | 002 | Claire · remèdes naturels notés sur 10 (CTA abonnement) | `runs/2026-09-30_claire-remedes-naturels_papercut/` | 42,2 s · 9:16 · 1080×1920 |

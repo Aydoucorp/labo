@@ -9,14 +9,18 @@ rng = np.random.default_rng(7)
 def tampon(txt, col, w=520):
     h = int(w * 0.62)
     im = Image.new("RGBA", (w, h), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    d.rounded_rectangle((2, 2, w - 2, h - 2), radius=30, fill=(250, 246, 243, 240))   # étiquette papier crème, lisible sur tout fond
     d.rounded_rectangle((10, 10, w - 10, h - 10), radius=26, outline=col + (255,), width=16)
     d.rounded_rectangle((34, 34, w - 34, h - 34), radius=16, outline=col + (255,), width=5)
     f = ImageFont.truetype(F, int(h * 0.56)); bb = d.textbbox((0, 0), txt, font=f)
     d.text(((w - (bb[2] - bb[0])) / 2 - bb[0], (h - (bb[3] - bb[1])) / 2 - bb[1]), txt, font=f, fill=col + (255,))
-    a = np.array(im); alpha = a[..., 3].astype(float)
-    grain = rng.random(alpha.shape)                       # encre irrégulière : trous et zones plus claires
-    alpha *= np.where(grain < 0.10, 0.15, np.where(grain < 0.25, 0.75, 1.0))
-    a[..., 3] = alpha.clip(0, 255).astype(np.uint8)
+    a = np.array(im).astype(float)
+    encre = np.abs(a[..., :3] - np.array(col)).sum(-1) < 60     # pixels d'encre
+    grain = rng.random(encre.shape)                            # encre irrégulière : zones plus claires, laisse voir le papier
+    k = np.where(grain < 0.10, 0.25, np.where(grain < 0.25, 0.7, 1.0))[..., None]
+    creme = np.array([250, 246, 243])
+    a[..., :3] = np.where(encre[..., None], a[..., :3] * k + creme * (1 - k), a[..., :3])
+    a = a.clip(0, 255).astype(np.uint8)
     im = Image.fromarray(a).filter(ImageFilter.GaussianBlur(0.6))
     return im.rotate(-10, expand=True, resample=Image.BICUBIC)
 

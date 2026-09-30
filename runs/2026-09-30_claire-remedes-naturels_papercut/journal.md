@@ -26,3 +26,46 @@ Tarif KIE : 1 crédit ≈ 0,005 $. Références de style réutilisées (R3 palet
 Retouche locale : P15 v3 = v2 avec le tampon délavé « ADF » effacé (filtre local, sans coût).
 
 **Total images : 216 crédits ≈ 1.08 $.**
+
+## Animations
+
+Gemini Omni refuse systématiquement 8 plans (P03, P05, P06, P08, P09, P11, P13, P15 : « Internal Error », 2 essais, 0 crédit) ; ces plans sont animés avec MiniMax H3 (image vers vidéo, 2K).
+
+| Étape | Variante | Modèle | ID de tâche | État | Statut | Coût |
+|---|---|---|---|---|---|---|
+| P01 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | 7350df9b046920123385f6f503ef4a4b | success | **retenu** | 63 cr |
+| P02 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | 0ae71d49beb6ac8fb157c975fc5ab820 | success | **retenu** | 63 cr |
+| P03 clip | h3-v1 | minimax-h3/image-to-video 2K 4 s | 4fee2cb8ad22811045566688b3ff8ab2 | success | **retenu** | 52 cr |
+| P03 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | 52abe087120b51ecc47d39e215710152 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P03 clip | v1b | gemini-omni-flash-1-1 1080p 4 s | 8f15ac5d5a6d0ae7cc311425fa60a5e8 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P04 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | 4775926c80003c93c227e73fd9662b6a | success | **retenu** | 63 cr |
+| P05 clip | h3-v1 | minimax-h3/image-to-video 2K 4 s | a8c7814ba115f9a7b958bcae141c7db9 | success | **retenu** | 52 cr |
+| P05 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | 63515887b4ce2fc4de3ea597400e1a28 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P05 clip | v1b | gemini-omni-flash-1-1 1080p 4 s | 9f630afe95aab4caf4429be92d392e05 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P06 clip | h3-v1 | minimax-h3/image-to-video 2K 4 s | fbb10632cdc1e304a7c11af0605ed338 | success | **retenu** | 52 cr |
+| P06 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | 676570e5727791002a697c5c528e0201 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P06 clip | v1b | gemini-omni-flash-1-1 1080p 4 s | 95c6fca5389ab01231184520ad30d871 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P07 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | e1dbf5cc20ced49bb39a33ae28e6d846 | success | **retenu** | 63 cr |
+| P08 clip | h3-v1 | minimax-h3/image-to-video 2K 4 s | f8852bea4437d71666066dd2982e38e0 | success | **retenu** | 52 cr |
+| P08 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | f0ca12bed1aacf2c88c1670a12d8e699 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P08 clip | v1b | gemini-omni-flash-1-1 1080p 4 s | d05092c548c2372754bd13560914af57 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P09 clip | h3-v1 | minimax-h3/image-to-video 2K 4 s | 31e4349d7e28e68eae885389b7a6f2d5 | success | **retenu** | 52 cr |
+| P09 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | f74406042ac4aafb34aed72fbd202854 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P09 clip | v1b | gemini-omni-flash-1-1 1080p 4 s | b94ade0dc5dd4cf112c35e57f59d7aba | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P10 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | 5fe42caa42ba633cdb4d0cfd01f57cc5 | success | **retenu** | 63 cr |
+| P11 clip | h3-v1 | minimax-h3/image-to-video 2K 4 s | e4c16e602649a9db60740747639194bf | success | **retenu** | 52 cr |
+| P11 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | b1b0ed549a7b5405eb05695d500671b2 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P11 clip | v1b | gemini-omni-flash-1-1 1080p 4 s | 8bb973c5a5d509e467fdf76e0ada7bd3 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P12 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | e58c17b82b6809eac1432ffcdded15d3 | success | **retenu** | 63 cr |
+| P13 clip | h3-v1 | minimax-h3/image-to-video 2K 4 s | dae5659ea829ae7758bddc5de055d25a | success | **retenu** | 52 cr |
+| P13 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | 49b7bf805eaa8eaea84e1e6bbf2db43e | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P13 clip | v1b | gemini-omni-flash-1-1 1080p 4 s | b86d38c22f92b8c0b7e3550ebe385b53 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P14 clip | v1 | gemini-omni-flash-1-1 1080p 6 s | 613d35c9e72f099e2500b64eff0a8dbe | success | **retenu** | 84 cr |
+| P15 clip | h3-v1 | minimax-h3/image-to-video 2K 4 s | 55bdc5dcdd075fafa98f006078c4637a | success | **retenu** | 52 cr |
+| P15 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | e8fa3d87c3aadc8803a2d33dd7331943 | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P15 clip | v1b | gemini-omni-flash-1-1 1080p 4 s | db9652bd7e7496be19060c00f2825ded | fail | échec fournisseur (Internal Error, Please try again later.) · 0 cr | 0 cr |
+| P16 clip | v1 | gemini-omni-flash-1-1 1080p 4 s | c0baa36acdebf5f8f9bb68ec3ee0b43d | success | **retenu** | 63 cr |
+
+**Total animations : 941 crédits. Total du run : 1157 crédits ≈ 5.79 $.**
+
+Montage : `montage/montage.py` (FFmpeg, local, sans coût). Créa finale : `creas/papercut/2026-09-30_papercut_002.mp4`.
