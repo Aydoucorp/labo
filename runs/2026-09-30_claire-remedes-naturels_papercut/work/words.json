@@ -1,0 +1,1145 @@
+{
+ "audio": "runs/2026-09-30_claire-remedes-naturels_papercut/audio/voix.mp3",
+ "duration_s": 42.188,
+ "language": "fr",
+ "method": "ctc-forced-aligner",
+ "script_hash": "6d9acf49928b7bfcdd0a7094f68f1986b1b62cc4",
+ "words": [
+  {
+   "i": 0,
+   "w": "Tu",
+   "start": 0.12,
+   "end": 0.25,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 1,
+   "w": "perds",
+   "start": 0.35,
+   "end": 0.52,
+   "score": 0.117,
+   "punct_after": ""
+  },
+  {
+   "i": 2,
+   "w": "tes",
+   "start": 0.56,
+   "end": 0.71,
+   "score": 0.78,
+   "punct_after": ""
+  },
+  {
+   "i": 3,
+   "w": "cheveux",
+   "start": 0.72,
+   "end": 1.06,
+   "score": 0.24,
+   "punct_after": ""
+  },
+  {
+   "i": 4,
+   "w": "et",
+   "start": 1.25,
+   "end": 1.32,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 5,
+   "w": "tu",
+   "start": 1.39,
+   "end": 1.5,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 6,
+   "w": "as",
+   "start": 1.5,
+   "end": 1.63,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 7,
+   "w": "déjà",
+   "start": 1.64,
+   "end": 1.94,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 8,
+   "w": "tout",
+   "start": 1.94,
+   "end": 2.06,
+   "score": 0.966,
+   "punct_after": ""
+  },
+  {
+   "i": 9,
+   "w": "essayé",
+   "start": 2.1,
+   "end": 2.5,
+   "score": 0.998,
+   "punct_after": "?"
+  },
+  {
+   "i": 10,
+   "w": "J'ai",
+   "start": 2.78,
+   "end": 3.02,
+   "score": 0.971,
+   "punct_after": ""
+  },
+  {
+   "i": 11,
+   "w": "noté",
+   "start": 3.02,
+   "end": 3.28,
+   "score": 0.992,
+   "punct_after": ""
+  },
+  {
+   "i": 12,
+   "w": "les",
+   "start": 3.28,
+   "end": 3.4,
+   "score": 0.974,
+   "punct_after": ""
+  },
+  {
+   "i": 13,
+   "w": "remèdes",
+   "start": 3.4,
+   "end": 3.66,
+   "score": 0.751,
+   "punct_after": ""
+  },
+  {
+   "i": 14,
+   "w": "naturels",
+   "start": 3.68,
+   "end": 4.2,
+   "score": 0.892,
+   "punct_after": ""
+  },
+  {
+   "i": 15,
+   "w": "de",
+   "start": 4.2,
+   "end": 4.34,
+   "score": 0.932,
+   "punct_after": ""
+  },
+  {
+   "i": 16,
+   "w": "zéro",
+   "start": 4.42,
+   "end": 4.82,
+   "score": 0.262,
+   "punct_after": ""
+  },
+  {
+   "i": 17,
+   "w": "à",
+   "start": 5.0,
+   "end": 5.12,
+   "score": 0.723,
+   "punct_after": ""
+  },
+  {
+   "i": 18,
+   "w": "dix",
+   "start": 5.18,
+   "end": 5.46,
+   "score": 0.049,
+   "punct_after": "."
+  },
+  {
+   "i": 19,
+   "w": "L'eau",
+   "start": 5.88,
+   "end": 6.14,
+   "score": 0.126,
+   "punct_after": ""
+  },
+  {
+   "i": 20,
+   "w": "de",
+   "start": 6.14,
+   "end": 6.24,
+   "score": 0.189,
+   "punct_after": ""
+  },
+  {
+   "i": 21,
+   "w": "romarin",
+   "start": 6.24,
+   "end": 6.69,
+   "score": 0.412,
+   "punct_after": "."
+  },
+  {
+   "i": 22,
+   "w": "Un",
+   "start": 6.95,
+   "end": 7.12,
+   "score": 0.055,
+   "punct_after": ""
+  },
+  {
+   "i": 23,
+   "w": "sur",
+   "start": 7.12,
+   "end": 7.31,
+   "score": 0.087,
+   "punct_after": ""
+  },
+  {
+   "i": 24,
+   "w": "dix",
+   "start": 7.35,
+   "end": 7.42,
+   "score": 0.037,
+   "punct_after": "."
+  },
+  {
+   "i": 25,
+   "w": "Elle",
+   "start": 7.75,
+   "end": 7.96,
+   "score": 0.952,
+   "punct_after": ""
+  },
+  {
+   "i": 26,
+   "w": "n'a",
+   "start": 7.96,
+   "end": 8.1,
+   "score": 0.807,
+   "punct_after": ""
+  },
+  {
+   "i": 27,
+   "w": "littéralement",
+   "start": 8.14,
+   "end": 8.95,
+   "score": 0.932,
+   "punct_after": ""
+  },
+  {
+   "i": 28,
+   "w": "aucune",
+   "start": 9.16,
+   "end": 9.6,
+   "score": 0.933,
+   "punct_after": ""
+  },
+  {
+   "i": 29,
+   "w": "preuve",
+   "start": 9.64,
+   "end": 9.88,
+   "score": 0.938,
+   "punct_after": ""
+  },
+  {
+   "i": 30,
+   "w": "d'efficacité",
+   "start": 9.9,
+   "end": 10.52,
+   "score": 0.977,
+   "punct_after": ""
+  },
+  {
+   "i": 31,
+   "w": "derrière",
+   "start": 10.52,
+   "end": 10.86,
+   "score": 0.967,
+   "punct_after": ""
+  },
+  {
+   "i": 32,
+   "w": "elle",
+   "start": 10.86,
+   "end": 10.96,
+   "score": 0.996,
+   "punct_after": "."
+  },
+  {
+   "i": 33,
+   "w": "Je",
+   "start": 11.1,
+   "end": 11.27,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 34,
+   "w": "te",
+   "start": 11.31,
+   "end": 11.42,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 35,
+   "w": "la",
+   "start": 11.42,
+   "end": 11.56,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 36,
+   "w": "recommande",
+   "start": 11.56,
+   "end": 12.05,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 37,
+   "w": "pas",
+   "start": 12.06,
+   "end": 12.24,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 38,
+   "w": "pour",
+   "start": 12.24,
+   "end": 12.32,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 39,
+   "w": "faire",
+   "start": 12.41,
+   "end": 12.51,
+   "score": 0.901,
+   "punct_after": ""
+  },
+  {
+   "i": 40,
+   "w": "pousser",
+   "start": 12.63,
+   "end": 12.84,
+   "score": 0.896,
+   "punct_after": ""
+  },
+  {
+   "i": 41,
+   "w": "tes",
+   "start": 12.86,
+   "end": 13.0,
+   "score": 0.611,
+   "punct_after": ""
+  },
+  {
+   "i": 42,
+   "w": "cheveux",
+   "start": 13.0,
+   "end": 13.18,
+   "score": 0.285,
+   "punct_after": "."
+  },
+  {
+   "i": 43,
+   "w": "L'huile",
+   "start": 13.48,
+   "end": 13.86,
+   "score": 0.571,
+   "punct_after": ""
+  },
+  {
+   "i": 44,
+   "w": "botanique",
+   "start": 13.86,
+   "end": 14.5,
+   "score": 0.903,
+   "punct_after": "."
+  },
+  {
+   "i": 45,
+   "w": "Zéro",
+   "start": 14.84,
+   "end": 15.2,
+   "score": 0.192,
+   "punct_after": ""
+  },
+  {
+   "i": 46,
+   "w": "sur",
+   "start": 15.2,
+   "end": 15.48,
+   "score": 0.207,
+   "punct_after": ""
+  },
+  {
+   "i": 47,
+   "w": "dix",
+   "start": 15.48,
+   "end": 15.58,
+   "score": 0.145,
+   "punct_after": "."
+  },
+  {
+   "i": 48,
+   "w": "Un",
+   "start": 15.96,
+   "end": 16.13,
+   "score": 0.942,
+   "punct_after": ""
+  },
+  {
+   "i": 49,
+   "w": "super",
+   "start": 16.15,
+   "end": 16.57,
+   "score": 0.993,
+   "punct_after": ""
+  },
+  {
+   "i": 50,
+   "w": "marketing",
+   "start": 16.58,
+   "end": 17.21,
+   "score": 0.942,
+   "punct_after": ","
+  },
+  {
+   "i": 51,
+   "w": "mais",
+   "start": 17.33,
+   "end": 17.5,
+   "score": 0.98,
+   "punct_after": ""
+  },
+  {
+   "i": 52,
+   "w": "aucune",
+   "start": 17.67,
+   "end": 18.11,
+   "score": 0.928,
+   "punct_after": ""
+  },
+  {
+   "i": 53,
+   "w": "étude",
+   "start": 18.12,
+   "end": 18.36,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 54,
+   "w": "qui",
+   "start": 18.45,
+   "end": 18.53,
+   "score": 0.97,
+   "punct_after": ""
+  },
+  {
+   "i": 55,
+   "w": "prouve",
+   "start": 18.59,
+   "end": 18.72,
+   "score": 0.981,
+   "punct_after": ""
+  },
+  {
+   "i": 56,
+   "w": "qu'elle",
+   "start": 18.8,
+   "end": 18.95,
+   "score": 0.276,
+   "punct_after": ""
+  },
+  {
+   "i": 57,
+   "w": "est",
+   "start": 18.96,
+   "end": 19.05,
+   "score": 0.725,
+   "punct_after": ""
+  },
+  {
+   "i": 58,
+   "w": "efficace",
+   "start": 19.06,
+   "end": 19.4,
+   "score": 0.958,
+   "punct_after": "."
+  },
+  {
+   "i": 59,
+   "w": "L'huile",
+   "start": 19.81,
+   "end": 20.11,
+   "score": 0.588,
+   "punct_after": ""
+  },
+  {
+   "i": 60,
+   "w": "de",
+   "start": 20.12,
+   "end": 20.23,
+   "score": 0.958,
+   "punct_after": ""
+  },
+  {
+   "i": 61,
+   "w": "romarin",
+   "start": 20.24,
+   "end": 20.66,
+   "score": 0.96,
+   "punct_after": "."
+  },
+  {
+   "i": 62,
+   "w": "Cinq",
+   "start": 20.96,
+   "end": 21.15,
+   "score": 0.341,
+   "punct_after": ""
+  },
+  {
+   "i": 63,
+   "w": "sur",
+   "start": 21.16,
+   "end": 21.33,
+   "score": 0.869,
+   "punct_after": ""
+  },
+  {
+   "i": 64,
+   "w": "dix",
+   "start": 21.34,
+   "end": 21.44,
+   "score": 0.27,
+   "punct_after": "."
+  },
+  {
+   "i": 65,
+   "w": "Elle",
+   "start": 21.81,
+   "end": 22.03,
+   "score": 0.998,
+   "punct_after": ","
+  },
+  {
+   "i": 66,
+   "w": "en",
+   "start": 22.04,
+   "end": 22.13,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 67,
+   "w": "revanche",
+   "start": 22.14,
+   "end": 22.58,
+   "score": 0.906,
+   "punct_after": ","
+  },
+  {
+   "i": 68,
+   "w": "a",
+   "start": 22.6,
+   "end": 22.71,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 69,
+   "w": "de",
+   "start": 22.72,
+   "end": 22.81,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 70,
+   "w": "la",
+   "start": 22.82,
+   "end": 22.93,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 71,
+   "w": "science",
+   "start": 23.03,
+   "end": 23.3,
+   "score": 0.904,
+   "punct_after": ""
+  },
+  {
+   "i": 72,
+   "w": "derrière",
+   "start": 23.32,
+   "end": 23.68,
+   "score": 0.998,
+   "punct_after": ","
+  },
+  {
+   "i": 73,
+   "w": "même",
+   "start": 23.93,
+   "end": 24.21,
+   "score": 0.863,
+   "punct_after": ""
+  },
+  {
+   "i": 74,
+   "w": "si",
+   "start": 24.23,
+   "end": 24.35,
+   "score": 0.802,
+   "punct_after": ""
+  },
+  {
+   "i": 75,
+   "w": "les",
+   "start": 24.36,
+   "end": 24.46,
+   "score": 0.512,
+   "punct_after": ""
+  },
+  {
+   "i": 76,
+   "w": "preuves",
+   "start": 24.49,
+   "end": 24.81,
+   "score": 0.94,
+   "punct_after": ""
+  },
+  {
+   "i": 77,
+   "w": "restent",
+   "start": 24.82,
+   "end": 25.15,
+   "score": 0.844,
+   "punct_after": ""
+  },
+  {
+   "i": 78,
+   "w": "limitées",
+   "start": 25.16,
+   "end": 25.48,
+   "score": 0.967,
+   "punct_after": "."
+  },
+  {
+   "i": 79,
+   "w": "Elle",
+   "start": 25.68,
+   "end": 25.84,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 80,
+   "w": "s'est",
+   "start": 25.89,
+   "end": 25.98,
+   "score": 0.817,
+   "punct_after": ""
+  },
+  {
+   "i": 81,
+   "w": "montrée",
+   "start": 26.0,
+   "end": 26.36,
+   "score": 0.748,
+   "punct_after": ""
+  },
+  {
+   "i": 82,
+   "w": "aussi",
+   "start": 26.42,
+   "end": 26.75,
+   "score": 0.894,
+   "punct_after": ""
+  },
+  {
+   "i": 83,
+   "w": "efficace",
+   "start": 26.76,
+   "end": 27.24,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 84,
+   "w": "que",
+   "start": 27.28,
+   "end": 27.37,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 85,
+   "w": "le",
+   "start": 27.38,
+   "end": 27.47,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 86,
+   "w": "minoxidil",
+   "start": 27.48,
+   "end": 28.07,
+   "score": 0.952,
+   "punct_after": ""
+  },
+  {
+   "i": 87,
+   "w": "à",
+   "start": 28.08,
+   "end": 28.15,
+   "score": 0.962,
+   "punct_after": ""
+  },
+  {
+   "i": 88,
+   "w": "deux",
+   "start": 28.16,
+   "end": 28.28,
+   "score": 0.156,
+   "punct_after": ""
+  },
+  {
+   "i": 89,
+   "w": "pour",
+   "start": 28.33,
+   "end": 28.43,
+   "score": 0.227,
+   "punct_after": ""
+  },
+  {
+   "i": 90,
+   "w": "cent",
+   "start": 28.51,
+   "end": 28.62,
+   "score": 0.138,
+   "punct_after": "."
+  },
+  {
+   "i": 91,
+   "w": "Sauf",
+   "start": 28.9,
+   "end": 29.08,
+   "score": 0.985,
+   "punct_after": ""
+  },
+  {
+   "i": 92,
+   "w": "que",
+   "start": 29.12,
+   "end": 29.23,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 93,
+   "w": "dans",
+   "start": 29.24,
+   "end": 29.36,
+   "score": 0.974,
+   "punct_after": ""
+  },
+  {
+   "i": 94,
+   "w": "l'étude",
+   "start": 29.38,
+   "end": 29.87,
+   "score": 0.959,
+   "punct_after": ","
+  },
+  {
+   "i": 95,
+   "w": "elle",
+   "start": 29.92,
+   "end": 30.09,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 96,
+   "w": "était",
+   "start": 30.1,
+   "end": 30.25,
+   "score": 0.911,
+   "punct_after": ""
+  },
+  {
+   "i": 97,
+   "w": "appliquée",
+   "start": 30.29,
+   "end": 30.77,
+   "score": 0.908,
+   "punct_after": ""
+  },
+  {
+   "i": 98,
+   "w": "deux",
+   "start": 30.87,
+   "end": 31.09,
+   "score": 0.653,
+   "punct_after": ""
+  },
+  {
+   "i": 99,
+   "w": "fois",
+   "start": 31.1,
+   "end": 31.26,
+   "score": 0.934,
+   "punct_after": ""
+  },
+  {
+   "i": 100,
+   "w": "par",
+   "start": 31.28,
+   "end": 31.47,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 101,
+   "w": "jour",
+   "start": 31.48,
+   "end": 31.61,
+   "score": 0.994,
+   "punct_after": "."
+  },
+  {
+   "i": 102,
+   "w": "Donc",
+   "start": 31.86,
+   "end": 32.16,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 103,
+   "w": "de",
+   "start": 32.16,
+   "end": 32.32,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 104,
+   "w": "l'huile",
+   "start": 32.32,
+   "end": 32.68,
+   "score": 0.589,
+   "punct_after": ""
+  },
+  {
+   "i": 105,
+   "w": "sur",
+   "start": 32.68,
+   "end": 32.84,
+   "score": 0.954,
+   "punct_after": ""
+  },
+  {
+   "i": 106,
+   "w": "le",
+   "start": 32.84,
+   "end": 32.95,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 107,
+   "w": "cuir",
+   "start": 32.96,
+   "end": 33.2,
+   "score": 0.75,
+   "punct_after": ""
+  },
+  {
+   "i": 108,
+   "w": "chevelu",
+   "start": 33.2,
+   "end": 33.64,
+   "score": 0.953,
+   "punct_after": ""
+  },
+  {
+   "i": 109,
+   "w": "toute",
+   "start": 33.82,
+   "end": 34.06,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 110,
+   "w": "la",
+   "start": 34.06,
+   "end": 34.18,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 111,
+   "w": "journée",
+   "start": 34.18,
+   "end": 34.62,
+   "score": 0.967,
+   "punct_after": ","
+  },
+  {
+   "i": 112,
+   "w": "pour",
+   "start": 34.75,
+   "end": 34.88,
+   "score": 0.987,
+   "punct_after": ""
+  },
+  {
+   "i": 113,
+   "w": "un",
+   "start": 34.88,
+   "end": 34.98,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 114,
+   "w": "résultat",
+   "start": 34.98,
+   "end": 35.44,
+   "score": 0.963,
+   "punct_after": ""
+  },
+  {
+   "i": 115,
+   "w": "équivalent",
+   "start": 35.44,
+   "end": 36.03,
+   "score": 0.993,
+   "punct_after": ""
+  },
+  {
+   "i": 116,
+   "w": "à",
+   "start": 36.08,
+   "end": 36.18,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 117,
+   "w": "un",
+   "start": 36.18,
+   "end": 36.34,
+   "score": 0.991,
+   "punct_after": ""
+  },
+  {
+   "i": 118,
+   "w": "minoxidil",
+   "start": 36.34,
+   "end": 36.96,
+   "score": 0.964,
+   "punct_after": ""
+  },
+  {
+   "i": 119,
+   "w": "à",
+   "start": 36.96,
+   "end": 37.04,
+   "score": 0.969,
+   "punct_after": ""
+  },
+  {
+   "i": 120,
+   "w": "deux",
+   "start": 37.04,
+   "end": 37.25,
+   "score": 0.399,
+   "punct_after": ""
+  },
+  {
+   "i": 121,
+   "w": "pour",
+   "start": 37.3,
+   "end": 37.41,
+   "score": 0.58,
+   "punct_after": ""
+  },
+  {
+   "i": 122,
+   "w": "cent",
+   "start": 37.5,
+   "end": 37.59,
+   "score": 0.527,
+   "punct_after": ","
+  },
+  {
+   "i": 123,
+   "w": "même",
+   "start": 37.88,
+   "end": 38.14,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 124,
+   "w": "pas",
+   "start": 38.16,
+   "end": 38.34,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 125,
+   "w": "à",
+   "start": 38.34,
+   "end": 38.42,
+   "score": 0.989,
+   "punct_after": ""
+  },
+  {
+   "i": 126,
+   "w": "cinq",
+   "start": 38.5,
+   "end": 38.62,
+   "score": 0.157,
+   "punct_after": ""
+  },
+  {
+   "i": 127,
+   "w": "pour",
+   "start": 38.7,
+   "end": 38.79,
+   "score": 0.532,
+   "punct_after": ""
+  },
+  {
+   "i": 128,
+   "w": "cent",
+   "start": 38.87,
+   "end": 38.96,
+   "score": 0.344,
+   "punct_after": "."
+  },
+  {
+   "i": 129,
+   "w": "Pour",
+   "start": 39.17,
+   "end": 39.36,
+   "score": 0.984,
+   "punct_after": ""
+  },
+  {
+   "i": 130,
+   "w": "moi",
+   "start": 39.36,
+   "end": 39.56,
+   "score": 0.998,
+   "punct_after": ","
+  },
+  {
+   "i": 131,
+   "w": "ça",
+   "start": 39.82,
+   "end": 39.9,
+   "score": 0.093,
+   "punct_after": ""
+  },
+  {
+   "i": 132,
+   "w": "ne",
+   "start": 39.9,
+   "end": 39.98,
+   "score": 0.994,
+   "punct_after": ""
+  },
+  {
+   "i": 133,
+   "w": "vaut",
+   "start": 40.0,
+   "end": 40.1,
+   "score": 0.73,
+   "punct_after": ""
+  },
+  {
+   "i": 134,
+   "w": "pas",
+   "start": 40.15,
+   "end": 40.28,
+   "score": 0.954,
+   "punct_after": ""
+  },
+  {
+   "i": 135,
+   "w": "le",
+   "start": 40.28,
+   "end": 40.32,
+   "score": 0.884,
+   "punct_after": ""
+  },
+  {
+   "i": 136,
+   "w": "coup",
+   "start": 40.36,
+   "end": 40.5,
+   "score": 0.948,
+   "punct_after": "."
+  },
+  {
+   "i": 137,
+   "w": "Abonne-toi",
+   "start": 40.74,
+   "end": 41.28,
+   "score": 0.976,
+   "punct_after": ""
+  },
+  {
+   "i": 138,
+   "w": "pour",
+   "start": 41.35,
+   "end": 41.48,
+   "score": 0.971,
+   "punct_after": ""
+  },
+  {
+   "i": 139,
+   "w": "voir",
+   "start": 41.48,
+   "end": 41.64,
+   "score": 0.971,
+   "punct_after": ""
+  },
+  {
+   "i": 140,
+   "w": "la",
+   "start": 41.64,
+   "end": 41.72,
+   "score": 0.972,
+   "punct_after": ""
+  },
+  {
+   "i": 141,
+   "w": "suite",
+   "start": 41.74,
+   "end": 41.93,
+   "score": 0.935,
+   "punct_after": "."
+  }
+ ]
+}
