@@ -1,0 +1,5 @@
+Use the approved starting image P13.
+Animate the EXACT attached flat paper collage with stepped stop-motion paper movement: the oil droplets slide down the hair parting in small stepped moves, the clock hand jumps forward twice. Preserve torn edges, letters, cut-out photos and every layer. Locked camera or very slow push. No morphing, no redraw, no 3D extrusion, letters must stay perfectly stable and identical. Do not add any new text, number or logo; the bottle labels stay plain.
+Duration requested: 2.95 s measured on the final voice-over (generate at the engine's nearest allowed duration above it, trim in the edit).
+Audio: paper rustle and paper placement sounds only, synced with each movement. No voice, no narration, no music.
+Keep material, colours and scale consistent.
