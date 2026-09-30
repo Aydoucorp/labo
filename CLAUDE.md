@@ -35,6 +35,7 @@ Exemple : `runs/2026-09-24_serviette-microfibre_statiques-meta/`
 - Noter dans `brief.md` chaque prompt et chaque réglage utilisé, pour pouvoir reproduire une image validée.
 - Nommage : minuscules, tirets, sans accents ni espaces (`statique-angle-douleur-v2.png`).
 - Si un produit n'a pas encore de dossier dans `refs/produits/`, le signaler avant de générer quoi que ce soit.
+- **Résolution demandée avant toute génération (règle de l'utilisateur)** : avant de lancer des images ou des vidéos, demander à l'utilisateur la résolution voulue pour chaque type de média (ex. images 1K / 2K / 4K ; vidéos 720p / 1080p / 2K), en indiquant pour chaque option le modèle et le coût en crédits. Ne jamais choisir la résolution à sa place.
 - **Validation à chaque étape (règle de l'utilisateur)** : toujours montrer à l'utilisateur les images et les vidéos des plans (SendUserFile), et attendre sa validation explicite avant l'animation, le montage ou toute étape suivante. Ne jamais enchaîner deux étapes payantes sans ce feu vert.
 
 ## Créas finales
