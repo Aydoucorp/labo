@@ -215,7 +215,7 @@ P = [
      ["smartphone", "commentaire « Guide »"], "Commente « Guide »",
      "Photo réaliste en vue subjective d'une main qui tient un smartphone, le pouce sur le clavier, écran de commentaires flou",
      "Le pouce tape le mot, caméra fixe, 2,5 secondes", ("STOCK", "typing comment on phone pov")),
-    ("21b", 76.50, DUREE, "PRODUIT", "detail", "push", "guide-chez-toi",
+    ("21b", 76.50, DUREE, "IAGEN", "detail", "push", "guide-chez-toi",
      "Le guide de Claire affiché sur une tablette posée à côté des deux flacons d'huile.",
      "tablet showing a guide next to oil bottles on wooden table", "tablette avec le guide à côté des flacons d'huile",
      ["guide", "flacons d'huile"], None,
@@ -225,7 +225,7 @@ P = [
 
 LIEUX = {"salle de bain": ["01a", "01b", "02", "03", "04a", "04b", "05a", "05b", "15a", "18"],
          "chambre ou salon, près d'une fenêtre": ["06b", "16", "20b", "21a"],
-         "table en bois clair (nature morte)": ["01d", "19", "20a", "21b"]}
+         "table en bois clair (nature morte)": ["01d", "19", "20a"]}
 
 
 def t(i):

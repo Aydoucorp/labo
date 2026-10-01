@@ -1208,7 +1208,7 @@
           "id": "21b",
           "start": 76.5,
           "end": 79.569,
-          "type": "PRODUIT",
+          "type": "IAGEN",
           "value": "detail",
           "camera": "push",
           "description": "Le guide de Claire affiché sur une tablette posée à côté des deux flacons d'huile.",
@@ -1220,7 +1220,7 @@
           },
           "min_rush_s": 4.1,
           "orientation": "vertical",
-          "filename": "21b_CTA_PRODUIT_guide-claire-affiche-tablette.mp4",
+          "filename": "21b_CTA_IAGEN_guide-claire-affiche-tablette.mp4",
           "overlay_text": null,
           "sfx": null,
           "must_show": [
@@ -1265,8 +1265,7 @@
       "shots": [
         "01d",
         "19",
-        "20a",
-        "21b"
+        "20a"
       ]
     }
   ]
