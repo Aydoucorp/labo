@@ -54,7 +54,8 @@ Exemple : `runs/2026-09-24_serviette-microfibre_statiques-meta/`
 **Drive « Studio marketing » = ce que l'utilisateur consulte**, au même emplacement que dans le studio. À recopier dans Drive à chaque création ou modification :
 - `CLAUDE.md`, le brand DNA des marques (`Claire/`), le `SKILL.md` de chaque skill ;
 - dans chaque run : `brief.md`, `storyboard.md` (ou `decoupage.md`), `montage.md`, `journal.md`, les README de références et le script ;
-- `creas/registre.md` et les créas finales (envoyées à l'utilisateur, qui les dépose).
+- `creas/registre.md` et les créas finales (envoyées à l'utilisateur, qui les dépose) ;
+- `bibliotheque/brolls.md` (tableau des b-rolls réutilisables).
 
 Ne vont pas dans Drive (ils sont sur GitHub) : code et scripts, références techniques des skills, polices, fichiers de prompts, JSON, images et clips intermédiaires.
 
@@ -96,6 +97,7 @@ Ne vont pas dans Drive (ils sont sur GitHub) : code et scripts, références tec
 | runs/2026-09-30_claire-remedes-naturels_papercut | `1BYa4jh4-BnoQ5QiaDuDNR3Wk4J55aDm5` |
 | runs/2026-10-01_claire-minoxidil-arret_full-broll | `1U2Gcs3ki17bgGs9h4bUAS9HpKhXKCmJI` |
 | runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes | `1NSXnTa6orE1cKmaiKNLzlbkMXwdS-LUI` |
+| bibliotheque | `1yxN95-FEXf-TRK352fpooRQy2H17Ppdc` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
