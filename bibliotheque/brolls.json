@@ -1,0 +1,1923 @@
+{
+ "schema": "studio/brolls/1",
+ "brolls": [
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/01a_HOOK_UGC_main-tient-pipette-minoxidil.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/01a_HOOK_UGC_main-tient-pipette-minoxidil.mp4.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Une main tient la pipette de minoxidil au-dessus d'une raie de cheveux châtains, une goutte prête à tomber.",
+   "mots_cles": [
+    "au-dessus",
+    "de",
+    "la",
+    "lotion",
+    "main",
+    "pipette",
+    "qui",
+    "raie",
+    "raie de cheveux",
+    "tient",
+    "une"
+   ],
+   "requete_en": "close up of hand holding a dropper of hair serum above a hair parting, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "01a",
+     "debut": 0.0,
+     "fin": 0.95,
+     "phrase": "Si j'arrête le minoxidil"
+    }
+   ],
+   "duree_s": 3.97,
+   "format": "576x1024",
+   "id": "br-0001",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/01b_HOOK_UGC_brosse-cheveux-pleine-cheveux.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/01b et 01c.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Grosse touffe de cheveux bruns tombés dans un lavabo blanc, près du robinet (début du rush).",
+   "mots_cles": [
+    "brosse",
+    "cheveux",
+    "cheveux tombés",
+    "chute",
+    "de",
+    "en",
+    "gros",
+    "lavabo",
+    "plan",
+    "pleine",
+    "tombés",
+    "touffe",
+    "à"
+   ],
+   "requete_en": "macro of hairbrush full of fallen hair on bathroom sink, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "01b",
+     "debut": 0.95,
+     "fin": 2.4,
+     "phrase": "minoxidil je perdrai jusqu'à"
+    }
+   ],
+   "duree_s": 2.47,
+   "format": "576x1024",
+   "id": "br-0002",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Même rush source coupé en deux (début / fin) pour deux passages"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/01c_HOOK_UGC_main-fouille-grosse-touffe.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/01b et 01c.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Une main fouille la touffe de cheveux tombés dans le lavabo (fin du même rush).",
+   "mots_cles": [
+    "cheveux",
+    "cheveux tombés",
+    "dans",
+    "de",
+    "lavabo",
+    "le",
+    "main",
+    "tombés",
+    "touffe",
+    "une"
+   ],
+   "requete_en": "hand touching a big clump of shed hair in a bathroom sink, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "01c",
+     "debut": 2.4,
+     "fin": 3.95,
+     "phrase": "jusqu'à cinquante pour cent de mes cheveux"
+    }
+   ],
+   "duree_s": 2.47,
+   "format": "576x1024",
+   "id": "br-0003",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Même rush source coupé en deux (début / fin) pour deux passages"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/01d_HOOK_UGC_dessus-calendrier-mural-douze.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/01d_HOOK_UGC_dessus-calendrier-mural-douze.mp4.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Vue de dessus d'un calendrier mural des douze mois posé sur une table en bois, un doigt qui le parcourt.",
+   "mots_cles": [
+    "annuel",
+    "calendrier",
+    "de",
+    "dessus",
+    "doigt",
+    "les",
+    "mois",
+    "papier",
+    "parcourt",
+    "qui",
+    "vu"
+   ],
+   "requete_en": "top down of a yearly paper calendar on wooden table, finger sliding across months, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "01d",
+     "debut": 3.95,
+     "fin": 5.0,
+     "phrase": "dans les douze prochains mois"
+    }
+   ],
+   "duree_s": 4.63,
+   "format": "1440x2560",
+   "id": "br-0004",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/02_PROB_UGC_femme-dos-devant-miroir.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/02 et 03.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Une femme de dos devant le miroir de la salle de bain applique le minoxidil sur sa raie avec la pipette.",
+   "mots_cles": [
+    "applique",
+    "de",
+    "devant",
+    "dos",
+    "femme",
+    "la",
+    "le",
+    "lotion",
+    "miroir",
+    "pipette",
+    "qui",
+    "raie",
+    "une",
+    "à"
+   ],
+   "requete_en": "woman from behind applying hair serum with dropper in bathroom mirror, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "02",
+     "debut": 5.0,
+     "fin": 8.45,
+     "phrase": "mois Si tu es sous minoxidil cette phrase tu te l'es sûrement déjà dite"
+    }
+   ],
+   "duree_s": 4.32,
+   "format": "2160x4096",
+   "id": "br-0005",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Même rush source coupé en deux (début / fin) pour deux passages"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/03_PROB_UGC_macro-goutte-lotion-touche.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/02 et 03.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Macro : la goutte de lotion qui touche le cuir chevelu et s'étale entre les racines.",
+   "mots_cles": [
+    "chevelu",
+    "cuir",
+    "d'une",
+    "de",
+    "entre",
+    "goutte",
+    "le",
+    "les",
+    "lotion",
+    "macro",
+    "racines",
+    "sur"
+   ],
+   "requete_en": "macro of serum drop landing on scalp between hair roots, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "03",
+     "debut": 8.45,
+     "fin": 10.75,
+     "phrase": "Et si mes cheveux étaient devenus dépendants"
+    }
+   ],
+   "duree_s": 3.44,
+   "format": "2160x4096",
+   "id": "br-0006",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Même rush source coupé en deux (début / fin) pour deux passages"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/04a_PROB_UGC_main-repose-flacon-minoxidil.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/04a (2).mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Une main repose le flacon de minoxidil au fond du placard de la salle de bain et hésite.",
+   "mots_cles": [
+    "dans",
+    "de",
+    "flacon",
+    "hésitation",
+    "le",
+    "lotion",
+    "main",
+    "placard",
+    "qui",
+    "range",
+    "un"
+   ],
+   "requete_en": "hand putting a small serum bottle back in bathroom cabinet, hesitating, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "04a",
+     "debut": 10.75,
+     "fin": 13.1,
+     "phrase": "dépendants Et si en arrêtant je perdais ceux"
+    }
+   ],
+   "duree_s": 4.01,
+   "format": "720x1280",
+   "id": "br-0007",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/04b_PROB_UGC_dessus-cheveux-tombes-pres.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/04b.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Vue de dessus de cheveux tombés près de la bonde de la douche.",
+   "mots_cles": [
+    "bonde",
+    "cheveux",
+    "cheveux tombés",
+    "de",
+    "dessus",
+    "douche",
+    "la",
+    "près",
+    "tombés",
+    "vue"
+   ],
+   "requete_en": "top down of fallen hair strands near shower drain, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "04b",
+     "debut": 13.1,
+     "fin": 15.55,
+     "phrase": "ceux qui ont repoussé mais aussi ceux qui étaient restés"
+    }
+   ],
+   "duree_s": 4.01,
+   "format": "720x1280",
+   "id": "br-0008",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/05a_PROB_UGC_main-reprend-flacon-placard.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/5a.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "La main reprend le flacon dans le placard, geste mécanique du soir.",
+   "mots_cles": [
+    "de",
+    "du",
+    "flacon",
+    "l'étagère",
+    "le",
+    "lotion",
+    "main",
+    "qui",
+    "reprend",
+    "routine",
+    "soir",
+    "sur"
+   ],
+   "requete_en": "hand taking hair serum bottle from shelf, evening routine, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "05a",
+     "debut": 15.55,
+     "fin": 17.58,
+     "phrase": "restés Alors tu continues Pas parce que tu en"
+    }
+   ],
+   "duree_s": 4.01,
+   "format": "720x1280",
+   "id": "br-0009",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/05b_PROB_UGC_femme-assise-bord-baignoire.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/5b.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Une femme assise au bord de la baignoire, le flacon dans les mains, tête baissée, visage hors champ.",
+   "mots_cles": [
+    "assise",
+    "au",
+    "baignoire",
+    "baissée",
+    "bord",
+    "de",
+    "en",
+    "femme",
+    "femme assise",
+    "flacon",
+    "la",
+    "main",
+    "tête"
+   ],
+   "requete_en": "woman sitting on edge of bathtub holding a small bottle, head down, face out of frame, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "05b",
+     "debut": 17.58,
+     "fin": 19.6,
+     "phrase": "en as besoin mais parce que tu as peur d'arrêter"
+    }
+   ],
+   "duree_s": 4.01,
+   "format": "720x1280",
+   "id": "br-0010",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/06b_OBJ_UGC_main-passe-cheveux-chatains.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/06b.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Gros plan d'une main qui passe dans des cheveux châtains ondulés, souples et pleins.",
+   "mots_cles": [
+    "cheveux",
+    "dans",
+    "des",
+    "en",
+    "gros",
+    "main",
+    "ondulés",
+    "passe",
+    "plan",
+    "qui"
+   ],
+   "requete_en": "close up of hand running fingers through wavy brown hair, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "06b",
+     "debut": 21.65,
+     "fin": 23.75,
+     "phrase": "minoxidil ne rend pas tes cheveux dépendants Il"
+    }
+   ],
+   "duree_s": 4.01,
+   "format": "720x1280",
+   "id": "br-0011",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/07_MECA_3DSCI_animation-3d-coupe-cuir.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/sorties/clips/07-clip-h3-v1.mp4",
+   "type": "video",
+   "origine": "ia-3d",
+   "style": "3d-scientifique",
+   "marque": "Les cheveux de Claire",
+   "description": "Animation 3D : coupe du cuir chevelu, un follicule et sa racine, la zone de la cause qui reste éclairée sous le minoxidil.",
+   "mots_cles": [
+    "D",
+    "animation",
+    "chevelu",
+    "coupe",
+    "coupe de peau",
+    "cuir",
+    "du",
+    "et",
+    "follicule"
+   ],
+   "requete_en": "hair follicle cross section 3d medical animation scalp, 3D medical animation, warm terracotta and cream palette, dark plum background, soft studio light",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "07",
+     "debut": 23.75,
+     "fin": 26.8,
+     "phrase": "Il ne soigne pas la cause de ta chute il prolonge"
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "768x1344",
+   "id": "br-0012",
+   "modele": "Nano Banana 2 1K (image) + MiniMax H3 768P 4 s (vidéo), KIE",
+   "cout_credits": 40,
+   "notes": "Prompts : runs/2026-10-01_claire-minoxidil-arret_full-broll/prompts/img/07.txt et prompts/ani/07.txt"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/08_MECA_3DSCI_animation-3d-cheveu-continue.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/sorties/clips/08-clip-h3-v1.mp4",
+   "type": "video",
+   "origine": "ia-3d",
+   "style": "3d-scientifique",
+   "marque": "Les cheveux de Claire",
+   "description": "Animation 3D : le cheveu continue de pousser, sa phase de croissance s'allonge.",
+   "mots_cles": [
+    "D",
+    "animation",
+    "cheveu",
+    "cheveu qui pousse",
+    "croissance",
+    "d'un",
+    "de",
+    "follicule",
+    "phase",
+    "pousse",
+    "qui"
+   ],
+   "requete_en": "3d animation hair growth anagen phase follicle, 3D medical animation, warm terracotta and cream palette, dark plum background, soft studio light",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "08",
+     "debut": 26.8,
+     "fin": 29.95,
+     "phrase": "prolonge la phase de pousse de tes cheveux Alors tout dépend de la cause"
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "768x1344",
+   "id": "br-0013",
+   "modele": "Nano Banana 2 1K (image) + MiniMax H3 768P 4 s (vidéo), KIE",
+   "cout_credits": 40,
+   "notes": "Prompts : runs/2026-10-01_claire-minoxidil-arret_full-broll/prompts/img/08.txt et prompts/ani/08.txt"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/09_MECA_STOCK_dessus-raie-elargie-cuir.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/09.jpeg",
+   "type": "image",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Vue de dessus d'une raie élargie, cuir chevelu visible, cheveux fins.",
+   "mots_cles": [
+    "cheveux",
+    "chez",
+    "clairsemés",
+    "cuir chevelu visible",
+    "de",
+    "dessus",
+    "femme",
+    "raie",
+    "une",
+    "vue",
+    "élargie"
+   ],
+   "requete_en": "top view of woman's widening hair part, thinning hair, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "09",
+     "debut": 29.95,
+     "fin": 33.0,
+     "phrase": "Si ta chute est chronique comme une alopécie androgénétique"
+    }
+   ],
+   "duree_s": 4.5,
+   "format": "1080x1920",
+   "id": "br-0014",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Image fixe fournie à la main, animée en zoom lent au montage"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/10_MECA_3DSCI_animation-3d-follicule-retrecit.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/sorties/clips/10-clip-h3-v1.mp4",
+   "type": "video",
+   "origine": "ia-3d",
+   "style": "3d-scientifique",
+   "marque": "Les cheveux de Claire",
+   "description": "Animation 3D : un follicule qui rétrécit en trois temps, le cheveu de plus en plus fin.",
+   "mots_cles": [
+    "D",
+    "animation",
+    "du",
+    "follicule",
+    "miniaturisation",
+    "rétrécissement"
+   ],
+   "requete_en": "3d animation follicle miniaturization hair thinning, 3D medical animation, warm terracotta and cream palette, dark plum background, soft studio light",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "10",
+     "debut": 33.0,
+     "fin": 35.55,
+     "phrase": "tes follicules rétrécissent petit à petit"
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "768x1344",
+   "id": "br-0015",
+   "modele": "Nano Banana 2 1K (image) + MiniMax H3 768P 4 s (vidéo), KIE",
+   "cout_credits": 40,
+   "notes": "Prompts : runs/2026-10-01_claire-minoxidil-arret_full-broll/prompts/img/10.txt et prompts/ani/10.txt"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/11_MECA_STOCK_cheveux-fins-glissent-lavabo.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/11.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Des cheveux fins qui glissent dans un lavabo clair, au ralenti.",
+   "mots_cles": [
+    "cheveux",
+    "cheveux qui tombent",
+    "clair",
+    "dans",
+    "lavabo",
+    "qui",
+    "ralenti",
+    "tombent",
+    "un"
+   ],
+   "requete_en": "slow motion hair strands falling into white sink, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "11",
+     "debut": 35.55,
+     "fin": 38.95,
+     "phrase": "La cause reste là et à l'arrêt les cheveux gagnés retombent"
+    }
+   ],
+   "duree_s": 4.01,
+   "format": "720x1280",
+   "id": "br-0016",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/13_MECA_STOCK_femme-fatiguee-masse-tempes.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/13.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Une femme fatiguée se masse les tempes devant son ordinateur, une assiette presque vide à côté.",
+   "mots_cles": [
+    "devant",
+    "femme",
+    "les",
+    "masse",
+    "ordinateur",
+    "qui",
+    "se",
+    "son",
+    "stressée",
+    "tempes"
+   ],
+   "requete_en": "tired woman rubbing temples at laptop, kitchen table, nearly empty plate, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "13",
+     "debut": 41.6,
+     "fin": 44.55,
+     "phrase": "télogène À cause du stress d'un régime ou d'une carence"
+    }
+   ],
+   "duree_s": 4.01,
+   "format": "720x1280",
+   "id": "br-0017",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/14a_MECA_3DSCI_animation-3d-large-dizaines.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/sorties/clips/14a-clip-h3-v1.mp4",
+   "type": "video",
+   "origine": "ia-3d",
+   "style": "3d-scientifique",
+   "marque": "Les cheveux de Claire",
+   "description": "Animation 3D : une vue large de dizaines de follicules, beaucoup basculent d'un coup au repos.",
+   "mots_cles": [
+    "D",
+    "animation",
+    "au",
+    "de",
+    "follicules",
+    "follicules nombreux",
+    "nombreux",
+    "passent",
+    "qui",
+    "repos"
+   ],
+   "requete_en": "3d animation many hair follicles in scalp telogen phase, 3D medical animation, warm terracotta and cream palette, dark plum background, soft studio light",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "14a",
+     "debut": 44.55,
+     "fin": 47.15,
+     "phrase": "ton corps fait passer d'un coup des milliers de cheveux"
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "768x1344",
+   "id": "br-0018",
+   "modele": "Nano Banana 2 1K (image) + MiniMax H3 768P 4 s (vidéo), KIE",
+   "cout_credits": 40,
+   "notes": "Prompts : runs/2026-10-01_claire-minoxidil-arret_full-broll/prompts/img/14a.txt et prompts/ani/14a.txt"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/14b_MECA_3DSCI_animation-3d-seul-follicule.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/sorties/clips/14b-clip-h3-v1.mp4",
+   "type": "video",
+   "origine": "ia-3d",
+   "style": "3d-scientifique",
+   "marque": "Les cheveux de Claire",
+   "description": "Animation 3D : un seul follicule au repos, bulbe en massue, cheveu immobile.",
+   "mots_cles": [
+    "D",
+    "animation",
+    "au",
+    "d'un",
+    "follicule",
+    "follicule au repos",
+    "repos"
+   ],
+   "requete_en": "3d animation single resting hair follicle club hair telogen, 3D medical animation, warm terracotta and cream palette, dark plum background, soft studio light",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "14b",
+     "debut": 47.15,
+     "fin": 49.75,
+     "phrase": "cheveux en phase télogène la phase de repos"
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "768x1344",
+   "id": "br-0019",
+   "modele": "Nano Banana 2 1K (image) + MiniMax H3 768P 4 s (vidéo), KIE",
+   "cout_credits": 40,
+   "notes": "Prompts : runs/2026-10-01_claire-minoxidil-arret_full-broll/prompts/img/14b.txt et prompts/ani/14b.txt"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/15a_MECA_UGC_main-mouillee-douche-retient.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/15a.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Une main mouillée sous la douche retient quelques cheveux tombés.",
+   "mots_cles": [
+    "cheveux",
+    "cheveux tombés",
+    "des",
+    "douche",
+    "la",
+    "main",
+    "mouillée",
+    "qui",
+    "retient",
+    "sous",
+    "tombés"
+   ],
+   "requete_en": "wet hand holding fallen hair strands in shower, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "15a",
+     "debut": 49.75,
+     "fin": 52.35,
+     "phrase": "Ils tombent mais le follicule la petite poche"
+    }
+   ],
+   "duree_s": 4.01,
+   "format": "720x1280",
+   "id": "br-0020",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/15b_MECA_3DSCI_animation-3d-petite-poche.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/sorties/clips/15b-clip-h3-v1.mp4",
+   "type": "video",
+   "origine": "ia-3d",
+   "style": "3d-scientifique",
+   "marque": "Les cheveux de Claire",
+   "description": "Animation 3D : la petite poche sous la peau, le follicule vide mais intact, surligné en terracotta.",
+   "mots_cles": [
+    "D",
+    "animation",
+    "d'un",
+    "follicule",
+    "follicule intact",
+    "intact",
+    "la",
+    "mais",
+    "peau",
+    "sous",
+    "vide"
+   ],
+   "requete_en": "3d animation empty intact hair follicle under skin, 3D medical animation, warm terracotta and cream palette, dark plum background, soft studio light",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "15b",
+     "debut": 52.35,
+     "fin": 54.95,
+     "phrase": "poche sous ta peau d'où pousse chaque cheveu reste intact"
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "768x1344",
+   "id": "br-0021",
+   "modele": "Nano Banana 2 1K (image) + MiniMax H3 768P 4 s (vidéo), KIE",
+   "cout_credits": 40,
+   "notes": "Prompts : runs/2026-10-01_claire-minoxidil-arret_full-broll/prompts/img/15b.txt et prompts/ani/15b.txt"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/16_MECA_UGC_petits-cheveux-repousse-ligne.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/16.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Les petits cheveux de repousse sur la ligne frontale, en contre-jour.",
+   "mots_cles": [
+    "cheveux",
+    "cheveux de repousse",
+    "contre-jour",
+    "de",
+    "en",
+    "frontale",
+    "la",
+    "ligne",
+    "petits",
+    "repousse",
+    "sur"
+   ],
+   "requete_en": "backlit baby hairs regrowth along hairline close up, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "16",
+     "debut": 54.95,
+     "fin": 58.2,
+     "phrase": "Une fois la cause réglée il relance la pousse d'un nouveau cheveu"
+    }
+   ],
+   "duree_s": 4.01,
+   "format": "720x1280",
+   "id": "br-0022",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/17_MECA_3DSCI_animation-3d-nouveau-cheveu.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/sorties/clips/17-clip-h3-v1.mp4",
+   "type": "video",
+   "origine": "ia-3d",
+   "style": "3d-scientifique",
+   "marque": "Les cheveux de Claire",
+   "description": "Animation 3D : le nouveau cheveu sort du follicule en accéléré.",
+   "mots_cles": [
+    "D",
+    "accéléré",
+    "animation",
+    "cheveu",
+    "d'un",
+    "en",
+    "nouveau",
+    "nouveau cheveu",
+    "pousse",
+    "qui"
+   ],
+   "requete_en": "3d timelapse new hair growing out of follicle, 3D medical animation, warm terracotta and cream palette, dark plum background, soft studio light",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "17",
+     "debut": 58.2,
+     "fin": 61.2,
+     "phrase": "cheveu Le minoxidil n'a fait qu'accélérer ce redémarrage"
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "768x1344",
+   "id": "br-0023",
+   "modele": "Nano Banana 2 1K (image) + MiniMax H3 768P 4 s (vidéo), KIE",
+   "cout_credits": 40,
+   "notes": "Prompts : runs/2026-10-01_claire-minoxidil-arret_full-broll/prompts/img/17.txt et prompts/ani/17.txt"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/18_BENEF_UGC_femme-range-flacon-minoxidil.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/18.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Une femme range le flacon de minoxidil dans un tiroir puis passe la main dans ses cheveux.",
+   "mots_cles": [
+    "cheveux",
+    "dans",
+    "et",
+    "femme",
+    "flacon",
+    "qui",
+    "range",
+    "ses",
+    "tiroir",
+    "touche",
+    "un"
+   ],
+   "requete_en": "woman closing drawer with bottle inside then touching her hair, bathroom, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "18",
+     "debut": 61.2,
+     "fin": 64.05,
+     "phrase": "Tu peux donc arrêter le minoxidil et garder tes cheveux"
+    }
+   ],
+   "duree_s": 4.01,
+   "format": "720x1280",
+   "id": "br-0024",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/19_PREUVE_UGC_dessus-flacon-huile-romarin.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/19.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Vue de dessus : un flacon d'huile de romarin et un flacon d'huile de pépins de courge posés face au flacon de minoxidil.",
+   "mots_cles": [
+    "au",
+    "courge",
+    "d'huile",
+    "de",
+    "et",
+    "face",
+    "flacon",
+    "flacon minoxidil",
+    "flacons",
+    "huile de courge",
+    "huile de romarin",
+    "lotion",
+    "pépins",
+    "romarin"
+   ],
+   "requete_en": "top down of rosemary oil bottle and pumpkin seed oil next to a serum bottle, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "19",
+     "debut": 64.05,
+     "fin": 68.85,
+     "phrase": "Et le plus surprenant c'est que des solutions naturelles ont été testées face au minoxidil"
+    }
+   ],
+   "duree_s": 6.02,
+   "format": "720x1280",
+   "id": "br-0025",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/20a_PROD_UGC_camera-glisse-flacon-huile.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/20a.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "La caméra glisse du flacon d'huile de romarin (brin frais) à l'huile de pépins de courge (pépins verts).",
+   "mots_cles": [
+    "courge",
+    "d'huile",
+    "de",
+    "en",
+    "flacon",
+    "gros",
+    "huile",
+    "plan",
+    "puis",
+    "pépins",
+    "pépins de courge",
+    "romarin"
+   ],
+   "requete_en": "close up rosemary oil bottle with fresh sprig then pumpkin seed oil with green seeds, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "20a",
+     "debut": 68.85,
+     "fin": 71.6,
+     "phrase": "minoxidil l'huile de romarin et l'huile de pépins de courge"
+    }
+   ],
+   "duree_s": 4.01,
+   "format": "720x1280",
+   "id": "br-0026",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/20b_PROD_UGC_deux-mains-massent-cuir.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/drive/20b.mp4",
+   "type": "video",
+   "origine": "ia-realiste-utilisateur",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Deux mains massent le cuir chevelu du bout des doigts.",
+   "mots_cles": [
+    "bout",
+    "chevelu",
+    "cuir",
+    "des",
+    "doigts",
+    "du",
+    "femme",
+    "le",
+    "mains",
+    "massage du cuir chevelu",
+    "masse",
+    "qui",
+    "se"
+   ],
+   "requete_en": "woman massaging her scalp with fingertips, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "20b",
+     "debut": 71.6,
+     "fin": 74.0,
+     "phrase": "Et en bonus le massage du cuir chevelu"
+    }
+   ],
+   "duree_s": 4.01,
+   "format": "720x1280",
+   "id": "br-0027",
+   "modele": null,
+   "cout_credits": null,
+   "notes": "Généré à la main avec les prompts réalistes du brief"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/21a_CTA_UGC_subjective-pouce-tape-guide.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/sorties/clips/21a-clip-h3-v1.mp4",
+   "type": "video",
+   "origine": "ia-realiste",
+   "style": "realiste-smartphone",
+   "marque": "Les cheveux de Claire",
+   "description": "Vue subjective : un pouce tape « Guide » en commentaire sur un smartphone.",
+   "mots_cles": [
+    "commentaire",
+    "commentaire « Guide »",
+    "pouce",
+    "qui",
+    "smartphone",
+    "subjective",
+    "sur",
+    "tape",
+    "un",
+    "vue"
+   ],
+   "requete_en": "pov thumb typing a comment on smartphone social app, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "21a",
+     "debut": 74.0,
+     "fin": 76.5,
+     "phrase": "chevelu Commente Guide et je t'envoie gratuitement mon"
+    }
+   ],
+   "duree_s": 3.62,
+   "format": "768x1344",
+   "id": "br-0028",
+   "modele": "Nano Banana 2 1K (image) + MiniMax H3 768P 4 s (vidéo), KIE",
+   "cout_credits": 40,
+   "notes": "Prompts : runs/2026-10-01_claire-minoxidil-arret_full-broll/prompts/img/21a.txt et prompts/ani/21a.txt"
+  },
+  {
+   "fichier": "runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/21b_CTA_IAGEN_guide-claire-affiche-tablette.mp4",
+   "original": "runs/2026-10-01_claire-minoxidil-arret_full-broll/sorties/clips/21b-clip-h3-v1.mp4",
+   "type": "video",
+   "origine": "ia-3d",
+   "style": "3d-scientifique",
+   "marque": "Les cheveux de Claire",
+   "description": "Le guide de Claire affiché sur une tablette posée à côté des deux flacons d'huile.",
+   "mots_cles": [
+    "avec",
+    "c",
+    "d'huile",
+    "des",
+    "flacons",
+    "flacons d'huile",
+    "guide",
+    "le",
+    "tablette",
+    "té",
+    "à"
+   ],
+   "requete_en": "tablet showing a guide next to oil bottles on wooden table, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+   "usages": [
+    {
+     "run": "runs/2026-10-01_claire-minoxidil-arret_full-broll",
+     "plan": "21b",
+     "debut": 76.5,
+     "fin": 79.569,
+     "phrase": "mon guide pour appliquer ces solutions facilement chez toi"
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "768x1344",
+   "id": "br-0029",
+   "modele": "Nano Banana 2 1K (image) + MiniMax H3 768P 4 s (vidéo), KIE",
+   "cout_credits": 40,
+   "notes": "Prompts : runs/2026-10-01_claire-minoxidil-arret_full-broll/prompts/img/21b.txt et prompts/ani/21b.txt"
+  },
+  {
+   "fichier": "talking_head_broll_1/broll_01.mp4.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "trouve-utilisateur",
+   "style": "realiste",
+   "marque": "Les cheveux de Claire",
+   "description": "Une femme écarte sa raie devant un miroir et montre ses racines grises.",
+   "mots_cles": [
+    "racines grises",
+    "miroir",
+    "raie",
+    "cheveux blancs précoces"
+   ],
+   "modele": null,
+   "cout_credits": null,
+   "notes": null,
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "B01",
+     "debut": null,
+     "fin": null,
+     "phrase": "accroche cheveux blancs précoces"
+    }
+   ],
+   "duree_s": 5.71,
+   "format": "1080x1920",
+   "id": "br-0030"
+  },
+  {
+   "fichier": "talking_head_broll_1/broll_02.mp4.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "trouve-utilisateur",
+   "style": "realiste",
+   "marque": "Les cheveux de Claire",
+   "description": "Gros plan de tempes qui grisonnent, cheveux foncés avec des fils blancs.",
+   "mots_cles": [
+    "tempes grises",
+    "poivre et sel",
+    "fils blancs"
+   ],
+   "modele": null,
+   "cout_credits": null,
+   "notes": null,
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "B02",
+     "debut": null,
+     "fin": null,
+     "phrase": "accroche cheveux blancs"
+    }
+   ],
+   "duree_s": 10.0,
+   "format": "1920x1080",
+   "id": "br-0031"
+  },
+  {
+   "fichier": "talking_head_broll_1/broll_03.mp4.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "trouve-utilisateur",
+   "style": "realiste",
+   "marque": "Les cheveux de Claire",
+   "description": "Gros plan d'une raie aux racines blanches, cuir chevelu visible.",
+   "mots_cles": [
+    "racines blanches",
+    "raie",
+    "cuir chevelu",
+    "repousse"
+   ],
+   "modele": null,
+   "cout_credits": null,
+   "notes": null,
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "B03",
+     "debut": null,
+     "fin": null,
+     "phrase": "conséquence, racines blanches"
+    }
+   ],
+   "duree_s": 5.71,
+   "format": "1080x1920",
+   "id": "br-0032"
+  },
+  {
+   "fichier": "talking_head_broll_1/broll_04.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "trouve-utilisateur",
+   "style": "realiste",
+   "marque": "Les cheveux de Claire",
+   "description": "Femme pieds nus au soleil du matin, tasse à la main.",
+   "mots_cles": [
+    "soleil du matin",
+    "routine",
+    "pieds nus",
+    "lumière"
+   ],
+   "modele": null,
+   "cout_credits": null,
+   "notes": null,
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "B04",
+     "debut": null,
+     "fin": null,
+     "phrase": "soleil du matin, vitamine D"
+    }
+   ],
+   "duree_s": 4.18,
+   "format": "1920x1080",
+   "id": "br-0033"
+  },
+  {
+   "fichier": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head/sorties/animation/E1_v1.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-3d",
+   "style": "pictos-scientifiques",
+   "marque": "Les cheveux de Claire",
+   "description": "Coupe d'un follicule en pictos : la catalase neutralise le peroxyde, puis la mèche se décolore de l'intérieur.",
+   "mots_cles": [
+    "follicule",
+    "catalase",
+    "peroxyde",
+    "pigment",
+    "décoloration",
+    "cheveux blancs"
+   ],
+   "modele": "GPT Image 2 1K + MiniMax H3 768P 9 s, KIE",
+   "cout_credits": 76,
+   "notes": "Muet, 9 s",
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "P04",
+     "debut": null,
+     "fin": null,
+     "phrase": "Vos follicules produisent une enzyme, la catalase, qui neutralise le peroxyde d'hydrogène"
+    }
+   ],
+   "duree_s": 9.42,
+   "format": "768x1344",
+   "id": "br-0034"
+  },
+  {
+   "fichier": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head/retenues/images/I1.png",
+   "original": null,
+   "type": "image",
+   "origine": "ia-realiste",
+   "style": "photo-editoriale-creme",
+   "marque": "Les cheveux de Claire",
+   "description": "Mèche de cheveux châtain foncé ondulée, pigment riche, fond crème.",
+   "mots_cles": [
+    "mèche",
+    "pigment",
+    "mélanine",
+    "cuivre"
+   ],
+   "modele": "GPT Image 2 1K, KIE",
+   "cout_credits": 6,
+   "notes": null,
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "I1",
+     "debut": null,
+     "fin": null,
+     "phrase": "infographie carences"
+    }
+   ],
+   "duree_s": 0.0,
+   "format": "1024x1024",
+   "id": "br-0035"
+  },
+  {
+   "fichier": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head/retenues/images/I2.png",
+   "original": null,
+   "type": "image",
+   "origine": "ia-realiste",
+   "style": "photo-editoriale-creme",
+   "marque": "Les cheveux de Claire",
+   "description": "Raie vue de dessus, racines foncées sur cuir chevelu sain, fond crème.",
+   "mots_cles": [
+    "raie",
+    "racines",
+    "cuir chevelu",
+    "B12"
+   ],
+   "modele": "GPT Image 2 1K, KIE",
+   "cout_credits": 6,
+   "notes": null,
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "I2",
+     "debut": null,
+     "fin": null,
+     "phrase": "infographie carences"
+    }
+   ],
+   "duree_s": 0.0,
+   "format": "1024x1024",
+   "id": "br-0036"
+  },
+  {
+   "fichier": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head/retenues/images/I3.png",
+   "original": null,
+   "type": "image",
+   "origine": "ia-realiste",
+   "style": "photo-editoriale-creme",
+   "marque": "Les cheveux de Claire",
+   "description": "Longueurs brunes denses avec quelques fils argentés, fond crème.",
+   "mots_cles": [
+    "longueurs",
+    "fils blancs",
+    "fer",
+    "cheveux denses"
+   ],
+   "modele": "GPT Image 2 1K, KIE",
+   "cout_credits": 6,
+   "notes": null,
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "I3",
+     "debut": null,
+     "fin": null,
+     "phrase": "infographie carences"
+    }
+   ],
+   "duree_s": 0.0,
+   "format": "1024x1024",
+   "id": "br-0037"
+  },
+  {
+   "fichier": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head/retenues/images/I4.png",
+   "original": null,
+   "type": "image",
+   "origine": "ia-realiste",
+   "style": "photo-editoriale-creme",
+   "marque": "Les cheveux de Claire",
+   "description": "Foie de veau cuit aux herbes, assiette crème, vue de dessus.",
+   "mots_cles": [
+    "foie",
+    "aliment",
+    "cuivre",
+    "B12"
+   ],
+   "modele": "GPT Image 2 1K, KIE",
+   "cout_credits": 6,
+   "notes": null,
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "I4",
+     "debut": null,
+     "fin": null,
+     "phrase": "cartes aliments"
+    }
+   ],
+   "duree_s": 0.0,
+   "format": "1024x1024",
+   "id": "br-0038"
+  },
+  {
+   "fichier": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head/retenues/images/I5.png",
+   "original": null,
+   "type": "image",
+   "origine": "ia-realiste",
+   "style": "photo-editoriale-creme",
+   "marque": "Les cheveux de Claire",
+   "description": "Fruits de mer (moules, huîtres, crevettes) et citron, assiette crème.",
+   "mots_cles": [
+    "fruits de mer",
+    "aliment",
+    "zinc",
+    "cuivre"
+   ],
+   "modele": "GPT Image 2 1K, KIE",
+   "cout_credits": 6,
+   "notes": null,
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "I5",
+     "debut": null,
+     "fin": null,
+     "phrase": "cartes aliments"
+    }
+   ],
+   "duree_s": 0.0,
+   "format": "1024x1024",
+   "id": "br-0039"
+  },
+  {
+   "fichier": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head/retenues/images/I6.png",
+   "original": null,
+   "type": "image",
+   "origine": "ia-realiste",
+   "style": "photo-editoriale-creme",
+   "marque": "Les cheveux de Claire",
+   "description": "Deux œufs mollets coupés, jaune doré, assiette crème.",
+   "mots_cles": [
+    "oeufs",
+    "aliment",
+    "B12"
+   ],
+   "modele": "GPT Image 2 1K, KIE",
+   "cout_credits": 6,
+   "notes": null,
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "I6",
+     "debut": null,
+     "fin": null,
+     "phrase": "cartes aliments"
+    }
+   ],
+   "duree_s": 0.0,
+   "format": "1024x1024",
+   "id": "br-0040"
+  },
+  {
+   "fichier": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head/retenues/images/I7.png",
+   "original": null,
+   "type": "image",
+   "origine": "ia-realiste",
+   "style": "photo-editoriale-creme",
+   "marque": "Les cheveux de Claire",
+   "description": "Steak saignant tranché, assiette crème.",
+   "mots_cles": [
+    "viande rouge",
+    "aliment",
+    "fer"
+   ],
+   "modele": "GPT Image 2 1K, KIE",
+   "cout_credits": 6,
+   "notes": null,
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "I7",
+     "debut": null,
+     "fin": null,
+     "phrase": "cartes aliments"
+    }
+   ],
+   "duree_s": 0.0,
+   "format": "1024x1024",
+   "id": "br-0041"
+  },
+  {
+   "fichier": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head/retenues/images/I8.png",
+   "original": null,
+   "type": "image",
+   "origine": "ia-realiste",
+   "style": "photo-editoriale-creme",
+   "marque": "Les cheveux de Claire",
+   "description": "Bol de lentilles et pois chiches aux herbes, assiette crème.",
+   "mots_cles": [
+    "légumineuses",
+    "lentilles",
+    "aliment",
+    "fer"
+   ],
+   "modele": "GPT Image 2 1K, KIE",
+   "cout_credits": 6,
+   "notes": null,
+   "usages": [
+    {
+     "run": "runs/2026-09-28_claire-cheveux-gris-carences_talking-head",
+     "plan": "I8",
+     "debut": null,
+     "fin": null,
+     "phrase": "cartes aliments"
+    }
+   ],
+   "duree_s": 0.0,
+   "format": "1024x1024",
+   "id": "br-0042"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P01.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « TOUT ESSAYÉ ? » : cut-out photo of a hairbrush holding a clump of shed hair, three small unlabelled bottle cut-outs scattered around it",
+   "mots_cles": [
+    "tout essayé ?"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P01",
+     "debut": null,
+     "fin": null,
+     "phrase": "Tu perds tes cheveux et tu as déjà tout essayé ?"
+    }
+   ],
+   "duree_s": 4.0,
+   "format": "1080x1920",
+   "id": "br-0043"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P02.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « DE 0 À 10 » : torn paper rating ruler with 11 empty boxes, a rosemary sprig cut-out and a small red pen cut-out",
+   "mots_cles": [
+    "de 0 à 10"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P02",
+     "debut": null,
+     "fin": null,
+     "phrase": "J'ai noté les remèdes naturels de zéro à dix."
+    }
+   ],
+   "duree_s": 4.0,
+   "format": "1080x1920",
+   "id": "br-0044"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P03.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « EAU DE ROMARIN » : cut-out of the rosemary floral water spray bottle (photo 4) against torn rosemary leaves",
+   "mots_cles": [
+    "eau de romarin"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P03",
+     "debut": null,
+     "fin": null,
+     "phrase": "L'eau de romarin. Un sur dix."
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "1440x2560",
+   "id": "br-0045"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P04.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « AUCUNE PREUVE » : a magnifying glass cut-out over an empty torn paper file folder",
+   "mots_cles": [
+    "aucune preuve"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P04",
+     "debut": null,
+     "fin": null,
+     "phrase": "Elle n'a littéralement aucune preuve d'efficacité derrière elle."
+    }
+   ],
+   "duree_s": 4.0,
+   "format": "1080x1920",
+   "id": "br-0046"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P05.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « PAS RECOMMANDÉE » : the same spray bottle cut-out, smaller, with a thick marker X drawn over it",
+   "mots_cles": [
+    "pas recommandée"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P05",
+     "debut": null,
+     "fin": null,
+     "phrase": "Je te la recommande pas pour faire pousser tes cheveux."
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "1440x2560",
+   "id": "br-0047"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P06.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « HUILE BOTANIQUE » : cut-out of the botanical oil bottle (photo 5) with small coconut cut-outs",
+   "mots_cles": [
+    "huile botanique"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P06",
+     "debut": null,
+     "fin": null,
+     "phrase": "L'huile botanique. Zéro sur dix."
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "1440x2560",
+   "id": "br-0048"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P07.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « SUPER MARKETING » : vintage megaphone cut-out with paper sparkles and a torn price tag (blank)",
+   "mots_cles": [
+    "super marketing"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P07",
+     "debut": null,
+     "fin": null,
+     "phrase": "Un super marketing,"
+    }
+   ],
+   "duree_s": 4.0,
+   "format": "1080x1920",
+   "id": "br-0049"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P08.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « AUCUNE ÉTUDE » : empty clipboard with blank lined paper, a crossed-out lab flask cut-out",
+   "mots_cles": [
+    "aucune étude"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P08",
+     "debut": null,
+     "fin": null,
+     "phrase": "mais aucune étude qui prouve qu'elle est efficace."
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "1440x2560",
+   "id": "br-0050"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P09.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « HUILE DE ROMARIN » : cut-out of the rosemary oil bottle (photo 3) held in a hand, fresh rosemary sprigs",
+   "mots_cles": [
+    "huile de romarin"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P09",
+     "debut": null,
+     "fin": null,
+     "phrase": "L'huile de romarin. Cinq sur dix."
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "1440x2560",
+   "id": "br-0051"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P10.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « DE LA SCIENCE » : microscope cut-out and a small open scientific journal cut-out (blank pages)",
+   "mots_cles": [
+    "de la science"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P10",
+     "debut": null,
+     "fin": null,
+     "phrase": "Elle, en revanche, a de la science derrière, même si les preuves restent limitées."
+    }
+   ],
+   "duree_s": 4.0,
+   "format": "1080x1920",
+   "id": "br-0052"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P11.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « = MINOXIDIL 2 % » : balance scale cut-out: rosemary oil bottle on one pan, plain unbranded pharmacy bottle on the other, pans level",
+   "mots_cles": [
+    "= minoxidil 2 %"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P11",
+     "debut": null,
+     "fin": null,
+     "phrase": "Elle s'est montrée aussi efficace que le minoxidil à deux pour cent."
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "1440x2560",
+   "id": "br-0053"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P12.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « 2 FOIS PAR JOUR » : a paper sun and a paper moon cut-out, a dropper cut-out between them",
+   "mots_cles": [
+    "2 fois par jour"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P12",
+     "debut": null,
+     "fin": null,
+     "phrase": "Sauf que dans l'étude, elle était appliquée deux fois par jour."
+    }
+   ],
+   "duree_s": 4.0,
+   "format": "1080x1920",
+   "id": "br-0054"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P13.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « TOUTE LA JOURNÉE » : cut-out photo of a greasy, shiny hair parting with oil droplets, a small clock cut-out",
+   "mots_cles": [
+    "toute la journée"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P13",
+     "debut": null,
+     "fin": null,
+     "phrase": "Donc de l'huile sur le cuir chevelu toute la journée,"
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "1440x2560",
+   "id": "br-0055"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P14.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « 2 %, PAS 5 % » : two plain unbranded pharmacy bottles side by side (labels composed: 2 % and 5 %), the 5 % one crossed with marker",
+   "mots_cles": [
+    "2 %, pas 5 %"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P14",
+     "debut": null,
+     "fin": null,
+     "phrase": "pour un résultat équivalent à un minoxidil à deux pour cent, même pas à cinq pour cent."
+    }
+   ],
+   "duree_s": 6.0,
+   "format": "1080x1920",
+   "id": "br-0056"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P15.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « PAS LE COUP » : torn paper verdict card with the rosemary oil bottle small, thumbs-down cut-out",
+   "mots_cles": [
+    "pas le coup"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P15",
+     "debut": null,
+     "fin": null,
+     "phrase": "Pour moi, ça ne vaut pas le coup."
+    }
+   ],
+   "duree_s": 4.46,
+   "format": "1440x2560",
+   "id": "br-0057"
+  },
+  {
+   "fichier": "runs/2026-09-30_claire-remedes-naturels_papercut/retenues/clips/P16.mp4",
+   "original": null,
+   "type": "video",
+   "origine": "ia-papercut",
+   "style": "papercut",
+   "marque": "Les cheveux de Claire",
+   "description": "Papercut « ABONNE-TOI » : torn paper subscribe button shape, a paper arrow pointing right",
+   "mots_cles": [
+    "abonne-toi"
+   ],
+   "modele": "Nano Banana 2 2K + Omni ou MiniMax H3, KIE",
+   "cout_credits": null,
+   "notes": "Contient le titre en papier découpé : réutilisable seulement pour le même message",
+   "usages": [
+    {
+     "run": "runs/2026-09-30_claire-remedes-naturels_papercut",
+     "plan": "P16",
+     "debut": null,
+     "fin": null,
+     "phrase": "Abonne-toi pour voir la suite."
+    }
+   ],
+   "duree_s": 4.0,
+   "format": "1080x1920",
+   "id": "br-0058"
+  }
+ ]
+}

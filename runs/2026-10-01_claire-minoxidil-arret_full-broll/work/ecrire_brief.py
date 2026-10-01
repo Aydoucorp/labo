@@ -52,9 +52,10 @@ P = [
      ["brosse", "cheveux tombés"], None,
      "Photo macro réaliste d'une brosse à cheveux en bois remplie de cheveux châtains tombés, posée sur une vasque crème",
      "Lent push vers les cheveux emmêlés dans la brosse, 2 secondes, rien d'autre ne bouge", ("STOCK", "hairbrush with lots of hair loss close up")),
-    ("01c", 2.40, 3.95, "MOTION", "moyen", "pull", "carte-cinquante-pourcent",
-     "Carte texte : la peur formulée, « 50 % de mes cheveux ? » en terracotta sur fond crème.",
-     None, None, [], "« 50 % de mes cheveux ? »",
+    ("01c", 2.40, 3.95, "UGC", "moyen", "pull", "cheveux-tombes-lavabo-main",
+     "Une main fouille une grosse touffe de cheveux tombés dans le lavabo, texte « 50 % de mes cheveux ? » par-dessus.",
+     "hand touching a big clump of shed hair in a bathroom sink", "main dans une touffe de cheveux tombés dans le lavabo",
+     ["cheveux tombés", "main"], "« 50 % de mes cheveux ? »",
      "Fond crème uni avec un léger grain papier, aucun texte (le texte est posé au montage)",
      "Le texte apparaît sur « cinquante » puis recule légèrement, 1,5 seconde", ("IAGEN", "cream paper background texture")),
     ("01d", 3.95, 5.00, "UGC", "topdown", "static", "calendrier-douze-mois",
@@ -225,7 +226,7 @@ P = [
      "Lent push vers la tablette, une main fait défiler une page, 3 secondes", ("SCREEN", "guide pages screen recording")),
 ]
 
-LIEUX = {"salle de bain": ["01a", "01b", "02", "03", "04a", "04b", "05a", "05b", "15a", "18"],
+LIEUX = {"salle de bain": ["01a", "01b", "01c", "02", "03", "04a", "04b", "05a", "05b", "15a", "18"],
          "chambre ou salon, près d'une fenêtre": ["06b", "16", "20b", "21a"],
          "table en bois clair (nature morte)": ["01d", "19", "20a"]}
 
@@ -273,7 +274,8 @@ brief = {
                              "setting": "salle de bain et pièce de vie d'une maison française, vasque et linge crème, table en bois clair",
                              "people": "femme de 40 à 50 ans, cheveux châtains ondulés avec quelques fils blancs, mains réelles, visage hors champ ou de profil, rendu smartphone",
                              "style_suffix_en": SUF},
-                "subtitles": {"style": "default", "hook_style": "red-box"}},
+                "subtitles": {"style": "default", "hook_style": "red-box"},
+                "motion_palette": ["#2E1A24", "#7A4351", "#A8553A"]},
     "audio": {"file": "voix.mp3", "duration_s": DUREE},
     "script_diagnostic": {
         "hook_ok": True, "promise_validated_by_s": 19.85, "cta_position_pct": round(74.0 / DUREE * 100),

@@ -1,0 +1,286 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "clips": {
+    "01a": {
+      "lead_s": 0.2,
+      "duration_s": 1.468,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/01a_HOOK_UGC_main-tient-pipette-minoxidil.mp4",
+      "method": "own",
+      "clip": "01a.mp4"
+    },
+    "01b": {
+      "lead_s": 0.2,
+      "duration_s": 1.967,
+      "has_audio": false,
+      "speed": 1.0,
+      "source": "rushes/01b_HOOK_UGC_brosse-cheveux-pleine-cheveux.mp4",
+      "method": "own",
+      "clip": "01b.mp4"
+    },
+    "01c": {
+      "lead_s": 0.2,
+      "duration_s": 2.067,
+      "has_audio": false,
+      "speed": 1.0,
+      "source": "rushes/01c_HOOK_UGC_main-fouille-grosse-touffe.mp4",
+      "method": "own",
+      "clip": "01c.mp4"
+    },
+    "01d": {
+      "lead_s": 0.2,
+      "duration_s": 1.583,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/01d_HOOK_UGC_dessus-calendrier-mural-douze.mp4",
+      "method": "own",
+      "clip": "01d.mp4"
+    },
+    "02": {
+      "lead_s": 0.2,
+      "duration_s": 4.02,
+      "has_audio": false,
+      "speed": 1.0,
+      "source": "rushes/02_PROB_UGC_femme-dos-devant-miroir.mp4",
+      "method": "own",
+      "clip": "02.mp4"
+    },
+    "03": {
+      "lead_s": 0.2,
+      "duration_s": 2.94,
+      "has_audio": false,
+      "speed": 1.0,
+      "source": "rushes/03_PROB_UGC_macro-goutte-lotion-touche.mp4",
+      "method": "own",
+      "clip": "03.mp4"
+    },
+    "04a": {
+      "lead_s": 0.2,
+      "duration_s": 3.0,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/04a_PROB_UGC_main-repose-flacon-minoxidil.mp4",
+      "method": "own",
+      "clip": "04a.mp4"
+    },
+    "04b": {
+      "lead_s": 0.2,
+      "duration_s": 3.25,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/04b_PROB_UGC_dessus-cheveux-tombes-pres.mp4",
+      "method": "own",
+      "clip": "04b.mp4"
+    },
+    "05a": {
+      "lead_s": 0.2,
+      "duration_s": 2.83,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/05a_PROB_UGC_main-reprend-flacon-placard.mp4",
+      "method": "own",
+      "clip": "05a.mp4"
+    },
+    "05b": {
+      "lead_s": 0.2,
+      "duration_s": 2.82,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/05b_PROB_UGC_femme-assise-bord-baignoire.mp4",
+      "method": "own",
+      "clip": "05b.mp4"
+    },
+    "06a": {
+      "lead_s": 0.0,
+      "duration_s": 2.45,
+      "has_audio": false,
+      "speed": 1.0,
+      "source": null,
+      "method": "motion",
+      "clip": "06a.mp4"
+    },
+    "06b": {
+      "lead_s": 0.2,
+      "duration_s": 2.9,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/06b_OBJ_UGC_main-passe-cheveux-chatains.mp4",
+      "method": "own",
+      "clip": "06b.mp4"
+    },
+    "07": {
+      "lead_s": 0.2,
+      "duration_s": 3.558,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/07_MECA_3DSCI_animation-3d-coupe-cuir.mp4",
+      "method": "own",
+      "clip": "07.mp4"
+    },
+    "08": {
+      "lead_s": 0.2,
+      "duration_s": 3.95,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/08_MECA_3DSCI_animation-3d-cheveu-continue.mp4",
+      "method": "own",
+      "clip": "08.mp4"
+    },
+    "09": {
+      "lead_s": 0.2,
+      "duration_s": 3.85,
+      "has_audio": false,
+      "speed": 1.0,
+      "source": "rushes/09_MECA_STOCK_dessus-raie-elargie-cuir.mp4",
+      "method": "own",
+      "clip": "09.mp4"
+    },
+    "10": {
+      "lead_s": 0.2,
+      "duration_s": 3.35,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/10_MECA_3DSCI_animation-3d-follicule-retrecit.mp4",
+      "method": "own",
+      "clip": "10.mp4"
+    },
+    "11": {
+      "lead_s": 0.0,
+      "duration_s": 3.358,
+      "has_audio": false,
+      "speed": 0.87,
+      "source": "rushes/11_MECA_STOCK_cheveux-fins-glissent-lavabo.mp4",
+      "method": "own+boomerang",
+      "clip": "11.mp4"
+    },
+    "12": {
+      "lead_s": 0.0,
+      "duration_s": 3.05,
+      "has_audio": false,
+      "speed": 1.0,
+      "source": null,
+      "method": "motion",
+      "clip": "12.mp4"
+    },
+    "13": {
+      "lead_s": 0.2,
+      "duration_s": 3.5,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/13_MECA_STOCK_femme-fatiguee-masse-tempes.mp4",
+      "method": "own",
+      "clip": "13.mp4"
+    },
+    "14a": {
+      "lead_s": 0.2,
+      "duration_s": 3.4,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/14a_MECA_3DSCI_animation-3d-large-dizaines.mp4",
+      "method": "own",
+      "clip": "14a.mp4"
+    },
+    "14b": {
+      "lead_s": 0.2,
+      "duration_s": 3.4,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/14b_MECA_3DSCI_animation-3d-seul-follicule.mp4",
+      "method": "own",
+      "clip": "14b.mp4"
+    },
+    "15a": {
+      "lead_s": 0.2,
+      "duration_s": 3.2,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/15a_MECA_UGC_main-mouillee-douche-retient.mp4",
+      "method": "own",
+      "clip": "15a.mp4"
+    },
+    "15b": {
+      "lead_s": 0.2,
+      "duration_s": 3.4,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/15b_MECA_3DSCI_animation-3d-petite-poche.mp4",
+      "method": "own",
+      "clip": "15b.mp4"
+    },
+    "16": {
+      "lead_s": 0.2,
+      "duration_s": 3.9,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/16_MECA_UGC_petits-cheveux-repousse-ligne.mp4",
+      "method": "own",
+      "clip": "16.mp4"
+    },
+    "17": {
+      "lead_s": 0.2,
+      "duration_s": 3.458,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/17_MECA_3DSCI_animation-3d-nouveau-cheveu.mp4",
+      "method": "own",
+      "clip": "17.mp4"
+    },
+    "18": {
+      "lead_s": 0.2,
+      "duration_s": 3.4,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/18_BENEF_UGC_femme-range-flacon-minoxidil.mp4",
+      "method": "own",
+      "clip": "18.mp4"
+    },
+    "19": {
+      "lead_s": 0.2,
+      "duration_s": 5.6,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/19_PREUVE_UGC_dessus-flacon-huile-romarin.mp4",
+      "method": "own",
+      "clip": "19.mp4"
+    },
+    "20a": {
+      "lead_s": 0.2,
+      "duration_s": 3.5,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/20a_PROD_UGC_camera-glisse-flacon-huile.mp4",
+      "method": "own",
+      "clip": "20a.mp4"
+    },
+    "20b": {
+      "lead_s": 0.2,
+      "duration_s": 3.2,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/20b_PROD_UGC_deux-mains-massent-cuir.mp4",
+      "method": "own",
+      "clip": "20b.mp4"
+    },
+    "21a": {
+      "lead_s": 0.2,
+      "duration_s": 3.3,
+      "has_audio": false,
+      "speed": 1.0,
+      "source": "rushes/21a_CTA_UGC_subjective-pouce-tape-guide.mp4",
+      "method": "own",
+      "clip": "21a.mp4"
+    },
+    "21b": {
+      "lead_s": 0.2,
+      "duration_s": 3.558,
+      "has_audio": true,
+      "speed": 1.0,
+      "source": "rushes/21b_CTA_IAGEN_guide-claire-affiche-tablette.mp4",
+      "method": "own",
+      "clip": "21b.mp4"
+    }
+  }
+}

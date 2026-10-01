@@ -14,6 +14,7 @@ Studio de création de contenus visuels e-commerce (photos produit, statiques pu
 | `runs/` | Toutes les sorties générées | Voir convention ci-dessous. |
 | `Claire/` | Marque « Les cheveux de Claire » : `BRAND-DNA-CLAIRE.md` | Référence de marque, à lire avant toute création pour Claire. |
 | `creas/<concept>/` | Créas finales validées, rangées par concept | Nommage obligatoire, voir « Créas finales ». |
+| `bibliotheque/` | Index de tous les b-rolls déjà filmés, trouvés ou générés (`brolls.json`, `brolls.md`) | À consulter avant toute recherche ou génération ; mis à jour après chaque montage. |
 
 ## Convention des runs
 
@@ -36,6 +37,7 @@ Exemple : `runs/2026-09-24_serviette-microfibre_statiques-meta/`
 - Nommage : minuscules, tirets, sans accents ni espaces (`statique-angle-douleur-v2.png`).
 - Si un produit n'a pas encore de dossier dans `refs/produits/`, le signaler avant de générer quoi que ce soit.
 - **Résolution demandée avant toute génération (règle de l'utilisateur)** : avant de lancer des images ou des vidéos, demander à l'utilisateur la résolution voulue pour chaque type de média (ex. images 1K / 2K / 4K ; vidéos 720p / 1080p / 2K), en indiquant pour chaque option le modèle et le coût en crédits. Ne jamais choisir la résolution à sa place.
+- **Bibliothèque des b-rolls (règle de l'utilisateur)** : avant de chercher, filmer ou générer un plan, consulter `bibliotheque/` (`python3 scripts/biblio_brolls.py chercher "mots-clés"`) et réutiliser ce qui existe déjà (même un plan d'un autre concept, s'il colle au propos). Après chaque montage, enregistrer tous les rushes et plans générés retenus (`ajouter-brief` pour un full b-roll, `ajouter --json` sinon) avec ce qu'ils montrent et la phrase sur laquelle ils ont servi. But : ne jamais payer deux fois le même plan.
 - **Validation à chaque étape (règle de l'utilisateur)** : toujours montrer à l'utilisateur les images et les vidéos des plans (SendUserFile), et attendre sa validation explicite avant l'animation, le montage ou toute étape suivante. Ne jamais enchaîner deux étapes payantes sans ce feu vert.
 
 ## Créas finales

@@ -144,16 +144,22 @@ def encode_args(fps: int) -> list[str]:
             "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-ac", "2", "-movflags", "+faststart"]
 
 
-def make_motion_card(out: Path, w: int, h: int, fps: int, duration: float, seed: int) -> None:
+def make_motion_card(out: Path, w: int, h: int, fps: int, duration: float, seed: int,
+                     palette: list[str] | None = None) -> None:
+    """Carte MOTION : dégradé animé. `palette` (3 couleurs hex, project.motion_palette du brief) impose la charte."""
     palettes = [
         ("0x161a3a", "0x4b2a8a", "0x0e7a6e"),
         ("0x1f1d2b", "0x8a2a4b", "0xd97b2f"),
         ("0x0b2545", "0x13315c", "0x8da9c4"),
         ("0x1a1a1a", "0x3d3d3d", "0xb8860b"),
     ]
-    c0, c1, c2 = palettes[seed % len(palettes)]
-    src = (f"gradients=size={w}x{h}:speed=0.06:duration={duration:.3f}:rate={fps}:nb_colors=3"
-           f":c0={c0}:c1={c1}:c2={c2}:type=spiral:x0={w // 3}:y0={h // 3}:x1={w * 2 // 3}:y1={h * 2 // 3}")
+    c0, c1, c2 = ([c.replace("#", "0x") for c in palette[:3]] if palette and len(palette) >= 3
+                  else palettes[seed % len(palettes)])
+    # dégradé linéaire vertical quand la charte impose la palette (le spiral laisse un point visible au centre)
+    gtype = f"type=linear:x0={w // 2}:y0=0:x1={w // 2}:y1={h}" if palette else \
+        f"type=spiral:x0={w // 3}:y0={h // 3}:x1={w * 2 // 3}:y1={h * 2 // 3}"
+    src = (f"gradients=size={w}x{h}:speed=0.02:duration={duration:.3f}:rate={fps}:nb_colors=3"
+           f":c0={c0}:c1={c1}:c2={c2}:{gtype}")
     run_ffmpeg(["-f", "lavfi", "-i", src, "-f", "lavfi", "-i", "anullsrc=r=48000:cl=stereo",
                 "-t", f"{duration:.3f}", "-map", "0:v:0", "-map", "1:a:0", "-shortest",
                 *encode_args(fps), str(out)])
@@ -218,7 +224,7 @@ def main() -> None:
 
         if src_rel is None:
             dur = needed_core + TAIL_EXTRA_S
-            make_motion_card(out, W, H, FPS, dur, idx)
+            make_motion_card(out, W, H, FPS, dur, idx, brief.get("project", {}).get("motion_palette"))
             meta[sid] = {"lead_s": 0.0, "duration_s": round(dur, 3), "has_audio": False,
                          "speed": speed, "source": None, "method": "motion"}
             log(f"  {sid} : carte MOTION générée ({dur:.2f} s)")

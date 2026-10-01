@@ -20,7 +20,12 @@
     "subtitles": {
       "style": "default",
       "hook_style": "red-box"
-    }
+    },
+    "motion_palette": [
+      "#2E1A24",
+      "#7A4351",
+      "#A8553A"
+    ]
   },
   "audio": {
     "file": "voix.mp3",
@@ -155,22 +160,25 @@
           "id": "01c",
           "start": 2.4,
           "end": 3.95,
-          "type": "MOTION",
+          "type": "UGC",
           "value": "moyen",
           "camera": "pull",
-          "description": "Carte texte : la peur formulée, « 50 % de mes cheveux ? » en terracotta sur fond crème.",
-          "query_en": null,
-          "query_fr": null,
+          "description": "Une main fouille une grosse touffe de cheveux tombés dans le lavabo, texte « 50 % de mes cheveux ? » par-dessus.",
+          "query_en": "hand touching a big clump of shed hair in a bathroom sink, natural window light, warm cream and terracotta tones, real woman in her 40s, smartphone footage, shallow depth of field",
+          "query_fr": "main dans une touffe de cheveux tombés dans le lavabo",
           "ai_prompt": {
             "image": "Fond crème uni avec un léger grain papier, aucun texte (le texte est posé au montage), lumière naturelle de fenêtre, tons crème et terracotta, femme réelle d'une quarantaine d'années, rendu smartphone, format vertical 9:16, aucun texte dans l'image",
             "motion": "Le texte apparaît sur « cinquante » puis recule légèrement, 1,5 seconde"
           },
           "min_rush_s": 2.6,
           "orientation": "vertical",
-          "filename": "01c_HOOK_MOTION_carte-texte-peur-formulee.mp4",
+          "filename": "01c_HOOK_UGC_main-fouille-grosse-touffe.mp4",
           "overlay_text": "« 50 % de mes cheveux ? »",
           "sfx": null,
-          "must_show": [],
+          "must_show": [
+            "cheveux tombés",
+            "main"
+          ],
           "fallback": {
             "type": "IAGEN",
             "query_en": "cream paper background texture"
@@ -1241,6 +1249,7 @@
       "shots": [
         "01a",
         "01b",
+        "01c",
         "02",
         "03",
         "04a",
