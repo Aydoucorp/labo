@@ -1,0 +1,1415 @@
+{
+ "01a": {
+  "description": "Une main tient la pipette de minoxidil au-dessus d'une raie de cheveux châtains, une goutte prête à tomber.",
+  "start": 0.0,
+  "end": 0.95,
+  "besoin_s": 1.4,
+  "requetes": [
+   [
+    "hair serum dropper",
+    0
+   ],
+   [
+    "dropper scalp",
+    0
+   ],
+   [
+    "hair oil dropper",
+    0
+   ],
+   [
+    "hand holding dropper hair serum above hair parting",
+    0
+   ],
+   [
+    "hand holding dropper hair serum",
+    0
+   ],
+   [
+    "hand holding dropper hair",
+    0
+   ],
+   [
+    "hand holding dropper",
+    7
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 552,
+    "page": "https://pixabay.com/videos/id-552/",
+    "url": "https://cdn.pixabay.com/video/2015/08/24/552-137115422_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 4,
+    "tags": "hands, support, marriage, love, romance, together, romantic, touch, fingers, husband, wife, man, woman, couple, gentle, holding hands, 124022428",
+    "auteur": "Vimeo-Free-Videos",
+    "vignettes": "work/candidats/01a_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 421,
+    "page": "https://pixabay.com/videos/id-421/",
+    "url": "https://cdn.pixabay.com/video/2015/08/13/421-136181633_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 5,
+    "tags": "hands, wedding, bride, touching, wedding ring, marriage, love, couple, romance, romantic, holding hands, together, bound, promise, groom, husband, wife, loving, 133157334",
+    "auteur": "Vimeo-Free-Videos",
+    "vignettes": "work/candidats/01a_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 3616,
+    "page": "https://pixabay.com/videos/id-3616/",
+    "url": "https://cdn.pixabay.com/video/2016/06/27/3616-172490378_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 11,
+    "tags": "public transport, subway, train, metro, holding on, hands, grip, people, commuters, commuting, transportation, underground, commute, departure, passengers",
+    "auteur": "Coverr-Free-Footage",
+    "vignettes": "work/candidats/01a_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "01b": {
+  "description": "Une brosse à cheveux pleine de cheveux tombés, posée sur le bord de la vasque.",
+  "start": 0.95,
+  "end": 2.4,
+  "besoin_s": 1.9,
+  "requetes": [
+   [
+    "hairbrush hair loss",
+    0
+   ],
+   [
+    "hair brush hair",
+    30
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 43633,
+    "page": "https://pixabay.com/videos/id-43633/",
+    "url": "https://cdn.pixabay.com/video/2020/07/02/43633-436237650_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 17,
+    "tags": "hair, wind, girl, woman, people, person, model, young, dream, human, sunlight, passion, alone, aesthetics",
+    "auteur": "GreenCardShow",
+    "vignettes": "work/candidats/01b_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 38909,
+    "page": "https://pixabay.com/videos/id-38909/",
+    "url": "https://cdn.pixabay.com/video/2020/05/12/38909-418897579_large.mp4",
+    "width": 2560,
+    "height": 1440,
+    "duration": 29,
+    "tags": "woman, sunset, nature, sunrise, wind, hair",
+    "auteur": "ZAIDoopro",
+    "vignettes": "work/candidats/01b_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 2449,
+    "page": "https://pixabay.com/videos/id-2449/",
+    "url": "https://cdn.pixabay.com/video/2016/03/14/2449-159139941_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 37,
+    "tags": "cat, sleeping, rest, pet, animal, kitten, laziness, hair",
+    "auteur": "Jahhoo",
+    "vignettes": "work/candidats/01b_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "01d": {
+  "description": "Vue de dessus d'un calendrier mural des douze mois posé sur une table en bois, un doigt qui le parcourt.",
+  "start": 3.95,
+  "end": 5.0,
+  "besoin_s": 1.5,
+  "requetes": [
+   [
+    "calendar",
+    30
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 3019,
+    "page": "https://pixabay.com/videos/id-3019/",
+    "url": "https://cdn.pixabay.com/video/2016/05/05/3019-165457954_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 10,
+    "tags": "clock, camera quick, passage of time, time, hour, schedule, minutes, hands, watches, whatch, man, sphere, time-lapse, beautiful wallpaper, belt, leather, background, seconds, stopwatch, chronograph, backstitch, crocodile, stitches, aluminium, bright, luxury, luxurious, needles, handles, titanium, white gold, crono, skin, buckle, fleeting, transience, such time lapse, timing, minute, date, career, machinery, precision, calendar, deadlines, blur, plot, texture, numbers, brand, logo, buttons, quartz, swiss",
+    "auteur": "josemdelaa",
+    "vignettes": "work/candidats/01d_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 199293,
+    "page": "https://pixabay.com/videos/id-199293/",
+    "url": "https://cdn.pixabay.com/video/2024/02/04/199293-909903179_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 30,
+    "tags": "zodiac, astrology, horoscope, constellations, planets, sign, the calendar, symbol, time, astrological",
+    "auteur": "olenchic",
+    "vignettes": "work/candidats/01d_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 197974,
+    "page": "https://pixabay.com/videos/id-197974/",
+    "url": "https://cdn.pixabay.com/video/2024/01/24/197974-906217212_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 12,
+    "tags": "calendar, months, flipping, loop, countdown, beautiful wallpaper, diary, schedule, white, business, event, background",
+    "auteur": "EnchantedStudios",
+    "vignettes": "work/candidats/01d_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "02": {
+  "description": "Une femme de dos devant le miroir de la salle de bain applique le minoxidil sur sa raie avec la pipette.",
+  "start": 5.0,
+  "end": 8.45,
+  "besoin_s": 3.9,
+  "requetes": [
+   [
+    "woman applying hair serum",
+    0
+   ],
+   [
+    "applying hair oil",
+    0
+   ],
+   [
+    "woman mirror hair",
+    25
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 10808,
+    "page": "https://pixabay.com/videos/id-10808/",
+    "url": "https://cdn.pixabay.com/video/2017/07/23/10808-226624942_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 14,
+    "tags": "woman, windy, skirt, outlook, girl, happy, freedom, fashion, people, young, hair, romantic",
+    "auteur": "Coverr-Free-Footage",
+    "vignettes": "work/candidats/02_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 79395,
+    "page": "https://pixabay.com/videos/id-79395/",
+    "url": "https://cdn.pixabay.com/video/2021/06/28/79395-569653289_large.mp4",
+    "width": 4096,
+    "height": 2160,
+    "duration": 51,
+    "tags": "woman, model, face, hair, wind, pose, fashion, beauty, skin, eyes, young, emotional, melancholy, think, adult, portrait",
+    "auteur": "Engin_Akyurt",
+    "vignettes": "work/candidats/02_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 62825,
+    "page": "https://pixabay.com/videos/id-62825/",
+    "url": "https://cdn.pixabay.com/video/2021/01/25/62825-505080344_large.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 55,
+    "tags": "woman, mask, portrait, hair, face, theatre, movie, game, wind, overview, people, design, inspiration, opinions, concept, horror, halloween, night, dream",
+    "auteur": "Engin_Akyurt",
+    "vignettes": "work/candidats/02_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "03": {
+  "description": "Macro : la goutte de lotion qui touche le cuir chevelu et s'étale entre les racines.",
+  "start": 8.45,
+  "end": 10.75,
+  "besoin_s": 2.8,
+  "requetes": [
+   [
+    "scalp",
+    0
+   ],
+   [
+    "hair roots",
+    0
+   ],
+   [
+    "serum drop",
+    0
+   ],
+   [
+    "serum drop landing scalp between hair roots",
+    0
+   ],
+   [
+    "serum drop landing scalp between",
+    0
+   ],
+   [
+    "serum drop landing scalp",
+    0
+   ],
+   [
+    "serum drop landing",
+    1
+   ],
+   [
+    "serum drop scalp",
+    0
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 241,
+    "page": "https://pixabay.com/videos/id-241/",
+    "url": "https://cdn.pixabay.com/video/2015/08/10/241-135866013_medium.mp4",
+    "width": 1280,
+    "height": 720,
+    "duration": 145,
+    "tags": "space ship, satellite, deployment, orbit, atmosphere, exploration, nasa, rocket, space, explore, science, technology, weightless, gravitation, gravity, accelerate, acceleration, altitude, astronautics, space exploration, propulsion, landing, parachutes, drop",
+    "auteur": "NASA-Imagery",
+    "vignettes": "work/candidats/03_c1.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "04a": {
+  "description": "Une main repose le flacon de minoxidil au fond du placard de la salle de bain et hésite.",
+  "start": 10.75,
+  "end": 13.1,
+  "besoin_s": 2.8,
+  "requetes": [
+   [
+    "bathroom cabinet",
+    0
+   ],
+   [
+    "bathroom shelf bottle",
+    0
+   ],
+   [
+    "medicine cabinet",
+    0
+   ],
+   [
+    "hand putting small serum bottle back bathroom cabinet hesitating",
+    0
+   ],
+   [
+    "hand putting small serum bottle",
+    0
+   ],
+   [
+    "hand putting small serum",
+    0
+   ],
+   [
+    "hand putting small",
+    3
+   ],
+   [
+    "hand putting",
+    2
+   ],
+   [
+    "hand placing bottle bathroom cabinet",
+    0
+   ],
+   [
+    "hand placing bottle bathroom",
+    0
+   ],
+   [
+    "hand placing bottle",
+    1
+   ],
+   [
+    "hand placing",
+    1
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 11254,
+    "page": "https://pixabay.com/videos/id-11254/",
+    "url": "https://cdn.pixabay.com/video/2017/08/09/11254-229053639_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 8,
+    "tags": "bookshelf, book, library, education, knowledge, literature, shelf, textbook, bookstore, read, bookcase, studying, row, hand, male, man, setting, putting back",
+    "auteur": "GreenCardShow",
+    "vignettes": "work/candidats/04a_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 11253,
+    "page": "https://pixabay.com/videos/id-11253/",
+    "url": "https://cdn.pixabay.com/video/2017/08/09/11253-229053638_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 7,
+    "tags": "book, shelf, inserting, library, literature, education, bookshelf, study, knowledge, read, bookcase, hand, male, placing, setting",
+    "auteur": "GreenCardShow",
+    "vignettes": "work/candidats/04a_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 32443,
+    "page": "https://pixabay.com/videos/id-32443/",
+    "url": "https://cdn.pixabay.com/video/2020/02/16/32443-392248971_large.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 10,
+    "tags": "cpu, cpu socket, putting a cpu into a socket, hand, technology",
+    "auteur": "Pepino8A",
+    "vignettes": "work/candidats/04a_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "04b": {
+  "description": "Vue de dessus de cheveux tombés près de la bonde de la douche.",
+  "start": 13.1,
+  "end": 15.55,
+  "besoin_s": 3.0,
+  "requetes": [
+   [
+    "shower drain",
+    0
+   ],
+   [
+    "hair loss shower",
+    0
+   ],
+   [
+    "hair drain",
+    0
+   ],
+   [
+    "fallen hair strands shower drain",
+    0
+   ],
+   [
+    "fallen hair strands shower",
+    0
+   ],
+   [
+    "fallen hair strands",
+    0
+   ],
+   [
+    "fallen hair",
+    1
+   ],
+   [
+    "hair loss shower drain",
+    0
+   ],
+   [
+    "hair loss",
+    1
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 344211,
+    "page": "https://pixabay.com/videos/id-344211/",
+    "url": "https://cdn.pixabay.com/video/2026/04/03/344211_large.mp4",
+    "width": 3812,
+    "height": 2160,
+    "duration": 8,
+    "tags": "mourning woman, cemetery grief, loss and sadness, memorial service, gothic atmosphere, bereavement emotion, funeral attire, sorrowful person, mental health, emotional pain, spiritual peace, loneliness, dark aesthetic, remembrance, solitude, grave markers, historical graveyard, forest cemetery, burial ground, long black hair, velvet dress, low angle, cinematic lighting, green, black, ai generated",
+    "auteur": "MrWashingt0n",
+    "vignettes": "work/candidats/04b_c1.jpg",
+    "ia": true
+   },
+   {
+    "n": 2,
+    "pixabay_id": 314263,
+    "page": "https://pixabay.com/videos/id-314263/",
+    "url": "https://cdn.pixabay.com/video/2025/11/06/314263_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 10,
+    "tags": "women, smile, autumn, autumnal leaves, japanese, outdoor, natural light, hair, happy, beautiful, yellow leaves, portrait, facial expression, forest, park, young woman, sunny, wind, calm, natural, season, bright, fallen leaves, sunlight, soft light, generated ai",
+    "auteur": "Yocchi09",
+    "vignettes": "work/candidats/04b_c2.jpg",
+    "ia": true
+   }
+  ]
+ },
+ "05a": {
+  "description": "La main reprend le flacon dans le placard, geste mécanique du soir.",
+  "start": 15.55,
+  "end": 17.58,
+  "besoin_s": 2.5,
+  "requetes": [
+   [
+    "bathroom bottle hand",
+    5
+   ],
+   [
+    "bathroom routine",
+    1
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 34818,
+    "page": "https://pixabay.com/videos/id-34818/",
+    "url": "https://cdn.pixabay.com/video/2020/04/02/34818-403432727_large.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 25,
+    "tags": "washing, hands, coronavirus, soap, hygiene, corona, wash, protection, covid-19, faucet, water, clean, bathroom, cleaning, hand, prevention",
+    "auteur": "BreakDownPictures",
+    "vignettes": "work/candidats/05a_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 51807,
+    "page": "https://pixabay.com/videos/id-51807/",
+    "url": "https://cdn.pixabay.com/video/2020/10/08/51807-466305685_large.mp4",
+    "width": 4096,
+    "height": 2160,
+    "duration": 51,
+    "tags": "hand washing, washing, hand, hygiene, soap, bathroom",
+    "auteur": "mrbobdobolina",
+    "vignettes": "work/candidats/05a_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 34817,
+    "page": "https://pixabay.com/videos/id-34817/",
+    "url": "https://cdn.pixabay.com/video/2020/04/02/34817-403432718_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 56,
+    "tags": "washing, hands, coronavirus, soap, hygiene, corona, wash, protection, covid-19, faucet, water, clean, bathroom, cleaning, hand, prevention, slomo",
+    "auteur": "BreakDownPictures",
+    "vignettes": "work/candidats/05a_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "05b": {
+  "description": "Une femme assise au bord de la baignoire, le flacon dans les mains, tête baissée, visage hors champ.",
+  "start": 17.58,
+  "end": 19.6,
+  "besoin_s": 2.5,
+  "requetes": [
+   [
+    "woman sitting bathtub",
+    16
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 20564,
+    "page": "https://pixabay.com/videos/id-20564/",
+    "url": "https://cdn.pixabay.com/video/2019/01/09/20564-310898376_large.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 60,
+    "tags": "coffee, woman, girl, drink, cup, youth, tea, people, portrait, drinking, adult, sitting, happy, comfortable, relax, open air, to sit, wind, hair, nature, sky, clouds, atmosphere",
+    "auteur": "Engin_Akyurt",
+    "vignettes": "work/candidats/05b_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 83875,
+    "page": "https://pixabay.com/videos/id-83875/",
+    "url": "https://cdn.pixabay.com/video/2021/08/04/83875-584870588_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 15,
+    "tags": "woman, office, notebook, overworked, pain, people, person, preparation suffer, problem, professional, sad, sitting, stress, stressed, success, technology, tired, trouble, work, workplace, lifestyle",
+    "auteur": "SYG_Anime",
+    "vignettes": "work/candidats/05b_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 146143,
+    "page": "https://pixabay.com/videos/id-146143/",
+    "url": "https://cdn.pixabay.com/video/2023/01/11/146143-788410213_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 40,
+    "tags": "tree, woman, stars, lights, sky, fantasy, glowing, glow, fairy, dream, tree of life, life, meditation, spiritual, spirituality, branches, flowers, bloom, blossom, peace, sitting, person",
+    "auteur": "ChristianBodhi",
+    "vignettes": "work/candidats/05b_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "06b": {
+  "description": "Gros plan d'une main qui passe dans des cheveux châtains ondulés, souples et pleins.",
+  "start": 21.65,
+  "end": 23.75,
+  "besoin_s": 2.6,
+  "requetes": [
+   [
+    "hand hair",
+    9
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 48968,
+    "page": "https://pixabay.com/videos/id-48968/",
+    "url": "https://cdn.pixabay.com/video/2020/09/03/48968-459186304_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 8,
+    "tags": "barber, barbershop, hairstyle, hand, human hand, man, males, lifestyles, people, skill, work, beauty, care, hair, cutting, stylist, hairdresser, barber shop, slow",
+    "auteur": "aghyadnajjar",
+    "vignettes": "work/candidats/06b_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 48969,
+    "page": "https://pixabay.com/videos/id-48969/",
+    "url": "https://cdn.pixabay.com/video/2020/09/03/48969-459186305_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 14,
+    "tags": "young, dryer, lifestyle, hand, human hand, man, males, lifestyles, people, skill, work, barbershop, beauty, care, hair, cutting, hairstyle, stylist, hairdresser, barber, barber shop, slow",
+    "auteur": "aghyadnajjar",
+    "vignettes": "work/candidats/06b_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 43721,
+    "page": "https://pixabay.com/videos/id-43721/",
+    "url": "https://cdn.pixabay.com/video/2020/07/03/43721-436797179_large.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 17,
+    "tags": "girl, closeup, hair, smile, model, portrait, woman, lips, person, beauty, lovely, female, close up, boy, hands, eyes",
+    "auteur": "8682001",
+    "vignettes": "work/candidats/06b_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "09": {
+  "description": "Vue de dessus d'une raie élargie, cuir chevelu visible, cheveux fins.",
+  "start": 29.95,
+  "end": 33.0,
+  "besoin_s": 3.6,
+  "requetes": [
+   [
+    "hair part",
+    0
+   ],
+   [
+    "scalp hair",
+    0
+   ],
+   [
+    "hair thinning",
+    0
+   ],
+   [
+    "woman's widening hair part thinning hair",
+    0
+   ],
+   [
+    "woman's widening hair part thinning",
+    0
+   ],
+   [
+    "woman's widening hair part",
+    0
+   ],
+   [
+    "woman's widening hair",
+    0
+   ],
+   [
+    "woman's widening",
+    0
+   ],
+   [
+    "female pattern hair thinning",
+    0
+   ],
+   [
+    "female pattern hair",
+    10
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 116433,
+    "page": "https://pixabay.com/videos/id-116433/",
+    "url": "https://cdn.pixabay.com/video/2022/05/09/116433-708008197_large.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 28,
+    "tags": "woman, model, to dance, female, hair",
+    "auteur": "8682001",
+    "vignettes": "work/candidats/09_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 38962,
+    "page": "https://pixabay.com/videos/id-38962/",
+    "url": "https://cdn.pixabay.com/video/2020/05/13/38962-420224580_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 14,
+    "tags": "model, walk, female model, beautiful girl, fashion, face, female, young, glamour, attractive, makeup, hair, woman",
+    "auteur": "Rewind2Play",
+    "vignettes": "work/candidats/09_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 48255,
+    "page": "https://pixabay.com/videos/id-48255/",
+    "url": "https://cdn.pixabay.com/video/2020/08/26/48255-453831896_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 16,
+    "tags": "girl, woman, female, model, human, flirt, love, hair, attractive, young, portrait, cute, white, lady",
+    "auteur": "8682001",
+    "vignettes": "work/candidats/09_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "11": {
+  "description": "Des cheveux fins qui glissent dans un lavabo clair, au ralenti.",
+  "start": 35.55,
+  "end": 38.95,
+  "besoin_s": 3.9,
+  "requetes": [
+   [
+    "hair sink",
+    0
+   ],
+   [
+    "hair loss",
+    1
+   ],
+   [
+    "falling hair",
+    1
+   ],
+   [
+    "motion hair strands falling white sink",
+    0
+   ],
+   [
+    "motion hair strands falling white",
+    1
+   ],
+   [
+    "motion hair strands falling",
+    0
+   ],
+   [
+    "motion hair strands",
+    1
+   ],
+   [
+    "motion hair",
+    8
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 28042,
+    "page": "https://pixabay.com/videos/id-28042/",
+    "url": "https://cdn.pixabay.com/video/2019/10/18/28042-367222503_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 19,
+    "tags": "person, red hair, woman, taking a walk, a walk in the park, walking, forest, tree, path, bridge, exercise, motion, activity, umbrella, knapsack, lifestyle",
+    "auteur": "MabelAmber",
+    "vignettes": "work/candidats/11_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 280605,
+    "page": "https://pixabay.com/videos/id-280605/",
+    "url": "https://cdn.pixabay.com/video/2025/05/21/280605_large.mp4",
+    "width": 2160,
+    "height": 3840,
+    "duration": 5,
+    "tags": "glowing skin, radiant face, skincare beauty, healthy skin, young woman, soft lighting, beauty close-up, smooth complexion, skincare model, luxury beauty, slow motion face, natural beauty, photorealistic woman, fresh skin, elegant motion, skincare glow, beauty ad, hair movement, relaxed expression, cinematic skin, wellness video, clean beauty, facial glow, graceful motion, dark gradient background",
+    "auteur": "jelena2810",
+    "vignettes": "work/candidats/11_c2.jpg",
+    "ia": true
+   },
+   {
+    "n": 3,
+    "pixabay_id": 339329,
+    "page": "https://pixabay.com/videos/id-339329/",
+    "url": "https://cdn.pixabay.com/video/2026/03/10/339329_large.mp4",
+    "width": 2160,
+    "height": 3240,
+    "duration": 5,
+    "tags": "cat, feline, jumping, flying, fluffy, fur, gray, white background, mid-air, action, pet, domestic, leap, agility, cute, photography, studio, animal, motion, elegant, long hair, kitten, playful, athletic, floating",
+    "auteur": "Solarselle77",
+    "vignettes": "work/candidats/11_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "13": {
+  "description": "Une femme fatiguée se masse les tempes devant son ordinateur, une assiette presque vide à côté.",
+  "start": 41.6,
+  "end": 44.55,
+  "besoin_s": 3.4,
+  "requetes": [
+   [
+    "stressed woman laptop",
+    17
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 27092,
+    "page": "https://pixabay.com/videos/id-27092/",
+    "url": "https://cdn.pixabay.com/video/2019/09/20/27092-361827484_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 21,
+    "tags": "girl, office, w, computer, work, business, laptop, woman, young, professional, female, company, person, project",
+    "auteur": "chuduyen215",
+    "vignettes": "work/candidats/13_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 27091,
+    "page": "https://pixabay.com/videos/id-27091/",
+    "url": "https://cdn.pixabay.com/video/2019/09/20/27091-361827476_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 12,
+    "tags": "girl, office, w, computer, work, business, laptop, woman, young, professional, female, company, person, project",
+    "auteur": "chuduyen215",
+    "vignettes": "work/candidats/13_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 1058,
+    "page": "https://pixabay.com/videos/id-1058/",
+    "url": "https://cdn.pixabay.com/video/2015/10/16/1058-142621439_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 12,
+    "tags": "laptop, notebook, student, studying, typing, writing, computer, technology, business, screen, laptop screen, office, internet, computer technology, computer screen, work, mobile, communication, woman, girl, female",
+    "auteur": "Coverr-Free-Footage",
+    "vignettes": "work/candidats/13_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "15a": {
+  "description": "Une main mouillée sous la douche retient quelques cheveux tombés.",
+  "start": 49.75,
+  "end": 52.35,
+  "besoin_s": 3.1,
+  "requetes": [
+   [
+    "hair loss hand",
+    3
+   ],
+   [
+    "hair in hand",
+    2
+   ],
+   [
+    "shower hand",
+    0
+   ],
+   [
+    "wet hand holding fallen hair strands shower",
+    0
+   ],
+   [
+    "wet hand holding fallen hair",
+    0
+   ],
+   [
+    "wet hand holding fallen",
+    0
+   ],
+   [
+    "wet hand holding",
+    7
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 101795,
+    "page": "https://pixabay.com/videos/id-101795/",
+    "url": "https://cdn.pixabay.com/video/2021/12/17/101795-658820227_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 9,
+    "tags": "cigarette, tobacco, smoke, smoking, hand, addiction, burning, holding",
+    "auteur": "Nick_the_Photographer",
+    "vignettes": "work/candidats/15a_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 4040,
+    "page": "https://pixabay.com/videos/id-4040/",
+    "url": "https://cdn.pixabay.com/video/2016/07/27/4040-176748903_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 27,
+    "tags": "stomach band surgery, surgery, obese, gastric, weight, obesity, stomach, health, fat, care, medical, band, doctor, overweight, wound, loss, treatment, sterile, lap, injection, food, abdomen, illness, hand, cure, procedure, scar, instrument, control, diet, epidemic, equipment, fluid, healthcare, bariatric, nutrition, banding, needle",
+    "auteur": "F1Digitals",
+    "vignettes": "work/candidats/15a_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 101929,
+    "page": "https://pixabay.com/videos/id-101929/",
+    "url": "https://cdn.pixabay.com/video/2021/12/18/101929-658840398_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 15,
+    "tags": "cigarette, tobacco, hand, holding, lighter, fire, flame, lighting, smoke",
+    "auteur": "Nick_the_Photographer",
+    "vignettes": "work/candidats/15a_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "16": {
+  "description": "Les petits cheveux de repousse sur la ligne frontale, en contre-jour.",
+  "start": 54.95,
+  "end": 58.2,
+  "besoin_s": 3.8,
+  "requetes": [
+   [
+    "hairline",
+    0
+   ],
+   [
+    "baby hair",
+    3
+   ],
+   [
+    "hair backlight",
+    0
+   ],
+   [
+    "backlit baby hairs regrowth along hairline",
+    0
+   ],
+   [
+    "backlit baby hairs regrowth along",
+    0
+   ],
+   [
+    "backlit baby hairs regrowth",
+    0
+   ],
+   [
+    "backlit baby hairs",
+    0
+   ],
+   [
+    "backlit baby",
+    0
+   ],
+   [
+    "baby hair regrowth hairline backlit",
+    0
+   ],
+   [
+    "baby hair regrowth hairline",
+    0
+   ],
+   [
+    "baby hair regrowth",
+    0
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 315832,
+    "page": "https://pixabay.com/videos/id-315832/",
+    "url": "https://cdn.pixabay.com/video/2025/11/14/315832_large.mp4",
+    "width": 1440,
+    "height": 2605,
+    "duration": 6,
+    "tags": "cute, child, girl, kid, portrait, smile, joy, happy, face, baby, blond, hair, person, young, female, blonde, model, fashion, pose, modeling, posing, speaking, talking, ai generated",
+    "auteur": "martavalentinyi",
+    "vignettes": "work/candidats/16_c1.jpg",
+    "ia": true
+   },
+   {
+    "n": 2,
+    "pixabay_id": 277977,
+    "page": "https://pixabay.com/videos/id-277977/",
+    "url": "https://cdn.pixabay.com/video/2025/05/09/277977_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 10,
+    "tags": "braid, daughter, mom, silhouette, baby, child, family, fashion, girl, hair, hairstyle, kid, braiding, lifestyle, mother, parent, parenthood, style, together, green background, chroma key, green screen",
+    "auteur": "Mohamed_hassan",
+    "vignettes": "work/candidats/16_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 135318,
+    "page": "https://pixabay.com/videos/id-135318/",
+    "url": "https://cdn.pixabay.com/video/2022/10/17/135318-761273739_large.mp4",
+    "width": 2562,
+    "height": 1440,
+    "duration": 14,
+    "tags": "baby, child, toddler, dance, red hair, asian",
+    "auteur": "Tilixia-Summer",
+    "vignettes": "work/candidats/16_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "18": {
+  "description": "Une femme range le flacon de minoxidil dans un tiroir puis passe la main dans ses cheveux.",
+  "start": 61.2,
+  "end": 64.05,
+  "besoin_s": 3.3,
+  "requetes": [
+   [
+    "bathroom drawer",
+    0
+   ],
+   [
+    "woman bathroom",
+    4
+   ],
+   [
+    "closing drawer",
+    0
+   ],
+   [
+    "woman closing drawer bottle inside touching hair bathroom",
+    0
+   ],
+   [
+    "woman closing drawer bottle inside",
+    0
+   ],
+   [
+    "woman closing drawer bottle",
+    0
+   ],
+   [
+    "woman closing drawer",
+    0
+   ],
+   [
+    "woman closing",
+    0
+   ],
+   [
+    "woman closing bathroom drawer",
+    0
+   ],
+   [
+    "woman closing bathroom",
+    2
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 37325,
+    "page": "https://pixabay.com/videos/id-37325/",
+    "url": "https://cdn.pixabay.com/video/2020/04/27/37325-413555862_large.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 22,
+    "tags": "woman, hair, drying, bathroom, bathe, cleaning, dry, machine, face, portrait, human, house, maintenance, paint, wind, movement, girl, beauty, beautiful, attractive, fashion, youth, people, make-up, women",
+    "auteur": "Engin_Akyurt",
+    "vignettes": "work/candidats/18_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 37324,
+    "page": "https://pixabay.com/videos/id-37324/",
+    "url": "https://cdn.pixabay.com/video/2020/04/27/37324-413555868_large.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 45,
+    "tags": "mask, coronavirus, virus, epidemic, house, disease, protection, quarantine, infection, pathogen, health, hygiene, cleaning, mouthpiece, corona, woman, hair, drying, bathroom, bathe, dry, machine, portrait",
+    "auteur": "Engin_Akyurt",
+    "vignettes": "work/candidats/18_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 34537,
+    "page": "https://pixabay.com/videos/id-34537/",
+    "url": "https://cdn.pixabay.com/video/2020/03/29/34537-402679338_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 19,
+    "tags": "washing hands, wash hands, soap, coronavirus, hygiene, sanitizer, wash, water, protection, faucet, health, washing, clean, covid-19, bathroom, cleaning, virus, hand, infection, germs, care, sanitation, prevention, woman",
+    "auteur": "Emilioamador16",
+    "vignettes": "work/candidats/18_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "19": {
+  "description": "Vue de dessus : un flacon d'huile de romarin et un flacon d'huile de pépins de courge posés face au flacon de minoxidil.",
+  "start": 64.05,
+  "end": 68.85,
+  "besoin_s": 5.3,
+  "requetes": [
+   [
+    "rosemary oil",
+    2
+   ],
+   [
+    "essential oil bottles",
+    0
+   ],
+   [
+    "oil bottles",
+    3
+   ],
+   [
+    "rosemary oil bottle pumpkin seed oil serum bottle",
+    0
+   ],
+   [
+    "rosemary oil bottle pumpkin seed",
+    0
+   ],
+   [
+    "rosemary oil bottle pumpkin",
+    0
+   ],
+   [
+    "rosemary oil bottle",
+    0
+   ],
+   [
+    "rosemary oil pumpkin seed oil bottles",
+    0
+   ],
+   [
+    "rosemary oil pumpkin seed oil",
+    0
+   ],
+   [
+    "rosemary oil pumpkin seed",
+    0
+   ],
+   [
+    "rosemary oil pumpkin",
+    0
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 373691,
+    "page": "https://pixabay.com/videos/id-373691/",
+    "url": "https://cdn.pixabay.com/video/2026/08/31/373691_large.mp4",
+    "width": 2160,
+    "height": 3840,
+    "duration": 6,
+    "tags": "ai generated, olive, oil, industrial, filling, packaging, production, food, factory, processing, manufacturing, liquid, flow, container, tank, valve, golden, organic, agriculture, mediterranean, pressing, extraction, bottling, loop",
+    "auteur": "doktorkleinmusic",
+    "vignettes": "work/candidats/19_c1.jpg",
+    "ia": true
+   },
+   {
+    "n": 2,
+    "pixabay_id": 186104,
+    "page": "https://pixabay.com/videos/id-186104/",
+    "url": "https://cdn.pixabay.com/video/2023/10/22/186104-877303547_large.mp4",
+    "width": 1080,
+    "height": 1920,
+    "duration": 6,
+    "tags": "ai generated, oil jugs, sunflower oil, hydrogenated, skull, oil, oil bottles, health-damaging oils, cancerous oils",
+    "auteur": "EliseoPx",
+    "vignettes": "work/candidats/19_c2.jpg",
+    "ia": true
+   },
+   {
+    "n": 3,
+    "pixabay_id": 363897,
+    "page": "https://pixabay.com/videos/id-363897/",
+    "url": "https://cdn.pixabay.com/video/2026/07/13/363897_large.mp4",
+    "width": 1080,
+    "height": 1920,
+    "duration": 8,
+    "tags": "ai generated, focaccia, artisan bread, fresh herbs, rosemary, thyme, basil, baking, homemade bread, rustic, olive oil, sea salt, bakery, gourmet, food, culinary, macro, delicious, italian food, fresh, cozy, cinematic, vertical video, food photography, aesthetic",
+    "auteur": "MoonpetalMedia",
+    "vignettes": "work/candidats/19_c3.jpg",
+    "ia": true
+   }
+  ]
+ },
+ "20a": {
+  "description": "La caméra glisse du flacon d'huile de romarin (brin frais) à l'huile de pépins de courge (pépins verts).",
+  "start": 68.85,
+  "end": 71.6,
+  "besoin_s": 3.2,
+  "requetes": [
+   [
+    "rosemary",
+    30
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 11635,
+    "page": "https://pixabay.com/videos/id-11635/",
+    "url": "https://cdn.pixabay.com/video/2017/08/29/11635-231758671_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 58,
+    "tags": "cooking, mackerel, fish, food, healthy, sea, seafood, raw, ingredient, marine, gourmet, meal, market, restaurant, nutrition, eat, fresh, kitchen, fishing, table, diet, catch, delicious, top, ocean, omega, dinner, silver, cuisine, tail, rosemary, mediterranean, lunch, natural, dark",
+    "auteur": "XiaosKitchen",
+    "vignettes": "work/candidats/20a_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 11642,
+    "page": "https://pixabay.com/videos/id-11642/",
+    "url": "https://cdn.pixabay.com/video/2017/08/29/11642-231758713_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 54,
+    "tags": "chop, herbs, food, meat, meal, fresh, cooking, dinner, ingredient, pepper, raw, red, gourmet, board, wooden, green, cuisine, preparation, eating, beef, cut, salt, steak, healthy, uncooked, spice, white, grill, grilled, rosemary, organic, kitchen",
+    "auteur": "XiaosKitchen",
+    "vignettes": "work/candidats/20a_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 11676,
+    "page": "https://pixabay.com/videos/id-11676/",
+    "url": "https://cdn.pixabay.com/video/2017/08/30/11676-231758842_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 10,
+    "tags": "sausage, skewers, food, meat, barbecue, grill, bbq, beef, hot, meal, picnic, pork, grilled, dinner, roasted, party, gourmet, snack, lunch, dish, kebab, spicy, cooked, fried, delicious, pepper, cooking, vegetable, plate, rustic, roast, lamb, table, black, overhead, rosemary",
+    "auteur": "XiaosKitchen",
+    "vignettes": "work/candidats/20a_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "20b": {
+  "description": "Deux mains massent le cuir chevelu du bout des doigts.",
+  "start": 71.6,
+  "end": 74.0,
+  "besoin_s": 2.9,
+  "requetes": [
+   [
+    "scalp massage",
+    0
+   ],
+   [
+    "head massage",
+    1
+   ],
+   [
+    "hair massage",
+    8
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 372592,
+    "page": "https://pixabay.com/videos/id-372592/",
+    "url": "https://cdn.pixabay.com/video/2026/08/25/372592_large.mp4",
+    "width": 2160,
+    "height": 3840,
+    "duration": 9,
+    "tags": "ai generated, indonesia, bali, beautiful, young, woman, lies, face, down, massage table, covered, white, sheet, head, resting, fold",
+    "auteur": "Claudia_Ghimel",
+    "vignettes": "work/candidats/20b_c1.jpg",
+    "ia": true
+   },
+   {
+    "n": 2,
+    "pixabay_id": 50743,
+    "page": "https://pixabay.com/videos/id-50743/",
+    "url": "https://cdn.pixabay.com/video/2020/09/24/50743-461662679_large.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 15,
+    "tags": "salon, hair, hair consultant, hair care, hair specialist, haircut, woman, girl, face, fashion, style, nail, women, person, young, makeup, hairstyle, relax, shampoo, massage, health, soap, spa, hair conditioner",
+    "auteur": "chuduyen215",
+    "vignettes": "work/candidats/20b_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 50736,
+    "page": "https://pixabay.com/videos/id-50736/",
+    "url": "https://cdn.pixabay.com/video/2020/09/24/50736-461662672_large.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 11,
+    "tags": "salon, hair, hair consultant, hair care, hair specialist, haircut, woman, girl, face, fashion, style, nail, women, person, young, makeup, hairstyle, relax, shampoo, massage, health, soap, spa",
+    "auteur": "chuduyen215",
+    "vignettes": "work/candidats/20b_c3.jpg",
+    "ia": false
+   }
+  ]
+ },
+ "21a": {
+  "description": "Vue subjective : un pouce tape « Guide » en commentaire sur un smartphone.",
+  "start": 74.0,
+  "end": 76.5,
+  "besoin_s": 3.0,
+  "requetes": [
+   [
+    "typing phone",
+    3
+   ],
+   [
+    "smartphone typing",
+    5
+   ],
+   [
+    "phone comment",
+    0
+   ],
+   [
+    "thumb typing comment smartphone social app",
+    0
+   ],
+   [
+    "thumb typing comment smartphone social",
+    0
+   ],
+   [
+    "thumb typing comment smartphone",
+    0
+   ],
+   [
+    "thumb typing comment",
+    0
+   ],
+   [
+    "thumb typing",
+    0
+   ],
+   [
+    "typing comment phone",
+    1
+   ],
+   [
+    "typing comment",
+    0
+   ]
+  ],
+  "candidats": [
+   {
+    "n": 1,
+    "pixabay_id": 3176,
+    "page": "https://pixabay.com/videos/id-3176/",
+    "url": "https://cdn.pixabay.com/video/2016/05/12/3176-166338965_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 11,
+    "tags": "smartphone, iphone, typing, writing, ios, app, mobile, device, modern, communication, internet, wireless, touchscreen, technology, digital, cellphone, gadget, telephone, using, equipment, hand, cellular, multimedia, smart phone, communicator, screen",
+    "auteur": "Coverr-Free-Footage",
+    "vignettes": "work/candidats/21a_c1.jpg",
+    "ia": false
+   },
+   {
+    "n": 2,
+    "pixabay_id": 197,
+    "page": "https://pixabay.com/videos/id-197/",
+    "url": "https://cdn.pixabay.com/video/2015/08/10/197-135846412_large.mp4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 36,
+    "tags": "notebook, ultrabook, typing, writing, laptop, home office, office, electronic device, letters, program, mobile, hands, man, work, business, luxury, apple macbook, smartphone, iphone 6, display, screen, monitor",
+    "auteur": "Life-Of-Vids",
+    "vignettes": "work/candidats/21a_c2.jpg",
+    "ia": false
+   },
+   {
+    "n": 3,
+    "pixabay_id": 130652,
+    "page": "https://pixabay.com/videos/id-130652/",
+    "url": "https://cdn.pixabay.com/video/2022/09/08/130652-747868389_large.mp4",
+    "width": 3840,
+    "height": 2160,
+    "duration": 16,
+    "tags": "woman, smartphone, education, navigation, lifestyle, mobile, money safe, store, freelance, typing, management, electronic device, business, technology, online, marketing, work, success, fashion",
+    "auteur": "SYG_Anime",
+    "vignettes": "work/candidats/21a_c3.jpg",
+    "ia": false
+   }
+  ]
+ }
+}
