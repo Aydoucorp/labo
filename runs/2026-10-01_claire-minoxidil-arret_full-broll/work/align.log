@@ -1,0 +1,6 @@
+script : 259 mots
+audio : 79.569 s, wav 16 kHz écrit en 0.5 s (/home/user/labo/runs/2026-10-01_claire-minoxidil-arret_full-broll/work/voix_16k.wav)
+[ctc] modèle chargé en 98.8 s (/root/ctc_forced_aligner/model.onnx)
+[ctc] émissions calculées en 20.0 s (3979 trames, pas 20 ms)
+[ctc] alignement terminé en 119.2 s
+écrit : work/words.json (259 mots, méthode ctc-forced-aligner, total 120.1 s)

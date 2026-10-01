@@ -1,0 +1,2081 @@
+{
+ "audio": "voix.mp3",
+ "duration_s": 79.569,
+ "language": "fr",
+ "method": "ctc-forced-aligner",
+ "script_hash": "8f0229076335217161eb6bce219b2585c2613742",
+ "words": [
+  {
+   "i": 0,
+   "w": "Si",
+   "start": 0.16,
+   "end": 0.29,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 1,
+   "w": "j'arrête",
+   "start": 0.3,
+   "end": 0.6,
+   "score": 0.879,
+   "punct_after": ""
+  },
+  {
+   "i": 2,
+   "w": "le",
+   "start": 0.61,
+   "end": 0.71,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 3,
+   "w": "minoxidil",
+   "start": 0.72,
+   "end": 1.34,
+   "score": 0.96,
+   "punct_after": ","
+  },
+  {
+   "i": 4,
+   "w": "je",
+   "start": 1.52,
+   "end": 1.72,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 5,
+   "w": "perdrai",
+   "start": 1.74,
+   "end": 2.1,
+   "score": 0.919,
+   "punct_after": ""
+  },
+  {
+   "i": 6,
+   "w": "jusqu'à",
+   "start": 2.1,
+   "end": 2.46,
+   "score": 0.938,
+   "punct_after": ""
+  },
+  {
+   "i": 7,
+   "w": "cinquante",
+   "start": 2.7,
+   "end": 3.06,
+   "score": 0.01,
+   "punct_after": ""
+  },
+  {
+   "i": 8,
+   "w": "pour",
+   "start": 3.08,
+   "end": 3.18,
+   "score": 0.105,
+   "punct_after": ""
+  },
+  {
+   "i": 9,
+   "w": "cent",
+   "start": 3.32,
+   "end": 3.42,
+   "score": 0.065,
+   "punct_after": ""
+  },
+  {
+   "i": 10,
+   "w": "de",
+   "start": 3.44,
+   "end": 3.48,
+   "score": 0.396,
+   "punct_after": ""
+  },
+  {
+   "i": 11,
+   "w": "mes",
+   "start": 3.5,
+   "end": 3.64,
+   "score": 0.813,
+   "punct_after": ""
+  },
+  {
+   "i": 12,
+   "w": "cheveux",
+   "start": 3.64,
+   "end": 3.94,
+   "score": 0.394,
+   "punct_after": ""
+  },
+  {
+   "i": 13,
+   "w": "dans",
+   "start": 4.0,
+   "end": 4.16,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 14,
+   "w": "les",
+   "start": 4.18,
+   "end": 4.34,
+   "score": 0.987,
+   "punct_after": ""
+  },
+  {
+   "i": 15,
+   "w": "douze",
+   "start": 4.34,
+   "end": 4.53,
+   "score": 0.69,
+   "punct_after": ""
+  },
+  {
+   "i": 16,
+   "w": "prochains",
+   "start": 4.65,
+   "end": 4.96,
+   "score": 0.673,
+   "punct_after": ""
+  },
+  {
+   "i": 17,
+   "w": "mois",
+   "start": 4.96,
+   "end": 5.05,
+   "score": 0.835,
+   "punct_after": "."
+  },
+  {
+   "i": 18,
+   "w": "Si",
+   "start": 5.24,
+   "end": 5.38,
+   "score": 0.958,
+   "punct_after": ""
+  },
+  {
+   "i": 19,
+   "w": "tu",
+   "start": 5.38,
+   "end": 5.52,
+   "score": 0.928,
+   "punct_after": ""
+  },
+  {
+   "i": 20,
+   "w": "es",
+   "start": 5.52,
+   "end": 5.64,
+   "score": 0.588,
+   "punct_after": ""
+  },
+  {
+   "i": 21,
+   "w": "sous",
+   "start": 5.64,
+   "end": 5.74,
+   "score": 0.42,
+   "punct_after": ""
+  },
+  {
+   "i": 22,
+   "w": "minoxidil",
+   "start": 5.76,
+   "end": 6.44,
+   "score": 0.979,
+   "punct_after": ","
+  },
+  {
+   "i": 23,
+   "w": "cette",
+   "start": 6.67,
+   "end": 6.82,
+   "score": 0.933,
+   "punct_after": ""
+  },
+  {
+   "i": 24,
+   "w": "phrase",
+   "start": 6.84,
+   "end": 7.24,
+   "score": 0.677,
+   "punct_after": ","
+  },
+  {
+   "i": 25,
+   "w": "tu",
+   "start": 7.34,
+   "end": 7.43,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 26,
+   "w": "te",
+   "start": 7.48,
+   "end": 7.5,
+   "score": 0.984,
+   "punct_after": ""
+  },
+  {
+   "i": 27,
+   "w": "l'es",
+   "start": 7.52,
+   "end": 7.62,
+   "score": 0.06,
+   "punct_after": ""
+  },
+  {
+   "i": 28,
+   "w": "sûrement",
+   "start": 7.64,
+   "end": 8.0,
+   "score": 0.903,
+   "punct_after": ""
+  },
+  {
+   "i": 29,
+   "w": "déjà",
+   "start": 8.0,
+   "end": 8.22,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 30,
+   "w": "dite",
+   "start": 8.22,
+   "end": 8.31,
+   "score": 0.952,
+   "punct_after": "."
+  },
+  {
+   "i": 31,
+   "w": "Et",
+   "start": 8.64,
+   "end": 8.78,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 32,
+   "w": "si",
+   "start": 8.89,
+   "end": 9.02,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 33,
+   "w": "mes",
+   "start": 9.02,
+   "end": 9.2,
+   "score": 0.961,
+   "punct_after": ""
+  },
+  {
+   "i": 34,
+   "w": "cheveux",
+   "start": 9.2,
+   "end": 9.56,
+   "score": 0.418,
+   "punct_after": ""
+  },
+  {
+   "i": 35,
+   "w": "étaient",
+   "start": 9.58,
+   "end": 9.86,
+   "score": 0.609,
+   "punct_after": ""
+  },
+  {
+   "i": 36,
+   "w": "devenus",
+   "start": 9.88,
+   "end": 10.26,
+   "score": 0.743,
+   "punct_after": ""
+  },
+  {
+   "i": 37,
+   "w": "dépendants",
+   "start": 10.26,
+   "end": 10.77,
+   "score": 0.744,
+   "punct_after": "?"
+  },
+  {
+   "i": 38,
+   "w": "Et",
+   "start": 10.89,
+   "end": 11.06,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 39,
+   "w": "si",
+   "start": 11.11,
+   "end": 11.26,
+   "score": 0.998,
+   "punct_after": ","
+  },
+  {
+   "i": 40,
+   "w": "en",
+   "start": 11.45,
+   "end": 11.64,
+   "score": 0.987,
+   "punct_after": ""
+  },
+  {
+   "i": 41,
+   "w": "arrêtant",
+   "start": 11.64,
+   "end": 12.07,
+   "score": 0.996,
+   "punct_after": ","
+  },
+  {
+   "i": 42,
+   "w": "je",
+   "start": 12.34,
+   "end": 12.54,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 43,
+   "w": "perdais",
+   "start": 12.54,
+   "end": 12.92,
+   "score": 0.988,
+   "punct_after": ""
+  },
+  {
+   "i": 44,
+   "w": "ceux",
+   "start": 12.98,
+   "end": 13.11,
+   "score": 0.966,
+   "punct_after": ""
+  },
+  {
+   "i": 45,
+   "w": "qui",
+   "start": 13.14,
+   "end": 13.28,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 46,
+   "w": "ont",
+   "start": 13.28,
+   "end": 13.42,
+   "score": 0.98,
+   "punct_after": ""
+  },
+  {
+   "i": 47,
+   "w": "repoussé",
+   "start": 13.42,
+   "end": 13.86,
+   "score": 0.991,
+   "punct_after": "..."
+  },
+  {
+   "i": 48,
+   "w": "mais",
+   "start": 14.24,
+   "end": 14.4,
+   "score": 0.981,
+   "punct_after": ""
+  },
+  {
+   "i": 49,
+   "w": "aussi",
+   "start": 14.42,
+   "end": 14.7,
+   "score": 0.987,
+   "punct_after": ""
+  },
+  {
+   "i": 50,
+   "w": "ceux",
+   "start": 14.84,
+   "end": 14.93,
+   "score": 0.929,
+   "punct_after": ""
+  },
+  {
+   "i": 51,
+   "w": "qui",
+   "start": 15.02,
+   "end": 15.1,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 52,
+   "w": "étaient",
+   "start": 15.1,
+   "end": 15.3,
+   "score": 0.768,
+   "punct_after": ""
+  },
+  {
+   "i": 53,
+   "w": "restés",
+   "start": 15.32,
+   "end": 15.61,
+   "score": 0.631,
+   "punct_after": "?"
+  },
+  {
+   "i": 54,
+   "w": "Alors",
+   "start": 15.78,
+   "end": 16.06,
+   "score": 0.989,
+   "punct_after": ""
+  },
+  {
+   "i": 55,
+   "w": "tu",
+   "start": 16.08,
+   "end": 16.18,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 56,
+   "w": "continues",
+   "start": 16.25,
+   "end": 16.65,
+   "score": 0.868,
+   "punct_after": "."
+  },
+  {
+   "i": 57,
+   "w": "Pas",
+   "start": 16.89,
+   "end": 17.0,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 58,
+   "w": "parce",
+   "start": 17.02,
+   "end": 17.16,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 59,
+   "w": "que",
+   "start": 17.25,
+   "end": 17.33,
+   "score": 0.725,
+   "punct_after": ""
+  },
+  {
+   "i": 60,
+   "w": "tu",
+   "start": 17.38,
+   "end": 17.47,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 61,
+   "w": "en",
+   "start": 17.48,
+   "end": 17.61,
+   "score": 0.921,
+   "punct_after": ""
+  },
+  {
+   "i": 62,
+   "w": "as",
+   "start": 17.62,
+   "end": 17.7,
+   "score": 0.956,
+   "punct_after": ""
+  },
+  {
+   "i": 63,
+   "w": "besoin",
+   "start": 17.72,
+   "end": 18.09,
+   "score": 0.994,
+   "punct_after": ","
+  },
+  {
+   "i": 64,
+   "w": "mais",
+   "start": 18.26,
+   "end": 18.37,
+   "score": 0.972,
+   "punct_after": ""
+  },
+  {
+   "i": 65,
+   "w": "parce",
+   "start": 18.41,
+   "end": 18.51,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 66,
+   "w": "que",
+   "start": 18.61,
+   "end": 18.68,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 67,
+   "w": "tu",
+   "start": 18.75,
+   "end": 18.78,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 68,
+   "w": "as",
+   "start": 18.81,
+   "end": 18.9,
+   "score": 0.806,
+   "punct_after": ""
+  },
+  {
+   "i": 69,
+   "w": "peur",
+   "start": 19.04,
+   "end": 19.25,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 70,
+   "w": "d'arrêter",
+   "start": 19.26,
+   "end": 19.64,
+   "score": 0.981,
+   "punct_after": "."
+  },
+  {
+   "i": 71,
+   "w": "La",
+   "start": 19.85,
+   "end": 19.99,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 72,
+   "w": "réponse",
+   "start": 20.0,
+   "end": 20.35,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 73,
+   "w": "est",
+   "start": 20.57,
+   "end": 20.75,
+   "score": 0.916,
+   "punct_after": ""
+  },
+  {
+   "i": 74,
+   "w": "non",
+   "start": 20.77,
+   "end": 20.98,
+   "score": 0.987,
+   "punct_after": "."
+  },
+  {
+   "i": 75,
+   "w": "Le",
+   "start": 21.21,
+   "end": 21.37,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 76,
+   "w": "minoxidil",
+   "start": 21.38,
+   "end": 21.99,
+   "score": 0.99,
+   "punct_after": ""
+  },
+  {
+   "i": 77,
+   "w": "ne",
+   "start": 22.0,
+   "end": 22.15,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 78,
+   "w": "rend",
+   "start": 22.16,
+   "end": 22.34,
+   "score": 0.972,
+   "punct_after": ""
+  },
+  {
+   "i": 79,
+   "w": "pas",
+   "start": 22.43,
+   "end": 22.61,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 80,
+   "w": "tes",
+   "start": 22.67,
+   "end": 22.81,
+   "score": 0.99,
+   "punct_after": ""
+  },
+  {
+   "i": 81,
+   "w": "cheveux",
+   "start": 22.82,
+   "end": 23.04,
+   "score": 0.45,
+   "punct_after": ""
+  },
+  {
+   "i": 82,
+   "w": "dépendants",
+   "start": 23.06,
+   "end": 23.44,
+   "score": 0.826,
+   "punct_after": "."
+  },
+  {
+   "i": 83,
+   "w": "Il",
+   "start": 23.62,
+   "end": 23.79,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 84,
+   "w": "ne",
+   "start": 23.8,
+   "end": 23.93,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 85,
+   "w": "soigne",
+   "start": 24.0,
+   "end": 24.37,
+   "score": 0.971,
+   "punct_after": ""
+  },
+  {
+   "i": 86,
+   "w": "pas",
+   "start": 24.47,
+   "end": 24.67,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 87,
+   "w": "la",
+   "start": 24.73,
+   "end": 24.89,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 88,
+   "w": "cause",
+   "start": 24.93,
+   "end": 25.14,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 89,
+   "w": "de",
+   "start": 25.16,
+   "end": 25.25,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 90,
+   "w": "ta",
+   "start": 25.29,
+   "end": 25.39,
+   "score": 0.994,
+   "punct_after": ""
+  },
+  {
+   "i": 91,
+   "w": "chute",
+   "start": 25.4,
+   "end": 25.59,
+   "score": 0.907,
+   "punct_after": ","
+  },
+  {
+   "i": 92,
+   "w": "il",
+   "start": 25.99,
+   "end": 26.15,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 93,
+   "w": "prolonge",
+   "start": 26.24,
+   "end": 26.81,
+   "score": 0.949,
+   "punct_after": ""
+  },
+  {
+   "i": 94,
+   "w": "la",
+   "start": 26.82,
+   "end": 26.94,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 95,
+   "w": "phase",
+   "start": 27.0,
+   "end": 27.18,
+   "score": 0.409,
+   "punct_after": ""
+  },
+  {
+   "i": 96,
+   "w": "de",
+   "start": 27.2,
+   "end": 27.32,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 97,
+   "w": "pousse",
+   "start": 27.47,
+   "end": 27.58,
+   "score": 0.85,
+   "punct_after": ""
+  },
+  {
+   "i": 98,
+   "w": "de",
+   "start": 27.75,
+   "end": 27.87,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 99,
+   "w": "tes",
+   "start": 27.92,
+   "end": 28.03,
+   "score": 0.933,
+   "punct_after": ""
+  },
+  {
+   "i": 100,
+   "w": "cheveux",
+   "start": 28.04,
+   "end": 28.24,
+   "score": 0.398,
+   "punct_after": "."
+  },
+  {
+   "i": 101,
+   "w": "Alors",
+   "start": 28.4,
+   "end": 28.72,
+   "score": 0.954,
+   "punct_after": ""
+  },
+  {
+   "i": 102,
+   "w": "tout",
+   "start": 28.89,
+   "end": 29.02,
+   "score": 0.886,
+   "punct_after": ""
+  },
+  {
+   "i": 103,
+   "w": "dépend",
+   "start": 29.04,
+   "end": 29.3,
+   "score": 0.99,
+   "punct_after": ""
+  },
+  {
+   "i": 104,
+   "w": "de",
+   "start": 29.32,
+   "end": 29.39,
+   "score": 0.02,
+   "punct_after": ""
+  },
+  {
+   "i": 105,
+   "w": "la",
+   "start": 29.4,
+   "end": 29.49,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 106,
+   "w": "cause",
+   "start": 29.53,
+   "end": 29.82,
+   "score": 0.985,
+   "punct_after": "."
+  },
+  {
+   "i": 107,
+   "w": "Si",
+   "start": 30.06,
+   "end": 30.14,
+   "score": 0.963,
+   "punct_after": ""
+  },
+  {
+   "i": 108,
+   "w": "ta",
+   "start": 30.18,
+   "end": 30.29,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 109,
+   "w": "chute",
+   "start": 30.3,
+   "end": 30.47,
+   "score": 0.964,
+   "punct_after": ""
+  },
+  {
+   "i": 110,
+   "w": "est",
+   "start": 30.52,
+   "end": 30.64,
+   "score": 0.907,
+   "punct_after": ""
+  },
+  {
+   "i": 111,
+   "w": "chronique",
+   "start": 30.66,
+   "end": 31.04,
+   "score": 0.986,
+   "punct_after": ","
+  },
+  {
+   "i": 112,
+   "w": "comme",
+   "start": 31.28,
+   "end": 31.44,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 113,
+   "w": "une",
+   "start": 31.46,
+   "end": 31.56,
+   "score": 0.993,
+   "punct_after": ""
+  },
+  {
+   "i": 114,
+   "w": "alopécie",
+   "start": 31.58,
+   "end": 32.08,
+   "score": 0.869,
+   "punct_after": ""
+  },
+  {
+   "i": 115,
+   "w": "androgénétique",
+   "start": 32.15,
+   "end": 32.86,
+   "score": 0.936,
+   "punct_after": ","
+  },
+  {
+   "i": 116,
+   "w": "tes",
+   "start": 33.28,
+   "end": 33.4,
+   "score": 0.984,
+   "punct_after": ""
+  },
+  {
+   "i": 117,
+   "w": "follicules",
+   "start": 33.4,
+   "end": 33.88,
+   "score": 0.717,
+   "punct_after": ""
+  },
+  {
+   "i": 118,
+   "w": "rétrécissent",
+   "start": 34.04,
+   "end": 34.73,
+   "score": 0.707,
+   "punct_after": ""
+  },
+  {
+   "i": 119,
+   "w": "petit",
+   "start": 34.83,
+   "end": 35.04,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 120,
+   "w": "à",
+   "start": 35.07,
+   "end": 35.19,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 121,
+   "w": "petit",
+   "start": 35.2,
+   "end": 35.48,
+   "score": 0.987,
+   "punct_after": "."
+  },
+  {
+   "i": 122,
+   "w": "La",
+   "start": 35.63,
+   "end": 35.78,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 123,
+   "w": "cause",
+   "start": 35.8,
+   "end": 36.08,
+   "score": 0.978,
+   "punct_after": ""
+  },
+  {
+   "i": 124,
+   "w": "reste",
+   "start": 36.08,
+   "end": 36.38,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 125,
+   "w": "là",
+   "start": 36.38,
+   "end": 36.52,
+   "score": 0.999,
+   "punct_after": ","
+  },
+  {
+   "i": 126,
+   "w": "et",
+   "start": 36.69,
+   "end": 36.84,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 127,
+   "w": "à",
+   "start": 36.84,
+   "end": 36.92,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 128,
+   "w": "l'arrêt",
+   "start": 36.92,
+   "end": 37.26,
+   "score": 0.405,
+   "punct_after": ","
+  },
+  {
+   "i": 129,
+   "w": "les",
+   "start": 37.49,
+   "end": 37.66,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 130,
+   "w": "cheveux",
+   "start": 37.66,
+   "end": 37.92,
+   "score": 0.971,
+   "punct_after": ""
+  },
+  {
+   "i": 131,
+   "w": "gagnés",
+   "start": 37.94,
+   "end": 38.32,
+   "score": 0.946,
+   "punct_after": ""
+  },
+  {
+   "i": 132,
+   "w": "retombent",
+   "start": 38.52,
+   "end": 39.03,
+   "score": 0.822,
+   "punct_after": "."
+  },
+  {
+   "i": 133,
+   "w": "Mais",
+   "start": 39.19,
+   "end": 39.36,
+   "score": 0.981,
+   "punct_after": ""
+  },
+  {
+   "i": 134,
+   "w": "très",
+   "start": 39.38,
+   "end": 39.62,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 135,
+   "w": "souvent",
+   "start": 39.62,
+   "end": 40.01,
+   "score": 0.929,
+   "punct_after": ","
+  },
+  {
+   "i": 136,
+   "w": "c'est",
+   "start": 40.14,
+   "end": 40.23,
+   "score": 0.94,
+   "punct_after": ""
+  },
+  {
+   "i": 137,
+   "w": "un",
+   "start": 40.27,
+   "end": 40.44,
+   "score": 0.954,
+   "punct_after": ""
+  },
+  {
+   "i": 138,
+   "w": "effluvium",
+   "start": 40.44,
+   "end": 41.02,
+   "score": 0.915,
+   "punct_after": ""
+  },
+  {
+   "i": 139,
+   "w": "télogène",
+   "start": 41.17,
+   "end": 41.75,
+   "score": 0.983,
+   "punct_after": "."
+  },
+  {
+   "i": 140,
+   "w": "À",
+   "start": 41.87,
+   "end": 42.0,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 141,
+   "w": "cause",
+   "start": 42.0,
+   "end": 42.22,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 142,
+   "w": "du",
+   "start": 42.24,
+   "end": 42.38,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 143,
+   "w": "stress",
+   "start": 42.38,
+   "end": 42.71,
+   "score": 0.968,
+   "punct_after": ","
+  },
+  {
+   "i": 144,
+   "w": "d'un",
+   "start": 42.94,
+   "end": 43.2,
+   "score": 0.894,
+   "punct_after": ""
+  },
+  {
+   "i": 145,
+   "w": "régime",
+   "start": 43.2,
+   "end": 43.65,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 146,
+   "w": "ou",
+   "start": 43.71,
+   "end": 43.84,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 147,
+   "w": "d'une",
+   "start": 43.84,
+   "end": 44.04,
+   "score": 0.853,
+   "punct_after": ""
+  },
+  {
+   "i": 148,
+   "w": "carence",
+   "start": 44.08,
+   "end": 44.54,
+   "score": 0.881,
+   "punct_after": ","
+  },
+  {
+   "i": 149,
+   "w": "ton",
+   "start": 44.86,
+   "end": 45.02,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 150,
+   "w": "corps",
+   "start": 45.02,
+   "end": 45.24,
+   "score": 0.883,
+   "punct_after": ""
+  },
+  {
+   "i": 151,
+   "w": "fait",
+   "start": 45.26,
+   "end": 45.39,
+   "score": 0.986,
+   "punct_after": ""
+  },
+  {
+   "i": 152,
+   "w": "passer",
+   "start": 45.43,
+   "end": 45.82,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 153,
+   "w": "d'un",
+   "start": 45.88,
+   "end": 46.07,
+   "score": 0.879,
+   "punct_after": ""
+  },
+  {
+   "i": 154,
+   "w": "coup",
+   "start": 46.1,
+   "end": 46.36,
+   "score": 0.938,
+   "punct_after": ""
+  },
+  {
+   "i": 155,
+   "w": "des",
+   "start": 46.42,
+   "end": 46.66,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 156,
+   "w": "milliers",
+   "start": 46.66,
+   "end": 47.02,
+   "score": 0.667,
+   "punct_after": ""
+  },
+  {
+   "i": 157,
+   "w": "de",
+   "start": 47.04,
+   "end": 47.12,
+   "score": 0.963,
+   "punct_after": ""
+  },
+  {
+   "i": 158,
+   "w": "cheveux",
+   "start": 47.12,
+   "end": 47.53,
+   "score": 0.927,
+   "punct_after": ""
+  },
+  {
+   "i": 159,
+   "w": "en",
+   "start": 47.58,
+   "end": 47.69,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 160,
+   "w": "phase",
+   "start": 47.79,
+   "end": 48.0,
+   "score": 0.892,
+   "punct_after": ""
+  },
+  {
+   "i": 161,
+   "w": "télogène",
+   "start": 48.15,
+   "end": 48.72,
+   "score": 0.981,
+   "punct_after": ","
+  },
+  {
+   "i": 162,
+   "w": "la",
+   "start": 48.85,
+   "end": 49.0,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 163,
+   "w": "phase",
+   "start": 49.07,
+   "end": 49.28,
+   "score": 0.876,
+   "punct_after": ""
+  },
+  {
+   "i": 164,
+   "w": "de",
+   "start": 49.28,
+   "end": 49.4,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 165,
+   "w": "repos",
+   "start": 49.44,
+   "end": 49.72,
+   "score": 0.543,
+   "punct_after": "."
+  },
+  {
+   "i": 166,
+   "w": "Ils",
+   "start": 49.85,
+   "end": 50.02,
+   "score": 0.345,
+   "punct_after": ""
+  },
+  {
+   "i": 167,
+   "w": "tombent",
+   "start": 50.09,
+   "end": 50.48,
+   "score": 0.492,
+   "punct_after": ","
+  },
+  {
+   "i": 168,
+   "w": "mais",
+   "start": 50.62,
+   "end": 50.8,
+   "score": 0.954,
+   "punct_after": ""
+  },
+  {
+   "i": 169,
+   "w": "le",
+   "start": 50.82,
+   "end": 50.94,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 170,
+   "w": "follicule",
+   "start": 50.94,
+   "end": 51.54,
+   "score": 0.581,
+   "punct_after": ","
+  },
+  {
+   "i": 171,
+   "w": "la",
+   "start": 51.6,
+   "end": 51.8,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 172,
+   "w": "petite",
+   "start": 51.86,
+   "end": 52.1,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 173,
+   "w": "poche",
+   "start": 52.22,
+   "end": 52.49,
+   "score": 0.943,
+   "punct_after": ""
+  },
+  {
+   "i": 174,
+   "w": "sous",
+   "start": 52.54,
+   "end": 52.63,
+   "score": 0.839,
+   "punct_after": ""
+  },
+  {
+   "i": 175,
+   "w": "ta",
+   "start": 52.69,
+   "end": 52.82,
+   "score": 0.989,
+   "punct_after": ""
+  },
+  {
+   "i": 176,
+   "w": "peau",
+   "start": 52.82,
+   "end": 53.04,
+   "score": 0.535,
+   "punct_after": ""
+  },
+  {
+   "i": 177,
+   "w": "d'où",
+   "start": 53.04,
+   "end": 53.19,
+   "score": 0.837,
+   "punct_after": ""
+  },
+  {
+   "i": 178,
+   "w": "pousse",
+   "start": 53.27,
+   "end": 53.38,
+   "score": 0.952,
+   "punct_after": ""
+  },
+  {
+   "i": 179,
+   "w": "chaque",
+   "start": 53.5,
+   "end": 53.84,
+   "score": 0.972,
+   "punct_after": ""
+  },
+  {
+   "i": 180,
+   "w": "cheveu",
+   "start": 53.84,
+   "end": 54.18,
+   "score": 0.986,
+   "punct_after": ","
+  },
+  {
+   "i": 181,
+   "w": "reste",
+   "start": 54.34,
+   "end": 54.57,
+   "score": 0.979,
+   "punct_after": ""
+  },
+  {
+   "i": 182,
+   "w": "intact",
+   "start": 54.65,
+   "end": 54.93,
+   "score": 0.895,
+   "punct_after": "."
+  },
+  {
+   "i": 183,
+   "w": "Une",
+   "start": 55.29,
+   "end": 55.44,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 184,
+   "w": "fois",
+   "start": 55.46,
+   "end": 55.62,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 185,
+   "w": "la",
+   "start": 55.64,
+   "end": 55.78,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 186,
+   "w": "cause",
+   "start": 55.78,
+   "end": 56.04,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 187,
+   "w": "réglée",
+   "start": 56.04,
+   "end": 56.43,
+   "score": 0.815,
+   "punct_after": ","
+  },
+  {
+   "i": 188,
+   "w": "il",
+   "start": 56.51,
+   "end": 56.7,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 189,
+   "w": "relance",
+   "start": 56.7,
+   "end": 57.05,
+   "score": 0.994,
+   "punct_after": ""
+  },
+  {
+   "i": 190,
+   "w": "la",
+   "start": 57.1,
+   "end": 57.26,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 191,
+   "w": "pousse",
+   "start": 57.34,
+   "end": 57.56,
+   "score": 0.668,
+   "punct_after": ""
+  },
+  {
+   "i": 192,
+   "w": "d'un",
+   "start": 57.56,
+   "end": 57.72,
+   "score": 0.952,
+   "punct_after": ""
+  },
+  {
+   "i": 193,
+   "w": "nouveau",
+   "start": 57.72,
+   "end": 58.0,
+   "score": 0.994,
+   "punct_after": ""
+  },
+  {
+   "i": 194,
+   "w": "cheveu",
+   "start": 58.0,
+   "end": 58.29,
+   "score": 0.941,
+   "punct_after": "."
+  },
+  {
+   "i": 195,
+   "w": "Le",
+   "start": 58.46,
+   "end": 58.6,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 196,
+   "w": "minoxidil",
+   "start": 58.6,
+   "end": 59.24,
+   "score": 0.984,
+   "punct_after": ""
+  },
+  {
+   "i": 197,
+   "w": "n'a",
+   "start": 59.24,
+   "end": 59.42,
+   "score": 0.82,
+   "punct_after": ""
+  },
+  {
+   "i": 198,
+   "w": "fait",
+   "start": 59.49,
+   "end": 59.59,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 199,
+   "w": "qu'accélérer",
+   "start": 59.71,
+   "end": 60.39,
+   "score": 0.955,
+   "punct_after": ""
+  },
+  {
+   "i": 200,
+   "w": "ce",
+   "start": 60.47,
+   "end": 60.56,
+   "score": 0.937,
+   "punct_after": ""
+  },
+  {
+   "i": 201,
+   "w": "redémarrage",
+   "start": 60.56,
+   "end": 61.19,
+   "score": 0.917,
+   "punct_after": "."
+  },
+  {
+   "i": 202,
+   "w": "Tu",
+   "start": 61.39,
+   "end": 61.5,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 203,
+   "w": "peux",
+   "start": 61.51,
+   "end": 61.64,
+   "score": 0.829,
+   "punct_after": ""
+  },
+  {
+   "i": 204,
+   "w": "donc",
+   "start": 61.66,
+   "end": 61.86,
+   "score": 0.992,
+   "punct_after": ""
+  },
+  {
+   "i": 205,
+   "w": "arrêter",
+   "start": 61.92,
+   "end": 62.38,
+   "score": 0.977,
+   "punct_after": ""
+  },
+  {
+   "i": 206,
+   "w": "le",
+   "start": 62.38,
+   "end": 62.48,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 207,
+   "w": "minoxidil",
+   "start": 62.48,
+   "end": 63.14,
+   "score": 0.977,
+   "punct_after": ""
+  },
+  {
+   "i": 208,
+   "w": "et",
+   "start": 63.17,
+   "end": 63.34,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 209,
+   "w": "garder",
+   "start": 63.34,
+   "end": 63.64,
+   "score": 0.955,
+   "punct_after": ""
+  },
+  {
+   "i": 210,
+   "w": "tes",
+   "start": 63.68,
+   "end": 63.82,
+   "score": 0.973,
+   "punct_after": ""
+  },
+  {
+   "i": 211,
+   "w": "cheveux",
+   "start": 63.82,
+   "end": 64.04,
+   "score": 0.908,
+   "punct_after": "."
+  },
+  {
+   "i": 212,
+   "w": "Et",
+   "start": 64.19,
+   "end": 64.31,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 213,
+   "w": "le",
+   "start": 64.32,
+   "end": 64.43,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 214,
+   "w": "plus",
+   "start": 64.46,
+   "end": 64.73,
+   "score": 0.966,
+   "punct_after": ""
+  },
+  {
+   "i": 215,
+   "w": "surprenant",
+   "start": 64.74,
+   "end": 65.27,
+   "score": 0.992,
+   "punct_after": ","
+  },
+  {
+   "i": 216,
+   "w": "c'est",
+   "start": 65.61,
+   "end": 65.7,
+   "score": 0.99,
+   "punct_after": ""
+  },
+  {
+   "i": 217,
+   "w": "que",
+   "start": 65.72,
+   "end": 65.83,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 218,
+   "w": "des",
+   "start": 65.84,
+   "end": 65.98,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 219,
+   "w": "solutions",
+   "start": 66.01,
+   "end": 66.51,
+   "score": 0.948,
+   "punct_after": ""
+  },
+  {
+   "i": 220,
+   "w": "naturelles",
+   "start": 66.53,
+   "end": 67.21,
+   "score": 0.955,
+   "punct_after": ""
+  },
+  {
+   "i": 221,
+   "w": "ont",
+   "start": 67.24,
+   "end": 67.35,
+   "score": 0.936,
+   "punct_after": ""
+  },
+  {
+   "i": 222,
+   "w": "été",
+   "start": 67.39,
+   "end": 67.62,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 223,
+   "w": "testées",
+   "start": 67.68,
+   "end": 68.02,
+   "score": 0.781,
+   "punct_after": ""
+  },
+  {
+   "i": 224,
+   "w": "face",
+   "start": 68.06,
+   "end": 68.22,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 225,
+   "w": "au",
+   "start": 68.24,
+   "end": 68.31,
+   "score": 0.849,
+   "punct_after": ""
+  },
+  {
+   "i": 226,
+   "w": "minoxidil",
+   "start": 68.32,
+   "end": 68.99,
+   "score": 0.973,
+   "punct_after": ":"
+  },
+  {
+   "i": 227,
+   "w": "l'huile",
+   "start": 69.19,
+   "end": 69.51,
+   "score": 0.612,
+   "punct_after": ""
+  },
+  {
+   "i": 228,
+   "w": "de",
+   "start": 69.52,
+   "end": 69.63,
+   "score": 0.992,
+   "punct_after": ""
+  },
+  {
+   "i": 229,
+   "w": "romarin",
+   "start": 69.64,
+   "end": 70.15,
+   "score": 0.977,
+   "punct_after": ""
+  },
+  {
+   "i": 230,
+   "w": "et",
+   "start": 70.28,
+   "end": 70.43,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 231,
+   "w": "l'huile",
+   "start": 70.44,
+   "end": 70.69,
+   "score": 0.713,
+   "punct_after": ""
+  },
+  {
+   "i": 232,
+   "w": "de",
+   "start": 70.7,
+   "end": 70.81,
+   "score": 0.992,
+   "punct_after": ""
+  },
+  {
+   "i": 233,
+   "w": "pépins",
+   "start": 70.88,
+   "end": 71.16,
+   "score": 0.139,
+   "punct_after": ""
+  },
+  {
+   "i": 234,
+   "w": "de",
+   "start": 71.18,
+   "end": 71.21,
+   "score": 0.071,
+   "punct_after": ""
+  },
+  {
+   "i": 235,
+   "w": "courge",
+   "start": 71.26,
+   "end": 71.59,
+   "score": 0.974,
+   "punct_after": "."
+  },
+  {
+   "i": 236,
+   "w": "Et",
+   "start": 71.79,
+   "end": 71.93,
+   "score": 0.978,
+   "punct_after": ""
+  },
+  {
+   "i": 237,
+   "w": "en",
+   "start": 71.94,
+   "end": 72.03,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 238,
+   "w": "bonus",
+   "start": 72.04,
+   "end": 72.42,
+   "score": 0.983,
+   "punct_after": ","
+  },
+  {
+   "i": 239,
+   "w": "le",
+   "start": 72.63,
+   "end": 72.81,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 240,
+   "w": "massage",
+   "start": 72.82,
+   "end": 73.31,
+   "score": 0.949,
+   "punct_after": ""
+  },
+  {
+   "i": 241,
+   "w": "du",
+   "start": 73.32,
+   "end": 73.41,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 242,
+   "w": "cuir",
+   "start": 73.46,
+   "end": 73.6,
+   "score": 0.61,
+   "punct_after": ""
+  },
+  {
+   "i": 243,
+   "w": "chevelu",
+   "start": 73.62,
+   "end": 74.01,
+   "score": 0.984,
+   "punct_after": "."
+  },
+  {
+   "i": 244,
+   "w": "Commente",
+   "start": 74.16,
+   "end": 74.61,
+   "score": 0.948,
+   "punct_after": ""
+  },
+  {
+   "i": 245,
+   "w": "Guide",
+   "start": 74.62,
+   "end": 74.97,
+   "score": 0.884,
+   "punct_after": ""
+  },
+  {
+   "i": 246,
+   "w": "et",
+   "start": 75.05,
+   "end": 75.17,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 247,
+   "w": "je",
+   "start": 75.18,
+   "end": 75.29,
+   "score": 0.918,
+   "punct_after": ""
+  },
+  {
+   "i": 248,
+   "w": "t'envoie",
+   "start": 75.34,
+   "end": 75.71,
+   "score": 0.852,
+   "punct_after": ""
+  },
+  {
+   "i": 249,
+   "w": "gratuitement",
+   "start": 75.72,
+   "end": 76.45,
+   "score": 0.952,
+   "punct_after": ""
+  },
+  {
+   "i": 250,
+   "w": "mon",
+   "start": 76.46,
+   "end": 76.65,
+   "score": 0.974,
+   "punct_after": ""
+  },
+  {
+   "i": 251,
+   "w": "guide",
+   "start": 76.66,
+   "end": 76.99,
+   "score": 0.58,
+   "punct_after": ""
+  },
+  {
+   "i": 252,
+   "w": "pour",
+   "start": 77.14,
+   "end": 77.27,
+   "score": 0.968,
+   "punct_after": ""
+  },
+  {
+   "i": 253,
+   "w": "appliquer",
+   "start": 77.28,
+   "end": 77.65,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 254,
+   "w": "ces",
+   "start": 77.71,
+   "end": 77.79,
+   "score": 0.972,
+   "punct_after": ""
+  },
+  {
+   "i": 255,
+   "w": "solutions",
+   "start": 77.85,
+   "end": 78.32,
+   "score": 0.928,
+   "punct_after": ""
+  },
+  {
+   "i": 256,
+   "w": "facilement",
+   "start": 78.56,
+   "end": 79.07,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 257,
+   "w": "chez",
+   "start": 79.08,
+   "end": 79.2,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 258,
+   "w": "toi",
+   "start": 79.28,
+   "end": 79.37,
+   "score": 0.998,
+   "punct_after": "."
+  }
+ ]
+}

@@ -1,0 +1,273 @@
+{
+ "profile": "EDU",
+ "beats": [
+  {
+   "id": "01",
+   "start": 0.0,
+   "end": 2.1,
+   "word_from": 0,
+   "word_to": 5,
+   "text": "Si j'arrête le minoxidil, je perdrai",
+   "cut_reason": "duree_max",
+   "energy": 3,
+   "suggested_split": [
+    1.44
+   ]
+  },
+  {
+   "id": "02",
+   "start": 2.1,
+   "end": 5.16,
+   "word_from": 6,
+   "word_to": 17,
+   "text": "jusqu'à cinquante pour cent de mes cheveux dans les douze prochains mois.",
+   "cut_reason": "pause+ponctuation",
+   "energy": 2,
+   "suggested_split": null
+  },
+  {
+   "id": "03",
+   "start": 5.16,
+   "end": 8.56,
+   "word_from": 18,
+   "word_to": 30,
+   "text": "Si tu es sous minoxidil, cette phrase, tu te l'es sûrement déjà dite.",
+   "cut_reason": "pause+ponctuation",
+   "energy": 4,
+   "suggested_split": null
+  },
+  {
+   "id": "04",
+   "start": 8.56,
+   "end": 10.81,
+   "word_from": 31,
+   "word_to": 37,
+   "text": "Et si mes cheveux étaient devenus dépendants?",
+   "cut_reason": "ponctuation",
+   "energy": 4,
+   "suggested_split": null
+  },
+  {
+   "id": "05",
+   "start": 10.81,
+   "end": 14.16,
+   "word_from": 38,
+   "word_to": 47,
+   "text": "Et si, en arrêtant, je perdais ceux qui ont repoussé...",
+   "cut_reason": "pause+ponctuation",
+   "energy": 2,
+   "suggested_split": null
+  },
+  {
+   "id": "06",
+   "start": 14.16,
+   "end": 16.81,
+   "word_from": 48,
+   "word_to": 56,
+   "text": "mais aussi ceux qui étaient restés? Alors tu continues.",
+   "cut_reason": "pause+ponctuation",
+   "energy": 2,
+   "suggested_split": null
+  },
+  {
+   "id": "07",
+   "start": 16.81,
+   "end": 19.77,
+   "word_from": 57,
+   "word_to": 70,
+   "text": "Pas parce que tu en as besoin, mais parce que tu as peur d'arrêter.",
+   "cut_reason": "pause+ponctuation",
+   "energy": 3,
+   "suggested_split": null
+  },
+  {
+   "id": "08",
+   "start": 19.77,
+   "end": 23.54,
+   "word_from": 71,
+   "word_to": 82,
+   "text": "La réponse est non. Le minoxidil ne rend pas tes cheveux dépendants.",
+   "cut_reason": "pause+ponctuation",
+   "energy": 3,
+   "suggested_split": null
+  },
+  {
+   "id": "09",
+   "start": 23.54,
+   "end": 25.91,
+   "word_from": 83,
+   "word_to": 91,
+   "text": "Il ne soigne pas la cause de ta chute,",
+   "cut_reason": "pause+ponctuation",
+   "energy": 2,
+   "suggested_split": null
+  },
+  {
+   "id": "10",
+   "start": 25.91,
+   "end": 29.98,
+   "word_from": 92,
+   "word_to": 106,
+   "text": "il prolonge la phase de pousse de tes cheveux. Alors tout dépend de la cause.",
+   "cut_reason": "pause+ponctuation",
+   "energy": 3,
+   "suggested_split": null
+  },
+  {
+   "id": "11",
+   "start": 29.98,
+   "end": 33.2,
+   "word_from": 107,
+   "word_to": 115,
+   "text": "Si ta chute est chronique, comme une alopécie androgénétique,",
+   "cut_reason": "pause+ponctuation",
+   "energy": 1,
+   "suggested_split": null
+  },
+  {
+   "id": "12",
+   "start": 33.2,
+   "end": 37.41,
+   "word_from": 116,
+   "word_to": 128,
+   "text": "tes follicules rétrécissent petit à petit. La cause reste là, et à l'arrêt,",
+   "cut_reason": "pause+ponctuation",
+   "energy": 3,
+   "suggested_split": null
+  },
+  {
+   "id": "13",
+   "start": 37.41,
+   "end": 41.79,
+   "word_from": 129,
+   "word_to": 139,
+   "text": "les cheveux gagnés retombent. Mais très souvent, c'est un effluvium télogène.",
+   "cut_reason": "ponctuation",
+   "energy": 3,
+   "suggested_split": null
+  },
+  {
+   "id": "14",
+   "start": 41.79,
+   "end": 44.78,
+   "word_from": 140,
+   "word_to": 148,
+   "text": "À cause du stress, d'un régime ou d'une carence,",
+   "cut_reason": "pause+ponctuation",
+   "energy": 3,
+   "suggested_split": null
+  },
+  {
+   "id": "15",
+   "start": 44.78,
+   "end": 48.77,
+   "word_from": 149,
+   "word_to": 161,
+   "text": "ton corps fait passer d'un coup des milliers de cheveux en phase télogène,",
+   "cut_reason": "ponctuation",
+   "energy": 4,
+   "suggested_split": null
+  },
+  {
+   "id": "16",
+   "start": 48.77,
+   "end": 51.54,
+   "word_from": 162,
+   "word_to": 170,
+   "text": "la phase de repos. Ils tombent, mais le follicule,",
+   "cut_reason": "ponctuation",
+   "energy": 4,
+   "suggested_split": null
+  },
+  {
+   "id": "17",
+   "start": 51.54,
+   "end": 55.21,
+   "word_from": 171,
+   "word_to": 182,
+   "text": "la petite poche sous ta peau d'où pousse chaque cheveu, reste intact.",
+   "cut_reason": "pause+ponctuation",
+   "energy": 2,
+   "suggested_split": null
+  },
+  {
+   "id": "18",
+   "start": 55.21,
+   "end": 58.38,
+   "word_from": 183,
+   "word_to": 194,
+   "text": "Une fois la cause réglée, il relance la pousse d'un nouveau cheveu.",
+   "cut_reason": "ponctuation",
+   "energy": 4,
+   "suggested_split": null
+  },
+  {
+   "id": "19",
+   "start": 58.38,
+   "end": 61.31,
+   "word_from": 195,
+   "word_to": 201,
+   "text": "Le minoxidil n'a fait qu'accélérer ce redémarrage.",
+   "cut_reason": "pause+ponctuation",
+   "energy": 2,
+   "suggested_split": null
+  },
+  {
+   "id": "20",
+   "start": 61.31,
+   "end": 65.53,
+   "word_from": 202,
+   "word_to": 215,
+   "text": "Tu peux donc arrêter le minoxidil et garder tes cheveux. Et le plus surprenant,",
+   "cut_reason": "pause+ponctuation",
+   "energy": 4,
+   "suggested_split": null
+  },
+  {
+   "id": "21",
+   "start": 65.53,
+   "end": 69.11,
+   "word_from": 216,
+   "word_to": 226,
+   "text": "c'est que des solutions naturelles ont été testées face au minoxidil:",
+   "cut_reason": "pause+ponctuation",
+   "energy": 3,
+   "suggested_split": null
+  },
+  {
+   "id": "22",
+   "start": 69.11,
+   "end": 71.71,
+   "word_from": 227,
+   "word_to": 235,
+   "text": "l'huile de romarin et l'huile de pépins de courge.",
+   "cut_reason": "pause+ponctuation",
+   "energy": 4,
+   "suggested_split": null
+  },
+  {
+   "id": "23",
+   "start": 71.71,
+   "end": 74.08,
+   "word_from": 236,
+   "word_to": 243,
+   "text": "Et en bonus, le massage du cuir chevelu.",
+   "cut_reason": "ponctuation",
+   "energy": 4,
+   "suggested_split": null
+  },
+  {
+   "id": "24",
+   "start": 74.08,
+   "end": 79.569,
+   "word_from": 244,
+   "word_to": 258,
+   "text": "Commente Guide et je t'envoie gratuitement mon guide pour appliquer ces solutions facilement chez toi.",
+   "cut_reason": "ponctuation",
+   "energy": 2,
+   "suggested_split": [
+    78.48
+   ]
+  }
+ ]
+}
