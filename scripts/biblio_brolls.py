@@ -129,7 +129,7 @@ def ecrire_md(lib):
          "| ID | Origine | Style | Durée | Ce qu'on voit | Utilisé pour | Fichier |", "|---|---|---|---|---|---|---|"]
     for b in lib["brolls"]:
         us = "<br>".join(f"{u['run'].split('/')[-1][:10]} {u['plan']} : « {u['phrase'][:70]} »" for u in b["usages"])
-        L.append(f"| {b['id']} | {b['origine']} | {b.get('style') or ''} | {b.get('duree_s') or ''} s | {b['description']} | {us} | `{b['fichier']}` |")
+        L.append(f"| {b['id']} | {b['origine']} | {b.get('style') or ''} | {str(b['duree_s']) + ' s' if b.get('duree_s') else 'image'} | {b['description']} | {us} | `{b['fichier']}` |")
     open(MD, "w").write("\n".join(L) + "\n")
 
 
