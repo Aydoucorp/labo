@@ -93,6 +93,7 @@ Ne vont pas dans Drive (ils sont sur GitHub) : code et scripts, références tec
 | creas/full-b-roll-artiste | `1Jjvqlp6Wz4io83GjIogc5vkguzqa4GWR` |
 | runs/2026-09-30_claire-remedes-naturels_papercut | `1BYa4jh4-BnoQ5QiaDuDNR3Wk4J55aDm5` |
 | runs/2026-10-01_claire-minoxidil-arret_full-broll | `1U2Gcs3ki17bgGs9h4bUAS9HpKhXKCmJI` |
+| runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes | `1NSXnTa6orE1cKmaiKNLzlbkMXwdS-LUI` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
