@@ -69,6 +69,17 @@ Toujours fourni, même pour un plan STOCK ou UGC : c'est le repli quand rien n'e
 - `image` : description photographique complète en français (ou anglais si le modèle le préfère), sujet, action figée à l'instant le plus lisible, cadrage, lumière, décor, matière, « format vertical 9:16 », style réaliste (ou « rendu 3D scientifique, fond sombre, éclairage de studio » pour 3DSCI). Pas de texte dans l'image, pas de marque visible sauf si le produit de l'utilisateur est fourni en référence.
 - `motion` : le mouvement attendu en une phrase, durée (2 à 4 s), mouvement de caméra (léger push, orbit lent, statique), ce qui doit bouger et ce qui doit rester stable, « pas de morphing, pas de changement de sujet ».
 
+### Rendu humain des plans réels (UGC, STOCK, IAGEN réaliste)
+
+Un prompt qui dit seulement « photo réaliste » produit une image d'IA : peau lisse, lumière de studio, cadre parfait. Pour qu'un plan généré passe pour une vidéo filmée au téléphone, écris le prompt en anglais en quatre blocs :
+
+1. **Appareil et contexte** : « candid vertical smartphone photo (9:16), taken handheld on an iPhone main camera by a real person at home », lumière disponible seulement, cadrage un peu imparfait, léger bruit de capteur, couleurs fidèles et sourdes, profondeur de champ de téléphone.
+2. **Scène concrète et vécue** : une personne précise et constante sur tous les plans (âge, cheveux, peau non retouchée avec pores et ridules, ongles courts non vernis), un décor réel et un peu désordonné (traces d'eau, joints, serviette pliée, objets du quotidien), le geste à l'instant le plus lisible, le visage hors champ ou de dos.
+3. **Interdits** : « not an advertisement, not a stock photo, not CGI ; no studio lighting, no glossy or waxy skin, no airbrushing, no perfect symmetry, no cinematic color grading, no heavy bokeh, no extra fingers, no readable text, no logo ».
+4. **Vidéo** : « handheld smartphone video, real-time speed, slight natural hand shake, tiny focus adjustments, natural motion blur », l'action en une phrase avec sa durée, puis « keep exactly the same person, hands, objects and setting ; no slow motion, no gimbal or drone move, no morphing, no text, no lighting change ».
+
+Évite les mots qui « font pub » : cinematic, 8K, ultra detailed, perfect, flawless, studio, glow. Pour la continuité, garde les mêmes descriptions de personne et de décor dans un module commun (exemple : `runs/2026-10-01_claire-minoxidil-arret_full-broll/work/prompts_realistes.py`).
+
 Pour 3DSCI, écris le prompt comme un brief à un animateur scientifique : échelle (« vue microscopique »), éléments nommés (« fibres de cellulose », « particules de graisse »), action (« les particules sont capturées puis emportées »), palette cohérente avec le lookbook, fond uni pour faciliter le recadrage.
 
 ## 8. Cartes de plans

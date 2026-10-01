@@ -1,7 +1,9 @@
 # Écrit brief.json (mode BRIEF du skill full b-roll artiste) pour la vidéo « arrêter le minoxidil ».
 # Les temps viennent de work/words.json (alignement MMS) ; chaque plan est décrit en une ligne de la table PLANS.
 # Usage (depuis le dossier du run) : python3 work/ecrire_brief.py
-import json
+import json, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from prompts_realistes import SCENES, prompt as prompt_realiste
 
 W = json.load(open("work/words.json"))
 DUREE = W["duration_s"]
@@ -244,7 +246,8 @@ for (sid, st, en, ty, va, ca, slug, desc, qen, qfr, must, ov, img, mot, fb) in P
           "description": desc,
           "query_en": f"{qen}, {SUF3D if is3d else SUF}" if qen else None,
           "query_fr": qfr,
-          "ai_prompt": {"image": f"{img}, {SUF3D_FR if is3d else SUF_FR}, aucun texte dans l'image", "motion": mot},
+          "ai_prompt": prompt_realiste(sid) if sid in SCENES else
+                       {"image": f"{img}, {SUF3D_FR if is3d else SUF_FR}, aucun texte dans l'image", "motion": mot},
           "min_rush_s": round(d + 1.0, 1), "orientation": "vertical", "filename": "",
           "overlay_text": ov, "sfx": None, "must_show": must,
           "fallback": {"type": fb[0], "query_en": fb[1]}}
