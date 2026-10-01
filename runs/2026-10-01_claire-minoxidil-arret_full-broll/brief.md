@@ -56,4 +56,12 @@ Choix de l'utilisateur (2026-10-01) : seuls les 8 plans IA sont générés (07, 
 
 ### Animations (étape 2)
 
-En attente de la validation des images.
+- Images validées par l'utilisateur (« go »), aucun texte voulu dans les clips (texte uniquement au montage : sous-titres, mentions des plans 08 et 14b).
+- Modèle : MiniMax H3 image vers vidéo (`minimax-h3/image-to-video`), 768P, 4 s demandées (4,46 s reçues, 768x1344). Script : `python3 scripts/kie_minimax.py --prompt-file prompts/ani/<plan>.txt --image sorties/plans/<plan>-img-v1.png --out sorties/clips/<plan>-clip-h3-v1.mp4 --duration 4 --resolution 768P`
+- Prompts : `prompts/ani/<plan>.txt` (mouvement du plan + « aucun texte, pas de morphing, pas de changement de sujet »).
+- Sorties : `sorties/clips/<plan>-clip-h3-v1.mp4`, planche `sorties/clips/planche-clips-v1.jpg`. Contrôle visuel : 8/8 sans texte ni déformation.
+- Coût : 8 x 32 cr = 256 cr. Total IA du run : 320 cr.
+
+### Étape suivante
+
+Validation des clips par l'utilisateur, puis dépôt des 20 plans réels dans `rushes/` et mode MONTAGE.
