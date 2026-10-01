@@ -45,4 +45,15 @@ Types : UGC 17, 3DSCI 7, MOTION 3, STOCK 3, PRODUIT 1. Part UGC + PRODUIT : 55 %
 
 ## Générations IA
 
-Aucune lancée. Résolution et modèle à choisir par l'utilisateur avant toute génération (règle du studio).
+Choix de l'utilisateur (2026-10-01) : seuls les 8 plans IA sont générés (07, 08, 10, 14a, 14b, 15b, 17, 21b), le guide 21b en 3D, option A (Nano Banana 2 1K puis MiniMax H3 768P). Les 20 plans réels sont cherchés par l'utilisateur.
+
+### Images (étape 1)
+
+- Modèle : Nano Banana 2 (`nano-banana-2`), 1K, ratio 9:16, sans référence. Script : `python3 scripts/kie_image.py --prompt-file prompts/img/<plan>.txt --out sorties/plans/<plan>-img-v1.png --ratio 9:16 --resolution 1K`
+- Prompts : `prompts/img/<plan>.txt` (description du plan + bloc de style commun : rendu 3D scientifique, palette terracotta, crème, rose chair et prune, fond prune sombre ; fond crème pour 21b ; aucun texte dans l'image).
+- Sorties : `sorties/plans/<plan>-img-v1.png` (768x1376), planche `sorties/plans/planche-3d-v1.jpg`.
+- Coût : 8 x 8 cr = 64 cr. Tâches KIE dans `logs/<plan>-img-v1.log`.
+
+### Animations (étape 2)
+
+En attente de la validation des images.
