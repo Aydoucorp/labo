@@ -1,0 +1,1032 @@
+{
+  "schema": "broll-director/timeline/1",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration_frames": 2387,
+  "profile": "EDU",
+  "audio": {
+    "vo": "voix.mp3",
+    "music": null,
+    "music_db": -24.0,
+    "ambience_db": -25.0
+  },
+  "clips": [
+    {
+      "shot_id": "01a",
+      "src": "work/clips/01a.mp4",
+      "from_frame": 0,
+      "duration_frames": 28,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": {
+        "from": 1.0,
+        "to": 1.05,
+        "origin": [
+          0.5,
+          0.42
+        ]
+      },
+      "punch": {
+        "at_frame": 12,
+        "scale": 1.08,
+        "frames": 6
+      },
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "HOOK",
+      "type": "UGC",
+      "camera": "static",
+      "value": "detail",
+      "source_rush": "rushes/01a_HOOK_UGC_main-tient-pipette-minoxidil.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "01b",
+      "src": "work/clips/01b.mp4",
+      "from_frame": 28,
+      "duration_frames": 44,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": false,
+      "ambience_db": -25.0,
+      "section": "HOOK",
+      "type": "UGC",
+      "camera": "push",
+      "value": "macro",
+      "source_rush": "rushes/01b_HOOK_UGC_brosse-cheveux-pleine-cheveux.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "01c",
+      "src": "work/clips/01c.mp4",
+      "from_frame": 72,
+      "duration_frames": 46,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": false,
+      "ambience_db": -25.0,
+      "section": "HOOK",
+      "type": "UGC",
+      "camera": "pull",
+      "value": "moyen",
+      "source_rush": "rushes/01c_HOOK_UGC_main-fouille-grosse-touffe.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "01d",
+      "src": "work/clips/01d.mp4",
+      "from_frame": 118,
+      "duration_frames": 32,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": {
+        "from": 1.05,
+        "to": 1.0,
+        "origin": [
+          0.5,
+          0.42
+        ]
+      },
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "HOOK",
+      "type": "UGC",
+      "camera": "static",
+      "value": "topdown",
+      "source_rush": "rushes/01d_HOOK_UGC_dessus-calendrier-mural-douze.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "02",
+      "src": "work/clips/02.mp4",
+      "from_frame": 150,
+      "duration_frames": 103,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "flash",
+        "frames": 3,
+        "dir": null
+      },
+      "ambience": false,
+      "ambience_db": -25.0,
+      "section": "PROB",
+      "type": "UGC",
+      "camera": "handheld",
+      "value": "moyen",
+      "source_rush": "rushes/02_PROB_UGC_femme-dos-devant-miroir.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "03",
+      "src": "work/clips/03.mp4",
+      "from_frame": 253,
+      "duration_frames": 69,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": false,
+      "ambience_db": -25.0,
+      "section": "PROB",
+      "type": "UGC",
+      "camera": "push",
+      "value": "macro",
+      "source_rush": "rushes/03_PROB_UGC_macro-goutte-lotion-touche.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "04a",
+      "src": "work/clips/04a.mp4",
+      "from_frame": 322,
+      "duration_frames": 71,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": {
+        "from": 1.0,
+        "to": 1.05,
+        "origin": [
+          0.5,
+          0.42
+        ]
+      },
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "PROB",
+      "type": "UGC",
+      "camera": "static",
+      "value": "detail",
+      "source_rush": "rushes/04a_PROB_UGC_main-repose-flacon-minoxidil.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "04b",
+      "src": "work/clips/04b.mp4",
+      "from_frame": 393,
+      "duration_frames": 73,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "PROB",
+      "type": "UGC",
+      "camera": "pan",
+      "value": "topdown",
+      "source_rush": "rushes/04b_PROB_UGC_dessus-cheveux-tombes-pres.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "05a",
+      "src": "work/clips/05a.mp4",
+      "from_frame": 466,
+      "duration_frames": 61,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": {
+        "at_frame": 478,
+        "scale": 1.08,
+        "frames": 6
+      },
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "PROB",
+      "type": "UGC",
+      "camera": "handheld",
+      "value": "moyen",
+      "source_rush": "rushes/05a_PROB_UGC_main-reprend-flacon-placard.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "05b",
+      "src": "work/clips/05b.mp4",
+      "from_frame": 527,
+      "duration_frames": 61,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": {
+        "from": 1.05,
+        "to": 1.0,
+        "origin": [
+          0.5,
+          0.42
+        ]
+      },
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "PROB",
+      "type": "UGC",
+      "camera": "static",
+      "value": "large",
+      "source_rush": "rushes/05b_PROB_UGC_femme-assise-bord-baignoire.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "06a",
+      "src": "work/clips/06a.mp4",
+      "from_frame": 588,
+      "duration_frames": 62,
+      "trim_before_frames": 0,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": {
+        "at_frame": 598,
+        "scale": 1.08,
+        "frames": 6
+      },
+      "transition_in": {
+        "type": "zoomthrough",
+        "frames": 8,
+        "dir": null
+      },
+      "ambience": false,
+      "ambience_db": -25.0,
+      "section": "OBJ",
+      "type": "MOTION",
+      "camera": "pull",
+      "value": "moyen",
+      "source_rush": null,
+      "source_method": "motion"
+    },
+    {
+      "shot_id": "06b",
+      "src": "work/clips/06b.mp4",
+      "from_frame": 650,
+      "duration_frames": 62,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "OBJ",
+      "type": "UGC",
+      "camera": "handheld",
+      "value": "detail",
+      "source_rush": "rushes/06b_OBJ_UGC_main-passe-cheveux-chatains.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "07",
+      "src": "work/clips/07.mp4",
+      "from_frame": 712,
+      "duration_frames": 92,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": {
+        "at_frame": 736,
+        "scale": 1.08,
+        "frames": 6
+      },
+      "transition_in": {
+        "type": "zoomthrough",
+        "frames": 8,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "3DSCI",
+      "camera": "push",
+      "value": "macro",
+      "source_rush": "rushes/07_MECA_3DSCI_animation-3d-coupe-cuir.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "08",
+      "src": "work/clips/08.mp4",
+      "from_frame": 804,
+      "duration_frames": 94,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "3DSCI",
+      "camera": "orbit",
+      "value": "moyen",
+      "source_rush": "rushes/08_MECA_3DSCI_animation-3d-cheveu-continue.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "09",
+      "src": "work/clips/09.mp4",
+      "from_frame": 898,
+      "duration_frames": 92,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": {
+        "from": 1.0,
+        "to": 1.05,
+        "origin": [
+          0.5,
+          0.42
+        ]
+      },
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": false,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "STOCK",
+      "camera": "static",
+      "value": "topdown",
+      "source_rush": "rushes/09_MECA_STOCK_dessus-raie-elargie-cuir.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "10",
+      "src": "work/clips/10.mp4",
+      "from_frame": 990,
+      "duration_frames": 76,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": {
+        "at_frame": 1013,
+        "scale": 1.08,
+        "frames": 6
+      },
+      "transition_in": {
+        "type": "zoomthrough",
+        "frames": 8,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "3DSCI",
+      "camera": "push",
+      "value": "macro",
+      "source_rush": "rushes/10_MECA_3DSCI_animation-3d-follicule-retrecit.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "11",
+      "src": "work/clips/11.mp4",
+      "from_frame": 1066,
+      "duration_frames": 102,
+      "trim_before_frames": 0,
+      "speed": 0.87,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": false,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "STOCK",
+      "camera": "tilt",
+      "value": "detail",
+      "source_rush": "rushes/11_MECA_STOCK_cheveux-fins-glissent-lavabo.mp4",
+      "source_method": "own+boomerang"
+    },
+    {
+      "shot_id": "12",
+      "src": "work/clips/12.mp4",
+      "from_frame": 1168,
+      "duration_frames": 80,
+      "trim_before_frames": 0,
+      "speed": 1.0,
+      "kenburns": {
+        "from": 1.05,
+        "to": 1.0,
+        "origin": [
+          0.5,
+          0.42
+        ]
+      },
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": false,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "MOTION",
+      "camera": "static",
+      "value": "large",
+      "source_rush": null,
+      "source_method": "motion"
+    },
+    {
+      "shot_id": "13",
+      "src": "work/clips/13.mp4",
+      "from_frame": 1248,
+      "duration_frames": 88,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "STOCK",
+      "camera": "handheld",
+      "value": "moyen",
+      "source_rush": "rushes/13_MECA_STOCK_femme-fatiguee-masse-tempes.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "14a",
+      "src": "work/clips/14a.mp4",
+      "from_frame": 1336,
+      "duration_frames": 78,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": {
+        "at_frame": 1353,
+        "scale": 1.08,
+        "frames": 6
+      },
+      "transition_in": {
+        "type": "zoomthrough",
+        "frames": 8,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "3DSCI",
+      "camera": "pull",
+      "value": "large",
+      "source_rush": "rushes/14a_MECA_3DSCI_animation-3d-large-dizaines.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "14b",
+      "src": "work/clips/14b.mp4",
+      "from_frame": 1414,
+      "duration_frames": 78,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": {
+        "from": 1.0,
+        "to": 1.05,
+        "origin": [
+          0.5,
+          0.42
+        ]
+      },
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "3DSCI",
+      "camera": "static",
+      "value": "macro",
+      "source_rush": "rushes/14b_MECA_3DSCI_animation-3d-seul-follicule.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "15a",
+      "src": "work/clips/15a.mp4",
+      "from_frame": 1492,
+      "duration_frames": 78,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "UGC",
+      "camera": "tilt",
+      "value": "detail",
+      "source_rush": "rushes/15a_MECA_UGC_main-mouillee-douche-retient.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "15b",
+      "src": "work/clips/15b.mp4",
+      "from_frame": 1570,
+      "duration_frames": 78,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "zoomthrough",
+        "frames": 8,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "3DSCI",
+      "camera": "orbit",
+      "value": "macro",
+      "source_rush": "rushes/15b_MECA_3DSCI_animation-3d-petite-poche.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "16",
+      "src": "work/clips/16.mp4",
+      "from_frame": 1648,
+      "duration_frames": 98,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": {
+        "at_frame": 1662,
+        "scale": 1.08,
+        "frames": 6
+      },
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "UGC",
+      "camera": "push",
+      "value": "detail",
+      "source_rush": "rushes/16_MECA_UGC_petits-cheveux-repousse-ligne.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "17",
+      "src": "work/clips/17.mp4",
+      "from_frame": 1746,
+      "duration_frames": 90,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": {
+        "from": 1.05,
+        "to": 1.0,
+        "origin": [
+          0.5,
+          0.42
+        ]
+      },
+      "punch": null,
+      "transition_in": {
+        "type": "zoomthrough",
+        "frames": 8,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "MECA",
+      "type": "3DSCI",
+      "camera": "static",
+      "value": "macro",
+      "source_rush": "rushes/17_MECA_3DSCI_animation-3d-nouveau-cheveu.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "18",
+      "src": "work/clips/18.mp4",
+      "from_frame": 1836,
+      "duration_frames": 86,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": {
+        "at_frame": 1848,
+        "scale": 1.08,
+        "frames": 6
+      },
+      "transition_in": {
+        "type": "zoomthrough",
+        "frames": 8,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "BENEF",
+      "type": "UGC",
+      "camera": "handheld",
+      "value": "moyen",
+      "source_rush": "rushes/18_BENEF_UGC_femme-range-flacon-minoxidil.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "19",
+      "src": "work/clips/19.mp4",
+      "from_frame": 1922,
+      "duration_frames": 144,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "PREUVE",
+      "type": "UGC",
+      "camera": "push",
+      "value": "topdown",
+      "source_rush": "rushes/19_PREUVE_UGC_dessus-flacon-huile-romarin.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "20a",
+      "src": "work/clips/20a.mp4",
+      "from_frame": 2066,
+      "duration_frames": 82,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": {
+        "at_frame": 2081,
+        "scale": 1.08,
+        "frames": 6
+      },
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "PROD",
+      "type": "UGC",
+      "camera": "pan",
+      "value": "detail",
+      "source_rush": "rushes/20a_PROD_UGC_camera-glisse-flacon-huile.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "20b",
+      "src": "work/clips/20b.mp4",
+      "from_frame": 2148,
+      "duration_frames": 72,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "PROD",
+      "type": "UGC",
+      "camera": "handheld",
+      "value": "moyen",
+      "source_rush": "rushes/20b_PROD_UGC_deux-mains-massent-cuir.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "21a",
+      "src": "work/clips/21a.mp4",
+      "from_frame": 2220,
+      "duration_frames": 75,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": {
+        "from": 1.0,
+        "to": 1.05,
+        "origin": [
+          0.5,
+          0.42
+        ]
+      },
+      "punch": null,
+      "transition_in": {
+        "type": "zoomthrough",
+        "frames": 8,
+        "dir": null
+      },
+      "ambience": false,
+      "ambience_db": -25.0,
+      "section": "CTA",
+      "type": "UGC",
+      "camera": "static",
+      "value": "pov",
+      "source_rush": "rushes/21a_CTA_UGC_subjective-pouce-tape-guide.mp4",
+      "source_method": "own"
+    },
+    {
+      "shot_id": "21b",
+      "src": "work/clips/21b.mp4",
+      "from_frame": 2295,
+      "duration_frames": 92,
+      "trim_before_frames": 6,
+      "speed": 1.0,
+      "kenburns": null,
+      "punch": null,
+      "transition_in": {
+        "type": "cut",
+        "frames": 0,
+        "dir": null
+      },
+      "ambience": true,
+      "ambience_db": -25.0,
+      "section": "CTA",
+      "type": "IAGEN",
+      "camera": "push",
+      "value": "detail",
+      "source_rush": "rushes/21b_CTA_IAGEN_guide-claire-affiche-tablette.mp4",
+      "source_method": "own"
+    }
+  ],
+  "captions": {
+    "file": "work/captions.json",
+    "style": "default",
+    "hook_style": "red-box",
+    "hook_end_frame": 150
+  },
+  "overlays": [
+    {
+      "type": "text",
+      "text": "« 50 % de mes cheveux ? »",
+      "from_frame": 72,
+      "duration_frames": 46,
+      "style": "stat",
+      "anchor": "center"
+    },
+    {
+      "type": "text",
+      "text": "NON.",
+      "from_frame": 588,
+      "duration_frames": 62,
+      "style": "stat",
+      "anchor": "center"
+    },
+    {
+      "type": "text",
+      "text": "Phase de pousse prolongée",
+      "from_frame": 804,
+      "duration_frames": 94,
+      "style": "stat",
+      "anchor": "center"
+    },
+    {
+      "type": "text",
+      "text": "Alopécie androgénétique",
+      "from_frame": 898,
+      "duration_frames": 92,
+      "style": "stat",
+      "anchor": "center"
+    },
+    {
+      "type": "text",
+      "text": "Effluvium télogène",
+      "from_frame": 1168,
+      "duration_frames": 80,
+      "style": "stat",
+      "anchor": "center"
+    },
+    {
+      "type": "text",
+      "text": "Stress · régime · carence",
+      "from_frame": 1248,
+      "duration_frames": 88,
+      "style": "stat",
+      "anchor": "center"
+    },
+    {
+      "type": "text",
+      "text": "Phase télogène = repos",
+      "from_frame": 1414,
+      "duration_frames": 78,
+      "style": "stat",
+      "anchor": "center"
+    },
+    {
+      "type": "text",
+      "text": "Testées face au minoxidil (études 2015 et 2021)",
+      "from_frame": 1922,
+      "duration_frames": 144,
+      "style": "stat",
+      "anchor": "center"
+    },
+    {
+      "type": "text",
+      "text": "Bonus : le massage",
+      "from_frame": 2148,
+      "duration_frames": 72,
+      "style": "stat",
+      "anchor": "center"
+    }
+  ],
+  "sfx": [
+    {
+      "src": "assets/sfx/impact_low.wav",
+      "at_frame": 0,
+      "db": -12.0
+    },
+    {
+      "src": "assets/sfx/tick_soft.wav",
+      "at_frame": 12,
+      "db": -18.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 148,
+      "db": -14.0
+    },
+    {
+      "src": "assets/sfx/tick_soft.wav",
+      "at_frame": 478,
+      "db": -18.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 586,
+      "db": -14.0
+    },
+    {
+      "src": "assets/sfx/tick_soft.wav",
+      "at_frame": 598,
+      "db": -18.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 710,
+      "db": -14.0
+    },
+    {
+      "src": "assets/sfx/tick_soft.wav",
+      "at_frame": 736,
+      "db": -18.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 896,
+      "db": -14.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 988,
+      "db": -14.0
+    },
+    {
+      "src": "assets/sfx/tick_soft.wav",
+      "at_frame": 1013,
+      "db": -18.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 1064,
+      "db": -14.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 1334,
+      "db": -14.0
+    },
+    {
+      "src": "assets/sfx/tick_soft.wav",
+      "at_frame": 1353,
+      "db": -18.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 1490,
+      "db": -14.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 1568,
+      "db": -14.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 1646,
+      "db": -14.0
+    },
+    {
+      "src": "assets/sfx/tick_soft.wav",
+      "at_frame": 1662,
+      "db": -18.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 1744,
+      "db": -14.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 1834,
+      "db": -14.0
+    },
+    {
+      "src": "assets/sfx/tick_soft.wav",
+      "at_frame": 1848,
+      "db": -18.0
+    },
+    {
+      "src": "assets/sfx/tick_soft.wav",
+      "at_frame": 2081,
+      "db": -18.0
+    },
+    {
+      "src": "assets/sfx/whoosh_soft.wav",
+      "at_frame": 2218,
+      "db": -14.0
+    }
+  ],
+  "endcard": null,
+  "safe_zone": {
+    "top": 220,
+    "bottom": 420,
+    "left": 60,
+    "right": 130
+  }
+}

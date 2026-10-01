@@ -62,6 +62,12 @@ Choix de l'utilisateur (2026-10-01) : seuls les 8 plans IA sont générés (07, 
 - Sorties : `sorties/clips/<plan>-clip-h3-v1.mp4`, planche `sorties/clips/planche-clips-v1.jpg`. Contrôle visuel : 8/8 sans texte ni déformation.
 - Coût : 8 x 32 cr = 256 cr. Total IA du run : 320 cr.
 
-### Étape suivante
+### Plan 21a (étape 3)
 
-Validation des clips par l'utilisateur, puis dépôt des 20 plans réels dans `rushes/` et mode MONTAGE.
+- Demande de l'utilisateur : générer 21a avec MiniMax H3 768P, avec du texte dans la vidéo.
+- Image : Nano Banana 2 1K, `prompts/img/21a.txt` (vue subjective, téléphone, « Guide » tapé dans le champ de commentaire, seul texte lisible). Vidéo : MiniMax H3 768P 4 s, `prompts/ani/21a.txt` (le pouce envoie le commentaire). On garde 0 à 3,6 s.
+- Coût : 8 + 32 = 40 cr. Total génération du run : 360 cr.
+
+## Montage
+
+Voir `montage.md`. Rushes rapatriés du Drive (`rushes/drive/`), QC 100/100, créa finale `creas/full-b-roll-artiste/2026-10-01_full-b-roll-artiste_001.mp4`. Tous les plans sont enregistrés dans `bibliotheque/brolls.json`.

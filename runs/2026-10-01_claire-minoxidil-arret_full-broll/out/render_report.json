@@ -1,0 +1,21 @@
+{
+  "output": "/home/user/labo/runs/2026-10-01_claire-minoxidil-arret_full-broll/out/final_9x16.mp4",
+  "composition": "Main",
+  "render_s": 562.0,
+  "audio_s": 19.9,
+  "total_s": 582.0,
+  "duration_s": 79.6,
+  "loudnorm_measured": {
+    "input_i": "-19.19",
+    "input_tp": "-3.85",
+    "input_lra": "4.10",
+    "input_thresh": "-29.32",
+    "output_i": "-16.09",
+    "output_tp": "-1.50",
+    "output_lra": "3.80",
+    "output_thresh": "-26.20",
+    "normalization_type": "dynamic",
+    "target_offset": "0.09"
+  },
+  "browser": "/opt/pw-browsers/chromium"
+}
