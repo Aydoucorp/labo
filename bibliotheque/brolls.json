@@ -1918,6 +1918,311 @@
    "duree_s": 4.0,
    "format": "1080x1920",
    "id": "br-0058"
+  },
+  {
+   "fichier": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/retenues/plans/01.mp4",
+   "original": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/sorties/clips/A-v1.mp4",
+   "type": "video",
+   "origine": "ia-realiste",
+   "style": "ugc-smartphone-avatar-claire",
+   "marque": "Les cheveux de Claire",
+   "description": "Avatar Claire. Sous la douche, cheveux mouillés, débardeur noir, elle verse de l'après-shampoing (flacon blanc sans marque) dans sa main.",
+   "mots_cles": [
+    "douche",
+    "après-shampoing",
+    "flacon",
+    "claire",
+    "ugc"
+   ],
+   "modele": "GPT Image 2 1K (image) + Seedance 2.5 720p muet (clip multi-plans), KIE",
+   "cout_credits": 171.0,
+   "notes": "Sans texte ni son ; même identité que l'avatar Claire",
+   "usages": [
+    {
+     "run": "runs/2026-10-02_claire-apres-shampoing_ugc-humain",
+     "plan": "01",
+     "debut": null,
+     "fin": null,
+     "phrase": "Voici les signes que vous utilisez le mauvais après-shampoing :"
+    }
+   ],
+   "duree_s": 2.62,
+   "format": "720x1280",
+   "id": "br-0059"
+  },
+  {
+   "fichier": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/retenues/plans/02.mp4",
+   "original": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/sorties/clips/A-v1.mp4",
+   "type": "video",
+   "origine": "ia-realiste",
+   "style": "ugc-smartphone-avatar-claire",
+   "marque": "Les cheveux de Claire",
+   "description": "Avatar Claire. Chambre, t-shirt gris, cheveux secs et frisottants, elle attrape une mèche et la laisse retomber, perplexe.",
+   "mots_cles": [
+    "cheveux secs",
+    "frisottis",
+    "claire",
+    "ugc"
+   ],
+   "modele": "GPT Image 2 1K (image) + Seedance 2.5 720p muet (clip multi-plans), KIE",
+   "cout_credits": 176.0,
+   "notes": "Sans texte ni son ; même identité que l'avatar Claire",
+   "usages": [
+    {
+     "run": "runs/2026-10-02_claire-apres-shampoing_ugc-humain",
+     "plan": "02",
+     "debut": null,
+     "fin": null,
+     "phrase": "vos cheveux ont l'air secs et abîmés,"
+    }
+   ],
+   "duree_s": 2.71,
+   "format": "720x1280",
+   "id": "br-0060"
+  },
+  {
+   "fichier": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/retenues/plans/03.mp4",
+   "original": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/sorties/clips/A-v1.mp4",
+   "type": "video",
+   "origine": "ia-realiste",
+   "style": "ugc-smartphone-avatar-claire",
+   "marque": "Les cheveux de Claire",
+   "description": "Avatar Claire. T-shirt gris, sèche-cheveux en main, les doigts coincés dans un nœud, agacée.",
+   "mots_cles": [
+    "sèche-cheveux",
+    "nœuds",
+    "séchage",
+    "claire",
+    "ugc"
+   ],
+   "modele": "GPT Image 2 1K (image) + Seedance 2.5 720p muet (clip multi-plans), KIE",
+   "cout_credits": 247.0,
+   "notes": "Sans texte ni son ; même identité que l'avatar Claire",
+   "usages": [
+    {
+     "run": "runs/2026-10-02_claire-apres-shampoing_ugc-humain",
+     "plan": "03",
+     "debut": null,
+     "fin": null,
+     "phrase": "et vos doigts s'accrochent dans les nœuds pendant le séchage."
+    }
+   ],
+   "duree_s": 3.88,
+   "format": "720x1280",
+   "id": "br-0061"
+  },
+  {
+   "fichier": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/retenues/plans/04.mp4",
+   "original": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/sorties/clips/A-v1.mp4",
+   "type": "video",
+   "origine": "ia-realiste",
+   "style": "ugc-smartphone-avatar-claire",
+   "marque": "Les cheveux de Claire",
+   "description": "Avatar Claire. Sous la douche, cheveux mouillés avec après-shampoing, elle essaie de séparer une mèche emmêlée.",
+   "mots_cles": [
+    "douche",
+    "mèches emmêlées",
+    "après-shampoing",
+    "claire",
+    "ugc"
+   ],
+   "modele": "GPT Image 2 1K (image) + Seedance 2.5 720p muet (clip multi-plans), KIE",
+   "cout_credits": 249.0,
+   "notes": "Sans texte ni son ; même identité que l'avatar Claire",
+   "usages": [
+    {
+     "run": "runs/2026-10-02_claire-apres-shampoing_ugc-humain",
+     "plan": "04",
+     "debut": null,
+     "fin": null,
+     "phrase": "Il devient difficile de séparer vos mèches sous la douche, même avec le produit,"
+    }
+   ],
+   "duree_s": 3.83,
+   "format": "720x1280",
+   "id": "br-0062"
+  },
+  {
+   "fichier": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/retenues/plans/05.mp4",
+   "original": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/sorties/clips/B-v1.mp4",
+   "type": "video",
+   "origine": "ia-realiste",
+   "style": "ugc-smartphone-avatar-claire",
+   "marque": "Les cheveux de Claire",
+   "description": "Avatar Claire. Gros plan des mains qui défont un petit nœud sur les pointes, t-shirt noir, air fatigué.",
+   "mots_cles": [
+    "nœuds",
+    "pointes",
+    "claire",
+    "ugc"
+   ],
+   "modele": "GPT Image 2 1K (image) + Seedance 2.5 720p muet (clip multi-plans), KIE",
+   "cout_credits": 192.0,
+   "notes": "Sans texte ni son ; même identité que l'avatar Claire",
+   "usages": [
+    {
+     "run": "runs/2026-10-02_claire-apres-shampoing_ugc-humain",
+     "plan": "05",
+     "debut": null,
+     "fin": null,
+     "phrase": "et vous trouvez de petits nœuds persistants après le brushing."
+    }
+   ],
+   "duree_s": 2.96,
+   "format": "720x1280",
+   "id": "br-0063"
+  },
+  {
+   "fichier": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/retenues/plans/06.mp4",
+   "original": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/sorties/clips/B-v1.mp4",
+   "type": "video",
+   "origine": "ia-realiste",
+   "style": "ugc-smartphone-avatar-claire",
+   "marque": "Les cheveux de Claire",
+   "description": "Avatar Claire. Couloir, haut noir, la brosse se coince à mi-longueur, grimace.",
+   "mots_cles": [
+    "brosse",
+    "nœuds",
+    "brossage",
+    "claire",
+    "ugc"
+   ],
+   "modele": "GPT Image 2 1K (image) + Seedance 2.5 720p muet (clip multi-plans), KIE",
+   "cout_credits": 121.0,
+   "notes": "Sans texte ni son ; même identité que l'avatar Claire",
+   "usages": [
+    {
+     "run": "runs/2026-10-02_claire-apres-shampoing_ugc-humain",
+     "plan": "06",
+     "debut": null,
+     "fin": null,
+     "phrase": "Le brossage est laborieux,"
+    }
+   ],
+   "duree_s": 1.88,
+   "format": "720x1280",
+   "id": "br-0064"
+  },
+  {
+   "fichier": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/retenues/plans/07.mp4",
+   "original": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/sorties/clips/B-v1.mp4",
+   "type": "video",
+   "origine": "ia-realiste",
+   "style": "ugc-smartphone-avatar-claire",
+   "marque": "Les cheveux de Claire",
+   "description": "Avatar Claire. Couloir, haut noir, elle montre ses pointes sèches à la caméra, déçue.",
+   "mots_cles": [
+    "pointes sèches",
+    "cassantes",
+    "claire",
+    "ugc"
+   ],
+   "modele": "GPT Image 2 1K (image) + Seedance 2.5 720p muet (clip multi-plans), KIE",
+   "cout_credits": 147.0,
+   "notes": "Sans texte ni son ; même identité que l'avatar Claire",
+   "usages": [
+    {
+     "run": "runs/2026-10-02_claire-apres-shampoing_ugc-humain",
+     "plan": "07",
+     "debut": null,
+     "fin": null,
+     "phrase": "vos longueurs semblent sèches, raides ou cassantes,"
+    }
+   ],
+   "duree_s": 2.25,
+   "format": "720x1280",
+   "id": "br-0065"
+  },
+  {
+   "fichier": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/retenues/plans/08.mp4",
+   "original": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/sorties/clips/B-v1.mp4",
+   "type": "video",
+   "origine": "ia-realiste",
+   "style": "ugc-smartphone-avatar-claire",
+   "marque": "Les cheveux de Claire",
+   "description": "Avatar Claire. Gros plan : la brosse passe et de petits nœuds se reforment aussitôt.",
+   "mots_cles": [
+    "nœuds",
+    "brosse",
+    "claire",
+    "ugc"
+   ],
+   "modele": "GPT Image 2 1K (image) + Seedance 2.5 720p muet (clip multi-plans), KIE",
+   "cout_credits": 257.0,
+   "notes": "Sans texte ni son ; même identité que l'avatar Claire",
+   "usages": [
+    {
+     "run": "runs/2026-10-02_claire-apres-shampoing_ugc-humain",
+     "plan": "08",
+     "debut": null,
+     "fin": null,
+     "phrase": "et des nœuds se reforment aussitôt après le passage de la brosse."
+    }
+   ],
+   "duree_s": 3.96,
+   "format": "720x1280",
+   "id": "br-0066"
+  },
+  {
+   "fichier": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/retenues/plans/09.mp4",
+   "original": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/sorties/clips/C-v1.mp4",
+   "type": "video",
+   "origine": "ia-realiste",
+   "style": "ugc-smartphone-avatar-claire",
+   "marque": "Les cheveux de Claire",
+   "description": "Avatar Claire. Salon, haut bordeaux, racines plates, elle soulève une mèche qui retombe, blasée.",
+   "mots_cles": [
+    "racines grasses",
+    "cheveux plats",
+    "claire",
+    "ugc"
+   ],
+   "modele": "GPT Image 2 1K (image) + Seedance 2.5 720p muet (clip multi-plans), KIE",
+   "cout_credits": 236.0,
+   "notes": "Sans texte ni son ; même identité que l'avatar Claire",
+   "usages": [
+    {
+     "run": "runs/2026-10-02_claire-apres-shampoing_ugc-humain",
+     "plan": "09",
+     "debut": null,
+     "fin": null,
+     "phrase": "Vos cheveux peuvent aussi paraître lourds, plats et gras aux racines."
+    }
+   ],
+   "duree_s": 3.71,
+   "format": "720x1280",
+   "id": "br-0067"
+  },
+  {
+   "fichier": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/retenues/plans/10.mp4",
+   "original": "runs/2026-10-02_claire-apres-shampoing_ugc-humain/sorties/clips/C-v1.mp4",
+   "type": "video",
+   "origine": "ia-realiste",
+   "style": "ugc-smartphone-avatar-claire",
+   "marque": "Les cheveux de Claire",
+   "description": "Avatar Claire. Salon, haut bordeaux, brossage facile de cheveux souples, regard caméra et sourire calme.",
+   "mots_cles": [
+    "cheveux souples",
+    "brosse",
+    "cta",
+    "claire",
+    "ugc"
+   ],
+   "modele": "GPT Image 2 1K (image) + Seedance 2.5 720p muet (clip multi-plans), KIE",
+   "cout_credits": 218.0,
+   "notes": "Sans texte ni son ; même identité que l'avatar Claire",
+   "usages": [
+    {
+     "run": "runs/2026-10-02_claire-apres-shampoing_ugc-humain",
+     "plan": "10",
+     "debut": null,
+     "fin": null,
+     "phrase": "Commente « GUIDE » pour savoir quel après-shampoing choisir."
+    }
+   ],
+   "duree_s": 3.33,
+   "format": "720x1280",
+   "id": "br-0068"
   }
  ]
 }

@@ -4,6 +4,8 @@
 Usage :
   python3 scripts/kie_seedance.py --prompt-file p.txt --image depart.png --audio A01.wav --out clip.mp4 \
       [--duration 4] [--ratio 9:16] [--resolution 720p]
+  python3 scripts/kie_seedance.py --prompt-file p.txt --image a.png b.png c.png --out clip.mp4 --duration 12
+      (plusieurs images = @Image1, @Image2... dans l'ordre ; sans --audio : clip muet multi-plans, ex. UGC humain)
 
 - Seedance 2.5 n'accepte pas à la fois une première image imposée et un audio de référence :
   l'image est envoyée dans reference_image_urls, le prompt la déclare « exact first frame ».
@@ -21,8 +23,8 @@ from kie_image import API, call, upload
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--prompt-file", required=True)
-    ap.add_argument("--image", required=True)
-    ap.add_argument("--audio", required=True)
+    ap.add_argument("--image", required=True, nargs="+")
+    ap.add_argument("--audio", default=None)
     ap.add_argument("--out", required=True)
     ap.add_argument("--duration", type=int, default=4)
     ap.add_argument("--ratio", default="9:16")
@@ -30,13 +32,13 @@ def main():
     ap.add_argument("--generate-audio", action="store_true")
     a = ap.parse_args()
 
-    img = a.image if a.image.startswith("http") else upload(a.image)
-    aud = a.audio if a.audio.startswith("http") else upload(a.audio)
-    task = call(f"{API}/createTask", {"model": "bytedance/seedance-2-5", "input": {
-        "prompt": pathlib.Path(a.prompt_file).read_text(),
-        "reference_image_urls": [img], "reference_audio_urls": [aud],
-        "duration": a.duration, "aspect_ratio": a.ratio, "resolution": a.resolution,
-        "generate_audio": a.generate_audio}})
+    imgs = [i if i.startswith("http") else upload(i) for i in a.image]
+    inp = {"prompt": pathlib.Path(a.prompt_file).read_text(), "reference_image_urls": imgs,
+           "duration": a.duration, "aspect_ratio": a.ratio, "resolution": a.resolution,
+           "generate_audio": a.generate_audio}
+    if a.audio:
+        inp["reference_audio_urls"] = [a.audio if a.audio.startswith("http") else upload(a.audio)]
+    task = call(f"{API}/createTask", {"model": "bytedance/seedance-2-5", "input": inp})
     if task.get("code") != 200:
         sys.exit(f"création refusée : {task.get('code')} {task.get('msg')}")
     tid = task["data"]["taskId"]

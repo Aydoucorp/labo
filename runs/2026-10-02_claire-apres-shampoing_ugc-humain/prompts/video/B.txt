@@ -1,0 +1,12 @@
+Create an 11-second vertical 9:16 photorealistic smartphone UGC video, natural real-time speed, 4 shots separated by hard cuts.
+REFERENCES: @Image1 = shot 1 start frame (bathroom, black t-shirt, untangling a knot), @Image2 = shot 2 start frame (hallway, black long-sleeve top, brush stuck), @Image3 = shot 3 start frame (hallway, showing hair ends), @Image4 = shot 4 start frame (close-up of hair and black paddle brush). Each shot starts exactly on its reference image.
+CAMERA: phone propped on a fixed support at chest or eye height, static framing in each shot, slight natural phone micro-movement only. No visible recording phone. Hard cuts between shots.
+PERFORMANCE: She does not speak at all, mouth mostly closed or relaxed. Natural silent everyday acting: small sighs, blinks, believable hand movements at real speed, varied expressions. No constant grin, no frozen face, no repetitive gestures.
+CONTINUITY: Same woman in every shot, exactly as in the reference images (same face, shoulder-length wavy brown hair, skin, freckles). Each shot keeps the outfit, room and light of its own reference image. Hair, hands and objects stay physically consistent within a shot; no object appears or vanishes; five fingers per hand.
+AUDIO: No dialogue, no music, only quiet natural room tone.
+CONSTRAINTS: Photorealistic smartphone UGC look, natural light, real skin texture. No text, no captions, no logos, no brand names on any object, no extra people, no morphing, no slow motion.
+TIMELINE:
+0.0-3.0 s, shot 1 (@Image1): close on her hands at chest height picking apart a small stubborn knot at the ends of her hair, she looks down at it, tired.
+3.0-5.0 s, shot 2 (@Image2): she pulls the black paddle brush down through her lengths, it catches halfway in a tangle, she tugs, grimaces.
+5.0-7.5 s, shot 3 (@Image3): she holds her dry brittle ends forward toward the lens with both hands, rubs them between her fingers, disappointed.
+7.5-11.0 s, shot 4 (@Image4): the brush passes down a section of hair, and right after it small tangles form again at mid-length; her fingers touch the new tangle.

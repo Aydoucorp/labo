@@ -57,4 +57,12 @@ Choix de l'utilisateur (2026-10-02) : format A (plans muets, textes et musique a
 
 ### Vidéo (étape 2)
 
-En attente de la validation des portraits et d'une recharge de crédits (Seedance 2.5 720p, environ 30 s, environ 1 890 cr).
+- Portraits validés par l'utilisateur (« on garde »). Musique d'origine conservée (test, pas forcément publié).
+- Modèle : Seedance 2.5 (`bytedance/seedance-2-5`), 720p, 9:16, `generate_audio` désactivé, plusieurs images de référence (@Image1 à @Image4 = image de départ de chaque plan). Script : `python3 scripts/kie_seedance.py --prompt-file prompts/video/<clip>.txt --image <portraits> --out sorties/clips/<clip>-v1.mp4 --duration <s> --resolution 720p`
+- Prompts : `prompts/video/A.txt` (plans 01 à 04, 13 s), `B.txt` (05 à 08, 11 s), `C.txt` (09 et 10, 7 s), sur le gabarit du skill (références, caméra, jeu muet, timeline, continuité, audio, contraintes).
+- Coupes mesurées (scdet) : A 2,63 / 5,33 / 9,17 s ; B 2,96 / 4,79 / 7,04 s ; C 3,67 s. Les 10 plans sont conformes à la timeline.
+- Coût : 819 + 693 + 441 = 1 953 cr (63 cr/s).
+
+## Montage
+
+Voir `montage.md`. Créa finale : `creas/ugc-humain/2026-10-02_ugc-humain_001.mp4`. Coût total du run : 2 031 cr (environ 10,16 $).

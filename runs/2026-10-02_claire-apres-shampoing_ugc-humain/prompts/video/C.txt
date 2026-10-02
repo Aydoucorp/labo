@@ -1,0 +1,10 @@
+Create a 7-second vertical 9:16 photorealistic smartphone UGC video, natural real-time speed, 2 shots separated by a hard cut.
+REFERENCES: @Image1 = shot 1 start frame (living room, burgundy top, flat roots), @Image2 = shot 2 start frame (living room, burgundy top, smooth hair with black paddle brush). Each shot starts exactly on its reference image.
+CAMERA: phone propped on a fixed support at chest or eye height, static framing in each shot, slight natural phone micro-movement only. No visible recording phone. Hard cuts between shots.
+PERFORMANCE: She does not speak at all, mouth mostly closed or relaxed. Natural silent everyday acting: small sighs, blinks, believable hand movements at real speed, varied expressions. No constant grin, no frozen face, no repetitive gestures.
+CONTINUITY: Same woman in every shot, exactly as in the reference images (same face, shoulder-length wavy brown hair, skin, freckles). Each shot keeps the outfit, room and light of its own reference image. Hair, hands and objects stay physically consistent within a shot; no object appears or vanishes; five fingers per hand.
+AUDIO: No dialogue, no music, only quiet natural room tone.
+CONSTRAINTS: Photorealistic smartphone UGC look, natural light, real skin texture. No text, no captions, no logos, no brand names on any object, no extra people, no morphing, no slow motion.
+TIMELINE:
+0.0-3.4 s, shot 1 (@Image1): she lifts a strand at the crown, it falls back flat and heavy against her head, she looks into the lens unimpressed.
+3.4-7.0 s, shot 2 (@Image2): she slowly runs the black paddle brush through her soft smooth lengths without any resistance, then looks into the lens with a calm warm smile, without speaking.

@@ -22,7 +22,7 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | le-montage | 000 |
 | talking-head | 001 |
 | full-b-roll-artiste | 001 |
-| ugc-humain | 000 |
+| ugc-humain | 001 |
 
 ## Historique
 
@@ -32,3 +32,4 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | `2026-09-28_talking-head_001.mp4` | talking-head | 2026-09-28 | 001 | Claire · cheveux gris et carences (CTA « GUIDE »), version 2 voix off | `runs/2026-09-28_claire-cheveux-gris-carences_talking-head/` | 56,4 s · 9:16 · 1080×1920 |
 | `2026-09-30_papercut_002.mp4` | papercut | 2026-09-30 | 002 | Claire · remèdes naturels notés sur 10 (CTA abonnement) | `runs/2026-09-30_claire-remedes-naturels_papercut/` | 42,2 s · 9:16 · 1080×1920 |
 | `2026-10-01_full-b-roll-artiste_001.mp4` | full-b-roll-artiste | 2026-10-01 | 001 | Claire · arrêter le minoxidil sans perdre ses cheveux (CTA « Guide ») | `runs/2026-10-01_claire-minoxidil-arret_full-broll/` | 79,6 s · 9:16 · 1080×1920 |
+| `2026-10-02_ugc-humain_001.mp4` | ugc-humain | 2026-10-02 | 001 | Claire · signes du mauvais après-shampoing (CTA « GUIDE »), format muet texte + musique, test | `runs/2026-10-02_claire-apres-shampoing_ugc-humain/` | 31,1 s · 9:16 · 1080×1920 |

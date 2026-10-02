@@ -1,0 +1,12 @@
+Create a 13-second vertical 9:16 photorealistic smartphone UGC video, natural real-time speed, 4 shots separated by hard cuts.
+REFERENCES: @Image1 = shot 1 start frame (shower, black tank top), @Image2 = shot 2 start frame (bedroom, grey t-shirt, dry hair), @Image3 = shot 3 start frame (grey t-shirt, hair dryer), @Image4 = shot 4 start frame (shower, wet hair with conditioner). Each shot starts exactly on its reference image.
+CAMERA: phone propped on a fixed support at chest or eye height, static framing in each shot, slight natural phone micro-movement only. No visible recording phone. Hard cuts between shots.
+PERFORMANCE: She does not speak at all, mouth mostly closed or relaxed. Natural silent everyday acting: small sighs, blinks, believable hand movements at real speed, varied expressions. No constant grin, no frozen face, no repetitive gestures.
+CONTINUITY: Same woman in every shot, exactly as in the reference images (same face, shoulder-length wavy brown hair, skin, freckles). Each shot keeps the outfit, room and light of its own reference image. Hair, hands and objects stay physically consistent within a shot; no object appears or vanishes; five fingers per hand.
+AUDIO: No dialogue, no music, only quiet natural room tone.
+CONSTRAINTS: Photorealistic smartphone UGC look, natural light, real skin texture. No text, no captions, no logos, no brand names on any object, no extra people, no morphing, no slow motion.
+TIMELINE:
+0.0-3.0 s, shot 1 (@Image1): in the shower she squeezes thick white conditioner from the plain white bottle into her left palm, looks at it, then closes the bottle.
+3.0-5.5 s, shot 2 (@Image2): standing in the bedroom she looks into the lens, picks up a frizzy dry strand between two fingers, lets it drop, puzzled annoyed face.
+5.5-9.0 s, shot 3 (@Image3): the black hair dryer blows on her hair; the fingers of her left hand get caught in a tangle, she tugs twice, frustrated.
+9.0-13.0 s, shot 4 (@Image4): under the shower she tries to separate a tangled wet strand coated with conditioner, pulls gently with both hands, it resists, she sighs.
