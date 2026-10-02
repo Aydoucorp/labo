@@ -52,5 +52,5 @@ python3 montage_soustitres.py                           # rendu complet
 ## Sorties
 
 - `sorties/claire-mauvais-apres-shampoing-fr_v1.mp4` (bandeaux noirs, remplacée)
-- `sorties/claire-mauvais-apres-shampoing-fr_v2.mp4` (bandeaux terracotta + hook rouge, en attente de validation)
+- `sorties/claire-mauvais-apres-shampoing-fr_v2.mp4` (bandeaux terracotta + hook rouge, validée : copiée dans `retenues/` et dans `creas/full-b-roll-artiste/2026-10-02_full-b-roll-artiste_002.mp4`)
 - `sorties/planche-contact_v1.jpg`, `sorties/planche-contact_v2.jpg`

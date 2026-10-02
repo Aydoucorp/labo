@@ -21,7 +21,7 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | zack-d-style | 000 |
 | le-montage | 000 |
 | talking-head | 001 |
-| full-b-roll-artiste | 001 |
+| full-b-roll-artiste | 002 |
 | ugc-humain | 000 |
 
 ## Historique
@@ -32,3 +32,4 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | `2026-09-28_talking-head_001.mp4` | talking-head | 2026-09-28 | 001 | Claire · cheveux gris et carences (CTA « GUIDE »), version 2 voix off | `runs/2026-09-28_claire-cheveux-gris-carences_talking-head/` | 56,4 s · 9:16 · 1080×1920 |
 | `2026-09-30_papercut_002.mp4` | papercut | 2026-09-30 | 002 | Claire · remèdes naturels notés sur 10 (CTA abonnement) | `runs/2026-09-30_claire-remedes-naturels_papercut/` | 42,2 s · 9:16 · 1080×1920 |
 | `2026-10-01_full-b-roll-artiste_001.mp4` | full-b-roll-artiste | 2026-10-01 | 001 | Claire · arrêter le minoxidil sans perdre ses cheveux (CTA « Guide ») | `runs/2026-10-01_claire-minoxidil-arret_full-broll/` | 79,6 s · 9:16 · 1080×1920 |
+| `2026-10-02_full-b-roll-artiste_002.mp4` | full-b-roll-artiste | 2026-10-02 | 002 | Claire · signes du mauvais après-shampoing, vidéo TikTok tierce sous-titrée en FR (hook rouge, bandeaux terracotta) + motion CTA « Commente GUIDE » | `runs/2026-10-02_claire-mauvais-apres-shampoing_sous-titres-fr/` | 30,0 s · 9:16 · 1080×1920 |

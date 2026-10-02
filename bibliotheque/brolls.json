@@ -1918,6 +1918,44 @@
    "duree_s": 4.0,
    "format": "1080x1920",
    "id": "br-0058"
+  },
+  {
+   "fichier": "runs/2026-10-02_claire-mauvais-apres-shampoing_sous-titres-fr/source/original_trendtrack_7689539918963510559.mp4",
+   "original": "TikTok 7689539918963510559 (trouvée via Trendtrack), créatrice tierce, sous-titres anglais incrustés en haut",
+   "type": "video",
+   "origine": "stock",
+   "style": "UGC salle de bain, lumière naturelle",
+   "marque": "aucune (vidéo tierce)",
+   "description": "Femme aux cheveux longs blonds. 0-9 s : après-shampoing versé dans la main, application sous la douche, démêlage aux doigts des mèches mouillées. 9-11 s : cheveux secs et frisottés face caméra. 11-13 s : doigts accrochés pendant le séchage au sèche-cheveux. 13-15 s : mèches mouillées emmêlées sous la douche. 15-17 s : petits nœuds montrés entre les doigts. 17-19 s : brossage difficile. 19-21 s : longueurs sèches et raides. 21-22 s : gros plan pointes emmêlées. 22-25 s : cheveux lourds et plats tenus des deux mains. 25-26 s : brossage de longueurs brillantes ondulées (résultat).",
+   "mots_cles": [
+    "apres-shampoing",
+    "conditioner",
+    "douche",
+    "demelage",
+    "noeuds",
+    "cheveux secs",
+    "seche-cheveux",
+    "brossage",
+    "cheveux gras",
+    "cheveux longs",
+    "pointes abimees",
+    "resultat brillant"
+   ],
+   "notes": "Vidéo d'une autre créatrice : vérifier les droits avant réutilisation en pub payante. Ses sous-titres anglais sont incrustés (à masquer).",
+   "usages": [
+    {
+     "run": "runs/2026-10-02_claire-mauvais-apres-shampoing_sous-titres-fr",
+     "plan": "video entiere",
+     "debut": 0,
+     "fin": 25.4,
+     "phrase": "voici les signes que vous utilisez le mauvais après-shampoing... (vidéo entière, sous-titres FR)"
+    }
+   ],
+   "duree_s": 26.47,
+   "format": "720x1280",
+   "id": "br-0059",
+   "modele": null,
+   "cout_credits": null
   }
  ]
 }
