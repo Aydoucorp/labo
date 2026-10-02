@@ -101,6 +101,7 @@ Ne vont pas dans Drive (ils sont sur GitHub) : code et scripts, références tec
 | bibliotheque | `1yxN95-FEXf-TRK352fpooRQy2H17Ppdc` |
 | skills/ugc-humain-v1 | `1CUis4MBwfmkxGsEiiIGBpD_ng2wUlxy6` |
 | creas/ugc-humain | `1ZAAn3Sl58nbkPPi5XTmCE_Eit2pOleSQ` |
+| runs/2026-10-02_claire-apres-shampoing_ugc-humain | `1uveRPNOsNA4M8L-QgRKdYi9Ia7UpnGIe` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
