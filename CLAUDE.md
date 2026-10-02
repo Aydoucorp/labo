@@ -103,7 +103,7 @@ Ne vont pas dans Drive (ils sont sur GitHub) : code et scripts, références tec
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
 - Pour modifier un fichier déjà présent dans Drive : téléverser la nouvelle version dans le même dossier, puis mettre l'ancienne à la corbeille (l'outil Drive ne remplace pas le contenu).
 - Les photos produit déposées par l'utilisateur dans Drive (`refs/produits/<produit>/`) sont la source : les rapatrier ici avant de travailler.
-- Les images, l'audio et la vidéo ne passent pas par l'outil Drive (trop lourds) : les envoyer à l'utilisateur avec SendUserFile et le lui signaler, pour qu'il les dépose lui-même dans Drive.
+- Les images, l'audio et la vidéo ne passent pas par l'outil Drive (trop lourds) : les téléverser avec `python3 scripts/drive_upload.py <fichier> --dossier <ID> --remplacer` (API Google Drive, clés `GDRIVE_CLIENT_ID`, `GDRIVE_CLIENT_SECRET`, `GDRIVE_REFRESH_TOKEN` dans l'environnement ou `.env`). Toute créa finale est téléversée dans `creas/<concept>/`. Si les clés manquent : SendUserFile, et l'utilisateur dépose lui-même.
 
 ## Clés API et secrets
 
