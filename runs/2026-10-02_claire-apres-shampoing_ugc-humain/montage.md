@@ -9,3 +9,5 @@
 - Contrôles : 10 images de contrôle (un plan chacune), textes lisibles et hors zones de l'interface, identité de Claire constante, aucune marque visible.
 - Plans découpés pour la bibliothèque : `retenues/plans/01.mp4` à `10.mp4` (bibliothèque br-0059 à br-0068).
 - Point d'attention : la musique est protégée par des droits ; acceptable pour un test, à remplacer par un son commercial de TikTok pour une diffusion payante.
+
+- Version 4 (demande de l'utilisateur) : plans 3 et 4 raccourcis au maximum par le début (on garde 2,0 s et 2,4 s, le temps de lire le texte), plan 5 un peu plus coupé (0,80 s). Durée 24,9 s. Le plan 3 reste peu animé par nature (clip Seedance) : à régénérer si besoin.
