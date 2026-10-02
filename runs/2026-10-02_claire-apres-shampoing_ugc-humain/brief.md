@@ -36,6 +36,12 @@
 - Pas de promesse de résultat ni d'avant/après garanti : le dernier plan montre un geste calme, pas une transformation.
 - Pas de marque d'après-shampoing visible (flacon neutre).
 
+## Modèles du skill
+
+- Portraits : GPT Image 2 (retouche à partir de l'avatar de Claire en référence). Soul seulement pour un nouveau casting.
+- Vidéo : Seedance 2.5 (KIE `bytedance/seedance-2-5`). Tarifs relevés le 2026-10-02 : 480p 28 cr/s, 720p 63 cr/s, 1080p 158 cr/s sans vidéo de référence ; 17, 38 et 95 cr/s avec une vidéo de référence.
+- GPT Image 2 : 1K 6 cr, 2K 10 cr, 4K 16 cr.
+
 ## Générations
 
 Aucune lancée. Format, résolution et budget à valider par l'utilisateur.
