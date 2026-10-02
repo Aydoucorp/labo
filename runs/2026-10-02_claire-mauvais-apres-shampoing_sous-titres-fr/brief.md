@@ -36,7 +36,7 @@ Concept : montage léger sur une vidéo existante (skill création full b-roll a
 ## Réglages
 
 - Sortie 1080×1920, 30 i/s, H.264 CRF 18, AAC 192 kb/s, durée 30,0 s. Agrandissement Lanczos depuis la source 720×1280.
-- Bandeaux : noir opaque, coins arrondis 26 px, TikTok Sans SemiBold 60 px, interligne 72 px, largeur de texte max 860 px, lignes équilibrées. Chaque bandeau couvre la boîte de son sous-titre anglais + marge (boîtes relevées dans `montage_soustitres.py`).
+- Bandeaux (v2, demande utilisateur) : terracotta `#A8553A` opaque avec texte crème `#FAF6F3` ; hook (sous-titre 1, 0 à 9,2 s) en rouge `#E0202A` avec texte blanc. v1 : noir opaque, texte blanc. Coins arrondis 26 px, TikTok Sans SemiBold 60 px, interligne 72 px, largeur de texte max 860 px, lignes équilibrées. Chaque bandeau couvre la boîte de son sous-titre anglais + marge (boîtes relevées dans `montage_soustitres.py`).
 - Son CTA apparaît à 25,43 s (image 763). Gel sur l'image 761 (25,37 s) à partir de 25,40 s, zoom lent 1,2 %/s.
 - Flou + assombrissement de 26,60 à 27,00 s (sigma jusqu'à 27, -32 % de luminosité).
 - Carte CTA à 26,85 s : carte crème `#FAF6F3`, « Commente » encre `#2E2A26`, pastille « GUIDE » terracotta `#A8553A` (pop ressort puis pulsation à 2,2 s), « pour savoir quel après-shampoing choisir », barre de commentaire qui tape « GUIDE » lettre par lettre, flèche terracotta qui rebondit vers l'icône commentaires du rail TikTok.
@@ -51,5 +51,6 @@ python3 montage_soustitres.py                           # rendu complet
 
 ## Sorties
 
-- `sorties/claire-mauvais-apres-shampoing-fr_v1.mp4` (en attente de validation)
+- `sorties/claire-mauvais-apres-shampoing-fr_v1.mp4` (bandeaux noirs, remplacée)
+- `sorties/claire-mauvais-apres-shampoing-fr_v2.mp4` (bandeaux terracotta + hook rouge, rendu en attente)
 - `sorties/planche-contact_v1.jpg`

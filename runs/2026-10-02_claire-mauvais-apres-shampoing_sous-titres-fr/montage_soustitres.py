@@ -42,6 +42,7 @@ CAPS = [
 ]
 
 CREME, CREME_F, TERRA, TERRA_C, PRUNE, ENCRE = "#FAF6F3", "#EFE7E0", "#A8553A", "#C9805F", "#7A4351", "#2E2A26"
+ROUGE_HOOK = "#E0202A"  # rouge hook du skill (montage-rules.md)
 
 def font(w, size):
     return ImageFont.truetype(str(FONTS / f"TikTokSans-{w}.ttf"), size)
@@ -66,8 +67,9 @@ def wrap(draw, text, f, maxw):
             return [" ".join(l) for l in best[1]]
     return [text]
 
-def caption_layer(text, box):
-    """Bandeau opaque noir arrondi + texte blanc, couvrant ses sous-titres."""
+def caption_layer(text, box, fill=None, ink=None):
+    """Bandeau opaque arrondi (terracotta, rouge pour le hook) couvrant ses sous-titres."""
+    fill, ink = fill or TERRA, ink or CREME
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img)
     f = font(600, 60)
@@ -80,11 +82,11 @@ def caption_layer(text, box):
     bw = max(tw + 64, (x1 - x0) + 40)
     bh = max(th + 36, (y1 - y0) + 34)
     bx0, by0 = W / 2 - bw / 2, cy - bh / 2
-    d.rounded_rectangle([bx0, by0, bx0 + bw, by0 + bh], radius=26, fill=(0, 0, 0, 255))
+    d.rounded_rectangle([bx0, by0, bx0 + bw, by0 + bh], radius=26, fill=fill)
     ty = cy - th / 2
     for l in lines:
         lw = d.textlength(l, font=f)
-        d.text((W / 2 - lw / 2, ty + lh / 2), l, font=f, fill="white", anchor="lm")
+        d.text((W / 2 - lw / 2, ty + lh / 2), l, font=f, fill=ink, anchor="lm")
         ty += lh
     return img
 
@@ -227,7 +229,7 @@ def compose(frames, t):
     for i, (a0, a1, txt, box) in enumerate(CAPS):
         if a0 <= t < a1:
             if i not in CAP_LAYERS:
-                CAP_LAYERS[i] = caption_layer(txt, box)
+                CAP_LAYERS[i] = caption_layer(txt, box, ROUGE_HOOK, "white") if i == 0 else caption_layer(txt, box)
             img.alpha_composite(CAP_LAYERS[i])
     if t >= CARD_T:
         img.alpha_composite(motion_layer(t - CARD_T))
@@ -258,7 +260,7 @@ def main():
         return
     wav = RUN / "work/audio_final.wav"
     build_audio(wav)
-    out = OUT / "claire-mauvais-apres-shampoing-fr_v1.mp4"
+    out = OUT / "claire-mauvais-apres-shampoing-fr_v2.mp4"
     p = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24",
                           "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-i", str(wav),
                           "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p",
