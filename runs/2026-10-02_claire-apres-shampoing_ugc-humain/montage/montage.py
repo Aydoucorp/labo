@@ -1,18 +1,30 @@
-# Montage UGC humain format A : 3 clips Seedance bout à bout (1080x1920, 30 i/s, son des clips coupé),
+# Montage UGC humain format A : 10 plans tirés des 3 clips Seedance (début figé coupé) (1080x1920, 30 i/s, son des clips coupé),
 # le texte du script sur chaque plan (fichiers montage/textes/NN.txt), musique de la vidéo d'origine
 # prolongée par un fondu sur elle-même jusqu'à la fin, puis fondu de sortie.
 # Usage (depuis le dossier du run) : python3 montage/montage.py
 import subprocess, os
 FONT = "/home/user/labo/skills/creation-full-b-roll-artiste/assets/remotion/public/fonts/Montserrat-Bold.ttf"
 CLIPS = ["sorties/clips/A-v1.mp4", "sorties/clips/B-v1.mp4", "sorties/clips/C-v1.mp4"]
-# coupes mesurées (scdet) dans chaque clip, en secondes depuis le début du film
-COUPES = [0, 2.625, 5.333, 9.167, 13.042, 13.042 + 2.958, 13.042 + 4.792, 13.042 + 7.042, 24.083, 24.083 + 3.667, 31.125]
+# plans : (clip, début, fin) mesurés par scdet dans chaque clip Seedance
+PLANS = [(0, 0, 2.625), (0, 2.625, 5.333), (0, 5.333, 9.167), (0, 9.167, 13.042),
+         (1, 0, 2.958), (1, 2.958, 4.792), (1, 4.792, 7.042), (1, 7.042, 11.042),
+         (2, 0, 3.667), (2, 3.667, 7.042)]
+# démarrage figé de Seedance (image de départ tenue avant le geste), relevé à l'œil plan par plan : on le coupe
+GEL = [0.33, 0.33, 0.25, 0.25, 0.50, 0.42, 0.42, 0.25, 0.25, 0.17]
+COUPES = [0.0]
+for (c, a, b), g in zip(PLANS, GEL):
+    COUPES.append(round(COUPES[-1] + (b - a - g), 3))
 DUREE = COUPES[-1]
+# les textes suivent les coupes réellement mesurées (scdet) dans le film rendu, pour éviter l'arrondi d'une image
+COUPES_MESUREES = [2.3, 4.667, 8.267, 11.9, 14.367, 15.733, 17.6, 21.333, 24.767]
+if len(COUPES_MESUREES) == 9:
+    COUPES = [0.0] + COUPES_MESUREES + [DUREE]
 MUSIQUE = "audio/musique-originale.m4a"
 REPRISE, FONDU = 6.0, 1.5   # la musique (26,5 s) repart de 6 s avec un fondu enchaîné pour couvrir 31 s
 
-v = "".join(f"[{i}:v]scale=1080:1920:flags=lanczos,fps=30,setsar=1[v{i}];" for i in range(3))
-v += "[v0][v1][v2]concat=n=3:v=1:a=0[base]"
+v = "".join(f"[{c}:v]trim={a + g:.3f}:{b:.3f},setpts=PTS-STARTPTS,scale=1080:1920:flags=lanczos,fps=30,setsar=1[p{k}];"
+            for k, ((c, a, b), g) in enumerate(zip(PLANS, GEL)))
+v += "".join(f"[p{k}]" for k in range(10)) + "concat=n=10:v=1:a=0[base]"
 txt, cur = [], "base"
 for k in range(10):
     a, b = COUPES[k], COUPES[k + 1]
@@ -30,7 +42,7 @@ cmd = ["ffmpeg", "-v", "error", "-y"]
 for c in CLIPS: cmd += ["-i", c]
 cmd += ["-i", MUSIQUE, "-i", MUSIQUE, "-filter_complex", fc, "-map", f"[{cur}]", "-map", "[aud]",
         "-t", f"{DUREE:.3f}", "-c:v", "libx264", "-preset", "slow", "-crf", "18", "-pix_fmt", "yuv420p",
-        "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "retenues/claire-apres-shampoing-ugc-v1.mp4"]
+        "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "retenues/claire-apres-shampoing-ugc-v3.mp4"]
 os.makedirs("retenues", exist_ok=True)
 subprocess.run(cmd, check=True)
-print("retenues/claire-apres-shampoing-ugc-v1.mp4")
+print("retenues/claire-apres-shampoing-ugc-v3.mp4")
