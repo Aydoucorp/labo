@@ -1,0 +1,4 @@
+# fichiers lourds ou intermédiaires, régénérables avec les scripts du run
+work/efface.mkv
+work/audio_final.wav
+work/*.log
