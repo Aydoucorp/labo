@@ -44,4 +44,17 @@
 
 ## Générations
 
-Aucune lancée. Format, résolution et budget à valider par l'utilisateur.
+Choix de l'utilisateur (2026-10-02) : format A (plans muets, textes et musique ajoutés au montage, musique reprise de la vidéo d'origine), images 1K, vidéo 720p.
+
+### Portraits (étape 1)
+
+- Modèle : GPT Image 2 image vers image (`gpt-image-2-image-to-image`), 1K, 9:16, référence `Claire/avatar/avatar-face.jpg`. Script : `python3 scripts/kie_image.py --model gpt-image-2-image-to-image --prompt-file prompts/img/<plan>.txt --ref Claire/avatar/avatar-face.jpg --out sorties/portraits/<plan>-v<n>.png --ratio 9:16 --resolution 1K`
+- Prompts : `prompts/img/<plan>.txt` (scène du plan + bloc d'identité et de réalisme commun).
+- Incidents : plan 01 refusé une fois par le filtre de contenu (douche en brassière, 0 cr) puis refait en débardeur noir ; 03, 04, 09 relancés après une erreur d'envoi temporaire.
+- Retouches : 05, 06, 08 refaits en v2 (sourire contraire au texte, expression agacée demandée).
+- Retenus : 01 v1, 02 v1, 03 v1, 04 v1, 05 v2, 06 v2, 07 v1, 08 v2, 09 v1, 10 v1. Planche : `sorties/portraits/planche-portraits-v2.jpg`.
+- Coût : 13 images x 6 cr = 78 cr.
+
+### Vidéo (étape 2)
+
+En attente de la validation des portraits et d'une recharge de crédits (Seedance 2.5 720p, environ 30 s, environ 1 890 cr).
