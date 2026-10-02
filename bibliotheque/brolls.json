@@ -1956,6 +1956,42 @@
    "id": "br-0059",
    "modele": null,
    "cout_credits": null
+  },
+  {
+   "fichier": "runs/2026-10-02_claire-chute-40-ans_sous-titres-fr/source/original_pure-batana76.mp4",
+   "original": "TikTok « Video by pure.batana76 », créatrice tierce, textes anglais incrustés en haut, flacon Batana visible à partir de 11,73 s",
+   "type": "video",
+   "origine": "stock",
+   "style": "UGC vue de dessus, lumière intérieure",
+   "marque": "aucune (vidéo tierce)",
+   "duree_s": 14.79,
+   "format": "720x1280",
+   "description": "Femme d'environ 40 ans filmée du dessus, raie clairsemée puis repousse. 0-3 s : jour 1, application d'huile au compte-gouttes sur la raie, mains sur le crâne. 3-5,5 s : jour 14, huile sur la raie, massage. 5,6-9 s : jour 90, huile, massage, cheveux plus denses. 9,7-11,7 s : jour 180, tresse épi dense (résultat). Fondus au noir entre les étapes. À partir de 11,73 s : flacon Batana montré (à couper).",
+   "mots_cles": [
+    "avant apres",
+    "chute de cheveux",
+    "repousse",
+    "raie clairsemee",
+    "huile cheveux",
+    "compte-gouttes",
+    "massage cuir chevelu",
+    "40 ans",
+    "tresse",
+    "resultat"
+   ],
+   "notes": "Vidéo d'une autre créatrice : vérifier les droits avant réutilisation en pub payante. Textes anglais incrustés (à masquer). Produit visible à la fin.",
+   "usages": [
+    {
+     "run": "runs/2026-10-02_claire-chute-40-ans_sous-titres-fr",
+     "plan": "video entiere",
+     "debut": 0,
+     "fin": 11.7,
+     "phrase": "La chute de cheveux à 40 ans, c'est terrifiant (vidéo entière, bandeaux FR)"
+    }
+   ],
+   "id": "br-0060",
+   "modele": null,
+   "cout_credits": null
   }
  ]
 }
