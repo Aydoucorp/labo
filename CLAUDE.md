@@ -42,7 +42,7 @@ Exemple : `runs/2026-09-24_serviette-microfibre_statiques-meta/`
 
 ## Créas finales
 
-- Chaque créa finale validée est copiée dans `creas/<concept>/` (dossiers : papercut, claymotion, disney, jouet, talking-object, tableau-blanc, low-poly-cinema, humain-penseur, clip-musical, zack-d-style, le-montage, talking-head, full-b-roll-artiste). Un nouveau concept = un nouveau dossier, ici et dans Drive.
+- Chaque créa finale validée est copiée dans `creas/<concept>/` (dossiers : papercut, claymotion, disney, jouet, talking-object, tableau-blanc, low-poly-cinema, humain-penseur, clip-musical, zack-d-style, le-montage, talking-head, full-b-roll-artiste, ugc-humain). Un nouveau concept = un nouveau dossier, ici et dans Drive.
 - Nom : `AAAA-MM-JJ_<concept>_<NNN>.<ext>` : date de création, concept, numéro de la vidéo sur ce concept sur 3 chiffres (001, 002…), jamais remis à zéro.
 - Avant de nommer, lire `creas/registre.md`, prendre le dernier numéro du concept + 1, puis mettre à jour le registre (compteur + ligne d'historique).
 - Le fichier original reste dans `runs/.../retenues/`.
@@ -98,6 +98,8 @@ Ne vont pas dans Drive (ils sont sur GitHub) : code et scripts, références tec
 | runs/2026-10-01_claire-minoxidil-arret_full-broll | `1U2Gcs3ki17bgGs9h4bUAS9HpKhXKCmJI` |
 | runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes | `1NSXnTa6orE1cKmaiKNLzlbkMXwdS-LUI` |
 | bibliotheque | `1yxN95-FEXf-TRK352fpooRQy2H17Ppdc` |
+| skills/ugc-humain-v1 | `1CUis4MBwfmkxGsEiiIGBpD_ng2wUlxy6` |
+| creas/ugc-humain | `1ZAAn3Sl58nbkPPi5XTmCE_Eit2pOleSQ` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.

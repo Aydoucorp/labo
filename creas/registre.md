@@ -22,6 +22,7 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | le-montage | 000 |
 | talking-head | 001 |
 | full-b-roll-artiste | 001 |
+| ugc-humain | 000 |
 
 ## Historique
 
