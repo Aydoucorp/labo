@@ -1,6 +1,6 @@
 # Registre des créas
 
-Nom de fichier : `AAAA-MM-JJ_<concept>_<NNN>.<ext>`
+Nom de fichier : `AAAA-MM-JJ_<concept>_<NNN>.<ext>` (pour un ebook : le PDF final porte ce nom)
 - `AAAA-MM-JJ` : date de création de la créa
 - `<concept>` : nom du dossier concept (minuscules, tirets)
 - `<NNN>` : numéro de la vidéo sur ce concept, sur 3 chiffres, qui ne revient jamais à zéro (001, 002…)
@@ -23,6 +23,7 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | talking-head | 001 |
 | full-b-roll-artiste | 001 |
 | ugc-humain | 001 |
+| ebook-full-value | 000 |
 
 ## Historique
 
