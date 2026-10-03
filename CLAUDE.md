@@ -43,7 +43,7 @@ Exemple : `runs/2026-09-24_serviette-microfibre_statiques-meta/`
 
 ## Créas finales
 
-- Chaque créa finale validée est copiée dans `creas/<concept>/` (dossiers : papercut, claymotion, disney, jouet, talking-object, tableau-blanc, low-poly-cinema, humain-penseur, clip-musical, zack-d-style, le-montage, talking-head, full-b-roll-artiste, ugc-humain, ebook-full-value). Un nouveau concept = un nouveau dossier, ici et dans Drive.
+- Chaque créa finale validée est copiée dans `creas/<concept>/` (dossiers : papercut, claymotion, disney, jouet, talking-object, tableau-blanc, low-poly-cinema, humain-penseur, clip-musical, zack-d-style, le-montage, talking-head, full-b-roll-artiste, ugc-humain, ebook). Un nouveau concept = un nouveau dossier, ici et dans Drive.
 - Nom : `AAAA-MM-JJ_<concept>_<NNN>.<ext>` : date de création, concept, numéro de la vidéo sur ce concept sur 3 chiffres (001, 002…), jamais remis à zéro.
 - Avant de nommer, lire `creas/registre.md`, prendre le dernier numéro du concept + 1, puis mettre à jour le registre (compteur + ligne d'historique).
 - Le fichier original reste dans `runs/.../retenues/`.
@@ -103,7 +103,8 @@ Ne vont pas dans Drive (ils sont sur GitHub) : code et scripts, références tec
 | creas/ugc-humain | `1ZAAn3Sl58nbkPPi5XTmCE_Eit2pOleSQ` |
 | runs/2026-10-02_claire-apres-shampoing_ugc-humain | `1uveRPNOsNA4M8L-QgRKdYi9Ia7UpnGIe` |
 | skills/ebook-full-value | `1k2AxcgSLQP1N8j5qPsMHUjUV7d9ZE8K7` |
-| creas/ebook-full-value | `1AuPzkviw45WEzda_vZD5KKswE8H4wxBM` |
+| creas/ebook | `1FSOfuqxTlrpVsry0UU0rpiqX_A5BLIjx` |
+| runs/2026-10-03_claire-batana-chute-40-ans_ebook | `1S32r8GWZjwulH63HgAGBczI_xei24AZ4` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
