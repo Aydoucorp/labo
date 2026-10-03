@@ -71,3 +71,8 @@ Angle : méthode pas à pas (full astuces appliquées), déclencheur « merci, j
 ## Génération (étape 6)
 
 Modèle du skill : GPT Image 2 via KIE, 3:4. Résolution à faire choisir par l'utilisateur avant toute génération (1K 6 cr, 2K 10 cr, 4K 16 cr par page).
+
+Choix de l'utilisateur (2026-10-03) : 1K.
+
+- Commande : `python3 scripts/kie_image.py --model gpt-image-2-text-to-image --prompt-file prompts/pages/NN.txt --out sorties/pages/NN-v1.png --ratio 3:4 --resolution 1K` (le script envoie le modèle texte vers image sans `input_urls` quand il n'y a pas de référence).
+- Essai de style : page 1 (couverture) et page 8 (massage), 6 cr chacune. Textes conformes. Écarts vus : cheveux bruns en chignon page 8 (couverture en poivre et sel), signature « Claire » ajoutée page 8. Lock DA complété pour les pages suivantes (chevelure poivre et sel identique partout, signature seulement page 2).

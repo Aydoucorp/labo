@@ -16,7 +16,7 @@ DA = """BOOK PAGE DESIGN, art direction locked (identical on every page of this 
 - Lettering: titles in an elegant soft high-contrast serif with warm rounded details, terracotta or plum. Body text in a clean humanist sans-serif, ink color. The handwritten signature in a relaxed natural handwriting, terracotta. These are style instructions only, never written on the page.
 - Brand mark: at the top center of every page except the cover, the small text "Les cheveux de Claire" in the title serif, terracotta, with a tiny sage rosemary sprig to its left. Strictly identical on every page.
 - Page number: bottom center, small ink digit alone, no word, no brackets, no dash.
-- Illustration style: soft flat vector illustration with a subtle paper grain, rounded shapes, gentle shadows, botanical details (rosemary sprigs in sage), amber glass dropper bottle, hands drawn simply. Same treatment and palette on every page. No photography, no 3D.
+- Illustration style: soft flat vector illustration with a subtle paper grain, rounded shapes, gentle shadows, botanical details (rosemary sprigs in sage), amber glass dropper bottle, hands drawn simply. Whenever hair is drawn, it is always the same: wavy salt-and-pepper hair, dark brown base with irregular white strands, loose and natural (never a bun, never uniform brown). Same treatment and palette on every page. No photography, no 3D.
 - Mood: warm, calm, reassuring, a friend who looked into it. Never clinical, never an advertising look."""
 
 LOCKS = """STRICT RULES:
@@ -28,7 +28,8 @@ LOCKS = """STRICT RULES:
 6. Show the brand name exactly "Les cheveux de Claire" and the signature exactly "Claire", never translated, shortened or altered.
 7. No third-party commercial brand, no logo on bottles (plain amber bottles, plain labels).
 8. No invented number or price: only the numbers written in the quoted texts.
-9. No em dash, no en dash, no visible slash, no markdown symbol (no hash, no asterisk)."""
+9. No em dash, no en dash, no visible slash, no markdown symbol (no hash, no asterisk).
+10. The handwritten signature "Claire" appears only where it is listed in the page content, nowhere else."""
 
 PAGES = [
  {"titre": "Couverture", "num": False, "contenu": """Cover layout, no brand mark at the top and no page number.

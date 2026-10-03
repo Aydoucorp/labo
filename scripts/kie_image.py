@@ -3,7 +3,7 @@
 
 Usage :
   python3 scripts/kie_image.py --prompt-file p.txt --out sorties/x.png \
-      [--ref image.png ...] [--ratio 9:16] [--resolution 1K|2K|4K] [--model nano-banana-2|gpt-image-2-image-to-image]
+      [--ref image.png ...] [--ratio 9:16] [--resolution 1K|2K|4K] [--model nano-banana-2|gpt-image-2-image-to-image|gpt-image-2-text-to-image]
 
 - Lit KIE_API_KEY dans .env (racine du studio). La clé n'est jamais affichée.
 - Les images de référence locales sont d'abord envoyées sur le stockage temporaire KIE.
@@ -60,7 +60,9 @@ def main():
     refs = [r if r.startswith("http") else upload(r) for r in a.ref]
     prompt = pathlib.Path(a.prompt_file).read_text()
     if a.model.startswith("gpt-image-2"):
-        inp = {"prompt": prompt, "input_urls": refs, "aspect_ratio": a.ratio, "resolution": a.resolution}
+        inp = {"prompt": prompt, "aspect_ratio": a.ratio, "resolution": a.resolution}
+        if refs:  # sans référence : modèle texte vers image (gpt-image-2-text-to-image)
+            inp["input_urls"] = refs
     else:
         inp = {"prompt": prompt, "image_input": refs, "aspect_ratio": a.ratio,
                "resolution": a.resolution, "output_format": "png"}
