@@ -1,0 +1,43 @@
+BOOK PAGE DESIGN, art direction locked (identical on every page of this 11-page ebook, as if made by the same hand):
+- Format: portrait 3:4 digital book page, read on a phone. Generous margins, airy layout, clear hierarchy, large readable text.
+- Background: warm cream #FAF6F3 on the whole page. Cards and separators: darker cream #EFE7E0 with softly rounded corners.
+- Colors, exact hex only: terracotta #A8553A (titles, numbers, key accents), light terracotta #C9805F (badges, small flat shapes), plum #7A4351 (secondary accents, strong contrast), ink #2E2A26 (all body text). Silver #B4ADA4 and sage #8C9B86 are decorative only (leaves, thin lines) and never carry text.
+- Lettering: titles in an elegant soft high-contrast serif with warm rounded details, terracotta or plum. Body text in a clean humanist sans-serif, ink color. The handwritten signature in a relaxed natural handwriting, terracotta. These are style instructions only, never written on the page.
+- Brand mark: at the top center of every page except the cover, the small text "Les cheveux de Claire" in the title serif, terracotta, with a tiny sage rosemary sprig to its left. Strictly identical on every page.
+- Page number: bottom center, small ink digit alone, no word, no brackets, no dash.
+- Illustration style: soft flat vector illustration with a subtle paper grain, rounded shapes, gentle shadows, botanical details (rosemary sprigs in sage), amber glass dropper bottle, hands drawn simply. Same treatment and palette on every page. No photography, no 3D.
+- Mood: warm, calm, reassuring, a friend who looked into it. Never clinical, never an advertising look.
+
+STRICT RULES:
+1. All text is in French with correct accents. Do not translate any word. Copy every quoted text exactly, character for character.
+2. Show ONLY the quoted texts listed below. Add no other text, slogan, tip, badge, label or watermark.
+3. Show no organizational element: no page number in brackets, no technical title, no section label, no layout note.
+4. Never write the name of a font.
+5. Draw no human face, no head, no person seen from the front. Hands and the top of a head of hair seen from above are allowed.
+6. Show the brand name exactly "Les cheveux de Claire" and the signature exactly "Claire", never translated, shortened or altered.
+7. No third-party commercial brand, no logo on bottles (plain amber bottles, plain labels).
+8. No invented number or price: only the numbers written in the quoted texts.
+9. No em dash, no en dash, no visible slash, no markdown symbol (no hash, no asterisk).
+
+PAGE CONTENT (Couverture):
+Cover layout, no brand mark at the top and no page number.
+- Top: small rounded badge in light terracotta #C9805F with cream text: "LE GUIDE OFFERT"
+- Big title, terracotta, on two lines: "Romarin et massage"
+- Under it, in plum, slightly smaller: "La méthode complète pour ton cuir chevelu"
+- Subtitle, ink: "Le rituel pas à pas, et ce que disent vraiment les études"
+- Three small pill badges in a row, darker cream with ink text: "Sourcé" "5 minutes par jour" "Pas à pas"
+- Central illustration: an amber glass dropper bottle lying among fresh rosemary sprigs, a few golden oil drops, two simple hands gently massaging the top of a head of wavy salt-and-pepper hair seen from above (no face).
+- Bottom, warm line in plum: "Offert avec le cœur par Les cheveux de Claire"
+
+FINAL REMINDER, apply strictly:
+STRICT RULES:
+1. All text is in French with correct accents. Do not translate any word. Copy every quoted text exactly, character for character.
+2. Show ONLY the quoted texts listed below. Add no other text, slogan, tip, badge, label or watermark.
+3. Show no organizational element: no page number in brackets, no technical title, no section label, no layout note.
+4. Never write the name of a font.
+5. Draw no human face, no head, no person seen from the front. Hands and the top of a head of hair seen from above are allowed.
+6. Show the brand name exactly "Les cheveux de Claire" and the signature exactly "Claire", never translated, shortened or altered.
+7. No third-party commercial brand, no logo on bottles (plain amber bottles, plain labels).
+8. No invented number or price: only the numbers written in the quoted texts.
+9. No em dash, no en dash, no visible slash, no markdown symbol (no hash, no asterisk).
+Same art direction, colors, lettering, brand mark position and page number position as every other page of the book.

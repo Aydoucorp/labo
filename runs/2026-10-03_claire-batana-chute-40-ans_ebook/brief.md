@@ -28,6 +28,46 @@ Huile utilisée selon l'utilisateur : huile de batana. Le reel suggère une prog
 - Chute à 40 ans : périménopause (fluctuations hormonales), effluvium télogène (stress, maladie, régime), carence en fer (ferritine basse), troubles thyroïdiens ; bilan sanguin conseillé (PMC7394174, PMC10766245, PMC12839778).
 - À approfondir : massage du cuir chevelu, huile de romarin, minoxidil (traitement validé chez la femme), délais du cycle du cheveu, quand consulter.
 
-## Point à trancher avec l'utilisateur
+## Décision de l'utilisateur (2026-10-03)
 
-Le brand DNA interdit « stopper la chute », « miracle » et tout avant/après qui laisse croire à une garantie ; le skill impose la vérité sourcée. L'ebook ne peut donc pas présenter la batana comme « la solution ».
+« Fais un ebook full valuable et full méthode d'application pour l'huile de romarin + massage de cuir chevelu. » La batana n'est plus présentée comme la solution : elle peut servir d'huile de base du mélange (soin hydratant), le cœur du guide est le romarin et le massage.
+
+## Deep research (étape 2)
+
+| Point | Ce qu'on retient | Source |
+|---|---|---|
+| Huile de romarin | Essai randomisé, 100 personnes (alopécie androgénétique, hommes), 6 mois, 2 applications par jour : hausse du nombre de cheveux à 6 mois, sans différence avec le minoxidil 2 %. Dilution très faible (environ 1 goutte pour 8 mL d'huile). Limites : petite étude, hommes, comparateur à 2 % et non 5 %, critiques méthodologiques (Lab Muffin). | Panahi et coll., Skinmed 2015;13(1):15-21 ; [Lab Muffin](https://labmuffin.com/does-rosemary-oil-work-for-hair-growth-the-science/) |
+| Mécanisme romarin | Extrait de feuille de romarin : inhibition de la 5-alpha-réductase et repousse chez la souris (pas chez l'humain, extrait et non huile essentielle). Non affiché dans l'ebook. | Murata et coll., Phytother Res 2013, [PubMed 22517595](https://pubmed.ncbi.nlm.nih.gov/22517595/) |
+| Femmes | Pas encore d'essai clinique solide sur l'huile de romarin chez la femme. Dit honnêtement page 4. | [Medical News Today](https://www.medicalnewstoday.com/articles/319444), [PMC12689892](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12689892/) |
+| Massage | 9 hommes, 4 min par jour (appareil), 24 semaines : épaisseur du cheveu 0,085 à 0,092 mm ; baisse passagère du nombre de cheveux à 12 semaines, disparue à 24. | Koyama et coll., Eplasty 2016 |
+| Massage, ressenti | Enquête, 327 personnes, 11 à 20 min par jour en médiane, 7,4 mois en moyenne : 68,9 % disent une stabilisation ou une repousse (autodéclaré, auteur lié à la méthode). | English et Barazesh, Dermatol Ther 2019, [doi 10.1007/s13555-019-0281-6](https://doi.org/10.1007/s13555-019-0281-6) |
+| Sécurité | Jamais pure, dilution prudente (environ 1 %), test cutané, pas d'huile essentielle enceinte, allaitante, épileptique (camphre), cuir chevelu lésé. Automédication par huiles essentielles déconseillée pendant la grossesse (ANSM). | Synthèses de sécurité aromathérapie ; ANSM |
+| Chute normale | 50 à 100 cheveux par jour. Pousse d'environ 1 cm par mois. | American Academy of Dermatology |
+| Quand consulter | Chute brutale, par plaques, cuir chevelu douloureux, fatigue : médecin, bilan fer (ferritine) et thyroïde. | PMC7394174, PMC10766245, PMC12839778 |
+
+Pièges écartés : promesse de repousse, avant/après, dosages forts « maison » des réseaux, huile pure sur le cuir chevelu, eau de romarin présentée comme prouvée.
+
+## Angle et plan (étape 3)
+
+Angle : méthode pas à pas (full astuces appliquées), déclencheur « merci, je sais exactement quoi faire ». 11 pages (le cœur méthode demande 6 pages).
+
+1. Couverture : « Romarin et massage, la méthode complète pour ton cuir chevelu »
+2. Mot d'intro signé Claire
+3. Reframe : 50 à 100 cheveux par jour, « Ton cuir chevelu n'a pas besoin d'un miracle. Il a besoin de régularité. »
+4. Ce que disent vraiment les études (romarin, massage, ressenti) + avis honnête
+5. Ton mélange maison (1 goutte pour 10 mL au début, 2 au maximum)
+6. Les règles de sécurité + quand consulter
+7. L'application pas à pas
+8. Le massage de 5 minutes (5 gestes d'une minute)
+9. Ton calendrier sur 6 mois
+10. Le mémo (4 cartes)
+11. À toi de jouer (le geste de ce soir) + Instagram
+
+## Contenu et prompts (étapes 4 et 5)
+
+- Textes exacts : `contenu.md`. Prompts : `prompts/pages/01.txt` à `11.txt`, générés par `work/ecrire_prompts.py` (lock DA identique, verrous en tête et en rappel final).
+- DA : fond crème #FAF6F3, cartes #EFE7E0, terracotta #A8553A, terracotta clair #C9805F, prune #7A4351, encre #2E2A26, argent et sauge décoratifs seulement. Titres serif (Fraunces), texte sans serif (Source Sans 3). Brand mark texte « Les cheveux de Claire » + brin de romarin en haut au centre (sauf couverture), numéro en bas au centre. Illustration vectorielle douce, grain papier, aucun visage (mains et chevelure vue de dessus seulement).
+
+## Génération (étape 6)
+
+Modèle du skill : GPT Image 2 via KIE, 3:4. Résolution à faire choisir par l'utilisateur avant toute génération (1K 6 cr, 2K 10 cr, 4K 16 cr par page).
