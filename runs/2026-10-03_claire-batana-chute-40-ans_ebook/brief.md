@@ -85,3 +85,11 @@ Choix de l'utilisateur (2026-10-03) : 1K.
 - v2 (pages 1 et 8) : faute « complètte » sur la couverture et signature « Claire » ajoutée malgré le verrou. Correction : badge « 10 minutes le soir », ligne « pas de signature sur cette page » ajoutée à tous les prompts sauf la page 2.
 - v3 (pages 1 et 8) : textes exacts, chevelure poivre et sel, aucune signature parasite. Proposées à la validation.
 - Coût à ce stade : 6 images x 6 cr = 36 cr.
+
+### Génération complète (2026-10-03, style validé par l'utilisateur : « je valide go »)
+
+- Pages 2, 3, 4, 5, 6, 7, 9, 10, 11 générées en v1 (GPT Image 2 texte vers image, 3:4, 1K).
+- Retouches : page 11 texte corrigé (« Tu n'as pas besoin d'attendre d'avoir tout acheté » contredisait « prépare ton flacon », remplacé par « Pas besoin d'attendre le bon moment. Le bon moment, c'est ce soir. ») ; page 9 v1 avec « 1. cm » ; page 5 v1 et les v2 de 5, 9, 11 sorties en 880x1184 avec une typo plus fine que le reste du livre. Relancées en v3 (1086x1448, typo homogène).
+- Retenues (`retenues/pages/NN.png`) : 01 v3, 02 v1, 03 v1, 04 v1, 05 v3, 06 v1, 07 v1, 08 v3, 09 v3, 10 v1, 11 v3. Planche : `sorties/planche-pages.jpg`.
+- PDF : `retenues/rituel-romarin-massage-web.pdf` (1,2 Mo, 800 px, pour l'envoi en message privé) et `retenues/rituel-romarin-massage-hq.pdf` (4,5 Mo, pleine résolution, JPEG qualité 93, page 150 x 200 mm).
+- Coût total : 21 images x 6 cr = 126 cr (environ 0,63 $).

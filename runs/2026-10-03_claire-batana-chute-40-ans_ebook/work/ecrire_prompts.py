@@ -134,7 +134,7 @@ PAGES = [
 - Card 4 title: "La patience" text, ink: "On juge à 6 mois, photos à l'appui.\""""},
  {"titre": "À toi de jouer", "contenu": """Closing page, warm and encouraging.
 - Title, terracotta: "À toi de jouer"
-- Text, ink: "Tu n'as pas besoin d'attendre d'avoir tout acheté pour commencer."
+- Text, ink: "Pas besoin d'attendre le bon moment. Le bon moment, c'est ce soir."
 - Highlighted card, terracotta background #A8553A with cream text, label then action:
   "Ce soir" 
   "Prépare ton flacon et fais le test du pli du coude. Dans 48 heures, ton premier rituel complet, huile et massage."

@@ -116,7 +116,7 @@ text, ink: "Compare tes photos. C'est le premier vrai moment pour juger."
 ## Page 11 : À toi de jouer
 
 - Title, terracotta: "À toi de jouer"
-- Text, ink: "Tu n'as pas besoin d'attendre d'avoir tout acheté pour commencer."
+- Text, ink: "Pas besoin d'attendre le bon moment. Le bon moment, c'est ce soir."
 "Ce soir"
 "Prépare ton flacon et fais le test du pli du coude. Dans 48 heures, ton premier rituel complet, huile et massage."
 - Text, ink: "Et si ta chute t'inquiète, parler à ton médecin, c'est aussi prendre soin de tes cheveux."
