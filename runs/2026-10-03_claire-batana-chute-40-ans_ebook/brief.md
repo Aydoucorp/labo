@@ -49,6 +49,8 @@ Pièges écartés : promesse de repousse, avant/après, dosages forts « maison 
 
 ## Angle et plan (étape 3)
 
+Plan initial, avant la fusion huile + massage demandée par l'utilisateur (titres finaux : voir « Retour de l'utilisateur » plus bas et `contenu.md`).
+
 Angle : méthode pas à pas (full astuces appliquées), déclencheur « merci, je sais exactement quoi faire ». 11 pages (le cœur méthode demande 6 pages).
 
 1. Couverture : « Romarin et massage, la méthode complète pour ton cuir chevelu »
@@ -93,3 +95,7 @@ Choix de l'utilisateur (2026-10-03) : 1K.
 - Retenues (`retenues/pages/NN.png`) : 01 v3, 02 v1, 03 v1, 04 v1, 05 v3, 06 v1, 07 v1, 08 v3, 09 v3, 10 v1, 11 v3. Planche : `sorties/planche-pages.jpg`.
 - PDF : `retenues/rituel-romarin-massage-web.pdf` (1,2 Mo, 800 px, pour l'envoi en message privé) et `retenues/rituel-romarin-massage-hq.pdf` (4,5 Mo, pleine résolution, JPEG qualité 93, page 150 x 200 mm).
 - Coût total : 21 images x 6 cr = 126 cr (environ 0,63 $).
+
+## Créa finale
+
+Rangée dans le nouveau dossier concept `creas/ebook/` (demande de l'utilisateur : « range le dans un new dossier ebook ») : `creas/ebook/2026-10-03_ebook_001.pdf` (version web) et `2026-10-03_ebook_001-hq.pdf`. Registre mis à jour (ebook 001). Drive : dossier `creas/ebook` et dossier du run créés, PDF envoyés à l'utilisateur pour dépôt.
