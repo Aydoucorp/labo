@@ -26,12 +26,13 @@ Closing page, warm and encouraging.
 - Text, ink: "Tu n'as pas besoin d'attendre d'avoir tout acheté pour commencer."
 - Highlighted card, terracotta background #A8553A with cream text, label then action:
   "Ce soir" 
-  "Prends une photo de ta raie, puis fais ton premier massage de 5 minutes, même sans huile."
+  "Prépare ton flacon et fais le test du pli du coude. Dans 48 heures, ton premier rituel complet, huile et massage."
 - Text, ink: "Et si ta chute t'inquiète, parler à ton médecin, c'est aussi prendre soin de tes cheveux."
 - Signature line in plum serif italic: "Tes cheveux ont changé. Toi aussi."
 - Bottom, small ink text: "Retrouve-moi sur Instagram @les_cheveux_de_claire"
 - Illustration: two hands holding an amber dropper bottle with rosemary sprigs, soft and warm.
 Page number at the bottom center: "11"
+No handwritten signature anywhere on this page: the word "Claire" appears only inside the brand name.
 
 FINAL REMINDER, apply strictly:
 STRICT RULES:

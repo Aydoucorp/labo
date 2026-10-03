@@ -76,3 +76,12 @@ Choix de l'utilisateur (2026-10-03) : 1K.
 
 - Commande : `python3 scripts/kie_image.py --model gpt-image-2-text-to-image --prompt-file prompts/pages/NN.txt --out sorties/pages/NN-v1.png --ratio 3:4 --resolution 1K` (le script envoie le modèle texte vers image sans `input_urls` quand il n'y a pas de référence).
 - Essai de style : page 1 (couverture) et page 8 (massage), 6 cr chacune. Textes conformes. Écarts vus : cheveux bruns en chignon page 8 (couverture en poivre et sel), signature « Claire » ajoutée page 8. Lock DA complété pour les pages suivantes (chevelure poivre et sel identique partout, signature seulement page 2).
+
+### Retour de l'utilisateur : fusionner les solutions (2026-10-03)
+
+« Il faut que tu fusionnes les solutions : huile de romarin + massage, tu ne les dissocies pas, l'un ne va pas sans l'autre. »
+
+- Contenu réécrit autour d'un seul rituel : couverture « Le rituel romarin et massage, deux gestes qui ne vont pas l'un sans l'autre » ; page 4 « Pourquoi les deux ensemble » (avec la précision honnête qu'aucune étude n'a testé les deux ensemble) ; page 7 « Le rituel du soir, en 10 minutes » ; page 8 « Le massage qui fait pénétrer l'huile » ; mémo, calendrier et clôture sans massage « sans huile ». Le geste de clôture commence par le test des 48 heures.
+- v2 (pages 1 et 8) : faute « complètte » sur la couverture et signature « Claire » ajoutée malgré le verrou. Correction : badge « 10 minutes le soir », ligne « pas de signature sur cette page » ajoutée à tous les prompts sauf la page 2.
+- v3 (pages 1 et 8) : textes exacts, chevelure poivre et sel, aucune signature parasite. Proposées à la validation.
+- Coût à ce stade : 6 images x 6 cr = 36 cr.

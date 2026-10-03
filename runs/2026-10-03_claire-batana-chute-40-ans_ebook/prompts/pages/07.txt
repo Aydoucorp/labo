@@ -20,17 +20,19 @@ STRICT RULES:
 9. No em dash, no en dash, no visible slash, no markdown symbol (no hash, no asterisk).
 10. The handwritten signature "Claire" appears only where it is listed in the page content, nowhere else.
 
-PAGE CONTENT (L'application pas à pas):
+PAGE CONTENT (Le rituel du soir):
 Step by step page, a vertical sequence of five steps with small flat illustrations (hair seen from above, dropper on a parting line, no face).
-- Title, terracotta: "L'application, pas à pas"
+- Title, terracotta: "Le rituel du soir, en 10 minutes"
+- Subtitle, plum: "L'huile et le massage, toujours ensemble"
 - Steps, terracotta numbers in light terracotta circles, ink text:
   "1. Sur cheveux secs et démêlés, trace une raie."
   "2. Avec la pipette, dépose quelques gouttes au ras de la peau, le long de la raie."
   "3. Décale ta raie de 2 cm et recommence, sur tout le dessus de la tête."
-  "4. Masse 5 minutes, comme à la page suivante."
+  "4. Sans attendre, masse 5 minutes du bout des doigts huilés : c'est le massage qui fait pénétrer l'huile (page suivante)."
   "5. Laisse poser au moins 1 heure, ou toute la nuit avec une serviette sur l'oreiller."
 - Tip card, darker cream, ink text: "Au lavage : shampoing doux, deux passages si besoin. Une demi-cuillère à café de mélange suffit pour toute la tête."
 Page number at the bottom center: "7"
+No handwritten signature anywhere on this page: the word "Claire" appears only inside the brand name.
 
 FINAL REMINDER, apply strictly:
 STRICT RULES:

@@ -20,20 +20,21 @@ STRICT RULES:
 9. No em dash, no en dash, no visible slash, no markdown symbol (no hash, no asterisk).
 10. The handwritten signature "Claire" appears only where it is listed in the page content, nowhere else.
 
-PAGE CONTENT (Ce que disent les études):
+PAGE CONTENT (Pourquoi les deux ensemble):
 Evidence page, three stacked darker cream cards, each with a small terracotta icon (bottle, hand, speech bubble).
-- Title, terracotta: "Ce que disent vraiment les études"
+- Title, terracotta: "Pourquoi les deux ensemble"
 - Card 1 title, plum: "L'huile de romarin"
   Card 1 text, ink: "100 personnes, 6 mois, 2 applications par jour : le romarin a fait aussi bien que le minoxidil 2 % sur le nombre de cheveux."
   Card 1 small source, ink: "Panahi et coll., 2015"
 - Card 2 title, plum: "Le massage"
   Card 2 text, ink: "4 minutes de massage par jour pendant 24 semaines : des cheveux plus épais, mesurés au microscope."
   Card 2 small source, ink: "Koyama et coll., 2016"
-- Card 3 title, plum: "Le ressenti"
+- Card 3 title, plum: "Le ressenti des massages"
   Card 3 text, ink: "Sur 327 personnes qui massaient leur cuir chevelu, environ 7 sur 10 disent avoir vu leur chute se stabiliser."
   Card 3 small source, ink: "English et Barazesh, 2019"
-- Bottom honest note in a light terracotta outlined box, ink text: "Mon avis honnête : c'est prometteur, mais ces études sont petites et faites surtout chez des hommes. On teste avec patience, sans attendre de miracle."
+- Bottom honest note in a light terracotta outlined box, ink text: "Mon avis honnête : chaque piste est prometteuse, mais les études sont petites, faites surtout chez des hommes, et aucune n'a encore testé les deux ensemble. Je les réunis parce qu'elles se complètent : le massage fait pénétrer l'huile, l'huile rend le massage doux."
 Page number at the bottom center: "4"
+No handwritten signature anywhere on this page: the word "Claire" appears only inside the brand name.
 
 FINAL REMINDER, apply strictly:
 STRICT RULES:

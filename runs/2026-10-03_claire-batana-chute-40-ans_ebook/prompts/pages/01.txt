@@ -23,12 +23,13 @@ STRICT RULES:
 PAGE CONTENT (Couverture):
 Cover layout, no brand mark at the top and no page number.
 - Top: small rounded badge in light terracotta #C9805F with cream text: "LE GUIDE OFFERT"
-- Big title, terracotta, on two lines: "Romarin et massage"
-- Under it, in plum, slightly smaller: "La méthode complète pour ton cuir chevelu"
-- Subtitle, ink: "Le rituel pas à pas, et ce que disent vraiment les études"
-- Three small pill badges in a row, darker cream with ink text: "Sourcé" "5 minutes par jour" "Pas à pas"
-- Central illustration: an amber glass dropper bottle lying among fresh rosemary sprigs, a few golden oil drops, two simple hands gently massaging the top of a head of wavy salt-and-pepper hair seen from above (no face).
+- Big title, terracotta, on two lines: "Le rituel romarin et massage"
+- Under it, in plum, slightly smaller: "Deux gestes qui ne vont pas l'un sans l'autre"
+- Subtitle, ink: "La méthode complète pas à pas, et ce que disent vraiment les études"
+- Three small pill badges in a row, darker cream with ink text: "Sourcé" "10 minutes le soir" "Pas à pas"
+- Central illustration: an amber glass dropper bottle lying among fresh rosemary sprigs, a few golden oil drops, two simple hands with oiled fingertips gently massaging the top of a head of wavy salt-and-pepper hair seen from above (no face).
 - Bottom, warm line in plum: "Offert avec le cœur par Les cheveux de Claire"
+No handwritten signature anywhere on this page: the word "Claire" appears only inside the brand name.
 
 FINAL REMINDER, apply strictly:
 STRICT RULES:

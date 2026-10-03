@@ -20,18 +20,19 @@ STRICT RULES:
 9. No em dash, no en dash, no visible slash, no markdown symbol (no hash, no asterisk).
 10. The handwritten signature "Claire" appears only where it is listed in the page content, nowhere else.
 
-PAGE CONTENT (Le massage de 5 minutes):
-Massage method page, a 2 by 3 grid feel: five small step cards plus one rule card. Each step card has a simple illustration of two hands on a head of hair seen from above or from behind (no face).
-- Title, terracotta: "Le massage de 5 minutes"
-- Rule line under the title, plum: "La pulpe des doigts, jamais les ongles. Tu fais bouger la peau, pas les cheveux."
+PAGE CONTENT (Le massage qui fait pénétrer l'huile):
+Massage method page, a 2 by 3 grid feel: five small step cards plus one rule card. Each step card has a simple illustration of two hands with oiled fingertips on a head of hair seen from above or from behind (no face), a tiny golden oil drop near the parting.
+- Title, terracotta: "Le massage qui fait pénétrer l'huile"
+- Rule line under the title, plum: "Juste après avoir déposé l'huile. La pulpe des doigts, jamais les ongles. Tu fais bouger la peau, pas les cheveux."
 - Step cards, terracotta minute label then ink text:
   "1 minute" "Petits cercles des tempes vers le sommet du crâne."
   "1 minute" "Appuie, relâche, en avançant de la nuque vers le front."
   "1 minute" "Pince doucement la peau entre tes doigts et étire."
   "1 minute" "Petits cercles sur la raie et le sommet."
   "1 minute" "Mains en griffe, remonte de la nuque vers le haut."
-- Rule card, terracotta background #A8553A with cream text: "Ferme mais jamais douloureux. Et même sans huile, tous les jours."
+- Rule card, terracotta background #A8553A with cream text: "Ferme mais jamais douloureux. 5 minutes, chaque fois que tu mets l'huile."
 Page number at the bottom center: "8"
+No handwritten signature anywhere on this page: the word "Claire" appears only inside the brand name.
 
 FINAL REMINDER, apply strictly:
 STRICT RULES:
