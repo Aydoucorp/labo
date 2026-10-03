@@ -43,15 +43,15 @@ L'utilisateur donne la problématique en une ou deux phrases. Analyse-la et refo
 
 Va sur le web et cherche en profondeur les solutions viables à la problématique. C'est cette recherche qui donne toute la valeur de l'ebook, donc elle doit être approfondie (plusieurs recherches sous différents angles, pas une seule requête).
 
-Règle stricte sur les sources : n'utilise que des sources carrées. Privilégie les institutions (agences sanitaires, environnementales, publications officielles), les études, les publications avec citations et sources vérifiables, les sites d'expertise reconnue. Écarte le SEO bidon, les forums non sourcés, les blogs qui recopient des mythes, le contenu promotionnel déguisé. Si une astuce populaire est en réalité un mythe inefficace, écarte-la ou signale-la honnêtement.
+Règle stricte sur les sources : n'utilise que des sources carrées. Privilégie les institutions (agences sanitaires, environnementales, publications officielles), les études, les publications avec citations et sources vérifiables, les sites d'expertise reconnue. Écarte le SEO bidon, les forums non sourcés, les blogs qui recopient des mythes, le contenu promotionnel déguisé. Si une astuce populaire est en réalité un mythe inefficace, écarte-la : elle n'entre pas dans l'ebook.
 
 Collecte et garde la trace de :
 - Les vraies solutions applicables (gestes, méthodes, dosages, réflexes).
 - Les faits et chiffres sourçables (avec la source).
 - Les pièges et erreurs courantes à éviter.
-- Les nuances honnêtes (ce qui marche vraiment vs ce qui est survendu).
+- Le tri : ce qui marche vraiment entre dans l'ebook, ce qui est survendu reste dehors. Les limites et nuances des études restent dans le brief, pas dans l'ebook.
 
-Note les sources pour pouvoir les citer sobrement dans l'ebook quand c'est pertinent.
+Note toutes les sources dans le `brief.md` du run (tableau point, ce qu'on retient, source). Elles servent à vérifier chaque affirmation, mais elles restent hors de l'ebook : aucune ligne « Source : », aucun nom d'étude, d'auteur ou d'année sur les pages.
 
 ### Étape 3 — Choisir l'angle et agencer l'ebook
 
@@ -92,7 +92,7 @@ Après génération, propose d'assembler les images en un PDF (une version web l
 
 Pages d'ouverture et de fermeture fixes, cœur adaptable à l'angle.
 
-- **Page 1 — Couverture** : un badge court type "LE GUIDE OFFERT", un grand titre accrocheur, un sous-titre bénéfice, trois petits badges preuves, une illustration centrale, et une ligne chaleureuse de cadeau en bas. Pas de numéro de page sur la couverture.
+- **Page 1 — Couverture** : un badge court type "LE GUIDE OFFERT", un grand titre accrocheur, un sous-titre bénéfice, trois petits badges bénéfices (ex. « Naturel », « 10 minutes par jour », « Pas à pas » ; jamais « Sourcé »), une illustration centrale, et une ligne chaleureuse de cadeau en bas. Pas de numéro de page sur la couverture.
 - **Page 2 — Le mot d'intro** : une lettre du porte-parole, chaleureuse, qui crée le lien, pose la promesse de l'ebook, et se termine par la signature manuscrite du porte-parole.
 - **Page 3 — Le reframe** : une seule page qui recadre le problème et rassure, avec une phrase forte mise en avant dans une carte. C'est le pivot émotionnel.
 - **Pages 4 à N-2 — Le cœur de valeur** : la partie qui porte les solutions issues de la deep research. Selon l'angle : mécanisme + fait clé sourcé, ou astuces groupées par catégorie, ou méthode pas à pas, ou calcul concret. C'est ici que se joue le "merci". Chaque page reste claire et aérée.
@@ -103,11 +103,13 @@ Adapte le nombre de pages du cœur selon la richesse du sujet, en gardant toujou
 
 ## Règles de contenu non négociables
 
-- **Vérité d'abord** : rien d'inventé. Tout fait ou chiffre vient de la deep research et doit être sourçable. Présente les chiffres en fourchette prudente (environ, peut atteindre). Un seul chiffre choc suffit.
+- **Vérité d'abord** : rien d'inventé. Tout fait ou chiffre vient de la deep research et doit être sourçable (source notée dans le brief, jamais affichée dans l'ebook). Présente les chiffres en fourchette prudente (environ, peut atteindre). Un seul chiffre choc suffit.
+- **Sources hors de l'ebook (règle de l'utilisateur)** : pas de ligne « Source : », pas de nom d'étude, d'auteur, de revue ou d'année sur les pages. Les faits s'affirment simplement (« 4 minutes de massage par jour pendant 24 semaines : des cheveux plus épais »). Les sources vivent dans le brief.
+- **Optimiste et vendeur : l'ebook est LA solution (règle de l'utilisateur)** : l'ebook est offert comme la réponse au problème du lecteur, il présente sa méthode avec assurance et enthousiasme. Jamais de phrase qui fait douter de la méthode : pas d'« avis honnête », pas de « les études sont petites », « pas encore prouvé », « aucune étude n'a testé », « pas de miracle », « ce n'est qu'un soin ». Le tri se fait en amont (seules les solutions solides entrent dans l'ebook), puis on les affirme. Limite : on vend la méthode, on n'invente pas de résultat chiffré ni de garantie que la recherche ne soutient pas (et on respecte les mots interdits de la Brand DNA).
 - **Émotion mesurée** : on peut jouer l'émotion, mais jamais d'anxiogène gratuit. On finit toujours sur du rassurant et de l'actionnable.
 - **Solutions réelles** : de vrais gestes, de vrais dosages, de vraies méthodes validées par la recherche. Aucun mythe internet.
 - **Zéro marque commerciale tierce** : reste générique (le type de produit, pas la marque).
-- **Prudence santé** : sur les sujets sensibles (bébé, animaux, peau, symptômes, santé), ne jamais promettre de guérison. Formuler "réduire l'exposition peut aider" et renvoyer vers un professionnel.
+- **Prudence santé** : sur les sujets sensibles (bébé, animaux, peau, symptômes, santé), ne jamais promettre de guérison. Les précautions d'usage (contre-indications, test cutané) et le renvoi vers un professionnel en cas de signal d'alarme sont regroupés sur une seule page « règles de sécurité », formulés positivement, et ne sont pas répétés ailleurs pour ne pas casser l'élan du livre.
 - **Langue et ponctuation** : langue et ton exactement ceux de la Brand DNA. Jamais de tiret cadratin (— ou –) : utiliser points, virgules, parenthèses, retours à la ligne. Aucun markdown visible dans les textes affichés (pas de dièse, pas d'astérisque, pas de tirets de séparation).
 
 ## Cohérence DA verrouillée (point critique)
@@ -134,6 +136,14 @@ Ces verrous corrigent les dérives observées des modèles d'image. Place-les en
 7. Aucune marque commerciale tierce.
 8. Aucun chiffre ou prix inventé : uniquement ceux écrits dans le contenu de la page.
 9. Aucun tiret cadratin, aucune barre oblique visible, aucun symbole de formatage.
+
+## Contrôle après génération (leçons des premiers ebooks)
+
+- Relire chaque page à l'écran : texte exact, accents, pas de coquille ajoutée par le modèle (ex. « complètte », « 1. cm »).
+- Le modèle ajoute parfois une signature manuscrite non demandée : écrire dans chaque prompt, sauf la page du mot d'intro, « No handwritten signature anywhere on this page ».
+- Verrouiller l'apparence des personnages ou cheveux dessinés (ex. même chevelure sur toutes les pages), sinon elle change d'une page à l'autre.
+- Vérifier la taille des images : GPT Image 2 en 1K rend normalement 1086x1448 ; une sortie en 880x1184 a souvent une typo plus fine qui casse l'homogénéité, la relancer.
+- Relire le texte pour les contradictions entre pages (ex. « pas besoin d'avoir tout acheté » sur une page qui dit « prépare ton flacon »).
 
 ## Specs techniques de génération
 

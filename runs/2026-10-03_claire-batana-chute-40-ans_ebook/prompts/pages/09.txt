@@ -23,13 +23,13 @@ STRICT RULES:
 PAGE CONTENT (Ton calendrier sur 6 mois):
 Timeline page, a vertical timeline with three milestones in terracotta, connected by a thin sage line.
 - Title, terracotta: "Ton calendrier sur 6 mois"
-- Intro, ink: "Dans l'étude sur le romarin, c'était 2 fois par jour pendant 6 mois. Ta version réaliste : le rituel complet, huile et massage, chaque soir."
+- Intro, ink: "Ta clé, c'est la régularité : le rituel complet, huile et massage, chaque soir."
 - Milestone 1 title, plum: "Semaine 1"
   text, ink: "Test du pli du coude, puis photo de ta raie, même lumière, même endroit. Ton point de départ."
 - Milestone 2 title, plum: "Mois 2 et 3"
-  text, ink: "Un peu plus de cheveux sur la brosse ? C'est possible au début, ne lâche pas."
+  text, ink: "Un peu plus de cheveux sur la brosse ? C'est normal au début. Continue, tu es sur la bonne voie."
 - Milestone 3 title, plum: "Mois 6"
-  text, ink: "Compare tes photos. C'est le premier vrai moment pour juger."
+  text, ink: "Compare tes photos et regarde le chemin parcouru."
 - Bottom card, darker cream, ink text: "Un cheveu pousse d'environ 1 cm par mois. La patience fait partie de la méthode."
 Page number at the bottom center: "9"
 No handwritten signature anywhere on this page: the word "Claire" appears only inside the brand name.

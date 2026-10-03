@@ -99,3 +99,15 @@ Choix de l'utilisateur (2026-10-03) : 1K.
 ## Créa finale
 
 Rangée dans le nouveau dossier concept `creas/ebook/` (demande de l'utilisateur : « range le dans un new dossier ebook ») : `creas/ebook/2026-10-03_ebook_001.pdf` (version web) et `2026-10-03_ebook_001-hq.pdf`. Registre mis à jour (ebook 001). Drive : dossier `creas/ebook` et dossier du run créés, PDF envoyés à l'utilisateur pour dépôt.
+
+## Retours de l'utilisateur après lecture (2026-10-03, v2 de l'ebook)
+
+« Ne mets pas les sources, garde-les en dehors de l'ebook. » et « Les phrases du style "Mon avis honnête : ... les études sont petites" ne les mets pas : on vend l'ebook comme une solution aux maux des gens, donc il faut être optimiste et vendre cette solution comme LA solution. »
+
+- Retirés : la ligne « Source : American Academy of Dermatology » (p. 3), les noms d'études (p. 4), l'encadré « Mon avis honnête » (p. 4), « ce qui est prouvé, ce qui ne l'est pas encore » et « Pas de miracle ici » (p. 2), « Ce rituel est un soin, pas un traitement » (p. 3), la référence à l'étude (p. 9), « C'est le premier vrai moment pour juger » (p. 9), « On juge à 6 mois » (p. 10), le renvoi médecin de la p. 11 (il reste sur la page sécurité).
+- Ajoutés : badge « Naturel », sous-titre « Ta solution naturelle, pas à pas, pour un cuir chevelu plein de vie », « J'ai cherché. Et j'ai trouvé. », « Le secret, c'est le duo », « Continue, tu es sur la bonne voie », « Ton cuir chevelu va adorer ce moment. Et toi aussi. », carte p. 3 « Ton cuir chevelu a besoin de deux choses : les bons gestes, et de la régularité. »
+- Gardé : la page 6 (sécurité : test 48 h, contre-indications, quand consulter), seul endroit des précautions. Les sources restent dans ce brief.
+- Pages refaites en v4 : 1, 2, 3, 4, 9, 10, 11 (7 x 6 cr = 42 cr). Retenues : 01 v4, 02 v4, 03 v4, 04 v4, 05 v3, 06 v1, 07 v1, 08 v3, 09 v4, 10 v4, 11 v4.
+- PDF refaits (web 1,2 Mo, HQ 4,3 Mo) et créa finale `creas/ebook/2026-10-03_ebook_001.pdf` remplacée (même numéro, ebook pas encore diffusé).
+- Skill mis à jour (`skills/ebook-full-value/SKILL.md`) : règles « Sources hors de l'ebook » et « Optimiste et vendeur : l'ebook est LA solution », précautions santé regroupées sur une seule page, section « Contrôle après génération ».
+- Coût total du run : 168 cr (environ 0,84 $).

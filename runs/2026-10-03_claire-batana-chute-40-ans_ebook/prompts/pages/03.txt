@@ -25,9 +25,8 @@ Reframe page.
 - Title, terracotta: "Respire, d'abord"
 - Text, ink: "Perdre 50 à 100 cheveux par jour, c'est normal. Ils sont remplacés au fil du cycle du cheveu."
 - Text, ink: "Vers 40 ans, les hormones bougent, le stress s'accumule, et les cheveux le montrent souvent avant nous."
-- Highlighted card, plum background #7A4351 with cream text, large serif: "Ton cuir chevelu n'a pas besoin d'un miracle. Il a besoin de régularité."
-- Small text under the card, ink: "Ce rituel est un soin, pas un traitement. Il accompagne, il ne remplace pas un avis médical."
-- Small source line, ink, small size: "Source : American Academy of Dermatology"
+- Highlighted card, plum background #7A4351 with cream text, large serif: "Ton cuir chevelu a besoin de deux choses : les bons gestes, et de la régularité."
+- Text under the card, ink: "Et la bonne nouvelle : tu peux agir dès ce soir, avec deux gestes qui vont ensemble."
 - Illustration: a calm rosemary sprig and a few fallen hairs drawn softly on the cream background.
 Page number at the bottom center: "3"
 No handwritten signature anywhere on this page: the word "Claire" appears only inside the brand name.

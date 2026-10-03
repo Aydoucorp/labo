@@ -26,7 +26,7 @@ Memo page, four darker cream cards in a 2 by 2 grid, each with a small terracott
 - Card 1 title: "Le mélange" text, ink: "1 à 2 gouttes de romarin pour 10 mL d'huile. Jamais pure."
 - Card 2 title: "Le duo" text, ink: "L'huile sur la raie, puis 5 minutes de massage. Jamais l'un sans l'autre."
 - Card 3 title: "Le rythme" text, ink: "Le rituel complet chaque soir. La peau bouge, pas les cheveux."
-- Card 4 title: "La patience" text, ink: "On juge à 6 mois, photos à l'appui."
+- Card 4 title: "La patience" text, ink: "Une photo par mois pour voir le chemin parcouru."
 Page number at the bottom center: "10"
 No handwritten signature anywhere on this page: the word "Claire" appears only inside the brand name.
 

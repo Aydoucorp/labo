@@ -7,18 +7,18 @@ Généré par `work/ecrire_prompts.py`. Textes exacts de chaque page (ce qui ser
 - Top: small rounded badge in light terracotta #C9805F with cream text: "LE GUIDE OFFERT"
 - Big title, terracotta, on two lines: "Le rituel romarin et massage"
 - Under it, in plum, slightly smaller: "Deux gestes qui ne vont pas l'un sans l'autre"
-- Subtitle, ink: "La méthode complète pas à pas, et ce que disent vraiment les études"
-- Three small pill badges in a row, darker cream with ink text: "Sourcé" "10 minutes le soir" "Pas à pas"
+- Subtitle, ink: "Ta solution naturelle, pas à pas, pour un cuir chevelu plein de vie"
+- Three small pill badges in a row, darker cream with ink text: "Naturel" "10 minutes le soir" "Pas à pas"
 - Bottom, warm line in plum: "Offert avec le cœur par Les cheveux de Claire"
 
 ## Page 2 : Le mot d'intro
 
 - Title, terracotta: "Avant de commencer"
 "Le jour où j'ai vu ma raie s'élargir dans le miroir, j'ai eu peur. Et je me suis sentie seule avec cette peur."
-"Alors j'ai fait ce que je fais toujours : j'ai cherché. Les études, les vraies, pas les promesses des réseaux."
+"Alors j'ai fait ce que je fais toujours : j'ai cherché. Et j'ai trouvé."
 "Ce que j'ai compris : l'huile de romarin et le massage du cuir chevelu forment un seul rituel. L'huile sans le massage reste sur tes cheveux. Le massage fait travailler l'huile là où elle compte : sur la peau."
-"Dans ce guide, je te donne ce qui est prouvé, ce qui ne l'est pas encore, et surtout la méthode exacte, geste par geste."
-"Pas de miracle ici. Un rituel de 10 minutes le soir, doux et régulier."
+"Dans ce guide, je te donne la méthode exacte, geste par geste, celle que j'aurais aimé avoir dès le premier jour."
+"10 minutes le soir, des gestes simples et doux. Tu vas adorer ce rendez-vous avec toi-même."
 "Je t'embrasse,"
 - Handwritten signature, terracotta: "Claire"
 
@@ -27,23 +27,19 @@ Généré par `work/ecrire_prompts.py`. Textes exacts de chaque page (ce qui ser
 - Title, terracotta: "Respire, d'abord"
 - Text, ink: "Perdre 50 à 100 cheveux par jour, c'est normal. Ils sont remplacés au fil du cycle du cheveu."
 - Text, ink: "Vers 40 ans, les hormones bougent, le stress s'accumule, et les cheveux le montrent souvent avant nous."
-- Highlighted card, plum background #7A4351 with cream text, large serif: "Ton cuir chevelu n'a pas besoin d'un miracle. Il a besoin de régularité."
-- Small text under the card, ink: "Ce rituel est un soin, pas un traitement. Il accompagne, il ne remplace pas un avis médical."
-- Small source line, ink, small size: "Source : American Academy of Dermatology"
+- Highlighted card, plum background #7A4351 with cream text, large serif: "Ton cuir chevelu a besoin de deux choses : les bons gestes, et de la régularité."
+- Text under the card, ink: "Et la bonne nouvelle : tu peux agir dès ce soir, avec deux gestes qui vont ensemble."
 
 ## Page 4 : Pourquoi les deux ensemble
 
 - Title, terracotta: "Pourquoi les deux ensemble"
 - Card 1 title, plum: "L'huile de romarin"
 Card 1 text, ink: "100 personnes, 6 mois, 2 applications par jour : le romarin a fait aussi bien que le minoxidil 2 % sur le nombre de cheveux."
-Card 1 small source, ink: "Panahi et coll., 2015"
 - Card 2 title, plum: "Le massage"
 Card 2 text, ink: "4 minutes de massage par jour pendant 24 semaines : des cheveux plus épais, mesurés au microscope."
-Card 2 small source, ink: "Koyama et coll., 2016"
 - Card 3 title, plum: "Le ressenti des massages"
 Card 3 text, ink: "Sur 327 personnes qui massaient leur cuir chevelu, environ 7 sur 10 disent avoir vu leur chute se stabiliser."
-Card 3 small source, ink: "English et Barazesh, 2019"
-- Bottom honest note in a light terracotta outlined box, ink text: "Mon avis honnête : chaque piste est prometteuse, mais les études sont petites, faites surtout chez des hommes, et aucune n'a encore testé les deux ensemble. Je les réunis parce qu'elles se complètent : le massage fait pénétrer l'huile, l'huile rend le massage doux."
+- Bottom card in a light terracotta outlined box, ink text: "Le secret, c'est le duo : le massage fait pénétrer l'huile, et l'huile rend le massage doux. Ensemble, ils forment ton rituel."
 
 ## Page 5 : Ton mélange maison
 
@@ -96,13 +92,13 @@ Card 1 text, ink: "Dépose une goutte de ton mélange au pli du coude. Attends 4
 ## Page 9 : Ton calendrier sur 6 mois
 
 - Title, terracotta: "Ton calendrier sur 6 mois"
-- Intro, ink: "Dans l'étude sur le romarin, c'était 2 fois par jour pendant 6 mois. Ta version réaliste : le rituel complet, huile et massage, chaque soir."
+- Intro, ink: "Ta clé, c'est la régularité : le rituel complet, huile et massage, chaque soir."
 - Milestone 1 title, plum: "Semaine 1"
 text, ink: "Test du pli du coude, puis photo de ta raie, même lumière, même endroit. Ton point de départ."
 - Milestone 2 title, plum: "Mois 2 et 3"
-text, ink: "Un peu plus de cheveux sur la brosse ? C'est possible au début, ne lâche pas."
+text, ink: "Un peu plus de cheveux sur la brosse ? C'est normal au début. Continue, tu es sur la bonne voie."
 - Milestone 3 title, plum: "Mois 6"
-text, ink: "Compare tes photos. C'est le premier vrai moment pour juger."
+text, ink: "Compare tes photos et regarde le chemin parcouru."
 - Bottom card, darker cream, ink text: "Un cheveu pousse d'environ 1 cm par mois. La patience fait partie de la méthode."
 
 ## Page 10 : Le mémo
@@ -111,7 +107,7 @@ text, ink: "Compare tes photos. C'est le premier vrai moment pour juger."
 - Card 1 title: "Le mélange" text, ink: "1 à 2 gouttes de romarin pour 10 mL d'huile. Jamais pure."
 - Card 2 title: "Le duo" text, ink: "L'huile sur la raie, puis 5 minutes de massage. Jamais l'un sans l'autre."
 - Card 3 title: "Le rythme" text, ink: "Le rituel complet chaque soir. La peau bouge, pas les cheveux."
-- Card 4 title: "La patience" text, ink: "On juge à 6 mois, photos à l'appui."
+- Card 4 title: "La patience" text, ink: "Une photo par mois pour voir le chemin parcouru."
 
 ## Page 11 : À toi de jouer
 
@@ -119,7 +115,7 @@ text, ink: "Compare tes photos. C'est le premier vrai moment pour juger."
 - Text, ink: "Pas besoin d'attendre le bon moment. Le bon moment, c'est ce soir."
 "Ce soir"
 "Prépare ton flacon et fais le test du pli du coude. Dans 48 heures, ton premier rituel complet, huile et massage."
-- Text, ink: "Et si ta chute t'inquiète, parler à ton médecin, c'est aussi prendre soin de tes cheveux."
+- Text, ink: "Ton cuir chevelu va adorer ce moment. Et toi aussi."
 - Signature line in plum serif italic: "Tes cheveux ont changé. Toi aussi."
 - Bottom, small ink text: "Retrouve-moi sur Instagram @les_cheveux_de_claire"
 
