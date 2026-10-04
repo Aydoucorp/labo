@@ -27,5 +27,5 @@ python3 montage_bandeaux.py
 
 ## Sorties
 
-- `sorties/claire-serum-maison-fr_v1.mp4` (en attente de validation), `sorties/planche-contact_v1.jpg`
+- `sorties/claire-serum-maison-fr_v1.mp4` (validée : copiée dans `retenues/` et dans `creas/full-b-roll-artiste/2026-10-04_full-b-roll-artiste_004.mp4`), `sorties/planche-contact_v1.jpg`
 - `sorties/a-nettoyer/` : la fin découpée en morceaux de 5 s (proposée puis abandonnée au profit des bandeaux)

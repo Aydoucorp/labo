@@ -21,7 +21,7 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | zack-d-style | 000 |
 | le-montage | 000 |
 | talking-head | 001 |
-| full-b-roll-artiste | 003 |
+| full-b-roll-artiste | 004 |
 | ugc-humain | 000 |
 
 ## Historique
@@ -34,3 +34,4 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | `2026-10-01_full-b-roll-artiste_001.mp4` | full-b-roll-artiste | 2026-10-01 | 001 | Claire · arrêter le minoxidil sans perdre ses cheveux (CTA « Guide ») | `runs/2026-10-01_claire-minoxidil-arret_full-broll/` | 79,6 s · 9:16 · 1080×1920 |
 | `2026-10-02_full-b-roll-artiste_002.mp4` | full-b-roll-artiste | 2026-10-02 | 002 | Claire · signes du mauvais après-shampoing, vidéo TikTok tierce sous-titrée en FR (hook rouge, bandeaux terracotta) + motion CTA « Commente GUIDE » | `runs/2026-10-02_claire-mauvais-apres-shampoing_sous-titres-fr/` | 30,0 s · 9:16 · 1080×1920 |
 | `2026-10-02_full-b-roll-artiste_003.mp4` | full-b-roll-artiste | 2026-10-02 | 003 | Claire · avant/après chute de cheveux à 40 ans, vidéo TikTok tierce sous-titrée en FR (hook rouge, bandeaux terracotta), produit coupé, musique remplacée + motion CTA « Commente GUIDE » | `runs/2026-10-02_claire-chute-40-ans_sous-titres-fr/` | 15,8 s · 9:16 · 1080×1920 |
+| `2026-10-04_full-b-roll-artiste_004.mp4` | full-b-roll-artiste | 2026-10-04 | 004 | Claire · sérum maison aux plantes (laurier, romarin, girofle), vidéo TikTok tierce, début nettoyé sans texte (hook ajouté par l'utilisateur), bandeaux terracotta FR, son d'origine | `runs/2026-10-04_claire-serum-maison-plantes_bandeaux/` | 42,5 s · 9:16 · 1080×1920 |

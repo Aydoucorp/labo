@@ -1992,6 +1992,44 @@
    "id": "br-0060",
    "modele": null,
    "cout_credits": null
+  },
+  {
+   "fichier": "runs/2026-10-04_claire-serum-maison-plantes_bandeaux/source/original_complet.mp4",
+   "original": "Vidéo TikTok tierce (recette de sérum maison), textes anglais incrustés",
+   "type": "video",
+   "origine": "stock",
+   "style": "UGC cuisine + salon, lumière naturelle",
+   "marque": "aucune (vidéo tierce)",
+   "duree_s": 42.66,
+   "format": "720x1280",
+   "description": "Femme aux cheveux gris bouclés. 0-3 s : face caméra, touche ses cheveux. 3-4,5 s : montre un flacon spray de sérum ambré. 4,5-16 s : recette en vue de dessus dans une casserole (feuilles de laurier, romarin séché, clous de girofle, eau versée, couvercle, ça mijote). 16-18 s : filtrage dans une passoire. 18-20 s : flacon spray vide et bocal de sérum. 20-27 s : applique le spray sur le cuir chevelu et masse. 27-32 s : montre les petits cheveux de repousse sur la ligne frontale. 32-38 s : ébouriffe ses boucles grises de dos. 38-42 s : face caméra, cheveux bouclés gris.",
+   "mots_cles": [
+    "serum maison",
+    "recette",
+    "laurier",
+    "romarin",
+    "clous de girofle",
+    "casserole",
+    "passoire",
+    "spray cuir chevelu",
+    "massage cuir chevelu",
+    "repousse",
+    "baby hairs",
+    "cheveux gris boucles"
+   ],
+   "notes": "Vidéo d'une autre créatrice : vérifier les droits avant réutilisation en pub payante. Textes anglais incrustés (à masquer). Début 0-4,9 s nettoyé par l'utilisateur : source/debut-0-5s_sans-texte.mp4 (commence à l'image 3 de l'original).",
+   "usages": [
+    {
+     "run": "runs/2026-10-04_claire-serum-maison-plantes_bandeaux",
+     "plan": "video entiere",
+     "debut": 0,
+     "fin": 42.5,
+     "phrase": "Recette du sérum maison (vidéo entière, bandeaux FR)"
+    }
+   ],
+   "id": "br-0061",
+   "modele": null,
+   "cout_credits": null
   }
  ]
 }
