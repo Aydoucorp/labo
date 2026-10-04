@@ -8,7 +8,7 @@
 | 6,0 | 6,7 | Recette | 2 tbsp dried rosemary | 2 c. à soupe de romarin séché |
 | 7,0 | 9,3 | Recette | 1 tbsp cloves | 1 c. à soupe de clous de girofle |
 | 9,5 | 11,7 | Recette | 1½ cups water | 35 cl d'eau |
-| 12,0 | 14,2 | Recette | Simmer gently for about 10 minutes | Laisse frémir environ 10 minutes |
+| 12,0 | 14,2 | Recette | Simmer gently for about 10 minutes | Laisse mijoter à feu doux environ 10 minutes |
 | 16,4 | 18,2 | Recette | strain well... | Filtre bien... |
 | 18,9 | 19,9 | Recette | and pour into a clean bottle | puis verse dans un flacon propre |
 | 20,4 | 26,7 | Femme | I apply it directly to my scalp, massage gently and leave it in. | Je l'applique directement sur mon cuir chevelu, je masse doucement et je laisse agir sans rincer. |
