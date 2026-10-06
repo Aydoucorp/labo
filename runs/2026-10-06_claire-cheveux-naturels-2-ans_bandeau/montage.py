@@ -18,7 +18,7 @@ FONTS = RUN / "work/fonts"
 EMOJI_FONT = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
 OUT = RUN / "sorties"
 W, H, FPS = 1080, 1920, 30
-VERSION = "v1"
+VERSION = "v2"
 
 # ---- réglages ----
 FREEZE_T = 12.60      # dernière image de la vidéo ; au-delà on reste dessus
@@ -31,7 +31,7 @@ SFX = Path("/home/user/labo/skills/creation-full-b-roll-artiste/assets/sfx")
 
 # Bandeau du hook : (début, fin, lignes, couleur, encre, boîte de son texte en px source 720x1280)
 TEXTES = [
-    (0.000, 4.300, ["2 ans à laisser repousser", "ma couleur naturelle"], "#E0202A", "white", (63, 178, 657, 292)),
+    (0.000, 4.300, ["2 ans à laisser repousser", "ma couleur naturelle"], "#A8553A", "#FAF6F3", (63, 178, 657, 292)),
 ]
 K = W / 720
 

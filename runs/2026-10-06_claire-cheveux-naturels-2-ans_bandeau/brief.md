@@ -10,7 +10,7 @@ Concept : montage léger sur une vidéo existante (série full-b-roll-artiste).
 
 ## Réglages
 
-- Hook : bandeau rouge `#E0202A`, texte blanc, « 2 ans à laisser repousser / ma couleur naturelle », sur la boîte de son texte (63, 178, 657, 292 en px source), de 0 à 4,3 s (texte détecté jusqu'à l'image 128). TikTok Sans SemiBold 60 px.
+- Hook (v2, demande utilisateur) : bandeau terracotta `#A8553A`, texte crème `#FAF6F3` (v1 : rouge `#E0202A`, texte blanc), « 2 ans à laisser repousser / ma couleur naturelle », sur la boîte de son texte (63, 178, 657, 292 en px source), de 0 à 4,3 s (texte détecté jusqu'à l'image 128). TikTok Sans SemiBold 60 px.
 - Le résultat final (carré blanc, haut noir) est à l'écran dès 10,0 s : laissé net jusqu'à 11,6 s ; dernière image (12,6 s) prolongée jusqu'à 15,0 s avec zoom lent 1,2 %/s.
 - Flou + assombrissement dès 11,6 s, carte CTA à 11,85 s : carte crème, « Commente », pastille « NATUREL » terracotta (TikTok Sans Bold 112 px), « pour apprendre à accepter / tes cheveux naturels / et à en prendre soin », barre de commentaire qui tape « NATUREL », flèche vers l'icône commentaires.
 - Son d'origine jusqu'à 12,5 s, raccord (fondu enchaîné 0,15 s) sur la reprise à 8,52 s (similarité spectrale 0,74), fondu de sortie 0,8 s, SFX `whoosh_soft` + `tick_soft` sur la carte.
@@ -25,4 +25,5 @@ python3 montage.py                        # rendu complet
 
 ## Sorties
 
-- `sorties/claire-cheveux-naturels-fr_v1.mp4` (en attente de validation), `sorties/planche-contact_v1.jpg`
+- `sorties/claire-cheveux-naturels-fr_v1.mp4` (hook rouge, remplacée), `sorties/planche-contact_v1.jpg`
+- `sorties/claire-cheveux-naturels-fr_v2.mp4` (hook terracotta, en attente de validation), `sorties/planche-contact_v2.jpg`
