@@ -16,6 +16,12 @@ Date : 2026-10-07
 | `sorties/a-nettoyer/partie-3_10-15s.mp4` | 300 à 449 | 10 à 15 s |
 | `sorties/a-nettoyer/partie-4_15-16s.mp4` | 450 à 481 | 15 à 16,07 s |
 
-## Suite
+## Réassemblage (`assembler.py`)
 
-En attente des 4 parties nettoyées par l'utilisateur pour le réassemblage.
+- Parties nettoyées reçues : `source/nettoyees/partie-1.mp4` à `partie-4.mp4` (576×1024, 147 / 147 / 147 / 29 images).
+- VMake a retiré les 3 premières images de chaque partie (décalage mesuré par comparaison avec l'original) : chaque partie est précédée de 3 copies de sa première image, soit 482 images au total, calées sur le son d'origine continu.
+- Agrandissement Lanczos en 1080×1920, H.264 CRF 18, AAC 192 kb/s, 16,07 s. Pas de texte, pas de CTA : l'utilisateur ajoute son hook.
+
+## Sorties
+
+- `sorties/claire-chute-brossage-sans-texte_v1.mp4` (en attente de validation), `sorties/planche-contact_v1.jpg`
