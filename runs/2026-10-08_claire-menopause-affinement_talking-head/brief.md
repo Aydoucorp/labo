@@ -9,3 +9,9 @@
 - Voix au montage : voix off d'origine partout, son Seedance coupé, clips recalés phrase par phrase (charte).
 
 Livrables du découpage : `decoupage.md`, `decoupage.json`, `audio_avatar/` (4 extraits), `prompts/`, `brolls-a-trouver.html`. Scripts : `build_decoupage.py`, `ecrire_decoupage_md.py`.
+
+## Choix de l'utilisateur (2026-10-08)
+
+- Bandeau d'accroche : 1b, « 2 femmes sur 3 voient leurs cheveux s'affiner à la ménopause ».
+- Clips avatar : Seedance 2.5 en 720p (63 cr/s, 37 s, environ 2 331 cr).
+- Images de départ de l'avatar : question posée, proposition de réutiliser celles du talking head n°1 (`Claire/talking-head/_config/`).
