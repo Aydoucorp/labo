@@ -1,0 +1,1281 @@
+{
+ "audio": "VO.mp3",
+ "duration_s": 49.241,
+ "language": "fr",
+ "method": "ctc-forced-aligner",
+ "script_hash": "deb2fc0b29aa62f0dd49aa3fac5402a3e3869970",
+ "words": [
+  {
+   "i": 0,
+   "w": "Démangeaisons",
+   "start": 0.13,
+   "end": 0.76,
+   "score": 0.533,
+   "punct_after": ""
+  },
+  {
+   "i": 1,
+   "w": "sur",
+   "start": 0.78,
+   "end": 0.92,
+   "score": 0.993,
+   "punct_after": ""
+  },
+  {
+   "i": 2,
+   "w": "le",
+   "start": 0.92,
+   "end": 1.02,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 3,
+   "w": "cuir",
+   "start": 1.02,
+   "end": 1.24,
+   "score": 0.79,
+   "punct_after": ""
+  },
+  {
+   "i": 4,
+   "w": "chevelu",
+   "start": 1.24,
+   "end": 1.64,
+   "score": 0.989,
+   "punct_after": "?"
+  },
+  {
+   "i": 5,
+   "w": "Tu",
+   "start": 1.92,
+   "end": 2.02,
+   "score": 0.177,
+   "punct_after": ""
+  },
+  {
+   "i": 6,
+   "w": "as",
+   "start": 2.02,
+   "end": 2.14,
+   "score": 0.707,
+   "punct_after": ""
+  },
+  {
+   "i": 7,
+   "w": "peut-être",
+   "start": 2.16,
+   "end": 2.58,
+   "score": 0.984,
+   "punct_after": ""
+  },
+  {
+   "i": 8,
+   "w": "des",
+   "start": 2.58,
+   "end": 2.67,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 9,
+   "w": "parasites",
+   "start": 2.75,
+   "end": 3.19,
+   "score": 0.989,
+   "punct_after": ""
+  },
+  {
+   "i": 10,
+   "w": "sans",
+   "start": 3.66,
+   "end": 3.8,
+   "score": 0.418,
+   "punct_after": ""
+  },
+  {
+   "i": 11,
+   "w": "le",
+   "start": 3.82,
+   "end": 3.86,
+   "score": 0.0,
+   "punct_after": ""
+  },
+  {
+   "i": 12,
+   "w": "savoir",
+   "start": 3.91,
+   "end": 4.19,
+   "score": 0.969,
+   "punct_after": "."
+  },
+  {
+   "i": 13,
+   "w": "Et",
+   "start": 4.48,
+   "end": 4.64,
+   "score": 0.992,
+   "punct_after": ""
+  },
+  {
+   "i": 14,
+   "w": "voici",
+   "start": 4.64,
+   "end": 5.0,
+   "score": 0.866,
+   "punct_after": ""
+  },
+  {
+   "i": 15,
+   "w": "la",
+   "start": 5.0,
+   "end": 5.12,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 16,
+   "w": "seule",
+   "start": 5.26,
+   "end": 5.48,
+   "score": 0.994,
+   "punct_after": ""
+  },
+  {
+   "i": 17,
+   "w": "chose",
+   "start": 5.48,
+   "end": 5.86,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 18,
+   "w": "à",
+   "start": 5.88,
+   "end": 6.0,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 19,
+   "w": "laquelle",
+   "start": 6.0,
+   "end": 6.3,
+   "score": 0.994,
+   "punct_after": ""
+  },
+  {
+   "i": 20,
+   "w": "ils",
+   "start": 6.32,
+   "end": 6.42,
+   "score": 0.446,
+   "punct_after": ""
+  },
+  {
+   "i": 21,
+   "w": "ne",
+   "start": 6.44,
+   "end": 6.53,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 22,
+   "w": "survivent",
+   "start": 6.6,
+   "end": 6.93,
+   "score": 0.599,
+   "punct_after": ""
+  },
+  {
+   "i": 23,
+   "w": "pas",
+   "start": 7.02,
+   "end": 7.1,
+   "score": 0.511,
+   "punct_after": "."
+  },
+  {
+   "i": 24,
+   "w": "Prends",
+   "start": 7.36,
+   "end": 7.56,
+   "score": 0.665,
+   "punct_after": ""
+  },
+  {
+   "i": 25,
+   "w": "un",
+   "start": 7.58,
+   "end": 7.68,
+   "score": 0.861,
+   "punct_after": ""
+  },
+  {
+   "i": 26,
+   "w": "pot",
+   "start": 7.68,
+   "end": 7.8,
+   "score": 0.178,
+   "punct_after": ""
+  },
+  {
+   "i": 27,
+   "w": "d’huile",
+   "start": 7.82,
+   "end": 8.02,
+   "score": 0.429,
+   "punct_after": ""
+  },
+  {
+   "i": 28,
+   "w": "de",
+   "start": 8.04,
+   "end": 8.16,
+   "score": 0.994,
+   "punct_after": ""
+  },
+  {
+   "i": 29,
+   "w": "coco",
+   "start": 8.17,
+   "end": 8.5,
+   "score": 0.844,
+   "punct_after": ","
+  },
+  {
+   "i": 30,
+   "w": "sors-en",
+   "start": 8.76,
+   "end": 9.14,
+   "score": 0.282,
+   "punct_after": ""
+  },
+  {
+   "i": 31,
+   "w": "une",
+   "start": 9.14,
+   "end": 9.28,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 32,
+   "w": "bonne",
+   "start": 9.3,
+   "end": 9.5,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 33,
+   "w": "cuillerée",
+   "start": 9.52,
+   "end": 10.08,
+   "score": 0.521,
+   "punct_after": ""
+  },
+  {
+   "i": 34,
+   "w": "et",
+   "start": 10.17,
+   "end": 10.29,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 35,
+   "w": "étale-la",
+   "start": 10.36,
+   "end": 10.86,
+   "score": 0.697,
+   "punct_after": ""
+  },
+  {
+   "i": 36,
+   "w": "sur",
+   "start": 10.86,
+   "end": 10.99,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 37,
+   "w": "ta",
+   "start": 11.09,
+   "end": 11.17,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 38,
+   "w": "tête",
+   "start": 11.24,
+   "end": 11.35,
+   "score": 0.998,
+   "punct_after": "."
+  },
+  {
+   "i": 39,
+   "w": "Ajoute",
+   "start": 11.66,
+   "end": 12.04,
+   "score": 0.991,
+   "punct_after": ""
+  },
+  {
+   "i": 40,
+   "w": "quelques",
+   "start": 12.09,
+   "end": 12.38,
+   "score": 0.934,
+   "punct_after": ""
+  },
+  {
+   "i": 41,
+   "w": "gouttes",
+   "start": 12.4,
+   "end": 12.58,
+   "score": 0.032,
+   "punct_after": ""
+  },
+  {
+   "i": 42,
+   "w": "d’huile",
+   "start": 12.6,
+   "end": 12.82,
+   "score": 0.445,
+   "punct_after": ""
+  },
+  {
+   "i": 43,
+   "w": "essentielle",
+   "start": 12.82,
+   "end": 13.34,
+   "score": 0.904,
+   "punct_after": ""
+  },
+  {
+   "i": 44,
+   "w": "d’arbre",
+   "start": 13.34,
+   "end": 13.66,
+   "score": 0.618,
+   "punct_after": ""
+  },
+  {
+   "i": 45,
+   "w": "à",
+   "start": 13.68,
+   "end": 13.74,
+   "score": 0.989,
+   "punct_after": ""
+  },
+  {
+   "i": 46,
+   "w": "thé",
+   "start": 13.83,
+   "end": 13.92,
+   "score": 0.284,
+   "punct_after": "."
+  },
+  {
+   "i": 47,
+   "w": "Elle",
+   "start": 14.09,
+   "end": 14.36,
+   "score": 0.99,
+   "punct_after": ""
+  },
+  {
+   "i": 48,
+   "w": "tue",
+   "start": 14.36,
+   "end": 14.58,
+   "score": 0.788,
+   "punct_after": ""
+  },
+  {
+   "i": 49,
+   "w": "les",
+   "start": 14.58,
+   "end": 14.8,
+   "score": 0.924,
+   "punct_after": ""
+  },
+  {
+   "i": 50,
+   "w": "œufs",
+   "start": 14.8,
+   "end": 14.91,
+   "score": 0.008,
+   "punct_after": ""
+  },
+  {
+   "i": 51,
+   "w": "qu’ils",
+   "start": 15.0,
+   "end": 15.22,
+   "score": 0.9,
+   "punct_after": ""
+  },
+  {
+   "i": 52,
+   "w": "ont",
+   "start": 15.22,
+   "end": 15.38,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 53,
+   "w": "déjà",
+   "start": 15.38,
+   "end": 15.72,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 54,
+   "w": "pondus",
+   "start": 15.72,
+   "end": 16.1,
+   "score": 0.93,
+   "punct_after": ""
+  },
+  {
+   "i": 55,
+   "w": "sur",
+   "start": 16.11,
+   "end": 16.22,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 56,
+   "w": "tes",
+   "start": 16.32,
+   "end": 16.43,
+   "score": 0.992,
+   "punct_after": ""
+  },
+  {
+   "i": 57,
+   "w": "cheveux",
+   "start": 16.44,
+   "end": 16.75,
+   "score": 0.952,
+   "punct_after": "..."
+  },
+  {
+   "i": 58,
+   "w": "pour",
+   "start": 16.98,
+   "end": 17.13,
+   "score": 0.981,
+   "punct_after": ""
+  },
+  {
+   "i": 59,
+   "w": "qu’ils",
+   "start": 17.16,
+   "end": 17.34,
+   "score": 0.912,
+   "punct_after": ""
+  },
+  {
+   "i": 60,
+   "w": "ne",
+   "start": 17.36,
+   "end": 17.47,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 61,
+   "w": "reviennent",
+   "start": 17.48,
+   "end": 17.8,
+   "score": 0.949,
+   "punct_after": ""
+  },
+  {
+   "i": 62,
+   "w": "pas",
+   "start": 17.84,
+   "end": 17.95,
+   "score": 0.998,
+   "punct_after": "."
+  },
+  {
+   "i": 63,
+   "w": "Fais",
+   "start": 18.25,
+   "end": 18.39,
+   "score": 0.336,
+   "punct_after": ""
+  },
+  {
+   "i": 64,
+   "w": "aussi",
+   "start": 18.4,
+   "end": 18.63,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 65,
+   "w": "pénétrer",
+   "start": 18.65,
+   "end": 19.04,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 66,
+   "w": "le",
+   "start": 19.06,
+   "end": 19.15,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 67,
+   "w": "mélange",
+   "start": 19.16,
+   "end": 19.57,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 68,
+   "w": "des",
+   "start": 19.58,
+   "end": 19.73,
+   "score": 0.513,
+   "punct_after": ""
+  },
+  {
+   "i": 69,
+   "w": "racines",
+   "start": 19.74,
+   "end": 20.26,
+   "score": 0.616,
+   "punct_after": ""
+  },
+  {
+   "i": 70,
+   "w": "jusqu’aux",
+   "start": 20.43,
+   "end": 20.85,
+   "score": 0.711,
+   "punct_after": ""
+  },
+  {
+   "i": 71,
+   "w": "pointes",
+   "start": 20.96,
+   "end": 21.12,
+   "score": 0.722,
+   "punct_after": "."
+  },
+  {
+   "i": 72,
+   "w": "L’huile",
+   "start": 21.41,
+   "end": 21.67,
+   "score": 0.664,
+   "punct_after": ""
+  },
+  {
+   "i": 73,
+   "w": "de",
+   "start": 21.68,
+   "end": 21.79,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 74,
+   "w": "coco",
+   "start": 21.8,
+   "end": 22.11,
+   "score": 0.848,
+   "punct_after": ""
+  },
+  {
+   "i": 75,
+   "w": "enrobe",
+   "start": 22.12,
+   "end": 22.57,
+   "score": 0.993,
+   "punct_after": ""
+  },
+  {
+   "i": 76,
+   "w": "chaque",
+   "start": 22.59,
+   "end": 22.86,
+   "score": 0.956,
+   "punct_after": ""
+  },
+  {
+   "i": 77,
+   "w": "parasite",
+   "start": 22.94,
+   "end": 23.38,
+   "score": 0.99,
+   "punct_after": ""
+  },
+  {
+   "i": 78,
+   "w": "et",
+   "start": 23.57,
+   "end": 23.71,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 79,
+   "w": "l’étouffe",
+   "start": 23.72,
+   "end": 24.13,
+   "score": 0.835,
+   "punct_after": ","
+  },
+  {
+   "i": 80,
+   "w": "pour",
+   "start": 24.58,
+   "end": 24.69,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 81,
+   "w": "qu’il",
+   "start": 24.73,
+   "end": 24.89,
+   "score": 0.91,
+   "punct_after": ""
+  },
+  {
+   "i": 82,
+   "w": "ne",
+   "start": 24.9,
+   "end": 25.01,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 83,
+   "w": "puisse",
+   "start": 25.09,
+   "end": 25.18,
+   "score": 0.938,
+   "punct_after": ""
+  },
+  {
+   "i": 84,
+   "w": "plus",
+   "start": 25.44,
+   "end": 25.63,
+   "score": 0.952,
+   "punct_after": ""
+  },
+  {
+   "i": 85,
+   "w": "respirer",
+   "start": 25.64,
+   "end": 26.11,
+   "score": 0.998,
+   "punct_after": "!"
+  },
+  {
+   "i": 86,
+   "w": "Laisse",
+   "start": 26.33,
+   "end": 26.55,
+   "score": 0.906,
+   "punct_after": ""
+  },
+  {
+   "i": 87,
+   "w": "poser",
+   "start": 26.62,
+   "end": 26.91,
+   "score": 0.883,
+   "punct_after": ""
+  },
+  {
+   "i": 88,
+   "w": "toute",
+   "start": 26.97,
+   "end": 27.19,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 89,
+   "w": "la",
+   "start": 27.2,
+   "end": 27.31,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 90,
+   "w": "nuit",
+   "start": 27.32,
+   "end": 27.59,
+   "score": 0.999,
+   "punct_after": ","
+  },
+  {
+   "i": 91,
+   "w": "puis",
+   "start": 27.79,
+   "end": 27.95,
+   "score": 0.909,
+   "punct_after": ""
+  },
+  {
+   "i": 92,
+   "w": "rince",
+   "start": 27.96,
+   "end": 28.24,
+   "score": 0.796,
+   "punct_after": ""
+  },
+  {
+   "i": 93,
+   "w": "le",
+   "start": 28.25,
+   "end": 28.37,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 94,
+   "w": "matin",
+   "start": 28.38,
+   "end": 28.66,
+   "score": 0.964,
+   "punct_after": "."
+  },
+  {
+   "i": 95,
+   "w": "Tout",
+   "start": 28.87,
+   "end": 29.05,
+   "score": 0.887,
+   "punct_after": ""
+  },
+  {
+   "i": 96,
+   "w": "ce",
+   "start": 29.06,
+   "end": 29.19,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 97,
+   "w": "qui",
+   "start": 29.21,
+   "end": 29.33,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 98,
+   "w": "vivait",
+   "start": 29.34,
+   "end": 29.63,
+   "score": 0.926,
+   "punct_after": ""
+  },
+  {
+   "i": 99,
+   "w": "sur",
+   "start": 29.64,
+   "end": 29.71,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 100,
+   "w": "ton",
+   "start": 29.82,
+   "end": 29.92,
+   "score": 0.993,
+   "punct_after": ""
+  },
+  {
+   "i": 101,
+   "w": "cuir",
+   "start": 29.96,
+   "end": 30.17,
+   "score": 0.36,
+   "punct_after": ""
+  },
+  {
+   "i": 102,
+   "w": "chevelu",
+   "start": 30.18,
+   "end": 30.63,
+   "score": 0.914,
+   "punct_after": ""
+  },
+  {
+   "i": 103,
+   "w": "repart",
+   "start": 30.83,
+   "end": 31.37,
+   "score": 0.808,
+   "punct_after": ""
+  },
+  {
+   "i": 104,
+   "w": "mort",
+   "start": 31.38,
+   "end": 31.74,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 105,
+   "w": "au",
+   "start": 31.88,
+   "end": 32.02,
+   "score": 0.972,
+   "punct_after": ""
+  },
+  {
+   "i": 106,
+   "w": "lavage",
+   "start": 32.02,
+   "end": 32.5,
+   "score": 0.942,
+   "punct_after": "."
+  },
+  {
+   "i": 107,
+   "w": "Mais",
+   "start": 32.76,
+   "end": 33.06,
+   "score": 0.911,
+   "punct_after": ""
+  },
+  {
+   "i": 108,
+   "w": "si",
+   "start": 33.15,
+   "end": 33.28,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 109,
+   "w": "les",
+   "start": 33.28,
+   "end": 33.38,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 110,
+   "w": "démangeaisons",
+   "start": 33.4,
+   "end": 33.88,
+   "score": 0.586,
+   "punct_after": ""
+  },
+  {
+   "i": 111,
+   "w": "reviennent",
+   "start": 33.9,
+   "end": 34.39,
+   "score": 0.984,
+   "punct_after": "..."
+  },
+  {
+   "i": 112,
+   "w": "ces",
+   "start": 34.59,
+   "end": 34.68,
+   "score": 0.867,
+   "punct_after": ""
+  },
+  {
+   "i": 113,
+   "w": "parasites",
+   "start": 34.7,
+   "end": 35.24,
+   "score": 0.95,
+   "punct_after": ""
+  },
+  {
+   "i": 114,
+   "w": "ne",
+   "start": 35.24,
+   "end": 35.36,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 115,
+   "w": "sont",
+   "start": 35.42,
+   "end": 35.55,
+   "score": 0.945,
+   "punct_after": ""
+  },
+  {
+   "i": 116,
+   "w": "qu’une",
+   "start": 35.68,
+   "end": 35.9,
+   "score": 0.848,
+   "punct_after": ""
+  },
+  {
+   "i": 117,
+   "w": "partie",
+   "start": 35.92,
+   "end": 36.26,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 118,
+   "w": "du",
+   "start": 36.28,
+   "end": 36.35,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 119,
+   "w": "problème",
+   "start": 36.42,
+   "end": 36.78,
+   "score": 0.997,
+   "punct_after": "."
+  },
+  {
+   "i": 120,
+   "w": "Ton",
+   "start": 36.95,
+   "end": 37.1,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 121,
+   "w": "cuir",
+   "start": 37.1,
+   "end": 37.32,
+   "score": 0.55,
+   "punct_after": ""
+  },
+  {
+   "i": 122,
+   "w": "chevelu",
+   "start": 37.32,
+   "end": 37.74,
+   "score": 0.914,
+   "punct_after": ""
+  },
+  {
+   "i": 123,
+   "w": "a",
+   "start": 37.74,
+   "end": 37.86,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 124,
+   "w": "besoin",
+   "start": 37.86,
+   "end": 38.16,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 125,
+   "w": "d’être",
+   "start": 38.16,
+   "end": 38.38,
+   "score": 0.992,
+   "punct_after": ""
+  },
+  {
+   "i": 126,
+   "w": "apaisé",
+   "start": 38.45,
+   "end": 38.92,
+   "score": 0.866,
+   "punct_after": ","
+  },
+  {
+   "i": 127,
+   "w": "et",
+   "start": 39.2,
+   "end": 39.34,
+   "score": 0.734,
+   "punct_after": ""
+  },
+  {
+   "i": 128,
+   "w": "il",
+   "start": 39.34,
+   "end": 39.46,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 129,
+   "w": "existe",
+   "start": 39.46,
+   "end": 39.9,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 130,
+   "w": "des",
+   "start": 39.9,
+   "end": 40.02,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 131,
+   "w": "recettes",
+   "start": 40.04,
+   "end": 40.33,
+   "score": 0.983,
+   "punct_after": ""
+  },
+  {
+   "i": 132,
+   "w": "simples",
+   "start": 40.54,
+   "end": 40.87,
+   "score": 0.807,
+   "punct_after": ","
+  },
+  {
+   "i": 133,
+   "w": "à",
+   "start": 40.93,
+   "end": 41.04,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 134,
+   "w": "base",
+   "start": 41.04,
+   "end": 41.24,
+   "score": 0.752,
+   "punct_after": ""
+  },
+  {
+   "i": 135,
+   "w": "d’ingrédients",
+   "start": 41.26,
+   "end": 41.84,
+   "score": 0.846,
+   "punct_after": ""
+  },
+  {
+   "i": 136,
+   "w": "naturels",
+   "start": 41.84,
+   "end": 42.4,
+   "score": 0.979,
+   "punct_after": ","
+  },
+  {
+   "i": 137,
+   "w": "pour",
+   "start": 42.58,
+   "end": 42.72,
+   "score": 0.992,
+   "punct_after": ""
+  },
+  {
+   "i": 138,
+   "w": "en",
+   "start": 42.72,
+   "end": 42.8,
+   "score": 0.064,
+   "punct_after": ""
+  },
+  {
+   "i": 139,
+   "w": "prendre",
+   "start": 42.84,
+   "end": 43.16,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 140,
+   "w": "soin",
+   "start": 43.23,
+   "end": 43.38,
+   "score": 0.921,
+   "punct_after": "."
+  },
+  {
+   "i": 141,
+   "w": "J’ai",
+   "start": 43.58,
+   "end": 43.82,
+   "score": 0.984,
+   "punct_after": ""
+  },
+  {
+   "i": 142,
+   "w": "réuni",
+   "start": 43.82,
+   "end": 44.14,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 143,
+   "w": "les",
+   "start": 44.14,
+   "end": 44.26,
+   "score": 0.994,
+   "punct_after": ""
+  },
+  {
+   "i": 144,
+   "w": "miennes",
+   "start": 44.28,
+   "end": 44.6,
+   "score": 0.921,
+   "punct_after": ""
+  },
+  {
+   "i": 145,
+   "w": "dans",
+   "start": 44.6,
+   "end": 44.73,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 146,
+   "w": "un",
+   "start": 44.74,
+   "end": 44.92,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 147,
+   "w": "guide",
+   "start": 44.92,
+   "end": 45.21,
+   "score": 0.847,
+   "punct_after": "."
+  },
+  {
+   "i": 148,
+   "w": "Commente",
+   "start": 45.35,
+   "end": 45.78,
+   "score": 0.969,
+   "punct_after": ""
+  },
+  {
+   "i": 149,
+   "w": "RECETTES",
+   "start": 45.92,
+   "end": 46.5,
+   "score": 0.959,
+   "punct_after": ","
+  },
+  {
+   "i": 150,
+   "w": "et",
+   "start": 46.59,
+   "end": 46.72,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 151,
+   "w": "je",
+   "start": 46.72,
+   "end": 46.83,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 152,
+   "w": "t’enverrai",
+   "start": 46.86,
+   "end": 47.3,
+   "score": 0.889,
+   "punct_after": ""
+  },
+  {
+   "i": 153,
+   "w": "gratuitement",
+   "start": 47.3,
+   "end": 47.94,
+   "score": 0.979,
+   "punct_after": ""
+  },
+  {
+   "i": 154,
+   "w": "mon",
+   "start": 47.94,
+   "end": 48.08,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 155,
+   "w": "guide",
+   "start": 48.08,
+   "end": 48.38,
+   "score": 0.343,
+   "punct_after": ""
+  },
+  {
+   "i": 156,
+   "w": "en",
+   "start": 48.44,
+   "end": 48.58,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 157,
+   "w": "message",
+   "start": 48.58,
+   "end": 48.87,
+   "score": 0.97,
+   "punct_after": ""
+  },
+  {
+   "i": 158,
+   "w": "privé",
+   "start": 48.96,
+   "end": 49.2,
+   "score": 0.999,
+   "punct_after": "!"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+[
+ {
+  "name": "S01",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "jobs/OUT/CHAR-sheet.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Low hero angle, camera near the ground looking up. The man stands full body, centered, scratching his beard with one hand with a mildly annoyed face; a dense snowfall of white dandruff flakes falls all around him and piles up in small drifts at his feet on the blue ground. The man is exactly the character in the attached character sheet: same face, hair, beard, dark-teal t-shirt, jeans and sneakers, same rendering. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S02",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "<photo-produit>.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Macro cutaway seen from a low angle near the root of the follicle, looking up along the dark hair shaft toward the skin surface high above; the cube of skin fills the frame. At the root, a small cluster of tiny green-yellow yeast cells (Malassezia) glows with a soft cyan light; the rest of the follicle is clean. The skin cross-section is the same stylized block as in the attached cross-section reference: a cube of skin with one dark beard hair rising from a central follicle and a pale-yellow gland on the follicle wall. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S03",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "<photo-produit>.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Same macro cutaway, same low angle at the root. Glossy yellow sebum droplets ooze out of the pale-yellow gland and slide down the follicle onto the colony of green-yellow yeast cells, which has grown to a large glowing cluster; a faint red glow begins around the root. The skin cross-section is the same stylized block as in the attached cross-section reference: a cube of skin with one dark beard hair rising from a central follicle and a pale-yellow gland on the follicle wall. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S04",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "jobs/OUT/CHAR-sheet.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Prop island, wide angle at ground level: the man is tiny, standing chest-deep among giant white flat flakes of dead skin the size of doors that lift off a vast pink-red skin surface with a few giant dark beard hairs rising like trees around him; he looks around, puzzled. The whole world has a red light wash. The man is exactly the character in the attached character sheet: same face, hair, beard, dark-teal t-shirt, jeans and sneakers, same rendering. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S05",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "jobs/OUT/CHAR-sheet.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Same prop island on the giant pink skin surface with giant flakes and hair-trees: a giant plain white pump shampoo bottle, taller than the tiny man, has just been set down beside him; he looks up at it with hope. The red wash has faded back to base blue. The man is exactly the character in the attached character sheet: same face, hair, beard, dark-teal t-shirt, jeans and sneakers, same rendering. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S06",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "<photo-produit>.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Macro cutaway, three-quarter angle slightly above. The top surface of the skin cube is wet with a thin film of gray-white shampoo foam and clear water running off its edges, but deep inside the follicle, at the root, the large colony of green-yellow yeast cells is completely untouched and glows cyan. The skin cross-section is the same stylized block as in the attached cross-section reference: a cube of skin with one dark beard hair rising from a central follicle and a pale-yellow gland on the follicle wall. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S07",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "<photo-produit>.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Dramatic top-down view straight down onto the top surface of the skin cube, the dark hair rising toward the camera: the skin surface is inflamed red with white flakes, and a smooth roller of thick white cortisone cream has just started to cross it from the left edge, leaving pale calm pink skin behind it. Red light wash. The skin cross-section is the same stylized block as in the attached cross-section reference: a cube of skin with one dark beard hair rising from a central follicle and a pale-yellow gland on the follicle wall. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S08",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "<photo-produit>.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Three-quarter view slightly above the skin cube: the surface is red again with fresh flakes, and a thick glossy red 3D circular arrow, like a loop sign, encircles the cube in the air, catching the light and casting a soft shadow. Red light wash over the world. The skin cross-section is the same stylized block as in the attached cross-section reference: a cube of skin with one dark beard hair rising from a central follicle and a pale-yellow gland on the follicle wall. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S09",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "jobs/OUT/CHAR-sheet.png",
+   "<photo-produit>.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Dramatic top-down view: the the product jar stands in the center inside a glowing cyan ring of light on the blue ground; two brothers in white lab coats, both resembling the character in the character sheet (same face type and beard), stand on either side looking up at the camera, and the broken halves of a red 3D circular arrow lie on the ground behind them. The man is exactly the character in the attached character sheet: same face, hair, beard, dark-teal t-shirt, jeans and sneakers, same rendering. The jar is exactly the product in the attached product photo, rendered photo-accurate: white lid, white jar, blue label with the same legible text. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S10",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "<photo-produit>.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Macro cutaway, straight-on: the top of the skin cube is covered with a smooth translucent light-blue balm film with a glossy sheen, and a light-blue tint is sinking down along the hair shaft into the follicle, reaching about halfway to the root, where the green-yellow colony still glows faintly with yellow sebum droplets around it. Cyan light wash. The skin cross-section is the same stylized block as in the attached cross-section reference: a cube of skin with one dark beard hair rising from a central follicle and a pale-yellow gland on the follicle wall. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S11",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "<photo-produit>.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Same macro cutaway, straight-on: the light-blue tint now fills the whole follicle to the root and surrounds the green-yellow colony, the yellow sebum droplets are dissolving into faint outlines, and the colony is shrinking; the red glow is gone. Cyan light wash. The skin cross-section is the same stylized block as in the attached cross-section reference: a cube of skin with one dark beard hair rising from a central follicle and a pale-yellow gland on the follicle wall. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S12",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "jobs/OUT/CHAR-sheet.png",
+   "<photo-produit>.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Low hero angle, three-quarter view, medium shot: the man massages the skin under his beard with the fingertips of one hand, eyes calm, holding the open the product jar in the other hand with the label toward camera; a soft green light wash over the world. The man is exactly the character in the attached character sheet: same face, hair, beard, dark-teal t-shirt, jeans and sneakers, same rendering. The jar is exactly the product in the attached product photo, rendered photo-accurate: white lid, white jar, blue label with the same legible text. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S13",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "jobs/OUT/CHAR-sheet.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Wide shot: the man stands tiny in front of giant extruded gold 3D numerals reading 40,000 that tower behind him, polished metallic gold with specular highlights and a soft cast shadow on the blue ground; he gives a thumbs up. Gold light wash. The man is exactly the character in the attached character sheet: same face, hair, beard, dark-teal t-shirt, jeans and sneakers, same rendering. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ },
+ {
+  "name": "S14",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png",
+   "<photo-produit>.png"
+  ],
+  "prompt": "Attach references: the first attached image is the background world.Podium, straight-on at eye level: the the product jar alone, centered, standing inside a glowing cyan ring of light on the blue ground, generous clean background above it, soft contact shadow. The jar is exactly the product in the attached product photo, rendered photo-accurate: white lid, white jar, blue label with the same legible text. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects."
+ }
+]

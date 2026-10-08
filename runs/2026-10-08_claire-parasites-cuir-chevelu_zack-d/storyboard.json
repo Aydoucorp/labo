@@ -1,0 +1,359 @@
+[
+ {
+  "name": "B01",
+  "vo_start": 0.0,
+  "vo_end": 1.92,
+  "target_s": 1.92,
+  "duration": "3",
+  "lines": [
+   1
+  ],
+  "scale": "A",
+  "shot": "Podium, contre-plongée héroïque",
+  "action": "Elle se gratte la tête des deux mains, agacée",
+  "couleur": "base",
+  "seam": "PUSH-THROUGH dans ses cheveux",
+  "start": "jobs/OUT/S01.png",
+  "end": "jobs/OUT/S02.png"
+ },
+ {
+  "name": "B02",
+  "vo_start": 1.92,
+  "vo_end": 4.48,
+  "target_s": 2.56,
+  "duration": "3",
+  "lines": [
+   2
+  ],
+  "scale": "B",
+  "shot": "Macro surface : forêt de cheveux, cuir chevelu au sol",
+  "action": "De petits parasites mignons se cachent entre les racines, elle ne voit rien",
+  "couleur": "base",
+  "seam": "PULL-BACK vers la prop island",
+  "start": "jobs/OUT/S02.png",
+  "end": "jobs/OUT/S03.png"
+ },
+ {
+  "name": "B03",
+  "vo_start": 4.48,
+  "vo_end": 7.36,
+  "target_s": 2.88,
+  "duration": "3",
+  "lines": [
+   3
+  ],
+  "scale": "B",
+  "shot": "Prop island, plongée",
+  "action": "Les parasites minuscules lèvent les yeux, terrifiés, vers un pot géant d'huile de coco (sans marque)",
+  "couleur": "base",
+  "seam": "PLACEMENT HAND-OFF : sa main prend le pot",
+  "start": "jobs/OUT/S03.png",
+  "end": "jobs/OUT/S04.png"
+ },
+ {
+  "name": "B04",
+  "vo_start": 7.36,
+  "vo_end": 8.76,
+  "target_s": 1.4,
+  "duration": "3",
+  "lines": [
+   4
+  ],
+  "scale": "A",
+  "shot": "Plan buste, 3/4",
+  "action": "Elle tient le pot d'huile de coco, le couvercle s'ouvre",
+  "couleur": "blanc crème",
+  "seam": "PUSH-IN dans le pot",
+  "start": "jobs/OUT/S04.png",
+  "end": "jobs/OUT/S05.png"
+ },
+ {
+  "name": "B05",
+  "vo_start": 8.76,
+  "vo_end": 11.66,
+  "target_s": 2.9,
+  "duration": "3",
+  "lines": [
+   5
+  ],
+  "scale": "A",
+  "shot": "Plan rapproché, légère plongée",
+  "action": "Elle sort une bonne cuillerée et l'étale sur le dessus de sa tête",
+  "couleur": "blanc crème",
+  "seam": "TILT vers le dessus de sa tête",
+  "start": "jobs/OUT/S05.png",
+  "end": "jobs/OUT/S06.png"
+ },
+ {
+  "name": "B06",
+  "vo_start": 11.66,
+  "vo_end": 14.09,
+  "target_s": 2.43,
+  "duration": "3",
+  "lines": [
+   6
+  ],
+  "scale": "B",
+  "shot": "Top-down sur sa tête",
+  "action": "Un petit flacon ambré (feuilles d'arbre à thé, sans étiquette) fait tomber quelques gouttes dans l'huile",
+  "couleur": "vert sauge",
+  "seam": "PUSH-THROUGH le long d'un cheveu",
+  "start": "jobs/OUT/S06.png",
+  "end": "jobs/OUT/S07.png"
+ },
+ {
+  "name": "B07",
+  "vo_start": 14.09,
+  "vo_end": 18.25,
+  "target_s": 4.16,
+  "duration": "4",
+  "lines": [
+   7,
+   8
+  ],
+  "scale": "C",
+  "shot": "Macro sur un cheveu",
+  "action": "Les œufs collés au cheveu reçoivent une goutte, deviennent gris et se fendent",
+  "couleur": "vert puis gris",
+  "seam": "PULL-BACK vers ses mains",
+  "start": "jobs/OUT/S07.png",
+  "end": "jobs/OUT/S08.png"
+ },
+ {
+  "name": "B08",
+  "vo_start": 18.25,
+  "vo_end": 21.41,
+  "target_s": 3.16,
+  "duration": "3",
+  "lines": [
+   9
+  ],
+  "scale": "B",
+  "shot": "Travelling racine vers pointe",
+  "action": "Ses doigts massent, le mélange enrobe le cheveu de la racine à la pointe, brillant",
+  "couleur": "doré",
+  "seam": "PUSH-IN sur un parasite",
+  "start": "jobs/OUT/S08.png",
+  "end": "jobs/OUT/S09.png"
+ },
+ {
+  "name": "B09",
+  "vo_start": 21.41,
+  "vo_end": 23.57,
+  "target_s": 2.16,
+  "duration": "3",
+  "lines": [
+   10
+  ],
+  "scale": "C",
+  "shot": "Macro, 3/4",
+  "action": "Une vague d'huile blanche coule et enveloppe un parasite comme un cocon",
+  "couleur": "blanc",
+  "seam": "ORBITE quart de tour",
+  "start": "jobs/OUT/S09.png",
+  "end": "jobs/OUT/S10.png"
+ },
+ {
+  "name": "B10",
+  "vo_start": 23.57,
+  "vo_end": 26.33,
+  "target_s": 2.76,
+  "duration": "3",
+  "lines": [
+   11
+  ],
+  "scale": "C",
+  "shot": "Macro, même parasite",
+  "action": "Dans sa bulle d'huile, il gesticule puis s'immobilise et devient gris (sans gore)",
+  "couleur": "gris",
+  "seam": "PULL-BACK fort jusqu'au plan large",
+  "start": "jobs/OUT/S10.png",
+  "end": "jobs/OUT/S11.png"
+ },
+ {
+  "name": "B11",
+  "vo_start": 26.33,
+  "vo_end": 28.87,
+  "target_s": 2.54,
+  "duration": "3",
+  "lines": [
+   12
+  ],
+  "scale": "A",
+  "shot": "Plan large, plongée",
+  "action": "Elle dort sur un gros oreiller, cheveux huilés enveloppés dans une serviette ; la lumière passe de bleu nuit au matin",
+  "couleur": "bleu nuit vers matin",
+  "seam": "PLACEMENT : un jet d'eau tombe d'en haut",
+  "start": "jobs/OUT/S11.png",
+  "end": "jobs/OUT/S12.png"
+ },
+ {
+  "name": "B12a",
+  "vo_start": 28.87,
+  "vo_end": 30.83,
+  "target_s": 1.96,
+  "duration": "3",
+  "lines": [
+   13
+  ],
+  "scale": "A",
+  "shot": "Plan buste",
+  "action": "Elle rince ses cheveux sous un jet d'eau qui tombe du ciel",
+  "couleur": "cyan eau",
+  "seam": "PUSH-THROUGH dans l'eau",
+  "start": "jobs/OUT/S12.png",
+  "end": "jobs/OUT/S13.png"
+ },
+ {
+  "name": "B12b",
+  "vo_start": 30.83,
+  "vo_end": 32.76,
+  "target_s": 1.93,
+  "duration": "3",
+  "lines": [
+   13
+  ],
+  "scale": "B",
+  "shot": "Macro surface, plongée",
+  "action": "Le courant emporte les parasites gris et les œufs vides vers le bas du cadre",
+  "couleur": "cyan propre",
+  "seam": "PULL-BACK vers le podium",
+  "start": "jobs/OUT/S13.png",
+  "end": "jobs/OUT/S14.png"
+ },
+ {
+  "name": "B13",
+  "vo_start": 32.76,
+  "vo_end": 34.59,
+  "target_s": 1.83,
+  "duration": "3",
+  "lines": [
+   14
+  ],
+  "scale": "A",
+  "shot": "Podium, 3/4",
+  "action": "Cheveux secs, elle se gratte à nouveau, perplexe ; une lueur rouge sur son cuir chevelu",
+  "couleur": "rouge léger",
+  "seam": "PUSH-THROUGH dans le cuir chevelu",
+  "start": "jobs/OUT/S14.png",
+  "end": "jobs/OUT/S15.png"
+ },
+ {
+  "name": "B14",
+  "vo_start": 34.59,
+  "vo_end": 36.95,
+  "target_s": 2.36,
+  "duration": "3",
+  "lines": [
+   15
+  ],
+  "scale": "C",
+  "shot": "Macro cutaway : le cube de cuir chevelu",
+  "action": "Plus de parasites, mais la peau est rouge, sèche, craquelée",
+  "couleur": "ROUGE",
+  "seam": "MATERIAL MORPH",
+  "start": "jobs/OUT/S15.png",
+  "end": "jobs/OUT/S16.png"
+ },
+ {
+  "name": "B15",
+  "vo_start": 36.95,
+  "vo_end": 39.2,
+  "target_s": 2.25,
+  "duration": "3",
+  "lines": [
+   16
+  ],
+  "scale": "C",
+  "shot": "Même cube, angle opposé",
+  "action": "Une vague apaisante vert sauge recouvre la peau, le rouge s'éteint",
+  "couleur": "rouge vers vert",
+  "seam": "PUSH-THROUGH hors de la peau",
+  "start": "jobs/OUT/S16.png",
+  "end": "jobs/OUT/S17.png"
+ },
+ {
+  "name": "B16a",
+  "vo_start": 39.2,
+  "vo_end": 40.93,
+  "target_s": 1.73,
+  "duration": "3",
+  "lines": [
+   17
+  ],
+  "scale": "B",
+  "shot": "Prop island, femme minuscule",
+  "action": "Des ingrédients naturels géants sans marque (feuille d'aloe vera, fleurs de camomille, bol d'avoine) se posent autour d'elle",
+  "couleur": "vert sauge",
+  "seam": "ORBITE",
+  "start": "jobs/OUT/S17.png",
+  "end": "jobs/OUT/S18.png"
+ },
+ {
+  "name": "B16b",
+  "vo_start": 40.93,
+  "vo_end": 43.58,
+  "target_s": 2.65,
+  "duration": "3",
+  "lines": [
+   17
+  ],
+  "scale": "A",
+  "shot": "Plan buste",
+  "action": "Elle mélange les ingrédients dans un bol et l'applique doucement",
+  "couleur": "vert doux",
+  "seam": "PLACEMENT HAND-OFF : le bol devient le guide",
+  "start": "jobs/OUT/S18.png",
+  "end": "jobs/OUT/S19.png"
+ },
+ {
+  "name": "B17",
+  "vo_start": 43.58,
+  "vo_end": 45.35,
+  "target_s": 1.77,
+  "duration": "3",
+  "lines": [
+   18
+  ],
+  "scale": "A",
+  "shot": "Plan buste, face",
+  "action": "Elle présente un petit guide fermé, couverture terracotta, sans texte",
+  "couleur": "terracotta",
+  "seam": "PUSH vers le guide",
+  "start": "jobs/OUT/S19.png",
+  "end": "jobs/OUT/S20.png"
+ },
+ {
+  "name": "B18",
+  "vo_start": 45.35,
+  "vo_end": 49.24,
+  "target_s": 3.89,
+  "duration": "4",
+  "lines": [
+   19,
+   20
+  ],
+  "scale": "A",
+  "shot": "Podium, contre-plongée",
+  "action": "Le guide se pose dans l'anneau cyan, elle minuscule devant, elle sourit et montre le guide",
+  "couleur": "terracotta + cyan",
+  "seam": "fin sur le podium",
+  "start": "jobs/OUT/S20.png",
+  "end": "jobs/OUT/S21.png"
+ },
+ {
+  "name": "B19",
+  "vo_start": 49.24,
+  "vo_end": 52.24,
+  "target_s": 3.0,
+  "duration": "3",
+  "lines": [],
+  "scale": "A",
+  "shot": "Podium frontal, outro silencieux",
+  "action": "Le guide seul dans l'anneau, fond propre pour la caption",
+  "couleur": "base",
+  "seam": "fin",
+  "start": "jobs/OUT/S21.png",
+  "end": null
+ }
+]

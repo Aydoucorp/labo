@@ -1,0 +1,188 @@
+[
+ {
+  "id": 1,
+  "start": 0.13,
+  "end": 1.64,
+  "dur": 1.51,
+  "text": "Démangeaisons sur le cuir chevelu ?",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 2,
+  "start": 1.92,
+  "end": 4.19,
+  "dur": 2.27,
+  "text": "Tu as peut-être des parasites sans le savoir.",
+  "match": 1.0,
+  "mots_faibles": [
+   "le"
+  ]
+ },
+ {
+  "id": 3,
+  "start": 4.48,
+  "end": 7.1,
+  "dur": 2.62,
+  "text": "Et voici la seule chose à laquelle ils ne survivent pas.",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 4,
+  "start": 7.36,
+  "end": 8.5,
+  "dur": 1.14,
+  "text": "Prends un pot d’huile de coco,",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 5,
+  "start": 8.76,
+  "end": 11.35,
+  "dur": 2.59,
+  "text": "sors-en une bonne cuillerée et étale-la sur ta tête.",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 6,
+  "start": 11.66,
+  "end": 13.92,
+  "dur": 2.26,
+  "text": "Ajoute quelques gouttes d’huile essentielle d’arbre à thé.",
+  "match": 1.0,
+  "mots_faibles": [
+   "gouttes"
+  ]
+ },
+ {
+  "id": 7,
+  "start": 14.09,
+  "end": 16.75,
+  "dur": 2.66,
+  "text": "Elle tue les œufs qu’ils ont déjà pondus sur tes cheveux...",
+  "match": 1.0,
+  "mots_faibles": [
+   "œufs"
+  ]
+ },
+ {
+  "id": 8,
+  "start": 16.98,
+  "end": 17.95,
+  "dur": 0.97,
+  "text": "pour qu’ils ne reviennent pas.",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 9,
+  "start": 18.25,
+  "end": 21.12,
+  "dur": 2.87,
+  "text": "Fais aussi pénétrer le mélange des racines jusqu’aux pointes.",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 10,
+  "start": 21.41,
+  "end": 23.38,
+  "dur": 1.97,
+  "text": "L’huile de coco enrobe chaque parasite",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 11,
+  "start": 23.57,
+  "end": 26.11,
+  "dur": 2.54,
+  "text": "et l’étouffe, pour qu’il ne puisse plus respirer !",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 12,
+  "start": 26.33,
+  "end": 28.66,
+  "dur": 2.33,
+  "text": "Laisse poser toute la nuit, puis rince le matin.",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 13,
+  "start": 28.87,
+  "end": 32.5,
+  "dur": 3.63,
+  "text": "Tout ce qui vivait sur ton cuir chevelu repart mort au lavage.",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 14,
+  "start": 32.76,
+  "end": 34.39,
+  "dur": 1.63,
+  "text": "Mais si les démangeaisons reviennent...",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 15,
+  "start": 34.59,
+  "end": 36.78,
+  "dur": 2.19,
+  "text": "ces parasites ne sont qu’une partie du problème.",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 16,
+  "start": 36.95,
+  "end": 38.92,
+  "dur": 1.97,
+  "text": "Ton cuir chevelu a besoin d’être apaisé,",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 17,
+  "start": 39.2,
+  "end": 43.38,
+  "dur": 4.18,
+  "text": "et il existe des recettes simples, à base d’ingrédients naturels, pour en prendre soin.",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 18,
+  "start": 43.58,
+  "end": 45.21,
+  "dur": 1.63,
+  "text": "J’ai réuni les miennes dans un guide.",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 19,
+  "start": 45.35,
+  "end": 46.5,
+  "dur": 1.15,
+  "text": "Commente RECETTES,",
+  "match": 1.0,
+  "mots_faibles": []
+ },
+ {
+  "id": 20,
+  "start": 46.59,
+  "end": 49.2,
+  "dur": 2.61,
+  "text": "et je t’enverrai gratuitement mon guide en message privé !",
+  "match": 1.0,
+  "mots_faibles": []
+ }
+]

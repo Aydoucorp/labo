@@ -1,0 +1,182 @@
+[
+ {
+  "name": "L01_B1",
+  "start": "jobs/OUT/S01.png",
+  "end": "jobs/OUT/S02.png",
+  "vo_start": 0.0,
+  "vo_end": 4.8,
+  "target_s": 4.8,
+  "duration": "5",
+  "prompt": "Camera motion: Camera starts low looking up at the man, then pushes forward fast into his beard and dives through the skin, ending on the cutaway view of the end frame. Subject motion: The man scratches his beard; white flakes snow down around him and pile at his feet. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L02_B2a",
+  "start": "jobs/OUT/S02.png",
+  "end": "jobs/OUT/S02b.png",
+  "vo_start": 5.1,
+  "vo_end": 7.2,
+  "target_s": 2.1,
+  "duration": "5",
+  "prompt": "Camera motion: Camera slowly rises from eye level to a slightly higher three-quarter view. Subject motion: The small green-yellow colony at the root pulses with cyan light; the first yellow sebum droplets start to emerge from the gland. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L03_B2b",
+  "start": "jobs/OUT/S02b.png",
+  "end": "jobs/OUT/S03.png",
+  "vo_start": 7.3,
+  "vo_end": 11.4,
+  "target_s": 4.1,
+  "duration": "5",
+  "prompt": "Camera motion: Camera holds the three-quarter view with a slow push-in toward the root. Subject motion: Glossy yellow sebum droplets slide down onto the colony, which grows into a large cluster; a faint red glow appears at the root. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L04_B3a",
+  "start": "jobs/OUT/S03.png",
+  "end": "jobs/OUT/S03b.png",
+  "vo_start": 11.6,
+  "vo_end": 14.9,
+  "target_s": 3.3,
+  "duration": "5",
+  "prompt": "Camera motion: Camera dives into the follicle and tilts steeply upward toward the underside of the skin surface, the world washing red. Subject motion: Tiny orange-red acid particles rise from the colony and the follicle walls flush red. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L05_B3b",
+  "start": "jobs/OUT/S03b.png",
+  "end": "jobs/OUT/S04.png",
+  "vo_start": 15.5,
+  "vo_end": 18.0,
+  "target_s": 2.5,
+  "duration": "5",
+  "prompt": "Camera motion: Camera keeps rising, bursts up through the skin surface and pulls wide to reveal the tiny man among giant flakes on the red skin, ending on the end frame. Subject motion: Pale skin cells stack up fast under the surface and the surface cracks into giant flakes lifting off. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L06_B4",
+  "start": "jobs/OUT/S04.png",
+  "end": "jobs/OUT/S05.png",
+  "vo_start": 18.5,
+  "vo_end": 23.2,
+  "target_s": 4.7,
+  "duration": "5",
+  "prompt": "Camera motion: Camera holds wide at ground level with a slow lateral drift. Subject motion: Giant flakes lift and drift around the puzzled tiny man; the red wash fades to base blue; a giant white pump shampoo bottle is set down beside him from above and he looks up at it. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L07_B5a",
+  "start": "jobs/OUT/S05.png",
+  "end": "jobs/OUT/S05b.png",
+  "vo_start": 23.6,
+  "vo_end": 28.4,
+  "target_s": 4.8,
+  "duration": "5",
+  "prompt": "Camera motion: Camera holds wide, slowly lowering toward ground level. Subject motion: The giant bottle pumps a wave of white foam that floods the skin around the tiny man, clear water streams through it and rinses it away, the foam turning gray; he shields his face. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L08_B5b",
+  "start": "jobs/OUT/S05b.png",
+  "end": "jobs/OUT/S06.png",
+  "vo_start": 28.4,
+  "vo_end": 31.2,
+  "target_s": 2.8,
+  "duration": "5",
+  "prompt": "Camera motion: Camera plunges down through the foam and the skin surface, ending on the three-quarter cutaway view of the end frame. Subject motion: Water rinses the last foam off; inside, at the root, the green-yellow colony stays untouched, glowing cyan. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L09_B6",
+  "start": "jobs/OUT/S06.png",
+  "end": "jobs/OUT/S07.png",
+  "vo_start": 31.6,
+  "vo_end": 35.4,
+  "target_s": 3.8,
+  "duration": "5",
+  "prompt": "Camera motion: Camera slowly orbits a quarter turn around the cube and rises into the dramatic top-down view of the end frame. Subject motion: Thick glossy amber beard oil cascades down the hair into the follicle and the colony swells bigger; then a roller of white cortisone cream starts crossing the red surface. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L10_B7",
+  "start": "jobs/OUT/S07.png",
+  "end": "jobs/OUT/S08.png",
+  "vo_start": 35.8,
+  "vo_end": 41.2,
+  "target_s": 5.4,
+  "duration": "5",
+  "prompt": "Camera motion: Camera holds top-down, then pulls back and lowers into the three-quarter view of the end frame. Subject motion: The white cream roller crosses the surface leaving pale calm skin; the cream absorbs and the red floods back with fresh flakes; a glossy red 3D circular arrow materializes around the cube. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L11_B8",
+  "start": "jobs/OUT/S08.png",
+  "end": "jobs/OUT/S09.png",
+  "vo_start": 41.5,
+  "vo_end": 47.0,
+  "target_s": 5.5,
+  "duration": "5",
+  "prompt": "Camera motion: Camera orbits the cube following the red arrow, then rises to the dramatic top-down view of the end frame. Subject motion: The red arrow loops around the cube; two brothers in white lab coats walk in, grab the arrow and snap it in half, the pieces fall to the ground, the red wash fades to base blue, and one brother sets the the product jar down inside a glowing cyan ring. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L12_B9",
+  "start": "jobs/OUT/S09.png",
+  "end": "jobs/OUT/S10.png",
+  "vo_start": 47.6,
+  "vo_end": 51.3,
+  "target_s": 3.7,
+  "duration": "5",
+  "prompt": "Camera motion: Camera pushes down from top-down toward the jar, then dives into the blue balm and through the skin, ending on the straight-on cutaway of the end frame. Subject motion: The lid of the jar lifts off, a fingertip scoops translucent light-blue balm; then a blue film spreads on the skin surface and starts sinking down the hair. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L13_B10",
+  "start": "jobs/OUT/S10.png",
+  "end": "jobs/OUT/S11.png",
+  "vo_start": 51.5,
+  "vo_end": 55.6,
+  "target_s": 4.1,
+  "duration": "5",
+  "prompt": "Camera motion: Camera travels slowly downward along the follicle, following the blue tint. Subject motion: The light-blue tint sinks along the hair shaft to the root, surrounds the colony, and the yellow sebum droplets dissolve into faint outlines. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L14_B11",
+  "start": "jobs/OUT/S11.png",
+  "end": "jobs/OUT/S12.png",
+  "vo_start": 55.8,
+  "vo_end": 60.9,
+  "target_s": 5.1,
+  "duration": "5",
+  "prompt": "Camera motion: Camera pulls back up and out through the calm skin surface, the world washing green, and settles on the low hero three-quarter view of the man in the end frame. Subject motion: The green-yellow colony shrinks and dissolves, the red glow disappears, the surface smooths; then the man is massaging balm under his beard holding the jar. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L15_B12a",
+  "start": "jobs/OUT/S12.png",
+  "end": "jobs/OUT/S12b.png",
+  "vo_start": 61.6,
+  "vo_end": 65.0,
+  "target_s": 3.4,
+  "duration": "5",
+  "prompt": "Camera motion: Camera holds low hero angle with a slow push-in. Subject motion: The man massages the balm under his beard with his fingertips, then lowers the jar out of frame and raises his hand to his beard. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L16_B12b",
+  "start": "jobs/OUT/S12b.png",
+  "end": "jobs/OUT/S13.png",
+  "vo_start": 65.3,
+  "vo_end": 68.9,
+  "target_s": 3.6,
+  "duration": "5",
+  "prompt": "Camera motion: Camera pulls back wide and swings around into the wide shot of the end frame. Subject motion: The man runs his hand through his clean beard and smiles, nothing falls; giant gold 40,000 numerals rise behind him and he gives a thumbs up, gold wash. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L17_B13",
+  "start": "jobs/OUT/S13.png",
+  "end": "jobs/OUT/S14.png",
+  "vo_start": 69.2,
+  "vo_end": 74.6,
+  "target_s": 5.4,
+  "duration": "5",
+  "prompt": "Camera motion: Camera pushes forward past the man and the gold numerals and settles straight-on at eye level on the jar in the glowing ring of the end frame. Subject motion: The gold numerals gleam, the man gives a thumbs up; then the world returns to base blue and the jar stands alone in the cyan ring. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "L18_OUTRO",
+  "start": "jobs/OUT/S14.png",
+  "end": null,
+  "vo_start": 74.6,
+  "vo_end": 78.0,
+  "target_s": 3.4,
+  "duration": "5",
+  "prompt": "Camera motion: Locked camera with a very slow push-in. Subject motion: The jar rotates slowly a few degrees to the left and back, catching the soft light on the lid; nothing else moves. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ }
+]
