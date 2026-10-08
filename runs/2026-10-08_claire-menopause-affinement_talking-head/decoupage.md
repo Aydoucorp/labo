@@ -193,7 +193,7 @@ Fiche : `brolls-a-trouver.html`. Dépôt : dossier `talking_head_broll_2/` à la
 | B06 | 33,1 → 36,7 s | 4,5 s | Ensuite, chaque soir, massez votre cuir chevelu pendant cinq minutes | Deux mains massent le cuir chevelu du bout des doigts, petits cercles, le soir (le geste sur son verbe « massez »). |
 | B07 | 36,7 → 40,8 s | 5,1 s | avec une huile végétale enrichie d'une ou deux gouttes d'huile essentielle de romarin. | Une pipette fait tomber une ou deux gouttes d'huile essentielle de romarin dans un petit flacon d'huile végétale, puis le mélange sur la raie. |
 
-## 6. Accroche : 3 bandeaux au choix
+## 6. Accroche : bandeau choisi, n° 2 (les deux autres pour mémoire)
 
 1. « Cheveux plus fins à la ménopause ? Voici pourquoi »
 2. « 2 femmes sur 3 voient leurs cheveux s'affiner à la ménopause »

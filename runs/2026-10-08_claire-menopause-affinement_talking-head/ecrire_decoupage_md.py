@@ -117,7 +117,7 @@ A("Fiche : `brolls-a-trouver.html`. Dépôt : dossier `talking_head_broll_2/` à
 A("| N° | Moment | Durée à trouver | Phrase | À voir |\n|---|---|---|---|---|")
 for b in d["brolls"]:
     A(f"| {b['id']} | {fr(b['debut'])} → {fr(b['fin'])} s | {fr(b['fin']-b['debut']+1)} s | {b['phrase']} | {b['voir']} |")
-A("\n## 6. Accroche : 3 bandeaux au choix\n")
+A("\n## 6. Accroche : bandeau choisi, n° 2 (les deux autres pour mémoire)\n")
 A("1. « Cheveux plus fins à la ménopause ? Voici pourquoi »\n2. « 2 femmes sur 3 voient leurs cheveux s'affiner à la ménopause »\n3. « Ménopause : vos cheveux s'affinent, ce n'est pas une fatalité »\n")
 A("## 7. Preuves à fournir\n\nAucune.\n")
 open("decoupage.md", "w").write("\n".join(L) + "\n")
