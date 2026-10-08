@@ -20,7 +20,7 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | clip-musical | 000 |
 | zack-d-style | 000 |
 | le-montage | 000 |
-| talking-head | 001 |
+| talking-head | 002 |
 | full-b-roll-artiste | 001 |
 | ugc-humain | 001 |
 | ebook | 001 |
@@ -35,3 +35,4 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | `2026-10-01_full-b-roll-artiste_001.mp4` | full-b-roll-artiste | 2026-10-01 | 001 | Claire · arrêter le minoxidil sans perdre ses cheveux (CTA « Guide ») | `runs/2026-10-01_claire-minoxidil-arret_full-broll/` | 79,6 s · 9:16 · 1080×1920 |
 | `2026-10-02_ugc-humain_001.mp4` | ugc-humain | 2026-10-02 | 001 | Claire · signes du mauvais après-shampoing (CTA « GUIDE »), format muet texte + musique, test (v4, débuts figés coupés) | `runs/2026-10-02_claire-apres-shampoing_ugc-humain/` | 24,9 s · 9:16 · 1080×1920 |
 | `2026-10-03_ebook_001.pdf` (+ `-hq.pdf`) | ebook | 2026-10-03 | 001 | Claire · rituel romarin et massage, ebook offert du reel batana « chute à 40 ans » (CTA « GUIDE »), v2 sans sources, ton optimiste | `runs/2026-10-03_claire-batana-chute-40-ans_ebook/` | PDF · 11 pages · 3:4 (web 1,2 Mo, HQ 4,3 Mo) |
+| `2026-10-08_talking-head_002.mp4` | talking-head | 2026-10-08 | 002 | Claire · affinement des cheveux à la ménopause (CTA « GUIDE »), voix off ElevenLabs, avatar recalé mot par mot, vidéo ralentie à 90 % | `runs/2026-10-08_claire-menopause-affinement_talking-head/` | 66,2 s · 9:16 · 1080×1920 |

@@ -2,7 +2,7 @@
 
 **Version 1 montée et contrôlée (3 passes, tout OK).** Fichiers dans `retenues/` :
 - `claire-menopause-affinement-talking-head-v1-vitesse100.mp4` : 59,57 s, 1080×1920, 30 i/s, H.264 + AAC, -14,2 LUFS, pic -1,5 dBFS.
-- `…-vitesse090.mp4` (66,2 s) et `…-vitesse085.mp4` (70,1 s) : vidéo entière ralentie, voix sans changement de hauteur (demande « on va slowly le tout »). Vitesse finale à choisir par l'utilisateur.
+- `…-vitesse090.mp4` (66,2 s) et `…-vitesse085.mp4` (70,1 s) : vidéo entière ralentie, voix sans changement de hauteur (demande « on va slowly le tout »). **Vitesse retenue par l'utilisateur : 90 %** → créa finale `creas/talking-head/2026-10-08_talking-head_002.mp4` (66,2 s).
 
 ## Voix et synchro des lèvres
 
