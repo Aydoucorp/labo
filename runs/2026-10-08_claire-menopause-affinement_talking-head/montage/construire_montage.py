@@ -44,7 +44,7 @@ segments = [
     {"type": "infolist", "start": C[12], "end": C[13], "enter": "circle", "wipeX": "50%", "wipeY": "20%",
      "bg": "linear-gradient(180deg, #FAF6F3 0%, #EFE7E0 100%)",
      "rows": [
-         {"t": round(t("l'huile", 41.5) - 0.1, 3), "title": "Huile de romarin", "img": "images/I1.png",
+         {"t": round(C[12] + 0.15, 3), "title": "Huile de romarin", "img": "images/I1.png",
           "parts": [{"s": "Premières études "}, {"s": "encourageantes", "bold": True, "mark": round(t("encourageantes") - 0.05, 3)}]},
          {"t": round(t("massage", 42.5) - 0.1, 3), "title": "Massage quotidien", "img": "images/I2.png",
           "parts": [{"s": "Du cuir chevelu, "}, {"s": "chaque soir", "bold": True, "mark": round(t("encourageantes") - 0.05, 3)}]}]},
@@ -72,7 +72,7 @@ words = []
 firsts = {min((i for i, w in enumerate(W) if w["start"] >= c - 0.01)) for c in C[1:-1]}
 for i, w in enumerate(W):
     txt = w["w"] + (w.get("punct_after") or "")
-    txt = txt.replace("D-H-T", "DHT").replace("GUIDE", "« GUIDE »")
+    txt = txt.replace("GUIDE", "« GUIDE »")
     e = {"w": txt, "s": w["start"], "e": w["end"]}
     if i in firsts or not words:
         e["br"] = True
