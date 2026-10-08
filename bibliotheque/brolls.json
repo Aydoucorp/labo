@@ -2525,6 +2525,648 @@
    "original": null,
    "notes": null,
    "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B01.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Elle se gratte la tête des deux mains, agacée (Podium, contre-plongée héroïque).",
+   "mots_cles": [
+    "démangeaisons",
+    "se gratter",
+    "cuir chevelu",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B01",
+     "debut": 0.0,
+     "fin": 1.92,
+     "phrase": "Démangeaisons sur le cuir chevelu ?"
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0076",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B02.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : De petits parasites mignons se cachent entre les racines, elle ne voit rien (Macro surface : forêt de cheveux, cuir chevelu au sol).",
+   "mots_cles": [
+    "parasites",
+    "poux",
+    "racines",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B02",
+     "debut": 1.92,
+     "fin": 4.48,
+     "phrase": "Tu as peut-être des parasites sans le savoir."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0077",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B03.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Les parasites minuscules lèvent les yeux, terrifiés, vers un pot géant d'huile de coco (sans marque) (Prop island, plongée).",
+   "mots_cles": [
+    "huile de coco",
+    "pot",
+    "parasites",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B03",
+     "debut": 4.48,
+     "fin": 7.36,
+     "phrase": "Et voici la seule chose à laquelle ils ne survivent pas."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0078",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B04.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Elle tient le pot d'huile de coco, le couvercle s'ouvre (Plan buste, 3/4).",
+   "mots_cles": [
+    "huile de coco",
+    "pot",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B04",
+     "debut": 7.36,
+     "fin": 8.76,
+     "phrase": "Prends un pot d’huile de coco,"
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0079",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B05.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Elle sort une bonne cuillerée et l'étale sur le dessus de sa tête (Plan rapproché, légère plongée).",
+   "mots_cles": [
+    "huile de coco",
+    "cuillère",
+    "application",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B05",
+     "debut": 8.76,
+     "fin": 11.66,
+     "phrase": "sors-en une bonne cuillerée et étale-la sur ta tête."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0080",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B06.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Un petit flacon ambré (feuilles d'arbre à thé, sans étiquette) fait tomber quelques gouttes dans l'huile (Top-down sur sa tête).",
+   "mots_cles": [
+    "arbre à thé",
+    "huile essentielle",
+    "compte-gouttes",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B06",
+     "debut": 11.66,
+     "fin": 14.09,
+     "phrase": "Ajoute quelques gouttes d’huile essentielle d’arbre à thé."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0081",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B07.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Les œufs collés au cheveu reçoivent une goutte, deviennent gris et se fendent (Macro sur un cheveu).",
+   "mots_cles": [
+    "lentes",
+    "œufs",
+    "arbre à thé",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 62,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B07",
+     "debut": 14.09,
+     "fin": 18.25,
+     "phrase": "Elle tue les œufs qu’ils ont déjà pondus sur tes cheveux... / pour qu’ils ne reviennent pas."
+    }
+   ],
+   "duree_s": 4.04,
+   "format": "720x1280",
+   "id": "br-0082",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B08.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Ses doigts massent, le mélange enrobe le cheveu de la racine à la pointe, brillant (Travelling racine vers pointe).",
+   "mots_cles": [
+    "massage",
+    "racines",
+    "pointes",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B08",
+     "debut": 18.25,
+     "fin": 21.41,
+     "phrase": "Fais aussi pénétrer le mélange des racines jusqu’aux pointes."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0083",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B09.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Une vague d'huile blanche coule et enveloppe un parasite comme un cocon (Macro, 3/4).",
+   "mots_cles": [
+    "huile de coco",
+    "parasite",
+    "enrobe",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B09",
+     "debut": 21.41,
+     "fin": 23.57,
+     "phrase": "L’huile de coco enrobe chaque parasite"
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0084",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B10.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Dans sa bulle d'huile, il gesticule puis s'immobilise et devient gris (sans gore) (Macro, même parasite).",
+   "mots_cles": [
+    "parasite",
+    "étouffe",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B10",
+     "debut": 23.57,
+     "fin": 26.33,
+     "phrase": "et l’étouffe, pour qu’il ne puisse plus respirer !"
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0085",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B11.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Elle dort sur un gros oreiller, cheveux huilés enveloppés dans une serviette ; la lumière passe de bleu nuit au matin (Plan large, plongée).",
+   "mots_cles": [
+    "nuit",
+    "laisser poser",
+    "dormir",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B11",
+     "debut": 26.33,
+     "fin": 28.87,
+     "phrase": "Laisse poser toute la nuit, puis rince le matin."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0086",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B12a.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Elle rince ses cheveux sous un jet d'eau qui tombe du ciel (Plan buste).",
+   "mots_cles": [
+    "rinçage",
+    "eau",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B12a",
+     "debut": 28.87,
+     "fin": 30.83,
+     "phrase": "Tout ce qui vivait sur ton cuir chevelu repart mort au lavage."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0087",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B12b.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Le courant emporte les parasites gris et les œufs vides vers le bas du cadre (Macro surface, plongée).",
+   "mots_cles": [
+    "rinçage",
+    "parasites morts",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B12b",
+     "debut": 30.83,
+     "fin": 32.76,
+     "phrase": "Tout ce qui vivait sur ton cuir chevelu repart mort au lavage."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0088",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B13.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Cheveux secs, elle se gratte à nouveau, perplexe ; une lueur rouge sur son cuir chevelu (Podium, 3/4).",
+   "mots_cles": [
+    "démangeaisons",
+    "irritation",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B13",
+     "debut": 32.76,
+     "fin": 34.59,
+     "phrase": "Mais si les démangeaisons reviennent..."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0089",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B14.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Plus de parasites, mais la peau est rouge, sèche, craquelée (Macro cutaway : le cube de cuir chevelu).",
+   "mots_cles": [
+    "cuir chevelu irrité",
+    "coupe",
+    "rougeur",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B14",
+     "debut": 34.59,
+     "fin": 36.95,
+     "phrase": "ces parasites ne sont qu’une partie du problème."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0090",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B15.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Une vague apaisante vert sauge recouvre la peau, le rouge s'éteint (Même cube, angle opposé).",
+   "mots_cles": [
+    "apaiser",
+    "cuir chevelu",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B15",
+     "debut": 36.95,
+     "fin": 39.2,
+     "phrase": "Ton cuir chevelu a besoin d’être apaisé,"
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0091",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B16a.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Des ingrédients naturels géants sans marque (feuille d'aloe vera, fleurs de camomille, bol d'avoine) se posent autour d'elle (Prop island, femme minuscule).",
+   "mots_cles": [
+    "ingrédients naturels",
+    "aloe vera",
+    "camomille",
+    "avoine",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B16a",
+     "debut": 39.2,
+     "fin": 40.93,
+     "phrase": "et il existe des recettes simples, à base d’ingrédients naturels, pour en prendre soin."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0092",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B16b.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Elle mélange les ingrédients dans un bol et l'applique doucement (Plan buste).",
+   "mots_cles": [
+    "recette",
+    "bol",
+    "masque",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B16b",
+     "debut": 40.93,
+     "fin": 43.58,
+     "phrase": "et il existe des recettes simples, à base d’ingrédients naturels, pour en prendre soin."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0093",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B17.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Elle présente un petit guide fermé, couverture terracotta, sans texte (Plan buste, face).",
+   "mots_cles": [
+    "guide",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B17",
+     "debut": 43.58,
+     "fin": 45.35,
+     "phrase": "J’ai réuni les miennes dans un guide."
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0094",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B18.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Le guide se pose dans l'anneau cyan, elle minuscule devant, elle sourit et montre le guide (Podium, contre-plongée).",
+   "mots_cles": [
+    "guide",
+    "CTA",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 62,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B18",
+     "debut": 45.35,
+     "fin": 49.24,
+     "phrase": "Commente RECETTES, / et je t’enverrai gratuitement mon guide en message privé !"
+    }
+   ],
+   "duree_s": 4.04,
+   "format": "720x1280",
+   "id": "br-0095",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
+  },
+  {
+   "fichier": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/jobs/OUT/B19.mp4",
+   "type": "video",
+   "origine": "ia-zack-d",
+   "style": "zack-d (monde bleu quadrillé, Pixar, Claire en pied)",
+   "marque": "Les cheveux de Claire",
+   "description": "Zack D : Le guide seul dans l'anneau, fond propre pour la caption (Podium frontal, outro silencieux).",
+   "mots_cles": [
+    "guide",
+    "outro",
+    "zack-d"
+   ],
+   "modele": "gpt-image-2 1K + kling-3.0 std 720p",
+   "cout_credits": 48,
+   "usages": [
+    {
+     "run": "runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d",
+     "plan": "B19",
+     "debut": 49.24,
+     "fin": 52.24,
+     "phrase": "(outro muette)"
+    }
+   ],
+   "duree_s": 3.04,
+   "format": "720x1280",
+   "id": "br-0096",
+   "original": null,
+   "notes": null,
+   "nature": "ia"
   }
  ]
 }
