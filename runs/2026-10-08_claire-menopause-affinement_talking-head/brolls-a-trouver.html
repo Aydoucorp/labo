@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>B-rolls à trouver</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FAF6F3;--card:#FFFFFF;--line:#EFE7E0;--ink:#2E2A26;--muted:#6f675f;--accent:#A8553A;--accent-soft:#F3E3DA;--sage:#8C9B86;--plum:#7A4351;--ok:#5f7a57}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1f1c19;--card:#2a2622;--line:#3a342e;--ink:#F3ECE6;--muted:#b4ada4;--accent:#D98A6C;--accent-soft:#3b2a22;--sage:#a4b39e;--plum:#c98a9a;--ok:#9fbf95}}
+:root[data-theme="dark"]{--bg:#1f1c19;--card:#2a2622;--line:#3a342e;--ink:#F3ECE6;--muted:#b4ada4;--accent:#D98A6C;--accent-soft:#3b2a22;--sage:#a4b39e;--plum:#c98a9a;--ok:#9fbf95}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Source Sans 3",system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:28px 16px 60px}
+h1{font-family:Fraunces,serif;font-size:1.9rem;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 18px}
+.rules{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:18px;display:grid;gap:6px}
+.rules b{color:var(--accent)}
+.progress{display:flex;align-items:center;gap:10px;margin:0 0 18px;font-weight:600}
+.bar{flex:1;height:8px;background:var(--line);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;width:0;background:var(--ok);transition:width .3s}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:16px;transition:opacity .2s}
+.card.done{opacity:.55}
+.head{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:10px}
+.id{font-family:Fraunces,serif;font-size:1.35rem;color:var(--accent)}
+.tag{font-size:.8rem;font-weight:600;padding:2px 10px;border-radius:99px;background:var(--accent-soft);color:var(--accent)}
+.tag.moyen{background:transparent;border:1px solid var(--sage);color:var(--sage)}
+.check{margin-left:auto;display:flex;align-items:center;gap:6px;cursor:pointer;font-weight:600;color:var(--muted)}
+.check input{width:20px;height:20px;accent-color:var(--ok)}
+.quote{font-size:1.1rem;border-left:4px solid var(--accent);padding:4px 0 4px 12px;margin:0 0 14px;font-style:italic}
+.times{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:14px}
+.t{background:var(--bg);border-radius:10px;padding:8px 10px}
+.t small{display:block;color:var(--muted);font-size:.78rem}
+.t strong{font-size:1.15rem}
+.t.key{background:var(--accent-soft)}
+.t.key strong{color:var(--accent)}
+dl{margin:0;display:grid;grid-template-columns:120px 1fr;gap:6px 12px}
+dt{color:var(--muted);font-weight:600}
+dd{margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:99px;padding:3px 10px;font:inherit;font-size:.9rem;cursor:pointer}
+.chip:hover{border-color:var(--accent)}
+.chip.copied{background:var(--ok);color:#fff;border-color:var(--ok)}
+code{background:var(--bg);padding:1px 6px;border-radius:6px}
+.avoid{color:var(--plum)}
+.foot{color:var(--muted);font-size:.9rem;margin-top:20px}
+@media (max-width:560px){.times{grid-template-columns:1fr 1fr}.t.key{grid-column:1/-1}dl{grid-template-columns:1fr}dt{margin-top:6px}}
+</style>
+</head>
+<body>
+<main>
+<h1>B-rolls à trouver</h1>
+<p class="sub">Les cheveux de Claire · Affinement des cheveux à la ménopause · 7 vidéos à chercher sur les réseaux</p>
+
+<div class="rules">
+<div><b>Durée :</b> prends une vidéo d'au moins la durée indiquée en orange (durée de l'audio + 1 s de marge pour la coupe).</div>
+<div><b>Format :</b> vertical de préférence. Sans texte incrusté, sans filigrane, sans logo.</div>
+<div><b>Où les déposer :</b> dossier talking_head_broll_2 à la racine du studio (GitHub Aydoucorp/labo, branche claude/trusting-carson-sott4i)</div>
+<div><b>Astuce :</b> clique sur un mot-clé pour le copier.</div>
+</div>
+
+<div class="progress"><span id="count">0 / 7 trouvés</span><div class="bar"><i id="fill"></i></div></div>
+
+<div id="list"></div>
+
+<p class="foot">Si un plan reste introuvable, je peux le générer en secours (MiniMax H3, environ 40 crédits), seulement avec ton accord.</p>
+</main>
+
+<script>
+const B=[{"id": "B01", "prio": "Important · accroche (bas de l'écran partagé)", "moyen": false, "phrase": "Deux femmes sur trois constatent un affinement de leurs", "start": "0,0 s", "end": "2,2 s", "dur": "2,2 s", "min": "3,2 s", "voir": "Une femme montre que ses cheveux se sont affinés : queue de cheval devenue fine entre ses doigts, ou raie élargie qu'elle écarte devant le miroir (recette 1 : le problème sur quelqu'un qui ressemble à la cible).", "profil": "Femme de 48 à 58 ans, chez elle, lumière naturelle", "fr": ["cheveux fins ménopause", "perte de densité cheveux", "queue de cheval fine", "raie élargie femme", "cheveux clairsemés femme", "chute cheveux 50 ans"], "en": ["thinning hair menopause", "thin ponytail", "female hair thinning", "widening part woman", "hair loss menopause", "thinning hair women over 50"], "tags": ["#menopausehair", "#thinninghair", "#hairthinning", "#chutedecheveux"], "eviter": "Texte incrusté, filigrane, logo de marque. Format : vertical de préférence.", "file": "broll_01.mp4"}, {"id": "B02", "prio": "Important · accroche (bas de l'écran partagé)", "moyen": false, "phrase": "cheveux à la ménopause. Pourquoi?", "start": "2,2 s", "end": "4,3 s", "dur": "2,1 s", "min": "3,1 s", "voir": "Gros plan de cheveux fins restés sur une brosse ou dans la main après le coiffage, la femme regarde, inquiète.", "profil": "Femme de 48 à 58 ans, salle de bain", "fr": ["cheveux sur la brosse", "cheveux qui tombent", "chute de cheveux brosse", "cheveux dans la main"], "en": ["hair on brush", "hair falling out brush", "hair shedding", "hair loss brush woman"], "tags": ["#hairshedding", "#hairloss", "#chutedecheveux"], "eviter": "Texte incrusté, filigrane, logo de marque. Format : vertical de préférence.", "file": "broll_02.mp4"}, {"id": "B03", "prio": "Important", "moyen": false, "phrase": "ce qui offre moins de soutien à ces follicules pileux.", "start": "16,7 s", "end": "19,1 s", "dur": "2,4 s", "min": "3,4 s", "voir": "Gros plan d'une raie où le cuir chevelu se voit entre des cheveux fins (la conséquence visible, R1).", "profil": "Femme de 48 à 58 ans, cheveux naturels bruns ou poivre et sel", "fr": ["raie cuir chevelu visible", "cheveux fins raie", "cuir chevelu dégarni femme", "densité cheveux"], "en": ["visible scalp part", "thinning part closeup", "scalp showing through hair", "female pattern hair loss part"], "tags": ["#thinninghair", "#scalpcare", "#femalehairloss"], "eviter": "Texte incrusté, filigrane, logo de marque. Format : vertical de préférence.", "file": "broll_03.mp4"}, {"id": "B04", "prio": "Important", "moyen": false, "phrase": "Faites d'abord faire une prise de sang:", "start": "21,2 s", "end": "22,8 s", "dur": "1,6 s", "min": "2,6 s", "voir": "Une prise de sang au pli du coude : garrot, aiguille ou tube qui se remplit (R4).", "profil": "Femme de 45 à 55 ans, cabinet ou laboratoire, lumière claire", "fr": ["prise de sang", "bilan sanguin", "laboratoire analyse", "infirmière prise de sang", "ferritine", "bilan thyroïde"], "en": ["blood test", "blood draw", "phlebotomy", "nurse drawing blood", "lab test woman", "blood work"], "tags": ["#prisedesang", "#bilansanguin", "#bloodtest", "#bloodwork"], "eviter": "Gros plan trop sanglant, texte incrusté, logo de laboratoire. Format : vertical de préférence.", "file": "broll_04.mp4"}, {"id": "B05", "prio": "Important", "moyen": false, "phrase": "et favoriser la santé de vos cheveux.", "start": "31,3 s", "end": "33,1 s", "dur": "1,8 s", "min": "2,8 s", "voir": "Une femme secoue ou passe la main dans une chevelure souple, brillante et dense (le résultat désiré, R2).", "profil": "Femme de 45 à 55 ans, cheveux naturels bruns ou poivre et sel, lumière de fenêtre", "fr": ["cheveux brillants", "femme secoue cheveux", "cheveux sains", "chevelure épaisse", "cheveux poivre et sel"], "en": ["healthy hair", "hair flip", "shiny hair woman", "thick hair", "grey hair woman", "hair toss slow motion"], "tags": ["#healthyhair", "#hairflip", "#cheveuxsains", "#greyhair"], "eviter": "Brushing de salon, publicité de shampoing, logo, texte incrusté. Format : vertical de préférence.", "file": "broll_05.mp4"}, {"id": "B06", "prio": "Important · démo", "moyen": false, "phrase": "Ensuite, chaque soir, massez votre cuir chevelu pendant cinq minutes", "start": "33,1 s", "end": "36,7 s", "dur": "3,5 s", "min": "4,5 s", "voir": "Deux mains massent le cuir chevelu du bout des doigts, petits cercles, le soir (le geste sur son verbe « massez »).", "profil": "Femme de 45 à 55 ans, salle de bain ou chambre, lumière douce", "fr": ["massage cuir chevelu", "masser cuir chevelu doigts", "routine cheveux soir", "massage crânien"], "en": ["scalp massage", "fingertip scalp massage", "scalp massage routine", "hair growth massage"], "tags": ["#scalpmassage", "#massagecuirchevelu", "#hairroutine", "#hairgrowth"], "eviter": "Texte incrusté, filigrane, logo de marque. Format : vertical de préférence.", "file": "broll_06.mp4"}, {"id": "B07", "prio": "Important · démo", "moyen": false, "phrase": "avec une huile végétale enrichie d'une ou deux gouttes d'huile essentielle de romarin.", "start": "36,7 s", "end": "40,8 s", "dur": "4,1 s", "min": "5,1 s", "voir": "Une pipette fait tomber une ou deux gouttes d'huile essentielle de romarin dans un petit flacon d'huile végétale, puis le mélange sur la raie.", "profil": "Mains seules, salle de bain ou plan de travail clair", "fr": ["huile essentielle romarin", "gouttes pipette huile", "mélange huile cheveux", "huile romarin cheveux", "huile cuir chevelu"], "en": ["rosemary oil drops", "rosemary essential oil", "dropper oil", "DIY hair oil", "rosemary oil scalp"], "tags": ["#rosemaryoil", "#huilederomarin", "#hairoil", "#diyhair"], "eviter": "Flacon de marque lisible, texte incrusté. Format : vertical de préférence.", "file": "broll_07.mp4"}];
+
+const KEY="brolls-2026-10-08_claire-menopause-affinement_talking-head";
+let done={};try{done=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const chips=a=>'<div class="chips">'+a.map(k=>`<button class="chip" data-k="${esc(k)}">${esc(k)}</button>`).join("")+"</div>";
+document.getElementById("list").innerHTML=B.map(b=>`
+<section class="card${done[b.id]?" done":""}" id="${b.id}">
+ <div class="head"><span class="id">${b.id}</span><span class="tag${b.moyen?" moyen":""}">${b.prio}</span>
+  <label class="check"><input type="checkbox" data-id="${b.id}"${done[b.id]?" checked":""}> Trouvé</label></div>
+ <p class="quote">« ${esc(b.phrase)} »</p>
+ <div class="times">
+  <div class="t"><small>Dans l'audio</small><strong>${b.start} → ${b.end}</strong></div>
+  <div class="t"><small>Durée de l'audio</small><strong>${b.dur}</strong></div>
+  <div class="t key"><small>Vidéo à trouver (min.)</small><strong>${b.min}</strong></div>
+ </div>
+ <dl>
+  <dt>À voir</dt><dd>${esc(b.voir)}</dd>
+  <dt>Profil</dt><dd>${esc(b.profil)}</dd>
+  <dt>Mots-clés FR</dt><dd>${chips(b.fr)}</dd>
+  <dt>Mots-clés EN</dt><dd>${chips(b.en)}</dd>
+  <dt>Hashtags</dt><dd>${chips(b.tags)}</dd>
+  <dt>À éviter</dt><dd class="avoid">Texte incrusté, filigrane, logo${b.eviter?". "+esc(b.eviter):"."}</dd>
+  <dt>Nom du fichier</dt><dd><code>${b.file}</code></dd>
+ </dl>
+</section>`).join("");
+
+function refresh(){const n=Object.values(done).filter(Boolean).length;
+ document.getElementById("count").textContent=n+" / 7 trouvés";document.getElementById("fill").style.width=(n/7*100)+"%"}
+refresh();
+document.addEventListener("change",e=>{const id=e.target.dataset.id;if(!id)return;done[id]=e.target.checked;
+ document.getElementById(id).classList.toggle("done",e.target.checked);try{localStorage.setItem(KEY,JSON.stringify(done))}catch(err){}refresh()});
+document.addEventListener("click",e=>{const c=e.target.closest(".chip");if(!c)return;const k=c.dataset.k;
+ const ok=()=>{c.classList.add("copied");setTimeout(()=>c.classList.remove("copied"),900)};
+ if(navigator.clipboard)navigator.clipboard.writeText(k).then(ok,ok);else ok()});
+</script>
+</body>
+</html>

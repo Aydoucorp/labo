@@ -1,0 +1,468 @@
+{
+ "duree": 59.56,
+ "plans": [
+  {
+   "id": "P01",
+   "debut": 0.0,
+   "fin": 4.3,
+   "type": "Écran partagé",
+   "zoom": "1:1",
+   "surimpression": "Bandeau titre (couture)",
+   "voir": "Haut : avatar au micro. Bas : femme d'environ 50 ans qui montre une queue de cheval devenue fine ou une raie élargie, puis gros plan de cheveux fins sur une brosse.",
+   "regle": "Accroche, recette 1",
+   "declencheur": "Plan bas 2 sur « cheveux » (2,20 s)",
+   "source": "S01 + b-rolls B01, B02 (à trouver)",
+   "texte": "Deux femmes sur trois constatent un affinement de leurs cheveux à la ménopause. Pourquoi?"
+  },
+  {
+   "id": "P02",
+   "debut": 4.3,
+   "fin": 13.5,
+   "type": "Animation éducative",
+   "zoom": "-",
+   "surimpression": "Étiquettes : Œstrogènes, Phase de croissance, DHT, Follicule",
+   "voir": "Coupe d'un follicule en pictos plats : les œstrogènes (petites sphères) s'éteignent, le cheveu quitte sa phase de croissance et se détache ; puis des molécules de DHT arrivent et le follicule rétrécit, le cheveu devient plus fin.",
+   "regle": "R5",
+   "declencheur": "Œstrogènes 5,00 · Phase de croissance 7,05 · DHT 10,10 · Follicule 12,65",
+   "source": "Animation E1",
+   "texte": "La baisse du taux d'œstrogènes peut faire sortir vos cheveux de leur phase de croissance. Des taux plus élevés d'androgènes, comme la D-H-T, peuvent faire rétrécir vos follicules pileux."
+  },
+  {
+   "id": "P03",
+   "debut": 13.5,
+   "fin": 16.7,
+   "type": "Avatar",
+   "zoom": "A",
+   "surimpression": "-",
+   "voir": "Avatar, explication posée, main ouverte qui descend doucement sur « amincir ».",
+   "regle": "Retour avatar après l'animation",
+   "declencheur": "-",
+   "source": "A01",
+   "texte": "Et la baisse du taux de collagène peut amincir le cuir chevelu,"
+  },
+  {
+   "id": "P04",
+   "debut": 16.7,
+   "fin": 19.1,
+   "type": "B-roll (carte)",
+   "zoom": "-",
+   "surimpression": "-",
+   "voir": "Gros plan d'une raie poivre et sel, cuir chevelu visible entre des cheveux fins, lent zoom avant.",
+   "regle": "R1",
+   "declencheur": "Coupe 0,09 s avant « ce »",
+   "source": "B-roll B03 (à trouver)",
+   "texte": "ce qui offre moins de soutien à ces follicules pileux."
+  },
+  {
+   "id": "P05",
+   "debut": 19.1,
+   "fin": 21.2,
+   "type": "Avatar",
+   "zoom": "C",
+   "surimpression": "-",
+   "voir": "Avatar serré, grand sourire, petit hochement : le retournement.",
+   "regle": "Retournement (arc 6)",
+   "declencheur": "Flash à 19,10 s",
+   "source": "A01",
+   "texte": "Mais voici des solutions qui fonctionnent!"
+  },
+  {
+   "id": "P06",
+   "debut": 21.2,
+   "fin": 22.75,
+   "type": "B-roll (plein écran)",
+   "zoom": "-",
+   "surimpression": "-",
+   "voir": "Prise de sang au pli du coude d'une femme de 45 à 55 ans, garrot, infirmière.",
+   "regle": "R4",
+   "declencheur": "Coupe 0,10 s avant « Faites »",
+   "source": "B-roll B04 (à trouver)",
+   "texte": "Faites d'abord faire une prise de sang:"
+  },
+  {
+   "id": "P07",
+   "debut": 22.75,
+   "fin": 26.1,
+   "type": "Avatar",
+   "zoom": "B",
+   "surimpression": "-",
+   "voir": "Avatar, compte sur deux doigts : « fer », puis « thyroïde ».",
+   "regle": "R8 + geste",
+   "declencheur": "Doigts sur « fer » (23,43) et « thyroïde » (24,53)",
+   "source": "A02",
+   "texte": "un manque de fer ou un problème de thyroïde peut aggraver la chute,"
+  },
+  {
+   "id": "P08",
+   "debut": 26.1,
+   "fin": 27.2,
+   "type": "Avatar",
+   "zoom": "C",
+   "surimpression": "-",
+   "voir": "Avatar serré, sourire rassurant sur « et cela se corrige ».",
+   "regle": "R8 (rassurance)",
+   "declencheur": "-",
+   "source": "A02",
+   "texte": "et cela se corrige."
+  },
+  {
+   "id": "P09",
+   "debut": 27.2,
+   "fin": 31.3,
+   "type": "Avatar + objet détouré",
+   "zoom": "A",
+   "surimpression": "Pot de collagène en poudre détouré qui pope près des mains",
+   "voir": "Avatar, objet détouré (pot sans marque et cuillère de poudre) à côté de la main.",
+   "regle": "R7 (objet cité)",
+   "declencheur": "Objet sur « complément » (28,30)",
+   "source": "A02 + objet O1",
+   "texte": "Pensez aussi à prendre un complément de collagène, pour soutenir votre cuir chevelu"
+  },
+  {
+   "id": "P10",
+   "debut": 31.3,
+   "fin": 33.13,
+   "type": "B-roll (plein écran)",
+   "zoom": "-",
+   "surimpression": "-",
+   "voir": "Femme de 45 à 55 ans qui secoue une chevelure souple et brillante, lumière de fenêtre.",
+   "regle": "R2",
+   "declencheur": "Coupe 0,11 s avant « et »",
+   "source": "B-roll B05 (à trouver)",
+   "texte": "et favoriser la santé de vos cheveux."
+  },
+  {
+   "id": "P11",
+   "debut": 33.13,
+   "fin": 36.68,
+   "type": "B-roll démo (plein écran)",
+   "zoom": "-",
+   "surimpression": "-",
+   "voir": "Deux mains massent le cuir chevelu du bout des doigts.",
+   "regle": "R4 (démo)",
+   "declencheur": "Coupe 0,10 s avant « Ensuite »",
+   "source": "B-roll B06 (à trouver)",
+   "texte": "Ensuite, chaque soir, massez votre cuir chevelu pendant cinq minutes"
+  },
+  {
+   "id": "P12",
+   "debut": 36.68,
+   "fin": 40.75,
+   "type": "B-roll démo (plein écran)",
+   "zoom": "-",
+   "surimpression": "-",
+   "voir": "Une pipette fait tomber une ou deux gouttes d'huile essentielle de romarin dans un petit flacon d'huile végétale.",
+   "regle": "R4 (démo)",
+   "declencheur": "Coupe sur « avec »",
+   "source": "B-roll B07 (à trouver)",
+   "texte": "avec une huile végétale enrichie d'une ou deux gouttes d'huile essentielle de romarin."
+  },
+  {
+   "id": "P13",
+   "debut": 40.75,
+   "fin": 45.8,
+   "type": "Infographie à lignes",
+   "zoom": "-",
+   "surimpression": "2 lignes : Huile de romarin, Massage quotidien ; « encourageantes » surligné",
+   "voir": "Fond crème, 2 lignes illustrées (pictos du style de la charte), chacune apparaît sur son nom, puis le mot « encourageantes » se surligne.",
+   "regle": "R7 + R2",
+   "declencheur": "Huile de romarin 41,85 · Massage quotidien 43,10 · surligneur 45,00",
+   "source": "Images I1, I2",
+   "texte": "Les premières études sur l'huile de romarin et sur le massage quotidien du cuir chevelu sont encourageantes."
+  },
+  {
+   "id": "P14",
+   "debut": 45.8,
+   "fin": 49.8,
+   "type": "Avatar",
+   "zoom": "B",
+   "surimpression": "-",
+   "voir": "Avatar chaleureux, gestes doux des deux mains sur « doux et simple ».",
+   "regle": "R8 (nuance, conseil)",
+   "declencheur": "-",
+   "source": "A03",
+   "texte": "C'est un geste doux et simple, à faire avec régularité pendant plusieurs mois."
+  },
+  {
+   "id": "P15",
+   "debut": 49.8,
+   "fin": 52.33,
+   "type": "Avatar",
+   "zoom": "A",
+   "surimpression": "-",
+   "voir": "Avatar, regard caméra, sourire.",
+   "regle": "CTA",
+   "declencheur": "-",
+   "source": "A03",
+   "texte": "Si vous voulez plus de détails, j'ai créé un guide,"
+  },
+  {
+   "id": "P16",
+   "debut": 52.33,
+   "fin": 55.75,
+   "type": "Avatar + carte",
+   "zoom": "B",
+   "surimpression": "Carte du guide (titre écrit au montage)",
+   "voir": "Avatar, carte crème qui monte à côté de lui avec le titre « Comment traiter l'affinement des cheveux à la ménopause » et un brin de romarin.",
+   "regle": "CTA",
+   "declencheur": "Carte sur « Comment » (52,30)",
+   "source": "A03 + carte montage",
+   "texte": "Comment traiter l'affinement des cheveux à la ménopause, rien que pour vous."
+  },
+  {
+   "id": "P17",
+   "debut": 55.75,
+   "fin": 59.56,
+   "type": "Avatar",
+   "zoom": "C",
+   "surimpression": "Mot « GUIDE » + bouton « S'abonner »",
+   "voir": "Avatar serré, regard caméra, « GUIDE » en grand sur la poitrine, bouton « S'abonner » qui se clique à la fin.",
+   "regle": "CTA",
+   "declencheur": "« GUIDE » à 56,35 s · bouton à 58,40 s",
+   "source": "A03",
+   "texte": "Commentez GUIDE et je vous enverrai gratuitement mon guide en message privé."
+  }
+ ],
+ "clips_avatar": [
+  {
+   "id": "S01",
+   "debut": 0.11,
+   "fin": 3.88,
+   "format": "1:1"
+  },
+  {
+   "id": "A01",
+   "debut": 13.59,
+   "fin": 21.01,
+   "format": "9:16"
+  },
+  {
+   "id": "A02",
+   "debut": 22.84,
+   "fin": 31.19,
+   "format": "9:16"
+  },
+  {
+   "id": "A03",
+   "debut": 45.93,
+   "fin": 59.55,
+   "format": "9:16"
+  }
+ ],
+ "brolls": [
+  {
+   "id": "B01",
+   "debut": 0.0,
+   "fin": 2.2,
+   "phrase": "Deux femmes sur trois constatent un affinement de leurs",
+   "importance": "Important · accroche (bas de l'écran partagé)",
+   "voir": "Une femme montre que ses cheveux se sont affinés : queue de cheval devenue fine entre ses doigts, ou raie élargie qu'elle écarte devant le miroir (recette 1 : le problème sur quelqu'un qui ressemble à la cible).",
+   "profil": "Femme de 48 à 58 ans, chez elle, lumière naturelle",
+   "mots_fr": [
+    "cheveux fins ménopause",
+    "perte de densité cheveux",
+    "queue de cheval fine",
+    "raie élargie femme",
+    "cheveux clairsemés femme",
+    "chute cheveux 50 ans"
+   ],
+   "mots_en": [
+    "thinning hair menopause",
+    "thin ponytail",
+    "female hair thinning",
+    "widening part woman",
+    "hair loss menopause",
+    "thinning hair women over 50"
+   ],
+   "hashtags": [
+    "#menopausehair",
+    "#thinninghair",
+    "#hairthinning",
+    "#chutedecheveux"
+   ],
+   "eviter": "Texte incrusté, filigrane, logo de marque.",
+   "format": "vertical de préférence"
+  },
+  {
+   "id": "B02",
+   "debut": 2.2,
+   "fin": 4.3,
+   "phrase": "cheveux à la ménopause. Pourquoi?",
+   "importance": "Important · accroche (bas de l'écran partagé)",
+   "voir": "Gros plan de cheveux fins restés sur une brosse ou dans la main après le coiffage, la femme regarde, inquiète.",
+   "profil": "Femme de 48 à 58 ans, salle de bain",
+   "mots_fr": [
+    "cheveux sur la brosse",
+    "cheveux qui tombent",
+    "chute de cheveux brosse",
+    "cheveux dans la main"
+   ],
+   "mots_en": [
+    "hair on brush",
+    "hair falling out brush",
+    "hair shedding",
+    "hair loss brush woman"
+   ],
+   "hashtags": [
+    "#hairshedding",
+    "#hairloss",
+    "#chutedecheveux"
+   ],
+   "eviter": "Texte incrusté, filigrane, logo de marque.",
+   "format": "vertical de préférence"
+  },
+  {
+   "id": "B03",
+   "debut": 16.7,
+   "fin": 19.1,
+   "phrase": "ce qui offre moins de soutien à ces follicules pileux.",
+   "importance": "Important",
+   "voir": "Gros plan d'une raie où le cuir chevelu se voit entre des cheveux fins (la conséquence visible, R1).",
+   "profil": "Femme de 48 à 58 ans, cheveux naturels bruns ou poivre et sel",
+   "mots_fr": [
+    "raie cuir chevelu visible",
+    "cheveux fins raie",
+    "cuir chevelu dégarni femme",
+    "densité cheveux"
+   ],
+   "mots_en": [
+    "visible scalp part",
+    "thinning part closeup",
+    "scalp showing through hair",
+    "female pattern hair loss part"
+   ],
+   "hashtags": [
+    "#thinninghair",
+    "#scalpcare",
+    "#femalehairloss"
+   ],
+   "eviter": "Texte incrusté, filigrane, logo de marque.",
+   "format": "vertical de préférence"
+  },
+  {
+   "id": "B04",
+   "debut": 21.2,
+   "fin": 22.75,
+   "phrase": "Faites d'abord faire une prise de sang:",
+   "importance": "Important",
+   "voir": "Une prise de sang au pli du coude : garrot, aiguille ou tube qui se remplit (R4).",
+   "profil": "Femme de 45 à 55 ans, cabinet ou laboratoire, lumière claire",
+   "mots_fr": [
+    "prise de sang",
+    "bilan sanguin",
+    "laboratoire analyse",
+    "infirmière prise de sang",
+    "ferritine",
+    "bilan thyroïde"
+   ],
+   "mots_en": [
+    "blood test",
+    "blood draw",
+    "phlebotomy",
+    "nurse drawing blood",
+    "lab test woman",
+    "blood work"
+   ],
+   "hashtags": [
+    "#prisedesang",
+    "#bilansanguin",
+    "#bloodtest",
+    "#bloodwork"
+   ],
+   "eviter": "Gros plan trop sanglant, texte incrusté, logo de laboratoire.",
+   "format": "vertical de préférence"
+  },
+  {
+   "id": "B05",
+   "debut": 31.3,
+   "fin": 33.13,
+   "phrase": "et favoriser la santé de vos cheveux.",
+   "importance": "Important",
+   "voir": "Une femme secoue ou passe la main dans une chevelure souple, brillante et dense (le résultat désiré, R2).",
+   "profil": "Femme de 45 à 55 ans, cheveux naturels bruns ou poivre et sel, lumière de fenêtre",
+   "mots_fr": [
+    "cheveux brillants",
+    "femme secoue cheveux",
+    "cheveux sains",
+    "chevelure épaisse",
+    "cheveux poivre et sel"
+   ],
+   "mots_en": [
+    "healthy hair",
+    "hair flip",
+    "shiny hair woman",
+    "thick hair",
+    "grey hair woman",
+    "hair toss slow motion"
+   ],
+   "hashtags": [
+    "#healthyhair",
+    "#hairflip",
+    "#cheveuxsains",
+    "#greyhair"
+   ],
+   "eviter": "Brushing de salon, publicité de shampoing, logo, texte incrusté.",
+   "format": "vertical de préférence"
+  },
+  {
+   "id": "B06",
+   "debut": 33.13,
+   "fin": 36.68,
+   "phrase": "Ensuite, chaque soir, massez votre cuir chevelu pendant cinq minutes",
+   "importance": "Important · démo",
+   "voir": "Deux mains massent le cuir chevelu du bout des doigts, petits cercles, le soir (le geste sur son verbe « massez »).",
+   "profil": "Femme de 45 à 55 ans, salle de bain ou chambre, lumière douce",
+   "mots_fr": [
+    "massage cuir chevelu",
+    "masser cuir chevelu doigts",
+    "routine cheveux soir",
+    "massage crânien"
+   ],
+   "mots_en": [
+    "scalp massage",
+    "fingertip scalp massage",
+    "scalp massage routine",
+    "hair growth massage"
+   ],
+   "hashtags": [
+    "#scalpmassage",
+    "#massagecuirchevelu",
+    "#hairroutine",
+    "#hairgrowth"
+   ],
+   "eviter": "Texte incrusté, filigrane, logo de marque.",
+   "format": "vertical de préférence"
+  },
+  {
+   "id": "B07",
+   "debut": 36.68,
+   "fin": 40.75,
+   "phrase": "avec une huile végétale enrichie d'une ou deux gouttes d'huile essentielle de romarin.",
+   "importance": "Important · démo",
+   "voir": "Une pipette fait tomber une ou deux gouttes d'huile essentielle de romarin dans un petit flacon d'huile végétale, puis le mélange sur la raie.",
+   "profil": "Mains seules, salle de bain ou plan de travail clair",
+   "mots_fr": [
+    "huile essentielle romarin",
+    "gouttes pipette huile",
+    "mélange huile cheveux",
+    "huile romarin cheveux",
+    "huile cuir chevelu"
+   ],
+   "mots_en": [
+    "rosemary oil drops",
+    "rosemary essential oil",
+    "dropper oil",
+    "DIY hair oil",
+    "rosemary oil scalp"
+   ],
+   "hashtags": [
+    "#rosemaryoil",
+    "#huilederomarin",
+    "#hairoil",
+    "#diyhair"
+   ],
+   "eviter": "Flacon de marque lisible, texte incrusté.",
+   "format": "vertical de préférence"
+  }
+ ]
+}

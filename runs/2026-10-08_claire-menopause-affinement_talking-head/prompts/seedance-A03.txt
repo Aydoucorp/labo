@@ -1,0 +1,14 @@
+Create a 14-second 9:16 photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 (seated at the desk, waist up).
+
+REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is the reference of HER voice: reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). Do not use any other voice.
+
+SPEECH: She speaks French, in her own voice from @Audio1, saying exactly these words and nothing else:
+"C'est un geste doux et simple, à faire avec régularité pendant plusieurs mois. Si vous voulez plus de détails, j'ai créé un guide, Comment traiter l'affinement des cheveux à la ménopause, rien que pour vous. Commentez GUIDE et je vous enverrai gratuitement mon guide en message privé."
+Pronunciation: "GUIDE" is the French word guide, pronounced GHEED.
+
+EMOTION AND DELIVERY: Encouraging, warm and practical, then cheerful and bright. "C'est un geste doux et simple, à faire avec régularité pendant plusieurs mois" gentle; short pause; "Si vous voulez plus de détails, j'ai créé un guide" friendly; the guide title said clearly; "rien que pour vous" warm; short pause; "Commentez GUIDE et je vous enverrai gratuitement mon guide en message privé" bright and engaging, emphasis on "GUIDE".
+
+PERFORMANCE: Gaze slightly off-camera with soft gentle hand movements on 'doux et simple'; from 'Si vous voulez plus de détails' looks straight into the camera; warm smile on 'rien que pour vous'; light smile and small nod on the last phrase. Natural blinking and breathing, subtle head movements, lips perfectly synchronized with every syllable, mouth closed and still before the first word and after the last word. Hands stay below the microphone and never cover the mouth. No repetitive gesture loop.
+
+AUDIO: Only her voice, close podcast microphone sound, quiet room tone. No music, no sound effects, no other voice.
+CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @Image1 for the whole shot. Camera never moves, never zooms, never cuts. No text, no subtitles, no captions, no logo.

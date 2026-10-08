@@ -1,0 +1,14 @@
+Create a 9-second 9:16 photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 (seated at the desk, waist up).
+
+REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is the reference of HER voice: reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). Do not use any other voice.
+
+SPEECH: She speaks French, in her own voice from @Audio1, saying exactly these words and nothing else:
+"Et la baisse du taux de collagène peut amincir le cuir chevelu, ce qui offre moins de soutien à ces follicules pileux. Mais voici des solutions qui fonctionnent !"
+Pronunciation: "collagène" is pronounced ko-la-JEN; "pileux" is pronounced pee-LEU.
+
+EMOTION AND DELIVERY: Confident, animated and clear. "Et la baisse du taux de collagène peut amincir le cuir chevelu" explanatory, emphasis on "collagène"; "ce qui offre moins de soutien à ces follicules pileux" a little lower; short pause; "Mais voici des solutions qui fonctionnent !" enthusiastic, big warm smile.
+
+PERFORMANCE: Gaze slightly off-camera toward an unseen interviewer. One open hand slowly lowers on 'amincir'; small nod on 'follicules pileux'; big smile and a small nod on 'Mais voici des solutions qui fonctionnent'. Natural blinking and breathing, subtle head movements, lips perfectly synchronized with every syllable, mouth closed and still before the first word and after the last word. Hands stay below the microphone and never cover the mouth. No repetitive gesture loop.
+
+AUDIO: Only her voice, close podcast microphone sound, quiet room tone. No music, no sound effects, no other voice.
+CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @Image1 for the whole shot. Camera never moves, never zooms, never cuts. No text, no subtitles, no captions, no logo.
