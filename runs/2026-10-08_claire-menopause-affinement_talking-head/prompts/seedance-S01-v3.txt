@@ -1,0 +1,10 @@
+Locked medium close-up, 5-second 1:1 photorealistic podcast shot, eye level, square framing identical to @Image1 (head and shoulders, microphone in front of the lower chest). @Image1 is the exact first frame and the only reference for identity, wardrobe, microphone, background and lighting.
+
+DIALOGUE: @Audio1 is her dialogue voice, a clean recording of her own voice. Sync her lip movement precisely to @Audio1, syllable by syllable, from its first word to its last, and keep her mouth clearly visible. Her voice is @Audio1: same timbre, same pace, same pauses, same timing.
+She says, in French, exactly: "Deux femmes sur trois constatent un affinement de leurs cheveux à la ménopause. Pourquoi ?"
+Pronunciation: "constatent" = kon-STAT, two syllables; "affinement" = a-fi-ne-MAN, three syllables, never repeat a syllable.
+
+Delivery: upbeat, alert and clear, deliberate enunciation of every syllable; a short natural pause, then "Pourquoi ?" curious and punchy.
+PERFORMANCE: Simple, natural expression. Keep her head almost still: no nodding, no head turns, no eyebrow acting, so the lips stay perfectly readable. Natural blinking and breathing. Hands stay still below the microphone and never cover the mouth.
+AUDIO: Dialogue is the only audio layer. No music, no sound effects, no other voice, no added words.
+CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @Image1 for the whole shot. Locked camera: never moves, never zooms, never cuts. No text, no subtitles, no captions, no logo.

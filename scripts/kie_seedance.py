@@ -6,6 +6,7 @@ Usage :
       [--duration 4] [--ratio 9:16] [--resolution 720p]
   python3 scripts/kie_seedance.py --prompt-file p.txt --image a.png b.png c.png --out clip.mp4 --duration 12
       (plusieurs images = @Image1, @Image2... dans l'ordre ; sans --audio : clip muet multi-plans, ex. UGC humain)
+  --video ref.mp4 : vidéo de référence (@Video1), par exemple un écran noir qui porte la voix off (astuce de synchro labiale).
 
 - Seedance 2.5 n'accepte pas à la fois une première image imposée et un audio de référence :
   l'image est envoyée dans reference_image_urls, le prompt la déclare « exact first frame ».
@@ -30,6 +31,7 @@ def main():
     ap.add_argument("--ratio", default="9:16")
     ap.add_argument("--resolution", default="720p")
     ap.add_argument("--generate-audio", action="store_true")
+    ap.add_argument("--video", default=None, help="vidéo de référence (@Video1), ex. écran noir portant la voix off")
     a = ap.parse_args()
 
     imgs = [i if i.startswith("http") else upload(i) for i in a.image]
@@ -38,6 +40,8 @@ def main():
            "generate_audio": a.generate_audio}
     if a.audio:
         inp["reference_audio_urls"] = [a.audio if a.audio.startswith("http") else upload(a.audio)]
+    if a.video:
+        inp["reference_video_urls"] = [a.video if a.video.startswith("http") else upload(a.video)]
     task = call(f"{API}/createTask", {"model": "bytedance/seedance-2-5", "input": inp})
     if task.get("code") != 200:
         sys.exit(f"création refusée : {task.get('code')} {task.get('msg')}")
