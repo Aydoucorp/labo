@@ -78,11 +78,19 @@ for i, w in enumerate(W):
         e["br"] = True
     words.append(e)
 
+# Après un plan sans sous-titres (accroche, animation, infographie), pas de reliquat de la ligne précédente
+hides = [[round(t_guide - 0.05, 3), DUR]]
+for s in segments:
+    if s["type"] in ("split", "edu", "infolist"):
+        nxt = min(w["start"] for w in W if w["start"] >= s["end"] - 0.01)
+        if nxt > s["end"]:
+            hides.append([s["end"], round(nxt - 0.01, 3)])
+
 montage = {
     "fps": 30, "width": 1080, "height": 1920, "durationSec": DUR, "bg": "#FAF6F3", "audio": "audio/voix.mp3",
     "theme": {"accent": "#A8553A", "accent2": "#F2D2C0", "subBox": "#FAF6F3", "subText": "#2E2A26", "subDim": "#B4ADA4",
               "bannerBg": "#A8553A", "bannerText": "#FAF6F3", "infoBg": "#EFE7E0", "infoText": "#2E2A26", "cardBg": "#FAF6F3", "followBlue": "#A8553A"},
-    "subtitles": {"words": words, "maxWords": 4, "maxChars": 24, "size": 46, "hide": [[round(t_guide - 0.05, 3), DUR]]},
+    "subtitles": {"words": words, "maxWords": 4, "maxChars": 24, "size": 46, "hide": hides},
     "segments": segments, "overlays": overlays,
 }
 json.dump(montage, open(M / "montage.json", "w"), ensure_ascii=False, indent=1)
