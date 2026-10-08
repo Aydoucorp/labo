@@ -4,3 +4,4 @@ node_modules/
 runs/*/montage/out/
 runs/*/montage/public/**/*.mp4
 runs/*/montage/controle*/
+node_modules
