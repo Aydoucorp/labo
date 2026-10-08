@@ -18,10 +18,13 @@ Tarif KIE : 1 crédit ≈ 0,005 $.
 | Image de départ 9:16 deuxième caméra | v2 | gpt-image-2-image-to-image 1K, refs : départ principale, photo de profil, photo de face, prompt `depart-9x16-camera2-v2.txt` | c873c96aa38bbac4081e3a7c61e17dcb | success | `sorties/config/depart_9x16_camera2_gpt_v2.png` | non retenue (choix de l'utilisateur) | 6 cr |
 | Clip avatar S01 (1:1, 5 s) | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 = depart_1x1.png, @Audio1 = audio_avatar/S01.wav | 5a8809032d6a44808e8cfa659baae9bb | success | `avatar/S01_v1.mp4` | **retenu** (identité, cadre, lèvres OK ; Seedance prononce « constestent », « affiffinement », sans effet : voix off au montage) | 315 cr |
 | Animation E1 (10 s) | v1 | minimax-h3/image-to-video 768P, image `generations/image-E1_v1.png` | 6d908532e3f0fdfba2c9a4129ca70bba | success | `generations/E1_v1.mp4` | à valider par l'utilisateur | 80 cr |
+| Clip avatar A01 (9:16, 9 s) | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 = depart_9x16.png, @Audio1 = audio_avatar/A01.wav | 3003b50379025e0399ead5235d0ed915 | success | `avatar/A01_v1.mp4` | **retenu** (identité, cadre, lèvres OK ; « amensir » prononcé par Seedance, sans effet : voix off au montage) | 567 cr |
+| Clip avatar A02 (9:16, 9 s) | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 = depart_9x16_camera2.png, @Audio1 = audio_avatar/A02.wav | 3f154b9292a4ea36d34b76f33262c986 | success | `avatar/A02_v1.mp4` | **retenu** (compte sur ses doigts fer et thyroïde, main ouverte sur collagène) | 567 cr |
+| Clip avatar A03 (9:16, 14 s) | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 = depart_9x16.png, @Audio1 = audio_avatar/A03.wav | e71fa6cccd713dd5dcd269db28be18a1 | success | `avatar/A03_v1.mp4` | **retenu** (regard caméra pour le CTA ; « douce », « affirmation », « envoyerai » prononcés par Seedance, sans effet) | 882 cr |
 Références envoyées (dans cet ordre) : `Claire/avatar/avatar-face.jpg`, `Claire/avatar/avatar-profil.jpg`, `Claire/talking-head/_config/depart_9x16.png`. Prompt : `prompts/config/depart-9x16.txt`. Comparatif : `sorties/config/comparatif-depart-9x16.jpg`.
 
 Deuxième caméra et 1:1 : générées à partir de `depart_9x16_gpt_v1.png` (+ photos de Claire). Prompts : `prompts/config/depart-9x16-camera2.txt`, `prompts/config/depart-1x1.txt`. Planche : `sorties/config/planche-images-depart.jpg`.
 
 O1 : GPT Image 2 sur fond vert uni (#00B140), puis détourage par clé de couleur (`generations/objet-O1_v1_detoure.png`). Planche : `generations/planche-generations.jpg`.
 
-**Total à ce stade : 457 cr (environ 2,29 $), clips A01 à A03 en cours.**
+**Total à ce stade : 2 473 cr (environ 12,37 $).** Contrôle des clips : `controle/planche_*.jpg` et transcriptions Whisper.
