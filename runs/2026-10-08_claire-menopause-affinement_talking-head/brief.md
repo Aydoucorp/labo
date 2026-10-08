@@ -16,3 +16,4 @@ Livrables du découpage : `decoupage.md`, `decoupage.json`, `audio_avatar/` (4 e
 - Clips avatar : Seedance 2.5 en 720p (63 cr/s, 37 s, environ 2 331 cr).
 - Images de départ de l'avatar : question posée, proposition de réutiliser celles du talking head n°1 (`Claire/talking-head/_config/`).
 - Nouvelles images de départ (demande du 2026-10-08) : pull bleu melody, 3 images (9:16 principale, 9:16 deuxième caméra, 1:1), en 1K. Test comparatif GPT Image 2 contre Nano Banana 2.1 (`nano-banana-2-1` sur KIE, 4 cr en 1K, confirmé) sur l'image 9:16 principale : voir `journal_generations.md`.
+- Accroche S01 retenue (2026-10-08) : `avatar/S01_profil_v1.mp4`, plan de 3/4 profil (`Claire/talking-head/_config/depart_1x1_profil.png`), Seedance 2.5 720p avec liaison explicite audio/parole.
