@@ -2,7 +2,10 @@
 """Bibliothèque des b-rolls du studio : retrouver un plan déjà filmé, trouvé ou généré avant d'en chercher ou d'en générer un nouveau.
 
 Index : bibliotheque/brolls.json (vérité machine) et bibliotheque/brolls.md (tableau lisible, régénéré à chaque écriture).
-Les fichiers ne sont pas copiés : chaque entrée pointe vers le fichier dans son run (sur GitHub).
+B-rolls RÉELS (filmés ou trouvés par l'utilisateur, sans IA) : copiés dans bibliotheque/brolls-reels/ et décrits dans
+bibliotheque/brolls-reels.md (fichier à part, régénéré à chaque ajout). Règle de l'utilisateur : toujours privilégier
+un b-roll réel ; l'IA seulement en dernier recours. La recherche affiche les réels en premier.
+Les b-rolls IA ne sont pas copiés : leur entrée pointe vers le fichier dans son run (sur GitHub).
 
 Usage (depuis la racine du studio) :
   python3 scripts/biblio_brolls.py chercher "cheveux tombés lavabo"          # meilleurs plans pour une phrase ou des mots-clés
@@ -11,15 +14,18 @@ Usage (depuis la racine du studio) :
   python3 scripts/biblio_brolls.py usage <id> --run <run> --plan <plan> --phrase "..."   # note une réutilisation
   python3 scripts/biblio_brolls.py md                                        # régénère brolls.md
 
-Champs d'une entrée : id (br-0001), fichier, original, type (video|image), origine (filme-utilisateur | stock |
-ia-3d | ia-realiste | ia-papercut | carte-texte), style, marque, description, mots_cles, duree_s, format, modele,
+Champs d'une entrée : id (br-0001), fichier, original, type (video|image), origine (reel-utilisateur | ia-3d |
+ia-realiste | ia-papercut | carte-texte), nature (reel | ia), copie_reel (copie dans brolls-reels/), style, marque, description, mots_cles, duree_s, format, modele,
 cout_credits, usages [{run, plan, debut, fin, phrase}], notes.
 """
-import argparse, json, os, re, subprocess, sys, unicodedata
+import argparse, json, os, re, shutil, subprocess, sys, unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IDX = os.path.join(ROOT, "bibliotheque", "brolls.json")
 MD = os.path.join(ROOT, "bibliotheque", "brolls.md")
+MD_REELS = os.path.join(ROOT, "bibliotheque", "brolls-reels.md")
+DIR_REELS = os.path.join(ROOT, "bibliotheque", "brolls-reels")
+REEL = ("reel-utilisateur", "filme-utilisateur", "trouve-utilisateur", "stock")
 STOP = set("le la les un une des de du d l et a au aux en dans sur sous pour par avec sans ce cette ces tes ta ton mes ma mon "
            "son sa ses qui que qu ne pas plus tres the of a an and in on with to".split())
 
@@ -46,7 +52,7 @@ def sauver(lib):
 def sonde(path):
     p = os.path.join(ROOT, path)
     try:
-        out = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration:stream=width,height", "-of", "json", p],
+        out = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "format=duration:stream=width,height", "-of", "json", p],
                              capture_output=True, text=True).stdout
         d = json.loads(out)
         st = d["streams"][0]
@@ -59,6 +65,22 @@ def sonde(path):
 def nouvel_id(lib):
     n = max([int(b["id"][3:]) for b in lib["brolls"]] or [0]) + 1
     return f"br-{n:04d}"
+
+
+def slug(txt):
+    w = [x for x in re.findall(r"[a-z0-9]+", norm(txt)) if x not in STOP]
+    return "-".join(w[:5]) or "broll"
+
+
+def copier_reel(e):
+    """Copie un b-roll réel dans bibliotheque/brolls-reels/ (nom : id_description-courte.ext)."""
+    src = os.path.join(ROOT, e["fichier"])
+    ext = os.path.splitext(e["fichier"])[1].lower() or ".mp4"
+    dst = os.path.join(DIR_REELS, f"{e['id']}_{slug(e['description'])}{ext}")
+    os.makedirs(DIR_REELS, exist_ok=True)
+    if os.path.exists(src) and not os.path.exists(dst):
+        shutil.copy(src, dst)
+    e["copie_reel"] = os.path.relpath(dst, ROOT)
 
 
 def ajouter_entree(lib, e):
@@ -76,11 +98,16 @@ def ajouter_entree(lib, e):
         e.setdefault(k, None)
     e.setdefault("usages", [])
     e.setdefault("mots_cles", [])
+    if e.get("origine") in REEL:
+        e["origine"] = "reel-utilisateur"
+    e["nature"] = "reel" if e.get("origine") == "reel-utilisateur" else "ia"
+    if e["nature"] == "reel":
+        copier_reel(e)
     lib["brolls"].append(e)
     return e["id"]
 
 
-ORIGINE = {"UGC": "filme-utilisateur", "STOCK": "stock", "PRODUIT": "filme-utilisateur", "3DSCI": "ia-3d",
+ORIGINE = {"UGC": "reel-utilisateur", "STOCK": "reel-utilisateur", "PRODUIT": "reel-utilisateur", "3DSCI": "ia-3d",
            "IAGEN": "ia-3d", "SCREEN": "capture", "SOCIAL": "contenu-utilisateur"}
 
 
@@ -118,7 +145,8 @@ def chercher(lib, q, n=8):
         sc = len(qm & mots(texte))
         if sc:
             res.append((sc, b))
-    res.sort(key=lambda x: -x[0])
+    # Règle de l'utilisateur : les b-rolls réels passent avant les b-rolls IA, puis par pertinence
+    res.sort(key=lambda x: (x[1].get("nature") != "reel", -x[0]))
     return res[:n]
 
 
@@ -126,11 +154,28 @@ def ecrire_md(lib):
     L = ["# Bibliothèque des b-rolls\n",
          "Avant de chercher ou de générer un plan, chercher ici : `python3 scripts/biblio_brolls.py chercher \"mots\"`.",
          "Index complet : `brolls.json`. Les fichiers restent dans leur run (GitHub).\n",
-         "| ID | Origine | Style | Durée | Ce qu'on voit | Utilisé pour | Fichier |", "|---|---|---|---|---|---|---|"]
+         "| ID | Nature | Origine | Style | Durée | Ce qu'on voit | Utilisé pour | Fichier |", "|---|---|---|---|---|---|---|---|"]
     for b in lib["brolls"]:
         us = "<br>".join(f"{u['run'].split('/')[-1][:10]} {u['plan']} : « {u['phrase'][:70]} »" for u in b["usages"])
-        L.append(f"| {b['id']} | {b['origine']} | {b.get('style') or ''} | {str(b['duree_s']) + ' s' if b.get('duree_s') else 'image'} | {b['description']} | {us} | `{b['fichier']}` |")
+        L.append(f"| {b['id']} | {'**réel**' if b.get('nature') == 'reel' else 'IA'} | {b['origine']} | {b.get('style') or ''} | {str(b['duree_s']) + ' s' if b.get('duree_s') else 'image'} | {b['description']} | {us} | `{b['fichier']}` |")
     open(MD, "w").write("\n".join(L) + "\n")
+    ecrire_md_reels(lib)
+
+
+def ecrire_md_reels(lib):
+    """Fichier à part : description de chaque b-roll réel (sans IA), alimenté à chaque nouvel ajout."""
+    R = [b for b in lib["brolls"] if b.get("nature") == "reel"]
+    L = ["# B-rolls réels (sans IA)\n",
+         "Plans filmés ou trouvés par l'utilisateur. **À privilégier toujours** : un b-roll IA ne se génère qu'en dernier recours,",
+         "quand aucun b-roll réel ne colle et que l'utilisateur n'en a pas trouvé.",
+         "Fichiers stockés dans `bibliotheque/brolls-reels/` (copie) ; ce fichier est régénéré à chaque nouveau b-roll.\n",
+         f"**{len(R)} b-rolls réels.**\n",
+         "| ID | Durée | Format | Ce qu'on voit | Mots-clés | Utilisé pour | Fichier stocké |", "|---|---|---|---|---|---|---|"]
+    for b in R:
+        us = "<br>".join(f"{u['run'].split('/')[-1][:10]} {u['plan']} : « {u.get('phrase', '')[:60]} »" for u in b["usages"])
+        L.append(f"| {b['id']} | {str(b['duree_s']) + ' s' if b.get('duree_s') else 'image'} | {b.get('format') or ''} | {b['description']} | "
+                 f"{', '.join([m for m in b.get('mots_cles', []) if norm(m) not in STOP][:8])} | {us} | `{b.get('copie_reel') or b['fichier']}` |")
+    open(MD_REELS, "w").write("\n".join(L) + "\n")
 
 
 def main():
@@ -147,7 +192,7 @@ def main():
     lib = charger()
     if a2.cmd == "chercher":
         for sc, b in chercher(lib, a2.q, a2.n):
-            print(f"{b['id']}  score {sc}  {b['origine']:18} {b.get('duree_s')} s  {b['description']}\n        {b['fichier']}")
+            print(f"{b['id']}  score {sc}  {'RÉEL' if b.get('nature') == 'reel' else 'IA  '}  {b['origine']:18} {b.get('duree_s')} s  {b['description']}\n        {b['fichier']}")
         return
     if a2.cmd == "ajouter-brief":
         orig = json.load(open(a2.originaux)) if a2.originaux else {}
