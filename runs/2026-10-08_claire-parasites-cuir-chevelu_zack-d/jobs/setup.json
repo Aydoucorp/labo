@@ -1,0 +1,19 @@
+[
+ {
+  "name": "CHAR-sheet",
+  "refs": [
+   "refs/claire-ref.png",
+   "jobs/OUT/PLATE-grid.png"
+  ],
+  "prompt": "The first attached image is the reference person; the second attached image is the background world. Character sheet of the SAME woman as in the first attached reference: identical face shape, green-grey eyes, light freckles, warm soft smile, shoulder-length wavy brown hair with lighter caramel strands, wearing the same soft pale-blue knit crew-neck sweater, now shown FULL BODY from head to feet, standing in a relaxed neutral pose facing the camera, arms loosely at her sides, wearing light-wash straight jeans and plain white sneakers. No microphone, no desk, no chair. Pixar-style friendly stylized 3D character, rounded forms, soft even lighting, smooth matte-to-satin surfaces, no pores. Centered, the character fills about 80 percent of the frame height. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects. No microphone, no headphones, no jewellery, no glasses."
+ },
+ {
+  "name": "M-cuir-chevelu",
+  "refs": [
+   "jobs/OUT/PLATE-grid.png"
+  ],
+  "prompt": "The first attached image is the background world. A single stylized cross-section cube of human scalp, seen in three-quarter view from slightly above, resting on the blue ground: the top face is smooth pale pink scalp skin with about a dozen glossy brown hair strands rising straight up from it; the front and side faces are cut open and show soft rounded layers, a thin pale-pink outer skin layer on top, a thicker rosy layer below with three hair follicles running down like small tubes, each ending in a round bulb at the root, a small pale-yellow gland on the side of each follicle, and a soft creamy-yellow cushion layer at the bottom. Clean, friendly, educational, like a toy anatomy model, no blood, no gore. The environment is exactly the world in the attached background reference image: keep its colours, gradient, grid, horizon height and lighting unchanged. This world is an infinite canvas: it continues unbroken past every edge of the frame, and the camera is inside it. No ceiling, no roof structure, no walls, and no platform edge or visible boundary where the ground ends. The grid is an environmental overlay with no thickness, no edges and no physical surface, not a platform or slab; everything rests naturally with a soft contact shadow. Pixar-style friendly stylized 3D, rounded forms, soft even lighting, one subject, clean negative space, must read on a phone in one second. Portrait 9:16. No text, no captions, no labels.",
+  "negative": "No text, no captions, no labels, no UI, no platform, no stage set, no ceiling, no walls, no dramatic lighting, no photographic noise, no photorealism on characters, no extra characters, no floating objects. No character, no person, no hands, no insects."
+ }
+]

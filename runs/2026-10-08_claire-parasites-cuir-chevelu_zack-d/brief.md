@@ -22,12 +22,12 @@ Recherche « cuir chevelu parasites poux huile coco » : rien dans le style Zack
 - Images : gpt-image-2 (KIE), résolution à choisir par l'utilisateur.
 - Clips : Kling 3.0 (KIE) `kling-3.0/video`, start + end, sans son, mode à choisir.
 
-## À valider
-- Personnage-ancre.
+## Décisions
+- Personnage-ancre : Claire en version Pixar, à partir de `Claire/talking-head/_config/depart_9x16.png` (copiée dans `refs/claire-ref.png`), pull bleu.
 - Résolutions : images 1K (gpt-image-2, 6 cr), clips 720p (Kling 3.0 std, 14 cr/s), choisies par l'utilisateur le 2026-10-08. Budget estimé 1 054 cr (5,27 $) hors reprises.
 
 ## Points de vigilance (Brand DNA)
 Le Brand DNA interdit les allégations santé et demande de renvoyer vers un professionnel. Le script affirme que l'arbre à thé « tue les œufs » et que l'huile de coco « étouffe » les parasites : script de l'utilisateur, livré tel quel, signalé.
 
 ## Prompts et réglages
-(à compléter à chaque génération)
+- Setup (gpt-image-2 image-to-image, 1K, 9:16) : prompts exacts dans `jobs/setup.json` (`CHAR-sheet` : refs claire-ref + plate ; `M-cuir-chevelu` : ref plate).
