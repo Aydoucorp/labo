@@ -24,7 +24,7 @@ Recherche « cuir chevelu parasites poux huile coco » : rien dans le style Zack
 
 ## À valider
 - Personnage-ancre.
-- Résolutions images et vidéos.
+- Résolutions : images 1K (gpt-image-2, 6 cr), clips 720p (Kling 3.0 std, 14 cr/s), choisies par l'utilisateur le 2026-10-08. Budget estimé 1 054 cr (5,27 $) hors reprises.
 
 ## Points de vigilance (Brand DNA)
 Le Brand DNA interdit les allégations santé et demande de renvoyer vers un professionnel. Le script affirme que l'arbre à thé « tue les œufs » et que l'huile de coco « étouffe » les parasites : script de l'utilisateur, livré tel quel, signalé.
