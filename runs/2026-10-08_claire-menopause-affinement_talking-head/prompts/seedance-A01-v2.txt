@@ -1,0 +1,18 @@
+Create a 9-second 9:16 photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 (seated at the desk, waist up).
+
+REFERENCES: @Image1 is the exact first frame and the only reference for identity, wardrobe, microphone, desk, background, lighting and framing. @Audio1 is her pre-recorded voice-over and it IS the soundtrack of this video: the video must play @Audio1 exactly as it is, same voice, same words, same timing, starting at 0.00 s. Do not invent, re-say, translate or re-time any word. Do not use any other voice.
+
+LIP SYNC: Her lips follow @Audio1 syllable by syllable, in perfect sync, exactly when each word is heard. She starts speaking at 0.30 s and stops at 7.72 s. Mouth closed and still before 0.30 s, during every silence of @Audio1, and after 7.72 s.
+
+SPEECH (what @Audio1 says, in French, for lip shapes only):
+"Et la baisse du taux de collagène peut amincir le cuir chevelu, ce qui offre moins de soutien à ces follicules pileux. Mais voici des solutions qui fonctionnent !"
+Pronunciation: "collagène" = ko-la-JEN; "amincir" = a-min-SEER; "pileux" = pee-LEU.
+
+WORD TIMELINE OF @Audio1 (word, start time in the clip): Et 0.30s la 0.41s baisse 0.53s du 0.83s taux 0.99s de 1.11s collagène 1.22s peut 1.88s amincir 2.03s le 2.59s cuir 2.73s chevelu 2.96s ce 3.50s qui 3.65s offre 3.75s moins 4.03s de 4.27s soutien 4.45s à 4.77s ces 4.89s follicules 5.04s pileux 5.46s Mais 5.90s voici 6.09s des 6.43s solutions 6.61s qui 7.05s fonctionnent 7.21s.
+
+EMOTION AND DELIVERY: Confident and clear on the explanation, emphasis on "collagène"; then a big warm smile and a small nod on "Mais voici des solutions qui fonctionnent !".
+
+PERFORMANCE: Gaze slightly off-camera toward an unseen interviewer. Natural blinking and breathing, subtle head movements. Hands stay below the microphone and never cover the mouth. No repetitive gesture loop.
+
+AUDIO: Only @Audio1, unchanged. No music, no sound effects, no other voice, no added breathing or words.
+CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @Image1 for the whole shot. Camera never moves, never zooms, never cuts. No text, no subtitles, no captions, no logo.

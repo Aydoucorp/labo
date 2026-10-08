@@ -1,0 +1,18 @@
+Create a 5-second 1:1 photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 (square framing, head and shoulders).
+
+REFERENCES: @Image1 is the exact first frame and the only reference for identity, wardrobe, microphone, desk, background, lighting and framing. @Audio1 is her pre-recorded voice-over and it IS the soundtrack of this video: the video must play @Audio1 exactly as it is, same voice, same words, same timing, starting at 0.00 s. Do not invent, re-say, translate or re-time any word. Do not use any other voice.
+
+LIP SYNC: Her lips follow @Audio1 syllable by syllable, in perfect sync, exactly when each word is heard. She starts speaking at 0.11 s and stops at 3.88 s. Mouth closed and still before 0.11 s, during every silence of @Audio1, and after 3.88 s.
+
+SPEECH (what @Audio1 says, in French, for lip shapes only):
+"Deux femmes sur trois constatent un affinement de leurs cheveux à la ménopause. Pourquoi ?"
+Pronunciation: "constatent" = kon-STAT (two syllables); "affinement" = a-fi-ne-MAN (three syllables, never repeat a syllable); "ménopause" = may-no-POZE.
+
+WORD TIMELINE OF @Audio1 (word, start time in the clip): Deux 0.11s femmes 0.30s sur 0.56s trois 0.70s constatent 1.02s un 1.37s affinement 1.54s de 1.96s leurs 2.06s cheveux 2.28s à 2.52s la 2.58s ménopause 2.68s Pourquoi 3.56s.
+
+EMOTION AND DELIVERY: Upbeat, alert and energetic on the first sentence, emphasis on "deux femmes sur trois"; "Pourquoi ?" curious and punchy, eyebrows raised, slight head tilt, quick look into the camera.
+
+PERFORMANCE: Gaze slightly off-camera toward an unseen interviewer. Natural blinking and breathing, subtle head movements. Hands stay below the microphone and never cover the mouth. No repetitive gesture loop.
+
+AUDIO: Only @Audio1, unchanged. No music, no sound effects, no other voice, no added breathing or words.
+CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @Image1 for the whole shot. Camera never moves, never zooms, never cuts. No text, no subtitles, no captions, no logo.
