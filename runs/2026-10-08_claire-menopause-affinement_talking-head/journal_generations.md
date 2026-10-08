@@ -27,13 +27,15 @@ Tarif KIE : 1 crédit ≈ 0,005 $.
 | Clip avatar S01 | S01_v3_ecran-noir | bytedance/seedance-2-5 720p, generate_audio, depart_1x1.png, @Video1 = audio_avatar/S01_ecran-noir.mp4 (écran noir portant la voix off) | 0b092c62645b6ebf27b2dfa95201d670 | success | `avatar/S01_v3_ecran-noir.mp4` | test : 0 à 0,02 s sur les 5 premiers mots, puis jusqu'à 0,80 s | 342 cr |
 | Clip avatar S01 | S01_profil_v1 | bytedance/seedance-2-5 720p, generate_audio, depart_1x1_profil.png (3/4 profil), @Audio1 = audio_avatar/S01_v3.wav, même prompt que v3 | 74230af3c8f802f6fdfebb5c949575d0 | success | `avatar/S01_profil_v1.mp4` | **retenu par l'utilisateur** (« le dernier clip que tu as envoyé est bien », version avec la voix Seedance) | 315 cr |
 | Image de départ 1:1 profil (accroche) | v1 | gpt-image-2-image-to-image 1K | a88d27276cea42a77cf2fa6c0a972f61 | success | `sorties/config/depart_1x1_profil_gpt_v1.png` | test | 6 cr |
+| B-roll B07 start frame | v1 | nano-banana-2-1 1K, 9:16, `prompts/broll-B07-depart.txt` | 2639274c351d47d3282177d7d4cba9c6 | success | `generations/broll-B07-depart_v1.png` | **retenue** | 4 cr |
+| B-roll B07 animation | v1 | google/gemini-omni-flash-1-1 720p, 6 s, first_frame_url = start frame, `prompts/broll-B07-animation.txt` | 6a632c2519672c8685f6e32fc2963368 | success | `generations/broll-B07_v1.mp4` | à valider (2 gouttes tombent, puis la main fait tourner le flacon) | 84 cr |
 Références envoyées (dans cet ordre) : `Claire/avatar/avatar-face.jpg`, `Claire/avatar/avatar-profil.jpg`, `Claire/talking-head/_config/depart_9x16.png`. Prompt : `prompts/config/depart-9x16.txt`. Comparatif : `sorties/config/comparatif-depart-9x16.jpg`.
 
 Deuxième caméra et 1:1 : générées à partir de `depart_9x16_gpt_v1.png` (+ photos de Claire). Prompts : `prompts/config/depart-9x16-camera2.txt`, `prompts/config/depart-1x1.txt`. Planche : `sorties/config/planche-images-depart.jpg`.
 
 O1 : GPT Image 2 sur fond vert uni (#00B140), puis détourage par clé de couleur (`generations/objet-O1_v1_detoure.png`). Planche : `generations/planche-generations.jpg`.
 
-**Total à ce stade : 4 333 cr (environ 21,67 $).** Contrôle des clips : `controle/planche_*.jpg` et transcriptions Whisper.
+**Total à ce stade : 4 421 cr (environ 22,11 $).** Contrôle des clips : `controle/planche_*.jpg` et transcriptions Whisper.
 
 ## Synchro lèvres et voix off (2026-10-08)
 
