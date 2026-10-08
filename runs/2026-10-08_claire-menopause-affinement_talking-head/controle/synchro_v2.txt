@@ -1,0 +1,49 @@
+=== S01 v2
+mot voix off        voix off  seedance   écart
+Deux                    0.00      0.00   +0.00
+femmes                  0.40      0.80   +0.40
+sur                     0.52      0.90   +0.38
+trois                   0.74      1.16   +0.42
+constatent              0.96      1.74   +0.78
+un                      1.46      2.40   +0.94
+affinement              1.64         ?
+de                      1.94      3.02   +1.08
+leurs                   2.12      3.24   +1.12
+cheveux                 2.26      3.40   +1.14
+à                       2.56      3.70   +1.14
+la                      2.66      3.82   +1.16
+ménopause.              2.76      3.90   +1.14
+Pourquoi                3.68      4.64   +0.96
+?                       3.86      4.80   +0.94
+écart moyen +0.89 s, max 1.16 s, mots appariés 14/15
+=== A01 v2
+mot voix off        voix off  seedance   écart
+et                      0.00      0.00   +0.00
+la                      0.42      0.60   +0.18
+baisse                  0.62      0.74   +0.12
+du                      0.82      0.94   +0.12
+taux                    1.02      1.12   +0.10
+de                      1.14      1.24   +0.10
+collagène               1.34      1.46   +0.12
+peut                    1.80      1.94   +0.14
+amincir                 2.08         ?
+le                      2.62      2.64   +0.02
+cuir                    2.78      2.84   +0.06
+chevelu,                2.98      3.02   +0.04
+ce                      3.56      3.78   +0.22
+qui                     3.62      3.84   +0.22
+offre                   3.82      4.04   +0.22
+moins                   4.10      4.30   +0.20
+de                      4.30      4.56   +0.26
+soutien                 4.54      4.82   +0.28
+à                       4.78      5.08   +0.30
+ces                     4.94      5.22   +0.28
+follicules              5.04      5.34   +0.30
+pileux.                 5.46         ?
+Mais                    5.96      6.62   +0.66
+voici                   6.16      6.78   +0.62
+des                     6.46      7.08   +0.62
+solutions               6.62      7.28   +0.66
+qui                     6.98      7.64   +0.66
+fonctionnent.           7.24      7.92   +0.68
+écart moyen +0.29 s, max 0.68 s, mots appariés 26/28
