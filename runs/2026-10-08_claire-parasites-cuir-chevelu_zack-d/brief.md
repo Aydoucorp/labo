@@ -34,3 +34,5 @@ Le Brand DNA interdit les allégations santé et demande de renvoyer vers un pro
 - Stills (gpt-image-2 image-to-image, 1K, 9:16) : prompts dans `jobs/stills.json`, écrits par `work/ecrire_stills.py`. Refs : plate en 1re, fiche perso en 2e quand Claire apparaît, coupe `M-cuir-chevelu` pour S15-S16, S02 comme référence des parasites pour S03, S09, S10, S13.
 - Reprises demandées par l'utilisateur : S08 (posture tordue), S18 et S19 (Claire en pied). Anciennes versions dans `jobs/_rejets/`. S06 gardé tel quel (validé).
 - Clips (Kling 3.0 `kling-3.0/video`, mode std 720p, sans son, start + end, 9:16) : prompts dans `jobs/legs.json`, écrits par `work/ecrire_legs.py`. 21 clips, 65 s.
+- Clips générés : 21/21 du premier coup (720x1280, 24 fps, 3 ou 4 s). Coût réel : setup 12 cr + stills 126 cr + reprises 18 cr + clips ~910 cr.
+- Calage : `make_delivery.py` → `EXPORTS/MONTAGE/` (clips recalés à la durée de chaque phrase, 1080x1920 30 fps, `FICHE-MONTAGE.txt`, `APERCU-recale-avec-VO.mp4` 52,3 s dont 3 s d'outro muette ; `APERCU-leger.mp4` 720p pour l'envoi).
