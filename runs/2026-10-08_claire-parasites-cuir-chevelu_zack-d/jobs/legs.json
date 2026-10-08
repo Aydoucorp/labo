@@ -1,0 +1,275 @@
+[
+ {
+  "name": "B01",
+  "start": "jobs/OUT/S01.png",
+  "end": "jobs/OUT/S02.png",
+  "vo_start": 0.0,
+  "vo_end": 1.92,
+  "target_s": 1.92,
+  "duration": "3",
+  "lines": [
+   1
+  ],
+  "prompt": "Camera motion: Camera starts low looking up at the woman, then pushes forward fast into her hair and dives down between the strands to the scalp surface, ending on the macro forest of hair of the end frame. Subject motion: The woman scratches her scalp with both hands, annoyed and itchy. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B02",
+  "start": "jobs/OUT/S02.png",
+  "end": "jobs/OUT/S03.png",
+  "vo_start": 1.92,
+  "vo_end": 4.48,
+  "target_s": 2.56,
+  "duration": "3",
+  "lines": [
+   2
+  ],
+  "prompt": "Camera motion: Camera glides low between the giant hair trunks past the tiny bugs, then pulls back fast and rises, ending on the wide prop island of the end frame. Subject motion: The tiny cute bugs peek out and scurry between the roots. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B03",
+  "start": "jobs/OUT/S03.png",
+  "end": "jobs/OUT/S04.png",
+  "vo_start": 4.48,
+  "vo_end": 7.36,
+  "target_s": 2.88,
+  "duration": "3",
+  "lines": [
+   3
+  ],
+  "prompt": "Camera motion: Camera pulls back and rises while the giant jar shrinks into the woman's hands, ending on the medium shot of the end frame. Subject motion: The tiny bugs look up at the giant coconut oil jar, tremble and run away out of frame. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B04",
+  "start": "jobs/OUT/S04.png",
+  "end": "jobs/OUT/S05.png",
+  "vo_start": 7.36,
+  "vo_end": 8.76,
+  "target_s": 1.4,
+  "duration": "3",
+  "lines": [
+   4
+  ],
+  "prompt": "Camera motion: Camera rises slightly to a higher angle and pulls back to show her full body, ending on the framing of the end frame. Subject motion: She opens the lid, dips a spoon into the white coconut oil and lifts a big scoop above her head. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B05",
+  "start": "jobs/OUT/S05.png",
+  "end": "jobs/OUT/S06.png",
+  "vo_start": 8.76,
+  "vo_end": 11.66,
+  "target_s": 2.9,
+  "duration": "3",
+  "lines": [
+   5
+  ],
+  "prompt": "Camera motion: Camera cranes up to a high top-down angle above her head, ending on the framing of the end frame. Subject motion: She spreads the scoop of white oil on the top of her head along her parting, then raises a small amber dropper bottle above her head. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B06",
+  "start": "jobs/OUT/S06.png",
+  "end": "jobs/OUT/S07.png",
+  "vo_start": 11.66,
+  "vo_end": 14.09,
+  "target_s": 2.43,
+  "duration": "3",
+  "lines": [
+   6
+  ],
+  "prompt": "Camera motion: Camera pushes forward fast down into her hair along the parting and dives onto a single hair strand, ending on the extreme macro of the end frame. Subject motion: One clear drop falls from the dropper into the oil on her hair. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B07",
+  "start": "jobs/OUT/S07.png",
+  "end": "jobs/OUT/S08.png",
+  "vo_start": 14.09,
+  "vo_end": 18.25,
+  "target_s": 4.16,
+  "duration": "4",
+  "lines": [
+   7,
+   8
+  ],
+  "prompt": "Camera motion: Camera holds on the hair strand, then pulls back fast out of the hair, ending on the medium shot of the woman of the end frame. Subject motion: The green-tinted drop lands on the white eggs; the eggs turn grey, crack open and stay empty. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B08",
+  "start": "jobs/OUT/S08.png",
+  "end": "jobs/OUT/S09.png",
+  "vo_start": 18.25,
+  "vo_end": 21.41,
+  "target_s": 3.16,
+  "duration": "3",
+  "lines": [
+   9
+  ],
+  "prompt": "Camera motion: Camera pushes forward fast into her hair at the roots and dives along one glossy strand, ending on the macro of the end frame. Subject motion: Her fingertips massage the oil from the roots to the tips, the hair turns glossy. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B09",
+  "start": "jobs/OUT/S09.png",
+  "end": "jobs/OUT/S10.png",
+  "vo_start": 21.41,
+  "vo_end": 23.57,
+  "target_s": 2.16,
+  "duration": "3",
+  "lines": [
+   10
+  ],
+  "prompt": "Camera motion: Camera orbits a quarter turn around the hair strand with a slow push-in, ending on the framing of the end frame. Subject motion: The thick wave of white oil flows down the strand and wraps the tiny bug completely inside a round translucent bubble. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B10",
+  "start": "jobs/OUT/S10.png",
+  "end": "jobs/OUT/S11.png",
+  "vo_start": 23.57,
+  "vo_end": 26.33,
+  "target_s": 2.76,
+  "duration": "3",
+  "lines": [
+   11
+  ],
+  "prompt": "Camera motion: Camera pulls back fast out of the hair and rises to a high wide view while the world darkens to a calm night blue, ending on the wide shot of the end frame. Subject motion: Inside the oil bubble the tiny bug waves its legs, slows down, stops and turns grey, cartoon style, no gore. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B11",
+  "start": "jobs/OUT/S11.png",
+  "end": "jobs/OUT/S12.png",
+  "vo_start": 26.33,
+  "vo_end": 28.87,
+  "target_s": 2.54,
+  "duration": "3",
+  "lines": [
+   12
+  ],
+  "prompt": "Camera motion: Camera slowly pushes in, then rises to eye level, ending on the medium shot of the end frame. Subject motion: She sleeps peacefully; the night blue brightens into morning light; she is now standing, rinsing her hair under a clear stream of water. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B12a",
+  "start": "jobs/OUT/S12.png",
+  "end": "jobs/OUT/S13.png",
+  "vo_start": 28.87,
+  "vo_end": 30.83,
+  "target_s": 1.96,
+  "duration": "3",
+  "lines": [
+   13
+  ],
+  "prompt": "Camera motion: Camera pushes forward fast into her wet hair and dives down to the scalp surface, ending on the macro of the end frame. Subject motion: Clear water runs through her hair, rinsing it. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B12b",
+  "start": "jobs/OUT/S13.png",
+  "end": "jobs/OUT/S14.png",
+  "vo_start": 30.83,
+  "vo_end": 32.76,
+  "target_s": 1.93,
+  "duration": "3",
+  "lines": [
+   13
+  ],
+  "prompt": "Camera motion: Camera pulls back fast out of the hair and drops to ground level, ending on the full body shot of the end frame. Subject motion: The water stream carries the grey motionless bugs and empty eggshells away out of the bottom of the frame, the scalp left clean. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B13",
+  "start": "jobs/OUT/S14.png",
+  "end": "jobs/OUT/S15.png",
+  "vo_start": 32.76,
+  "vo_end": 34.59,
+  "target_s": 1.83,
+  "duration": "3",
+  "lines": [
+   14
+  ],
+  "prompt": "Camera motion: Camera pushes forward fast into the red glow on her scalp and dives through the skin, ending on the cross-section cube of the end frame. Subject motion: She scratches the top of her head, puzzled; a faint red glow pulses on her scalp. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B14",
+  "start": "jobs/OUT/S15.png",
+  "end": "jobs/OUT/S16.png",
+  "vo_start": 34.59,
+  "vo_end": 36.95,
+  "target_s": 2.36,
+  "duration": "3",
+  "lines": [
+   15
+  ],
+  "prompt": "Camera motion: Camera orbits half a turn around the cross-section cube to the opposite three-quarter angle, ending on the framing of the end frame. Subject motion: The red dry cracked skin surface sheds a few pale flakes, then a soft sage-green soothing liquid starts to flow over it. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B15",
+  "start": "jobs/OUT/S16.png",
+  "end": "jobs/OUT/S17.png",
+  "vo_start": 36.95,
+  "vo_end": 39.2,
+  "target_s": 2.25,
+  "duration": "3",
+  "lines": [
+   16
+  ],
+  "prompt": "Camera motion: Camera pulls back fast and rises, ending on the wide prop island of the end frame. Subject motion: The sage-green wave covers the whole surface and the red fades into calm healthy pink. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B16a",
+  "start": "jobs/OUT/S17.png",
+  "end": "jobs/OUT/S18.png",
+  "vo_start": 39.2,
+  "vo_end": 40.93,
+  "target_s": 1.73,
+  "duration": "3",
+  "lines": [
+   17
+  ],
+  "prompt": "Camera motion: Camera pushes in toward the woman while the giant ingredients shrink, ending on the full body shot of the end frame. Subject motion: She gathers a little aloe, chamomile and oats into a wooden bowl and starts stirring a pale-green paste. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B16b",
+  "start": "jobs/OUT/S18.png",
+  "end": "jobs/OUT/S19.png",
+  "vo_start": 40.93,
+  "vo_end": 43.58,
+  "target_s": 2.65,
+  "duration": "3",
+  "lines": [
+   17
+  ],
+  "prompt": "Camera motion: Camera slowly pushes in, keeping her full body in frame, ending on the framing of the end frame. Subject motion: She stirs the green paste, then the bowl softly turns into a small closed terracotta booklet in her hands. The booklet cover stays completely blank. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B17",
+  "start": "jobs/OUT/S19.png",
+  "end": "jobs/OUT/S20.png",
+  "vo_start": 43.58,
+  "vo_end": 45.35,
+  "target_s": 1.77,
+  "duration": "3",
+  "lines": [
+   18
+  ],
+  "prompt": "Camera motion: Camera pulls back and drops to a low angle, ending on the framing of the end frame. Subject motion: The terracotta booklet grows large and stands upright inside a softly glowing cyan ring on the ground beside her; she points at it with a big smile. The booklet cover stays completely blank. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B18",
+  "start": "jobs/OUT/S20.png",
+  "end": "jobs/OUT/S21.png",
+  "vo_start": 45.35,
+  "vo_end": 49.24,
+  "target_s": 3.89,
+  "duration": "4",
+  "lines": [
+   19,
+   20
+  ],
+  "prompt": "Camera motion: Camera slowly pushes in to a frontal centered view, ending on the framing of the end frame. Subject motion: The woman waves and walks out of frame, leaving the booklet alone in the glowing cyan ring. The booklet cover stays completely blank. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ },
+ {
+  "name": "B19",
+  "start": "jobs/OUT/S21.png",
+  "end": null,
+  "vo_start": 49.24,
+  "vo_end": 52.24,
+  "target_s": 3.0,
+  "duration": "3",
+  "lines": [],
+  "prompt": "Camera motion: Camera very slowly pushes in. Subject motion: The cyan ring glows softly, the booklet stays still. The booklet cover stays completely blank. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+ }
+]

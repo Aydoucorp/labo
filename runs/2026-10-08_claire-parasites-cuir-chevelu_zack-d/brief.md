@@ -31,3 +31,6 @@ Le Brand DNA interdit les allégations santé et demande de renvoyer vers un pro
 
 ## Prompts et réglages
 - Setup (gpt-image-2 image-to-image, 1K, 9:16) : prompts exacts dans `jobs/setup.json` (`CHAR-sheet` : refs claire-ref + plate ; `M-cuir-chevelu` : ref plate).
+- Stills (gpt-image-2 image-to-image, 1K, 9:16) : prompts dans `jobs/stills.json`, écrits par `work/ecrire_stills.py`. Refs : plate en 1re, fiche perso en 2e quand Claire apparaît, coupe `M-cuir-chevelu` pour S15-S16, S02 comme référence des parasites pour S03, S09, S10, S13.
+- Reprises demandées par l'utilisateur : S08 (posture tordue), S18 et S19 (Claire en pied). Anciennes versions dans `jobs/_rejets/`. S06 gardé tel quel (validé).
+- Clips (Kling 3.0 `kling-3.0/video`, mode std 720p, sans son, start + end, 9:16) : prompts dans `jobs/legs.json`, écrits par `work/ecrire_legs.py`. 21 clips, 65 s.
