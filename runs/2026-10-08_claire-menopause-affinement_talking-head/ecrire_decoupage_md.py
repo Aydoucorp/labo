@@ -97,7 +97,7 @@ A("Recette validée (charte) : `reference_image_urls` = [image de départ] (`@Im
 for cid, c in clips.items():
     ws = [w for w in W if c["clipStart"] - 0.01 <= w["start"] <= c["clipEnd"]]
     A(f"### {cid} · {c['format']} · `{c['fichier']}` · {fr(c['clipStart'])} → {fr(c['clipEnd'])} s ({fr(c['duree'])} s, demander {c['duree_a_demander']} s)\n")
-    A(f"- Image de départ : `Claire/talking-head/_config/depart_{'1x1' if c['format']=='1:1' else '9x16'}.png` · `clipStart` pour le montage : {c['clipStart']:.3f}")
+    A(f"- Image de départ : `Claire/talking-head/_config/{'depart_1x1.png' if c['format']=='1:1' else ('depart_9x16_camera2.png' if cid=='A02' else 'depart_9x16.png')}` (pull bleu, 2026-10-08) · `clipStart` pour le montage : {c['clipStart']:.3f}")
     A("- Timeline des mots (temps dans le clip) : " + " ".join(f"{w['w']} {w['start']-c['clipStart']:.1f}" for w in ws))
     A(f"- Geste attendu : {GESTE[cid]}\n")
     A("```text\n" + seedance(cid) + "\n```\n")

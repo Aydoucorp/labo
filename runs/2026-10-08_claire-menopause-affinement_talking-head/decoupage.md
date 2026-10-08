@@ -45,7 +45,7 @@ Recette validée (charte) : `reference_image_urls` = [image de départ] (`@Image
 
 ### S01 · 1:1 · `audio_avatar/S01.wav` · 0,0 → 4,2 s (4,2 s, demander 5 s)
 
-- Image de départ : `Claire/talking-head/_config/depart_1x1.png` · `clipStart` pour le montage : 0.000
+- Image de départ : `Claire/talking-head/_config/depart_1x1.png` (pull bleu, 2026-10-08) · `clipStart` pour le montage : 0.000
 - Timeline des mots (temps dans le clip) : Deux 0.1 femmes 0.3 sur 0.6 trois 0.7 constatent 1.0 un 1.4 affinement 1.5 de 2.0 leurs 2.1 cheveux 2.3 à 2.5 la 2.6 ménopause 2.7 Pourquoi 3.6
 - Geste attendu : Gaze slightly off-camera toward an unseen interviewer, then a quick look into the camera on 'Pourquoi'. Small concerned frown on 'affinement'.
 
@@ -68,7 +68,7 @@ CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @
 
 ### A01 · 9:16 · `audio_avatar/A01.wav` · 13,3 → 21,3 s (8,0 s, demander 9 s)
 
-- Image de départ : `Claire/talking-head/_config/depart_9x16.png` · `clipStart` pour le montage : 13.290
+- Image de départ : `Claire/talking-head/_config/depart_9x16.png` (pull bleu, 2026-10-08) · `clipStart` pour le montage : 13.290
 - Timeline des mots (temps dans le clip) : Et 0.3 la 0.4 baisse 0.5 du 0.8 taux 1.0 de 1.1 collagène 1.2 peut 1.9 amincir 2.0 le 2.6 cuir 2.7 chevelu 3.0 ce 3.5 qui 3.7 offre 3.8 moins 4.0 de 4.3 soutien 4.4 à 4.8 ces 4.9 follicules 5.0 pileux 5.5 Mais 5.9 voici 6.1 des 6.4 solutions 6.6 qui 7.1 fonctionnent 7.2 Faites 8.0
 - Geste attendu : Gaze slightly off-camera toward an unseen interviewer. One open hand slowly lowers on 'amincir'; small nod on 'follicules pileux'; big smile and a small nod on 'Mais voici des solutions qui fonctionnent'.
 
@@ -91,7 +91,7 @@ CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @
 
 ### A02 · 9:16 · `audio_avatar/A02.wav` · 22,5 → 31,5 s (8,9 s, demander 9 s)
 
-- Image de départ : `Claire/talking-head/_config/depart_9x16.png` · `clipStart` pour le montage : 22.540
+- Image de départ : `Claire/talking-head/_config/depart_9x16_camera2.png` (pull bleu, 2026-10-08) · `clipStart` pour le montage : 22.540
 - Timeline des mots (temps dans le clip) : sang 0.0 un 0.3 manque 0.4 de 0.7 fer 0.9 ou 1.3 un 1.4 problème 1.5 de 1.9 thyroïde 2.0 peut 2.5 aggraver 2.6 la 3.1 chute 3.2 et 3.6 cela 3.8 se 4.0 corrige 4.2 Pensez 4.8 aussi 5.1 à 5.3 prendre 5.5 un 5.8 complément 5.9 de 6.3 collagène 6.4 pour 7.1 soutenir 7.3 votre 7.7 cuir 8.1 chevelu 8.2 et 8.9
 - Geste attendu : Gaze slightly off-camera toward an unseen interviewer. Raises one finger on 'fer', a second finger on 'thyroïde'; reassuring nod on 'et cela se corrige'; open palm turned to the side on 'complément de collagène'.
 
@@ -114,7 +114,7 @@ CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @
 
 ### A03 · 9:16 · `audio_avatar/A03.wav` · 45,6 → 59,6 s (13,9 s, demander 14 s)
 
-- Image de départ : `Claire/talking-head/_config/depart_9x16.png` · `clipStart` pour le montage : 45.630
+- Image de départ : `Claire/talking-head/_config/depart_9x16.png` (pull bleu, 2026-10-08) · `clipStart` pour le montage : 45.630
 - Timeline des mots (temps dans le clip) : C'est 0.3 un 0.4 geste 0.6 doux 0.9 et 1.2 simple 1.4 à 1.8 faire 1.9 avec 2.1 régularité 2.3 pendant 3.1 plusieurs 3.5 mois 3.8 Si 4.3 vous 4.4 voulez 4.5 plus 4.8 de 5.0 détails 5.1 j'ai 5.6 créé 5.9 un 6.1 guide 6.3 Comment 6.8 traiter 7.1 l'affinement 7.4 des 7.8 cheveux 8.0 à 8.3 la 8.4 ménopause 8.5 rien 9.2 que 9.5 pour 9.7 vous 9.9 Commentez 10.2 GUIDE 10.8 et 11.3 je 11.4 vous 11.6 enverrai 11.8 gratuitement 12.1 mon 12.7 guide 12.8 en 13.2 message 13.3 privé 13.7
 - Geste attendu : Gaze slightly off-camera with soft gentle hand movements on 'doux et simple'; from 'Si vous voulez plus de détails' looks straight into the camera; warm smile on 'rien que pour vous'; light smile and small nod on the last phrase.
 

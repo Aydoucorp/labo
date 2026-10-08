@@ -20,7 +20,12 @@
   "handle": "@les_cheveux_de_claire",
   "images_depart": {
     "9:16": "depart_9x16.png",
-    "1:1": "depart_1x1.png"
+    "9:16 camera2": "depart_9x16_camera2.png",
+    "1:1": "depart_1x1.png",
+    "tenue": "pull en maille bleu melody (pastel), studio sombre",
+    "valide_le": "2026-10-08",
+    "modele": "gpt-image-2-image-to-image 1K",
+    "archive": "archive-talking-head-1/ (pull du talking head n°1)"
   },
   "style_illustrations": "flat vector educational illustration, clean dark outlines, cream background #FAF6F3, palette terracotta #A8553A, light terracotta #C9805F, plum #7A4351, dark brown, sage #8C9B86, silver #B4ADA4 ; no text",
   "seedance": {
