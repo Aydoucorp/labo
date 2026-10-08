@@ -26,6 +26,8 @@ Principe Hotline : la scène est générée à partir de l'image de départ, ave
 
 Réglages : mode « référence multimodale » (Seedance 2.5 sur KIE n'accepte pas première image + audio ensemble) : `reference_image_urls` = [image de départ validée], `reference_audio_urls` = [extrait audio du clip, 2 à 30 s], `generate_audio: true`, même ratio que l'image, durée = durée de l'extrait arrondie à la seconde supérieure (4 à 30 s), caméra verrouillée. Script : `scripts/kie_seedance.py --generate-audio` (dossier `scripts/` du studio).
 
+**Lier explicitement l'audio à la parole (validé par l'utilisateur, 2026-10-08)** : ne jamais écrire `@Audio1` seul. Dire ce que l'audio contrôle et la règle de liaison : « @Audio1 is her dialogue voice […] sync her lip movement to @Audio1 […] keep the mouth clearly visible » (technique relevée dans les guides Seedance 2.0, ex. seedance2pro.net). Le reste du gabarit (texte exact, prononciation, émotion phrase par phrase, gestes datés) ne change pas.
+
 **Balises de référence obligatoires** : dans le prompt, chaque fichier joint est désigné par sa balise, dans l'ordre d'envoi : `@Image1` (première image de `reference_image_urls`), `@Audio1` (premier audio de `reference_audio_urls`), puis `@Image2`, `@Audio2`… Jamais « Image 1 » ou « Audio 1 » en texte libre : sans la balise, le modèle ne relie pas la consigne au fichier (cause du décalage lèvres / voix sur les premiers clips).
 
 Règles d'écriture de la parole :
@@ -37,7 +39,7 @@ Règles d'écriture de la parole :
 ```text
 Create a [DURATION]-second [RATIO] photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 ([seated at the desk, waist up] / [square framing, head and shoulders]).
 
-REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is the reference of HER/HIS voice: reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). [Only borrow the voice from @Audio1, not its words.] Do not use any other voice.
+REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is HER/HIS dialogue voice, a clean recording of her/his own voice: sync her/his lip movement to @Audio1 syllable by syllable, from its first word to its last, and keep the mouth clearly visible. Reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). [Only borrow the voice from @Audio1, not its words.] Do not use any other voice.
 
 SPEECH: [She/He] speaks [LANGUAGE], in [her/his] own voice from @Audio1, saying exactly these words and nothing else:
 "[EXACT WORDS, numbers written in full]"

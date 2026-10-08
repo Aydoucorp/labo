@@ -52,7 +52,7 @@ Recette validée (charte) : `reference_image_urls` = [image de départ] (`@Image
 ```text
 Create a 5-second 1:1 photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 (square framing, head and shoulders).
 
-REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is the reference of HER voice: reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). Do not use any other voice.
+REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is HER dialogue voice, a clean recording of her own voice: sync her lip movement to @Audio1 syllable by syllable, from its first word to its last, and keep the mouth clearly visible. Reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). Do not use any other voice.
 
 SPEECH: She speaks French, in her own voice from @Audio1, saying exactly these words and nothing else:
 "Deux femmes sur trois constatent un affinement de leurs cheveux à la ménopause. Pourquoi ?"
@@ -75,7 +75,7 @@ CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @
 ```text
 Create a 9-second 9:16 photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 (seated at the desk, waist up).
 
-REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is the reference of HER voice: reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). Do not use any other voice.
+REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is HER dialogue voice, a clean recording of her own voice: sync her lip movement to @Audio1 syllable by syllable, from its first word to its last, and keep the mouth clearly visible. Reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). Do not use any other voice.
 
 SPEECH: She speaks French, in her own voice from @Audio1, saying exactly these words and nothing else:
 "Et la baisse du taux de collagène peut amincir le cuir chevelu, ce qui offre moins de soutien à ces follicules pileux. Mais voici des solutions qui fonctionnent !"
@@ -98,7 +98,7 @@ CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @
 ```text
 Create a 9-second 9:16 photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 (seated at the desk, waist up).
 
-REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is the reference of HER voice: reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). Do not use any other voice.
+REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is HER dialogue voice, a clean recording of her own voice: sync her lip movement to @Audio1 syllable by syllable, from its first word to its last, and keep the mouth clearly visible. Reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). Do not use any other voice.
 
 SPEECH: She speaks French, in her own voice from @Audio1, saying exactly these words and nothing else:
 "Un manque de fer ou un problème de thyroïde peut aggraver la chute, et cela se corrige. Pensez aussi à prendre un complément de collagène, pour soutenir votre cuir chevelu"
@@ -121,7 +121,7 @@ CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @
 ```text
 Create a 14-second 9:16 photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 (seated at the desk, waist up).
 
-REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is the reference of HER voice: reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). Do not use any other voice.
+REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is HER dialogue voice, a clean recording of her own voice: sync her lip movement to @Audio1 syllable by syllable, from its first word to its last, and keep the mouth clearly visible. Reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). Do not use any other voice.
 
 SPEECH: She speaks French, in her own voice from @Audio1, saying exactly these words and nothing else:
 "C'est un geste doux et simple, à faire avec régularité pendant plusieurs mois. Si vous voulez plus de détails, j'ai créé un guide, Comment traiter l'affinement des cheveux à la ménopause, rien que pour vous. Commentez GUIDE et je vous enverrai gratuitement mon guide en message privé."

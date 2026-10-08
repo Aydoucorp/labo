@@ -36,7 +36,7 @@ def seedance(cid):
     framing = "square framing, head and shoulders" if sq else "seated at the desk, waist up"
     return f"""Create a {c['duree_a_demander']}-second {c['format']} photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 ({framing}).
 
-REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is the reference of HER voice: reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). Do not use any other voice.
+REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is HER dialogue voice, a clean recording of her own voice: sync her lip movement to @Audio1 syllable by syllable, from its first word to its last, and keep the mouth clearly visible. Reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). Do not use any other voice.
 
 SPEECH: She speaks French, in her own voice from @Audio1, saying exactly these words and nothing else:
 "{SPEECH[cid]}"

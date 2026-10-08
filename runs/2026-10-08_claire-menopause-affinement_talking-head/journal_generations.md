@@ -23,16 +23,22 @@ Tarif KIE : 1 crédit ≈ 0,005 $.
 | Clip avatar A03 (9:16, 14 s) | v1 | bytedance/seedance-2-5 720p, generate_audio, @Image1 = depart_9x16.png, @Audio1 = audio_avatar/A03.wav | e71fa6cccd713dd5dcd269db28be18a1 | success | `avatar/A03_v1.mp4` | **retenu** (regard caméra pour le CTA ; « douce », « affirmation », « envoyerai » prononcés par Seedance, sans effet) | 882 cr |
 | Clip avatar S01 | v2 | bytedance/seedance-2-5 720p, generate_audio, @Image1 = depart_1x1.png, @Audio1 = audio_avatar/S01.wav déclaré bande-son exacte + timeline mot à mot (`prompts/seedance-S01-v2.txt`) | 85cd2f847ff434b14e2a1d3878ec6ee3 | success | `avatar/S01_v2.mp4` | non retenu : retard jusqu'à 1,1 s malgré la voix off déclarée bande-son | 315 cr |
 | Clip avatar A01 | v2 | bytedance/seedance-2-5 720p, generate_audio, @Image1 = depart_9x16.png, @Audio1 = audio_avatar/A01_v2.wav déclaré bande-son exacte + timeline mot à mot (`prompts/seedance-A01-v2.txt`) | 017731bdcb2ab07e4add978b50ad805e | success | `avatar/A01_v2.mp4` | non retenu : retard jusqu'à 0,7 s ; la v1 recalée mot par mot est plus fluide | 567 cr |
+| Clip avatar S01 | S01_v3 | bytedance/seedance-2-5 720p, generate_audio, depart_1x1.png, @Audio1 = audio_avatar/S01_v3.wav (48 kHz, normalisé), prompt recherche web (liaison audio explicite, tête immobile) | f0d6d9245a0b02e41a0c96fd21e5ce0f | success | `avatar/S01_v3.mp4` | test : retard croissant jusqu'à 0,92 s | 315 cr |
+| Clip avatar S01 | S01_v3_ecran-noir | bytedance/seedance-2-5 720p, generate_audio, depart_1x1.png, @Video1 = audio_avatar/S01_ecran-noir.mp4 (écran noir portant la voix off) | 0b092c62645b6ebf27b2dfa95201d670 | success | `avatar/S01_v3_ecran-noir.mp4` | test : 0 à 0,02 s sur les 5 premiers mots, puis jusqu'à 0,80 s | 342 cr |
+| Clip avatar S01 | S01_profil_v1 | bytedance/seedance-2-5 720p, generate_audio, depart_1x1_profil.png (3/4 profil), @Audio1 = audio_avatar/S01_v3.wav, même prompt que v3 | 74230af3c8f802f6fdfebb5c949575d0 | success | `avatar/S01_profil_v1.mp4` | test : 0,3 s au début ; « constatent » déformé, plan de profil | 315 cr |
+| Image de départ 1:1 profil (accroche) | v1 | gpt-image-2-image-to-image 1K | a88d27276cea42a77cf2fa6c0a972f61 | success | `sorties/config/depart_1x1_profil_gpt_v1.png` | test | 6 cr |
 Références envoyées (dans cet ordre) : `Claire/avatar/avatar-face.jpg`, `Claire/avatar/avatar-profil.jpg`, `Claire/talking-head/_config/depart_9x16.png`. Prompt : `prompts/config/depart-9x16.txt`. Comparatif : `sorties/config/comparatif-depart-9x16.jpg`.
 
 Deuxième caméra et 1:1 : générées à partir de `depart_9x16_gpt_v1.png` (+ photos de Claire). Prompts : `prompts/config/depart-9x16-camera2.txt`, `prompts/config/depart-1x1.txt`. Planche : `sorties/config/planche-images-depart.jpg`.
 
 O1 : GPT Image 2 sur fond vert uni (#00B140), puis détourage par clé de couleur (`generations/objet-O1_v1_detoure.png`). Planche : `generations/planche-generations.jpg`.
 
-**Total à ce stade : 3 355 cr (environ 16,78 $).** Contrôle des clips : `controle/planche_*.jpg` et transcriptions Whisper.
+**Total à ce stade : 4 333 cr (environ 21,67 $).** Contrôle des clips : `controle/planche_*.jpg` et transcriptions Whisper.
 
 ## Synchro lèvres et voix off (2026-10-08)
 
 - Mesures (`controle/synchro_v1.txt`, `controle/synchro_v2.txt`, script `comparer_synchro.py`) : S01 v1 « Pourquoi » +0,5 s et 2 mots déformés ; A01 v1 dernière phrase +1,0 s ; A02 v1 max 0,4 s ; A03 v1 max 0,14 s.
 - Demande de l'utilisateur : utiliser la voix off comme audio de Seedance pour que Claire parle avec cette voix. Sur KIE, Seedance 2.5 n'a pas d'option « garder l'audio fourni et caler les lèvres » (documentation vérifiée) : l'audio de référence sert de modèle et Seedance régénère la parole à son rythme. Test v2 (voix off déclarée bande-son exacte + timeline) : S01 +1,1 s, A01 +0,7 s. Pas d'amélioration fiable.
 - Solution retenue pour le montage : `montage/recaler_mots.py`, recalage de l'image mot par mot sur la voix off (alignement de séquences tolérant aux mots déformés, vitesse d'image bornée entre 0,65 et 1,6), son Seedance remplacé par la voix off d'origine. Aperçus : `apercu/*_recale.mp4`. S01 v1 : 13 ancres, vitesse 1,00 à 1,40 ; A01 v1 : 26 ancres, vitesse 0,89 à 1,53.
+
+- Recherche web (2026-10-08) et 3 essais S01 (`controle/synchro_v3.txt`). Technique retenue par l'utilisateur : lier explicitement l'audio à la parole (« @Audio1 is her dialogue voice […] sync her lip movement to @Audio1 »), ajoutée au gabarit 2 du skill ; le reste suit le skill.
