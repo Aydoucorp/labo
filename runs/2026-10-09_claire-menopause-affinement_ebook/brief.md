@@ -43,3 +43,5 @@ Angle : méthode pas à pas (« je sais exactement quoi faire »). 12 pages :
 
 ## Génération (étape 6)
 `python3 scripts/kie_image.py --model gpt-image-2-text-to-image --prompt-file prompts/pages/NN.txt --out sorties/pages/NN-v1.png --ratio 3:4 --resolution 1K`
+- Résultat : 12 pages sur 12 bonnes du premier coup (1086x1448, texte exact, accents, pas de signature parasite, DA homogène avec le 1er ebook). Coût : 72 crédits (12 x 6). Pages retenues : `retenues/pages/NN.png`.
+- PDF : `retenues/affinement-menopause-web.pdf` (1,3 Mo, 800 px, JPEG 80, pour l'envoi en message privé) et `retenues/affinement-menopause-hq.pdf` (1,9 Mo, pleine résolution, JPEG 93), page 150 x 200 mm.
