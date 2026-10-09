@@ -4,8 +4,8 @@
   "start": "jobs/OUT/S01.png",
   "end": "jobs/OUT/S02.png",
   "vo_start": 0.0,
-  "vo_end": 1.92,
-  "target_s": 1.92,
+  "vo_end": 1.91,
+  "target_s": 1.91,
   "duration": "3",
   "lines": [
    1
@@ -16,9 +16,9 @@
   "name": "B02",
   "start": "jobs/OUT/S02.png",
   "end": "jobs/OUT/S03.png",
-  "vo_start": 1.92,
-  "vo_end": 4.48,
-  "target_s": 2.56,
+  "vo_start": 1.91,
+  "vo_end": 4.34,
+  "target_s": 2.43,
   "duration": "3",
   "lines": [
    2
@@ -29,9 +29,9 @@
   "name": "B03",
   "start": "jobs/OUT/S03.png",
   "end": "jobs/OUT/S04.png",
-  "vo_start": 4.48,
-  "vo_end": 7.36,
-  "target_s": 2.88,
+  "vo_start": 4.34,
+  "vo_end": 7.27,
+  "target_s": 2.93,
   "duration": "3",
   "lines": [
    3
@@ -42,9 +42,9 @@
   "name": "B04",
   "start": "jobs/OUT/S04.png",
   "end": "jobs/OUT/S05.png",
-  "vo_start": 7.36,
-  "vo_end": 8.76,
-  "target_s": 1.4,
+  "vo_start": 7.27,
+  "vo_end": 8.77,
+  "target_s": 1.5,
   "duration": "3",
   "lines": [
    4
@@ -55,9 +55,9 @@
   "name": "B05",
   "start": "jobs/OUT/S05.png",
   "end": "jobs/OUT/S06.png",
-  "vo_start": 8.76,
-  "vo_end": 11.66,
-  "target_s": 2.9,
+  "vo_start": 8.77,
+  "vo_end": 12.42,
+  "target_s": 3.65,
   "duration": "3",
   "lines": [
    5
@@ -68,9 +68,9 @@
   "name": "B06",
   "start": "jobs/OUT/S06.png",
   "end": "jobs/OUT/S07.png",
-  "vo_start": 11.66,
-  "vo_end": 14.09,
-  "target_s": 2.43,
+  "vo_start": 12.42,
+  "vo_end": 14.91,
+  "target_s": 2.49,
   "duration": "3",
   "lines": [
    6
@@ -81,9 +81,9 @@
   "name": "B07",
   "start": "jobs/OUT/S07.png",
   "end": "jobs/OUT/S08.png",
-  "vo_start": 14.09,
-  "vo_end": 18.25,
-  "target_s": 4.16,
+  "vo_start": 14.91,
+  "vo_end": 20.42,
+  "target_s": 5.51,
   "duration": "4",
   "lines": [
    7,
@@ -95,9 +95,9 @@
   "name": "B08",
   "start": "jobs/OUT/S08.png",
   "end": "jobs/OUT/S09.png",
-  "vo_start": 18.25,
-  "vo_end": 21.41,
-  "target_s": 3.16,
+  "vo_start": 20.42,
+  "vo_end": 23.5,
+  "target_s": 3.08,
   "duration": "3",
   "lines": [
    9
@@ -108,9 +108,9 @@
   "name": "B09",
   "start": "jobs/OUT/S09.png",
   "end": "jobs/OUT/S10.png",
-  "vo_start": 21.41,
-  "vo_end": 23.57,
-  "target_s": 2.16,
+  "vo_start": 23.5,
+  "vo_end": 25.68,
+  "target_s": 2.18,
   "duration": "3",
   "lines": [
    10
@@ -121,9 +121,9 @@
   "name": "B10",
   "start": "jobs/OUT/S10.png",
   "end": "jobs/OUT/S11.png",
-  "vo_start": 23.57,
-  "vo_end": 26.33,
-  "target_s": 2.76,
+  "vo_start": 25.68,
+  "vo_end": 27.03,
+  "target_s": 1.35,
   "duration": "3",
   "lines": [
    11
@@ -134,9 +134,9 @@
   "name": "B11",
   "start": "jobs/OUT/S11.png",
   "end": "jobs/OUT/S12.png",
-  "vo_start": 26.33,
-  "vo_end": 28.87,
-  "target_s": 2.54,
+  "vo_start": 27.03,
+  "vo_end": 29.22,
+  "target_s": 2.19,
   "duration": "3",
   "lines": [
    12
@@ -147,9 +147,9 @@
   "name": "B12a",
   "start": "jobs/OUT/S12.png",
   "end": "jobs/OUT/S13.png",
-  "vo_start": 28.87,
-  "vo_end": 30.83,
-  "target_s": 1.96,
+  "vo_start": 29.22,
+  "vo_end": 31.84,
+  "target_s": 2.62,
   "duration": "3",
   "lines": [
    13
@@ -160,12 +160,13 @@
   "name": "B12b",
   "start": "jobs/OUT/S13.png",
   "end": "jobs/OUT/S14.png",
-  "vo_start": 30.83,
-  "vo_end": 32.76,
-  "target_s": 1.93,
+  "vo_start": 31.84,
+  "vo_end": 36.3,
+  "target_s": 4.46,
   "duration": "3",
   "lines": [
-   13
+   14,
+   15
   ],
   "prompt": "Camera motion: Camera pulls back fast out of the hair and drops to ground level, ending on the full body shot of the end frame. Subject motion: The water stream carries the grey motionless bugs and empty eggshells away out of the bottom of the frame, the scalp left clean. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
  },
@@ -173,12 +174,12 @@
   "name": "B13",
   "start": "jobs/OUT/S14.png",
   "end": "jobs/OUT/S15.png",
-  "vo_start": 32.76,
-  "vo_end": 34.59,
-  "target_s": 1.83,
+  "vo_start": 36.3,
+  "vo_end": 38.26,
+  "target_s": 1.96,
   "duration": "3",
   "lines": [
-   14
+   16
   ],
   "prompt": "Camera motion: Camera pushes forward fast into the red glow on her scalp and dives through the skin, ending on the cross-section cube of the end frame. Subject motion: She scratches the top of her head, puzzled; a faint red glow pulses on her scalp. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
  },
@@ -186,12 +187,12 @@
   "name": "B14",
   "start": "jobs/OUT/S15.png",
   "end": "jobs/OUT/S16.png",
-  "vo_start": 34.59,
-  "vo_end": 36.95,
-  "target_s": 2.36,
+  "vo_start": 38.26,
+  "vo_end": 41.24,
+  "target_s": 2.98,
   "duration": "3",
   "lines": [
-   15
+   17
   ],
   "prompt": "Camera motion: Camera orbits half a turn around the cross-section cube to the opposite three-quarter angle, ending on the framing of the end frame. Subject motion: The red dry cracked skin surface sheds a few pale flakes, then a soft sage-green soothing liquid starts to flow over it. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
  },
@@ -199,12 +200,12 @@
   "name": "B15",
   "start": "jobs/OUT/S16.png",
   "end": "jobs/OUT/S17.png",
-  "vo_start": 36.95,
-  "vo_end": 39.2,
-  "target_s": 2.25,
+  "vo_start": 41.24,
+  "vo_end": 43.81,
+  "target_s": 2.57,
   "duration": "3",
   "lines": [
-   16
+   18
   ],
   "prompt": "Camera motion: Camera pulls back fast and rises, ending on the wide prop island of the end frame. Subject motion: The sage-green wave covers the whole surface and the red fades into calm healthy pink. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
  },
@@ -212,12 +213,12 @@
   "name": "B16a",
   "start": "jobs/OUT/S17.png",
   "end": "jobs/OUT/S18.png",
-  "vo_start": 39.2,
-  "vo_end": 40.93,
-  "target_s": 1.73,
+  "vo_start": 43.81,
+  "vo_end": 45.48,
+  "target_s": 1.67,
   "duration": "3",
   "lines": [
-   17
+   19
   ],
   "prompt": "Camera motion: Camera pushes in toward the woman while the giant ingredients shrink, ending on the full body shot of the end frame. Subject motion: She gathers a little aloe, chamomile and oats into a wooden bowl and starts stirring a pale-green paste. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
  },
@@ -225,12 +226,12 @@
   "name": "B16b",
   "start": "jobs/OUT/S18.png",
   "end": "jobs/OUT/S19.png",
-  "vo_start": 40.93,
-  "vo_end": 43.58,
-  "target_s": 2.65,
+  "vo_start": 45.48,
+  "vo_end": 48.0,
+  "target_s": 2.52,
   "duration": "3",
   "lines": [
-   17
+   19
   ],
   "prompt": "Camera motion: Camera slowly pushes in, keeping her full body in frame, ending on the framing of the end frame. Subject motion: She stirs the green paste, then the bowl softly turns into a small closed terracotta booklet in her hands. The booklet cover stays completely blank. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
  },
@@ -238,12 +239,12 @@
   "name": "B17",
   "start": "jobs/OUT/S19.png",
   "end": "jobs/OUT/S20.png",
-  "vo_start": 43.58,
-  "vo_end": 45.35,
-  "target_s": 1.77,
+  "vo_start": 48.0,
+  "vo_end": 49.91,
+  "target_s": 1.91,
   "duration": "3",
   "lines": [
-   18
+   20
   ],
   "prompt": "Camera motion: Camera pulls back and drops to a low angle, ending on the framing of the end frame. Subject motion: The terracotta booklet grows large and stands upright inside a softly glowing cyan ring on the ground beside her; she points at it with a big smile. The booklet cover stays completely blank. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
  },
@@ -251,13 +252,13 @@
   "name": "B18",
   "start": "jobs/OUT/S20.png",
   "end": "jobs/OUT/S21.png",
-  "vo_start": 45.35,
-  "vo_end": 49.24,
-  "target_s": 3.89,
+  "vo_start": 49.91,
+  "vo_end": 53.39,
+  "target_s": 3.48,
   "duration": "4",
   "lines": [
-   19,
-   20
+   21,
+   22
   ],
   "prompt": "Camera motion: Camera slowly pushes in to a frontal centered view, ending on the framing of the end frame. Subject motion: The woman waves and walks out of frame, leaving the booklet alone in the glowing cyan ring. The booklet cover stays completely blank. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
  },
@@ -265,8 +266,8 @@
   "name": "B19",
   "start": "jobs/OUT/S21.png",
   "end": null,
-  "vo_start": 49.24,
-  "vo_end": 52.24,
+  "vo_start": 53.39,
+  "vo_end": 56.39,
   "target_s": 3.0,
   "duration": "3",
   "lines": [],

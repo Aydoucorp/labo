@@ -1,46 +1,46 @@
-# Les cheveux de Claire — ZACK speedy — fiche de montage (VO = VO.mp3, 49.2 s)
+# Les cheveux de Claire — ZACK speedy — fiche de montage (VO = VO-v2.mp3, 53.4 s)
 
 Chaque clip couvre la phrase indiquée : poser à VO-début, finir à VO-fin. clips-recales-VO/ = déjà recalés.
 
-01. B01 · VO 0.0 → 1.9 s (1.92 s) · clip 3 s · vitesse x1.58
+01. B01 · VO 0.0 → 1.9 s (1.91 s) · clip 3 s · vitesse x1.59
     « Démangeaisons sur le cuir chevelu ? »
-02. B02 · VO 1.9 → 4.5 s (2.56 s) · clip 3 s · vitesse x1.19
+02. B02 · VO 1.9 → 4.3 s (2.43 s) · clip 3 s · vitesse x1.25
     « Tu as peut-être des parasites sans le savoir. »
-03. B03 · VO 4.5 → 7.4 s (2.88 s) · clip 3 s · vitesse x1.06
-    « Et voici la seule chose à laquelle ils ne survivent pas. »
-04. B04 · VO 7.4 → 8.8 s (1.4 s) · clip 3 s · vitesse x2.17
+03. B03 · VO 4.3 → 7.3 s (2.93 s) · clip 3 s · vitesse x1.04
+    « Et voici l’astuce naturelle qu’ils détestent. »
+04. B04 · VO 7.3 → 8.8 s (1.5 s) · clip 3 s · vitesse x2.03
     « Prends un pot d’huile de coco, »
-05. B05 · VO 8.8 → 11.7 s (2.9 s) · clip 3 s · vitesse x1.05
-    « sors-en une bonne cuillerée et étale-la sur ta tête. »
-06. B06 · VO 11.7 → 14.1 s (2.43 s) · clip 3 s · vitesse x1.25
+05. B05 · VO 8.8 → 12.4 s (3.65 s) · clip 3 s · vitesse x0.83
+    « sors-en plusieurs bonnes cuillerées et étale-les sur tes cheveux secs. »
+06. B06 · VO 12.4 → 14.9 s (2.49 s) · clip 3 s · vitesse x1.22
     « Ajoute quelques gouttes d’huile essentielle d’arbre à thé. »
-07. B07 · VO 14.1 → 18.2 s (4.16 s) · clip 4 s · vitesse x0.97
-    « Elle tue les œufs qu’ils ont déjà pondus sur tes cheveux... / pour qu’ils ne reviennent pas. »
-08. B08 · VO 18.2 → 21.4 s (3.16 s) · clip 3 s · vitesse x0.96
-    « Fais aussi pénétrer le mélange des racines jusqu’aux pointes. »
-09. B09 · VO 21.4 → 23.6 s (2.16 s) · clip 3 s · vitesse x1.41
+07. B07 · VO 14.9 → 20.4 s (5.51 s) · clip 4 s · vitesse x0.73
+    « Elle s’attaque aussi à une partie des œufs déjà pondus sur tes cheveux... / pour limiter les nouvelles éclosions. »
+08. B08 · VO 20.4 → 23.5 s (3.08 s) · clip 3 s · vitesse x0.99
+    « Fais bien pénétrer le mélange des racines jusqu’aux pointes. »
+09. B09 · VO 23.5 → 25.7 s (2.18 s) · clip 3 s · vitesse x1.40
     « L’huile de coco enrobe chaque parasite »
-10. B10 · VO 23.6 → 26.3 s (2.76 s) · clip 3 s · vitesse x1.10
-    « et l’étouffe, pour qu’il ne puisse plus respirer ! »
-11. B11 · VO 26.3 → 28.9 s (2.54 s) · clip 3 s · vitesse x1.20
-    « Laisse poser toute la nuit, puis rince le matin. »
-12. B12a · VO 28.9 → 30.8 s (1.96 s) · clip 3 s · vitesse x1.55
-    « Tout ce qui vivait sur ton cuir chevelu repart mort au lavage. »
-13. B12b · VO 30.8 → 32.8 s (1.93 s) · clip 3 s · vitesse x1.58
-    « Tout ce qui vivait sur ton cuir chevelu repart mort au lavage. »
-14. B13 · VO 32.8 → 34.6 s (1.83 s) · clip 3 s · vitesse x1.66
-    « Mais si les démangeaisons reviennent... »
-15. B14 · VO 34.6 → 37.0 s (2.36 s) · clip 3 s · vitesse x1.29
-    « ces parasites ne sont qu’une partie du problème. »
-16. B15 · VO 37.0 → 39.2 s (2.25 s) · clip 3 s · vitesse x1.35
-    « Ton cuir chevelu a besoin d’être apaisé, »
-17. B16a · VO 39.2 → 40.9 s (1.73 s) · clip 3 s · vitesse x1.76
+10. B10 · VO 25.7 → 27.0 s (1.35 s) · clip 3 s · vitesse x2.25
+    « et l’étouffe peu à peu ! »
+11. B11 · VO 27.0 → 29.2 s (2.19 s) · clip 3 s · vitesse x1.39
+    « Laisse poser toute la nuit sous une serviette, »
+12. B12a · VO 29.2 → 31.8 s (2.62 s) · clip 3 s · vitesse x1.16
+    « puis passe un peigne fin le matin avant de rincer. »
+13. B12b · VO 31.8 → 36.3 s (4.46 s) · clip 3 s · vitesse x0.68
+    « Les parasites et leurs œufs partent avec le peigne. / Et refais-le une semaine plus tard. »
+14. B13 · VO 36.3 → 38.3 s (1.96 s) · clip 3 s · vitesse x1.55
+    « Mais si les démangeaisons persistent... »
+15. B14 · VO 38.3 → 41.2 s (2.98 s) · clip 3 s · vitesse x1.02
+    « ces parasites ne sont peut-être qu’une partie du problème. »
+16. B15 · VO 41.2 → 43.8 s (2.57 s) · clip 3 s · vitesse x1.18
+    « Ton cuir chevelu a sans doute besoin d’être apaisé, »
+17. B16a · VO 43.8 → 45.5 s (1.67 s) · clip 3 s · vitesse x1.82
     « et il existe des recettes simples, à base d’ingrédients naturels, pour en prendre soin. »
-18. B16b · VO 40.9 → 43.6 s (2.65 s) · clip 3 s · vitesse x1.15
+18. B16b · VO 45.5 → 48.0 s (2.52 s) · clip 3 s · vitesse x1.21
     « et il existe des recettes simples, à base d’ingrédients naturels, pour en prendre soin. »
-19. B17 · VO 43.6 → 45.4 s (1.77 s) · clip 3 s · vitesse x1.72
+19. B17 · VO 48.0 → 49.9 s (1.91 s) · clip 3 s · vitesse x1.59
     « J’ai réuni les miennes dans un guide. »
-20. B18 · VO 45.4 → 49.2 s (3.89 s) · clip 4 s · vitesse x1.04
+20. B18 · VO 49.9 → 53.4 s (3.48 s) · clip 4 s · vitesse x1.16
     « Commente RECETTES, / et je t’enverrai gratuitement mon guide en message privé ! »
-21. B19 · VO 49.2 → 52.2 s (3.0 s) · clip 3 s · vitesse x1.01
+21. B19 · VO 53.4 → 56.4 s (3.0 s) · clip 3 s · vitesse x1.01
     « (pas de VO, outro pour la caption) »

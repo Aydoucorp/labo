@@ -1,3 +1,1 @@
-{"brand": "Les cheveux de Claire", "recipe": "speedy", "lang": "fr", "vo": "VO.mp3", "script": "SCRIPT-FR.txt", "product_ref": null,
- "image": {"model": "gpt-image-2", "resolution": "1K"},
- "video": {"provider": "kie", "model": "kling-3.0/video", "mode": "std"}}
+{"brand": "Les cheveux de Claire", "recipe": "speedy", "lang": "fr", "vo": "VO-v2.mp3", "script": "SCRIPT-FR-v2.txt", "product_ref": null, "image": {"model": "gpt-image-2", "resolution": "1K"}, "video": {"provider": "kie", "model": "kling-3.0/video", "mode": "std"}}

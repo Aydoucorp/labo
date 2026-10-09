@@ -37,3 +37,10 @@ Le Brand DNA interdit les allégations santé et demande de renvoyer vers un pro
 - Clips générés : 21/21 du premier coup (720x1280, 24 fps, 3 ou 4 s). Coût réel : setup 12 cr + stills 126 cr + reprises 18 cr + clips ~910 cr.
 - Calage : `make_delivery.py` → `EXPORTS/MONTAGE/` (clips recalés à la durée de chaque phrase, 1080x1920 30 fps, `FICHE-MONTAGE.txt`, `APERCU-recale-avec-VO.mp4` 52,3 s dont 3 s d'outro muette ; `APERCU-leger.mp4` 720p pour l'envoi).
 - Musique : « Hide and Sneak » (The Fly Guy Five), fournie par l'utilisateur (`audio/musique-hide-and-sneak.mp3`, -12,0 LUFS). VO mesurée à -19,2 LUFS ; musique posée 18 dB sous la VO (gain -25,2 dB), fondu d'entrée 0,3 s, fondu de sortie 2 s sur l'outro (50,3 → 52,3 s). Mix puis `finaliser.sh` (loudnorm -14 LUFS, pic -1,5 dBFS) → `retenues/claire-parasites-cuir-chevelu-zack-d-v1.mp4` (1080x1920, 52,3 s).
+
+## Version 2 (2026-10-09) : script corrigé
+- Script vérifié sur sources web (`verification-script.md`), corrigé sans changer la structure : `script-source-v2.txt`, découpé en 22 lignes `SCRIPT-FR-v2.txt`.
+- Nouvelle voix off `VO-v2.mp3` (ElevenLabs Elise, 53,39 s). Calage MMS : `mots_mms_v2.json` (169 mots, 0 non aligné), `shots_timing_v2.json`. Scores faibles mais position cohérente : « œufs » (16,74 s et 32,96 s), « un » (29,60 s).
+- Les 21 clips existants sont recalés sur la v2 (`jobs/legs.json` ; v1 gardée dans `jobs/legs_v1.json`, `run_v1.json`, `EXPORTS/MONTAGE-v1/`). B12b couvre les lignes 14 et 15 (4,46 s, ralenti x0,68).
+- Musique : demande de ne pas la démarrer au début → départ à 15,53 s du morceau (temps fort où le morceau se densifie, tempo 143,5 bpm). VO v2 à -19,5 LUFS, musique à -11,8 LUFS depuis ce point, gain -25,7 dB (18 dB sous la VO), fondus 0,4 s / 2 s, loudnorm -14 LUFS.
+- Version provisoire : `retenues/claire-parasites-cuir-chevelu-zack-d-v2-provisoire.mp4` (56,4 s). Plans qui ne collent plus au texte : B12a (rinçage sous l'eau sur « passe un peigne fin ») et B12b (l'eau emporte les parasites sur « partent avec le peigne »).
