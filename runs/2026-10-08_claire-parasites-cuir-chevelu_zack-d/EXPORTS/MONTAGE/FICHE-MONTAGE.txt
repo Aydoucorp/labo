@@ -26,7 +26,7 @@ Chaque clip couvre la phrase indiquée : poser à VO-début, finir à VO-fin. cl
     « Laisse poser toute la nuit sous une serviette, »
 12. B12a · VO 29.2 → 31.8 s (2.62 s) · clip 3 s · vitesse x1.16
     « puis passe un peigne fin le matin avant de rincer. »
-13. B12b · VO 31.8 → 36.3 s (4.46 s) · clip 3 s · vitesse x0.68
+13. B12b · VO 31.8 → 36.3 s (4.46 s) · clip 5 s · vitesse x1.13
     « Les parasites et leurs œufs partent avec le peigne. / Et refais-le une semaine plus tard. »
 14. B13 · VO 36.3 → 38.3 s (1.96 s) · clip 3 s · vitesse x1.55
     « Mais si les démangeaisons persistent... »
