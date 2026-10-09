@@ -1,0 +1,47 @@
+BOOK PAGE DESIGN, art direction locked (identical on every page of this 12-page ebook, as if made by the same hand):
+- Format: portrait 3:4 digital book page, read on a phone. Generous margins, airy layout, clear hierarchy, large readable text.
+- Background: warm cream #FAF6F3 on the whole page. Cards and separators: darker cream #EFE7E0 with softly rounded corners.
+- Colors, exact hex only: terracotta #A8553A (titles, numbers, key accents), light terracotta #C9805F (badges, small flat shapes), plum #7A4351 (secondary accents, strong contrast), ink #2E2A26 (all body text). Silver #B4ADA4 and sage #8C9B86 are decorative only (leaves, thin lines) and never carry text.
+- Lettering: titles in an elegant soft high-contrast serif with warm rounded details, terracotta or plum. Body text in a clean humanist sans-serif, ink color. The handwritten signature in a relaxed natural handwriting, terracotta. These are style instructions only, never written on the page.
+- Brand mark: at the top center of every page except the cover, the small text "Les cheveux de Claire" in the title serif, terracotta, with a tiny sage rosemary sprig to its left. Strictly identical on every page.
+- Page number: bottom center, small ink digit alone, no word, no brackets, no dash.
+- Illustration style: soft flat vector illustration with a subtle paper grain, rounded shapes, gentle shadows, botanical details (rosemary sprigs in sage), amber glass dropper bottle, hands drawn simply. Whenever hair is drawn, it is always the same: wavy salt-and-pepper hair, dark brown base with irregular white strands, loose and natural (never a bun, never uniform brown). Same treatment and palette on every page. No photography, no 3D.
+- Mood: warm, calm, reassuring, a friend who looked into it. Never clinical, never an advertising look.
+
+STRICT RULES:
+1. All text is in French with correct accents. Do not translate any word. Copy every quoted text exactly, character for character.
+2. Show ONLY the quoted texts listed below. Add no other text, slogan, tip, badge, label or watermark.
+3. Show no organizational element: no page number in brackets, no technical title, no section label, no layout note.
+4. Never write the name of a font.
+5. Draw no human face, no head, no person seen from the front. Hands and the top of a head of hair seen from above are allowed.
+6. Show the brand name exactly "Les cheveux de Claire" and the signature exactly "Claire", never translated, shortened or altered.
+7. No third-party commercial brand, no logo on bottles (plain amber bottles, plain labels).
+8. No invented number or price: only the numbers written in the quoted texts.
+9. No em dash, no en dash, no visible slash, no markdown symbol (no hash, no asterisk).
+10. The handwritten signature "Claire" appears only where it is listed in the page content, nowhere else.
+
+PAGE CONTENT (Ce qui se passe):
+Explanation page, calm and reassuring.
+- Title, terracotta: "Ce qui se passe sous tes cheveux"
+- Text, ink: "Tu es loin d'être la seule : plus d'une femme sur deux voit ses cheveux s'affiner autour de 50 ans."
+- Three small darker cream cards stacked, each with a small terracotta icon (a falling leaf, a shrinking circle, a thin layer):
+  Card 1 title, plum: "Les œstrogènes baissent" text, ink: "Tes cheveux quittent plus tôt leur phase de pousse."
+  Card 2 title, plum: "Les androgènes prennent plus de place" text, ink: "Ils font rétrécir peu à peu les racines, et le cheveu pousse plus fin."
+  Card 3 title, plum: "Le collagène diminue" text, ink: "Ton cuir chevelu s'amincit et soutient moins bien tes racines."
+- Highlighted card, plum background #7A4351 with cream text, large serif: "Tes cheveux ont changé. Toi aussi. Ce n'est pas un problème à régler, c'est une nouvelle façon de faire."
+Page number at the bottom center: "3"
+No handwritten signature anywhere on this page: the word "Claire" appears only inside the brand name.
+
+FINAL REMINDER, apply strictly:
+STRICT RULES:
+1. All text is in French with correct accents. Do not translate any word. Copy every quoted text exactly, character for character.
+2. Show ONLY the quoted texts listed below. Add no other text, slogan, tip, badge, label or watermark.
+3. Show no organizational element: no page number in brackets, no technical title, no section label, no layout note.
+4. Never write the name of a font.
+5. Draw no human face, no head, no person seen from the front. Hands and the top of a head of hair seen from above are allowed.
+6. Show the brand name exactly "Les cheveux de Claire" and the signature exactly "Claire", never translated, shortened or altered.
+7. No third-party commercial brand, no logo on bottles (plain amber bottles, plain labels).
+8. No invented number or price: only the numbers written in the quoted texts.
+9. No em dash, no en dash, no visible slash, no markdown symbol (no hash, no asterisk).
+10. The handwritten signature "Claire" appears only where it is listed in the page content, nowhere else.
+Same art direction, colors, lettering, brand mark position and page number position as every other page of the book.
