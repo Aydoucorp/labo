@@ -141,7 +141,7 @@
   "lines": [
    12
   ],
-  "prompt": "Camera motion: Camera slowly pushes in, then rises to eye level, ending on the medium shot of the end frame. Subject motion: She sleeps peacefully; the night blue brightens into morning light; she is now standing, rinsing her hair under a clear stream of water. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+  "prompt": "Camera motion: Camera slowly pushes in, then rises to eye level, ending on the medium shot of the end frame. Subject motion: She sleeps peacefully; the night blue brightens into morning light; she is now standing, her hair still glossy with oil, and starts pulling a fine metal comb through it. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
  },
  {
   "name": "B12a",
@@ -154,7 +154,7 @@
   "lines": [
    13
   ],
-  "prompt": "Camera motion: Camera pushes forward fast into her wet hair and dives down to the scalp surface, ending on the macro of the end frame. Subject motion: Clear water runs through her hair, rinsing it. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+  "prompt": "Camera motion: Camera follows the comb and pushes forward fast into her hair, diving between the strands, ending on the extreme macro of the end frame. Subject motion: She pulls the fine metal comb slowly through her oiled hair from the roots to the tips. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
  },
  {
   "name": "B12b",
@@ -163,12 +163,12 @@
   "vo_start": 31.84,
   "vo_end": 36.3,
   "target_s": 4.46,
-  "duration": "3",
+  "duration": "5",
   "lines": [
    14,
    15
   ],
-  "prompt": "Camera motion: Camera pulls back fast out of the hair and drops to ground level, ending on the full body shot of the end frame. Subject motion: The water stream carries the grey motionless bugs and empty eggshells away out of the bottom of the frame, the scalp left clean. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
+  "prompt": "Camera motion: Camera holds on the comb teeth, then pulls back fast out of the hair and drops to ground level, ending on the full body shot of the end frame. Subject motion: The comb teeth slide down the strands and drag the grey motionless parasites and the empty eggshells away out of frame, leaving the strands clean and shiny. One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
  },
  {
   "name": "B13",

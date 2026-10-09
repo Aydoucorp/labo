@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Écrit jobs/legs.json (21 clips Kling 3.0) à partir de storyboard.json : prompt = Camera motion + Subject motion + queue verbatim du skill."""
+"""(v1 : timings de storyboard.json. En v2, jobs/legs.json est recalé sur VO-v2 et B11, B12a, B12b ont ces nouveaux prompts, B12b en 5 s.)
+Écrit jobs/legs.json (21 clips Kling 3.0) à partir de storyboard.json : prompt = Camera motion + Subject motion + queue verbatim du skill."""
 import json, os
 RUN = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 Q = " One continuous camera move, smooth and physical, no cuts. Pixar-style stylized 3D in a bright cyan-blue grid world. No captions. No text."
@@ -15,9 +16,9 @@ P = {
 "B08": ("Camera pushes forward fast into her hair at the roots and dives along one glossy strand, ending on the macro of the end frame.", "Her fingertips massage the oil from the roots to the tips, the hair turns glossy."),
 "B09": ("Camera orbits a quarter turn around the hair strand with a slow push-in, ending on the framing of the end frame.", "The thick wave of white oil flows down the strand and wraps the tiny bug completely inside a round translucent bubble."),
 "B10": ("Camera pulls back fast out of the hair and rises to a high wide view while the world darkens to a calm night blue, ending on the wide shot of the end frame.", "Inside the oil bubble the tiny bug waves its legs, slows down, stops and turns grey, cartoon style, no gore."),
-"B11": ("Camera slowly pushes in, then rises to eye level, ending on the medium shot of the end frame.", "She sleeps peacefully; the night blue brightens into morning light; she is now standing, rinsing her hair under a clear stream of water."),
-"B12a": ("Camera pushes forward fast into her wet hair and dives down to the scalp surface, ending on the macro of the end frame.", "Clear water runs through her hair, rinsing it."),
-"B12b": ("Camera pulls back fast out of the hair and drops to ground level, ending on the full body shot of the end frame.", "The water stream carries the grey motionless bugs and empty eggshells away out of the bottom of the frame, the scalp left clean."),
+"B11": ("Camera slowly pushes in, then rises to eye level, ending on the medium shot of the end frame.", "She sleeps peacefully; the night blue brightens into morning light; she is now standing, her hair still glossy with oil, and starts pulling a fine metal comb through it."),
+"B12a": ("Camera follows the comb and pushes forward fast into her hair, diving between the strands, ending on the extreme macro of the end frame.", "She pulls the fine metal comb slowly through her oiled hair from the roots to the tips."),
+"B12b": ("Camera holds on the comb teeth, then pulls back fast out of the hair and drops to ground level, ending on the full body shot of the end frame.", "The comb teeth slide down the strands and drag the grey motionless parasites and the empty eggshells away out of frame, leaving the strands clean and shiny."),
 "B13": ("Camera pushes forward fast into the red glow on her scalp and dives through the skin, ending on the cross-section cube of the end frame.", "She scratches the top of her head, puzzled; a faint red glow pulses on her scalp."),
 "B14": ("Camera orbits half a turn around the cross-section cube to the opposite three-quarter angle, ending on the framing of the end frame.", "The red dry cracked skin surface sheds a few pale flakes, then a soft sage-green soothing liquid starts to flow over it."),
 "B15": ("Camera pulls back fast and rises, ending on the wide prop island of the end frame.", "The sage-green wave covers the whole surface and the red fades into calm healthy pink."),
