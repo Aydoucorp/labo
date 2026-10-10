@@ -5,3 +5,4 @@ runs/*/montage/out/
 runs/*/montage/public/**/*.mp4
 runs/*/montage/controle*/
 node_modules
+__pycache__/
