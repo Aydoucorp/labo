@@ -28,6 +28,13 @@ Date : 2026-10-09
 - « details in caption » : détails en description
 - Description d'origine : shampoing clarifiant/détox, masque hydratant profond, masque à l'huile cuir chevelu (aucune marque citée, CTA « TRANSFORM »).
 
+## v2 : textes FR comme l'original (`montage_texte.py`, demande utilisateur)
+
+- Positions et images relevées par différence original / nettoyé : hook 4 lignes (images 0 à 160, 1re ligne centrée à y = 650 px source), « ÇA 🥹🙌🏼🤭 » (161 à 338, y = 697), « détails en description » (293 à 338, y = 861).
+- Style comme l'original : TikTok Sans Bold blanc centré, ombre noire légère (décalage 2/3 px, flou 3 px), 62 px / interligne 66 px pour le hook et « ÇA », 52 px en faux italique (cisaillement 0,2) pour « détails en description », émojis Noto 60 px.
+- Textes : « il y a TROIS / produits qui m'ont aidée / à transformer mes / cheveux, de ÇA à... », « ÇA 🥹🙌🏼🤭 », « détails en description ».
+
 ## Sorties
 
-- `sorties/claire-trois-produits-sans-texte_v1.mp4` (en attente de validation), `sorties/planche-contact_v1.jpg`
+- `sorties/claire-trois-produits-sans-texte_v1.mp4` (sans texte), `sorties/planche-contact_v1.jpg`
+- `sorties/claire-trois-produits-fr_v2.mp4` (textes FR comme l'original, en attente de validation), `sorties/planche-contact_v2.jpg`
