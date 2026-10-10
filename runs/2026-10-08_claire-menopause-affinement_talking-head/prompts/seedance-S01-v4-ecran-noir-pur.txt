@@ -1,0 +1,6 @@
+Locked medium close-up, 1:1 photorealistic podcast shot, eye level, square framing identical to @Image1 (head and shoulders, microphone in front of the lower chest). @Image1 is the exact first frame and the only reference for identity, wardrobe, microphone, background and lighting.
+
+LIP SYNC: @Video1 is a black screen carrying her recorded voice. Ignore its picture completely. Its soundtrack is her dialogue, already timed: she speaks exactly what @Video1 says, exactly when @Video1 says it, with the same pace and the same pauses. Her lips follow the voice of @Video1 frame by frame, from its first word to its last, and her mouth stays clearly visible. Her voice is the voice of @Video1.
+PERFORMANCE: Simple, natural expression. Keep her head almost still so the lips stay readable. Natural blinking and breathing. Hands stay still below the microphone and never cover the mouth.
+AUDIO: Only her voice from @Video1. No music, no sound effects, no other voice, no added words.
+CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @Image1 for the whole shot. Locked camera: never moves, never zooms, never cuts. No text, no subtitles, no captions, no logo.
