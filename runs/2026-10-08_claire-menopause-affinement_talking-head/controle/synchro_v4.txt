@@ -1,0 +1,48 @@
+=== avatar/S01_v3.mp4
+2                    0.00    0.00  +0.00
+femmes               0.26    0.38  +0.12
+sur                  0.44    0.58  +0.14
+3                    0.64    0.78  +0.14
+constatent           0.86    1.06  +0.20
+un                   1.40    1.80  +0.40
+affinement           1.48    1.90  +0.42
+de                   1.86    2.36  +0.50
+leur                 2.02    2.54  +0.52
+cheveux              2.14    2.68  +0.54
+à                    2.52    3.16  +0.64
+la                   2.58    3.28  +0.70
+menopause.           2.64       ?
+Pourquoi             3.40    4.24  +0.84
+écart moyen +0.40 s, max 0.84 s, mots appariés 13/14
+=== avatar/S01_v3_ecran-noir.mp4
+2                    0.00    0.00  +0.00
+femmes               0.26    0.26  +0.00
+sur                  0.44    0.44  +0.00
+3                    0.64    0.64  +0.00
+constatent           0.86    0.88  +0.02
+un                   1.40    1.58  +0.18
+affinement           1.48       ?
+de                   1.86    2.36  +0.50
+leur                 2.02    2.50  +0.48
+cheveux              2.14    2.62  +0.48
+à                    2.52    3.12  +0.60
+la                   2.58    3.28  +0.70
+menopause.           2.64    3.34  +0.70
+Pourquoi             3.40    4.22  +0.82
+écart moyen +0.34 s, max 0.82 s, mots appariés 13/14
+=== avatar/S01_v4_ecran-noir-pur_480p.mp4
+2                    0.00    0.00  +0.00
+femmes               0.26    0.24  -0.02
+sur                  0.44    0.44  +0.00
+3                    0.64    0.64  +0.00
+constatent           0.86       ?
+un                   1.40    1.42  +0.02
+affinement           1.48       ?
+de                   1.86    1.88  +0.02
+leur                 2.02    2.02  +0.00
+cheveux              2.14    2.14  +0.00
+à                    2.52    2.52  +0.00
+la                   2.58    2.60  +0.02
+menopause.           2.64       ?
+Pourquoi             3.40    3.42  +0.02
+écart moyen +0.01 s, max 0.02 s, mots appariés 11/14

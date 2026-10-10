@@ -46,3 +46,11 @@ O1 : GPT Image 2 sur fond vert uni (#00B140), puis détourage par clé de couleu
 - Recherche web (2026-10-08) et 3 essais S01 (`controle/synchro_v3.txt`). Technique retenue par l'utilisateur : lier explicitement l'audio à la parole (« @Audio1 is her dialogue voice […] sync her lip movement to @Audio1 »), ajoutée au gabarit 2 du skill ; le reste suit le skill.
 
 Montage : rendu Remotion local (aucun crédit). Voir `montage.md`.
+
+## Test lip sync « écran noir, sans script dans le prompt » (2026-10-10)
+- Origine : astuce d'un créateur (X, 9 octobre) : voix ElevenLabs envoyée à Seedance en vidéo écran noir plutôt qu'en MP3, sans laisser Seedance dire le script.
+- Différence avec l'essai `S01_v3_ecran-noir` du 8 octobre : prompt sans le texte à dire ni consignes de rythme ou de pauses (`prompts/seedance-S01-v4-ecran-noir-pur.txt`).
+
+| Clip | Réglages | taskId | État | Fichier | Verdict | Coût |
+|---|---|---|---|---|---|---|
+| Clip avatar S01 | S01_v4_ecran-noir-pur_480p | bytedance/seedance-2-5 480p, 5 s, 1:1, generate_audio, depart_1x1.png, @Video1 = audio_avatar/S01_ecran-noir.mp4, prompt sans script | voir `avatar/log_S01_v4_ecran-noir-pur_480p.json` | success | `avatar/S01_v4_ecran-noir-pur_480p.mp4` | test : écart moyen 0,01 s, max 0,02 s (11 mots appariés sur 14) contre 0,40 / 0,84 s avec le MP3 et 0,34 / 0,82 s pour l'écran noir avec script (`controle/synchro_v4.txt`). Voix Seedance déformée (« constaignent », « affignon ») et « Pourquoi ? » répété dans la dernière seconde : on garde la voix ElevenLabs et on coupe le clip à la durée de la voix (4,18 s). | 153 cr |
