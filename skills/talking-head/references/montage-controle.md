@@ -11,25 +11,23 @@ Le montage est fait par code : FFmpeg prépare et contrôle les médias, Remotio
 5. Une image fixe pour vérifier un moment : `npx remotion still src/index.js Main out/t.png --props=montage.json --frame=<image>`.
 6. Si Chromium n'est pas trouvé, passe `--browser-executable=<chemin>` ; le script cherche d'abord `/opt/pw-browsers/`.
 
-## Voix hybride (recette validée)
+## Voix : la voix off d'origine partout (méthode écran noir, règle de l'utilisateur depuis le 2026-10-10)
 
-Les clips avatar portent leur propre voix (générée par Seedance, lèvres synchrones). La piste voix du montage est donc reconstruite :
+Les clips avatar sont générés avec l'extrait de voix off en vidéo écran noir (`@Video1`) et un prompt sans le texte : leurs lèvres suivent la voix off d'origine (écart ≤ 0,02 s). La piste voix du montage est donc **la voix off ElevenLabs d'origine, entière**, jamais régénérée ni accélérée :
 
-1. Pour chaque clip avatar retenu : bornes de parole mesurées sur son son (`ffmpeg -af silencedetect=n=-40dB:d=0.15`, plus Whisper pour repérer une respiration prise pour un mot), marge de 0,12 s avant et 0,16 s après.
-2. Pour chaque passage illustré : extrait de la voix off d'origine coupé dans ses silences (`mots.json`).
-3. Morceaux mis bout à bout dans l'ordre du script, chacun ramené à -18 LUFS, fondus de 20 à 30 ms ; la piste obtenue devient `audio` dans `montage.json` et tous les temps sont recalculés sur elle (clip avatar : `clipStart` = début du morceau moins l'entrée coupée dans le clip).
-4. Sous-titres : texte du script, temps de l'audio (Whisper sur les clips avatar) ; une nouvelle ligne à chaque morceau (`br: true` sur le premier mot) pour qu'aucune ligne n'enjambe deux plans.
-5. Contrôle : Whisper sur la piste entière (tout le script, dans l'ordre, sans doublon, aucune pause de plus de 0,8 s).
+1. `audio` de `montage.json` = `voix.mp3` d'origine. Les temps du montage sont ceux du découpage (`mots.json`), sans recalcul.
+2. Chaque clip avatar est posé à son `clipStart` (donné par `couper_audio.py`), **son coupé**, coupé à la durée de son extrait (les secondes que Seedance ajoute à la fin ne sont jamais montrées).
+3. Contrôle de synchro avant le rendu : `python3 scripts/comparer_synchro.py avatar/<id>.mp4 audio_avatar/<id>.wav` pour chaque clip (écart max ≤ 0,1 s attendu). Au-delà : relancer le clip, ou le recaler (section « Secours »).
+4. Sous-titres : texte du script, temps de `mots.json` ; une nouvelle ligne à chaque plan (`br: true` sur le premier mot) pour qu'aucune ligne n'enjambe deux plans.
+5. Contrôle final : Whisper sur la piste entière (tout le script, dans l'ordre, sans doublon).
 
-Exemple complet : `runs/2026-09-28_claire-cheveux-gris-carences_talking-head/montage/construire_montage.py`.
+## Secours : recalage mot par mot
 
-## Variante : voix off d'origine partout (clips recalés)
-
-Pour garder une voix parfaitement uniforme : son Seedance coupé, voix off ElevenLabs sur toute la vidéo, et chaque clip avatar recalé phrase par phrase sur la voix off (repères = début de chaque phrase dans le clip et dans la voix off ; entre deux repères, lecture légèrement accélérée ou ralentie, image par image). Les temps du montage sont alors ceux du découpage d'origine. Exemple : `construire_montage.py --voix-off` dans le run du 2026-09-28. Limite : la synchro des lèvres est calée par phrase, pas par syllabe ; éviter les vitesses hors de 0,7 à 1,3.
+Si un clip garde un décalage visible (ancien clip généré avec `@Audio1`, ou clip raté qu'on ne veut pas relancer) : recalage de l'image mot par mot sur la voix off (alignement de séquences tolérant aux mots déformés, vitesse d'image bornée entre 0,65 et 1,6, son du clip remplacé par la voix off). Exemple : `runs/2026-10-08_claire-menopause-affinement_talking-head/montage/recaler_mots.py`. Ancienne recette « voix hybride » (voix Seedance gardée sur les passages avatar) : `runs/2026-09-28_claire-cheveux-gris-carences_talking-head/montage/construire_montage.py`, à ne plus utiliser par défaut.
 
 ## Règles de calage
 
-- La piste voix du montage (`audio`, voix hybride) est posée à 0 s. Tous les temps de `montage.json` sont des temps absolus de cette voix, en secondes.
+- La piste voix du montage (`audio`, voix off d'origine) est posée à 0 s. Tous les temps de `montage.json` sont des temps absolus de cette voix, en secondes.
 - Chaque plan est converti en images à partir de ses temps absolus (pas de cumul d'arrondis). Les plans de base (`segments`) doivent se suivre sans trou ni chevauchement, de 0 à `durationSec`.
 - Clip avatar : `clipStart` = temps absolu de l'image 0 du clip, c'est-à-dire le `clipStart` écrit par `couper_audio.py` (début du passage moins la marge). Le gabarit saute automatiquement le bon nombre d'images pour que les lèvres tombent sur la voix. Le son des clips est coupé.
 - Un même clip avatar peut servir à plusieurs plans (changement de zoom A/B/C au milieu d'un passage) : même `src`, même `clipStart`, `start` différent.

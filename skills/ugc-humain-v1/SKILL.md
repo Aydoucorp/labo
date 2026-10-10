@@ -15,6 +15,19 @@ Construis le concept pour ce nouveau brief : situation, casting, décor, dialogu
 
 Conserve le casting, le script et les images déjà validés. Une référence de jeu donne un rythme et des gestes ; elle ne transfère pas automatiquement l'identité, la voix ou le texte. Utilise un casting fictif ou une identité dont l'utilisation est autorisée. Un changement de coiffure n'est pas une garantie d'anonymisation.
 
+
+## Méthode du studio pour les paroles avec Seedance 2.5 (règle de l'utilisateur, 2026-10-10, prime sur le reste du skill)
+
+Toute vidéo dialoguée générée avec Seedance 2.5 suit cette méthode, validée sur le talking head n°2 (écart lèvres / voix ≤ 0,02 s, contre 0,4 à 0,9 s avant) :
+
+1. **Voix ElevenLabs d'abord** : le script approuvé est enregistré par l'utilisateur (ElevenLabs), avec rythme et émotions. C'est la seule voix de la vidéo.
+2. **Voix en vidéo écran noir** : l'audio est transformé en MP4 écran noir et envoyé en `@Video1` (`reference_video_urls`). Script du studio : `python3 scripts/kie_seedance.py --voix-ecran-noir voix.wav --image <casting> [<produit>] --generate-audio --prompt-file p.txt --out clip.mp4` (il fabrique l'écran noir et règle la durée sur la voix).
+3. **Le prompt ne contient pas le texte à dire**, ni consigne de débit ou de pause : il dit que `@Video1` est la voix du personnage, déjà minutée, que ses lèvres la suivent image par image et que l'image de `@Video1` est à ignorer. La timeline donne les actions, les plans et les états du produit par intervalles de temps mesurés sur la voix, sans citer les phrases (gabarit « Vidéo dialoguée, méthode écran noir » de `references/prompts.md`).
+4. **Durée du clip = durée de la voix** (arrondie à la seconde supérieure) : une seconde de trop et Seedance invente des mots.
+5. **Au montage** : son Seedance coupé, voix ElevenLabs d'origine posée telle quelle, clip coupé à la durée de la voix. Contrôle de l'écart avec `skills/talking-head/scripts/comparer_synchro.py <clip.mp4> <voix.wav>` (≤ 0,1 s attendu).
+6. **Coût** (KIE facture la vidéo de référence en plus du clip, au tarif « avec vidéo ») : (durée de la voix + durée du clip) x 17 cr/s en 480p, 38 cr/s en 720p, 95 cr/s en 1080p. La résolution se demande à l'utilisateur.
+7. Première vidéo avec inserts produit ou coupes : faire d'abord un clip test court, la méthode ayant été validée sur un plan fixe face caméra.
+
 ## Livrable attendu
 
 Pour une demande de prompts, livre le concept en français, la table des fichiers à joindre, le prompt photo si nécessaire, puis le prompt vidéo complet et les réglages cibles. Utilise les gabarits de [prompts](references/prompts.md), en remplissant tous les champs et en retirant les blocs inutiles. Adapte la langue technique à l'outil ; conserve la langue parlée demandée. Ne laisse pas « comme dans l'exemple » ni de référence absente. Si un élément décisif manque, annonce un brouillon avec la donnée à obtenir.
@@ -48,7 +61,7 @@ Assemble FORMAT → RÉFÉRENCES → JEU → SCÈNE/CAMÉRA → TIMELINE → CON
 
 Pour une ouverture où la personne installe son téléphone, nous voyons à travers cet unique appareil : petit déplacement du cadre, contact avec un support hors champ, retrait de la main, puis cadre stabilisé. Aucun deuxième téléphone visible, aucune vue extérieure de la personne qui pose le téléphone. Si cet effet n'est pas demandé, garde la caméra fixe dès le début.
 
-Une seule voix originale porte les paroles face caméra et les paroles sur insert. Les lèvres restent synchronisées lorsque la bouche est visible. Pour une manipulation à deux mains, pose d'abord l'objet encombrant. Un produit ne change pas de main ou de forme à la coupe. Si l'application d'une matière fait partie du brief, décompose sa trajectoire réelle et n'invente pas de transformation ou d'efficacité.
+Une seule voix originale porte les paroles face caméra et les paroles sur insert : la voix ElevenLabs envoyée en vidéo écran noir (méthode du studio ci-dessus). Les lèvres restent synchronisées lorsque la bouche est visible. Pour une manipulation à deux mains, pose d'abord l'objet encombrant. Un produit ne change pas de main ou de forme à la coupe. Si l'application d'une matière fait partie du brief, décompose sa trajectoire réelle et n'invente pas de transformation ou d'efficacité.
 
 Le nombre de coupes et les durées sont adaptés au nouveau brief. Un exemple de vingt secondes avec deux inserts ne fixe pas les limites du modèle. Mesure les coupes obtenues : le minutage écrit ne garantit pas leur position exacte.
 
@@ -64,7 +77,7 @@ Même identité et voix, peau naturelle, gestes réalisables, caméra conforme, 
 
 Le parcours de référence associe un générateur de portraits (par exemple Soul pour un nouveau casting ou un modèle d'édition tel que GPT Image pour une référence) à un générateur vidéo dialogué (par exemple Seedance, via une interface accessible). Ce sont des options : vérifie les modèles, durées, ratios, types de références, audio, extension et coûts actuels dans le service choisi. Aucun identifiant de modèle ni connecteur n'est présumé disponible. N'affirme pas qu'un modèle est le seul capable de réaliser le format.
 
-Les paroles de ces personnages sont normalement produites avec le clip dialogué. Ne colle pas une nouvelle voix sur des lèvres existantes sans resynchronisation. Si l'élève choisit une piste vocale externe, par exemple ElevenLabs : script approuvé → audio produit et mesuré → images/animation ou synchronisation compatibles → montage. Sans accès à l'audio, les durées restent provisoires. Lis [les règles de montage et de contrôle](references/montage-controle.md) au moment d'assembler les médias.
+Dans ce studio, les paroles suivent la méthode écran noir (section « Méthode du studio pour les paroles ») : script approuvé → voix ElevenLabs produite et mesurée → vidéo écran noir en `@Video1` + prompt sans le texte → clip Seedance son coupé → montage sur la voix d'origine. Ne colle jamais une voix sur des lèvres générées autrement sans resynchronisation. Sans accès à l'audio, les durées restent provisoires. Lis [les règles de montage et de contrôle](references/montage-controle.md) au moment d'assembler les médias.
 
 Avant soumission, contrôle la correspondance entre fichiers réellement joints et rôles du prompt. Un chemin local ou un mot « Image 1 » ne vaut pas un téléversement. Les dialogues minutés et les actions doivent tenir dans la durée réglée. Une estimation au comptage de mots ne remplace pas l'écoute ; raccourcis une proposition ou propose une durée adaptée. Pour un texte déjà validé, expose le conflit avant de le modifier.
 

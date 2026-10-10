@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Test de synchro : compare le temps de chaque mot dit par Seedance (son du clip) au même mot de la voix off (extrait envoyé en @Audio1).
+"""Test de synchro : compare le temps de chaque mot dit par Seedance (son du clip) au même mot de la voix off (extrait envoyé en vidéo écran noir @Video1).
 Si les écarts sont faibles (< 0,1 s), on peut couper le son Seedance et poser la voix off : les lèvres tombent juste.
 Usage : python3 comparer_synchro.py clip_seedance.mp4 extrait_voix_off.wav"""
 import sys, re

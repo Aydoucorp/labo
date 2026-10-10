@@ -22,40 +22,35 @@ Contradictions à corriger avant validation : avatar debout alors que la scène 
 
 ## 2. Scène vidéo de l'avatar (Seedance 2.5)
 
-Principe Hotline : la scène est générée à partir de l'image de départ, avec un modèle vidéo dialogué. **Recette validée (2026-09-28)** : Seedance génère lui-même la voix et les lèvres (`generate_audio: true`), en imitant la voix de l'extrait ElevenLabs fourni comme référence audio. Les lèvres sont alors naturellement synchrones ; aucun synchroniseur labial après coup (rendu jugé peu naturel).
+**Méthode du studio, règle de l'utilisateur (validée le 2026-10-10, à appliquer à chaque clip dialogué Seedance 2.5)** : la voix ElevenLabs de l'extrait est envoyée à Seedance **en vidéo écran noir** (`@Video1`), et le prompt **ne contient pas le texte à dire**. Seedance cale alors les lèvres sur la voix de la vidéo, au même moment. Mesure sur l'accroche du talking head n°2 (`scripts/comparer_synchro.py`) : écart moyen 0,01 s, max 0,02 s, contre 0,40 / 0,84 s avec la voix en référence audio et 0,34 / 0,82 s avec l'écran noir mais le script écrit dans le prompt. C'est le texte dans le prompt qui fait redire la phrase à Seedance à son propre rythme.
 
-Réglages : mode « référence multimodale » (Seedance 2.5 sur KIE n'accepte pas première image + audio ensemble) : `reference_image_urls` = [image de départ validée], `reference_audio_urls` = [extrait audio du clip, 2 à 30 s], `generate_audio: true`, même ratio que l'image, durée = durée de l'extrait arrondie à la seconde supérieure (4 à 30 s), caméra verrouillée. Script : `scripts/kie_seedance.py --generate-audio` (dossier `scripts/` du studio).
+Réglages : `reference_image_urls` = [image de départ validée] (`@Image1`), `reference_video_urls` = [vidéo écran noir portant l'extrait de voix] (`@Video1`), `generate_audio: true`, même ratio que l'image, durée = durée de l'extrait arrondie à la seconde supérieure (pas plus : une seconde en trop et Seedance ajoute des mots, ex. un 2e « Pourquoi ? »), caméra verrouillée. Script du studio : `scripts/kie_seedance.py --voix-ecran-noir audio_avatar/A01.wav --generate-audio` (il fabrique `A01_ecran-noir.mp4` et calcule la durée).
 
-**Lier explicitement l'audio à la parole (validé par l'utilisateur, 2026-10-08)** : ne jamais écrire `@Audio1` seul. Dire ce que l'audio contrôle et la règle de liaison : « @Audio1 is her dialogue voice […] sync her lip movement to @Audio1 […] keep the mouth clearly visible » (technique relevée dans les guides Seedance 2.0, ex. seedance2pro.net). Le reste du gabarit (texte exact, prononciation, émotion phrase par phrase, gestes datés) ne change pas.
+Au montage : **son Seedance coupé, voix ElevenLabs d'origine posée telle quelle** (la voix générée par Seedance déforme encore des mots, ses lèvres, elles, suivent la voix d'origine). Le clip est coupé à la durée de l'extrait.
 
-**Balises de référence obligatoires** : dans le prompt, chaque fichier joint est désigné par sa balise, dans l'ordre d'envoi : `@Image1` (première image de `reference_image_urls`), `@Audio1` (premier audio de `reference_audio_urls`), puis `@Image2`, `@Audio2`… Jamais « Image 1 » ou « Audio 1 » en texte libre : sans la balise, le modèle ne relie pas la consigne au fichier (cause du décalage lèvres / voix sur les premiers clips).
+Coût (KIE facture la vidéo de référence en plus du clip, au tarif « avec vidéo ») : (durée de l'extrait + durée du clip) x 17 cr/s en 480p, 38 cr/s en 720p, 95 cr/s en 1080p. Exemple : extrait de 5 s, clip de 5 s en 720p = 380 cr.
 
-Règles d'écriture de la parole :
-- Texte exact entre guillemets, **chiffres et symboles écrits en toutes lettres** (« trente pour cent », « B douze »).
-- **Prononciation** : pour chaque mot difficile ou mal prononcé au clip test, une ligne `Pronunciation:` (ex. « carences » = ka-RANSS, deux syllabes). Relancer uniquement le clip concerné.
-- **Émotion phrase par phrase** : ton, débit, mot sur lequel insister, pause, geste daté.
-- Quand l'extrait audio contient d'autres mots que ceux à dire (passage très court élargi à 4 s), ajouter « Only borrow the voice from @Audio1, not its words » ou fournir comme voix un autre extrait propre (ex. celui du clip A01).
+Règles d'écriture :
+- **Jamais le texte à dire** dans le prompt, ni sa transcription, ni consigne de débit, de pause ou d'articulation : la voix de `@Video1` décide de tout le rythme.
+- Balises obligatoires dans l'ordre d'envoi : `@Image1` (image de départ), `@Video1` (écran noir). Pas de `@Audio1`.
+- Dire que l'image de `@Video1` est à ignorer (sinon risque d'image assombrie) et que sa bande-son est la voix du personnage.
+- Le jeu reste permis : expression du visage accordée au ton de la voix, regard, geste simple (sans le dater sur un mot).
+- Quand l'extrait contient des mots d'autour (passage court allongé à 4 s), c'est sans conséquence : Seedance les articule aussi et le montage n'affiche que la partie utile.
 
 ```text
-Create a [DURATION]-second [RATIO] photorealistic podcast talking-head shot. One continuous locked-off shot, natural real-time speed, framing identical to @Image1 ([seated at the desk, waist up] / [square framing, head and shoulders]).
+Locked [medium shot, seated at the desk, waist up / medium close-up, head and shoulders], [RATIO] photorealistic podcast shot, eye level, framing identical to @Image1. @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing.
 
-REFERENCES: @Image1 is the exact first frame and the only reference for identity (face, eyes, hair, skin details), wardrobe, microphone, desk, background, lighting and framing. @Audio1 is HER/HIS dialogue voice, a clean recording of her/his own voice: sync her/his lip movement to @Audio1 syllable by syllable, from its first word to its last, and keep the mouth clearly visible. Reproduce exactly this voice (same timbre, pitch, accent, pace, intonation and pauses). [Only borrow the voice from @Audio1, not its words.] Do not use any other voice.
-
-SPEECH: [She/He] speaks [LANGUAGE], in [her/his] own voice from @Audio1, saying exactly these words and nothing else:
-"[EXACT WORDS, numbers written in full]"
-[Pronunciation: "word" is pronounced ...]
-
-EMOTION AND DELIVERY: [tone of the whole clip]. "[phrase 1]" [how: calm / intriguing / slower / lower]; [short pause]; "[phrase 2]" with emphasis on "[key word]" [...].
-
-PERFORMANCE: [Gaze slightly off-camera toward an unseen interviewer / looks straight into the camera for the call to action]. [GESTURE with its moment, e.g. "raises three fingers on 'trois'", "open palm on 'signal'"]. Natural blinking and breathing, subtle head movements, lips perfectly synchronized with every syllable, mouth closed and still before the first word and after the last word. Hands stay below the microphone and never cover the mouth. No repetitive gesture loop.
-
-AUDIO: Only [her/his] voice, close podcast microphone sound, quiet room tone. No music, no sound effects, no other voice.
-CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @Image1 for the whole shot. Camera never moves, never zooms, never cuts. No text, no subtitles, no captions, no logo.
+LIP SYNC: @Video1 is a black screen carrying [her/his] recorded voice. Ignore its picture completely. Its soundtrack is [her/his] dialogue, already timed: [she/he] speaks exactly what @Video1 says, exactly when @Video1 says it, with the same pace and the same pauses. [Her/His] lips follow the voice of @Video1 frame by frame, from its first word to its last, and [her/his] mouth stays clearly visible. [Her/His] voice is the voice of @Video1. Before the first word and after the last word of @Video1, [her/his] mouth is closed and still and [she/he] says nothing more.
+PERFORMANCE: [Gaze slightly off-camera toward an unseen interviewer / looks straight into the camera]. Facial expression matching the tone of the voice ([calm and caring / intriguing / smiling]). [Optional simple gesture, e.g. "one open-palm gesture"]. Keep the head almost still so the lips stay readable. Natural blinking and breathing. Hands stay below the microphone and never cover the mouth.
+AUDIO: Only [her/his] voice from @Video1. No music, no sound effects, no other voice, no added words.
+CONTINUITY: Same person, clothes, microphone, desk, background and lighting as @Image1 for the whole shot. Locked camera: never moves, never zooms, never cuts. No text, no subtitles, no captions, no logo.
 ```
 
-Contrôle de chaque clip reçu : transcription Whisper (mots exacts, prononciation), identité, cadre, lèvres. Les mots mal prononcés se corrigent par la ligne `Pronunciation:` et une relance du seul clip.
+Contrôle de chaque clip reçu : identité, cadre, image non assombrie, puis `scripts/comparer_synchro.py <clip.mp4> <extrait.wav>` (écart lèvres / voix ; au-dessus de 0,1 s, relancer le clip ou le recaler mot par mot, section « Secours » de `montage-controle.md`). La voix Seedance n'est pas contrôlée : elle est remplacée.
 
-Pour le CTA final, regard caméra et léger sourire à la dernière phrase. Ne jamais citer une phrase entre guillemets hors de la section SPEECH (risque de sous-titres incrustés).
+Pour le CTA final, regard caméra et léger sourire. Ne jamais écrire de phrase entre guillemets dans le prompt (risque de sous-titres incrustés).
+
+Historique (ne plus utiliser) : voix en référence audio `@Audio1` avec le texte exact dans le prompt (recette du 2026-09-28, puis « lier explicitement l'audio à la parole » du 2026-10-08) : lèvres décalées de 0,3 à 1 s, recalage mot par mot obligatoire au montage.
 
 ## 3. Image statique (collage, plan d'illustration, rond d'infographie)
 

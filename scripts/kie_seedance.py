@@ -1,7 +1,15 @@
 #!/usr/bin/env python3
 """Clip avatar parlant avec Seedance 2.5 sur KIE : image de départ (en référence) + extrait de voix off qui pilote les lèvres.
 
-Usage :
+MÉTHODE PAR DÉFAUT DU STUDIO (validée le 2026-10-10, écart lèvres / voix ≤ 0,02 s) :
+  python3 scripts/kie_seedance.py --prompt-file p.txt --image depart.png --voix-ecran-noir A01.wav --out clip.mp4 \
+      --generate-audio [--ratio 9:16] [--resolution 720p]
+  La voix ElevenLabs est transformée en vidéo écran noir (A01_ecran-noir.mp4, à côté de l'audio) et envoyée en @Video1.
+  Le prompt ne contient PAS le texte à dire ni de consigne de rythme (gabarit 2 du skill talking-head).
+  Sans --duration, la durée du clip = durée de la voix arrondie à la seconde supérieure (4 s minimum).
+  Au montage : son Seedance coupé, voix ElevenLabs d'origine posée telle quelle.
+
+Ancien usage (voix en référence audio, lèvres décalées de 0,3 à 1 s) :
   python3 scripts/kie_seedance.py --prompt-file p.txt --image depart.png --audio A01.wav --out clip.mp4 \
       [--duration 4] [--ratio 9:16] [--resolution 720p]
   python3 scripts/kie_seedance.py --prompt-file p.txt --image a.png b.png c.png --out clip.mp4 --duration 12
@@ -15,10 +23,24 @@ Usage :
 - Lit KIE_API_KEY dans .env (via kie_image.py). La clé n'est jamais affichée.
 - Affiche une ligne JSON : taskId, état, crédits consommés, fichier reçu.
 """
-import argparse, json, pathlib, sys, time, urllib.request
+import argparse, json, math, pathlib, subprocess, sys, time, urllib.request
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from kie_image import API, call, upload
+
+
+TAILLES = {"9:16": "720x1280", "1:1": "720x720", "16:9": "1280x720", "4:3": "960x720", "3:4": "720x960"}
+
+
+def ecran_noir(audio, ratio):
+    """Vidéo écran noir qui porte la voix (référence @Video1). Renvoie (chemin mp4, durée de la voix en s)."""
+    src = pathlib.Path(audio)
+    out = src.with_name(src.stem + "_ecran-noir.mp4")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", f"color=c=black:s={TAILLES.get(ratio, '720x1280')}:r=24",
+                    "-i", str(src), "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-tune", "stillimage", "-pix_fmt", "yuv420p",
+                    "-c:a", "aac", "-b:a", "192k", "-shortest", str(out)], check=True)
+    dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(src)]).decode())
+    return str(out), dur
 
 
 def main():
@@ -27,15 +49,25 @@ def main():
     ap.add_argument("--image", required=True, nargs="+")
     ap.add_argument("--audio", default=None)
     ap.add_argument("--out", required=True)
-    ap.add_argument("--duration", type=int, default=4)
+    ap.add_argument("--duration", type=int, default=None, help="durée du clip (s) ; par défaut 4, ou la durée de la voix avec --voix-ecran-noir")
     ap.add_argument("--ratio", default="9:16")
     ap.add_argument("--resolution", default="720p")
     ap.add_argument("--generate-audio", action="store_true")
     ap.add_argument("--video", default=None, help="vidéo de référence (@Video1), ex. écran noir portant la voix off")
+    ap.add_argument("--voix-ecran-noir", default=None, help="voix (wav/mp3) à envoyer en vidéo écran noir (@Video1) : méthode par défaut")
     a = ap.parse_args()
+    prompt = pathlib.Path(a.prompt_file).read_text()
+    if a.voix_ecran_noir:
+        a.video, dur_voix = ecran_noir(a.voix_ecran_noir, a.ratio)
+        if a.duration is None:
+            a.duration = max(4, math.ceil(dur_voix - 0.05))
+        if "@Audio1" in prompt:
+            print("attention : le prompt cite @Audio1 alors que la voix part en @Video1", file=sys.stderr)
+    if a.duration is None:
+        a.duration = 4
 
     imgs = [i if i.startswith("http") else upload(i) for i in a.image]
-    inp = {"prompt": pathlib.Path(a.prompt_file).read_text(), "reference_image_urls": imgs,
+    inp = {"prompt": prompt, "reference_image_urls": imgs,
            "duration": a.duration, "aspect_ratio": a.ratio, "resolution": a.resolution,
            "generate_audio": a.generate_audio}
     if a.audio:
