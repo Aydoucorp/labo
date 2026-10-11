@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
-"""Génère une image sur KIE (Nano Banana 2 par défaut, GPT Image 2 ou Z-Image avec --model), attend le résultat et le télécharge.
+"""Génère une image sur KIE (Nano Banana 2 par défaut, ou GPT Image 2 avec --model), attend le résultat et le télécharge.
 
 Usage :
   python3 scripts/kie_image.py --prompt-file p.txt --out sorties/x.png \
-      [--ref image.png ...] [--ratio 9:16] [--resolution 1K|2K|4K] [--model nano-banana-2|gpt-image-2-image-to-image|z-image]
+      [--ref image.png ...] [--ratio 9:16] [--resolution 1K|2K|4K] [--model nano-banana-2|gpt-image-2-image-to-image]
 
-- Lit KIE_API_KEY dans l'environnement ou dans .env (racine du studio). La clé n'est jamais affichée.
-- Z-Image : texte vers image seulement (pas de référence, pas de résolution : ~1K), prompt de 1000 caractères max.
+- Lit KIE_API_KEY dans .env (racine du studio). La clé n'est jamais affichée.
 - Les images de référence locales sont d'abord envoyées sur le stockage temporaire KIE.
 - Affiche une ligne JSON : taskId, état, crédits consommés, fichier reçu.
 """
@@ -18,13 +17,10 @@ UPLOAD = "https://kieai.redpandaai.co/api/file-stream-upload"
 
 
 def load_key():
-    if os.environ.get("KIE_API_KEY"):
-        return os.environ["KIE_API_KEY"].strip()
-    env = ROOT / ".env"
-    for line in (env.read_text().splitlines() if env.exists() else []):
+    for line in (ROOT / ".env").read_text().splitlines():
         if line.startswith("KIE_API_KEY="):
             return line.split("=", 1)[1].strip()
-    sys.exit("KIE_API_KEY absente (ni dans l'environnement, ni dans .env)")
+    sys.exit("KIE_API_KEY absente de .env")
 
 
 KEY = load_key()
@@ -63,11 +59,7 @@ def main():
 
     refs = [r if r.startswith("http") else upload(r) for r in a.ref]
     prompt = pathlib.Path(a.prompt_file).read_text()
-    if a.model == "z-image":
-        if refs:
-            sys.exit("z-image ne prend pas d'image de référence")
-        inp = {"prompt": prompt, "aspect_ratio": a.ratio}
-    elif a.model.startswith("gpt-image-2"):
+    if a.model.startswith("gpt-image-2"):
         inp = {"prompt": prompt, "input_urls": refs, "aspect_ratio": a.ratio, "resolution": a.resolution}
     else:
         inp = {"prompt": prompt, "image_input": refs, "aspect_ratio": a.ratio,
