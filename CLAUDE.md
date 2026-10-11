@@ -116,7 +116,7 @@ Ne vont pas dans Drive (ils sont sur GitHub) : code et scripts, références tec
 
 ## Clés API et secrets
 
-- Les clés sont dans `.env` à la racine (ex. `KIE_API_KEY`). Ce fichier est ignoré par git.
+- Les clés sont lues d'abord dans les variables d'environnement (secrets de l'environnement cloud, valables dans toutes les sessions : `KIE_API_KEY`, `PIXABAY_API_KEY`), sinon dans `.env` à la racine. `.env` est ignoré par git : il n'existe que dans le conteneur ou sur la machine où il a été créé, une nouvelle session ne le retrouve pas.
 - **Ne jamais afficher une clé en clair** : ni dans une réponse, ni dans un log, ni dans un `brief.md`. Masquer toute sortie de commande qui pourrait la contenir.
 - **Ne jamais copier `.env` dans Drive**, ni la clé dans un autre fichier du studio.
 - Charger les clés avec `set -a; . ./.env; set +a` puis utiliser `$KIE_API_KEY`.
