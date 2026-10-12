@@ -21,7 +21,7 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | zack-d-style | 000 |
 | le-montage | 000 |
 | talking-head | 001 |
-| full-b-roll-artiste | 004 |
+| full-b-roll-artiste | 005 |
 | ugc-humain | 000 |
 
 ## Historique
@@ -35,3 +35,4 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | `2026-10-02_full-b-roll-artiste_002.mp4` | full-b-roll-artiste | 2026-10-02 | 002 | Claire · signes du mauvais après-shampoing, vidéo TikTok tierce sous-titrée en FR (hook rouge, bandeaux terracotta) + motion CTA « Commente GUIDE » | `runs/2026-10-02_claire-mauvais-apres-shampoing_sous-titres-fr/` | 30,0 s · 9:16 · 1080×1920 |
 | `2026-10-02_full-b-roll-artiste_003.mp4` | full-b-roll-artiste | 2026-10-02 | 003 | Claire · avant/après chute de cheveux à 40 ans, vidéo TikTok tierce sous-titrée en FR (hook rouge, bandeaux terracotta), produit coupé, musique remplacée + motion CTA « Commente GUIDE » | `runs/2026-10-02_claire-chute-40-ans_sous-titres-fr/` | 15,8 s · 9:16 · 1080×1920 |
 | `2026-10-04_full-b-roll-artiste_004.mp4` | full-b-roll-artiste | 2026-10-04 | 004 | Claire · sérum maison aux plantes (laurier, romarin, girofle), vidéo TikTok tierce, début nettoyé sans texte (hook ajouté par l'utilisateur), bandeaux terracotta FR, son d'origine | `runs/2026-10-04_claire-serum-maison-plantes_bandeaux/` | 42,5 s · 9:16 · 1080×1920 |
+| `2026-10-12_full-b-roll-artiste_005.mp4` | full-b-roll-artiste | 2026-10-12 | 005 | Claire · huile de romarin avant/après, vidéo TikTok tierce (chhavi1351), plans de la boîte coupés, textes effacés dans VMake puis remis en FR dans le style d'origine, CTA « Commente GUIDE » | `runs/2026-10-12_claire-chhavi1351_decoupe/` | 24,2 s · 9:16 · 1080×1920 |

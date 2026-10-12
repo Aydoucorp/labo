@@ -2030,6 +2030,44 @@
    "id": "br-0061",
    "modele": null,
    "cout_credits": null
+  },
+  {
+   "fichier": "runs/2026-10-12_claire-chhavi1351_decoupe/source/original.mp4",
+   "original": "Vidéo TikTok tierce « Video by chhavi1351 » (huile de romarin en fioles), textes anglais incrustés",
+   "type": "video",
+   "origine": "stock",
+   "style": "UGC salle de bain / chambre, lumière naturelle",
+   "marque": "aucune (vidéo tierce, produit Brillare)",
+   "duree_s": 28.77,
+   "format": "720x1280",
+   "description": "Femme aux cheveux bruns longs. 0-3,3 s : cheveux clairsemés, raie et tempes dégarnies, gros plans. 3,3-4,2 s : peigne en bois plein de cheveux tombés. 4,2-6,1 s, 7,5-8,9 s, 11,3-12,6 s : boîte du produit (coupée dans la créa). Autres plans 6-17 s : application d'huile au compte-gouttes / fiole sur la raie et le cuir chevelu. 15-18 s : peigne avant/après (moins de cheveux). 18-19 s : avant, cheveux tirés en arrière, tempes dégarnies. 19-23 s : repousse de petits cheveux sur la ligne frontale, sourire. 23-28 s : cheveux très longs et brillants de dos puis de face.",
+   "mots_cles": [
+    "huile de romarin",
+    "fiole",
+    "compte-gouttes",
+    "application cuir chevelu",
+    "raie clairsemee",
+    "tempes degarnies",
+    "peigne bois",
+    "chute de cheveux",
+    "avant apres",
+    "repousse",
+    "ligne frontale",
+    "cheveux longs brillants"
+   ],
+   "notes": "Vidéo d'une autre créatrice : vérifier les droits avant réutilisation en pub payante. Plans de la boîte Brillare aux images source 125-182, 225-265, 338-376. Version sans texte (nettoyée VMake, sans la boîte) : runs/2026-10-12_claire-chhavi1351_decoupe/source/nettoyees/partie-1 à 6 (3 premières images perdues par partie).",
+   "usages": [
+    {
+     "run": "runs/2026-10-12_claire-chhavi1351_decoupe",
+     "plan": "video entiere sans la boite",
+     "debut": 0,
+     "fin": 24.17,
+     "phrase": "Avant/après huile de romarin, textes FR (créa full-b-roll-artiste 005)"
+    }
+   ],
+   "modele": null,
+   "cout_credits": null,
+   "id": "br-0062"
   }
  ]
 }

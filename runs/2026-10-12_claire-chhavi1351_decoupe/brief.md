@@ -80,4 +80,4 @@ python3 montage_texte.py                    # montage FR complet
 
 - `sorties/claire-chhavi-sans-boite_v1.mp4` (V1 sans la boîte, avec ses textes anglais)
 - `sorties/a-nettoyer/partie-1` à `partie-6` (à passer dans VMake)
-- `sorties/claire-romarin-fr_v1.mp4` (montage FR, en attente de validation)
+- `sorties/claire-romarin-fr_v1.mp4` (montage FR, validé le 12/10 : copié dans `retenues/` et dans `creas/full-b-roll-artiste/2026-10-12_full-b-roll-artiste_005.mp4`)
