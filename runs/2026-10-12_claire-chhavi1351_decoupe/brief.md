@@ -48,18 +48,18 @@ Rappel : VMake perd les 3 premières images de chaque partie ; au réassemblage,
 | My hair before these Rosemary Oil Shots... ❤️‍🩹 | Mes cheveux avant ces shots d'huile de romarin... ❤️‍🩹 |
 | I tried everything. Nothing worked 💔 | J'avais tout essayé. Rien ne marchait 💔 |
 | Then I started using Brillare Rosemary Oil Shots consistently... | Puis j'ai commencé à utiliser ces shots d'huile de romarin régulièrement... (nom de marque retiré, comme la boîte) |
-| 20% Rosemary Concentration — the clinically effective dose | 20 % de romarin concentré, la dose efficace selon les études cliniques |
+| 20% Rosemary Concentration — the clinically effective dose | La bonne dose de romarin, celle qui fait vraiment effet (sans « 20 % » ni « concentré », demande utilisateur) |
 | 100% Plant-Based. | 100 % d'origine végétale. |
-| Single-use vials | Fioles à usage unique |
+| Single-use vials | Une dose par application |
 | Hair fall reduced in just 14 days ✨ | Chute de cheveux réduite en seulement 14 jours ✨ |
 | Before ❤️‍🩹 / After ✨ | Avant ❤️‍🩹 / Après ✨ |
-| Baby hairs showing up 😍 | Les baby hairs qui repoussent 😍 |
+| Baby hairs showing up 😍 | De nouveaux cheveux qui repoussent 😍 |
 | Visible results in just 4 weeks ✨ | Résultats visibles en seulement 4 semaines ✨ |
 | Consistent use = visible difference ❤️ | Utilisation régulière = différence visible ❤️ |
 | Right dose. Real results. ✨ | La bonne dose. De vrais résultats. ✨ |
-| Comment 'ROSEMARY' for link | Commente « ROMARIN » pour avoir le lien |
+| Comment 'ROSEMARY' for link | Commente « GUIDE » pour avoir le guide gratuitement (texte de l'utilisateur) |
 
-À valider avec l'utilisateur avant le montage final (formulations, mot du CTA).
+Reformulations du 12/10 en attente de validation (romarin, fioles, baby hairs) ; CTA fourni par l'utilisateur.
 
 ## Reproduire
 
