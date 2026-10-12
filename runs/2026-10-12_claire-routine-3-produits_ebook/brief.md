@@ -32,3 +32,14 @@ Angle méthode pas à pas. 12 pages : couverture · mot d'intro · pourquoi tes 
 
 ## Génération (étape 6)
 `python3 scripts/kie_image.py --model gpt-image-2-text-to-image --prompt-file prompts/pages/NN.txt --out sorties/pages/NN-v1.png --ratio 3:4 --resolution 1K`
+
+## Contrôle et reprises
+- Page 3 v1 : coquille « pousent » ajoutée par le modèle. Ligne « Spelling check » ajoutée hors guillemets avant le rappel final dans `prompts/pages/03.txt`, relance : v2 correcte (« poussent »).
+- Page 10 v1 : signature manuscrite « Claire » non demandée. Consigne anti-signature renforcée dans `prompts/pages/10.txt`, relance : v2 sans signature.
+- Page 12 : le modèle écrit « pose-moi toutes les questions » (au lieu de « toutes tes questions ») ; accepté tel quel.
+- Toutes les pages en 1086x1448.
+
+## Résultat
+- Pages retenues : `retenues/pages/01.png` à `12.png` (v2 pour 03 et 10, v1 pour les autres).
+- PDF : `retenues/routine-3-produits-web.pdf` (800 px, JPEG 80, 1,3 Mo, pour le message privé) et `retenues/routine-3-produits-hq.pdf` (taille pleine, JPEG 93, 3,7 Mo). Page 150x200 mm.
+- Coût : 12 pages x 6 cr + 2 reprises x 6 cr = 84 crédits (0,42 $).
