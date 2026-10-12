@@ -48,26 +48,36 @@ Rappel : VMake perd les 3 premières images de chaque partie ; au réassemblage,
 | My hair before these Rosemary Oil Shots... ❤️‍🩹 | Mes cheveux avant ces shots d'huile de romarin... ❤️‍🩹 |
 | I tried everything. Nothing worked 💔 | J'avais tout essayé. Rien ne marchait 💔 |
 | Then I started using Brillare Rosemary Oil Shots consistently... | Puis j'ai commencé à utiliser ces shots d'huile de romarin régulièrement... (nom de marque retiré, comme la boîte) |
-| 20% Rosemary Concentration — the clinically effective dose | La bonne dose de romarin, celle qui fait vraiment effet (sans « 20 % » ni « concentré », demande utilisateur) |
+| 20% Rosemary Concentration — the clinically effective dose | Juste ce qu'il faut de romarin pour que ça marche (choix utilisateur) |
 | 100% Plant-Based. | 100 % d'origine végétale. |
-| Single-use vials | Une dose par application |
+| Single-use vials | *(non remis, demande utilisateur)* |
 | Hair fall reduced in just 14 days ✨ | Chute de cheveux réduite en seulement 14 jours ✨ |
 | Before ❤️‍🩹 / After ✨ | Avant ❤️‍🩹 / Après ✨ |
-| Baby hairs showing up 😍 | De nouveaux cheveux qui repoussent 😍 |
+| Baby hairs showing up 😍 | Mes cheveux repoussent enfin 😍 (choix utilisateur) |
 | Visible results in just 4 weeks ✨ | Résultats visibles en seulement 4 semaines ✨ |
 | Consistent use = visible difference ❤️ | Utilisation régulière = différence visible ❤️ |
 | Right dose. Real results. ✨ | La bonne dose. De vrais résultats. ✨ |
 | Comment 'ROSEMARY' for link | Commente « GUIDE » pour avoir le guide gratuitement (texte de l'utilisateur) |
 
-Reformulations du 12/10 en attente de validation (romarin, fioles, baby hairs) ; CTA fourni par l'utilisateur.
+Textes validés par l'utilisateur le 12/10.
+
+## 3. Montage FR (`montage_texte.py`)
+
+- Parties nettoyées reçues dans `source/nettoyees/partie-1` à `partie-6` : chacune a perdu ses 3 premières images (décalage mesuré par comparaison avec la V1), compensées par 3 copies de la première image. 725 images, comme la V1.
+- Position et plage de chaque texte relevées par différence V1 / nettoyé (`work/diff_boxes.json`), taille calée sur la largeur du texte anglais (TikTok Sans 700). Style : blanc centré, contour gris foncé 2 px, ombre légère ; « Juste ce qu'il faut… » et « 100 % d'origine végétale » sans contour, comme l'original. Lignes de plus de 650 px source coupées en deux lignes équilibrées.
+- Plages (images V1) : hook 0–119 ; « J'avais tout essayé » 69–124 ; « Puis j'ai commencé » 120–411 ; « Juste ce qu'il faut » 166–205 ; « 100 % » 239–280 ; « Chute de cheveux » 417–485 ; « Avant ❤️‍🩹 » 417–452 ; « Après ✨ » 453–485 ; « Avant ❤️ » 486–533 ; « Mes cheveux repoussent enfin » 534–559 ; « Résultats visibles » 560–620 ; « Utilisation régulière » 621–687 ; « La bonne dose » 644–687 ; CTA « Commente « GUIDE » pour avoir le guide gratuitement » 688–724. « Single-use vials » (324–385) non remis.
+- Son : celui de la V1. Sortie 1080×1920, H.264 CRF 18, AAC 192 kb/s.
 
 ## Reproduire
 
 ```
-python3 decouper.py   # V1 sans la boîte + parties à nettoyer
+python3 decouper.py                         # V1 sans la boîte + parties à nettoyer
+python3 montage_texte.py --frames 30,440    # images de contrôle (work/)
+python3 montage_texte.py                    # montage FR complet
 ```
 
 ## Sorties
 
 - `sorties/claire-chhavi-sans-boite_v1.mp4` (V1 sans la boîte, avec ses textes anglais)
 - `sorties/a-nettoyer/partie-1` à `partie-6` (à passer dans VMake)
+- `sorties/claire-romarin-fr_v1.mp4` (montage FR, en attente de validation)
