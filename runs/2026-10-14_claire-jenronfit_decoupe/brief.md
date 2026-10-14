@@ -32,3 +32,19 @@ Rappel : VMake perd les 3 premières images de chaque partie ; au réassemblage,
 ```
 python3 decouper.py
 ```
+
+## Textes FR (12/10 → 14/10, décisions utilisateur)
+
+| Texte d'origine | Texte FR à remettre |
+|---|---|
+| "You should use minoxidil" | *(non remis : l'utilisateur l'ajoute lui-même à la main)* |
+| No thank you... because THIS growth serum exists | Non merci… parce que CETTE huile existe (texte de l'utilisateur) |
+| - reduces shedding by 92% | - réduit la chute de 92 % |
+| - reduces breakage immediately | - réduit la casse dès la première utilisation |
+| - visible growth within 30-60 days | - pousse visible en 30 à 60 jours |
+| - non-greasy formula | - formule non grasse |
+| - zero minoxidil or finasteride | - zéro minoxidil, zéro finastéride |
+| reduced my shedding in 4 weeks! | ma chute a diminué en 4 semaines ! |
+| completely transformed my hair | a complètement transformé mes cheveux |
+
+Le plan du flacon (3,7 à 6,6 s) est gardé. Sérum non identifié (étiquette « TA… » / « …CAL », flacon bleu à compte-gouttes) : `work/flacon*.jpg`.
