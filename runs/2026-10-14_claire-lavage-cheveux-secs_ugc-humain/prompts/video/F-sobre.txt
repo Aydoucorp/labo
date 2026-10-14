@@ -1,0 +1,6 @@
+Locked medium shot, 9:16 photorealistic smartphone UGC video, eye level, framing identical to @Image1 (waist to just above the head, small black microphone held in her right hand below her chin). @Image1 is the exact first frame and the only reference for identity, clothes, microphone, room and lighting.
+
+LIP SYNC: @Video1 is a black screen carrying her recorded voice. Ignore its picture completely. Its soundtrack is her dialogue, already timed: she speaks exactly what @Video1 says, exactly when @Video1 says it, with the same pace and the same pauses. Her lips follow the voice of @Video1 frame by frame, from its first word to its last, and her mouth stays clearly visible. Her voice is the voice of @Video1.
+PERFORMANCE: Simple, natural expression. Keep her head almost still so the lips stay readable. Natural blinking and breathing. Her hands stay still; the microphone stays below her chin and never covers the mouth.
+AUDIO: Only her voice from @Video1. No music, no sound effects, no other voice, no added words.
+CONTINUITY: Same person, clothes, microphone, door, room and lighting as @Image1 for the whole shot. Locked camera: never moves, never zooms, never cuts. No text, no subtitles, no captions, no logo.
