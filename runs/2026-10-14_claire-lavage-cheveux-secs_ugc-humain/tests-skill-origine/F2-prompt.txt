@@ -1,0 +1,13 @@
+Create a 9-second 9:16 photorealistic smartphone UGC video in French. Natural real-time speed. One continuous shot, no cuts.
+REFERENCES: @Image1 is the approved casting and exact first frame: identity, clothes, small black microphone in her right hand, room and light.
+CAMERA: Fixed camera: the recording phone is propped on a shelf slightly below her eye level, no movement, no zoom. No visible recording phone. Same framing as @Image1, waist to just above the head, room for her left hand to gesture in front of her chest.
+PERFORMANCE: Engaged conversational delivery, varied small gestures, natural breaths and blinks. No constant grin, repetitive gestures or frozen expression.
+TIMELINE:
+0.0-4.3 s: looking into the lens, explaining, her left hand opens in front of her chest, she says: « En fait, cette première couche d'après-shampoing va protéger vos longueurs et vos pointes »
+4.3-6.0 s: same shot, her left hand makes a small sweeping gesture downward, she continues: « de l'effet asséchant du shampoing... »
+6.0-6.4 s: a short pause, she looks at the lens.
+6.4-8.3 s: firm and direct, small nod, she says: « c'est exactement ce qui provoque la casse. »
+8.3-9.0 s: she stops talking, mouth closed, still looking at the lens.
+The right hand holds the microphone a few centimetres below her chin during the whole clip, never covering her lips.
+AUDIO: One consistent original voice: a French woman in her thirties, warm, clear and energetic, natural French accent, slightly fast conversational pace. Exact lines, clear speech, natural pauses, accurate visible lip sync and quiet room tone.
+CONSTRAINTS: Speak French only, exactly the lines above, nothing else. Preserve the approved identity, freckles, hair, pink turtleneck, camel trousers, microphone, open oak door, room and light from @Image1. No added dialogue, no music, no text, no subtitles.
