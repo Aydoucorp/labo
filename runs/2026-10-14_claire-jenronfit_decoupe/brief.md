@@ -64,4 +64,4 @@ python3 montage_texte.py                    # montage complet
 ## Sorties
 
 - `sorties/a-nettoyer/partie-1` à `partie-4` (à passer dans VMake)
-- `sorties/claire-huile-sans-minoxidil-fr_v1.mp4` (montage FR, en attente de validation)
+- `sorties/claire-huile-sans-minoxidil-fr_v1.mp4` (montage FR, validé le 14/10 : copié dans `retenues/` et dans `creas/full-b-roll-artiste/2026-10-14_full-b-roll-artiste_006.mp4`)

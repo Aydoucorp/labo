@@ -2068,6 +2068,41 @@
    "modele": null,
    "cout_credits": null,
    "id": "br-0062"
+  },
+  {
+   "fichier": "runs/2026-10-14_claire-jenronfit_decoupe/source/original.mp4",
+   "original": "Vidéo TikTok tierce « Video by jenronfit » (sérum pousse sans minoxidil), textes anglais incrustés",
+   "type": "video",
+   "origine": "stock",
+   "style": "UGC face caméra, salon lumineux + plans divers",
+   "marque": "aucune (vidéo tierce, sérum bleu non identifié)",
+   "duree_s": 13.17,
+   "format": "720x1280",
+   "description": "0-0,9 s : main pleine de cheveux tombés. 0,9-3,7 s : plusieurs plans d'elle (salle de sport, cheveux attachés, profil avec raie dégarnie). 3,7-6,6 s : face caméra, montre un flacon bleu à compte-gouttes et dépose le sérum dans sa main. 6,6-9 s : face caméra, cheveux longs ondulés, mains dans les cheveux. 9-10,7 s : soulève ses cheveux épais, encart photo cheveux tombés avant/après. 10,7-13,2 s : secoue ses cheveux volumineux, encart photo avant/après.",
+   "mots_cles": [
+    "serum pousse",
+    "sans minoxidil",
+    "compte-gouttes",
+    "flacon bleu",
+    "cheveux tombes main",
+    "raie degarnie",
+    "cheveux longs volumineux",
+    "avant apres",
+    "face camera"
+   ],
+   "notes": "Vidéo d'une autre créatrice : vérifier les droits avant réutilisation en pub payante. Version sans texte (nettoyée VMake) : runs/2026-10-14_claire-jenronfit_decoupe/source/nettoyees/partie-1 à 4 (3 premières images perdues par partie).",
+   "usages": [
+    {
+     "run": "runs/2026-10-14_claire-jenronfit_decoupe",
+     "plan": "video entiere",
+     "debut": 0,
+     "fin": 13.17,
+     "phrase": "Non merci… parce que CETTE huile existe, textes FR (créa full-b-roll-artiste 006)"
+    }
+   ],
+   "modele": null,
+   "cout_credits": null,
+   "id": "br-0063"
   }
  ]
 }

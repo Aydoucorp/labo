@@ -104,6 +104,7 @@ Ne vont pas dans Drive (ils sont sur GitHub) : code et scripts, références tec
 | runs/2026-10-02_claire-chute-40-ans_sous-titres-fr | `1FvrFIqYQ-9H1JtfDm6flqW41lMLgV1QW` |
 | runs/2026-10-04_claire-serum-maison-plantes_bandeaux | `1wZRyvU16C2x-dXfNR2XHSYkU8JQY-Fd1` |
 | runs/2026-10-12_claire-chhavi1351_decoupe | `1t41hrvcs0qJLkZff6drXsNSfhuR69c4_` |
+| runs/2026-10-14_claire-jenronfit_decoupe | `1tzD0Z6_dNceRzeo17ZZgljYPH8IiIP1X` |
 
 - Envoyer les fichiers sans conversion en format Google (`.md`, images et scripts restent tels quels).
 - Quand un nouveau sous-dossier est créé dans Drive, ajouter son ID à ce tableau.
