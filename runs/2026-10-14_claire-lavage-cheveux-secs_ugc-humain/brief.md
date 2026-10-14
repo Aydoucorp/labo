@@ -47,3 +47,10 @@
 - Commande : `python3 scripts/kie_image.py --model gpt-image-2-image-to-image --ref references/claire-pied.jpg references/claire-visage.jpg references/fond-porte.jpg --prompt-file prompts/img/depart.txt --out sorties/depart/depart-vN.png --ratio 9:16 --resolution 1K`
 - v1 et v2 (12 cr) : jugées trop « IA » par l'utilisatrice ou l'utilisateur (v2 préférée). v3 et v4 (12 cr) : prompt réécrit pour un rendu iPhone brut (peau réelle, cils naturels, cheveux décoiffés, bruit de capteur, pose non posée). En attente de validation.
 - Extraits de voix des blocs face caméra : `audio/extraits/F1.wav` (0,00 à 9,50), `F2.wav` (17,90 à 26,20), `F3.wav` (36,93 à 44,42), `F4.wav` (63,13 à 71,31).
+
+## Statut (2026-10-14)
+
+Projet arrêté à la demande, avant la production des clips face caméra.
+- Méthode retenue après tests : gabarit d'Alexis Aurion (voix ElevenLabs en `@Video1` écran noir déclarée « AUDIO-ONLY… master timeline », « say every word ONCE », `@Image1` créatrice sans première image imposée, `@Image2` décor et cadrage, jeu vivant, timeline ancrée sur les mots, son activé). Test F2 480p : 29/29 mots reproduits, 5/5 bilabiales fermées. Voir `journal.md` et `tests-alexis/`.
+- Prêt à reprendre : `prompts/video/alexis/F1.txt` à `F4.txt`, extraits de voix `audio/extraits/F1.wav`, `F2.wav`, `F3.wav`, `F4.wav`, image `retenues/depart.png`, liste des b-rolls `brolls-a-trouver.html`. Son de montage choisi : voix ElevenLabs.
+- Crédits dépensés sur ce run : environ 3 790 cr (images 24, F1 v1 760, tests A/B/C 748, F1 v2 760, F2 v1 646, test skill d'origine 567, test Alexis 289).
