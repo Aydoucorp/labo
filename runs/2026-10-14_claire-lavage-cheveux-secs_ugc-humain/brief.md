@@ -41,3 +41,9 @@
 | En plus, une serviette en microfibre sèchera … plus rapidement. | 59,11 | 62,97 |
 | Et si vous ne souhaitez pas dépenser d'argent, … l'affaire ! | 63,29 | 68,33 |
 | Commentez SUITE si vous voulez la suite des astuces ! | 68,72 | 71,11 |
+
+## Image de départ
+
+- Commande : `python3 scripts/kie_image.py --model gpt-image-2-image-to-image --ref references/claire-pied.jpg references/claire-visage.jpg references/fond-porte.jpg --prompt-file prompts/img/depart.txt --out sorties/depart/depart-vN.png --ratio 9:16 --resolution 1K`
+- 2 propositions (12 cr), en attente de validation.
+- Extraits de voix des blocs face caméra : `audio/extraits/F1.wav` (0,00 à 9,50), `F2.wav` (17,90 à 26,20), `F3.wav` (36,93 à 44,42), `F4.wav` (63,13 à 71,31).
