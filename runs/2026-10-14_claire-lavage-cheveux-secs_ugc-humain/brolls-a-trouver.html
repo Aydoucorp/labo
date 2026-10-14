@@ -1,5 +1,9 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>B-rolls UGC lavage</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600&display=swap">
 <style>
 /* Layout : une liste de cartes à cocher, une carte par plan à trouver, résumé et filtres en tête. Charte « Les cheveux de Claire ». */
@@ -15,7 +19,8 @@
 :root[data-theme="dark"]{
   --bg:#1E1A18; --card:#2A2421; --line:#3E3530; --fg:#F2EBE5; --muted:#B5A99F;
   --accent:#E08A6A; --accent-soft:#3A2A23; --prune:#D59AA8; --ok:#7CC48E; --ok-soft:#22332A; color-scheme:dark}
-body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5}
 .wrap{max-width:860px;margin:0 auto;padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
 h1{font-family:var(--display);font-weight:600;font-size:clamp(26px,5vw,36px);line-height:1.15;margin:0;text-wrap:balance}
 h2{font-family:var(--display);font-weight:600;font-size:21px;margin:0}
@@ -57,6 +62,8 @@ code{font-size:14px;background:var(--bg);border:1px solid var(--line);border-rad
 @media (max-width:480px){.card{grid-template-columns:1fr}.check{grid-row:auto;flex-direction:row}.lbl{min-width:0;width:100%}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
+</head>
+<body>
 
 <div class="wrap">
   <header>
@@ -185,3 +192,5 @@ document.addEventListener("click", e => {
 });
 render();
 </script>
+</body>
+</html>
