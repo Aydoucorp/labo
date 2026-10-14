@@ -1,0 +1,15 @@
+Create a 10-second 9:16 photorealistic smartphone UGC video. Natural real-time speed. One continuous shot, no cuts.
+REFERENCES: @Image1 is the approved casting and exact first frame: identity, clothes, microphone, room and light. @Video1 is a black screen carrying her recorded voice: ignore its picture completely.
+LIP SYNC: The soundtrack of @Video1 is her dialogue, already timed: she speaks exactly what @Video1 says, exactly when @Video1 says it, with the same pace and the same pauses. Her lips follow the voice of @Video1 frame by frame. Her voice is the voice of @Video1. After the last word of @Video1, she says nothing more and her mouth stays closed and still.
+CAMERA: Fixed camera: the recording phone is propped on a shelf in front of her, slightly below eye level; no camera movement, no zoom. No visible recording phone. Same framing as @Image1, waist to just above the head, room for her left hand to gesture in front of her chest.
+PERFORMANCE: Engaged conversational expression matching the tone of the voice, alert and punchy at the start, warmer at the end. Varied small gestures, natural breaths and blinks, small head movements. No constant grin, repetitive gestures or frozen expression.
+TIMELINE:
+0.0-1.2 s: she starts speaking straight to the lens, eyebrows slightly raised, concerned look.
+1.2-2.8 s: her left hand lifts a few strands of her hair ends at shoulder level and lets them fall, a slightly disappointed face.
+2.8-5.5 s: left hand comes back in front of her chest, palm open toward the camera, explaining, small nod.
+5.5-7.4 s: softer, friendly expression, small shrug of the left shoulder.
+7.4-8.6 s: her left hand gently smooths down her hair along the side of her head, a light smile.
+8.6-10.0 s: left hand relaxes down, she finishes with a warm smile, then mouth closed, still looking at the lens.
+The right hand holds the small black wireless microphone a few centimetres below her chin during the whole clip, never covering her lips, never changing hands.
+AUDIO: Only her voice from @Video1, quiet room tone. No music, no other voice, no added words.
+CONSTRAINTS: Preserve the approved identity, freckles, hair, pink turtleneck, camel trousers, microphone, open oak door, room and light from @Image1. Real smartphone look, natural skin. No invented graphics, no text, no subtitles.

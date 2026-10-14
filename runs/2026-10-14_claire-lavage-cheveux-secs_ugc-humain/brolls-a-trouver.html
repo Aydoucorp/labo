@@ -1,0 +1,187 @@
+<title>B-rolls UGC lavage</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Layout : une liste de cartes à cocher, une carte par plan à trouver, résumé et filtres en tête. Charte « Les cheveux de Claire ». */
+:root{
+  --bg:#FAF6F3; --card:#FFFFFF; --line:#E6DCD3; --fg:#2E2A26; --muted:#6E655D;
+  --accent:#A8553A; --accent-soft:#F3E3DA; --prune:#7A4351; --ok:#3F7A4E; --ok-soft:#E1EFE4;
+  --display:"Fraunces", Georgia, "Times New Roman", serif;
+  --body:"Source Sans 3", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1E1A18; --card:#2A2421; --line:#3E3530; --fg:#F2EBE5; --muted:#B5A99F;
+  --accent:#E08A6A; --accent-soft:#3A2A23; --prune:#D59AA8; --ok:#7CC48E; --ok-soft:#22332A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1E1A18; --card:#2A2421; --line:#3E3530; --fg:#F2EBE5; --muted:#B5A99F;
+  --accent:#E08A6A; --accent-soft:#3A2A23; --prune:#D59AA8; --ok:#7CC48E; --ok-soft:#22332A; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.5}
+.wrap{max-width:860px;margin:0 auto;padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:22px}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(26px,5vw,36px);line-height:1.15;margin:0;text-wrap:balance}
+h2{font-family:var(--display);font-weight:600;font-size:21px;margin:0}
+.lead{margin:6px 0 0;color:var(--muted);max-width:62ch}
+.bar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding-block:10px;z-index:2;border-bottom:1px solid var(--line)}
+.prog{display:flex;align-items:center;gap:10px;font-weight:600;font-variant-numeric:tabular-nums}
+.meter{width:150px;height:8px;border-radius:99px;background:var(--line);overflow:hidden}
+.meter i{display:block;height:100%;width:0;background:var(--ok);transition:width .3s}
+.filters{display:flex;gap:6px}
+.filters button{font:inherit;font-size:14px;border:1px solid var(--line);background:var(--card);color:var(--fg);padding:5px 12px;border-radius:99px;cursor:pointer}
+.filters button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:0;padding:0;list-style:none}
+.rules li{background:var(--accent-soft);border-radius:10px;padding:10px 12px;font-size:15px}
+.rules b{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.list{display:grid;gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;grid-template-columns:auto 1fr;gap:4px 14px}
+.card.done{border-color:var(--ok);background:var(--ok-soft)}
+.check{grid-row:span 3;display:flex;flex-direction:column;align-items:center;gap:6px}
+.num{font-family:var(--display);font-size:22px;color:var(--accent);font-variant-numeric:tabular-nums}
+.check input{width:24px;height:24px;accent-color:var(--ok);cursor:pointer}
+.head{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline;min-width:0}
+.head h3{margin:0;font-size:18px;font-weight:600}
+.chip{font-size:13px;padding:1px 9px;border-radius:99px;background:var(--accent-soft);color:var(--accent);font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap}
+.chip.time{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.quote{margin:2px 0 0;color:var(--prune);font-style:italic;min-width:0}
+.meta{display:grid;gap:8px;margin-top:8px;min-width:0}
+.row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.lbl{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);min-width:68px}
+.kw{font:inherit;font-size:14px;border:1px dashed var(--line);background:transparent;color:var(--fg);padding:2px 9px;border-radius:6px;cursor:pointer}
+.kw:hover,.kw:focus-visible{border-color:var(--accent);outline:none}
+.links a{font-size:14px;color:var(--accent);font-weight:600;text-decoration:none;border-bottom:1px solid currentColor}
+.links a:focus-visible,.filters button:focus-visible,.check input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+code{font-size:14px;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:1px 6px;word-break:break-all}
+.tip{font-size:14px;color:var(--muted)}
+.lib{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:8px}
+.lib ul{margin:0;padding-left:18px;display:grid;gap:4px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:8px;font-size:14px;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+@media (max-width:480px){.card{grid-template-columns:1fr}.check{grid-row:auto;flex-direction:row}.lbl{min-width:0;width:100%}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>B-rolls à trouver pour l'UGC « cheveux secs après le lavage »</h1>
+    <p class="lead">9 plans réels à filmer ou à trouver. Coche chaque plan quand tu l'as. Clique sur un mot-clé pour le copier, ou ouvre directement la recherche dans une banque gratuite.</p>
+  </header>
+
+  <ul class="rules">
+    <li><b>Format</b>Vertical 9:16 de préférence (un horizontal passe, je recadre), 1080p si possible.</li>
+    <li><b>À éviter</b>Texte incrusté, logo ou marque visible, vidéos TikTok ou Instagram d'autres créateurs (pas les droits).</li>
+    <li><b>Nom du fichier</b>Le nom proposé sur chaque carte, par exemple <code>R3_shampoing-cuir-chevelu.mp4</code>.</li>
+    <li><b>Introuvable ?</b>Dis-le-moi : je chiffre une version IA avant de lancer quoi que ce soit.</li>
+  </ul>
+
+  <div class="bar">
+    <div class="prog"><span id="count">0 / 9 trouvés</span><span class="meter"><i id="fill"></i></span></div>
+    <div class="filters" role="group" aria-label="Filtrer">
+      <button type="button" data-f="all" aria-pressed="true">Tous</button>
+      <button type="button" data-f="todo" aria-pressed="false">À trouver</button>
+      <button type="button" data-f="done" aria-pressed="false">Trouvés</button>
+    </div>
+  </div>
+
+  <section class="list" id="list" aria-label="Plans à trouver"></section>
+
+  <section class="lib">
+    <h2>Déjà dans la bibliothèque</h2>
+    <p class="tip">Rien à chercher pour ces plans, je les réutilise au montage.</p>
+    <ul>
+      <li><b>br-0059</b> · Claire (IA) verse l'après-shampoing dans sa main sous la douche, pour l'astuce 1.</li>
+      <li><b>br-0062</b> · Claire (IA) essaie de séparer une mèche mouillée sous la douche, pour « le cheveu mouillé est vulnérable ».</li>
+      <li><b>br-0072</b> · Plan réel, longue chevelure brune brillante qui tombe, pour « beau, brillant et doux ».</li>
+    </ul>
+  </section>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const PLANS = [
+  {n:"R1", t:"9,5 à 17,9 s", d:3, file:"R1_apres-shampoing-longueurs.mp4", title:"Après-shampoing sur les longueurs, sous la douche",
+   quote:"Appliquez d'abord l'après-shampoing…", see:"Des mains appliquent de l'après-shampoing (crème blanche) sur les longueurs et les pointes mouillées, pas sur les racines.",
+   fr:["après-shampoing longueurs douche","pré-shampoing"], en:["applying conditioner hair ends shower","conditioner wet hair"],
+   tip:"À filmer : tête penchée sous la douche, téléphone protégé, 5 s de geste lent."},
+  {n:"R2", t:"9,5 à 17,9 s", d:3, file:"R2_shampoing-mousse-douche.mp4", title:"Shampoing qui mousse sur la tête",
+   quote:"…puis le shampoing…", see:"Sous la douche, le shampoing mousse sur le dessus de la tête.",
+   fr:["shampoing mousse douche"], en:["shampoo lather shower","washing hair shampoo foam"]},
+  {n:"R3", t:"26,2 à 30,4 s", d:4, file:"R3_shampoing-cuir-chevelu.mp4", title:"Shampoing massé uniquement sur le cuir chevelu",
+   quote:"Gardez votre shampoing uniquement sur le cuir chevelu.", see:"Gros plan : le bout des doigts masse le shampoing à la racine, les longueurs restent à l'écart.",
+   fr:["masser shampoing cuir chevelu","shampoing racines"], en:["massaging shampoo into scalp","scalp massage shampoo"],
+   tip:"Facile à filmer toi-même : gros plan sur le dessus de la tête."},
+  {n:"R4", t:"30,6 à 34 s", d:3, file:"R4_mousse-coule-longueurs.mp4", title:"Mousse qui coule le long des longueurs",
+   quote:"Ne le laissez pas couler le long de vos mi-longueurs et de vos pointes…", see:"La mousse de shampoing coule le long des longueurs sous l'eau.",
+   fr:["mousse shampoing coule cheveux"], en:["shampoo foam rinsing long hair","rinsing shampoo hair shower"]},
+  {n:"R5", t:"34 à 36,9 s", d:3, file:"R5_pointes-seches.mp4", title:"Pointes sèches ou cassées",
+   quote:"…cela va également les assécher et entraîner la casse.", see:"Gros plan de pointes sèches, fourchues ou cassées, en lumière naturelle.",
+   fr:["pointes sèches cassées","fourches cheveux gros plan"], en:["dry damaged split ends","split ends close up"]},
+  {n:"R6", t:"44,4 à 48,3 s", d:4, file:"R6_frotter-serviette-eponge.mp4", title:"Cheveux frottés avec une serviette éponge",
+   quote:"Frotter une serviette éponge sur vos cheveux…", see:"Quelqu'un frotte vigoureusement ses cheveux mouillés avec une serviette éponge classique, en va-et-vient.",
+   fr:["frotter cheveux serviette"], en:["rubbing wet hair towel","drying hair with bath towel"],
+   tip:"Facile à filmer toi-même : vue de face ou de profil, geste énergique."},
+  {n:"R7", t:"48,8 à 55,6 s", d:3, file:"R7_cuticule-microscope.jpg", title:"Cuticule du cheveu au microscope",
+   quote:"…va soulever la cuticule…", see:"Fibre de cheveu au microscope électronique, écailles de la cuticule soulevées. Une photo fixe suffit, je l'anime.",
+   fr:["cheveu microscope cuticule"], en:["damaged hair cuticle SEM","human hair scanning electron microscope"],
+   wiki:true, tip:"Sur Wikimedia, vérifie la licence affichée sous l'image."},
+  {n:"R8", t:"59 à 63,1 s", d:4, file:"R8_serviette-microfibre.mp4", title:"Serviette microfibre",
+   quote:"Une serviette en microfibre sèchera vos cheveux bien plus rapidement.", see:"Cheveux mouillés pressés en douceur ou enroulés en turban dans une serviette microfibre.",
+   fr:["serviette microfibre cheveux","turban cheveux"], en:["microfiber hair towel wrap","hair towel turban"],
+   tip:"Facile à filmer toi-même si tu as une serviette microfibre."},
+  {n:"R9", t:"63,3 à 68,3 s", d:3, file:"R9_t-shirt-coton.mp4", title:"Cheveux séchés dans un t-shirt en coton",
+   quote:"Un vieux t-shirt en coton fera tout aussi bien l'affaire !", see:"Cheveux mouillés tamponnés ou enroulés dans un t-shirt en coton.",
+   fr:["sécher cheveux t-shirt"], en:["drying hair with t-shirt","hair plopping t-shirt"]}
+];
+const KEY = "brolls-ugc-lavage";
+let done = {}; try { done = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) {}
+let filter = "all";
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const q = s => encodeURIComponent(s);
+function links(p){
+  const k = p.en[0];
+  const a = [
+    `<a href="https://www.pexels.com/search/videos/${q(k)}/?orientation=portrait" target="_blank" rel="noopener">Pexels</a>`,
+    `<a href="https://pixabay.com/videos/search/${q(k)}/" target="_blank" rel="noopener">Pixabay</a>`
+  ];
+  if (p.wiki) a.unshift(`<a href="https://commons.wikimedia.org/w/index.php?title=Special:MediaSearch&type=image&search=${q(k)}" target="_blank" rel="noopener">Wikimedia</a>`);
+  return a.join(" ");
+}
+function render(){
+  const list = document.getElementById("list");
+  list.innerHTML = PLANS.map(p => {
+    const ok = !!done[p.n];
+    const hide = (filter === "todo" && ok) || (filter === "done" && !ok);
+    return `<article class="card${ok ? " done" : ""}"${hide ? " hidden" : ""}>
+      <div class="check"><span class="num">${p.n}</span>
+        <input type="checkbox" id="c-${p.n}" data-n="${p.n}" ${ok ? "checked" : ""} aria-label="${p.n} trouvé"></div>
+      <div class="head"><h3>${esc(p.title)}</h3><span class="chip">${p.d} s</span><span class="chip time">${p.t}</span></div>
+      <p class="quote">« ${esc(p.quote)} »</p>
+      <div class="meta">
+        <div>${esc(p.see)}</div>
+        <div class="row"><span class="lbl">Mots-clés FR</span>${p.fr.map(k => `<button type="button" class="kw" data-copy="${esc(k)}">${esc(k)}</button>`).join("")}</div>
+        <div class="row"><span class="lbl">Mots-clés EN</span>${p.en.map(k => `<button type="button" class="kw" data-copy="${esc(k)}">${esc(k)}</button>`).join("")}</div>
+        <div class="row links"><span class="lbl">Chercher</span>${links(p)}</div>
+        <div class="row"><span class="lbl">Fichier</span><button type="button" class="kw" data-copy="${p.file}"><code>${p.file}</code></button></div>
+        ${p.tip ? `<div class="tip">${esc(p.tip)}</div>` : ""}
+      </div></article>`;
+  }).join("");
+  const n = PLANS.filter(p => done[p.n]).length;
+  document.getElementById("count").textContent = `${n} / ${PLANS.length} trouvés`;
+  document.getElementById("fill").style.width = (100 * n / PLANS.length) + "%";
+}
+function toast(m){ const t = document.getElementById("toast"); t.textContent = m; t.classList.add("on"); clearTimeout(t._h); t._h = setTimeout(() => t.classList.remove("on"), 1400); }
+document.addEventListener("change", e => {
+  const n = e.target.dataset && e.target.dataset.n; if (!n) return;
+  done[n] = e.target.checked; try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (err) {}
+  render();
+});
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-copy]");
+  if (b) {
+    const txt = b.dataset.copy;
+    const fallback = () => { const r = document.createRange(); r.selectNodeContents(b); const s = getSelection(); s.removeAllRanges(); s.addRange(r); toast("Sélectionné, fais Copier"); };
+    try { navigator.clipboard.writeText(txt).then(() => toast("Copié : " + txt), fallback); } catch (err) { fallback(); }
+    return;
+  }
+  const f = e.target.closest("[data-f]");
+  if (f) { filter = f.dataset.f; document.querySelectorAll("[data-f]").forEach(x => x.setAttribute("aria-pressed", x === f)); render(); }
+});
+render();
+</script>
