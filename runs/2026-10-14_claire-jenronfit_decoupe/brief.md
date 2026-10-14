@@ -48,3 +48,20 @@ python3 decouper.py
 | completely transformed my hair | a complètement transformé mes cheveux |
 
 Le plan du flacon (3,7 à 6,6 s) est gardé. Sérum non identifié (étiquette « TA… » / « …CAL », flacon bleu à compte-gouttes) : `work/flacon*.jpg`.
+
+## Montage FR (`montage_texte.py`)
+
+- Parties nettoyées reçues dans `source/nettoyees/partie-1` à `partie-4` : 3 premières images perdues par partie (décalage mesuré), compensées par 3 copies de la première image. 395 images.
+- Style relevé sur l'original : blanc, demi-gras, centré, sans contour, ombre douce. TikTok Sans 600, tailles calées sur la largeur des textes anglais (« Non merci… » 38,7 px source, le reste 28,3 à 29,5 px), lignes de plus de 640 px source coupées en deux.
+- Plages (images) et centres verticaux (px source) : « Non merci… » 112–147 (735) ; « parce que CETTE huile / existe » 112–147 (786, interligne 31) ; liste ligne par ligne comme l'original, jusqu'à 271 (centres 685, 729, 772, 816, 861 ; apparitions 148, 166, 187, 214, 238) ; « ma chute a diminué en 4 semaines ! » 272–321 (790) ; « a complètement transformé mes cheveux » 322–379 (697). 0–111 sans texte (hook ajouté par l'utilisateur).
+- Son d'origine. Sortie 1080×1920, H.264 CRF 18, AAC 192 kb/s.
+
+```
+python3 montage_texte.py --frames 130,250   # images de contrôle (work/)
+python3 montage_texte.py                    # montage complet
+```
+
+## Sorties
+
+- `sorties/a-nettoyer/partie-1` à `partie-4` (à passer dans VMake)
+- `sorties/claire-huile-sans-minoxidil-fr_v1.mp4` (montage FR, en attente de validation)
