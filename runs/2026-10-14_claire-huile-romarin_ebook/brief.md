@@ -40,10 +40,30 @@ Mots interdits de la Brand DNA respectés (pas de « stopper la chute », « mir
 - Textes exacts : `contenu.md`. Prompts : `prompts/pages/01.txt` à `11.txt`, générés par `work/ecrire_prompts.py` (copie du script de l'ebook 001, textes modifiés ; même lock DA sauf la chevelure).
 - Pages modifiées par rapport au 001 : 1 (titre, sous-titres, badges), 2 (tempes, « J'avais tout essayé », bonne dose), 3 (âge retiré, carte « la bonne dose et la régularité »), 4 (titre « Pourquoi ça marche », carte duo), 5 (titre « La bonne dose », intro, batana retirée), 7 (6 étapes avec tempes et front, « chaque jour »), 8 (cercles sur raie, tempes et front), 9 (nouveau calendrier), 10 (cartes bonne dose, bons gestes, régularité), 11 inchangée sauf DA. Page 6 (sécurité) inchangée. Toutes les pages sont à regénérer (chevelure dessinée changée).
 
-## Génération (à faire)
+## Génération (2026-10-14)
 
-GPT Image 2 via KIE, 3:4, 11 pages. Coût selon la résolution choisie par l'utilisateur : 1K 6 cr par page (66 cr), 2K 10 cr (110 cr), 4K 16 cr (176 cr). L'ebook 001 avait été fait en 1K.
+GPT Image 2 (`gpt-image-2-text-to-image`) via KIE, 3:4, 1K, 11 pages d'affilée, prompts `prompts/pages/NN.txt` sans modification.
 
-Commande par page : `python3 scripts/kie_image.py --model gpt-image-2-text-to-image --prompt-file prompts/pages/NN.txt --out sorties/pages/NN-v1.png --ratio 3:4 --resolution 1K`
+| Page | Version | Tâche KIE | Coût | Fichier | Statut |
+|---|---|---|---|---|---|
+| 01 | v1 | c9adf49b479f7fa268c5596b09e66719 | 6 cr | `sorties/pages/01-v1.png` | retenue |
+| 02 | v1 | 27ca9f31c6aac272b81bc6c8ad9c26ea | 6 cr | `sorties/pages/02-v1.png` | retenue |
+| 03 | v1 | f2cfe27ab195c03e9acdfa73ef24079f | 6 cr | `sorties/pages/03-v1.png` | retenue |
+| 04 | v1 | 97481186f3d802ab99faf1338d2bbf0f | 6 cr | `sorties/pages/04-v1.png` | retenue |
+| 05 | v1 | 04392ccb80920e341e567fcec3f27ea0 | 6 cr | `sorties/pages/05-v1.png` | retenue |
+| 06 | v1 | 5c38d5655cad73f01630abaf4eec1472 | 6 cr | `sorties/pages/06-v1.png` | retenue |
+| 07 | v1 | 20e2c98cd7bce2d0b93658d3612c2f6f | 6 cr | `sorties/pages/07-v1.png` | retenue |
+| 08 | v1 | 22db746f228d6274078382ac00a473c7 | 6 cr | `sorties/pages/08-v1.png` | retenue |
+| 09 | v1 | 99d218f06feb38268b633917fff9f881 | 6 cr | `sorties/pages/09-v1.png` | retenue |
+| 10 | v1 | fa90d7ad8e01691fc493b9c243101b93 | 6 cr | `sorties/pages/10-v1.png` | retenue |
+| 11 | v1 | e87677a5b2a169bff6e249d805fea764 | 6 cr | `sorties/pages/11-v1.png` | retenue |
 
-Bloqué au 14/10 : clé `KIE_API_KEY` absente de cette session. Contrôle après génération selon le skill (texte exact, accents, pas de signature parasite, taille 1086x1448, chevelure identique sur toutes les pages), puis PDF web et HQ, créa `creas/ebook/AAAA-MM-JJ_ebook_002.pdf` (+ `-hq.pdf`).
+Contrôle (skill, section « Contrôle après génération ») : 11 pages en 1086x1448 ; textes exacts et accents conformes ; signature « Claire » seulement en page 2 ; aucun âge ni chevelure grise, cheveux longs bruns ondulés identiques sur toutes les pages ; planche homogène (`sorties/planche-11-pages.jpg`). Aucune relance.
+
+Coût total : 66 crédits (0,33 $).
+
+## Livrables
+
+- Pages retenues : `retenues/pages/01.png` à `11.png` (toutes en v1).
+- PDF : `retenues/rituel-huile-romarin-web.pdf` (800 px, JPEG 80, 1,25 Mo) et `retenues/rituel-huile-romarin-hq.pdf` (pleine résolution, JPEG 93, 3,5 Mo), page 150 x 200 mm.
+- Créa finale : `creas/ebook/2026-10-14_ebook_002.pdf` et `2026-10-14_ebook_002-hq.pdf`.
