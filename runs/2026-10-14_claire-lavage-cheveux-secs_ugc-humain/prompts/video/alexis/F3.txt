@@ -1,0 +1,19 @@
+Vertical 9:16 TikTok haircare video, 8 seconds. Raw iPhone footage look, natural daylight from a window, real office corridor with an open light oak door, not cinematic, not CGI.
+
+REFERENCE ROLES (strict):
+- @Video1 is an AUDIO-ONLY reference. Its picture is a plain black screen: never show black frames, never copy its picture. Its soundtrack is the woman's voice and the master timeline of this video.
+- The speech is EXACTLY the voice of @Video1: same voice, same words, same timing, same pauses. Say every word ONCE: do not add, remove, repeat or change a single word. No other voice. The voice speaks French.
+- @Image1 is the CREATOR reference only (not a first frame): her face, freckles, green-grey eyes, wavy shoulder-length brown hair with natural highlights, soft pink fine-knit turtleneck sweater, camel high-waisted wide-leg trousers.
+- @Image2 is the room and the framing of the face-camera shots: open light oak door, white walls, doorway to a white corridor, ceiling tiles, dark grey carpet; she holds a small matte black wireless microphone in her right hand just below her chin.
+
+ONLY the woman talking to the camera, phone propped on a shelf at chest height: no B-roll, no cutaway, no close-up insert of hands alone. Shot changes only between medium shot and a slightly closer shot of her, on the times below.
+PERFECT LIP SYNC to @Video1 on every syllable.
+She is alive and expressive, never frozen, never just nodding: her whole upper body talks, she is genuinely passionate, explaining a hair-care trick to her girlfriends. Real micro-expressions: eyebrow raises, smile lines, quick blinks, natural breathing, weight shifting. Gestures loose and imperfect like a real person, not a presenter. The microphone stays in her right hand just below her chin and never covers her lips; her left hand does the gestures. Phone handheld micro-movement only, no zoom.
+
+TIMELINE:
+[0.0s-1.0s] Medium shot like @Image2. On "Troisièmement :" she raises three fingers of her left hand, eyebrows up.
+[1.0s-3.9s] Same shot. On "la serviette en microfibre" she mimes wrapping her hair in a towel turban with her left hand around her head; on "est indispensable !" she taps the air firmly with her index finger, emphatic.
+[3.9s-8.0s] Slightly closer shot. On "Les serviettes de bain classiques" she wrinkles her nose, skeptical; on "créent en réalité beaucoup de frottements…" she rubs the side of her hair quickly back and forth with her left hand, wincing; then she stops talking, mouth closed, eyes on the lens.
+
+Sound: the voice of @Video1 on top, clear; underneath, quiet office room tone. No music.
+Natural skin texture, no beauty filter. No on-screen text, no captions, no logos added.
