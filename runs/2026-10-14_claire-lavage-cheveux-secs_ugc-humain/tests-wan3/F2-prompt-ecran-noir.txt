@@ -1,0 +1,20 @@
+Vertical 9:16 TikTok haircare video, 9 seconds. Raw iPhone footage look, natural daylight from a window, real office corridor with an open light oak door, not cinematic, not CGI.
+
+REFERENCE ROLES (strict):
+- @Video1 is an AUDIO-ONLY reference. Its picture is a plain black screen: never show black frames, never copy its picture. Its soundtrack is the woman's voice and the master timeline of this video.
+- The speech is EXACTLY the voice of @Video1: same voice, same words, same timing, same pauses. Say every word ONCE: do not add, remove, repeat or change a single word. No other voice. The voice speaks French.
+- @Image1 is the CREATOR reference only (not a first frame): her face, freckles, green-grey eyes, wavy shoulder-length brown hair with natural highlights, soft pink fine-knit turtleneck sweater, camel high-waisted wide-leg trousers.
+- @Image2 is the room and the framing of the face-camera shots: open light oak door, white walls, doorway to a white corridor, ceiling tiles, dark grey carpet; she holds a small matte black wireless microphone in her right hand just below her chin.
+
+ONLY the woman talking to the camera, phone propped on a shelf at chest height: no B-roll, no cutaway, no close-up insert of hands alone. Shot changes only between medium shot and a slightly closer shot of her, on the times below.
+PERFECT LIP SYNC to @Video1 on every syllable.
+She is alive and expressive, never frozen, never just nodding: her whole upper body talks, she is genuinely passionate, explaining a hair-care trick to her girlfriends. Real micro-expressions: eyebrow raises, smile lines, quick blinks, natural breathing, weight shifting. Gestures loose and imperfect like a real person, not a presenter. The microphone stays in her right hand just below her chin and never covers her lips; her left hand does the gestures. Phone handheld micro-movement only, no zoom.
+
+TIMELINE:
+[0.0s-2.4s] Medium shot like @Image2. On "En fait," she tilts her head with a knowing half-smile; on "cette première couche d'après-shampoing," her left hand, palm down, mimes laying a thin layer over the ends of her hair at shoulder height.
+[2.4s-4.3s] Same shot. On "va protéger vos longueurs et vos pointes," she runs her left hand down the lengths of her hair to the tips, protective look, eyebrows up.
+[4.3s-6.1s] Same shot. On "de l'effet asséchant du shampoing…" she wrinkles her nose and rubs her fingertips together as if feeling something dry; a short breath in the pause after "shampoing".
+[6.1s-9.0s] Slightly closer shot. On "c'est exactement ce qui provoque la casse." she leans in toward the lens, serious, and makes a small snapping gesture with her left hand on "casse"; then she stops talking, mouth closed, eyes on the lens.
+
+Sound: the voice of @Video1 on top, clear; underneath, quiet office room tone. No music.
+Natural skin texture, no beauty filter. No on-screen text, no captions, no logos added.

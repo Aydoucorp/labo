@@ -5,13 +5,14 @@ import sys, json, time, urllib.request, pathlib, argparse
 sys.path.insert(0, "/home/user/labo/scripts")
 from kie_image import API, call, upload
 ap = argparse.ArgumentParser(); ap.add_argument("prompt"); ap.add_argument("out")
-ap.add_argument("--image", nargs="*", default=[]); ap.add_argument("--audio", nargs="*", default=[])
+ap.add_argument("--image", nargs="*", default=[]); ap.add_argument("--audio", nargs="*", default=[]); ap.add_argument("--video", nargs="*", default=[])
 ap.add_argument("--duration", type=int, default=5); ap.add_argument("--resolution", default="480P"); ap.add_argument("--ratio", default="9:16")
 a = ap.parse_args()
 inp = {"prompt": pathlib.Path(a.prompt).read_text(), "duration": a.duration, "resolution": a.resolution,
        "aspect_ratio": a.ratio, "audio": True}
 if a.image: inp["reference_image_urls"] = [upload(i) for i in a.image]
 if a.audio: inp["reference_audio_urls"] = [upload(x) for x in a.audio]
+if a.video: inp["reference_video_urls"] = [upload(x) for x in a.video]
 t = call(f"{API}/createTask", {"model": "wan/3-0-video", "input": inp})
 if t.get("code") != 200: sys.exit(f"refusé : {t.get('code')} {t.get('msg')}")
 tid = t["data"]["taskId"]
