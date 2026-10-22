@@ -99,3 +99,6 @@ New photo, vertical 9:16, shot on iPhone from directly above her head: she bends
 ```
 Vertical 9:16 handheld smartphone video, 4 seconds, starting from the input image and keeping the same close-up from above: the widened parting stays the subject and stays wide and clearly visible during the whole video, never fuller or denser than in the input image. Dynamic real gestures, never stiff: with her fingertips she briskly spreads the hair further apart along the part line in two quick strokes, the scalp showing more and more, then runs one fingertip slowly along the bare pink line from the front toward the crown, and slightly tilts her head so the light catches the bare scalp. Natural handheld micro-shake, natural daylight, sharp detail on the hair strands and scalp, realistic, shot on iPhone, no text, no logo. She does not speak.
 ```
+
+## Reçu
+- `rushes/v-raie-utilisateur-v1.mp4` (8 s, 720x1280, IA générée par l'utilisateur à partir de I3) : raie élargie bien visible du début à la fin, gestes des doigts de 1,0 à 3,5 s. Fenêtre retenue pour le montage : environ 1,0 à 3,4 s (pour 35,28 à 37,59 s de la voix). Validée par Claude, en attente de l'avis de l'utilisateur.
