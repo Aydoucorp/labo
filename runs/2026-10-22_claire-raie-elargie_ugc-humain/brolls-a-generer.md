@@ -128,3 +128,9 @@ Replace only her red and white striped T-shirt with a soft women's pyjama sweate
 ```
 - `rushes/v-queue-utilisateur-v2-pyjama.mp4` (4 s) : même vidéo avec un pull de pyjama rose poudré (Omni Flash) ; cheveux, gestes et timing identiques. Version retenue pour la queue de cheval (fenêtre 0,3 à 3,5 s).
 - Raie : pas de changement de haut (décision de l'utilisateur), `rushes/v-raie-utilisateur-v1.mp4` reste tel quel.
+
+## Décision de l'utilisateur : dates sur les b-rolls avatar (style vidéos virales)
+- Queue de cheval (20,35 à 23,52 s) : « mars 2024 ».
+- Raie (35,28 à 37,59 s) : « juin 2024 ».
+- Rendu : petite date seule, blanche avec ombre légère, en haut à gauche comme un souvenir de téléphone. Pas de mot « avant », « après » ni de résultat chiffré. Dates modifiables par l'utilisateur.
+- Rappel noté : la Brand DNA interdit « un avant-après qui laisse croire à une garantie » ; l'utilisateur a choisi de mettre les dates en connaissance de cause.
