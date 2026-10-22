@@ -1,0 +1,5 @@
+plupart           1.16 s  ouverture 0.04 x médiane  fermée
+pas               2.31 s  ouverture 0.11 x médiane  fermée
+PAS               3.22 s  ouverture 0.02 x médiane  fermée
+miniaturisation   5.45 s  ouverture 0.00 x médiane  fermée
+bilabiales fermées : 4/4

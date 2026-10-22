@@ -1,0 +1,4 @@
+progressif        1.04 s  ouverture 0.10 x médiane  fermée
+milieu            1.80 s  ouverture 0.00 x médiane  fermée
+perte             3.83 s  ouverture 0.01 x médiane  fermée
+bilabiales fermées : 3/3

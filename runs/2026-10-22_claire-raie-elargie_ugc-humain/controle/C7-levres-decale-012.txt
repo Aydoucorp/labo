@@ -1,0 +1,4 @@
+pense             1.06 s  ouverture 0.03 x médiane  fermée
+parce             3.36 s  ouverture 0.02 x médiane  fermée
+plupart           3.79 s  ouverture 0.01 x médiane  fermée
+bilabiales fermées : 3/3

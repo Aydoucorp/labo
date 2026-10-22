@@ -1,0 +1,2 @@
+pointes           0.65 s  ouverture 0.01 x médiane  fermée
+bilabiales fermées : 1/1

@@ -1,0 +1,20 @@
+mot voix off        voix off  seedance   écart
+Cet                     0.00      0.00   +0.00
+élargissement           0.46      0.46   +0.00
+progressif              1.10      1.10   +0.00
+au                      1.72      1.72   +0.00
+milieu                  1.90      1.88   -0.02
+de                      2.02      2.04   +0.02
+la                      2.20      2.20   +0.00
+tête,                   2.34      2.34   +0.00
+c                       3.00      3.00   +0.00
+'est                    3.00      3.00   +0.00
+généralement            3.16      3.14   -0.02
+une                     3.64      3.64   +0.00
+perte                   3.84      3.84   +0.00
+de                      4.18      4.20   +0.02
+densité                 4.34      4.34   +0.00
+d                       4.76      4.76   +0.00
+'origine                4.90      4.90   +0.00
+hormonale.              5.24      5.24   +0.00
+écart moyen +0.00 s, max 0.02 s, mots appariés 18/18
