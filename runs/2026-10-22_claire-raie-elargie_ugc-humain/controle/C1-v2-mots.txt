@@ -1,0 +1,16 @@
+mot voix off        voix off  seedance   écart
+Si                      0.48      0.00   -0.48
+t                       0.82      0.86   +0.04
+'as                     0.96      0.96   +0.00
+l                       1.04         ?
+'air                    1.06         ?
+s                       1.12         ?
+'élargit                1.20      1.16   -0.04
+comme                   1.62      1.56   -0.06
+ça,                     1.80      1.80   +0.00
+cette                   2.46      2.46   +0.00
+vidéo                   2.52      2.50   -0.02
+est                     2.80      2.80   +0.00
+pour                    3.02      3.02   +0.00
+toi.                    3.14      3.14   +0.00
+écart moyen -0.01 s, max 0.06 s, mots appariés 11/14

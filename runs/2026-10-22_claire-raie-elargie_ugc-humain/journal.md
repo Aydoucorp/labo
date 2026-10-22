@@ -9,3 +9,8 @@
 | 2026-10-22 | Clip C7 | v1 | idem, 6 s | idem, C7 | 43902336f16eb42c2061c41229973676 | 96 cr | Mots 26/26, avance constante de 0,12 s (lèvres 3/3 une fois la voix avancée de 0,12 s au montage). **Défaut : elle porte le pull crème de @Image2 au lieu de la marinière**, et le cadre se resserre. Relance à proposer (96 cr), sans @Image2. |
 
 Total clips : 464 cr. Détails : `controle/` (mots, lèvres, planches). Aperçus avec la voix ElevenLabs : `sorties/apercus/`.
+| 2026-10-22 | Clip C1 | v2 | 4 s, 0,5 s de silence en tête de la voix (`audio/clips/C1-pad_ecran-noir.mp4`), sans @Image2, tenue verrouillée (`prompts/video/C1-v2.txt`) | @Image1 `sorties/cadrage-v2.png` | 0eca5dbcd4a17ffb15a668466c0f2aa4 | 64 cr | Relancé à la demande de l'utilisateur (décalage perçu sur v1). Mots écart max 0,06 s, lèvres 1/1, marinière. Les 0,5 s de tête sont coupées au montage. |
+| 2026-10-22 | Clip C7 | v2 | 6 s, sans @Image2, tenue et cadre verrouillés (`prompts/video/C7-v2.txt`) | @Image1 `sorties/cadrage-v2.png` | 152e8aaf57c3292390c2df20c18610aa | 96 cr | Marinière, cadre stable, mots 26/26 sans décalage (moyenne 0,00 s), lèvres 3/3. |
+| 2026-10-22 | Montage v1 | v1 | `work/montage.py` | voir `montage.md` | | 0 | `montage/final_9x16.mp4`, 43,7 s |
+
+Total du run : 21,6 cr d'images + 624 cr de clips = 645,6 cr (environ 3,23 $).
