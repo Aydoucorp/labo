@@ -83,3 +83,19 @@ Vertical 9:16 handheld smartphone video, 5 seconds, starting from the input imag
 ```
 Vertical 9:16 handheld smartphone video, 4 seconds, starting from the input image, then the phone moves in fast: she bends her head forward toward the lens in one quick movement while the camera pushes in close above her, so the top of her head and her centre parting fill the frame; her face is out of frame, the parting is the subject. Dynamic real gestures, never stiff: with the fingertips of both hands she briskly flips the hair from one side of the parting to the other, then spreads it wide apart along the part line in two quick strokes, revealing a widened parting with the scalp clearly visible and fine sparse hair on each side, and runs one fingertip along the bare line. Natural handheld micro-shake, natural daylight, sharp detail on the hair strands and scalp, realistic, shot on iPhone, no text, no logo. She does not speak.
 ```
+
+## Mise à jour 4 : raie trop normale sur le premier essai (retour de l'utilisateur)
+Cause : l'image de départ (I1, debout de face) montre des cheveux épais ; le modèle vidéo ne crée pas seul une raie élargie.
+Correction : image de départ dédiée, déjà en gros plan sur la raie élargie, puis vidéo à partir de cette image.
+Inputs de l'image : `sorties/cadrage-v2.png` (Image 1, l'avatar) + `references/raie-elargie-ref.png` (Image 2, moitié gauche de l'insert Nano Banana : l'aspect de la raie).
+
+### I3 : gros plan raie élargie
+```
+Image 1 is the woman: same medium-dark brown hair colour and texture, same red and white striped T-shirt, same skin tone and hands, white smartwatch on her left wrist. Image 2 shows exactly how her parting must look: copy its widened part line and diffuse thinning.
+New photo, vertical 9:16, shot on iPhone from directly above her head: she bends her head down toward the lens, the top of her head and her centre parting fill most of the frame, her face is not visible, only a bit of her forehead at the bottom edge and the red and white stripes of her T-shirt at the bottom corners. With the fingertips of both hands she holds the hair apart on each side of the parting. The parting is clearly widened like in Image 2: a broad diffuse band of pink scalp along the centre line, about two fingers wide, widening toward the crown, with sparse fine short hairs inside it and thinner, see-through hair on each side; not a normal thin parting line. Natural soft window light, sharp detail on the hair strands and scalp, realistic, no beauty filter. No text, no logo, no watermark.
+```
+
+### V-raie-v3 (à partir de I3, 4 s)
+```
+Vertical 9:16 handheld smartphone video, 4 seconds, starting from the input image and keeping the same close-up from above: the widened parting stays the subject and stays wide and clearly visible during the whole video, never fuller or denser than in the input image. Dynamic real gestures, never stiff: with her fingertips she briskly spreads the hair further apart along the part line in two quick strokes, the scalp showing more and more, then runs one fingertip slowly along the bare pink line from the front toward the crown, and slightly tilts her head so the light catches the bare scalp. Natural handheld micro-shake, natural daylight, sharp detail on the hair strands and scalp, realistic, shot on iPhone, no text, no logo. She does not speak.
+```
