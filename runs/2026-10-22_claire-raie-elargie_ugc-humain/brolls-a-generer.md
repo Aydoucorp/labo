@@ -43,3 +43,30 @@ Vertical 9:16 smartphone video, 5 seconds, continuing from the input image: same
 ```
 Vertical 9:16 smartphone video, 4 seconds, continuing from the input image: same woman, same red and white striped T-shirt, same room, same fixed phone camera, no camera movement. She does not speak, mouth closed. She bows her head toward the lens so the top of her head fills the upper part of the frame, and with the fingertips of both hands she parts her hair along the centre parting, showing a widened part line with the scalp visible along it and finer, sparser hair on each side. She holds the parting open for a moment, the hair slightly trembling between her fingers. Natural daylight from the front-left, sharp detail on the hair strands and scalp, realistic, shot on iPhone, no text, no logo.
 ```
+
+## Mise à jour 2 : images debout générées par l'utilisateur, puis vidéos
+Input des images : `sorties/cadrage-v2.png`. I1 (debout de face) donne la vidéo V-raie, I2 (debout de profil, queue de cheval) donne la vidéo V-queue.
+
+### I1 : debout, de face
+```
+Using the input image as the strict reference, create a new photo of the exact same woman: identical face, facial features, skin texture with freckles and fine lines, brown eyes, apparent age (mid forties), identical long wavy medium-dark brown hair with a centre parting, same red and white striped short-sleeve T-shirt, white smartwatch on her left wrist, thin black hair tie on her right wrist. Do not beautify her skin.
+This time she is standing, facing the camera squarely, in the same room: blue-grey wainscoting and off-white wall behind her, beige linen curtain on the right. Medium shot from the top of her head to the hips, phone at eye level on a stand, both arms relaxed along her body, calm neutral expression, mouth closed, looking into the lens. Her centre parting is clearly visible and slightly wide.
+Natural soft window light from the front-left, shot on iPhone, realistic smartphone photo, deep depth of field, vertical 9:16. No text, no logo, no watermark.
+```
+
+### I2 : debout, de profil, queue de cheval
+```
+Using the input image as the strict reference, create a new photo of the exact same woman: identical face, facial features, skin texture with freckles and fine lines, brown eyes, apparent age (mid forties), same medium-dark brown hair colour, same red and white striped short-sleeve T-shirt, white smartwatch on her left wrist. Do not beautify her skin.
+This time she is standing in strict side profile, facing the left of the frame, in the same room: blue-grey wainscoting and off-white wall behind her, beige linen curtain at the right edge. Her hair is pulled back into a low ponytail at the nape of her neck with a thin black hair tie: the ponytail is noticeably thin and sparse, barely thicker than a finger, the ends wispy and see-through, a few fine flyaways at the hairline. Medium shot from the top of her head to the hips, phone at eye level on a stand, arms relaxed, calm slightly worried expression, mouth closed.
+Natural soft window light from the front-left, shot on iPhone, realistic smartphone photo, deep depth of field, vertical 9:16. No text, no logo, no watermark.
+```
+
+### V-raie (à partir de I1, 4 s), sur « …avant que tes cheveux ne s'affinent encore davantage »
+```
+Vertical 9:16 smartphone video, 4 seconds, starting from the input image: same woman, same room, fixed phone camera, no zoom. She does not speak, mouth closed. She steps a little closer to the lens and bows her head forward so the top of her head comes toward the camera, then with the fingertips of both hands she parts her hair along the centre parting, showing a widened part line with the scalp visible along it and finer, sparser hair on each side. She holds the parting open for a moment. Natural daylight, sharp detail on the hair strands and scalp, realistic, shot on iPhone, no text, no logo.
+```
+
+### V-queue (à partir de I2, 5 s), sur « …ta queue de cheval te paraît deux fois moins épaisse »
+```
+Vertical 9:16 smartphone video, 5 seconds, starting from the input image: same woman in side profile, same room, fixed phone camera, no zoom. She does not speak, mouth closed. She reaches back with her right hand, takes her thin ponytail and brings it forward over her shoulder, then wraps her thumb and index finger around it just below the hair tie and slides her fingers down to the wispy ends, showing how thin and sparse it is. She looks down at it with a disappointed, slightly worried expression and a small sigh. Natural daylight, realistic hair and skin texture, shot on iPhone, no text, no logo.
+```
