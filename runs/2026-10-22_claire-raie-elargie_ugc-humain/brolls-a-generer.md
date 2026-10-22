@@ -116,3 +116,13 @@ New photo, vertical 9:16, shot on iPhone, close-up from behind and slightly to t
 ```
 Vertical 9:16 handheld smartphone video, 4 seconds, starting from the input image and keeping the same close-up: the thin ponytail stays the subject the whole time and stays as thin and sparse as in the input image, never fuller or thicker. Her face stays out of frame. Dynamic real gestures, never stiff: she squeezes the ponytail tight in her fist right under the hair tie to show how little hair there is, then pulls her fingers quickly down the full length so the strands separate and the see-through wispy ends spread apart, flicks the ends with her fingers, and lets the ponytail drop limp against her shoulder. Natural handheld micro-shake, natural daylight, sharp detail on the hair strands, realistic, shot on iPhone, no text, no logo. She does not speak.
 ```
+- `rushes/v-queue-utilisateur-v1.mp4` (4 s, 720x1280, IA générée par l'utilisateur) : queue de cheval fine, gestes dynamiques de 0 à 2,8 s. Fenêtre pour le montage : environ 0,3 à 3,5 s (pour 20,35 à 23,52 s de la voix).
+
+## Mise à jour 6 : changement de haut sur les deux b-rolls (idée de l'utilisateur)
+Les cheveux de l'avatar assise sont beaux, ceux des b-rolls sont fins : l'utilisateur change le haut (pull de pyjama) avec Omni Flash pour que les b-rolls se lisent comme un autre moment.
+Point de vigilance : des dates « dans le passé » feraient un avant-après implicite ; la Brand DNA interdit « un avant-après qui laisse croire à une garantie ». En attente de la décision de l'utilisateur.
+
+### Prompt de changement de haut (vidéo en input)
+```
+Replace only her red and white striped T-shirt with a soft women's pyjama sweater: long sleeves, loose and cosy, brushed fleece, plain pale dusty pink, round neck. Keep everything else exactly identical: her hair, the ponytail and the parting (same thinness, same colour, same strands), her hands, every gesture and its timing, the camera movement, the lighting and the background. Do not change or thicken the hair. No text, no logo.
+```
