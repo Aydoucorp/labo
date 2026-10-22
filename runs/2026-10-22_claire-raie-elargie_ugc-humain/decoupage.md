@@ -21,3 +21,8 @@ Coût Wan 3.0 480p (8 cr/s généré + 8 cr/s de vidéo de référence) : enviro
 - 0,0 à 2,8 s : texte d'accroche en haut + photo comparative de raies en bas (image à recréer, modèle le moins cher).
 - 15,9 à 19 s environ : schéma de la miniaturisation du follicule (image à recréer).
 - Sous-titres mot par mot, majuscules blanches à ombre légère, à gauche à hauteur d'épaule (faits au montage, gratuits).
+
+## Mise à jour (2026-10-22) : format hybride
+Pour descendre sous 2,50 $, C4 et C6 passent en b-rolls (voix ElevenLabs par-dessus), voir `brolls-a-generer.md`.
+Wan 3.0 écran noir pour C1, C2, C3, C5, C7 : 29 s générées + environ 29 s de vidéo de voix, soit environ 464 cr (2,32 $).
+Le schéma du follicule (insert) peut passer sur « miniaturisation » (14,4 à 15,4 s) puisque C4 montre déjà la 3D.
