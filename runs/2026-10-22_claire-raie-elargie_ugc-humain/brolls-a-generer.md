@@ -29,3 +29,17 @@ Mettre `references/style-3d-follicule.jpg` en image de départ ou de style pour 
 ```
 3D medical animation, vertical 9:16, 4 seconds, same style as the reference image: a cutaway block of scalp skin floating on a dark plum background, soft pink skin layers, a cream fat layer at the bottom, one hair follicle with its hair in the centre, soft studio lighting, clean premium medical render. At the start, the skin around the follicle is swollen and glows an angry red, with small red inflammation particles pulsing around the bulb, and the hair looks thin. Over the 4 seconds, the red glow cools down and fades into a calm healthy pink, the particles dissolve, the bulb plumps up slightly and the hair looks a bit stronger. Slow gentle push-in camera. No text, no labels, no logo.
 ```
+
+## Mise à jour : b-rolls non 3D faits à partir de l'avatar (choix de l'utilisateur)
+Image en entrée : `sorties/cadrage-v2.png` (même avatar, même tenue, même décor que les clips Wan). Pas de parole sur ces plans : bouche fermée, la voix ElevenLabs passe par-dessus.
+P1 ci-dessus est remplacé par P1-avatar ; P3-avatar remplace br-0070 (35,28 à 37,59 s), br-0070 reste en secours.
+
+### P1-avatar : queue de cheval fine (5 s)
+```
+Vertical 9:16 smartphone video, 5 seconds, continuing from the input image: same woman, same red and white striped T-shirt, same room, same fixed phone camera, no camera movement. She does not speak, mouth closed. She gathers her hair into a low ponytail over her right shoulder with both hands, then brings the ponytail forward close to the lens and wraps her thumb and index finger around it just below the hair tie, showing how thin it has become: the ponytail is visibly thin and sparse, the ends wispy and see-through. She looks at it, then at the lens with a disappointed, slightly worried expression and a small sigh. Natural daylight from the front-left, realistic hair and skin texture, shot on iPhone, no text, no logo.
+```
+
+### P3-avatar : elle écarte sa raie (4 s)
+```
+Vertical 9:16 smartphone video, 4 seconds, continuing from the input image: same woman, same red and white striped T-shirt, same room, same fixed phone camera, no camera movement. She does not speak, mouth closed. She bows her head toward the lens so the top of her head fills the upper part of the frame, and with the fingertips of both hands she parts her hair along the centre parting, showing a widened part line with the scalp visible along it and finer, sparser hair on each side. She holds the parting open for a moment, the hair slightly trembling between her fingers. Natural daylight from the front-left, sharp detail on the hair strands and scalp, realistic, shot on iPhone, no text, no logo.
+```
