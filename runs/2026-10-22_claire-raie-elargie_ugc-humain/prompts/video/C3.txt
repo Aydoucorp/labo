@@ -1,0 +1,19 @@
+Vertical 9:16 TikTok haircare video, 7 seconds. Raw iPhone front-camera footage look, natural soft window light from the front-left, real living room, not cinematic, not CGI.
+
+REFERENCE ROLES (strict):
+- @Video1 is an AUDIO-ONLY reference. Its picture is a plain black screen: never show black frames, never copy its picture. Its soundtrack is the woman's voice and the master timeline of this video.
+- The speech is EXACTLY the voice of @Video1: same voice, same words, same timing, same pauses. Say every word ONCE: do not add, remove, repeat or change a single word. No other voice. The voice speaks French.
+- @Image1 is the CREATOR reference and the framing (not a first frame): woman in her mid forties, her face, natural skin texture with freckles and fine lines, brown eyes, long wavy medium-dark brown hair with a centre parting, red and white striped short-sleeve T-shirt, white smartwatch on her left wrist, thin black hair tie on her right wrist; seated on a beige armchair in front of the blue-grey wainscoting and the beige linen curtain on the right.
+- @Image2 is a close-up of the same woman's face only: use it for her facial features. Ignore its top and its background.
+
+ONLY the woman talking to the camera, phone fixed on a stand slightly above eye level, medium close-up like @Image1: no B-roll, no cutaway, no close-up insert of hands alone, no zoom. She leans slightly forward toward the lens, like confiding in a girlfriend.
+PERFECT LIP SYNC to @Video1 on every syllable.
+She is alive and expressive, never frozen, never just nodding: frequent eyebrow raises, head tilts, quick blinks, natural breathing, real micro-expressions. Her hands come up into the frame to gesture, loose and imperfect like a real person, not a presenter. Eye contact with the lens almost all the time.
+
+TIMELINE:
+[0.0s-2.6s] She leans in a little closer to the lens, confiding. On "Et voici ce que la plupart des femmes ne voient pas." she lowers her voice slightly and taps her index finger softly in the air on "ne voient pas".
+[2.6s-4.8s] On "Ce n'est PAS une chute spectaculaire…" firm small head shake on "PAS", both hands open wide on "spectaculaire" to show something big.
+[4.8s-6.65s] On "c'est une miniaturisation." she brings one hand up and pinches her thumb and index finger almost closed to show something tiny on "miniaturisation", eyebrows raised; then mouth closed.
+
+Sound: the voice of @Video1 on top, clear and close; underneath, a very quiet living room tone. No music.
+Natural skin texture, no beauty filter. No on-screen text, no captions, no logos added.

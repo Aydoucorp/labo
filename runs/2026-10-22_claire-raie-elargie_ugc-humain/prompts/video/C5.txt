@@ -1,0 +1,19 @@
+Vertical 9:16 TikTok haircare video, 7 seconds. Raw iPhone front-camera footage look, natural soft window light from the front-left, real living room, not cinematic, not CGI.
+
+REFERENCE ROLES (strict):
+- @Video1 is an AUDIO-ONLY reference. Its picture is a plain black screen: never show black frames, never copy its picture. Its soundtrack is the woman's voice and the master timeline of this video.
+- The speech is EXACTLY the voice of @Video1: same voice, same words, same timing, same pauses. Say every word ONCE: do not add, remove, repeat or change a single word. No other voice. The voice speaks French.
+- @Image1 is the CREATOR reference and the framing (not a first frame): woman in her mid forties, her face, natural skin texture with freckles and fine lines, brown eyes, long wavy medium-dark brown hair with a centre parting, red and white striped short-sleeve T-shirt, white smartwatch on her left wrist, thin black hair tie on her right wrist; seated on a beige armchair in front of the blue-grey wainscoting and the beige linen curtain on the right.
+- @Image2 is a close-up of the same woman's face only: use it for her facial features. Ignore its top and its background.
+
+ONLY the woman talking to the camera, phone fixed on a stand slightly above eye level, medium close-up like @Image1: no B-roll, no cutaway, no close-up insert of hands alone, no zoom. She leans slightly forward toward the lens, like confiding in a girlfriend.
+PERFECT LIP SYNC to @Video1 on every syllable.
+She is alive and expressive, never frozen, never just nodding: frequent eyebrow raises, head tilts, quick blinks, natural breathing, real micro-expressions. Her hands come up into the frame to gesture, loose and imperfect like a real person, not a presenter. Eye contact with the lens almost all the time.
+
+TIMELINE:
+[0.0s-2.0s] On "Couper tes pointes n'y changera rien…" firm and energetic, her left hand mimes scissors snipping at the ends of her hair, then a short flat "no" gesture with the open hand on "rien".
+[2.0s-4.0s] On "Le collagène n'y changera rien." flat, slightly exasperated: she closes her eyes for a second, shrugs her shoulders and makes a small pout of helplessness.
+[4.0s-6.55s] On "Et l'ignorer n'y changera CERTAINEMENT rien." she opens her eyes, leans in, raises her left hand and closes it into a fist on "CERTAINEMENT", strong stress; then mouth closed, eyes on the lens.
+
+Sound: the voice of @Video1 on top, clear and close; underneath, a very quiet living room tone. No music.
+Natural skin texture, no beauty filter. No on-screen text, no captions, no logos added.
