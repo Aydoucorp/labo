@@ -1,0 +1,1113 @@
+{
+ "audio": "audio/voix.mp3",
+ "duration_s": 43.729,
+ "language": "fr",
+ "method": "ctc-forced-aligner",
+ "script_hash": "47f24757c41c089560adb84934fd063c807127e3",
+ "words": [
+  {
+   "i": 0,
+   "w": "Si",
+   "start": 0.11,
+   "end": 0.24,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 1,
+   "w": "ta",
+   "start": 0.26,
+   "end": 0.41,
+   "score": 0.994,
+   "punct_after": ""
+  },
+  {
+   "i": 2,
+   "w": "raie",
+   "start": 0.42,
+   "end": 0.57,
+   "score": 0.067,
+   "punct_after": ""
+  },
+  {
+   "i": 3,
+   "w": "s'élargit",
+   "start": 0.58,
+   "end": 1.01,
+   "score": 0.385,
+   "punct_after": ""
+  },
+  {
+   "i": 4,
+   "w": "comme",
+   "start": 1.02,
+   "end": 1.3,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 5,
+   "w": "ça",
+   "start": 1.3,
+   "end": 1.46,
+   "score": 0.01,
+   "punct_after": ","
+  },
+  {
+   "i": 6,
+   "w": "cette",
+   "start": 1.72,
+   "end": 1.96,
+   "score": 0.745,
+   "punct_after": ""
+  },
+  {
+   "i": 7,
+   "w": "vidéo",
+   "start": 1.98,
+   "end": 2.32,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 8,
+   "w": "est",
+   "start": 2.32,
+   "end": 2.42,
+   "score": 0.415,
+   "punct_after": ""
+  },
+  {
+   "i": 9,
+   "w": "pour",
+   "start": 2.44,
+   "end": 2.59,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 10,
+   "w": "toi",
+   "start": 2.62,
+   "end": 2.82,
+   "score": 0.977,
+   "punct_after": "."
+  },
+  {
+   "i": 11,
+   "w": "Cet",
+   "start": 3.22,
+   "end": 3.37,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 12,
+   "w": "élargissement",
+   "start": 3.38,
+   "end": 4.04,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 13,
+   "w": "progressif",
+   "start": 4.04,
+   "end": 4.7,
+   "score": 0.974,
+   "punct_after": ""
+  },
+  {
+   "i": 14,
+   "w": "au",
+   "start": 4.7,
+   "end": 4.8,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 15,
+   "w": "milieu",
+   "start": 4.8,
+   "end": 5.04,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 16,
+   "w": "de",
+   "start": 5.04,
+   "end": 5.08,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 17,
+   "w": "la",
+   "start": 5.1,
+   "end": 5.19,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 18,
+   "w": "tête",
+   "start": 5.25,
+   "end": 5.6,
+   "score": 0.922,
+   "punct_after": "..."
+  },
+  {
+   "i": 19,
+   "w": "c'est",
+   "start": 5.89,
+   "end": 6.02,
+   "score": 0.874,
+   "punct_after": ""
+  },
+  {
+   "i": 20,
+   "w": "généralement",
+   "start": 6.04,
+   "end": 6.62,
+   "score": 0.992,
+   "punct_after": ""
+  },
+  {
+   "i": 21,
+   "w": "une",
+   "start": 6.62,
+   "end": 6.78,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 22,
+   "w": "perte",
+   "start": 6.83,
+   "end": 7.14,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 23,
+   "w": "de",
+   "start": 7.14,
+   "end": 7.24,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 24,
+   "w": "densité",
+   "start": 7.24,
+   "end": 7.74,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 25,
+   "w": "d'origine",
+   "start": 7.74,
+   "end": 8.21,
+   "score": 0.938,
+   "punct_after": ""
+  },
+  {
+   "i": 26,
+   "w": "hormonale",
+   "start": 8.26,
+   "end": 8.81,
+   "score": 0.927,
+   "punct_after": "."
+  },
+  {
+   "i": 27,
+   "w": "Et",
+   "start": 9.14,
+   "end": 9.3,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 28,
+   "w": "voici",
+   "start": 9.3,
+   "end": 9.7,
+   "score": 0.933,
+   "punct_after": ""
+  },
+  {
+   "i": 29,
+   "w": "ce",
+   "start": 9.7,
+   "end": 9.78,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 30,
+   "w": "que",
+   "start": 9.8,
+   "end": 9.92,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 31,
+   "w": "la",
+   "start": 9.92,
+   "end": 10.0,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 32,
+   "w": "plupart",
+   "start": 10.11,
+   "end": 10.5,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 33,
+   "w": "des",
+   "start": 10.52,
+   "end": 10.66,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 34,
+   "w": "femmes",
+   "start": 10.66,
+   "end": 10.94,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 35,
+   "w": "ne",
+   "start": 10.94,
+   "end": 11.02,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 36,
+   "w": "voient",
+   "start": 11.02,
+   "end": 11.18,
+   "score": 0.582,
+   "punct_after": ""
+  },
+  {
+   "i": 37,
+   "w": "pas",
+   "start": 11.26,
+   "end": 11.39,
+   "score": 0.999,
+   "punct_after": "."
+  },
+  {
+   "i": 38,
+   "w": "Ce",
+   "start": 11.7,
+   "end": 11.88,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 39,
+   "w": "n'est",
+   "start": 11.88,
+   "end": 12.05,
+   "score": 0.98,
+   "punct_after": ""
+  },
+  {
+   "i": 40,
+   "w": "PAS",
+   "start": 12.17,
+   "end": 12.37,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 41,
+   "w": "une",
+   "start": 12.46,
+   "end": 12.68,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 42,
+   "w": "chute",
+   "start": 12.68,
+   "end": 12.92,
+   "score": 0.882,
+   "punct_after": ""
+  },
+  {
+   "i": 43,
+   "w": "spectaculaire",
+   "start": 12.92,
+   "end": 13.63,
+   "score": 1.0,
+   "punct_after": "..."
+  },
+  {
+   "i": 44,
+   "w": "c'est",
+   "start": 13.96,
+   "end": 14.18,
+   "score": 0.979,
+   "punct_after": ""
+  },
+  {
+   "i": 45,
+   "w": "une",
+   "start": 14.18,
+   "end": 14.4,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 46,
+   "w": "miniaturisation",
+   "start": 14.4,
+   "end": 15.4,
+   "score": 0.815,
+   "punct_after": "."
+  },
+  {
+   "i": 47,
+   "w": "À",
+   "start": 15.86,
+   "end": 15.98,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 48,
+   "w": "chaque",
+   "start": 16.01,
+   "end": 16.29,
+   "score": 0.862,
+   "punct_after": ""
+  },
+  {
+   "i": 49,
+   "w": "cycle",
+   "start": 16.3,
+   "end": 16.59,
+   "score": 0.988,
+   "punct_after": ""
+  },
+  {
+   "i": 50,
+   "w": "de",
+   "start": 16.6,
+   "end": 16.71,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 51,
+   "w": "pousse",
+   "start": 16.76,
+   "end": 17.12,
+   "score": 0.751,
+   "punct_after": ","
+  },
+  {
+   "i": 52,
+   "w": "le",
+   "start": 17.25,
+   "end": 17.43,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 53,
+   "w": "cheveu",
+   "start": 17.44,
+   "end": 17.73,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 54,
+   "w": "revient",
+   "start": 17.74,
+   "end": 18.06,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 55,
+   "w": "un",
+   "start": 18.15,
+   "end": 18.28,
+   "score": 0.603,
+   "punct_after": ""
+  },
+  {
+   "i": 56,
+   "w": "peu",
+   "start": 18.3,
+   "end": 18.45,
+   "score": 0.926,
+   "punct_after": ""
+  },
+  {
+   "i": 57,
+   "w": "plus",
+   "start": 18.46,
+   "end": 18.67,
+   "score": 0.993,
+   "punct_after": ""
+  },
+  {
+   "i": 58,
+   "w": "fin",
+   "start": 18.68,
+   "end": 18.88,
+   "score": 0.923,
+   "punct_after": "..."
+  },
+  {
+   "i": 59,
+   "w": "un",
+   "start": 19.15,
+   "end": 19.26,
+   "score": 0.515,
+   "punct_after": ""
+  },
+  {
+   "i": 60,
+   "w": "peu",
+   "start": 19.28,
+   "end": 19.41,
+   "score": 0.971,
+   "punct_after": ""
+  },
+  {
+   "i": 61,
+   "w": "plus",
+   "start": 19.42,
+   "end": 19.57,
+   "score": 0.954,
+   "punct_after": ""
+  },
+  {
+   "i": 62,
+   "w": "fragile",
+   "start": 19.58,
+   "end": 20.1,
+   "score": 0.999,
+   "punct_after": ","
+  },
+  {
+   "i": 63,
+   "w": "jusqu'au",
+   "start": 20.35,
+   "end": 20.75,
+   "score": 0.948,
+   "punct_after": ""
+  },
+  {
+   "i": 64,
+   "w": "jour",
+   "start": 20.76,
+   "end": 21.05,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 65,
+   "w": "où",
+   "start": 21.06,
+   "end": 21.14,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 66,
+   "w": "ta",
+   "start": 21.17,
+   "end": 21.28,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 67,
+   "w": "queue",
+   "start": 21.36,
+   "end": 21.46,
+   "score": 0.133,
+   "punct_after": ""
+  },
+  {
+   "i": 68,
+   "w": "de",
+   "start": 21.48,
+   "end": 21.57,
+   "score": 0.405,
+   "punct_after": ""
+  },
+  {
+   "i": 69,
+   "w": "cheval",
+   "start": 21.58,
+   "end": 21.94,
+   "score": 0.988,
+   "punct_after": ""
+  },
+  {
+   "i": 70,
+   "w": "te",
+   "start": 21.97,
+   "end": 22.06,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 71,
+   "w": "paraît",
+   "start": 22.11,
+   "end": 22.45,
+   "score": 0.963,
+   "punct_after": ""
+  },
+  {
+   "i": 72,
+   "w": "deux",
+   "start": 22.51,
+   "end": 22.67,
+   "score": 0.972,
+   "punct_after": ""
+  },
+  {
+   "i": 73,
+   "w": "fois",
+   "start": 22.68,
+   "end": 22.87,
+   "score": 0.946,
+   "punct_after": ""
+  },
+  {
+   "i": 74,
+   "w": "moins",
+   "start": 22.88,
+   "end": 23.09,
+   "score": 0.195,
+   "punct_after": ""
+  },
+  {
+   "i": 75,
+   "w": "épaisse",
+   "start": 23.1,
+   "end": 23.52,
+   "score": 0.068,
+   "punct_after": "."
+  },
+  {
+   "i": 76,
+   "w": "Couper",
+   "start": 23.9,
+   "end": 24.16,
+   "score": 0.532,
+   "punct_after": ""
+  },
+  {
+   "i": 77,
+   "w": "tes",
+   "start": 24.18,
+   "end": 24.33,
+   "score": 0.555,
+   "punct_after": ""
+  },
+  {
+   "i": 78,
+   "w": "pointes",
+   "start": 24.35,
+   "end": 24.67,
+   "score": 0.975,
+   "punct_after": ""
+  },
+  {
+   "i": 79,
+   "w": "n'y",
+   "start": 24.69,
+   "end": 24.87,
+   "score": 0.743,
+   "punct_after": ""
+  },
+  {
+   "i": 80,
+   "w": "changera",
+   "start": 24.88,
+   "end": 25.29,
+   "score": 0.991,
+   "punct_after": ""
+  },
+  {
+   "i": 81,
+   "w": "rien",
+   "start": 25.31,
+   "end": 25.61,
+   "score": 0.925,
+   "punct_after": "..."
+  },
+  {
+   "i": 82,
+   "w": "Le",
+   "start": 25.86,
+   "end": 26.03,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 83,
+   "w": "collagène",
+   "start": 26.05,
+   "end": 26.65,
+   "score": 0.734,
+   "punct_after": ""
+  },
+  {
+   "i": 84,
+   "w": "n'y",
+   "start": 26.71,
+   "end": 26.89,
+   "score": 0.742,
+   "punct_after": ""
+  },
+  {
+   "i": 85,
+   "w": "changera",
+   "start": 26.9,
+   "end": 27.31,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 86,
+   "w": "rien",
+   "start": 27.32,
+   "end": 27.56,
+   "score": 0.998,
+   "punct_after": "."
+  },
+  {
+   "i": 87,
+   "w": "Et",
+   "start": 27.86,
+   "end": 27.99,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 88,
+   "w": "l'ignorer",
+   "start": 28.0,
+   "end": 28.55,
+   "score": 0.749,
+   "punct_after": ""
+  },
+  {
+   "i": 89,
+   "w": "n'y",
+   "start": 28.59,
+   "end": 28.77,
+   "score": 0.865,
+   "punct_after": ""
+  },
+  {
+   "i": 90,
+   "w": "changera",
+   "start": 28.78,
+   "end": 29.15,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 91,
+   "w": "CERTAINEMENT",
+   "start": 29.27,
+   "end": 29.91,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 92,
+   "w": "rien",
+   "start": 29.92,
+   "end": 30.11,
+   "score": 0.898,
+   "punct_after": "."
+  },
+  {
+   "i": 93,
+   "w": "Tu",
+   "start": 30.4,
+   "end": 30.55,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 94,
+   "w": "dois",
+   "start": 30.59,
+   "end": 31.01,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 95,
+   "w": "soutenir",
+   "start": 31.03,
+   "end": 31.45,
+   "score": 0.937,
+   "punct_after": ""
+  },
+  {
+   "i": 96,
+   "w": "le",
+   "start": 31.46,
+   "end": 31.55,
+   "score": 0.975,
+   "punct_after": ""
+  },
+  {
+   "i": 97,
+   "w": "follicule",
+   "start": 31.56,
+   "end": 32.1,
+   "score": 0.808,
+   "punct_after": "."
+  },
+  {
+   "i": 98,
+   "w": "Tu",
+   "start": 32.38,
+   "end": 32.54,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 99,
+   "w": "dois",
+   "start": 32.56,
+   "end": 32.96,
+   "score": 0.997,
+   "punct_after": ""
+  },
+  {
+   "i": 100,
+   "w": "calmer",
+   "start": 32.98,
+   "end": 33.32,
+   "score": 0.988,
+   "punct_after": ""
+  },
+  {
+   "i": 101,
+   "w": "cette",
+   "start": 33.32,
+   "end": 33.48,
+   "score": 0.893,
+   "punct_after": ""
+  },
+  {
+   "i": 102,
+   "w": "inflammation",
+   "start": 33.5,
+   "end": 34.08,
+   "score": 0.987,
+   "punct_after": ""
+  },
+  {
+   "i": 103,
+   "w": "au",
+   "start": 34.08,
+   "end": 34.16,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 104,
+   "w": "niveau",
+   "start": 34.16,
+   "end": 34.4,
+   "score": 0.899,
+   "punct_after": ""
+  },
+  {
+   "i": 105,
+   "w": "du",
+   "start": 34.4,
+   "end": 34.48,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 106,
+   "w": "cuir",
+   "start": 34.5,
+   "end": 34.74,
+   "score": 0.819,
+   "punct_after": ""
+  },
+  {
+   "i": 107,
+   "w": "chevelu",
+   "start": 34.74,
+   "end": 35.12,
+   "score": 0.865,
+   "punct_after": ""
+  },
+  {
+   "i": 108,
+   "w": "avant",
+   "start": 35.28,
+   "end": 35.72,
+   "score": 0.998,
+   "punct_after": ""
+  },
+  {
+   "i": 109,
+   "w": "que",
+   "start": 35.72,
+   "end": 35.84,
+   "score": 0.845,
+   "punct_after": ""
+  },
+  {
+   "i": 110,
+   "w": "tes",
+   "start": 35.85,
+   "end": 36.0,
+   "score": 0.996,
+   "punct_after": ""
+  },
+  {
+   "i": 111,
+   "w": "cheveux",
+   "start": 36.0,
+   "end": 36.26,
+   "score": 0.953,
+   "punct_after": ""
+  },
+  {
+   "i": 112,
+   "w": "ne",
+   "start": 36.28,
+   "end": 36.4,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 113,
+   "w": "s'affinent",
+   "start": 36.4,
+   "end": 36.72,
+   "score": 0.419,
+   "punct_after": ""
+  },
+  {
+   "i": 114,
+   "w": "encore",
+   "start": 36.74,
+   "end": 37.0,
+   "score": 0.972,
+   "punct_after": ""
+  },
+  {
+   "i": 115,
+   "w": "davantage",
+   "start": 37.0,
+   "end": 37.59,
+   "score": 0.999,
+   "punct_after": "."
+  },
+  {
+   "i": 116,
+   "w": "Si",
+   "start": 37.97,
+   "end": 38.14,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 117,
+   "w": "tu",
+   "start": 38.14,
+   "end": 38.26,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 118,
+   "w": "te",
+   "start": 38.26,
+   "end": 38.3,
+   "score": 0.654,
+   "punct_after": ""
+  },
+  {
+   "i": 119,
+   "w": "reconnais",
+   "start": 38.32,
+   "end": 38.8,
+   "score": 0.722,
+   "punct_after": ","
+  },
+  {
+   "i": 120,
+   "w": "pense",
+   "start": 38.98,
+   "end": 39.22,
+   "score": 0.983,
+   "punct_after": ""
+  },
+  {
+   "i": 121,
+   "w": "à",
+   "start": 39.22,
+   "end": 39.28,
+   "score": 0.951,
+   "punct_after": ""
+  },
+  {
+   "i": 122,
+   "w": "t'abonner",
+   "start": 39.28,
+   "end": 39.74,
+   "score": 0.242,
+   "punct_after": ""
+  },
+  {
+   "i": 123,
+   "w": "et",
+   "start": 39.75,
+   "end": 39.9,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 124,
+   "w": "à",
+   "start": 39.9,
+   "end": 39.98,
+   "score": 0.995,
+   "punct_after": ""
+  },
+  {
+   "i": 125,
+   "w": "commenter",
+   "start": 40.0,
+   "end": 40.5,
+   "score": 0.689,
+   "punct_after": ""
+  },
+  {
+   "i": 126,
+   "w": "guide",
+   "start": 40.58,
+   "end": 40.96,
+   "score": 0.856,
+   "punct_after": ","
+  },
+  {
+   "i": 127,
+   "w": "parce",
+   "start": 41.28,
+   "end": 41.44,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 128,
+   "w": "que",
+   "start": 41.46,
+   "end": 41.56,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 129,
+   "w": "la",
+   "start": 41.56,
+   "end": 41.65,
+   "score": 0.999,
+   "punct_after": ""
+  },
+  {
+   "i": 130,
+   "w": "plupart",
+   "start": 41.71,
+   "end": 42.08,
+   "score": 0.933,
+   "punct_after": ""
+  },
+  {
+   "i": 131,
+   "w": "des",
+   "start": 42.08,
+   "end": 42.22,
+   "score": 1.0,
+   "punct_after": ""
+  },
+  {
+   "i": 132,
+   "w": "femmes",
+   "start": 42.22,
+   "end": 42.54,
+   "score": 0.993,
+   "punct_after": ""
+  },
+  {
+   "i": 133,
+   "w": "s'en",
+   "start": 42.54,
+   "end": 42.66,
+   "score": 0.562,
+   "punct_after": ""
+  },
+  {
+   "i": 134,
+   "w": "rendent",
+   "start": 42.66,
+   "end": 42.82,
+   "score": 0.816,
+   "punct_after": ""
+  },
+  {
+   "i": 135,
+   "w": "compte",
+   "start": 42.87,
+   "end": 43.03,
+   "score": 0.292,
+   "punct_after": ""
+  },
+  {
+   "i": 136,
+   "w": "trop",
+   "start": 43.06,
+   "end": 43.23,
+   "score": 0.743,
+   "punct_after": ""
+  },
+  {
+   "i": 137,
+   "w": "tard",
+   "start": 43.28,
+   "end": 43.48,
+   "score": 0.999,
+   "punct_after": "."
+  }
+ ]
+}
