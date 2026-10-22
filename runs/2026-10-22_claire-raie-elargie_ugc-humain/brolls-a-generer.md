@@ -102,3 +102,17 @@ Vertical 9:16 handheld smartphone video, 4 seconds, starting from the input imag
 
 ## Reçu
 - `rushes/v-raie-utilisateur-v1.mp4` (8 s, 720x1280, IA générée par l'utilisateur à partir de I3) : raie élargie bien visible du début à la fin, gestes des doigts de 1,0 à 3,5 s. Fenêtre retenue pour le montage : environ 1,0 à 3,4 s (pour 35,28 à 37,59 s de la voix). Validée par Claude, en attente de l'avis de l'utilisateur.
+
+## Mise à jour 5 : queue de cheval, même principe que la raie (image de départ déjà en gros plan)
+Remplace I2 et V-queue-v2. Input de l'image : `sorties/cadrage-v2.png`.
+
+### I4 : gros plan queue de cheval fine
+```
+Image 1 is the woman: same medium-dark brown hair colour and texture, same red and white striped short-sleeve T-shirt, same skin tone and hands, white smartwatch on her left wrist, thin black hair tie on her right wrist.
+New photo, vertical 9:16, shot on iPhone, close-up from behind and slightly to the side, over her right shoulder: her hair is pulled back into a low ponytail with a thin black hair tie, and she holds the ponytail forward over her shoulder in her hand, in the centre of the frame. The ponytail is the subject and fills most of the frame; her face is not visible, only the back of her head, her neck, her shoulder with the red and white stripes and her hand. The ponytail is clearly thin and sparse: barely thicker than her finger at the hair tie, the strands separated, the lower half wispy and see-through with gaps between the hairs, the ends thin and scraggly; the hair on the back of her head is flat and fine, with the scalp slightly showing near the hair tie. Natural soft window light, blurred blue-grey wall in the background, sharp detail on the hair strands, realistic, no beauty filter. No text, no logo, no watermark.
+```
+
+### V-queue-v3 (à partir de I4, 4 s)
+```
+Vertical 9:16 handheld smartphone video, 4 seconds, starting from the input image and keeping the same close-up: the thin ponytail stays the subject the whole time and stays as thin and sparse as in the input image, never fuller or thicker. Her face stays out of frame. Dynamic real gestures, never stiff: she squeezes the ponytail tight in her fist right under the hair tie to show how little hair there is, then pulls her fingers quickly down the full length so the strands separate and the see-through wispy ends spread apart, flicks the ends with her fingers, and lets the ponytail drop limp against her shoulder. Natural handheld micro-shake, natural daylight, sharp detail on the hair strands, realistic, shot on iPhone, no text, no logo. She does not speak.
+```
