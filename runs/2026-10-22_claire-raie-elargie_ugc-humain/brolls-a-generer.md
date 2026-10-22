@@ -70,3 +70,16 @@ Vertical 9:16 smartphone video, 4 seconds, starting from the input image: same w
 ```
 Vertical 9:16 smartphone video, 5 seconds, starting from the input image: same woman in side profile, same room, fixed phone camera, no zoom. She does not speak, mouth closed. She reaches back with her right hand, takes her thin ponytail and brings it forward over her shoulder, then wraps her thumb and index finger around it just below the hair tie and slides her fingers down to the wispy ends, showing how thin and sparse it is. She looks down at it with a disappointed, slightly worried expression and a small sigh. Natural daylight, realistic hair and skin texture, shot on iPhone, no text, no logo.
 ```
+
+## Mise à jour 3 : vidéos plus dynamiques, cadrées sur la queue de cheval et la raie (demande de l'utilisateur)
+Remplacent V-raie et V-queue ci-dessus.
+
+### V-queue-v2 (à partir de I2, 5 s)
+```
+Vertical 9:16 handheld smartphone video, 5 seconds, starting from the input image, then the phone moves in fast: within the first second the camera swings in close behind her shoulder so her ponytail fills most of the frame; her face stays out of frame or only as a soft edge, the ponytail is the subject. Dynamic real gestures, never stiff: with a quick flick of her head and her right hand she whips the thin ponytail forward over her shoulder toward the lens, grabs it at the hair tie and squeezes it tight in her fist to show how little hair there is, then pulls her fingers fast down the full length so the strands separate and the see-through wispy ends spread apart, gives it a little shake, and lets it drop limp against her shoulder. Natural handheld micro-shake, natural daylight, sharp detail on the strands, realistic, shot on iPhone, no text, no logo. She does not speak.
+```
+
+### V-raie-v2 (à partir de I1, 4 s)
+```
+Vertical 9:16 handheld smartphone video, 4 seconds, starting from the input image, then the phone moves in fast: she bends her head forward toward the lens in one quick movement while the camera pushes in close above her, so the top of her head and her centre parting fill the frame; her face is out of frame, the parting is the subject. Dynamic real gestures, never stiff: with the fingertips of both hands she briskly flips the hair from one side of the parting to the other, then spreads it wide apart along the part line in two quick strokes, revealing a widened parting with the scalp clearly visible and fine sparse hair on each side, and runs one fingertip along the bare line. Natural handheld micro-shake, natural daylight, sharp detail on the hair strands and scalp, realistic, shot on iPhone, no text, no logo. She does not speak.
+```
