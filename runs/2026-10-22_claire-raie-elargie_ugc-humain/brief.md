@@ -17,6 +17,7 @@ Découpage : voir `decoupage.md`.
 - 7 clips Wan 3.0 de 3 à 8 s (voir `decoupage.md`), environ 710 cr en 480p.
 - Son au montage : voix ElevenLabs d'origine, son Wan coupé.
 - Inserts : Z-Image d'abord ; si l'image est ratée, Nano Banana 2.1 avec l'insert découpé de la référence en entrée (`work/inserts/`).
+- Relances : aucune relance payante sans l'accord de l'utilisateur (consulter d'abord).
 
 ## Générations
 
