@@ -126,3 +126,5 @@ Point de vigilance : des dates « dans le passé » feraient un avant-après imp
 ```
 Replace only her red and white striped T-shirt with a soft women's pyjama sweater: long sleeves, loose and cosy, brushed fleece, plain pale dusty pink, round neck. Keep everything else exactly identical: her hair, the ponytail and the parting (same thinness, same colour, same strands), her hands, every gesture and its timing, the camera movement, the lighting and the background. Do not change or thicken the hair. No text, no logo.
 ```
+- `rushes/v-queue-utilisateur-v2-pyjama.mp4` (4 s) : même vidéo avec un pull de pyjama rose poudré (Omni Flash) ; cheveux, gestes et timing identiques. Version retenue pour la queue de cheval (fenêtre 0,3 à 3,5 s).
+- Raie : pas de changement de haut (décision de l'utilisateur), `rushes/v-raie-utilisateur-v1.mp4` reste tel quel.
