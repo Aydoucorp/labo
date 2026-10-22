@@ -7,6 +7,8 @@ ap.add_argument("--c7", default="sorties/clips/C7-v2.mp4"); ap.add_argument("--c
                 help="avance des lèvres sur la voix (s) : le clip C7 est posé d'autant plus tard")
 ap.add_argument("--p2", default="", help="3D inflammation fournie par l'utilisateur (sinon br-0013 en remplacement)")
 ap.add_argument("--out", default="montage/final_9x16.mp4")
+ap.add_argument("--couleur", default="&H005F80C9&", help="couleur ASS de la ligne lue (défaut terracotta clair #C9805F)")
+ap.add_argument("--y-sous-titres", type=int, default=1215)
 a = ap.parse_args()
 
 B = "/home/user/labo/runs/2026-10-01_claire-minoxidil-arret_full-broll/rushes/"
@@ -38,7 +40,7 @@ for i, (src, s0, t0, t1) in enumerate(plans):
 n = len(plans)
 fc.append("".join(labels) + f"concat=n={n}:v=1:a=0[base]")
 # inserts
-ins = [("sorties/insert-raies-nb-v1.png", 0.0, 2.85, 960, 1330), ("sorties/insert-follicule-nb-v1.png", 14.30, 15.60, 760, 1250)]
+ins = [("sorties/insert-raies-nb-v1.png", 0.0, 2.85, 960, 1330), ("sorties/insert-follicule-nb-v1.png", 14.30, 15.60, 760, 1330)]
 cur = "base"
 for k, (img, t0, t1, w, y) in enumerate(ins):
     j = n + k; inputs += ["-loop", "1", "-t", "44", "-i", img]
@@ -51,10 +53,43 @@ def ts(t):
     t = max(0, t); return f"{int(t // 3600)}:{int(t % 3600 // 60):02d}:{t % 60:05.2f}"
 mots = json.load(open("work/mots.json"))["words"]
 ev = []
+# Sous-titres façon pub Facebook de référence : 2 lignes centrées, majuscules, la ligne en cours de lecture en couleur (terracotta), l'autre en blanc.
+COUL = a.couleur
+def propre(w): return w["w"].strip("«»,.…").upper().replace("'", "’")
+# 1) phrases (ponctuation ou pause > 0,25 s) ; 2) lignes équilibrées de 16 caractères max ; 3) blocs de 2 lignes
+phrases, ph = [], []
 for k, w in enumerate(mots):
-    fin = min(mots[k + 1]["start"] if k + 1 < len(mots) else w["end"] + 0.3, w["start"] + 0.9)
-    txt = w["w"].strip("«»,.…").upper().replace("'", "’")
-    ev.append(f"Dialogue: 0,{ts(w['start'])},{ts(fin)},Mot,,0,0,0,,{{\\an4\\pos(70,1080)}}{txt}")
+    ph.append(w)
+    if w["w"].rstrip().endswith((",", ".", "…", "»")) or (w.get("punct_after") or "").strip() or k + 1 == len(mots) or mots[k + 1]["start"] - w["end"] > 0.25:
+        phrases.append(ph); ph = []
+def lignes_de(ph, maxc=16):
+    import math
+    n = max(1, math.ceil(len(" ".join(propre(x) for x in ph)) / maxc))
+    while True:
+        cible = len(" ".join(propre(x) for x in ph)) / n
+        out, l = [], []
+        for w in ph:
+            if l and len(" ".join(propre(x) for x in l + [w])) > max(cible + 3, 8) and len(out) < n - 1:
+                out.append(l); l = []
+            l.append(w)
+        out.append(l)
+        if all(len(" ".join(propre(x) for x in o)) <= maxc + 2 for o in out) or n > 8:
+            return out
+        n += 1
+blocs = []
+for ph in phrases:
+    ls = lignes_de(ph)
+    for i in range(0, len(ls), 2):
+        blocs.append(ls[i:i + 2])
+for b, bl in enumerate(blocs):
+    t_fin_bloc = blocs[b + 1][0][0]["start"] if b + 1 < len(blocs) else bl[-1][-1]["end"] + 0.4
+    for li, l in enumerate(bl):
+        t0 = l[0]["start"]; t1 = bl[li + 1][0]["start"] if li + 1 < len(bl) else t_fin_bloc
+        lignes = []
+        for lj, l2 in enumerate(bl):
+            txt = " ".join(propre(x) for x in l2)
+            lignes.append(f"{{\\c{COUL}}}{txt}{{\\c&H00FFFFFF&}}" if lj == li else txt)
+        ev.append(f"Dialogue: 0,{ts(t0)},{ts(t1)},Mot,,0,0,0,,{{\\an5\\pos(540,{a.y_sous_titres})}}" + "\\N".join(lignes))
 ev.append(f"Dialogue: 1,{ts(0)},{ts(2.85)},Hook,,0,0,0,,{{\\an8\\pos(540,250)}}Si ta raie s’élargit\\Nécoute bien")
 for t0, t1, txt in [(20.30, 23.70, "mars 2024"), (35.25, c7, "juin 2024")]:
     ev.append(f"Dialogue: 1,{ts(t0)},{ts(t1)},Date,,0,0,0,,{{\\an7\\pos(60,140)}}{txt}")
@@ -66,7 +101,7 @@ PlayResY: 1920
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Mot,Montserrat,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,0,3,4,0,0,0,1
+Style: Mot,Montserrat ExtraBold,64,&H00FFFFFF,&H00FFFFFF,&H00201A16,&H8C000000,-1,0,0,0,100,100,0,0,1,2.5,3,5,0,0,0,1
 Style: Hook,Montserrat ExtraBold,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,0,8,0,0,0,1
 Style: Date,Montserrat ExtraBold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,3,2,7,0,0,0,1
 

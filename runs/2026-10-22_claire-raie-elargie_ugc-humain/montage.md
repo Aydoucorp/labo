@@ -1,4 +1,4 @@
-# Montage : raie élargie (v1, 2026-10-22)
+# Montage : raie élargie (v2, 2026-10-22)
 
 Sortie : `montage/final_9x16.mp4` (1080x1920, 30 i/s, 43,73 s). Script : `work/montage.py` (relançable).
 Son : voix ElevenLabs d'origine seule (`audio/voix.mp3`, loudnorm -14 LUFS), son Wan coupé, pas de musique.
@@ -19,5 +19,7 @@ Son : voix ElevenLabs d'origine seule (`audio/voix.mp3`, loudnorm -14 LUFS), son
 Habillage :
 - Accroche 0 à 2,85 s, en haut : « Si ta raie s'élargit / écoute bien » (Montserrat ExtraBold 74, blanc, contour noir).
 - Insert raies (`sorties/insert-raies-nb-v1.png`) 0 à 2,85 s en bas ; insert follicule (`sorties/insert-follicule-nb-v1.png`) 14,30 à 15,60 s.
-- Sous-titres mot à mot en majuscules (Montserrat Bold 70, blanc, ombre), à gauche à hauteur d'épaule, calés sur `work/mots.json`.
+- Sous-titres (v2, sur le modèle d'une pub Facebook fournie par l'utilisateur) : blocs de 2 lignes centrés à 1215 px de haut (poitrine), majuscules Montserrat ExtraBold 64, contour sombre fin + ombre ; la ligne en cours de lecture passe en terracotta clair `#C9805F` (le terracotta `#A8553A` testé est trop sombre sur la vidéo), l'autre reste blanche. Découpage par phrase (ponctuation ou pause > 0,25 s), lignes équilibrées de 16 caractères max, calées sur `work/mots.json`.
+- Insert follicule descendu à 1330 px pour ne pas chevaucher les sous-titres.
+- v1 : sous-titres mot à mot blancs à gauche (remplacés).
 - Dates en haut à gauche (Montserrat ExtraBold 62, contour léger) sur les deux b-rolls de l'avatar (choix de l'utilisateur).
