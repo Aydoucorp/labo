@@ -49,7 +49,7 @@ plans = [
 def bloc(titre, txt, k):
     return f'<div class="p"><div class="ph"><span>{titre}</span><button onclick="cp(\'{k}\',this)">Copier</button></div><pre id="{k}">{html.escape(txt)}</pre></div>'
 cards = ""
-for p in plans:
+for p in [x for x in plans if x["id"] in ("B1", "B3", "B4")]:  # B2, B5a, B5b faits en motion design
     cards += f'''<section class="card"><div class="top"><span class="id">{p["id"]}</span><span class="genre">{p["genre"]}</span><span class="t">{p["t"]}</span></div>
 <p class="phrase">« {html.escape(p["phrase"])} »</p>
 <p class="but"><b>On doit comprendre :</b> {html.escape(p["but"])}</p>
@@ -75,7 +75,7 @@ button{{background:var(--accent);color:#fff;border:0;border-radius:8px;padding:6
 </style></head><body><main>
 <h1>B-rolls à générer · Tempes, partie 1</h1>
 <div class="intro"><ul>
-<li>6 plans : 1 photo réaliste de l'avatar (B1) et 5 animations 3D pédagogiques (B2 à B5b), toutes calées sur la phrase dite.</li>
+<li>3 plans à générer : 1 photo réaliste de l'avatar (B1) et 2 animations 3D style Drew Canole (B3, B4), calées sur la phrase dite. Les plans B2, B5a et B5b sont déjà faits en motion design.</li>
 <li>Pour chaque plan : génère d'abord l'image, envoie-la-moi pour vérification, puis lance la vidéo avec cette image en input.</li>
 <li>Style des 3D inspiré de Drew Canole (analyse de 6 de ses vidéos TikTok) : anatomie hyper réaliste et brillante isolée sur fond noir, plongées microscopiques dans le cuir chevelu, corps en hologramme, une transformation littérale par plan, caméra lente.</li><li>Comme chez lui, les mots-clés s’affichent au montage en grand au centre ; je les pose aux couleurs de Claire (Fraunces italique blanc, mot fort en terracotta).</li>
 <li>Aucun texte dans les images : les étiquettes en français sont posées au montage, aux couleurs de Claire.</li>
