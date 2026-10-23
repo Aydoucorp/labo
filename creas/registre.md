@@ -22,7 +22,7 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | le-montage | 000 |
 | talking-head | 002 |
 | full-b-roll-artiste | 001 |
-| ugc-humain | 001 |
+| ugc-humain | 002 |
 | ebook | 002 |
 
 ## Historique
@@ -38,3 +38,4 @@ Avant de nommer une nouvelle créa, lire le dernier numéro du concept ci-dessou
 | `2026-10-14_ebook_002.pdf` (+ `-hq.pdf`) | ebook | 2026-10-14 | 002 | Claire · rituel à l'huile de romarin, ebook offert du reel huile de romarin (créa full-b-roll-artiste 005, CTA « GUIDE »), sans âge | `runs/2026-10-14_claire-huile-romarin_ebook/` | PDF · 11 pages · 3:4 (web 1,25 Mo, HQ 3,5 Mo) |
 | `2026-10-08_talking-head_002.mp4` | talking-head | 2026-10-08 | 002 | Claire · affinement des cheveux à la ménopause (CTA « GUIDE »), voix off ElevenLabs, avatar recalé mot par mot, vidéo ralentie à 90 % | `runs/2026-10-08_claire-menopause-affinement_talking-head/` | 66,2 s · 9:16 · 1080×1920 |
 | `2026-10-08_zack-d-style_001.mp4` | zack-d-style | 2026-10-08 | 001 | Claire · parasites du cuir chevelu, huile de coco + arbre à thé (CTA « RECETTES »), Claire en Pixar, musique Hide and Sneak | `runs/2026-10-08_claire-parasites-cuir-chevelu_zack-d/` | 52,3 s · 9:16 · 1080×1920 |
+| `2026-10-23_ugc-humain_002.mp4` | ugc-humain | 2026-10-23 | 002 | Claire · tempes qui s'affinent, partie 1 sur 2 (CTA like, partage, commentaire), avatar brun (queue basse, pull avoine, décor sauge), voix ElevenLabs Victoria, Wan 3.0 écran noir 480p, b-rolls 3D style Drew sur fond crème + motion design, avant / après générés par IA (mention dans la description) | `runs/2026-10-23_claire-tempes-affinement_ugc-humain/` | 65,0 s · 9:16 · 1080×1920 |
