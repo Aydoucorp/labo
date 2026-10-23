@@ -20,5 +20,5 @@ Découpage provisoire : `decoupage.md`.
 
 | Fichier | Modèle | Réglages | Références | Prompt | Coût | Task id | Statut |
 |---|---|---|---|---|---|---|---|
-| `sorties/cadrage-v1.png` | GPT Image 2.5 Sunburst | 9:16, 1K | `casting/cadrage-video-raie.png`, `casting/de-face.png`, `work/decor-ref-30.png` | `prompts/image/cadrage-v1.txt` (queue basse ramenée sur l'épaule) | 6 cr | 21af857349097971fbd78e5ab190530d | à valider |
-| `sorties/cadrage-v2.png` | GPT Image 2.5 Sunburst | 9:16, 1K | idem | `prompts/image/cadrage-v2.txt` (queue dans le dos demandée, rendue sur l'épaule) | 6 cr | 2bd683770ae8356b07d73fe57b5cb61f | à valider |
+| `sorties/cadrage-v1.png` | GPT Image 2.5 Sunburst | 9:16, 1K | `casting/cadrage-video-raie.png`, `casting/de-face.png`, `work/decor-ref-30.png` | `prompts/image/cadrage-v1.txt` (queue basse ramenée sur l'épaule) | 6 cr | 21af857349097971fbd78e5ab190530d | non retenue |
+| `sorties/cadrage-v2.png` | GPT Image 2.5 Sunburst | 9:16, 1K | idem | `prompts/image/cadrage-v2.txt` (queue dans le dos demandée, rendue sur l'épaule) | 6 cr | 2bd683770ae8356b07d73fe57b5cb61f | **retenue** (choix de l'utilisateur) |
