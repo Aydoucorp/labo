@@ -79,3 +79,5 @@ Une seule réponse « non » et on ne publie pas.
 | Avatar | Images de référence | Voix ElevenLabs | Depuis |
 |---|---|---|---|
 | Avatar brun, environ 45 ans (UGC humain) | `runs/2026-10-22_claire-raie-elargie_ugc-humain/casting/de-face.png`, `sorties/cadrage-v2.png` du même run | **Victoria** (exemple : `Claire/voix/victoria-exemple.mp3`) | choisie le 2026-10-23 pour les prochaines vidéos ; la vidéo « raie élargie » garde la voix Sidonie |
+
+Règle de l'utilisateur (2026-10-23) : à chaque nouvelle vidéo UGC humain avec l'avatar brun, changer la coupe de cheveux et les vêtements ; garder le même visage, les mêmes traits, le même âge et le même gabarit.
