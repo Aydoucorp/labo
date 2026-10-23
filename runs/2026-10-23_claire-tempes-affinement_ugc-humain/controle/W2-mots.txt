@@ -1,0 +1,13 @@
+mot voix off        voix off  seedance   écart
+Parlons                 0.00      0.00   +0.00
+des                     0.52      0.50   -0.02
+Tempes,                 0.68      0.68   +0.00
+parce                   1.26      1.28   +0.02
+que                     1.36      1.36   +0.00
+cette                   1.54      1.54   +0.00
+zone                    1.68      1.68   +0.00
+nous                    1.86      1.86   +0.00
+en                      2.08      2.10   +0.02
+dit                     2.24      2.26   +0.02
+énormément.             2.44      2.44   +0.00
+écart moyen +0.00 s, max 0.02 s, mots appariés 11/11

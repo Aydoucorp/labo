@@ -1,6 +1,7 @@
 # Brief : UGC humain « tempes qui s'affinent » (Claire)
 
 - Date : 2026-10-23
+- **Partie 1 sur 2** : l'utilisateur a coupé la vidéo de référence en deux vidéos distinctes ; ce run fait la première (script et voix fournis). La partie 2 suivra dans un run séparé, avec son propre script et sa voix.
 - Marque : Les cheveux de Claire (`Claire/BRAND-DNA-CLAIRE.md`)
 - Script : fourni par l'utilisateur (`script-elevenlabs.txt`), voix ElevenLabs **Victoria** (`audio/voix.mp3`, 64,99 s)
 - Référence : TikTok anglophone (`references/video-reference.mp4`, 99,7 s) : créatrice brune aux cheveux longs ondulés, sweat bleu clair, boiseries vert sauge, grande fougère à droite ; accroche « Are your temples thinning? » main sur la tempe ; à 0:14 incrustation de deux photos avant / après de ses cheveux ; gestes vers les tempes vers 0:42 à 0:46 ; sous-titres mot à mot.

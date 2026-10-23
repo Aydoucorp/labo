@@ -1,0 +1,3 @@
+Pourquoi          0.18 s  ouverture 0.48 x médiane  presque
+premier           0.95 s  ouverture 0.15 x médiane  fermée
+bilabiales fermées : 1/2

@@ -1,0 +1,5 @@
+perds             0.89 s  ouverture 0.02 x médiane  fermée
+bien              4.02 s  ouverture 0.10 x médiane  fermée
+précise           4.32 s  ouverture 0.12 x médiane  fermée
+plupart           5.42 s  ouverture 0.09 x médiane  fermée
+bilabiales fermées : 4/4

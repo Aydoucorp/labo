@@ -1,0 +1,9 @@
+mot voix off        voix off  seedance   écart
+et                      0.00      0.00   +0.00
+cette                   0.32      0.36   +0.04
+petite                  0.54      0.64   +0.10
+zone                    0.90      1.02   +0.12
+devient                 1.10      1.30   +0.20
+ultra                   1.48      1.70   +0.22
+sensible.               2.12      2.34   +0.22
+écart moyen +0.15 s, max 0.22 s, mots appariés 7/7

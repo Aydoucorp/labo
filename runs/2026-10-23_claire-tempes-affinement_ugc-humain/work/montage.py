@@ -18,7 +18,8 @@ BR = "/home/user/labo/bibliotheque/brolls-reels/"
 # (source, début dans la source, début timeline, fin timeline)
 plans = [
     ("sorties/clips/W1-v1.mp4", 0.5, 0.00, 8.20),
-    ("sorties/clips/W8-v1.mp4", 0.0, 8.20, 14.75),
+    ("sorties/clips/W8-v1.mp4", 0.0, 8.20, 11.40),
+    ("sorties/clips/W8-v1.mp4", 3.43, 11.40, 14.75),   # Wan en retard de 0,23 s après « à ça » : saut dans la pause
     ("sorties/clips/W2-v1.mp4", 0.0, 14.75, 18.05),
     (a.b1 or BR + "br-0031_gros-plan-tempes-grisonnent-cheveux.mp4", 0.5, 18.05, 21.70),   # provisoire : br-0031
     (B + "08_MECA_3DSCI_animation-3d-cheveu-continue.mp4", 0.6, 21.70, 24.90),             # br-0013
@@ -26,9 +27,10 @@ plans = [
     ("sorties/clips/W3-v1.mp4", 0.0, 27.85, 29.40),
     (a.b4 or B4P, 0.0, 29.40, 34.45),
     ("sorties/clips/W4-v1.mp4", 0.0, 34.45, 42.55),
-    ("sorties/clips/W5-v1.mp4", 0.0, 42.55, 44.25),
+    ("sorties/clips/W5-v1.mp4", 0.47, 42.55, 44.25),   # Wan en retard constant de 0,47 s
     (B75, 1.0, 44.25, 52.00),                                                                # br-0075
-    ("sorties/clips/W6-v1.mp4", 0.0, 52.00, 54.85),
+    ("sorties/clips/W6-v1.mp4", 0.05, 52.00, 53.10),
+    ("sorties/clips/W6-v1.mp4", 1.30, 53.10, 54.85),   # retard qui monte à 0,2 s : recalage à « devient »
     ("sorties/clips/W7-v1.mp4", 0.0, 54.85, 64.99),
 ]
 inputs, fc, labels = [], [], []

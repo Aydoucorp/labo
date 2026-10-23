@@ -1,0 +1,6 @@
+Mes               0.18 s  ouverture 0.01 x médiane  fermée
+propres           0.40 s  ouverture 0.16 x médiane  fermée
+passés            1.32 s  ouverture 0.02 x médiane  fermée
+plus              4.80 s  ouverture 0.02 x médiane  fermée
+pareil            5.94 s  ouverture 0.97 x médiane  OUVERTE
+bilabiales fermées : 4/5

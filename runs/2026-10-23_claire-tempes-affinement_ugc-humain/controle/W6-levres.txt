@@ -1,0 +1,2 @@
+petite            0.51 s  ouverture 0.01 x médiane  fermée
+bilabiales fermées : 1/1

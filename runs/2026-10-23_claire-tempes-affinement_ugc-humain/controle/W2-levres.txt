@@ -1,0 +1,3 @@
+Parlons           0.18 s  ouverture 0.06 x médiane  fermée
+parce             1.10 s  ouverture 0.02 x médiane  fermée
+bilabiales fermées : 2/2

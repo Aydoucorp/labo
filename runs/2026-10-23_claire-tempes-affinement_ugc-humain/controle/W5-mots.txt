@@ -1,0 +1,10 @@
+mot voix off        voix off  seedance   écart
+Voici                   0.00      0.74   +0.74
+ce                      0.52      0.98   +0.46
+que                     0.62      1.08   +0.46
+je                      0.68      1.16   +0.48
+vois                    0.80      1.28   +0.48
+le                      0.90      1.36   +0.46
+plus                    1.08      1.56   +0.48
+souvent.                1.22      1.70   +0.48
+écart moyen +0.47 s, max 0.48 s, mots appariés 8/8

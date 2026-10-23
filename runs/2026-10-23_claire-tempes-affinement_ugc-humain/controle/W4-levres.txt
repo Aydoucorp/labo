@@ -1,0 +1,5 @@
+moins             0.69 s  ouverture 0.00 x médiane  fermée
+première          4.65 s  ouverture 0.00 x médiane  fermée
+montrer           5.25 s  ouverture 0.06 x médiane  fermée
+périménopause     7.07 s  ouverture 0.17 x médiane  fermée
+bilabiales fermées : 4/4

@@ -1,0 +1,6 @@
+partage-la        2.77 s  ouverture 0.00 x médiane  fermée
+même              4.09 s  ouverture 0.13 x médiane  fermée
+pour              5.67 s  ouverture 0.31 x médiane  fermée
+pas               7.58 s  ouverture 0.00 x médiane  fermée
+me                7.75 s  ouverture 0.06 x médiane  fermée
+bilabiales fermées : 5/5
