@@ -21,11 +21,11 @@ plans = [
     ("sorties/clips/W8-v1.mp4", 0.0, 8.20, 11.40),
     ("sorties/clips/W8-v1.mp4", 3.43, 11.40, 14.75),   # Wan en retard de 0,23 s après « à ça » : saut dans la pause
     ("sorties/clips/W2-v1.mp4", 0.0, 14.75, 18.05),
-    (a.b1 or BR + "br-0031_gros-plan-tempes-grisonnent-cheveux.mp4", 0.5, 18.05, 21.70),   # provisoire : br-0031
+    (a.b1 or B4P, 0.0, 18.05, 21.70),   # provisoire : br-0022 (br-0031 contient en fait une hélice d'ADN, voir montage.md)
     (B + "08_MECA_3DSCI_animation-3d-cheveu-continue.mp4", 0.6, 21.70, 24.90),             # br-0013
     (B + "10_MECA_3DSCI_animation-3d-follicule-retrecit.mp4", 1.4, 24.90, 27.85),          # br-0015
     ("sorties/clips/W3-v1.mp4", 0.0, 27.85, 29.40),
-    (a.b4 or B4P, 0.0, 29.40, 34.45),
+    (a.b4 or B + "07_MECA_3DSCI_animation-3d-coupe-cuir.mp4", 0.0, 29.40, 34.45),   # provisoire : br-0012
     ("sorties/clips/W4-v1.mp4", 0.0, 34.45, 42.55),
     ("sorties/clips/W5-v1.mp4", 0.47, 42.55, 44.25),   # Wan en retard constant de 0,47 s
     (B75, 1.0, 44.25, 52.00),                                                                # br-0075
