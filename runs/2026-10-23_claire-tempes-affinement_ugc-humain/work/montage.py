@@ -50,8 +50,8 @@ n = len(plans)
 fc.append("".join(labels) + f"concat=n={n}:v=1:a=0[base]")
 # inserts
 ins = []
-if a.avant: ins.append((a.avant, 9.85, 13.30, 470, 230, 40))
-if a.apres: ins.append((a.apres, 10.80, 13.30, 470, 230, 570))
+if a.avant: ins.append((a.avant, 9.85, 13.30, 320, 170, 28))
+if a.apres: ins.append((a.apres, 10.80, 13.30, 320, 170, 716))
 cur = "base"
 for k, (img, t0, t1, w, y, x) in enumerate(ins):
     j = n + k; inputs += ["-loop", "1", "-t", "66", "-i", img]
