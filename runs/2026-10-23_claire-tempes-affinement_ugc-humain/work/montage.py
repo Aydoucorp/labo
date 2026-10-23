@@ -3,6 +3,7 @@
 import argparse, json, subprocess, pathlib
 ap = argparse.ArgumentParser()
 ap.add_argument("--b1", default="", help="b-roll tempe clairsemée de l'utilisateur (sinon provisoire)")
+ap.add_argument("--b3", default="", help="3D Drew follicule qui se fragilise (sinon provisoire)")
 ap.add_argument("--b4", default="", help="b-roll macro des cheveux fins de l'utilisateur (sinon provisoire)")
 ap.add_argument("--avant", default="", help="photo avant de l'utilisateur"); ap.add_argument("--apres", default="", help="photo après de l'utilisateur")
 ap.add_argument("--out", default="montage/final_9x16.mp4")
@@ -22,17 +23,19 @@ plans = [
     ("sorties/clips/W8-v1.mp4", 3.43, 11.40, 14.75),   # Wan en retard de 0,23 s après « à ça » : saut dans la pause
     ("sorties/clips/W2-v1.mp4", 0.0, 14.75, 18.05),
     (a.b1 or B4P, 0.0, 18.05, 21.70),   # provisoire : br-0022 (br-0031 contient en fait une hélice d'ADN, voir montage.md)
-    (B + "08_MECA_3DSCI_animation-3d-cheveu-continue.mp4", 0.6, 21.70, 24.90),             # br-0013
-    (B + "10_MECA_3DSCI_animation-3d-follicule-retrecit.mp4", 1.4, 24.90, 27.85),          # br-0015
+    ("sorties/motion/B2-motion.mp4", 0.0, 21.70, 25.50),                                     # motion design : cycle de pousse
+    (a.b3 or B + "10_MECA_3DSCI_animation-3d-follicule-retrecit.mp4", 1.9, 25.50, 27.85),   # provisoire : br-0015
     ("sorties/clips/W3-v1.mp4", 0.0, 27.85, 29.40),
     (a.b4 or B + "07_MECA_3DSCI_animation-3d-coupe-cuir.mp4", 0.0, 29.40, 34.45),   # provisoire : br-0012
     ("sorties/clips/W4-v1.mp4", 0.0, 34.45, 42.55),
     ("sorties/clips/W5-v1.mp4", 0.47, 42.55, 44.25),   # Wan en retard constant de 0,47 s
-    (B75, 1.0, 44.25, 52.00),                                                                # br-0075
+    ("sorties/motion/B5a-motion.mp4", 0.0, 44.25, 49.05),                                    # motion design : hormones, tempes
+    ("sorties/motion/B5b-motion.mp4", 0.0, 49.05, 52.00),                                    # motion design : œstrogène, cortisol
     ("sorties/clips/W6-v1.mp4", 0.05, 52.00, 53.10),
     ("sorties/clips/W6-v1.mp4", 1.30, 53.10, 54.85),   # retard qui monte à 0,2 s : recalage à « devient »
     ("sorties/clips/W7-v1.mp4", 0.0, 54.85, 64.99),
 ]
+MOTION = [(21.70, 25.50), (44.25, 52.00)]  # plans de motion design sur fond crème
 inputs, fc, labels = [], [], []
 for i, (src, s0, t0, t1) in enumerate(plans):
     d = t1 - t0
@@ -96,8 +99,12 @@ for b, bl in enumerate(blocs):
         lignes = []
         for lj, l2 in enumerate(bl):
             txt = " ".join(propre(x) for x in l2)
-            lignes.append(f"{{\\c{COUL}}}{txt}{{\\c&H00FFFFFF&}}" if lj == li else txt)
-        ev.append(f"Dialogue: 0,{ts(t0)},{ts(t1)},Mot,,0,0,0,,{{\\an5\\pos(540,{a.y_sous_titres})}}" + "\\N".join(lignes))
+            clair = any(m0 <= t0 < m1 for m0, m1 in MOTION)  # fond crème : encre + terracotta, sans contour
+            base, fort = ("&H00262A2E&", "&H003A55A8&") if clair else ("&H00FFFFFF&", COUL)
+            lignes.append(f"{{\\c{fort}}}{txt}{{\\c{base}}}" if lj == li else txt)
+        clair = any(m0 <= t0 < m1 for m0, m1 in MOTION)
+        style = "{\\c&H00262A2E&\\bord0\\shad0}" if clair else ""
+        ev.append(f"Dialogue: 0,{ts(t0)},{ts(t1)},Mot,,0,0,0,,{{\\an5\\pos(540,{a.y_sous_titres})}}" + style + "\\N".join(lignes))
 ev.append(f"Dialogue: 1,{ts(0)},{ts(2.85)},Hook,,0,0,0,,{{\\an8\\pos(540,250)}}Tes tempes\\Ns’affinent ?")
 pathlib.Path("montage").mkdir(exist_ok=True)
 pathlib.Path("montage/textes.ass").write_text(f"""[Script Info]
