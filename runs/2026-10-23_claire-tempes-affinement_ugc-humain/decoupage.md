@@ -5,7 +5,7 @@ Format hybride comme « raie élargie » : W = clip Wan 3.0 face caméra (écran
 | Plan | Voix (s) | Texte | Type | Source |
 |---|---|---|---|---|
 | W1 | 0,00 à 8,00 | Si tu perds tes cheveux juste ici ! au niveau des tempes… que quand ça se voit déjà vraiment. | Wan 8 s | main sur la tempe sur « juste ici » (comme la référence) ; photo de tempes clairsemées incrustée au montage |
-| S3 | 8,15 à 14,70 | Mes propres cheveux sont passés de ça à ça ! Et aujourd'hui, j'aide les femmes de plus de 40 ans à faire pareil. | **à décider** | faux témoignage d'un personnage fictif (voir questions) |
+| W8 | 8,15 à 14,70 | Mes propres cheveux sont passés de ça à ça ! Et aujourd'hui, j'aide les femmes de plus de 40 ans à faire pareil. | Wan 7 s | gardée (décision de l'utilisateur) ; vraies photos avant / après de l'utilisateur incrustées sur « de ça » et « à ça » |
 | W2 | 14,70 à 18,05 | Parlons des tempes, parce que cette zone nous en dit énormément. | Wan 4 s | |
 | B1 | 18,05 à 21,70 | À cet âge, c'est au niveau des tempes que les cheveux commencent à s'affiner. | b-roll avatar | gros plan tempe clairsemée, à générer par l'utilisateur |
 | B2 | 21,70 à 24,90 | C'est l'un des signes… le cycle de pousse se raccourcit | 3D | bibliothèque br-0013 |
@@ -18,4 +18,4 @@ Format hybride comme « raie élargie » : W = clip Wan 3.0 face caméra (écran
 | W6 | 52,00 à 54,75 | et cette petite zone devient ultra sensible. | Wan 3 s | |
 | W7 | 54,80 à 64,99 | Si cette vidéo t'a appris quelque chose… si tes tempes ont commencé à s'affiner. | Wan 11 s | |
 
-Wan (sans S3) : 38 s générées + environ 35,5 s de vidéo de voix, soit environ 590 cr (2,95 $).
+Wan, 8 clips : 45 s générées + environ 42 s de vidéo de voix, soit environ 700 cr (3,50 $).

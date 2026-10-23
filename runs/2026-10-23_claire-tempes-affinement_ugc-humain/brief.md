@@ -9,3 +9,16 @@
 - Pas de photo produit.
 
 Découpage provisoire : `decoupage.md`.
+
+## Choix validés (2026-10-23)
+- Phrase avant / après (8,15 à 14,70 s) gardée telle quelle ; l'utilisateur fournit de vraies photos avant / après à incruster (comme la référence à 0:14). Rappel fait : la Brand DNA interdit l'avant-après qui laisse croire à une garantie ; décision de l'utilisateur.
+- Look : cheveux attachés (queue basse), même longueur que l'avatar d'origine ; pull en maille avoine.
+- Décor : celui de la référence (boiseries vert sauge, grande plante à droite, fauteuil blanc), recréé à partir de `work/decor-ref-30.png` (image de la référence, sous-titres floutés).
+- Images GPT Image 2.5 Sunburst 1K ; vidéo Wan 3.0 480p. Avec la phrase avant / après, 8 clips Wan : environ 700 cr.
+
+## Générations
+
+| Fichier | Modèle | Réglages | Références | Prompt | Coût | Task id | Statut |
+|---|---|---|---|---|---|---|---|
+| `sorties/cadrage-v1.png` | GPT Image 2.5 Sunburst | 9:16, 1K | `casting/cadrage-video-raie.png`, `casting/de-face.png`, `work/decor-ref-30.png` | `prompts/image/cadrage-v1.txt` (queue basse ramenée sur l'épaule) | 6 cr | 21af857349097971fbd78e5ab190530d | à valider |
+| `sorties/cadrage-v2.png` | GPT Image 2.5 Sunburst | 9:16, 1K | idem | `prompts/image/cadrage-v2.txt` (queue dans le dos demandée, rendue sur l'épaule) | 6 cr | 2bd683770ae8356b07d73fe57b5cb61f | à valider |
