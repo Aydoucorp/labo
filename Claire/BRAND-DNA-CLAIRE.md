@@ -73,3 +73,9 @@ Une promesse qu'on ne peut pas tenir · un avant-après qui laisse croire à une
 3. Chaque affirmation tient-elle sans source inventée ni promesse intenable ?
 
 Une seule réponse « non » et on ne publie pas.
+
+## Avatars et voix ElevenLabs
+
+| Avatar | Images de référence | Voix ElevenLabs | Depuis |
+|---|---|---|---|
+| Avatar brun, environ 45 ans (UGC humain) | `runs/2026-10-22_claire-raie-elargie_ugc-humain/casting/de-face.png`, `sorties/cadrage-v2.png` du même run | **Victoria** (exemple : `Claire/voix/victoria-exemple.mp3`) | choisie le 2026-10-23 pour les prochaines vidéos ; la vidéo « raie élargie » garde la voix Sidonie |
