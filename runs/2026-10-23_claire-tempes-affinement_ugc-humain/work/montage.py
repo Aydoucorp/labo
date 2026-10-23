@@ -24,9 +24,9 @@ plans = [
     ("sorties/clips/W2-v1.mp4", 0.0, 14.75, 18.05),
     (a.b1 or B4P, 0.3 if a.b1 else 0.0, 18.05, 21.70),   # provisoire : br-0022 (br-0031 contient en fait une hélice d'ADN, voir montage.md)
     ("sorties/motion/B2-motion.mp4", 0.0, 21.70, 25.50),                                     # motion design : cycle de pousse
-    (a.b3 or B + "10_MECA_3DSCI_animation-3d-follicule-retrecit.mp4", 1.9, 25.50, 27.85),   # provisoire : br-0015
+    (a.b3 or B + "10_MECA_3DSCI_animation-3d-follicule-retrecit.mp4", 1.2 if a.b3 else 1.9, 25.50, 27.85),   # B3 3D (sinon provisoire br-0015)
     ("sorties/clips/W3-v1.mp4", 0.0, 27.85, 29.40),
-    (a.b4 or B + "07_MECA_3DSCI_animation-3d-coupe-cuir.mp4", 0.0, 29.40, 34.45),   # provisoire : br-0012
+    (a.b4 or B + "07_MECA_3DSCI_animation-3d-coupe-cuir.mp4", 0.5 if a.b4 else 0.0, 29.40, 34.45),   # B4 3D (sinon provisoire br-0012)
     ("sorties/clips/W4-v1.mp4", 0.0, 34.45, 42.55),
     ("sorties/clips/W5-v1.mp4", 0.47, 42.55, 44.25),   # Wan en retard constant de 0,47 s
     ("sorties/motion/B5a-motion.mp4", 0.0, 44.25, 49.05),                                    # motion design : hormones, tempes
@@ -35,7 +35,7 @@ plans = [
     ("sorties/clips/W6-v1.mp4", 1.30, 53.10, 54.85),   # retard qui monte à 0,2 s : recalage à « devient »
     ("sorties/clips/W7-v1.mp4", 0.0, 54.85, 64.99),
 ]
-MOTION = [(21.70, 25.50), (44.25, 52.00)]  # plans de motion design sur fond crème
+MOTION = [(21.70, 25.50), (25.50, 27.85), (29.40, 34.45), (44.25, 52.00)]  # plans sur fond crème (motion design et 3D B3, B4)
 inputs, fc, labels = [], [], []
 for i, (src, s0, t0, t1) in enumerate(plans):
     d = t1 - t0
@@ -103,9 +103,15 @@ for b, bl in enumerate(blocs):
             base, fort = ("&H00262A2E&", "&H003A55A8&") if clair else ("&H00FFFFFF&", COUL)
             lignes.append(f"{{\\c{fort}}}{txt}{{\\c{base}}}" if lj == li else txt)
         clair = any(m0 <= t0 < m1 for m0, m1 in MOTION)
-        style = "{\\c&H00262A2E&\\bord0\\shad0}" if clair else ""
+        style = "{\\c&H00262A2E&\\3c&H00F3F6FA&\\bord4\\shad0}" if clair else ""
         ev.append(f"Dialogue: 0,{ts(t0)},{ts(t1)},Mot,,0,0,0,,{{\\an5\\pos(540,{a.y_sous_titres})}}" + style + "\\N".join(lignes))
 ev.append(f"Dialogue: 1,{ts(0)},{ts(2.85)},Hook,,0,0,0,,{{\\an8\\pos(540,250)}}Tes tempes\\Ns’affinent ?")
+# étiquettes des 3D, à la façon de Drew Canole (mot-clé en grand), aux couleurs de Claire
+if a.b3: ev.append(f"Dialogue: 1,{ts(26.25)},{ts(27.85)},Etiq,,0,0,0,,{{\\an5\\pos(540,1520)\\fad(150,0)}}Follicule fragilisé")
+if a.b4:
+    ev.append(f"Dialogue: 1,{ts(29.55)},{ts(31.85)},Etiq,,0,0,0,,{{\\an5\\pos(540,1560)\\fad(150,100)}}Tempes")
+    ev.append(f"Dialogue: 1,{ts(32.45)},{ts(34.45)},Etiq2,,0,0,0,,{{\\an5\\pos(270,1540)\\fad(150,0)}}Haut de la tête")
+    ev.append(f"Dialogue: 1,{ts(32.45)},{ts(34.45)},Etiq2,,0,0,0,,{{\\an5\\pos(810,1540)\\fad(150,0)\\c&H003A55A8&}}Tempes")
 pathlib.Path("montage").mkdir(exist_ok=True)
 pathlib.Path("montage/textes.ass").write_text(f"""[Script Info]
 ScriptType: v4.00+
@@ -116,12 +122,14 @@ PlayResY: 1920
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Mot,Montserrat ExtraBold,64,&H00FFFFFF,&H00FFFFFF,&H00201A16,&H8C000000,-1,0,0,0,100,100,0,0,1,2.5,3,5,0,0,0,1
 Style: Hook,Montserrat ExtraBold,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,6,0,8,0,0,0,1
+Style: Etiq,Fraunces SemiBold,96,&H00513A7A,&H00513A7A,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+Style: Etiq2,Fraunces SemiBold,62,&H00513A7A,&H00513A7A,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
 Style: Date,Montserrat ExtraBold,62,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,3,2,7,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """ + "\n".join(ev) + "\n")
-fc[-1] = f"[{cur}]ass=montage/textes.ass:fontsdir={F}[vout]"
+fc[-1] = f"[{cur}]ass=montage/textes.ass:fontsdir=montage/polices[vout]"
 vi = n + len(ins); inputs += ["-i", "audio/voix.mp3"]
 fc.append(f"[{vi}:a]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[aout]")
 cmd = ["ffmpeg", "-v", "error", "-y", *inputs, "-filter_complex", ";".join(fc), "-map", "[vout]", "-map", "[aout]",
