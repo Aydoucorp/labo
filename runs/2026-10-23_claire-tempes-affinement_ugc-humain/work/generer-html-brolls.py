@@ -27,12 +27,12 @@ plans = [
   vid=STYLE + " " + MOTION + ' Starting from the input image, in time-lapse: the hair grows long and strong while the golden ring stays fully lit; the hair detaches and falls away into the dark; a new hair grows but the golden ring is now only half lit, and this hair stops at half the length and falls out sooner; a third hair grows even shorter, the ring only a quarter lit. Slow orbit around the block. What must be obvious: each growth cycle is shorter than the one before.'),
  dict(id="B3", t="24,90 à 27,85 s (3 s)", phrase="…et que les follicules de cette zone se fragilisent.",
   but="On voit un follicule sain qui s'affaiblit sous nos yeux.", genre="3D pédagogique",
-  entree="Image : texte seul. Vidéo : l'image obtenue en input.", etiquettes="« FOLLICULE FRAGILISÉ »", fichier="B3-follicule.mp4",
+  entree="Aucune : vidéo en texte seul.", etiquettes="« FOLLICULE FRAGILISÉ »", fichier="B3-follicule.mp4",
   img=STYLE + ' Scene: macro view deep inside the scalp: a single plump, glossy hair follicle bulb, healthy pink-red, wrapped in a fine network of bright red blood vessels, a thick shiny dark hair shaft rising from it, floating in a dark tissue environment with a soft spotlight.',
   vid=STYLE + " " + MOTION + ' Starting from the input image: the camera slowly pushes in on the bulb while it visibly weakens: the red blood vessels around it thin out and retract, the bulb shrinks, loses its colour and turns dull grey-pink, the hair shaft becomes thinner and lighter, and fine cracks spread across the follicle wall. What must be obvious: this follicle is becoming fragile.'),
  dict(id="B4", t="29,40 à 34,45 s (5 s)", phrase="Parce que tes tempes ont certains des follicules les plus fins et les plus délicats de tout ton cuir chevelu.",
   but="On voit où sont les tempes, puis la différence entre les follicules du haut de la tête (épais) et ceux des tempes (très fins).", genre="3D pédagogique",
-  entree="Image : texte seul. Vidéo : l'image obtenue en input.", etiquettes="« TEMPES » sur la zone, puis « HAUT DE LA TÊTE » à gauche et « TEMPES » à droite", fichier="B4-tempes.mp4",
+  entree="Aucune : vidéo en texte seul.", etiquettes="« TEMPES » sur la zone, puis « HAUT DE LA TÊTE » à gauche et « TEMPES » à droite", fichier="B4-tempes.mp4",
   img=STYLE + ' Scene: a translucent glass-like 3D head of a woman in three-quarter view, isolated on black, the skull faintly visible inside and a dense network of bright red blood vessels running across the scalp and face; the hair is suggested as a faint translucent volume pulled back. Both temple areas glow warm orange-red, the rest of the head stays dim.',
   vid=STYLE + " " + MOTION + ' Starting from the input image: slow orbit toward the glowing temple, then the camera dives through the skin into a macro view of the follicles: on the left, three big deep follicles with thick shiny dark hairs (top of the head); on the right, three tiny shallow follicles with very thin, fine, almost transparent hairs that sway gently (the temple). The camera holds on this side-by-side comparison. What must be obvious: the temple follicles are much finer and more fragile than the others.'),
  dict(id="B5a", t="44,25 à 49,05 s (4,8 s)", phrase="Pendant la périménopause et la ménopause, les fluctuations hormonales touchent d'abord les tempes.",
@@ -46,6 +46,16 @@ plans = [
   img=STYLE + ' Scene: macro view of a single temple hair follicle with a thin hair in glossy pink tissue, isolated in dark space; on the left side, a dense cloud of soft glowing pink spheres surrounds it; on the right side, a few small sharp amber crystals.',
   vid=STYLE + " " + MOTION + ' Starting from the input image, both at the same time: the glowing pink spheres on the left dim and drift away until almost none remain, while the sharp amber crystals on the right multiply fast and swarm around the follicle; the follicle tightens, its surroundings turn an irritated red and the thin hair trembles. End on the contrast: almost no pink left, the follicle surrounded by amber. What must be obvious: one protective element goes down, a stress element goes up, and the follicle suffers.'),
 ]
+
+MOTION_T = ("Slow cinematic camera move (orbit, push-in or fly-through), one single clear transformation, readable at a glance by someone watching without sound. "
+"No cuts, no scene change, no shake.")
+TEXTE_SEUL = {
+ "B3": STYLE + " " + MOTION_T + " Opening shot: macro view deep inside the scalp, a single plump, glossy hair follicle bulb, healthy pink-red, wrapped in a fine network of bright red blood vessels, a thick shiny dark hair shaft rising from it, floating in a dark tissue environment under a soft spotlight. "
+   "Then, as the camera slowly pushes in on the bulb, it visibly weakens: the red blood vessels around it thin out and retract, the bulb shrinks, loses its colour and turns dull grey-pink, the hair shaft becomes thinner and lighter, and fine cracks spread across the follicle wall. What must be obvious: this follicle is becoming fragile.",
+ "B4": STYLE + " " + MOTION_T + " Opening shot: a translucent glass-like 3D head of a woman in three-quarter view, isolated on black, the skull faintly visible inside and a dense network of bright red blood vessels running across the scalp and face, the hair suggested as a faint translucent volume pulled back; both temple areas glow warm orange-red while the rest of the head stays dim. "
+   "Then a slow orbit toward the glowing temple, and the camera dives through the skin into a macro view of the follicles: on the left, three big deep follicles with thick shiny dark hairs (top of the head); on the right, three tiny shallow follicles with very thin, fine, almost transparent hairs that sway gently (the temple). The camera holds on this side-by-side comparison. What must be obvious: the temple follicles are much finer and more fragile than the others.",
+}
+
 def bloc(titre, txt, k):
     return f'<div class="p"><div class="ph"><span>{titre}</span><button onclick="cp(\'{k}\',this)">Copier</button></div><pre id="{k}">{html.escape(txt)}</pre></div>'
 cards = ""
@@ -54,7 +64,7 @@ for p in [x for x in plans if x["id"] in ("B1", "B3", "B4")]:  # B2, B5a, B5b fa
 <p class="phrase">« {html.escape(p["phrase"])} »</p>
 <p class="but"><b>On doit comprendre :</b> {html.escape(p["but"])}</p>
 <p class="meta"><b>Input :</b> {html.escape(p["entree"]).replace("`","")}<br><b>Étiquettes ajoutées au montage :</b> {html.escape(p["etiquettes"])}<br><b>Nom du fichier à me renvoyer :</b> <code>{p["fichier"]}</code></p>
-{bloc("Prompt image", p["img"], p["id"]+"-img")}{bloc("Prompt vidéo", p["vid"], p["id"]+"-vid")}</section>'''
+{(bloc("Prompt vidéo, texte seul (sans image de départ)", TEXTE_SEUL[p["id"]], p["id"]+"-vid") if p["id"] in TEXTE_SEUL else bloc("Prompt image", p["img"], p["id"]+"-img") + bloc("Prompt vidéo", p["vid"], p["id"]+"-vid"))}</section>'''
 page = f'''<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>B-rolls tempes</title>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
