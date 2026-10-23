@@ -23,3 +23,7 @@ Découpage provisoire : `decoupage.md`.
 |---|---|---|---|---|---|---|---|
 | `sorties/cadrage-v1.png` | GPT Image 2.5 Sunburst | 9:16, 1K | `casting/cadrage-video-raie.png`, `casting/de-face.png`, `work/decor-ref-30.png` | `prompts/image/cadrage-v1.txt` (queue basse ramenée sur l'épaule) | 6 cr | 21af857349097971fbd78e5ab190530d | non retenue |
 | `sorties/cadrage-v2.png` | GPT Image 2.5 Sunburst | 9:16, 1K | idem | `prompts/image/cadrage-v2.txt` (queue dans le dos demandée, rendue sur l'épaule) | 6 cr | 2bd683770ae8356b07d73fe57b5cb61f | **retenue** (choix de l'utilisateur) |
+| `sorties/avant-v1.png` | GPT Image 2.5 Sunburst | 3:4, 1K | `retenues/cadrage-v2.png`, `references/ref-avant.png` (style seulement) | `prompts/image/avant.txt` | 6 cr | 716c67634a8d16da69011372cd121314 | à valider |
+| `sorties/apres-v1.png` | GPT Image 2.5 Sunburst | 3:4, 1K | `retenues/cadrage-v2.png`, `references/ref-apres.png` (style seulement) | `prompts/image/apres.txt` | 6 cr | 8512f92cc24765d339aeef2c2a0c456a | à valider |
+
+Avant / après générés par IA à la demande de l'utilisateur, qui l'indique dans la description de la publication (mention à l'écran conseillée).
