@@ -28,3 +28,6 @@ New photo, vertical 9:16, extreme macro close-up of her temple hairline, shot on
 ```
 Vertical 9:16 smartphone macro video, 5 seconds, starting from the input image and keeping the same extreme close-up: the fine hairs of the temple stay the subject the whole time and stay as fine and delicate as in the input image. Dynamic but gentle real gestures: a fingertip enters the frame and slowly brushes across the fine hairs, they bend and spring back, then the fingertip lifts a few baby hairs to show how thin and light they are; the camera slowly glides along the hairline. Natural light catching each hair, slight handheld micro-shake, realistic, shot on iPhone, no text, no logo. She does not speak.
 ```
+
+## Reçu
+- `rushes/b1-tempe-utilisateur-v1.mp4` (4 s, 720x1280, IA générée par l'utilisateur à partir de `retenues/cadrage-v2.png`) : tempe droite en trois quarts, coin de la ligne frontale dégarni et cheveux clairsemés bien visibles de 0,5 à 2,4 s, la main tire les cheveux puis presse la tempe. Fenêtre au montage : 0,3 à 3,95 s (18,05 à 21,70 s de la voix).

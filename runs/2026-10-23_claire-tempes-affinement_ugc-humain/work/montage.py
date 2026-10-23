@@ -22,7 +22,7 @@ plans = [
     ("sorties/clips/W8-v1.mp4", 0.0, 8.20, 11.40),
     ("sorties/clips/W8-v1.mp4", 3.43, 11.40, 14.75),   # Wan en retard de 0,23 s après « à ça » : saut dans la pause
     ("sorties/clips/W2-v1.mp4", 0.0, 14.75, 18.05),
-    (a.b1 or B4P, 0.0, 18.05, 21.70),   # provisoire : br-0022 (br-0031 contient en fait une hélice d'ADN, voir montage.md)
+    (a.b1 or B4P, 0.3 if a.b1 else 0.0, 18.05, 21.70),   # provisoire : br-0022 (br-0031 contient en fait une hélice d'ADN, voir montage.md)
     ("sorties/motion/B2-motion.mp4", 0.0, 21.70, 25.50),                                     # motion design : cycle de pousse
     (a.b3 or B + "10_MECA_3DSCI_animation-3d-follicule-retrecit.mp4", 1.9, 25.50, 27.85),   # provisoire : br-0015
     ("sorties/clips/W3-v1.mp4", 0.0, 27.85, 29.40),
