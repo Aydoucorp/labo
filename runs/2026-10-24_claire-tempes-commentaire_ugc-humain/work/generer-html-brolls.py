@@ -32,13 +32,14 @@ MUST STAY IDENTICAL FROM FIRST TO LAST FRAME: the skin block, its position, the 
 MESSAGE THAT MUST BE OBVIOUS WITHOUT SOUND: residues of products, makeup and sweat stuck at the temple clog the follicle and make the hair fall.
 {FORBID3D}"""
 
-HAUT = """INPUT: Image 1 is the woman (identity and hair reference only).
-FORMAT: vertical 9:16 photo, realistic, shot on a smartphone.
-CAMERA: directly ABOVE her head, lens pointing straight down at 90 degrees, phone held about 40 cm above the top of her head, 26 mm smartphone lens. Her head is slightly tilted forward so that ONLY the top of the head is visible. Framing: the crown and the front hairline fill the centre of the frame, the front hairline at about 35 % from the top of the frame, both temples clearly visible on the left and right of the hairline. Her shoulders appear only at the bottom corners, in a plain BLACK fine-knit sweater (NOT the terracotta sweater of Image 1).
-HAIR (copy Image 1 exactly): long, thick, medium-dark brown, one even natural colour with soft warm highlights, soft waves in the lengths, healthy density, NO grey, NO blonde, NO highlights stripes.
-LIGHT: soft natural daylight from a window at the front-left, gentle soft shadows, no flash, true-to-life colours, sharp focus on the roots, the hairline and the temples.
-BACKGROUND: out of focus far below her: a plain warm beige floor, nothing else."""
-FORBIDH = """FORBIDDEN: the terracotta sweater or any colour other than black on her shoulders; her face, eyes, nose, mouth or ears seen from the front; hands; other people; any text, logo or watermark; grey or blonde hair; wigs; cartoon or illustration look; beauty filter; extra accessories not described."""
+HAUT = """INPUT: Image 1 is the woman (hair colour and texture reference only).
+FORMAT: vertical 9:16 photo, realistic, shot on a smartphone, natural and physically plausible.
+CAMERA: bird's-eye view from DIRECTLY ABOVE the crown of her head, the phone held flat about 30 cm above the top of her head, looking straight down. She stands upright, head level, looking down at the floor.
+TIGHT FRAMING (very important): the top of her head fills the whole width of the frame. The BOTTOM EDGE of the frame cuts exactly along her front hairline: NO forehead skin, NO eyebrows, NO eyes, NO nose, NO face at all in the frame. The crown of the head is in the upper half of the frame. Both temples, where the front hairline meets the sides of the head, are clearly visible at the lower left and lower right of the frame. If any clothing is visible at the extreme edges, it is a plain BLACK fine-knit sweater (never the terracotta sweater of Image 1).
+HAIR (copy the colour and texture of Image 1): thick, healthy, medium-dark brown, one even natural colour with soft warm highlights; dense roots everywhere; NO grey or white hairs, NO visible scalp along the parting, NO thinning, NO blonde.
+LIGHT: soft natural daylight from the front-left, gentle soft shadows, no flash, true-to-life colours, sharp focus on the roots and on the temples.
+PHYSICS: every object rests on the hair with correct weight, contact and perspective; nothing floats in the air."""
+FORBIDH = """FORBIDDEN: forehead, eyebrows, eyes, nose or any part of the face in the frame; a view from behind; the terracotta sweater; grey hairs or a widened parting; objects floating above the head; her face, eyes, nose, mouth or ears seen from the front; hands; other people; any text, logo or watermark; grey or blonde hair; wigs; cartoon or illustration look; beauty filter; extra accessories not described."""
 
 AVATAR = """INPUT: Image 1 is the woman: copy exactly her face, facial features, freckles, fine lines, brown eyes, apparent age (mid forties), body build and her long medium-dark brown hair (one even colour, soft waves, no grey, no blonde).
 FORMAT: vertical 9:16, realistic smartphone photo, natural skin texture with visible pores, freckles and fine lines, no beauty filter, true-to-life colours."""
@@ -64,8 +65,8 @@ SUBJECT: her hair is down and she wears a wide (about 5 cm) plain fabric headban
 """ + FORBIDH),
  dict(id="B2d", genre="Image avatar, vue du dessus", t="17,88 à 19,40 s", phrase="…lunettes de soleil sur la tête…",
   but="Vue du dessus : lunettes de soleil remontées sur la tête, les branches enfoncées dans les cheveux aux tempes.", entree="retenues/cadrage.png", fichier="B2d-lunettes.png",
-  img=HAUT.replace("BACKGROUND: out of focus far below her: a plain warm beige floor, nothing else.", "BACKGROUND: out of focus far below her: light stone paving of a sunny terrace, nothing else.") + """
-SUBJECT: her hair is down and a pair of dark tortoiseshell sunglasses is pushed up on top of her head like a headband, sitting just behind the front hairline; from above, the dark frame crosses the front of the head and the two arms of the glasses press firmly into the hair right at both temples, the hair visibly squeezed under them. Soft outdoor daylight.
+  img=HAUT + """
+SUBJECT: a pair of dark tortoiseshell sunglasses is pushed up and RESTS ON her hair like a headband: the front of the frame lies flat on top of her head, horizontal, about 3 cm behind the front hairline (near the bottom of the frame); the two arms lie FLAT ON THE HAIR, following the curve of the skull, running from the frame down along both sides of the head over the temples toward the ears; along their whole length the arms touch and press into the hair, which is visibly squeezed under them at both temples. The lenses face up toward the sky and reflect a little daylight. Soft outdoor daylight.
 """ + FORBIDH),
  dict(id="B3", genre="Vidéo avatar (image puis vidéo)", t="26,85 à 31,75 s (4,9 s)", phrase="La plupart des femmes concentrent leur shampoing à l'arrière de la tête et oublient complètement les tempes.",
   but="Sous la douche, la mousse seulement à l'arrière de la tête, les tempes mouillées mais sans mousse.", entree="Image : retenues/cadrage.png. Vidéo : l'image obtenue.", fichier="B3-douche.mp4",
