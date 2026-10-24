@@ -31,3 +31,8 @@ Total clips : 520 cr. Images : 7,6 cr. Total du run à ce stade : 527,6 cr (envi
 - Clé KIE remise dans `.env` (ignoré par git) à partir de celle donnée par l'utilisateur. Solde avant : 67,1 cr.
 - `sorties/images/B2d-lunettes-v1.png` : Nano Banana 2.1, 1K, 9:16, entrée `retenues/cadrage.png`, prompt `prompts/image/B2d-lunettes-v1.txt`, 4 cr.
 - Défauts : cheveux poivre et sel (gris), front et bout du nez visibles en bas, lunettes posées vers l'arrière du crâne et non près de la ligne frontale. Non retenue ; relance soumise à l'accord de l'utilisateur.
+
+## 2026-10-24 : B2a à B2c reçus, B2d v2, B6 tranché
+- B2a (queue de cheval), B2b (chignon), B2c (bandeau) générés par l'utilisateur, envoyés dans le chat, enregistrés dans `rushes/recus/` (768x1376).
+- B2d v2 : Nano Banana 2.1, 1K, 9:16, entrée `rushes/recus/B2b-chignon.jpg` (même cadrage que la série), prompt `prompts/image/B2d-lunettes-v2.txt`, tâche 549b35e487282970159919e00d1b8481, 4 cr. Lunettes posées à plat entre la ligne frontale et le chignon, branches vers les tempes. Repli prévu si échec : GPT Image 2.5 Sunburst. En attente de validation.
+- B6 : l'utilisateur garde le motion design (option 3D abandonnée).
