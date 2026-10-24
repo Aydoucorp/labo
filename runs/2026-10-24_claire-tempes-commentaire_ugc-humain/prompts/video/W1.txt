@@ -1,0 +1,19 @@
+Vertical 9:16 TikTok haircare video, 9 seconds. Raw iPhone front-camera footage look, natural soft window light from the front-left, real living room, not cinematic, not CGI.
+
+REFERENCE ROLES (strict):
+- @Video1 is an AUDIO-ONLY reference. Its picture is a plain black screen: never show black frames, never copy its picture. Its soundtrack is the woman's voice and the master timeline of this video.
+- The speech is EXACTLY the voice of @Video1: same voice, same words, same timing, same pauses. Say every word ONCE: do not add, remove, repeat or change a single word. No other voice. The voice speaks French.
+- @Image1 is the CREATOR reference and the framing (not a first frame): woman in her mid forties, her face, natural skin texture with freckles and fine lines, brown eyes, long medium-dark brown hair tied in a low ponytail resting over her right shoulder, hairline and temples visible, chunky knit crew-neck sweater in a warm terracotta colour, tiny stud earrings; seated on a white armchair in front of the sage-green panelled wall, a large green palm plant on the right.
+- OUTFIT AND HAIR LOCK: from the first to the last frame she wears exactly the terracotta knit sweater of @Image1 and her hair stays tied in the same low ponytail. Never another garment, never loose hair.
+
+ONLY the woman talking to the camera, phone fixed on a stand slightly above eye level, medium close-up like @Image1, the framing stays exactly the same for the whole clip: no B-roll, no cutaway, no close-up insert of hands alone, no zoom. She leans slightly forward toward the lens, like confiding in a girlfriend.
+PERFECT LIP SYNC to @Video1 on every syllable.
+She is alive and expressive, never frozen, never just nodding: frequent eyebrow raises, head tilts, quick blinks, natural breathing, real micro-expressions. Her hands come up into the frame to gesture, loose and imperfect like a real person, not a presenter. Eye contact with the lens almost all the time.
+
+TIMELINE:
+[0.0s-0.5s] She has not started talking yet: mouth closed, a small breath in, she glances up to the upper left as if reading a comment on her screen.
+[0.5s-4.5s] On "J'ai perdu beaucoup de cheveux partout sur ma tête et surtout sur mes tempes." she reads the comment aloud with empathy, eyes briefly going up to the upper left then back to the lens, and touches her right temple with two fingertips on "tempes".
+[4.5s-8.2s] On "Si toi aussi tu vis ça," she points softly at the lens on "toi aussi"; on "voici ce qui se passe au niveau de tes tempes !" she taps both temples with her fingertips, eyebrows raised; then mouth closed.
+
+Sound: the voice of @Video1 on top, clear and close; underneath, a very quiet living room tone. No music.
+Natural skin texture, no beauty filter. No on-screen text, no captions, no logos added.
