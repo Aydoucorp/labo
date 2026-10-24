@@ -5,6 +5,7 @@ S3D = ("Scientific 3D medical render, same style as the reference images: semi-r
        "hair follicles and glossy dark-brown hairs, terracotta and cream palette, dark plum gradient background, soft warm studio light with a gentle orange glow, "
        "clean and readable, vertical 9:16, the key element in the upper two thirds, the lower third calm for subtitles. No text, no letters, no labels, no logo.")
 MOT3D = "Slow, smooth camera, one clear action readable at a glance without sound, no cuts, no morphing, same look from the first to the last frame."
+HAUT = 'Image 1 is the woman: same long medium-dark brown hair (same colour, same thickness, same soft waves, one even colour), same terracotta knit sweater visible at the shoulders, same skin tone. TOP-DOWN VIEW: the photo is taken from directly above her head, looking straight down at the top of her head and her front hairline; her face is NOT visible, only the top of the head, the hair, the front hairline and both temples, and a bit of her shoulders at the edges. Realistic smartphone photo, soft natural window light, sharp detail on the hair strands and the roots. Vertical 9:16. No text, no logo, no watermark.'
 AV = ("Image 1 is the woman: same face, same freckles and fine lines, same brown eyes, same long medium-dark brown hair, same terracotta knit sweater, same apparent age. "
       "Realistic smartphone photo, natural window light, natural skin texture, no beauty filter. No text, no logo, no watermark.")
 plans = [
@@ -14,17 +15,17 @@ plans = [
   img=S3D + " Scene: a cutaway block of temple scalp skin, one hair follicle anchored in it with a long healthy hair; next to it, a faint ghost outline shows where a previous hair used to be.",
   vid=S3D + " " + MOT3D + " The long hair loosens in its follicle and slides out after only a short moment, falling away; a new hair starts growing from the same follicle but stops much shorter and finer, then also loosens and slides out early. A soft terracotta glow highlights the follicle each time it lets go. What must be obvious: here, hairs stay anchored for a shorter time, so they fall sooner and stay shorter."),
  dict(id="B2a", t="13,30 à 16,40 s", phrase="Cette zone subit de la tension constante : queues de cheval…",
-  but="Gros plan de la tempe tirée par une queue de cheval serrée.", genre="Image avatar (animée au montage)", entree="Image : retenues/cadrage.png en input. Pas de vidéo.", fichier="B2a-queue-de-cheval.png",
-  img=AV + " Close-up in three-quarter view of her right temple and hairline: she is pulling her hair back very tightly into a high ponytail with both hands, the hair at the temple is visibly stretched and pulled, the skin of the temple slightly lifted by the tension."),
+  but="Vue du dessus : queue de cheval haute et serrée, les cheveux tirés en arrière depuis le front, les tempes étirées.", genre="Image avatar vue du dessus (animée au montage)", entree="Image : retenues/cadrage.png en input. Pas de vidéo.", fichier="B2a-queue-de-cheval.png",
+  img=HAUT + " Her hair is pulled back very tightly into a high ponytail with a hair tie at the crown: from above, every strand runs in tight straight lines from the front hairline and the temples back to the ponytail, the hair at both temples visibly stretched, the skin of the temples showing between the pulled strands."),
  dict(id="B2b", t="16,40 à 17,28 s", phrase="…chignons flous…",
-  but="Chignon flou noué haut, la tempe tirée.", genre="Image avatar (animée au montage)", entree="Image : retenues/cadrage.png en input. Pas de vidéo.", fichier="B2b-chignon-flou.png",
-  img=AV + " Close-up in three-quarter view of her head from the side: her hair is gathered into a messy top bun, the hair at her temple and hairline is pulled up toward the bun, a few loose strands, the tension at the temple visible."),
+  but="Vue du dessus : chignon flou sur le sommet de la tête, les tempes tirées vers le chignon.", genre="Image avatar vue du dessus (animée au montage)", entree="Image : retenues/cadrage.png en input. Pas de vidéo.", fichier="B2b-chignon-flou.png",
+  img=HAUT + " Her hair is gathered into a messy bun on the very top of her head: from above, the bun sits in the centre of the frame, the hair from the front hairline and both temples is pulled up toward it, a few loose strands, the tension at the temples visible."),
  dict(id="B2c", t="17,28 à 17,88 s", phrase="…bandeaux…",
-  but="Bandeau en tissu serré qui appuie sur les tempes.", genre="Image avatar (animée au montage)", entree="Image : retenues/cadrage.png en input. Pas de vidéo.", fichier="B2c-bandeau.png",
-  img=AV + " Close-up of her face and forehead from slightly to the side: she wears a wide fabric headband pushed back on her hair, pressing tightly right over her temples and hairline."),
+  but="Vue du dessus : bandeau en tissu serré posé sur la ligne frontale, qui appuie sur les deux tempes.", genre="Image avatar vue du dessus (animée au montage)", entree="Image : retenues/cadrage.png en input. Pas de vidéo.", fichier="B2c-bandeau.png",
+  img=HAUT + " She wears a wide fabric headband in a muted plum colour placed just behind the front hairline: from above, the headband crosses the top of the head from one temple to the other and visibly presses the hair flat at both temples."),
  dict(id="B2d", t="17,88 à 19,40 s", phrase="…lunettes de soleil sur la tête…",
-  but="Lunettes de soleil posées sur la tête, les branches appuient sur les tempes.", genre="Image avatar (animée au montage)", entree="Image : retenues/cadrage.png en input. Pas de vidéo.", fichier="B2d-lunettes.png",
-  img=AV + " Close-up in three-quarter view: sunglasses pushed up on top of her head like a headband, the arms of the glasses pressing into the hair right at her temples, outdoors on a sunny terrace."),
+  but="Vue du dessus : lunettes de soleil posées sur la tête comme un serre-tête, les branches enfoncées dans les cheveux aux tempes.", genre="Image avatar vue du dessus (animée au montage)", entree="Image : retenues/cadrage.png en input. Pas de vidéo.", fichier="B2d-lunettes.png",
+  img=HAUT + " Sunglasses are pushed up on top of her head like a headband: from above, the dark frame sits across the front of the head and the two arms press into the hair right at both temples, outdoors in soft daylight."),
  dict(id="B3", t="26,85 à 31,75 s (4,9 s)", phrase="La plupart des femmes concentrent leur shampoing à l'arrière de la tête et oublient complètement les tempes.",
   but="Sous la douche, elle mousse seulement l'arrière de la tête ; ses tempes restent sans mousse.", genre="Vidéo avatar", entree="Image : retenues/cadrage.png en input. Vidéo : l'image obtenue en input.", fichier="B3-douche.mp4",
   img=AV + " She is in a bright shower, seen from the side and slightly behind, wet hair, shampoo foam only on the back of her head, the hair at her temples and front hairline wet but completely without foam. Steam, soft bathroom light. Bare shoulders only, tasteful framing from the shoulders up.",
@@ -61,7 +62,7 @@ page = f'''<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name
 <div class="intro"><ul>
 <li>Chaque b-roll colle à 100 % à la phrase dite, se comprend sans le son et reste agréable à regarder.</li>
 <li>3D : le style des premières vidéos (fond prune, coupe de peau semi-réaliste, lueur orange douce), en plus explicite. Références de style : <code>references/style-3d-prune-08.jpg</code> et <code>-10.jpg</code>.</li>
-<li>Avatar : <code>retenues/cadrage.png</code> en input (pull terracotta). B2a à B2d sont des images seules : je les anime au montage, une par mot.</li>
+<li>Avatar : <code>retenues/cadrage.png</code> en input (pull terracotta). B2a à B2d : images seules, <b>vues du dessus</b> (pas de visage), mêmes cheveux que l'avatar. Au montage, chacune apparaît pile sur son mot (queues de cheval, chignons flous, bandeaux, lunettes de soleil) avec une avancée lente vers la tempe et une coupe nette au mot suivant.</li>
 <li>Génère d'abord l'image, envoie-la-moi, puis lance la vidéo avec l'image en input. Si ton outil fait des vidéos plus longues, je prends les bonnes secondes.</li>
 <li>Les plans « micro-tensions » et « zone délicate » sont en face caméra et en motion design, rien à générer.</li>
 </ul></div>
