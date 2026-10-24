@@ -39,3 +39,12 @@ Total clips : 520 cr. Images : 7,6 cr. Total du run à ce stade : 527,6 cr (envi
 
 ## 2026-10-24 : B6 en clip Wan (préparé, pas lancé)
 - L'utilisateur a rechargé KIE et envisage B6 en clip Wan face caméra. Prompt `prompts/video/B6W.txt` (en-tête de W5, 6 s), voix 44,30 à 49,60 s → `audio/clips/B6W_ecran-noir.mp4` (5,3 s). Coût estimé : (6 + 5,3) × 8 ≈ 90 cr. En attente du feu vert sur les gestes.
+
+## 2026-10-24 : B6W v1 (Wan 3.0)
+| Date | Clip | Durée | Tâche | Coût | Whisper | Bilabiales | Correction |
+|---|---|---|---|---|---|---|---|
+| 2026-10-24 | B6W | 6 s | f86eb34e82a4024514c61a3f962268a9 | 88 cr | 15/16 ; juste jusqu'à « frontale », puis retard de +0,52 à +0,74 s | 4/4 | recalage : 46,75 s (source 3,01) et 47,70 s (source 4,10) |
+- Solde avant : 1059,1 cr (recharge de l'utilisateur).
+- Gestes conformes : mains sur les pommettes sur « moins lifté » (vers 1,0 à 2,0 s), dégage la tempe droite sur « fragile », explique avec les mains sur la 3e phrase sans toucher ses cheveux. Même visage, même pull, même décor.
+- Outils de contrôle réinstallés dans un environnement Python temporaire (faster-whisper, mediapipe 0.10.14 : la 1.1 demande libEGL absente).
+- Aperçu recalé : `montage/apercus/apercu-b6w-recale.mp4`. En attente de validation (motion design B6 gardé en réserve).
