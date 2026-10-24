@@ -48,3 +48,7 @@ Total clips : 520 cr. Images : 7,6 cr. Total du run à ce stade : 527,6 cr (envi
 - Gestes conformes : mains sur les pommettes sur « moins lifté » (vers 1,0 à 2,0 s), dégage la tempe droite sur « fragile », explique avec les mains sur la 3e phrase sans toucher ses cheveux. Même visage, même pull, même décor.
 - Outils de contrôle réinstallés dans un environnement Python temporaire (faster-whisper, mediapipe 0.10.14 : la 1.1 demande libEGL absente).
 - Aperçu recalé : `montage/apercus/apercu-b6w-recale.mp4`. En attente de validation (motion design B6 gardé en réserve).
+
+## 2026-10-24 : B1 et B5 reçus, trois versions finales
+- B1 (`rushes/recus/B1-3d.mp4`, 6 s) et B5 (`rushes/recus/B5-3d.mp4`, 6 s) générés par l'utilisateur (3D, fond prune). B5 calé de 1,0 à 6,0 s, accéléré x1,3.
+- Les trois versions (`montage/v-b6-wan.mp4`, `v-b6-motion.mp4`, `v-b6-mixte.mp4`) refaites avec les vraies 3D : plus aucun plan provisoire. En attente du choix de l'utilisateur.
