@@ -27,3 +27,11 @@
 
 Écartés : laser à basse intensité (appareils coûteux, preuves préliminaires), finastéride (pas mieux que placebo chez la femme), kétoconazole présenté comme anti-chute, biotine, « DHT blockers » en shampoing.
 Brand DNA respectée : aucun mot interdit (camoufler, miracle, stopper la chute…), renvoi au dermatologue regroupé page 9, aucun nom de marque.
+
+## Génération (2026-10-24)
+
+| Pages | Modèle | Réglages | Coût | Statut |
+|---|---|---|---|---|
+| 01 à 12 (`sorties/pages/NN-v1.png`) | GPT Image 2 (`gpt-image-2-text-to-image`) | 3:4, 1K, `prompts/pages/NN.txt`, `work/generer.sh 1K` | 72 cr (6 par page) | textes relus : aucune coquille. Page 06 sortie en 1008x1344 (autres en 1086x1448), titre un peu plus fin : relance proposée à l'utilisateur |
+
+PDF : `retenues/raie-elargie-web.pdf` (1,6 Mo) et `retenues/raie-elargie-hq.pdf` (4,8 Mo), script `work/assembler_pdf.py`.
