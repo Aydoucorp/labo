@@ -1,0 +1,17 @@
+mot voix off        voix off  seedance   écart
+toutes                  0.00      0.00   +0.00
+ces                     0.46      0.60   +0.14
+microtensions           0.78      0.78   +0.00
+s                       1.48      1.48   +0.00
+'additionnent           1.72      1.70   -0.02
+et                      2.38      2.42   +0.04
+comme                   2.62      2.64   +0.02
+ces                     2.86      2.84   -0.02
+follicules              3.00      3.00   +0.00
+sont                    3.44      3.44   +0.00
+déjà                    3.66      3.66   +0.00
+délicats,               3.98      4.00   +0.02
+ils                     4.66      4.96   +0.30
+réagissent              4.80      5.08   +0.28
+vite.                   5.24      5.62   +0.38
+écart moyen +0.08 s, max 0.38 s, mots appariés 15/15

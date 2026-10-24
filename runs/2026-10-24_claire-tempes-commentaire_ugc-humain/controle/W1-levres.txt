@@ -1,0 +1,7 @@
+perdu             0.78 s  ouverture 0.21 x médiane  fermée
+beaucoup          1.25 s  ouverture 0.01 x médiane  fermée
+partout           2.14 s  ouverture 0.08 x médiane  fermée
+ma                2.70 s  ouverture 0.42 x médiane  presque
+mes               4.12 s  ouverture 0.24 x médiane  fermée
+passe             7.05 s  ouverture 0.28 x médiane  fermée
+bilabiales fermées : 5/6

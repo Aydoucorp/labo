@@ -1,0 +1,18 @@
+mot voix off        voix off  seedance   écart
+Une                     0.00      0.00   +0.00
+fois                    0.40      0.42   +0.02
+que                     0.54      0.54   +0.00
+tes                     0.72      0.72   +0.00
+temples                 0.82      0.82   +0.00
+s                       1.00      1.00   +0.00
+'affinent,              1.18      1.18   +0.00
+c                       1.86      1.86   +0.00
+'est                    1.86      1.86   +0.00
+toute                   2.12      2.12   +0.00
+la                      2.26      2.28   +0.02
+silhouette              2.48      2.50   +0.02
+du                      2.72      2.72   +0.00
+visage                  2.90      2.90   +0.00
+qui                     3.24      3.24   +0.00
+change.                 3.50      3.50   +0.00
+écart moyen +0.00 s, max 0.02 s, mots appariés 16/16

@@ -1,0 +1,6 @@
+mot voix off        voix off  seedance   écart
+Autre                   0.00      0.42   +0.42
+point,                  0.62      0.78   +0.16
+le                      1.14      1.38   +0.24
+shampoing.              1.32         ?
+écart moyen +0.20 s, max 0.24 s, mots appariés 3/4

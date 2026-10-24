@@ -1,0 +1,15 @@
+mot voix off        voix off  seedance   écart
+Bonne                   0.00      0.00   +0.00
+nouvelle,               0.52      0.56   +0.04
+tu                      1.18      1.18   +0.00
+peux                    1.20      1.18   -0.02
+tout                    1.52      1.52   +0.00
+à                       1.68      1.68   +0.00
+fait                    1.84      1.84   +0.00
+favoriser               1.98      2.00   +0.02
+la                      2.46      2.46   +0.00
+repousse                2.66      2.66   +0.00
+à                       2.92      3.10   +0.18
+cet                     3.08      3.42   +0.34
+endroit.                3.20      3.56   +0.36
+écart moyen +0.08 s, max 0.36 s, mots appariés 13/13

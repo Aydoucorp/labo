@@ -67,5 +67,5 @@ page = f'''<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name
 </ul></div>
 {cards}
 </main>{script}</body></html>'''
-(R / "brolls-a-generer.html").write_text(page)
+(R / "1-brolls-tempes-commentaire.html").write_text(page)
 print("ok")
