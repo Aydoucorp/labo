@@ -90,7 +90,7 @@ text, ink: "Demande à doser ta ferritine et ta vitamine D. Chez les femmes qui 
 text, ink: "Toujours dilué, jamais pur. Test au pli du coude 48 heures avant. Pas d'huile essentielle si tu es enceinte, si tu allaites ou si tu es épileptique."
 - Card 2 title, plum: "Quand voir un dermatologue"
 text, ink: "Chute brutale ou par plaques, cuir chevelu rouge ou douloureux, fortes démangeaisons : prends rendez-vous."
-- Plum card #7A4351 with cream text: "Il pourra poser un vrai diagnostic, demander un bilan sanguin (fer, thyroïde, vitamine D) et te proposer un traitement validé, comme le minoxidil en lotion."
+- Plum card #7A4351 with cream text: "Il pourra poser un vrai diagnostic, demander un bilan sanguin (fer, thyroïde, vitamine D) et te proposer la solution adaptée à ta situation."
 
 ## Page 10 : Ton calendrier
 

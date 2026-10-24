@@ -35,3 +35,4 @@ Brand DNA respectée : aucun mot interdit (camoufler, miracle, stopper la chute�
 | 01 à 12 (`sorties/pages/NN-v1.png`) | GPT Image 2 (`gpt-image-2-text-to-image`) | 3:4, 1K, `prompts/pages/NN.txt`, `work/generer.sh 1K` | 72 cr (6 par page) | textes relus : aucune coquille. Page 06 sortie en 1008x1344 (autres en 1086x1448), titre un peu plus fin : relance proposée à l'utilisateur |
 
 PDF : `retenues/raie-elargie-web.pdf` (1,6 Mo) et `retenues/raie-elargie-hq.pdf` (4,8 Mo), script `work/assembler_pdf.py`.
+| 09 v2 (`sorties/pages/09-v2.png`) | GPT Image 2 | 3:4, 1K | 6 cr | demande de l'utilisateur : « on ne fait pas la promotion du minoxidil » ; fin de la carte prune remplacée par « te proposer la solution adaptée à ta situation ». Retenue |
