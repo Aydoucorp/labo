@@ -12,3 +12,10 @@ Clips : `wan/3-0-video` 480P 9:16, audio activé, @Image1 `retenues/cadrage.png`
 | 2026-10-24 | W7 | 8 s | 36f42b43767d1ff1121e32f95f75b5e6 | 128 cr | 33/33, retard de 0,25 à 0,38 s sur la fin | aucune p/b/m | recalage à 63,25 s (+0,3 s) |
 
 Total clips : 520 cr. Images : 7,6 cr. Total du run à ce stade : 527,6 cr (environ 2,64 $). Tenue et coiffure stables sur les 6 clips. Aperçus recalés : `sorties/apercus/`.
+
+## 2026-10-24 : B3, B4 reçus, B2d confié au studio
+- Reçus de l'utilisateur : 4 extraits d'une même vidéo TikTok pour B3 (texte retiré) et 1 vidéo microscope pour B4, copiés dans `rushes/recus/`.
+- B3 retenu : `b3-candidat-2.mp4` 0 à 4,0 s + `b3-candidat-1.mp4` 0 à 0,87 s (les autres moments montrent des flacons de marque : écartés). B4 : `b4-microscope.mp4` 0 à 4,85 s.
+- Aperçu avec la voix (26,88 à 36,60 s) : `montage/apercus/apercu-b3-b4.mp4`.
+- Origine (réel ou IA) des rushes reçus : à confirmer par l'utilisateur avant l'enregistrement en bibliothèque.
+- B2d (lunettes) : l'utilisateur demande que le studio le génère avec Nano Banana 2.1 (1K, 4 cr), entrée `retenues/cadrage.png`, prompt `prompts/image/B2d-lunettes-v1.txt`. En attente de la clé KIE (absente du conteneur).
