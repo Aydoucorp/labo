@@ -26,3 +26,8 @@ Total clips : 520 cr. Images : 7,6 cr. Total du run à ce stade : 527,6 cr (envi
 - Pillow système cassé après le redémarrage du conteneur : rendu fait avec un environnement Python temporaire (Pillow 13).
 - Option 3D : prompt texte seul `prompts/video/B6-3d-v1.txt` (buste 3D façon rendu médical sur fond prune, 6 s), ajouté en carte « B6-3D » dans `1-brolls-tempes-commentaire.html`.
 - Clé KIE : toujours absente (aucun `.env` dans le conteneur, rien dans les fichiers ignorés).
+
+## 2026-10-24 : B2d v1 (Nano Banana 2.1)
+- Clé KIE remise dans `.env` (ignoré par git) à partir de celle donnée par l'utilisateur. Solde avant : 67,1 cr.
+- `sorties/images/B2d-lunettes-v1.png` : Nano Banana 2.1, 1K, 9:16, entrée `retenues/cadrage.png`, prompt `prompts/image/B2d-lunettes-v1.txt`, 4 cr.
+- Défauts : cheveux poivre et sel (gris), front et bout du nez visibles en bas, lunettes posées vers l'arrière du crâne et non près de la ligne frontale. Non retenue ; relance soumise à l'accord de l'utilisateur.
