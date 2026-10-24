@@ -45,6 +45,25 @@ AVATAR = """INPUT: Image 1 is the woman: copy exactly her face, facial features,
 FORMAT: vertical 9:16, realistic smartphone photo, natural skin texture with visible pores, freckles and fine lines, no beauty filter, true-to-life colours."""
 FORBIDA = """FORBIDDEN: a different face or age; grey or blonde hair; text, logo, watermark, brand names; extra people; nudity (shoulders only); cartoon or illustration look; harsh flash; heavy makeup."""
 
+VIDB6 = f"""FORMAT: vertical 9:16, 6 seconds, one single continuous shot, no cuts.
+STYLE: scientific 3D medical animation, semi-realistic and premium, same render family as a medical explainer: a smooth 3D bust of a woman in her early forties, sculpted like a high-end anatomical display model, soft-matte skin #F3D5C5 with a gentle subsurface glow, calm neutral expression, eyes softly closed, long glossy dark-brown hair #3B2A22 pulled back into a low ponytail behind the neck, the bust ends at the collarbones in a soft fade into the background. Background: smooth dark plum gradient, #3A1E2B in the centre fading to #22101A at the edges, completely empty, no floor, no horizon.
+LIGHTING: one soft warm key light from the upper left, a thin warm rim light on the edges of the face and hair, gentle soft shadows, no harsh contrast, no lens flare.
+CAMERA (follow exactly):
+0.0 to 1.7 s: front view, static, 50 mm lens look. The bust is centred; the top of the head sits at 15 % of the frame height, the chin at 55 %; the lower 25 % of the frame is empty dark plum background (room for subtitles).
+1.7 to 2.3 s: one smooth push-in combined with a 30 degree orbit to her right, ending on a close-up of her right temple and front hairline, which fill 60 % of the frame width, the temple at 40 % of the frame height.
+2.3 to 3.5 s: static on this close-up.
+3.5 to 4.0 s: smooth pull-back to a three-quarter view of the head and neck (her right side toward camera), the temple at 38 % of the frame height.
+4.0 to 6.0 s: static.
+ACTION TIMELINE (follow exactly):
+0.0 to 0.6 s: healthy start: thick hair at both temples, firm face contour. A thin soft warm glowing line #C9805F runs along each side of the face from the temple down to the jaw, curving upward like a lifted contour.
+0.6 to 1.7 s: the hair at both temples slowly thins and recedes about 1 cm, the temples look slightly hollow, the outer cheek contour softens a few millimetres downward, and the two glowing lines slowly sink and flatten, then fade out.
+1.7 to 3.5 s (close-up): along the front hairline at the temple the hairs are sparse, thin and wispy, with the pale scalp visible between them. At 2.7 s two or three tiny fine hairs detach from the hairline and drift slowly down out of frame.
+3.5 to 5.3 s: a plain terracotta comb #A8553A with no logo glides on its own through the front hair, from the temple toward the back of the head (explainer style, no hand); the hair lifts behind the comb, then, as soon as the comb has passed, it falls flat back against the temple and the thin area shows again. At 4.7 s the comb passes a second time with exactly the same result.
+5.3 to 6.0 s: everything stays still.
+MUST STAY IDENTICAL FROM FIRST TO LAST FRAME: the bust, her face, the hair colour, the low ponytail, the colours, the lighting, the background.
+MESSAGE THAT MUST BE OBVIOUS WITHOUT SOUND: when the temples thin, the face looks less lifted, the front hairline looks fragile and the hair is harder to style.
+FORBIDDEN: any text, letter, number, label, arrow, icon, UI or watermark; hands or arms; a second person; a photographic real human (it must look like a 3D medical render); grey or white hair; open eyes staring at the camera; crying or exaggerated sad expression; blood; cartoon or flat 2D style; morphing or melting of the face; any change of background colour; camera shake; cuts or scene changes; any object other than the comb."""
+
 plans = [
  dict(id="B1", genre="Vidéo 3D, texte seul", t="7,75 à 13,30 s (5,6 s)", phrase="Ici, les follicules restent ancrés moins longtemps, donc tu vois plus de chute et des cheveux plus courts.",
   but="Un seul follicule : le cheveu se détache vite, le suivant repousse deux fois plus fin et plus court, et tombe encore plus tôt.", entree="Aucune : vidéo directement à partir du texte.", fichier="B1-ancrage-3d.mp4", vid=VIDB1),
@@ -110,6 +129,8 @@ ACTION TIMELINE:
 4.5 to 6.0 s: she puts the brush down, lets out a small sigh, shoulders drop slightly, discouraged.
 MUST STAY IDENTICAL: her face, hair colour, sweater, the bathroom, the light. She does not speak.
 FORBIDDEN: a different face; text, logo, brand names; extra people; cuts; zoom; the reflection not matching her movements."""),
+ dict(id="B6-3D", genre="Vidéo 3D, texte seul (à comparer au motion design)", t="44,30 à 49,60 s (5,3 s, générer 6 s)", phrase="Ton visage paraît moins lifté, ta ligne frontale paraît fragile, et te coiffer devient plus compliqué.",
+  but="Buste 3D sur fond prune : les tempes se dégarnissent et le contour du visage retombe, gros plan sur la ligne frontale clairsemée, un peigne passe et les cheveux retombent à plat.", entree="Aucune : vidéo directement à partir du texte.", fichier="B6-3d.mp4", vid=VIDB6),
 ]
 def bloc(titre, txt, k):
     return f'<div class="p"><div class="ph"><span>{titre}</span><button onclick="cp(\'{k}\',this)">Copier</button></div><pre id="{k}">{html.escape(txt)}</pre></div>'

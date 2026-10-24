@@ -19,3 +19,10 @@ Total clips : 520 cr. Images : 7,6 cr. Total du run à ce stade : 527,6 cr (envi
 - Aperçu avec la voix (26,88 à 36,60 s) : `montage/apercus/apercu-b3-b4.mp4`.
 - Origine (réel ou IA) des rushes reçus : à confirmer par l'utilisateur avant l'enregistrement en bibliothèque.
 - B2d (lunettes) : l'utilisateur demande que le studio le génère avec Nano Banana 2.1 (1K, 4 cr), entrée `retenues/cadrage.png`, prompt `prompts/image/B2d-lunettes-v1.txt`. En attente de la clé KIE (absente du conteneur).
+
+## 2026-10-24 : B6, motion design contre 3D
+- Demande : voir B6 en motion design et recevoir en même temps un prompt 3D, pour comparer.
+- Motion design : `work/motion_b6.py` (Pillow, gratuit) → `sorties/motion/B6-motion-v1.mp4` (5,30 s), aperçu avec la voix `montage/apercus/apercu-b6-motion.mp4`. Trois temps calés sur les mots : « lifté » 1,12 s (flèches de lift qui s'inversent, tempes qui reculent, coin de bouche qui retombe), « ligne frontale » 1,74 s (zoom, pointillés terracotta sur la ligne frontale, qui s'effritent sur « fragile » 2,69 s), « coiffer » 3,74 s (un peigne passe, les mèches se relèvent puis retombent, retour sur « compliqué » 4,68 s).
+- Pillow système cassé après le redémarrage du conteneur : rendu fait avec un environnement Python temporaire (Pillow 13).
+- Option 3D : prompt texte seul `prompts/video/B6-3d-v1.txt` (buste 3D façon rendu médical sur fond prune, 6 s), ajouté en carte « B6-3D » dans `1-brolls-tempes-commentaire.html`.
+- Clé KIE : toujours absente (aucun `.env` dans le conteneur, rien dans les fichiers ignorés).
