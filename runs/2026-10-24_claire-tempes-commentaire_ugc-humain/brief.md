@@ -22,4 +22,4 @@ Découpage : `decoupage.md`.
 | `sorties/profil-sylvie-a.png` | Z-Image | 1:1 | aucune | `prompts/image/profil-sylvie-a.txt` (déjeuner au jardin) | 0,8 cr | cc248eef97f617e17d9c3e4ee568c21a | à choisir |
 | `sorties/profil-sylvie-b.png` | Z-Image | 1:1 | aucune | `prompts/image/profil-sylvie-b.txt` (selfie en voiture) | 0,8 cr | e5be13dc2a6bd46a9383e3fb81346610 | à choisir |
 
-Bulle : `work/bulle.py` (TikTok Sans, mesures de `references/ref-bulle-frame.png` x2,011), texte « Jai perdu beaucoup de / cheveux partout sur ma têtes / et surtout sur mes tempes ».
+Bulle : `work/bulle.py` (TikTok Sans, mesures de `references/ref-bulle-frame.png` x2,011, placée plus haut à la demande de l'utilisateur : y=100 au lieu de 273, au-dessus de la tête), texte « Jai perdu beaucoup de / cheveux partout sur ma têtes / et surtout sur mes tempes ».
